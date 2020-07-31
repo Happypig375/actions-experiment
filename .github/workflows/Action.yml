@@ -9,7 +9,7 @@ jobs:
       uses: ashley-taylor/regex-property-action@v1.0
       with:
         value: ${{ '1\n2' }}
-        regex: ".*"
-        replacement: "$1"
+        regex: (.*)
+        replacement: $1
     - name: branch
       run: echo "${{ steps.regexreplace.outputs.value }}"
