@@ -8,8 +8,10 @@ jobs:
       id: regexreplace
       uses: ashley-taylor/regex-property-action@v1.0
       with:
-        value: ${{ '1
-          2' }}
+        value: |
+          1
+          2
+          3
         regex: (.*)
         replacement: $1
     - name: branch
