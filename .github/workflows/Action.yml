@@ -1,0 +1,15 @@
+on: push
+
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Name of branch
+      id: regexreplace
+      uses: ashley-taylor/regex-property-action@v1.0
+      with:
+        value: ${{ '1\n2' }}
+        regex: ".*"
+        replacement: "$1"
+    - name: branch
+      run: echo "${{ steps.regexreplace.outputs.value }}"
