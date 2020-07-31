@@ -16,5 +16,6 @@ jobs:
         text: |
           1'2
           2'3
+          2\"34231
           4'5
-      run: echo '${{ steps.regexreplace.outputs.value }}'
+      run: echo "$text"
