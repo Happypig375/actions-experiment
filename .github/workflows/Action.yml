@@ -9,10 +9,12 @@ jobs:
       uses: ashley-taylor/regex-property-action@v1.0
       with:
         value: |
-          1'2
-          2'3
-          4'5
         regex: "'"
         replacement: "'\"'\"'"
     - name: branch
+      env:
+        text: |
+          1'2
+          2'3
+          4'5
       run: echo '${{ steps.regexreplace.outputs.value }}'
