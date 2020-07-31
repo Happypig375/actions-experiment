@@ -11,6 +11,6 @@ jobs:
         value: |
           1'2
         regex: "'"
-        replacement: "'+\"'\"+'"
+        replacement: "'\"'\"'"
     - name: branch
       run: echo '${{ steps.regexreplace.outputs.value }}'
