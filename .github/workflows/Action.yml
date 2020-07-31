@@ -7,15 +7,18 @@ jobs:
     - name: Name of branch
       id: regexreplace
       uses: ashley-taylor/regex-property-action@v1.0
+      env:
+        a: |
+          1
+          2
+          3
+          4
+          5
       with:
-        value: |
+        value: ${{ env.a }}
         regex: "'"
         replacement: "'\"'\"'"
     - name: branch
       env:
-        text: |
-          1'2
-          2'3
-          2\"34231
-          4'5
+        text: ${{ steps.regexreplace.outputs.value }}
       run: echo "$text"
