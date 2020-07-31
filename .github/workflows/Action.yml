@@ -9,8 +9,8 @@ jobs:
       uses: ashley-taylor/regex-property-action@v1.0
       with:
         value: |
-          1""2
-        regex: (.*)
-        replacement: $1
+          1'2
+        regex: "'"
+        replacement: "'+\"'\"+'"
     - name: branch
-      run: echo "${{ steps.regexreplace.outputs.value }}"
+      run: echo '${{ steps.regexreplace.outputs.value }}'
