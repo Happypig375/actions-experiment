@@ -1,0 +1,789 @@
+name: Important update outage recovery
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/important-update-outage-recovery.yml'
+      - '.github/scripts/publish_generated_snapshot.py'
+  schedule:
+    - cron: '59 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: important-update-outage-recovery
+  cancel-in-progress: true
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Collect outage-aware recovery batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p hot/views
+          python - <<'PY'
+          import datetime as dt
+          import email.utils
+          import html
+          import json
+          import os
+          import pathlib
+          import re
+          import subprocess
+          import urllib.parse
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          now = dt.datetime.now(dt.timezone.utc)
+          overlap = dt.timedelta(minutes=15)
+          ordinary_overlap = dt.timedelta(hours=2)
+          max_lookback = dt.timedelta(days=7)
+          backlog_threshold_seconds = 2 * 60 * 60
+          token = os.environ.get('GH_TOKEN', '')
+          user_agent = 'Happypig375-public-info-aggregators-recovery/1.0'
+
+          def iso(value):
+              return value.astimezone(dt.timezone.utc).isoformat().replace('+00:00', 'Z')
+
+          def parse_time(value):
+              if not value:
+                  return None
+              try:
+                  parsed = dt.datetime.fromisoformat(str(value).replace('Z', '+00:00'))
+                  if parsed.tzinfo is None:
+                      parsed = parsed.replace(tzinfo=dt.timezone.utc)
+                  return parsed.astimezone(dt.timezone.utc)
+              except Exception:
+                  pass
+              try:
+                  parsed = email.utils.parsedate_to_datetime(str(value))
+                  if parsed.tzinfo is None:
+                      parsed = parsed.replace(tzinfo=dt.timezone.utc)
+                  return parsed.astimezone(dt.timezone.utc)
+              except Exception:
+                  return None
+
+          def strip_markup(value):
+              value = re.sub(r'<br\s*/?>', '\n', value or '', flags=re.I)
+              value = re.sub(r'</p\s*>', '\n', value, flags=re.I)
+              return html.unescape(re.sub(r'<[^>]+>', '', value)).strip()
+
+          def http_get(url, accept='*/*', auth=False):
+              headers = {'User-Agent': user_agent, 'Accept': accept}
+              if auth and token:
+                  headers['Authorization'] = f'Bearer {token}'
+                  headers['X-GitHub-Api-Version'] = '2022-11-28'
+              request = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return response.read(), response.headers
+
+          def github_page(path, params):
+              query = urllib.parse.urlencode(params)
+              body, _ = http_get(
+                  'https://api.github.com' + path + '?' + query,
+                  'application/vnd.github+json',
+                  True,
+              )
+              return json.loads(body)
+
+          def github_pages(path, params, time_field=None, since=None, max_pages=10):
+              output = []
+              hit_cap = False
+              for page in range(1, max_pages + 1):
+                  page_params = dict(params)
+                  page_params['per_page'] = 100
+                  page_params['page'] = page
+                  values = github_page(path, page_params)
+                  if isinstance(values, dict):
+                      values = values.get('workflow_runs') or []
+                  if not values:
+                      break
+                  output.extend(values)
+                  if len(values) < 100:
+                      break
+                  if time_field and since:
+                      stamps = [parse_time(item.get(time_field)) for item in values]
+                      stamps = [stamp for stamp in stamps if stamp]
+                      if stamps and min(stamps) < since:
+                          break
+                  if page == max_pages:
+                      hit_cap = True
+              return output, hit_cap
+
+          state = {'schema_version': 1, 'sources': {}}
+          try:
+              subprocess.run(
+                  [
+                      'git',
+                      'fetch',
+                      '--quiet',
+                      'origin',
+                      'chatgpt-important-update-recovery-state',
+                  ],
+                  check=True,
+                  stdout=subprocess.DEVNULL,
+                  stderr=subprocess.DEVNULL,
+              )
+              state = json.loads(
+                  subprocess.check_output(
+                      ['git', 'show', 'FETCH_HEAD:state.json'], text=True
+                  )
+              )
+              if not isinstance(state.get('sources'), dict):
+                  state['sources'] = {}
+          except Exception:
+              pass
+
+          def window_for(key):
+              old = state['sources'].get(key) or {}
+              last = parse_time(old.get('last_success_at'))
+              bootstrap = last is None
+              if bootstrap:
+                  last = now - ordinary_overlap
+              gap_seconds = max(0, int((now - last).total_seconds()))
+              requested_since = last - overlap
+              capped = requested_since < now - max_lookback
+              since = max(requested_since, now - max_lookback)
+              return {
+                  'last': last,
+                  'since': since,
+                  'bootstrap': bootstrap,
+                  'gap_seconds': gap_seconds,
+                  'backlog': (not bootstrap)
+                  and gap_seconds > backlog_threshold_seconds,
+                  'lookback_capped': capped,
+              }
+
+          source_meta = []
+          new_state = json.loads(json.dumps(state))
+          new_state['schema_version'] = 1
+          new_state['generated_at'] = iso(now)
+          new_state.setdefault('sources', {})
+
+          def finish_source(
+              key,
+              name,
+              view_path,
+              window,
+              status,
+              items,
+              errors,
+              coverage_complete,
+              extra=None,
+          ):
+              meta = {
+                  'key': key,
+                  'name': name,
+                  'view_path': view_path,
+                  'status': status,
+                  'previous_success_at': iso(window['last']),
+                  'recovery_since': iso(window['since']),
+                  'gap_seconds': window['gap_seconds'],
+                  'backlog': window['backlog'],
+                  'bootstrap': window['bootstrap'],
+                  'lookback_capped': window['lookback_capped'],
+                  'coverage_complete': bool(
+                      coverage_complete and not window['lookback_capped']
+                  ),
+                  'candidate_count': len(items),
+                  'errors': errors,
+              }
+              if extra:
+                  meta.update(extra)
+              source_meta.append(meta)
+              if status == 'ok':
+                  new_state['sources'][key] = {'last_success_at': iso(now)}
+              else:
+                  new_state['sources'].setdefault(
+                      key, {'last_success_at': iso(window['last'])}
+                  )
+
+          def collect_repo(key, full_name):
+              window = window_for(key)
+              owner, repository = full_name.split('/', 1)
+              errors = []
+              events = []
+              complete = True
+              try:
+                  metadata = github_page(f'/repos/{owner}/{repository}', {})
+                  branch = metadata.get('default_branch') or 'master'
+
+                  commits, capped = github_pages(
+                      f'/repos/{owner}/{repository}/commits',
+                      {'sha': branch, 'since': iso(window['since'])},
+                      since=window['since'],
+                      max_pages=10,
+                  )
+                  complete &= not capped
+                  for commit in commits:
+                      stamp = parse_time(
+                          (((commit.get('commit') or {}).get('author') or {}).get('date'))
+                      )
+                      if stamp and stamp >= window['since']:
+                          events.append(
+                              {
+                                  'type': 'commit',
+                                  'timestamp': iso(stamp),
+                                  'sha': commit.get('sha'),
+                                  'title': (
+                                      ((commit.get('commit') or {}).get('message') or '')
+                                      .split('\n', 1)[0]
+                                  ),
+                                  'url': commit.get('html_url'),
+                              }
+                          )
+
+                  issues, capped = github_pages(
+                      f'/repos/{owner}/{repository}/issues',
+                      {
+                          'state': 'all',
+                          'sort': 'updated',
+                          'direction': 'desc',
+                          'since': iso(window['since']),
+                      },
+                      time_field='updated_at',
+                      since=window['since'],
+                      max_pages=10,
+                  )
+                  complete &= not capped
+                  for issue in issues:
+                      stamp = parse_time(issue.get('updated_at'))
+                      if (
+                          stamp
+                          and stamp >= window['since']
+                          and not issue.get('pull_request')
+                      ):
+                          events.append(
+                              {
+                                  'type': 'issue',
+                                  'timestamp': iso(stamp),
+                                  'number': issue.get('number'),
+                                  'title': issue.get('title'),
+                                  'state': issue.get('state'),
+                                  'comments': issue.get('comments'),
+                                  'url': issue.get('html_url'),
+                              }
+                          )
+
+                  pulls, capped = github_pages(
+                      f'/repos/{owner}/{repository}/pulls',
+                      {'state': 'all', 'sort': 'updated', 'direction': 'desc'},
+                      time_field='updated_at',
+                      since=window['since'],
+                      max_pages=10,
+                  )
+                  complete &= not capped
+                  for pull in pulls:
+                      stamp = parse_time(pull.get('updated_at'))
+                      if stamp and stamp >= window['since']:
+                          events.append(
+                              {
+                                  'type': 'pull_request',
+                                  'timestamp': iso(stamp),
+                                  'number': pull.get('number'),
+                                  'title': pull.get('title'),
+                                  'state': pull.get('state'),
+                                  'merged_at': pull.get('merged_at'),
+                                  'draft': pull.get('draft'),
+                                  'url': pull.get('html_url'),
+                              }
+                          )
+
+                  releases, capped = github_pages(
+                      f'/repos/{owner}/{repository}/releases',
+                      {},
+                      time_field='published_at',
+                      since=window['since'],
+                      max_pages=5,
+                  )
+                  complete &= not capped
+                  for release in releases:
+                      stamp = parse_time(
+                          release.get('published_at') or release.get('created_at')
+                      )
+                      if stamp and stamp >= window['since']:
+                          events.append(
+                              {
+                                  'type': 'release',
+                                  'timestamp': iso(stamp),
+                                  'tag': release.get('tag_name'),
+                                  'title': release.get('name')
+                                  or release.get('tag_name'),
+                                  'prerelease': release.get('prerelease'),
+                                  'url': release.get('html_url'),
+                              }
+                          )
+
+                  runs, capped = github_pages(
+                      f'/repos/{owner}/{repository}/actions/runs',
+                      {},
+                      time_field='updated_at',
+                      since=window['since'],
+                      max_pages=10,
+                  )
+                  complete &= not capped
+                  for run in runs:
+                      stamp = parse_time(
+                          run.get('updated_at') or run.get('created_at')
+                      )
+                      if stamp and stamp >= window['since']:
+                          events.append(
+                              {
+                                  'type': 'workflow_run',
+                                  'timestamp': iso(stamp),
+                                  'id': run.get('id'),
+                                  'title': run.get('name'),
+                                  'status': run.get('status'),
+                                  'conclusion': run.get('conclusion'),
+                                  'head_branch': run.get('head_branch'),
+                                  'head_sha': run.get('head_sha'),
+                                  'url': run.get('html_url'),
+                              }
+                          )
+
+                  events.sort(
+                      key=lambda event: parse_time(event.get('timestamp'))
+                      or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+                      reverse=True,
+                  )
+                  if len(events) > 500:
+                      events = events[:500]
+                      complete = False
+                  status = 'ok'
+              except Exception as exc:
+                  errors.append(str(exc))
+                  status = 'error'
+                  complete = False
+
+              pathlib.Path(f'hot/views/{key}.json').write_text(
+                  json.dumps(
+                      {
+                          'schema_version': 1,
+                          'generated_at': iso(now),
+                          'source': full_name,
+                          'recovery_since': iso(window['since']),
+                          'backlog': window['backlog'],
+                          'coverage_complete': bool(
+                              complete and not window['lookback_capped']
+                          ),
+                          'events': events,
+                          'errors': errors,
+                      },
+                      indent=2,
+                  ),
+                  encoding='utf-8',
+              )
+              finish_source(
+                  key,
+                  full_name,
+                  f'views/{key}.json',
+                  window,
+                  status,
+                  events,
+                  errors,
+                  complete,
+              )
+
+          collect_repo('nu', 'bryanedds/Nu')
+          collect_repo('angourimath', 'asc-community/AngouriMath')
+
+          window = window_for('reddit')
+          reddit_items = []
+          reddit_errors = []
+          reddit_complete = True
+          try:
+              body, _ = http_get(
+                  'https://www.reddit.com/r/codex/new/.rss?limit=100',
+                  'application/atom+xml, application/xml, text/xml',
+              )
+              root = ET.fromstring(body)
+              namespace = {'a': 'http://www.w3.org/2005/Atom'}
+              fetched_times = []
+              for entry in root.findall('a:entry', namespace):
+                  published = entry.findtext(
+                      'a:published', default='', namespaces=namespace
+                  ) or entry.findtext(
+                      'a:updated', default='', namespaces=namespace
+                  )
+                  stamp = parse_time(published)
+                  if stamp:
+                      fetched_times.append(stamp)
+                  if not stamp or stamp < window['since']:
+                      continue
+                  content = entry.findtext(
+                      'a:content', default='', namespaces=namespace
+                  ) or ''
+                  link = next(
+                      (
+                          item.attrib.get('href')
+                          for item in entry.findall('a:link', namespace)
+                          if item.attrib.get('href')
+                      ),
+                      None,
+                  )
+                  media = []
+                  for pattern in [
+                      r'<img[^>]+src=["\']([^"\']+)',
+                      r'<a[^>]+href=["\']([^"\']+)',
+                  ]:
+                      for value in re.findall(pattern, content, flags=re.I):
+                          value = html.unescape(value)
+                          if any(
+                              host in value.lower()
+                              for host in (
+                                  'i.redd.it',
+                                  'preview.redd.it',
+                                  'external-preview.redd.it',
+                                  'redditmedia.com',
+                              )
+                          ) and value not in media:
+                              media.append(value)
+                  reddit_items.append(
+                      {
+                          'type': 'reddit_post',
+                          'id': entry.findtext(
+                              'a:id', default='', namespaces=namespace
+                          ),
+                          'timestamp': iso(stamp),
+                          'title': entry.findtext(
+                              'a:title', default='', namespaces=namespace
+                          ),
+                          'author': entry.findtext(
+                              'a:author/a:name',
+                              default='',
+                              namespaces=namespace,
+                          ),
+                          'url': link,
+                          'excerpt': strip_markup(content)[:1200],
+                          'media_urls': media[:3],
+                      }
+                  )
+              if fetched_times and min(fetched_times) > window['since']:
+                  reddit_complete = False
+              reddit_items.sort(
+                  key=lambda item: parse_time(item.get('timestamp'))
+                  or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+                  reverse=True,
+              )
+              status = 'ok'
+          except Exception as exc:
+              reddit_errors.append(str(exc))
+              status = 'error'
+              reddit_complete = False
+
+          pathlib.Path('hot/views/reddit.json').write_text(
+              json.dumps(
+                  {
+                      'schema_version': 1,
+                      'generated_at': iso(now),
+                      'source': 'r/codex',
+                      'recovery_since': iso(window['since']),
+                      'backlog': window['backlog'],
+                      'coverage_complete': bool(
+                          reddit_complete and not window['lookback_capped']
+                      ),
+                      'items': reddit_items,
+                      'errors': reddit_errors,
+                  },
+                  indent=2,
+              ),
+              encoding='utf-8',
+          )
+          finish_source(
+              'reddit',
+              'r/codex',
+              'views/reddit.json',
+              window,
+              status,
+              reddit_items,
+              reddit_errors,
+              reddit_complete,
+          )
+
+          window = window_for('tibo')
+          tibo_items = []
+          tibo_errors = []
+          tibo_complete = True
+          tibo_mode = 'unavailable'
+          tibo_sources = [
+              ('fxtwitter', 'https://fxtwitter.com/thsottiaux/feed.xml'),
+              ('rsshub-chyi', 'https://rsshub.chyi.org/twitter/user/thsottiaux'),
+              ('rsshub-olivetint', 'https://rsshub.olivetint.com/twitter/user/thsottiaux'),
+          ]
+          fetched_all = []
+          try:
+              for label, url in tibo_sources:
+                  try:
+                      body, _ = http_get(
+                          url,
+                          'application/rss+xml, application/atom+xml, application/xml, text/xml',
+                      )
+                      root = ET.fromstring(body)
+                      candidates = []
+                      for item in root.findall('.//item'):
+                          published = (
+                              item.findtext('pubDate')
+                              or item.findtext(
+                                  '{http://purl.org/dc/elements/1.1/}date'
+                              )
+                              or ''
+                          )
+                          stamp = parse_time(published)
+                          text = strip_markup(
+                              item.findtext('description')
+                              or item.findtext('title')
+                              or ''
+                          )
+                          candidates.append(
+                              (
+                                  stamp,
+                                  {
+                                      'timestamp': iso(stamp)
+                                      if stamp
+                                      else published,
+                                      'text': text,
+                                      'url': item.findtext('link')
+                                      or item.findtext('guid')
+                                      or '',
+                                  },
+                              )
+                          )
+                      namespace = {'a': 'http://www.w3.org/2005/Atom'}
+                      for entry in root.findall('.//a:entry', namespace):
+                          published = entry.findtext(
+                              'a:published', default='', namespaces=namespace
+                          ) or entry.findtext(
+                              'a:updated', default='', namespaces=namespace
+                          )
+                          stamp = parse_time(published)
+                          content = entry.findtext(
+                              'a:content', default='', namespaces=namespace
+                          ) or entry.findtext(
+                              'a:summary', default='', namespaces=namespace
+                          ) or entry.findtext(
+                              'a:title', default='', namespaces=namespace
+                          )
+                          link = next(
+                              (
+                                  item.attrib.get('href')
+                                  for item in entry.findall('a:link', namespace)
+                                  if item.attrib.get('href')
+                              ),
+                              '',
+                          )
+                          candidates.append(
+                              (
+                                  stamp,
+                                  {
+                                      'timestamp': iso(stamp)
+                                      if stamp
+                                      else published,
+                                      'text': strip_markup(content),
+                                      'url': link,
+                                  },
+                              )
+                          )
+                      if not candidates:
+                          raise RuntimeError('feed contained no entries')
+                      fetched_all = candidates
+                      tibo_mode = label
+                      break
+                  except Exception as exc:
+                      tibo_errors.append(f'{label}: {exc}')
+              if not fetched_all:
+                  raise RuntimeError('all Tibo feed mirrors failed')
+              stamps = [stamp for stamp, _ in fetched_all if stamp]
+              if stamps and min(stamps) > window['since']:
+                  tibo_complete = False
+              for stamp, item in fetched_all:
+                  if stamp and stamp >= window['since']:
+                      item['source_handle'] = '@thsottiaux'
+                      tibo_items.append(item)
+              tibo_items.sort(
+                  key=lambda item: parse_time(item.get('timestamp'))
+                  or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+                  reverse=True,
+              )
+              status = 'ok'
+          except Exception as exc:
+              tibo_errors.append(str(exc))
+              status = 'error'
+              tibo_complete = False
+
+          pathlib.Path('hot/views/tibo.json').write_text(
+              json.dumps(
+                  {
+                      'schema_version': 1,
+                      'generated_at': iso(now),
+                      'source': '@thsottiaux',
+                      'acquisition_mode': tibo_mode,
+                      'recovery_since': iso(window['since']),
+                      'backlog': window['backlog'],
+                      'coverage_complete': bool(
+                          tibo_complete and not window['lookback_capped']
+                      ),
+                      'items': tibo_items,
+                      'errors': tibo_errors,
+                  },
+                  indent=2,
+              ),
+              encoding='utf-8',
+          )
+          finish_source(
+              'tibo',
+              '@thsottiaux',
+              'views/tibo.json',
+              window,
+              status,
+              tibo_items,
+              tibo_errors,
+              tibo_complete,
+              {'acquisition_mode': tibo_mode},
+          )
+
+          window = window_for('codex_resets')
+          reset_items = []
+          reset_errors = []
+          reset_complete = True
+          try:
+              body, _ = http_get(
+                  'https://t.me/s/codex_resets', 'text/html'
+              )
+              page = body.decode('utf-8', 'replace')
+              fetched_times = []
+              for chunk in re.split(
+                  r'(?=<div class="tgme_widget_message[^>]*data-post="codex_resets/)',
+                  page,
+              ):
+                  message_id = re.search(
+                      r'data-post="(codex_resets/\d+)"', chunk
+                  )
+                  if not message_id:
+                      continue
+                  timestamp_match = re.search(
+                      r'<time[^>]+datetime="([^"]+)"', chunk
+                  )
+                  stamp = parse_time(
+                      timestamp_match.group(1) if timestamp_match else None
+                  )
+                  if stamp:
+                      fetched_times.append(stamp)
+                  if not stamp or stamp < window['since']:
+                      continue
+                  text_match = re.search(
+                      r'<div class="tgme_widget_message_text[^>]*>(.*?)</div>',
+                      chunk,
+                      flags=re.S,
+                  )
+                  text = strip_markup(text_match.group(1)) if text_match else ''
+                  links = []
+                  for href in re.findall(r'href="([^"]+)"', chunk):
+                      href = html.unescape(href)
+                      if href.startswith('http') and href not in links:
+                          links.append(href)
+                  reset_items.append(
+                      {
+                          'type': 'codex_reset_message',
+                          'id': message_id.group(1),
+                          'timestamp': iso(stamp),
+                          'text': text[:4000],
+                          'url': 'https://t.me/' + message_id.group(1),
+                          'links': links[:20],
+                      }
+                  )
+              if fetched_times and min(fetched_times) > window['since']:
+                  reset_complete = False
+              reset_items.sort(
+                  key=lambda item: parse_time(item.get('timestamp'))
+                  or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+                  reverse=True,
+              )
+              status = 'ok'
+          except Exception as exc:
+              reset_errors.append(str(exc))
+              status = 'error'
+              reset_complete = False
+
+          pathlib.Path('hot/views/codex_resets.json').write_text(
+              json.dumps(
+                  {
+                      'schema_version': 1,
+                      'generated_at': iso(now),
+                      'source': '@codex_resets',
+                      'recovery_since': iso(window['since']),
+                      'backlog': window['backlog'],
+                      'coverage_complete': bool(
+                          reset_complete and not window['lookback_capped']
+                      ),
+                      'items': reset_items,
+                      'errors': reset_errors,
+                  },
+                  indent=2,
+              ),
+              encoding='utf-8',
+          )
+          finish_source(
+              'codex_resets',
+              '@codex_resets',
+              'views/codex_resets.json',
+              window,
+              status,
+              reset_items,
+              reset_errors,
+              reset_complete,
+          )
+
+          index = {
+              'schema_version': 1,
+              'purpose': 'Outage-aware recovery batches for Important Update Watch',
+              'generated_at': iso(now),
+              'fresh_for_seconds': 4500,
+              'has_backlog': any(item.get('backlog') for item in source_meta),
+              'has_incomplete_coverage': any(
+                  item.get('backlog') and not item.get('coverage_complete')
+                  for item in source_meta
+              ),
+              'sources': source_meta,
+          }
+          pathlib.Path('hot/index.json').write_text(
+              json.dumps(index, indent=2), encoding='utf-8'
+          )
+          pathlib.Path('/tmp/important-update-recovery-state.json').write_text(
+              json.dumps(new_state, indent=2), encoding='utf-8'
+          )
+          PY
+
+      - name: Publish recovery batch monotonically, then advance cursors
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/important-update-recovery-state
+          mkdir -p /tmp/important-update-recovery-state
+          cp /tmp/important-update-recovery-state.json /tmp/important-update-recovery-state/state.json
+
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir hot \
+            --branch chatgpt-important-update-backlog-feed \
+            --metadata-file index.json \
+            --timestamp-field generated_at \
+            --message 'Refresh important update recovery batch'
+
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir /tmp/important-update-recovery-state \
+            --branch chatgpt-important-update-recovery-state \
+            --metadata-file state.json \
+            --timestamp-field generated_at \
+            --message 'Advance important update recovery cursors'
