@@ -131,6 +131,11 @@ jobs:
                   f"{match.group('indent')}),"
               ),
           )
+          replace_once(
+              writer_path,
+              r"attributes\.Select\(attribute =>\s*\n[ \t]*FormatMetadataAttribute\(attribute\.Name, attribute\.Value\)\s*\n[ \t]*\)",
+              "attributes.Select(attribute => FormatMetadataAttribute(attribute.Name, attribute.Value))",
+          )
 
           content_specs_path = root / "DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs"
           replace_once(
