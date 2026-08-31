@@ -109,17 +109,27 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import re
 
           root = Path("source")
 
           def replace_exact(relative_path: str, old: str, new: str, expected_count: int = 1) -> None:
               path = root / relative_path
               text = path.read_text()
-              if text.count(old) != expected_count:
+              actual_count = text.count(old)
+              if actual_count != expected_count:
                   raise SystemExit(
-                      f"Expected {expected_count} occurrence(s) in {relative_path}, found {text.count(old)}"
+                      f"Expected {expected_count} occurrence(s) in {relative_path}, found {actual_count}"
                   )
               path.write_text(text.replace(old, new))
+
+          def replace_once(relative_path: str, pattern: str, replacement) -> None:
+              path = root / relative_path
+              text = path.read_text()
+              updated, count = re.subn(pattern, replacement, text, count=1, flags=re.MULTILINE)
+              if count != 1:
+                  raise SystemExit(f"Could not locate refinement target in {relative_path}")
+              path.write_text(updated)
 
           replace_exact(
               "DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs",
@@ -145,40 +155,36 @@ jobs:
               expected_count=2,
           )
 
-          replace_exact(
+          replace_once(
               "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs",
-              """    [ObservableProperty]
-              public partial ExportFormat SelectedFormat { get; set; }
-              """,
-              """    [ObservableProperty]
-              [NotifyPropertyChangedFor(nameof(IsMachineMetadataAvailable))]
-              public partial ExportFormat SelectedFormat { get; set; }
-              """,
+              r"^(?P<indent>[ \t]*)\[ObservableProperty\]\n(?P=indent)public partial ExportFormat SelectedFormat \{ get; set; \}$",
+              lambda match: (
+                  f"{match.group('indent')}[ObservableProperty]\n"
+                  f"{match.group('indent')}[NotifyPropertyChangedFor(nameof(IsMachineMetadataAvailable))]\n"
+                  f"{match.group('indent')}public partial ExportFormat SelectedFormat {{ get; set; }}"
+              ),
           )
-          replace_exact(
+          replace_once(
               "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs",
-              """    public bool IsSingleChannel => Channels?.Count == 1;
-              """,
-              """    public bool IsSingleChannel => Channels?.Count == 1;
-
-              public bool IsMachineMetadataAvailable =>
-                  SelectedFormat is ExportFormat.HtmlDark or ExportFormat.HtmlLight;
-              """,
+              r"^(?P<indent>[ \t]*)public bool IsSingleChannel => Channels\?\.Count == 1;$",
+              lambda match: (
+                  f"{match.group('indent')}public bool IsSingleChannel => Channels?.Count == 1;\n\n"
+                  f"{match.group('indent')}public bool IsMachineMetadataAvailable =>\n"
+                  f"{match.group('indent')}    SelectedFormat is ExportFormat.HtmlDark or ExportFormat.HtmlLight;"
+              ),
           )
 
-          replace_exact(
+          replace_once(
               "DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml",
-              """            <DockPanel
-                LastChildFill="False"
-                ToolTip.Tip="{Binding LocalizationManager.MachineMetadataTooltip}"
-              >
-              """,
-              """            <DockPanel
-                IsVisible="{Binding IsMachineMetadataAvailable}"
-                LastChildFill="False"
-                ToolTip.Tip="{Binding LocalizationManager.MachineMetadataTooltip}"
-              >
-              """,
+              r'^(?P<indent>[ \t]*)<DockPanel\n'
+              r'(?P=indent)  LastChildFill="False"\n'
+              r'(?P=indent)  ToolTip\.Tip="\{Binding LocalizationManager\.MachineMetadataTooltip\}"$',
+              lambda match: (
+                  f'{match.group("indent")}<DockPanel\n'
+                  f'{match.group("indent")}  IsVisible="{{Binding IsMachineMetadataAvailable}}"\n'
+                  f'{match.group("indent")}  LastChildFill="False"\n'
+                  f'{match.group("indent")}  ToolTip.Tip="{{Binding LocalizationManager.MachineMetadataTooltip}}"'
+              ),
           )
           PY
 
