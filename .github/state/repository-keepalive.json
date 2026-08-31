@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "purpose": "Default-branch activity marker for GitHub's public scheduled-workflow inactivity rule",
+  "committed_at": "2026-08-31T14:26:34.944496Z",
+  "repository": "Happypig375/actions-experiment",
+  "threshold_days": 28,
+  "trigger": "push"
+}
