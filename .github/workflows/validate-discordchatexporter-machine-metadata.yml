@@ -105,6 +105,85 @@ jobs:
 
           git -C source diff --check
 
+      - name: Refine metadata behavior
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path("source")
+
+          def replace_exact(relative_path: str, old: str, new: str, expected_count: int = 1) -> None:
+              path = root / relative_path
+              text = path.read_text()
+              if text.count(old) != expected_count:
+                  raise SystemExit(
+                      f"Expected {expected_count} occurrence(s) in {relative_path}, found {text.count(old)}"
+                  )
+              path.write_text(text.replace(old, new))
+
+          replace_exact(
+              "DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs",
+              'Description = "Include machine-readable metadata in HTML exports."',
+              'Description = "Include machine-readable metadata in HTML exports (enabled by default)."',
+          )
+
+          replace_exact(
+              "DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs",
+              '"data-metadata-version"',
+              '"data-machine-metadata-version"',
+          )
+          replace_exact(
+              "DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs",
+              '("data-guild-id", Context.Request.Guild.Id),',
+              '("data-guild-id", Context.Request.Guild.IsDirect ? null : Context.Request.Guild.Id),',
+          )
+
+          replace_exact(
+              "DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs",
+              '"data-metadata-version"',
+              '"data-machine-metadata-version"',
+              expected_count=2,
+          )
+
+          replace_exact(
+              "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs",
+              """    [ObservableProperty]
+              public partial ExportFormat SelectedFormat { get; set; }
+              """,
+              """    [ObservableProperty]
+              [NotifyPropertyChangedFor(nameof(IsMachineMetadataAvailable))]
+              public partial ExportFormat SelectedFormat { get; set; }
+              """,
+          )
+          replace_exact(
+              "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs",
+              """    public bool IsSingleChannel => Channels?.Count == 1;
+              """,
+              """    public bool IsSingleChannel => Channels?.Count == 1;
+
+              public bool IsMachineMetadataAvailable =>
+                  SelectedFormat is ExportFormat.HtmlDark or ExportFormat.HtmlLight;
+              """,
+          )
+
+          replace_exact(
+              "DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml",
+              """            <DockPanel
+                LastChildFill="False"
+                ToolTip.Tip="{Binding LocalizationManager.MachineMetadataTooltip}"
+              >
+              """,
+              """            <DockPanel
+                IsVisible="{Binding IsMachineMetadataAvailable}"
+                LastChildFill="False"
+                ToolTip.Tip="{Binding LocalizationManager.MachineMetadataTooltip}"
+              >
+              """,
+          )
+          PY
+
+          git -C source diff --check
+
       - name: Format
         working-directory: source
         run: |
