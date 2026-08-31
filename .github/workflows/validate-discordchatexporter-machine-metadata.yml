@@ -94,15 +94,9 @@ jobs:
 
           path = root / "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs"
           text = path.read_text()
-          old = """            || ShouldReuseAssets
-              || !string.IsNullOrWhiteSpace(AssetsDirPath)
-              || IsReverseMessageOrder;
-          """
-          new = """            || ShouldReuseAssets
-              || !string.IsNullOrWhiteSpace(AssetsDirPath)
-              || IsReverseMessageOrder
-              || !ShouldIncludeMachineMetadata;
-          """
+          old = "            || IsReverseMessageOrder;"
+          new = """            || IsReverseMessageOrder
+              || !ShouldIncludeMachineMetadata;"""
           if text.count(old) != 1:
               raise SystemExit("Could not locate the advanced-options preference block")
 
