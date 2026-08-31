@@ -110,7 +110,7 @@ jobs:
         run: |
           dotnet tool install csharpier --tool-path "$RUNNER_TEMP/csharpier" --version 1.3.0
           export PATH="$RUNNER_TEMP/csharpier:$PATH"
-          dotnet csharpier format .
+          csharpier format .
           git diff --check
 
       - name: Build
