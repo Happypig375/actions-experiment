@@ -1,0 +1,75 @@
+name: Important update feed watchdog
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/scripts/important_update_feed_watchdog.py'
+      - '.github/scripts/publish_generated_snapshot.py'
+      - '.github/scripts/test_feed_reliability.py'
+      - '.github/workflows/important-update-feed-watchdog.yml'
+      - '.github/workflows/important-update-github-feed.yml'
+      - '.github/workflows/important-update-public-feed.yml'
+      - '.github/workflows/important-update-tibo-feed.yml'
+      - '.github/workflows/important-update-reddit-media-feed.yml'
+      - '.github/workflows/important-update-outage-recovery.yml'
+  workflow_run:
+    workflows:
+      - Important update GitHub feed
+      - Important update public feed
+      - Important update Tibo feed
+      - Important update Reddit media feed
+      - Important update outage recovery
+      - Important update backlog retention
+    types:
+      - completed
+  schedule:
+    - cron: '13,28,43,58 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: write
+
+concurrency:
+  group: important-update-feed-watchdog
+  cancel-in-progress: true
+
+jobs:
+  wake-stale-producers:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Run feed reliability regression tests
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+        run: python .github/scripts/test_feed_reliability.py
+
+      - name: Wake stale public information producers
+        id: watchdog
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: master
+          CURRENT_WORKFLOW_FILE: important-update-feed-watchdog.yml
+          WATCHDOG_STATUS_DIR: /tmp/important-update-watchdog-status
+        run: python .github/scripts/important_update_feed_watchdog.py
+
+      - name: Publish watchdog telemetry monotonically
+        if: always()
+        run: |
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir /tmp/important-update-watchdog-status \
+            --branch chatgpt-important-update-watchdog-status \
+            --metadata-file index.json \
+            --timestamp-field checked_at \
+            --message 'Refresh public information watchdog telemetry'
+
+      - name: Propagate watchdog failure after telemetry
+        if: steps.watchdog.outcome == 'failure'
+        run: exit 1

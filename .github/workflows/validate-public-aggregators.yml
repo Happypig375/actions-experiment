@@ -1,0 +1,44 @@
+name: Validate public aggregators
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-public-aggregators-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile Python helpers
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python -m py_compile \
+            .github/scripts/publish_generated_snapshot.py \
+            .github/scripts/important_update_feed_watchdog.py \
+            .github/scripts/repository_keepalive.py \
+            .github/scripts/test_feed_reliability.py
+
+      - name: Run reliability regressions
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python .github/scripts/test_feed_reliability.py
+
+      - name: Parse workflow YAML
+        run: |
+          ruby -e 'require "yaml"; Dir[".github/workflows/*.{yml,yaml}"].sort.each { |path| YAML.load_file(path); puts path }'
+
+      - name: Check whitespace
+        run: git diff --check

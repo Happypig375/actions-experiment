@@ -1,0 +1,85 @@
+name: Important update backlog retention
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/important-update-backlog-retention.yml'
+      - '.github/scripts/publish_generated_snapshot.py'
+  schedule:
+    - cron: '3 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: important-update-backlog-retention
+  cancel-in-progress: true
+
+jobs:
+  retain:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Retain genuine recovery batches for 48 hours
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf /tmp/recovery /tmp/retained /tmp/no-backlog
+          mkdir -p /tmp/recovery /tmp/retained
+
+          if ! git fetch --quiet origin chatgpt-important-update-backlog-feed; then
+            echo 'Recovery feed is unavailable; leave any retained backlog untouched.'
+            exit 0
+          fi
+
+          git archive FETCH_HEAD | tar -x -C /tmp/recovery
+          if [ ! -s /tmp/recovery/index.json ]; then
+            echo 'Recovery index missing; leave retained backlog untouched.'
+            exit 0
+          fi
+
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import pathlib
+          import shutil
+
+          source = pathlib.Path('/tmp/recovery')
+          document = json.loads(
+              (source / 'index.json').read_text(encoding='utf-8')
+          )
+          if not document.get('has_backlog'):
+              pathlib.Path('/tmp/no-backlog').write_text('1', encoding='utf-8')
+          else:
+              destination = pathlib.Path('/tmp/retained')
+              shutil.copytree(source, destination, dirs_exist_ok=True)
+              now = dt.datetime.now(dt.timezone.utc)
+              document['retained_at'] = now.isoformat().replace('+00:00', 'Z')
+              document['retain_until'] = (
+                  now + dt.timedelta(hours=48)
+              ).isoformat().replace('+00:00', 'Z')
+              document['retention_policy'] = (
+                  'Keep a genuine outage/source-recovery batch available across later '
+                  'ChatGPT watch runs; ordinary no-backlog runs do not overwrite this branch.'
+              )
+              (destination / 'index.json').write_text(
+                  json.dumps(document, indent=2), encoding='utf-8'
+              )
+          PY
+
+          if [ -f /tmp/no-backlog ]; then
+            echo 'No genuine backlog in current recovery feed; preserve any previous retained batch.'
+            exit 0
+          fi
+
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir /tmp/retained \
+            --branch chatgpt-important-update-backlog-retained \
+            --metadata-file index.json \
+            --timestamp-field retained_at \
+            --message 'Retain important update recovery batch'
