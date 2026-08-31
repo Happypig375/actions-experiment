@@ -81,14 +81,53 @@ jobs:
 
       - name: Apply patch
         run: |
-          git -C source apply --check "$GITHUB_WORKSPACE/dce/discordchatexporter-machine-metadata.patch"
-          git -C source apply "$GITHUB_WORKSPACE/dce/discordchatexporter-machine-metadata.patch"
+          git -C source apply --reject --whitespace=nowarn "$GITHUB_WORKSPACE/dce/discordchatexporter-machine-metadata.patch" || true
+
+          python - <<'PY'
+          from pathlib import Path
+
+          root = Path("source")
+          rejects = list(root.rglob("*.rej"))
+          expected_reject = root / "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs.rej"
+          if rejects != [expected_reject]:
+              raise SystemExit(f"Unexpected rejected hunks: {rejects}")
+
+          path = root / "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs"
+          text = path.read_text()
+          old = """            || ShouldReuseAssets
+              || !string.IsNullOrWhiteSpace(AssetsDirPath)
+              || IsReverseMessageOrder;
+          """
+          new = """            || ShouldReuseAssets
+              || !string.IsNullOrWhiteSpace(AssetsDirPath)
+              || IsReverseMessageOrder
+              || !ShouldIncludeMachineMetadata;
+          """
+          if text.count(old) != 1:
+              raise SystemExit("Could not locate the advanced-options preference block")
+
+          path.write_text(text.replace(old, new))
+          expected_reject.unlink()
+          PY
+
           git -C source diff --check
 
       - name: Build
         working-directory: source
         run: dotnet build -p:CSharpier_Bypass=true --configuration Release
 
-      - name: Verify formatting
+      - name: Format
         working-directory: source
         run: dotnet build -t:CSharpierFormat --configuration Release --no-restore
+
+      - name: Generate validated patch
+        run: |
+          git -C source diff --check
+          git -C source diff --binary > discordchatexporter-machine-metadata.patch
+
+      - name: Upload validated patch
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: discordchatexporter-machine-metadata
+          path: discordchatexporter-machine-metadata.patch
+          if-no-files-found: error
