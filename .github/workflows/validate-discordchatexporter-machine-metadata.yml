@@ -1,0 +1,45 @@
+name: Validate DiscordChatExporter machine metadata patch
+
+on:
+  push:
+    branches:
+      - chatgpt/validate-discordchatexporter-machine-metadata
+
+permissions:
+  contents: read
+
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_NOLOGO: true
+  DOTNET_CLI_TELEMETRY_OPTOUT: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out validation files
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+
+      - name: Check out DiscordChatExporter
+        run: |
+          git clone --depth 1 --branch prime https://github.com/Tyrrrz/DiscordChatExporter.git source
+          test "$(git -C source rev-parse HEAD)" = "905489b01b5523719082275c34c232fc47f827c6"
+
+      - name: Apply patch
+        run: |
+          git -C source apply --check "$GITHUB_WORKSPACE/dce/discordchatexporter-machine-metadata.patch"
+          git -C source apply "$GITHUB_WORKSPACE/dce/discordchatexporter-machine-metadata.patch"
+          git -C source diff --check
+
+      - name: Build
+        working-directory: source
+        run: dotnet build -p:CSharpier_Bypass=true --configuration Release
+
+      - name: Verify formatting
+        working-directory: source
+        run: dotnet build -t:CSharpierFormat --configuration Release --no-restore
