@@ -1,5 +1,115 @@
+diff --git a/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs b/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
+index e2ea424..8ec8804 100644
+--- a/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
++++ b/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
+@@ -1,3 +1,5 @@
++using System;
++using System.Globalization;
+ using System.IO;
+ using System.Linq;
+ using System.Threading.Tasks;
+@@ -19,9 +21,18 @@ public class HtmlContentSpecs
+     public async Task I_can_export_a_channel_in_the_HTML_format()
+     {
+         // Act
+-        var messages = await ExportWrapper.GetMessagesAsHtmlAsync(ChannelIds.DateRangeTestCases);
++        var document = await ExportWrapper.ExportAsHtmlAsync(ChannelIds.DateRangeTestCases);
++        var chatlog = document.QuerySelector(".chatlog");
++        var messages = document.QuerySelectorAll("[data-message-id]").ToArray();
+ 
+         // Assert
++        chatlog.Should().NotBeNull();
++        chatlog!.GetAttribute("data-machine-metadata-version").Should().Be("1");
++        chatlog
++            .GetAttribute("data-channel-id")
++            .Should()
++            .Be(ChannelIds.DateRangeTestCases.ToString());
++
+         messages
+             .Select(e => e.GetAttribute("data-message-id"))
+             .Should()
+@@ -49,6 +60,58 @@ public class HtmlContentSpecs
+                 "Three",
+                 "Yeet"
+             );
++
++        foreach (var message in messages)
++        {
++            message.GetAttribute("data-message-type").Should().NotBeNullOrWhiteSpace();
++            message.GetAttribute("data-author-id").Should().NotBeNullOrWhiteSpace();
++            message.GetAttribute("data-author-name").Should().NotBeNullOrWhiteSpace();
++            message.GetAttribute("data-author-display-name").Should().NotBeNullOrWhiteSpace();
++
++            DateTimeOffset
++                .TryParseExact(
++                    message.GetAttribute("data-timestamp"),
++                    "O",
++                    CultureInfo.InvariantCulture,
++                    DateTimeStyles.RoundtripKind,
++                    out _
++                )
++                .Should()
++                .BeTrue();
++        }
++    }
++
++    [Fact]
++    public async Task I_can_disable_machine_metadata_in_the_HTML_format()
++    {
++        // Arrange
++        using var file = TempFile.Create();
++
++        // Act
++        await new ExportChannelsCommand
++        {
++            Token = Secrets.DiscordToken,
++            ChannelIds = [ChannelIds.DateRangeTestCases],
++            ExportFormat = ExportFormat.HtmlDark,
++            OutputPath = file.Path,
++            Locale = "en-US",
++            IsUtcNormalizationEnabled = true,
++            ShouldIncludeMachineMetadata = false,
++        }.ExecuteAsync(new FakeConsole());
++
++        var document = Html.Parse(await File.ReadAllTextAsync(file.Path));
++        var chatlog = document.QuerySelector(".chatlog");
++        var messages = document.QuerySelectorAll("[data-message-id]");
++
++        // Assert
++        chatlog.Should().NotBeNull();
++        chatlog!.HasAttribute("data-machine-metadata-version").Should().BeFalse();
++
++        foreach (var message in messages)
++        {
++            message.HasAttribute("data-author-id").Should().BeFalse();
++            message.HasAttribute("data-timestamp").Should().BeFalse();
++        }
+     }
+ 
+     [Fact]
+diff --git a/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs b/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
+index 2eb7651..53277fa 100644
+--- a/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
++++ b/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
+@@ -38,6 +38,16 @@ public class HtmlGroupingSpecs
+ 
+         messageGroups.Should().HaveCount(2);
+ 
++        foreach (
++            var message in messageGroups.SelectMany(group =>
++                group.QuerySelectorAll(".chatlog__message-container")
++            )
++        )
++        {
++            message.GetAttribute("data-author-id").Should().NotBeNullOrWhiteSpace();
++            message.GetAttribute("data-timestamp").Should().NotBeNullOrWhiteSpace();
++        }
++
+         messageGroups[0]
+             .QuerySelectorAll(".chatlog__content")
+             .Select(e => e.Text())
 diff --git a/DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs b/DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs
-index f4a44d3..0000000 100644
+index f4a44d3..6c062f6 100644
 --- a/DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs
 +++ b/DiscordChatExporter.Cli/Commands/Base/ExportCommandBase.cs
 @@ -95,6 +95,12 @@ public abstract class ExportCommandBase : DiscordCommandBase
@@ -8,14 +118,15 @@ index f4a44d3..0000000 100644
  
 +    [CommandOption(
 +        "machine-metadata",
-+        Description = "Include machine-readable metadata in HTML exports."
++        Description = "Include machine-readable metadata in HTML exports (enabled by default)."
 +    )]
 +    public bool ShouldIncludeMachineMetadata { get; set; } = true;
 +
      [CommandOption(
          "media",
          Description = "Download assets referenced by the export (user avatars, attached files, embedded images, etc.)."
-@@ -288,7 +294,8 @@ public abstract class ExportCommandBase : DiscordCommandBase
+@@ -286,7 +292,8 @@ public abstract class ExportCommandBase : DiscordCommandBase
+                                         ShouldDownloadAssets,
                                          ShouldReuseAssets,
                                          Locale,
 -                                        IsUtcNormalizationEnabled
@@ -25,10 +136,10 @@ index f4a44d3..0000000 100644
  
                                      await Exporter.ExportChannelAsync(
 diff --git a/DiscordChatExporter.Core/Exporting/ExportRequest.cs b/DiscordChatExporter.Core/Exporting/ExportRequest.cs
-index 82468bd..0000000 100644
+index 82468bd..a587909 100644
 --- a/DiscordChatExporter.Core/Exporting/ExportRequest.cs
 +++ b/DiscordChatExporter.Core/Exporting/ExportRequest.cs
-@@ -34,6 +34,8 @@ public partial class ExportRequest
+@@ -37,6 +37,8 @@ public partial class ExportRequest
  
      public bool ShouldFormatMarkdown { get; }
  
@@ -37,7 +148,8 @@ index 82468bd..0000000 100644
      public bool ShouldDownloadAssets { get; }
  
      public bool ShouldReuseAssets { get; }
-@@ -58,7 +60,8 @@ public partial class ExportRequest
+@@ -62,7 +64,8 @@ public partial class ExportRequest
+         bool shouldDownloadAssets,
          bool shouldReuseAssets,
          string? locale,
 -        bool isUtcNormalizationEnabled
@@ -45,7 +157,8 @@ index 82468bd..0000000 100644
 +        bool shouldIncludeMachineMetadata = true
      )
      {
-@@ -72,6 +75,7 @@ public partial class ExportRequest
+         Guild = guild;
+@@ -74,6 +77,7 @@ public partial class ExportRequest
          MessageFilter = messageFilter;
          IsReverseMessageOrder = isReverseMessageOrder;
          ShouldFormatMarkdown = shouldFormatMarkdown;
@@ -54,10 +167,10 @@ index 82468bd..0000000 100644
          ShouldReuseAssets = shouldReuseAssets;
          Locale = locale;
 diff --git a/DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs b/DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs
-index 81bb808..0000000 100644
+index 81bb808..8b58504 100644
 --- a/DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs
 +++ b/DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs
-@@ -1,9 +1,12 @@
+@@ -1,7 +1,9 @@
  using System;
  using System.Collections.Generic;
 +using System.Globalization;
@@ -67,8 +180,7 @@ index 81bb808..0000000 100644
  using System.Threading;
  using System.Threading.Tasks;
  using DiscordChatExporter.Core.Discord.Data;
- using WebMarkupMin.Core;
-@@ -19,6 +22,99 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
+@@ -17,6 +19,106 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
      private readonly HtmlMinifier _minifier = new();
      private readonly List<Message> _messageGroup = [];
  
@@ -81,8 +193,10 @@ index 81bb808..0000000 100644
 +            value switch
 +            {
 +                bool boolean => boolean ? "true" : "false",
-+                IFormattable formattable =>
-+                    formattable.ToString(null, CultureInfo.InvariantCulture),
++                IFormattable formattable => formattable.ToString(
++                    null,
++                    CultureInfo.InvariantCulture
++                ),
 +                _ => value.ToString(),
 +            } ?? "";
 +
@@ -93,9 +207,7 @@ index 81bb808..0000000 100644
 +        params (string Name, object? Value)[] attributes
 +    ) =>
 +        string.Concat(
-+            attributes.Select(attribute =>
-+                FormatMetadataAttribute(attribute.Name, attribute.Value)
-+            )
++            attributes.Select(attribute => FormatMetadataAttribute(attribute.Name, attribute.Value))
 +        );
 +
 +    private string FormatMachineTimestamp(DateTimeOffset timestamp) =>
@@ -110,8 +222,8 @@ index 81bb808..0000000 100644
 +        var replacement =
 +            "<div class=\"chatlog\""
 +            + FormatMetadataAttributes(
-+                ("data-metadata-version", 1),
-+                ("data-guild-id", Context.Request.Guild.Id),
++                ("data-machine-metadata-version", 1),
++                ("data-guild-id", Context.Request.Guild.IsDirect ? null : Context.Request.Guild.Id),
 +                ("data-channel-id", Context.Request.Channel.Id),
 +                ("data-channel-type", Context.Request.Channel.Kind),
 +                ("data-parent-channel-id", Context.Request.Channel.Parent?.Id)
@@ -174,36 +286,33 @@ index 81bb808..0000000 100644
 +
      // Note: in reverse order, last message appears earlier than the first message
      private bool CanJoinGroup(Message message)
-@@ -79,13 +175,16 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
+     {
+@@ -72,13 +174,13 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
          CancellationToken cancellationToken = default
      )
      {
+-        await _writer.WriteLineAsync(
+-            Minify(
+-                await new PreambleTemplate { Context = Context, ThemeName = themeName }.RenderAsync(
+-                    cancellationToken
+-                )
+-            )
+-        );
 +        var html = await new PreambleTemplate
 +        {
 +            Context = Context,
 +            ThemeName = themeName,
 +        }.RenderAsync(cancellationToken);
 +
-         await _writer.WriteLineAsync(
--            Minify(
--                await new PreambleTemplate { Context = Context, ThemeName = themeName }.RenderAsync(
--                    cancellationToken
--                )
--            )
-+            Minify(AddExportMetadata(html))
-         );
++        await _writer.WriteLineAsync(Minify(AddExportMetadata(html)));
      }
-@@ -95,17 +194,17 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
+ 
+     private async ValueTask WriteMessageGroupAsync(
+@@ -86,15 +188,13 @@ internal class HtmlMessageWriter(Stream stream, ExportContext context, string th
          CancellationToken cancellationToken = default
      )
      {
-+        var html = await new MessageGroupTemplate
-+        {
-+            Context = Context,
-+            Messages = messages,
-+        }.RenderAsync(cancellationToken);
-+
-         await _writer.WriteLineAsync(
+-        await _writer.WriteLineAsync(
 -            Minify(
 -                await new MessageGroupTemplate
 -                {
@@ -211,14 +320,49 @@ index 81bb808..0000000 100644
 -                    Messages = messages,
 -                }.RenderAsync(cancellationToken)
 -            )
-+            Minify(AddMessageMetadata(html, messages))
-         );
+-        );
++        var html = await new MessageGroupTemplate
++        {
++            Context = Context,
++            Messages = messages,
++        }.RenderAsync(cancellationToken);
++
++        await _writer.WriteLineAsync(Minify(AddMessageMetadata(html, messages)));
      }
+ 
+     public override async ValueTask WriteMessageAsync(
+diff --git a/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs b/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
+index aa76b1e..8ad0efb 100644
+--- a/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
++++ b/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
+@@ -112,6 +112,9 @@ public partial class LocalizationManager
+             [nameof(FormatMarkdownLabel)] = "Format markdown",
+             [nameof(FormatMarkdownTooltip)] =
+                 "Process markdown, mentions, and other special tokens",
++            [nameof(MachineMetadataLabel)] = "Include machine-readable metadata",
++            [nameof(MachineMetadataTooltip)] =
++                "Preserve stable identifiers, exact timestamps, and message relationships in HTML attributes. Disable this to reduce HTML file size.",
+             [nameof(DownloadAssetsLabel)] = "Download assets",
+             [nameof(DownloadAssetsTooltip)] =
+                 "Download assets referenced by the export (user avatars, attached files, embedded images, etc.)",
+diff --git a/DiscordChatExporter.Gui/Localization/LocalizationManager.cs b/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
+index 8a386ea..082948f 100644
+--- a/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
++++ b/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
+@@ -132,6 +132,8 @@ public partial class LocalizationManager
+     public string ReverseMessageOrderTooltip => Get();
+     public string FormatMarkdownLabel => Get();
+     public string FormatMarkdownTooltip => Get();
++    public string MachineMetadataLabel => Get();
++    public string MachineMetadataTooltip => Get();
+     public string DownloadAssetsLabel => Get();
+     public string DownloadAssetsTooltip => Get();
+     public string ReuseAssetsLabel => Get();
 diff --git a/DiscordChatExporter.Gui/Services/SettingsService.cs b/DiscordChatExporter.Gui/Services/SettingsService.cs
-index 61240b5..0000000 100644
+index 61240b5..5ab4a20 100644
 --- a/DiscordChatExporter.Gui/Services/SettingsService.cs
 +++ b/DiscordChatExporter.Gui/Services/SettingsService.cs
-@@ -61,6 +61,9 @@ public partial class SettingsService()
+@@ -63,6 +63,9 @@ public partial class SettingsService()
      [ObservableProperty]
      public partial bool LastShouldFormatMarkdown { get; set; } = true;
  
@@ -227,11 +371,34 @@ index 61240b5..0000000 100644
 +
      [ObservableProperty]
      public partial bool LastShouldDownloadAssets { get; set; }
+ 
+diff --git a/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs b/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
+index 542c952..5ceca29 100644
+--- a/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
++++ b/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
+@@ -276,7 +276,8 @@ public partial class DashboardViewModel : ViewModelBase
+                             dialog.ShouldDownloadAssets,
+                             dialog.ShouldReuseAssets,
+                             _settingsService.Locale,
+-                            _settingsService.IsUtcNormalizationEnabled
++                            _settingsService.IsUtcNormalizationEnabled,
++                            dialog.ShouldIncludeMachineMetadata
+                         );
+ 
+                         await exporter.ExportChannelAsync(request, progress, cancellationToken);
 diff --git a/DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs b/DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs
-index 9f1aed3..0000000 100644
+index 9f1aed3..cf15860 100644
 --- a/DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs
 +++ b/DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs
-@@ -63,6 +63,9 @@ public partial class ExportSetupViewModel(
+@@ -36,6 +36,7 @@ public partial class ExportSetupViewModel(
+     public partial string? OutputPath { get; set; }
+ 
+     [ObservableProperty]
++    [NotifyPropertyChangedFor(nameof(IsMachineMetadataAvailable))]
+     public partial ExportFormat SelectedFormat { get; set; }
+ 
+     [ObservableProperty]
+@@ -68,6 +69,9 @@ public partial class ExportSetupViewModel(
      [ObservableProperty]
      public partial bool ShouldFormatMarkdown { get; set; }
  
@@ -240,47 +407,54 @@ index 9f1aed3..0000000 100644
 +
      [ObservableProperty]
      public partial bool ShouldDownloadAssets { get; set; }
-@@ -113,6 +116,7 @@ public partial class ExportSetupViewModel(
+ 
+@@ -82,6 +86,9 @@ public partial class ExportSetupViewModel(
+ 
+     public bool IsSingleChannel => Channels?.Count == 1;
+ 
++    public bool IsMachineMetadataAvailable =>
++        SelectedFormat is ExportFormat.HtmlDark or ExportFormat.HtmlLight;
++
+     public IReadOnlyList<ExportFormat> AvailableFormats { get; } = Enum.GetValues<ExportFormat>();
+ 
+     public bool IsAfterDateSet => AfterDate is not null;
+@@ -110,6 +117,7 @@ public partial class ExportSetupViewModel(
          MessageFilterValue = settingsService.LastMessageFilterValue;
          IsReverseMessageOrder = settingsService.LastIsReverseMessageOrder;
          ShouldFormatMarkdown = settingsService.LastShouldFormatMarkdown;
 +        ShouldIncludeMachineMetadata = settingsService.LastShouldIncludeMachineMetadata;
          ShouldDownloadAssets = settingsService.LastShouldDownloadAssets;
          ShouldReuseAssets = settingsService.LastShouldReuseAssets;
-@@ -131,6 +135,7 @@ public partial class ExportSetupViewModel(
+         AssetsDirPath = settingsService.LastAssetsDirPath;
+@@ -124,7 +132,8 @@ public partial class ExportSetupViewModel(
+             || ShouldDownloadAssets
              || ShouldReuseAssets
              || !string.IsNullOrWhiteSpace(AssetsDirPath)
 -            || IsReverseMessageOrder;
 +            || IsReverseMessageOrder
 +            || !ShouldIncludeMachineMetadata;
-@@ -192,6 +197,7 @@ public partial class ExportSetupViewModel(
+ 
+         return Task.CompletedTask;
+     }
+@@ -192,6 +201,7 @@ public partial class ExportSetupViewModel(
          settingsService.LastMessageFilterValue = MessageFilterValue;
          settingsService.LastIsReverseMessageOrder = IsReverseMessageOrder;
          settingsService.LastShouldFormatMarkdown = ShouldFormatMarkdown;
 +        settingsService.LastShouldIncludeMachineMetadata = ShouldIncludeMachineMetadata;
          settingsService.LastShouldDownloadAssets = ShouldDownloadAssets;
          settingsService.LastShouldReuseAssets = ShouldReuseAssets;
-diff --git a/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs b/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
-index 542c952..0000000 100644
---- a/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
-+++ b/DiscordChatExporter.Gui/ViewModels/Components/DashboardViewModel.cs
-@@ -279,7 +279,8 @@ public partial class DashboardViewModel : ViewModelBase
-                             dialog.ShouldReuseAssets,
-                             _settingsService.Locale,
--                            _settingsService.IsUtcNormalizationEnabled
-+                            _settingsService.IsUtcNormalizationEnabled,
-+                            dialog.ShouldIncludeMachineMetadata
-                         );
+         settingsService.LastAssetsDirPath = AssetsDirPath;
 diff --git a/DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml b/DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml
-index 12c1f79..0000000 100644
+index 12c1f79..62f9106 100644
 --- a/DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml
 +++ b/DiscordChatExporter.Gui/Views/Dialogs/ExportSetupView.axaml
-@@ -230,6 +230,19 @@
+@@ -220,6 +220,22 @@
                <ToggleSwitch DockPanel.Dock="Right" IsChecked="{Binding ShouldFormatMarkdown}" />
              </DockPanel>
  
 +            <!--  Machine-readable metadata  -->
 +            <DockPanel
++              IsVisible="{Binding IsMachineMetadataAvailable}"
 +              LastChildFill="False"
 +              ToolTip.Tip="{Binding LocalizationManager.MachineMetadataTooltip}"
 +            >
@@ -296,133 +470,4 @@ index 12c1f79..0000000 100644
 +
              <!--  Download assets  -->
              <DockPanel
-diff --git a/DiscordChatExporter.Gui/Localization/LocalizationManager.cs b/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
-index 8a386ea..0000000 100644
---- a/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
-+++ b/DiscordChatExporter.Gui/Localization/LocalizationManager.cs
-@@ -119,6 +119,8 @@ public partial class LocalizationManager
-     public string ReverseMessageOrderTooltip => Get();
-     public string FormatMarkdownLabel => Get();
-     public string FormatMarkdownTooltip => Get();
-+    public string MachineMetadataLabel => Get();
-+    public string MachineMetadataTooltip => Get();
-     public string DownloadAssetsLabel => Get();
-     public string DownloadAssetsTooltip => Get();
-diff --git a/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs b/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
-index aa76b1e..0000000 100644
---- a/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
-+++ b/DiscordChatExporter.Gui/Localization/LocalizationManager.English.cs
-@@ -126,6 +126,10 @@ public partial class LocalizationManager
-             [nameof(FormatMarkdownTooltip)] =
-                 "Process markdown, mentions, and other special tokens",
-+            [nameof(MachineMetadataLabel)] = "Include machine-readable metadata",
-+            [nameof(MachineMetadataTooltip)] =
-+                "Preserve stable identifiers, exact timestamps, and message relationships in HTML attributes. Disable this to reduce HTML file size.",
-             [nameof(DownloadAssetsLabel)] = "Download assets",
-             [nameof(DownloadAssetsTooltip)] =
-diff --git a/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs b/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
-index e2ea424..0000000 100644
---- a/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
-+++ b/DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs
-@@ -1,4 +1,6 @@
-+using System;
-+using System.Globalization;
- using System.IO;
- using System.Linq;
-@@ -18,8 +20,16 @@ public class HtmlContentSpecs
-     public async Task I_can_export_a_channel_in_the_HTML_format()
-     {
-         // Act
--        var messages = await ExportWrapper.GetMessagesAsHtmlAsync(ChannelIds.DateRangeTestCases);
-+        var document = await ExportWrapper.ExportAsHtmlAsync(ChannelIds.DateRangeTestCases);
-+        var chatlog = document.QuerySelector(".chatlog");
-+        var messages = document.QuerySelectorAll("[data-message-id]").ToArray();
- 
-         // Assert
-+        chatlog.Should().NotBeNull();
-+        chatlog!.GetAttribute("data-metadata-version").Should().Be("1");
-+        chatlog
-+            .GetAttribute("data-channel-id")
-+            .Should()
-+            .Be(ChannelIds.DateRangeTestCases.ToString());
-+
-         messages
-@@ -40,6 +50,26 @@ public class HtmlContentSpecs
-                 "Three",
-                 "Yeet"
-             );
-+
-+        foreach (var message in messages)
-+        {
-+            message.GetAttribute("data-message-type").Should().NotBeNullOrWhiteSpace();
-+            message.GetAttribute("data-author-id").Should().NotBeNullOrWhiteSpace();
-+            message.GetAttribute("data-author-name").Should().NotBeNullOrWhiteSpace();
-+            message
-+                .GetAttribute("data-author-display-name")
-+                .Should()
-+                .NotBeNullOrWhiteSpace();
-+
-+            DateTimeOffset
-+                .TryParseExact(
-+                    message.GetAttribute("data-timestamp"),
-+                    "O",
-+                    CultureInfo.InvariantCulture,
-+                    DateTimeStyles.RoundtripKind,
-+                    out _
-+                )
-+                .Should()
-+                .BeTrue();
-+        }
-     }
-+
-+    [Fact]
-+    public async Task I_can_disable_machine_metadata_in_the_HTML_format()
-+    {
-+        // Arrange
-+        using var file = TempFile.Create();
-+
-+        // Act
-+        await new ExportChannelsCommand
-+        {
-+            Token = Secrets.DiscordToken,
-+            ChannelIds = [ChannelIds.DateRangeTestCases],
-+            ExportFormat = ExportFormat.HtmlDark,
-+            OutputPath = file.Path,
-+            Locale = "en-US",
-+            IsUtcNormalizationEnabled = true,
-+            ShouldIncludeMachineMetadata = false,
-+        }.ExecuteAsync(new FakeConsole());
-+
-+        var document = Html.Parse(await File.ReadAllTextAsync(file.Path));
-+        var chatlog = document.QuerySelector(".chatlog");
-+        var messages = document.QuerySelectorAll("[data-message-id]");
-+
-+        // Assert
-+        chatlog.Should().NotBeNull();
-+        chatlog!.HasAttribute("data-metadata-version").Should().BeFalse();
-+
-+        foreach (var message in messages)
-+        {
-+            message.HasAttribute("data-author-id").Should().BeFalse();
-+            message.HasAttribute("data-timestamp").Should().BeFalse();
-+        }
-+    }
- 
-     [Fact]
-diff --git a/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs b/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
-index 2eb7651..0000000 100644
---- a/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
-+++ b/DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs
-@@ -37,6 +37,14 @@ public class HtmlGroupingSpecs
- 
-         messageGroups.Should().HaveCount(2);
- 
-+        foreach (var message in messageGroups.SelectMany(group =>
-+            group.QuerySelectorAll(".chatlog__message-container")
-+        ))
-+        {
-+            message.GetAttribute("data-author-id").Should().NotBeNullOrWhiteSpace();
-+            message.GetAttribute("data-timestamp").Should().NotBeNullOrWhiteSpace();
-+        }
-+
-         messageGroups[0]
+               LastChildFill="False"
