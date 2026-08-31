@@ -95,8 +95,7 @@ jobs:
           path = root / "DiscordChatExporter.Gui/ViewModels/Dialogs/ExportSetupViewModel.cs"
           text = path.read_text()
           old = "            || IsReverseMessageOrder;"
-          new = """            || IsReverseMessageOrder
-              || !ShouldIncludeMachineMetadata;"""
+          new = "            || IsReverseMessageOrder\n            || !ShouldIncludeMachineMetadata;"
           if text.count(old) != 1:
               raise SystemExit("Could not locate the advanced-options preference block")
 
@@ -106,11 +105,63 @@ jobs:
 
           git -C source diff --check
 
+      - name: Apply formatter-compatible layout
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          replacements = {
+              "DiscordChatExporter.Core/Exporting/HtmlMessageWriter.cs": [
+                  (
+                      """                    IFormattable formattable =>
+                          formattable.ToString(null, CultureInfo.InvariantCulture),""",
+                      """                    IFormattable formattable => formattable.ToString(
+                          null,
+                          CultureInfo.InvariantCulture
+                      ),""",
+                  ),
+              ],
+              "DiscordChatExporter.Cli.Tests/Specs/HtmlContentSpecs.cs": [
+                  (
+                      """            message
+                          .GetAttribute(\"data-author-display-name\")
+                          .Should()
+                          .NotBeNullOrWhiteSpace();""",
+                      """            message.GetAttribute(\"data-author-display-name\").Should().NotBeNullOrWhiteSpace();""",
+                  ),
+              ],
+              "DiscordChatExporter.Cli.Tests/Specs/HtmlGroupingSpecs.cs": [
+                  (
+                      """        foreach (var message in messageGroups.SelectMany(group =>
+                      group.QuerySelectorAll(\".chatlog__message-container\")
+                  ))""",
+                      """        foreach (
+                      var message in messageGroups.SelectMany(group =>
+                          group.QuerySelectorAll(\".chatlog__message-container\")
+                      )
+                  )""",
+                  ),
+              ],
+          }
+
+          root = Path("source")
+          for relative_path, file_replacements in replacements.items():
+              path = root / relative_path
+              text = path.read_text()
+              for old, new in file_replacements:
+                  if text.count(old) != 1:
+                      raise SystemExit(f"Could not locate formatter target in {relative_path}")
+                  text = text.replace(old, new)
+              path.write_text(text)
+          PY
+
+          git -C source diff --check
+
       - name: Build
         working-directory: source
         run: dotnet build -p:CSharpier_Bypass=true --configuration Release
 
-      - name: Format
+      - name: Verify formatting
         working-directory: source
         run: dotnet build -t:CSharpierFormat --configuration Release --no-restore
 
