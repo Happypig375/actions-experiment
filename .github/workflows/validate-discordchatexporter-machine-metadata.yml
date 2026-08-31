@@ -22,13 +22,62 @@ jobs:
       - name: Check out validation files
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - name: Install .NET
-        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
-
       - name: Check out DiscordChatExporter
         run: |
           git clone --depth 1 --branch prime https://github.com/Tyrrrz/DiscordChatExporter.git source
           test "$(git -C source rev-parse HEAD)" = "905489b01b5523719082275c34c232fc47f827c6"
+
+      - name: Install .NET
+        uses: actions/setup-dotnet@a98b56852c35b8e3190ac28c8c2271da59106c68 # v6.0.0
+        with:
+          global-json-file: source/global.json
+
+      - name: Repair generated hunk counts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("dce/discordchatexporter-machine-metadata.patch")
+          lines = path.read_text().splitlines()
+          result = []
+          index = 0
+
+          while index < len(lines):
+              line = lines[index]
+              match = re.match(
+                  r"@@ -(\d+)(?:,\d+)? \+(\d+)(?:,\d+)?( @@.*)?$",
+                  line,
+              )
+              if match is None:
+                  result.append(line)
+                  index += 1
+                  continue
+
+              body = []
+              index += 1
+              while (
+                  index < len(lines)
+                  and not lines[index].startswith("@@ ")
+                  and not lines[index].startswith("diff --git ")
+              ):
+                  body.append(lines[index])
+                  index += 1
+
+              old_count = sum(
+                  1 for body_line in body if body_line.startswith((" ", "-"))
+              )
+              new_count = sum(
+                  1 for body_line in body if body_line.startswith((" ", "+"))
+              )
+              suffix = match.group(3) or " @@"
+              result.append(
+                  f"@@ -{match.group(1)},{old_count} +{match.group(2)},{new_count}{suffix}"
+              )
+              result.extend(body)
+
+          path.write_text("\n".join(result) + "\n")
+          PY
 
       - name: Apply patch
         run: |
