@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T17:04:57.257056Z",
+  "source": "asc-community/AngouriMath",
+  "recovery_since": "2026-09-05T15:41:09.261359Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "events": [
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T17:01:22Z",
+      "id": 33978995418,
+      "title": "Kernel Benchmark",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995418"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:54:10Z",
+      "id": 33978995397,
+      "title": "F# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995397"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:53:23Z",
+      "id": 33978995404,
+      "title": "Trimming & NativeAOT",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995404"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:53:06Z",
+      "id": 33978995439,
+      "title": "Integration Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995439"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:52:41Z",
+      "id": 33978995378,
+      "title": "Solution Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995378"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:52:18Z",
+      "id": 33978995379,
+      "title": "Interactive Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995379"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:52:11Z",
+      "number": 540,
+      "title": "Host SourceBrowser for AngouriMath repo",
+      "state": "open",
+      "comments": 4,
+      "url": "https://github.com/asc-community/AngouriMath/issues/540"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:52:10Z",
+      "number": 552,
+      "title": "Unity to be supported",
+      "state": "open",
+      "comments": 2,
+      "url": "https://github.com/asc-community/AngouriMath/issues/552"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:52:07Z",
+      "id": 33978995400,
+      "title": "C++ Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995400"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:52:05Z",
+      "number": 539,
+      "title": "Self-contained terminal",
+      "state": "open",
+      "comments": 3,
+      "url": "https://github.com/asc-community/AngouriMath/issues/539"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:52:04Z",
+      "number": 549,
+      "title": "Latex to show in browser in Terminal",
+      "state": "open",
+      "comments": 2,
+      "url": "https://github.com/asc-community/AngouriMath/issues/549"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:52:03Z",
+      "number": 601,
+      "title": "Cells' outputs in a variable for the terminal",
+      "state": "open",
+      "comments": 2,
+      "url": "https://github.com/asc-community/AngouriMath/issues/601"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:51:03Z",
+      "id": 33978995405,
+      "title": "C#/Kernel Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995405"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:50:59Z",
+      "number": 783,
+      "title": "Conditional compilation for feature subsets: use trait-based test selection and package seams instead",
+      "state": "open",
+      "comments": 1,
+      "url": "https://github.com/asc-community/AngouriMath/issues/783"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:50:58Z",
+      "number": 1008,
+      "title": "Design document: which capabilities belong in the kernel package, and which ship separately (#746 item 78)",
+      "state": "open",
+      "comments": 1,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1008"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:50:41Z",
+      "id": 33978995457,
+      "title": "Interactive Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995457"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:50:20Z",
+      "number": 1019,
+      "title": "Pending breakages: changes agreed or arguable that cannot ship before a major version",
+      "state": "open",
+      "comments": 4,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1019"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:50:15Z",
+      "id": 33978995431,
+      "title": "Generated Files Up To Date",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995431"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:50:08Z",
+      "id": 33978995394,
+      "title": "F# Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995394"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T16:50:01Z",
+      "id": 33978995406,
+      "title": "C# Test",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "interversion-reaches-further",
+      "head_sha": "7c690a3070b371b73efb163f9bd3b8deeaf6f46e",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33978995406"
+    },
+    {
+      "type": "pull_request",
+      "timestamp": "2026-09-05T16:48:20Z",
+      "number": 1178,
+      "title": "The inter-version benchmark reaches two releases further back (#529)",
+      "state": "open",
+      "merged_at": null,
+      "draft": false,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1178"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:37:29Z",
+      "number": 558,
+      "title": "[WIP] Redesign plotting API",
+      "state": "open",
+      "comments": 3,
+      "url": "https://github.com/asc-community/AngouriMath/issues/558"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:37:27Z",
+      "number": 575,
+      "title": "[WIP] Complete redesign of AngouriMath.FSharp",
+      "state": "open",
+      "comments": 3,
+      "url": "https://github.com/asc-community/AngouriMath/issues/575"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-09-05T16:37:26Z",
+      "number": 562,
+      "title": "[WIP] System of equations API for F#",
+      "state": "open",
+      "comments": 3,
+      "url": "https://github.com/asc-community/AngouriMath/issues/562"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-09-05T15:41:12Z",
+      "id": 33974577969,
+      "title": "C# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "5d802babd0723618ee2e7834d31aa566ab7720fe",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/33974577969"
+    }
+  ],
+  "errors": []
+}
