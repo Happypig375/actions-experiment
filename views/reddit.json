@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T16:18:02.362717Z",
+  "since": "2026-09-05T10:18:02.362717Z",
+  "source": "r/codex",
+  "acquisition_mode": "unavailable",
+  "candidate_discovery_only": true,
+  "items": [],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "new RSS: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}

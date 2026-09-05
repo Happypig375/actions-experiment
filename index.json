@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "purpose": "Important Update Watch public-source acquisition feed",
+  "generated_at": "2026-09-05T16:18:02.362717Z",
+  "fresh_for_seconds": 4500,
+  "sources": [
+    {
+      "key": "reddit",
+      "name": "r/codex",
+      "view_path": "views/reddit.json",
+      "status": "unavailable",
+      "acquisition_mode": "unavailable",
+      "candidate_count": 0,
+      "errors": [
+        "new JSON: HTTP Error 403: Blocked",
+        "hot JSON: HTTP Error 403: Blocked",
+        "top_day JSON: HTTP Error 403: Blocked",
+        "new RSS: HTTP Error 403: Blocked",
+        "hot RSS: HTTP Error 429: Too Many Requests"
+      ],
+      "raw_artifact_id": 9972723680,
+      "raw_artifact_name": "important-update-reddit-raw"
+    },
+    {
+      "key": "codex_resets",
+      "name": "@codex_resets",
+      "view_path": "views/codex_resets.json",
+      "status": "ok",
+      "candidate_count": 20,
+      "errors": [],
+      "raw_artifact_id": 9972723937,
+      "raw_artifact_name": "important-update-codex-resets-raw"
+    }
+  ]
+}
