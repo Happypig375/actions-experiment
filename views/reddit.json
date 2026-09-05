@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T09:23:45.505300Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-05T07:05:20.455112Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vs7b",
+      "timestamp": "2026-09-05T09:14:58Z",
+      "title": "Astra Medium costs less than 5.6 Sol High",
+      "author": "/u/Billygin",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vs7b/astra_medium_costs_less_than_56_sol_high/",
+      "excerpt": "I've been running in circles on a large long-lasting session with GPT 5.6 Sol High. Yes, the plan is extremely detailed and I've been getting grilled very hard.\n In 1h Astra Medium solves what GPT 5.6 Sol High has been struggling with for 6h straight, without going through the hoops of building a NASA-grade bunker that locks itself out before even starting to building. It costs me 2% of my Pro $200 plan.\n Astra may be much more expensive than GPT 5.6, but it is extremely efficient. Praying for it to continue like this and for the model not to get nuked in a week, but if not, I'm freaking sold.\n    submitted by    /u/Billygin  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vqvj",
+      "timestamp": "2026-09-05T09:12:43Z",
+      "title": "How about we take about 6pro?",
+      "author": "/u/InvariantAtNull",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vqvj/how_about_we_take_about_6pro/",
+      "excerpt": "This thing is a super genie in your pocket\n    submitted by    /u/InvariantAtNull  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vkvq",
+      "timestamp": "2026-09-05T09:03:19Z",
+      "title": "why my blender dragon look shit",
+      "author": "/u/No_Twist6469",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vkvq/why_my_blender_dragon_look_shit/",
+      "excerpt": "https://preview.redd.it/xnjluhmu2onh1.png?width=1920&format=png&auto=webp&s=9f3edf04db9f9167701b226f990bf1382dbb6a61\n why my dragon look shit compare to dragon demo I saw people are creating with the astra ? \n where is the problem is arriving anybody ?\n    submitted by    /u/No_Twist6469  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/xnjluhmu2onh1.png?width=140&height=78&auto=webp&s=e901da05922ee0f4d869da7cf56a066e76147d57",
+        "https://preview.redd.it/xnjluhmu2onh1.png?width=1920&format=png&auto=webp&s=9f3edf04db9f9167701b226f990bf1382dbb6a61"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vknz",
+      "timestamp": "2026-09-05T09:03:00Z",
+      "title": "If I upgrade from Plus to Pro 20x, will my 3 banked resets carry over?",
+      "author": "/u/Street-Reserve-1549",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vknz/if_i_upgrade_from_plus_to_pro_20x_will_my_3/",
+      "excerpt": "I\u2019m on ChatGPT Plus and currently have 3 banked usage resets.\n If I upgrade to Pro 20x, do those 3 resets stay on my account and reset the new Pro limits, or do they disappear / stay tied to Plus limits?\n Has anyone actually upgraded while having banked resets and confirmed what happens?\n    submitted by    /u/Street-Reserve-1549  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vk5t",
+      "timestamp": "2026-09-05T09:02:14Z",
+      "title": "Anyone else having issues with auto-compact getting stuck indefinitely?",
+      "author": "/u/Unique_Secretary_183",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vk5t/anyone_else_having_issues_with_autocompact/",
+      "excerpt": "Is anyone else facing this with Codex?\n I haven\u2019t changed any settings everything is still on default. I\u2019m using Astra on High reasoning.\n Codex works normally across multiple chats, but once a chat reaches the context limit and auto-compact kicks in, it just keeps running indefinitely and never actually finishes compacting.\n Things I\u2019ve already tried:\n  App, CLI and extension are all up to date Restarted Codex and my laptop Tried completely new chats Checked across multiple chats Haven\u2019t changed any context/compaction settings  Everything works fine until the context fills up, then auto-compact gets stuck again.\n Is anyone else seeing this recently? Are there any changes/rollouts happening with auto-compaction right now, or is this likely a bug? Is it the new model issue it can't properly auto compact? \n    submitted by    /u/Unique_Secretary_183  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vjru",
+      "timestamp": "2026-09-05T09:01:38Z",
+      "title": "should i switch over to codex plus plan?",
+      "author": "/u/HandleOdd2656",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vjru/should_i_switch_over_to_codex_plus_plan/",
+      "excerpt": "i currently have a codex plus plan (from a friend who got a free trial) and my own claude code pro plan (both 20usd). im a student, i use it for study, building projects, building internal tools in my internship , automating some of my tasks etc. \n from my observations, 5.6 terra was unusable, for some reason it would always stop before task was done, sol was good and now we have astra. i cant even use fable on claude pro so thats out.\n but i had noticed codex on sol was a lot slower in working compared to claude, maybe temporary server issues or that is expected idk? \n also my codex plus free trial still doesnt have the 5hr limit so im not really affected by it, but if i switch over and actually buy it , how big of a problem is it? will astra be unusable? because i think sonnet is better than terra\n    submitted by    /u/HandleOdd2656  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7ve2k",
+      "timestamp": "2026-09-05T08:52:47Z",
+      "title": "I'm on Pro x20, still don't have Astra. Why?",
+      "author": "/u/wreox9",
+      "url": "https://www.reddit.com/r/codex/comments/1w7ve2k/im_on_pro_x20_still_dont_have_astra_why/",
+      "excerpt": "Sam said this:\n https://preview.redd.it/qcf2plzw0onh1.png?width=599&format=png&auto=webp&s=f6a009e714e9f6434289d2a8391aba60c51aabc5\n But I've updated IDE and it says ChatGPT is up to date when I try \"Check for updates\". Still I got no Astra.\n https://preview.redd.it/x0cwv3z61onh1.png?width=292&format=png&auto=webp&s=348228d0f874898336fedd08fae7251181cbb318\n    submitted by    /u/wreox9  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/qcf2plzw0onh1.png?width=140&height=48&auto=webp&s=f1d758ea51dfb621b4759ce6813d44f3d379e81e",
+        "https://preview.redd.it/qcf2plzw0onh1.png?width=599&format=png&auto=webp&s=f6a009e714e9f6434289d2a8391aba60c51aabc5",
+        "https://preview.redd.it/x0cwv3z61onh1.png?width=292&format=png&auto=webp&s=348228d0f874898336fedd08fae7251181cbb318"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vda4",
+      "timestamp": "2026-09-05T08:51:33Z",
+      "title": "Already in daybreak and using the model but being asked to apply?",
+      "author": "/u/RobinInPH",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vda4/already_in_daybreak_and_using_the_model_but_being/",
+      "excerpt": "I'm doing reviews for a marketplace startup and this suddenly goes on. Anyone else experience this? When I navigate to learn more, it shows verification has to be restarted but I am already using the model in the codex app.\n    submitted by    /u/RobinInPH  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/bsoe4kqu0onh1.png?width=640&crop=smart&auto=webp&s=5ff1b44234e51cb48ee3bb9530fc2733e724d47f",
+        "https://i.redd.it/bsoe4kqu0onh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7vaw2",
+      "timestamp": "2026-09-05T08:47:37Z",
+      "title": "GPT Astra put me out of a job",
+      "author": "/u/Quick-Pop-328",
+      "url": "https://www.reddit.com/r/codex/comments/1w7vaw2/gpt_astra_put_me_out_of_a_job/",
+      "excerpt": "Did you know Codex lets agents post into existing threads? Not spawn subagents \u2014 talk to chats with their own isolated context and a long session history.\n Astra told me that yesterday. We tried to work out when the harness picked it up and got nowhere.\n I'd been planning to automate my flow through the Codex CLI. GPT PRO supervisor hands me a 20+ step orchestration plan for a new slice, not counting repair loops. Spec owner, builder, reviewer and hostops are separate Codex projects, instructions I've bled over for months. Most of my routine was shuttling reports and handoffs between the agents. And right when I had that flow dialed in and was ready to automate \u2014 enter Astra.\n Ran it as the orchestrator, did a few pilots, and suddenly I've got free time and my attention budget back.\n Looks like the only job Astra left me is counting how much Astra I can afford.\n    submitted by    /u/Quick-Pop-328  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7v8p7",
+      "timestamp": "2026-09-05T08:43:57Z",
+      "title": "It must be some kind of psy-op by Anthropic to claim that Fable is anywhere near as good as Astra",
+      "author": "/u/DynaBeast",
+      "url": "https://www.reddit.com/r/codex/comments/1w7v8p7/it_must_be_some_kind_of_psyop_by_anthropic_to/",
+      "excerpt": "I have a ChatGPT Pro subscription and a Claude Max subscription, and use both extensively for work. To claim that any model offered by Anthropic is even close in intuitive thinking or design sensibility to Astra is a joke to me.\n The most comparable Antropic model to Astra, ChatGPT's flagship, is Fable 5.1. They have roughly equivalent price. But in my experience, their output quality is dramatically different.\n Astra has a sort of deep, intuitive understanding about the problem you give it that Fable simply lacks. When I compare how the two work, Fable feels like it gives the smartest answer you could possibly get after asking 100 moderately smart people to deliberate together in a room for a few hours before answering. Astra just feels... smart. Like a single, extremely smart person giving an intuitive answer that fully understands the question and work statement.\n Where Fable feels like it just spends a lot of time talking to itself in order to work, Astra just...works. And does better than Fable. Its answers are easier to understand, not held back by the limitations of the language it's using to speak with.\n To me, to say Claude Fable 5.1 is anywhere close to Astra in any capac",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7v7bn",
+      "timestamp": "2026-09-05T08:41:41Z",
+      "title": "Astra on high seems to nuke tokens?",
+      "author": "/u/Calm_Pass_4289",
+      "url": "https://www.reddit.com/r/codex/comments/1w7v7bn/astra_on_high_seems_to_nuke_tokens/",
+      "excerpt": "I just updated a few hours ago and just tested 3 prompts and sofar I really love the results - it reminds me of Fable 5 on release but a bit better however its nuking my tokens. I am on 100$ plan and went from 100% to 92% in just 3 prompts that took less than 1 hour total of use. Is this normal?\n I really hope there can be a way to improve the token use for this model - for now I maybe going back to sol high because it feels like I get unlimited use with that one.\n    submitted by    /u/Calm_Pass_4289  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7v0x9",
+      "timestamp": "2026-09-05T08:31:24Z",
+      "title": "Gemini is now equal to or better than Terra & Luna (?!)",
+      "author": "/u/emraydn12",
+      "url": "https://www.reddit.com/r/codex/comments/1w7v0x9/gemini_is_now_equal_to_or_better_than_terra_luna/",
+      "excerpt": "I've been a regular subscriber of Pro 5X plan and used it in Codex exclusively over the past year. I also have a Google AI Pro subscription which gives me access to models like Gemini Flash 3.8 via Antigravity. I have used Gemini via Antigravity for personal scripting successfully but I never trusted Google's models for serious coding tasks.\n However, more recently considering how OpenAI has been pushing us to use Terra and Luna for most of our coding tasks given how expensive Sol and Astra have gotten, I checked the benchmarks and it looks like Gemini Flash 3.8 and Muse Spark (Meta's new model) perform equal or better compared to Terra and Luna. It seems using OpenCode as the harness can even improve the results a bit as well.\n Is anyone using Gemini or Muse now for serious coding tasks? If so, how does it perform in real world compared to Terra and Luna? \n https://preview.redd.it/5b7ccwnixnnh1.png?width=2320&format=png&auto=webp&s=87bdba7b59454c4a577c7afbc41e7b48ac923252\n    submitted by    /u/emraydn12  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/5b7ccwnixnnh1.png?width=140&height=57&auto=webp&s=1778a838cc061e2f26d5ad07fb64e273c5997291",
+        "https://preview.redd.it/5b7ccwnixnnh1.png?width=2320&format=png&auto=webp&s=87bdba7b59454c4a577c7afbc41e7b48ac923252"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7v0sm",
+      "timestamp": "2026-09-05T08:31:13Z",
+      "title": "I'm desperate. How to fix \"admin-enforced policy could not be verified\"",
+      "author": "/u/Pleasant_Lack1",
+      "url": "https://www.reddit.com/r/codex/comments/1w7v0sm/im_desperate_how_to_fix_adminenforced_policy/",
+      "excerpt": "I've been struggling with this for weeks now. It just suddenly started happening, and now using ChatGPT in the browser is basically impossible. If I restart ChatGPT, reinstall it, or log out and log in, then it works for a few chat messages, and then it just pops up with this again and blocks browser control on Edge or GPT browser completely every single time. No matter what I do, even if I run it in a constant loop, it just can't be fixed, and I have no clue why. Has anyone had this same problem before, and how to fix it? I am on a personal 20x plan, but also have a business plan. However, I've completely logged out of the business plan and cleared cookies etc. \n \"The \"admin-enforced policy could not be verified\" error in ChatGPT primarily occurs when using Codex, Browser Use, or Computer Use features on a Personal Pro or unauthorized account. The OpenAI backend blocks the task because it detects that you are trying to execute high-privilege automated actions (like controlling a browser or system) without a verified ChatGPT Business or Enterprise workspace.\"\n    submitted by    /u/Pleasant_Lack1  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7uyj2",
+      "timestamp": "2026-09-05T08:27:28Z",
+      "title": "Is this.. a mistake? lol",
+      "author": "/u/JonaOnRed",
+      "url": "https://www.reddit.com/r/codex/comments/1w7uyj2/is_this_a_mistake_lol/",
+      "excerpt": "https://preview.redd.it/8qm5s4uewnnh1.png?width=243&format=png&auto=webp&s=8f8fdfe993e5c13145af927f1b65cc9c87ed4d69\n I don't often hit my limits, but with this reset it looks like i am going to spend the 4th of october on astra max fast usage for the whole day\n    submitted by    /u/JonaOnRed  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/8qm5s4uewnnh1.png?width=140&height=80&auto=webp&s=a6399f77977731beec224ae267c4a6c683506a5a",
+        "https://preview.redd.it/8qm5s4uewnnh1.png?width=243&format=png&auto=webp&s=8f8fdfe993e5c13145af927f1b65cc9c87ed4d69"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7uqp8",
+      "timestamp": "2026-09-05T08:14:55Z",
+      "title": "Astra - first impressions",
+      "author": "/u/Mishuri",
+      "url": "https://www.reddit.com/r/codex/comments/1w7uqp8/astra_first_impressions/",
+      "excerpt": "It takes weeks of continued usage to know where model shines. Sol for me was the first \"spark of AGI\" model. Regarding Astra so far it seems to be much more lazy. It needs to always gets encouraged to start coding or be thorought, i guess it's part of the token efficiency. It completes tasks very fast but always needs to be pushed to do them, while sol was like a programmer on adderal would jump on coding with half a world, would rip through tasks and be very thorought, but on negative it would sometimes get lost in it's tasks and spent hours if unobserved on useless things. Probably good agents.md could strike good balance with astra.\n    submitted by    /u/Mishuri  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7uld8",
+      "timestamp": "2026-09-05T08:06:04Z",
+      "title": "Previous vs current coding",
+      "author": "/u/InspectorSorry85",
+      "url": "https://www.reddit.com/r/codex/comments/1w7uld8/previous_vs_current_coding/",
+      "excerpt": "My previous coding, clean, clear, small but perfect:\n https://preview.redd.it/8ovkvwhfsnnh1.png?width=1254&format=png&auto=webp&s=19064c8f4aa567524395c49e968ec941ad0de4f2\n My current main project with Codex: \n https://preview.redd.it/bxccqhwtsnnh1.png?width=1448&format=png&auto=webp&s=51ca749fa118e3dc2eb1cae05e3342546c6dbc3c\n    submitted by    /u/InspectorSorry85  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/8ovkvwhfsnnh1.png?width=140&height=140&auto=webp&s=e3760cd92b717d414bf924465a0c4e28a40733cd",
+        "https://preview.redd.it/8ovkvwhfsnnh1.png?width=1254&format=png&auto=webp&s=19064c8f4aa567524395c49e968ec941ad0de4f2",
+        "https://preview.redd.it/bxccqhwtsnnh1.png?width=1448&format=png&auto=webp&s=51ca749fa118e3dc2eb1cae05e3342546c6dbc3c"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7ul3i",
+      "timestamp": "2026-09-05T08:05:38Z",
+      "title": "Fable vs. Astra",
+      "author": "/u/innovaldragon",
+      "url": "https://www.reddit.com/r/codex/comments/1w7ul3i/fable_vs_astra/",
+      "excerpt": "For those who used both Fable and Astra, how's your experience with both agents? \n    submitted by    /u/innovaldragon  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7uj5i",
+      "timestamp": "2026-09-05T08:02:29Z",
+      "title": "gpt 6 astra is GENUINELY unusuable on plus",
+      "author": "/u/HenryofSAC",
+      "url": "https://www.reddit.com/r/codex/comments/1w7uj5i/gpt_6_astra_is_genuinely_unusuable_on_plus/",
+      "excerpt": "i have used ALL of my banked resets today. I have had chatgpt plus for like 3 months, and I have never used a banked reset. ever. it quite literally uses up all my usage in a single prompt. and not even a long prompt at that \ud83d\ude2d \n    submitted by    /u/HenryofSAC  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/1ma1xes0snnh1.png?width=140&height=19&auto=webp&s=2c0888277fb161a263ef4eb7a6f3b9e33ad84358"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7uh3a",
+      "timestamp": "2026-09-05T07:59:34Z",
+      "title": "PSA: Plus account actual Astra usage limits",
+      "author": "/u/IndividualPlus2011",
+      "url": "https://www.reddit.com/r/codex/comments/1w7uh3a/psa_plus_account_actual_astra_usage_limits/",
+      "excerpt": "I measured Astra's usage limits on a Plus account. The upside of the 5-hour window is that it is easy to measure allowance. One weekly usage limit = 6 5-hour windows.\n Token cost is measured at today's API prices. There were no cache busts or websocket errors observed during the test, so everything is accounted for.\n 1 5-hour window allowed $11 in API cost. x6 equals $66 allowance per week.\n Unfortunately, it is a lot less than it used to be. I could use $100 of Sol per week (with the discount pricing, $120 with standard pricing) before Astra's release.\n Multiplying for Pro users:\n Pro 5x = $330 per week\n Pro 20x = $1320 per week\n Note: There is a possibility that my account is nerfed, and others have more allowance than me.\n Conclusion: Not only does Astra cost 2.5 times more, but the allowed usage was reduced as well, making it cost a lot more compared to Sol prior to the new release, more than just the 2.5 times more would indicate.\n    submitted by    /u/IndividualPlus2011  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7ugnw",
+      "timestamp": "2026-09-05T07:58:49Z",
+      "title": "Paid resets",
+      "author": "/u/kurimbo3000",
+      "url": "https://www.reddit.com/r/codex/comments/1w7ugnw/paid_resets/",
+      "excerpt": "When are we supposed to be able to buy these? I thought this was supposed to be out by now but I don't have this ability\n    submitted by    /u/kurimbo3000  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7udeb",
+      "timestamp": "2026-09-05T07:53:31Z",
+      "title": "GPT 6 Astra for specification generation",
+      "author": "/u/brookm291",
+      "url": "https://www.reddit.com/r/codex/comments/1w7udeb/gpt_6_astra_for_specification_generation/",
+      "excerpt": "Main actual use cases of Astra and Fable are initial specification or planning phase,\n although they are used also for coding.\n One common issue I had in previous top models, is they lack the abstraction of general patterns vs focusing in details on execution.\n I really like GPT concise mode, reduced token,\n and just wondering about people impression their planning capabilities ! \n    submitted by    /u/brookm291  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7udb6",
+      "timestamp": "2026-09-05T07:53:24Z",
+      "title": "Astra not available on SSH connection on desktop app but available on normal \"Dont work on a project\" chats",
+      "author": "/u/Only-Stick-7024",
+      "url": "https://www.reddit.com/r/codex/comments/1w7udb6/astra_not_available_on_ssh_connection_on_desktop/",
+      "excerpt": "Has anybody experienced this? I have updated codex on the remote server, I've also checked the CLI and I see it there also.\n    submitted by    /u/Only-Stick-7024  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7u9oy",
+      "timestamp": "2026-09-05T07:47:17Z",
+      "title": "escaping the permanent underclass and building a billion-dollar company solo is possible with astra",
+      "author": "/u/larpspecialist67",
+      "url": "https://www.reddit.com/r/codex/comments/1w7u9oy/escaping_the_permanent_underclass_and_building_a/",
+      "excerpt": "thx agi\n    submitted by    /u/larpspecialist67  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7u6pc",
+      "timestamp": "2026-09-05T07:42:14Z",
+      "title": "starts from scratch after context compacts",
+      "author": "/u/anup_2004",
+      "url": "https://www.reddit.com/r/codex/comments/1w7u6pc/starts_from_scratch_after_context_compacts/",
+      "excerpt": "any way to fix this? I thought using astra would be a delight, but it started working on something completely different after the context was compacted (and maybe it is also because I set a /goal.. after two iterations, it said \"I\u2019ll re-read the objective and current state, then work on ...\")\n    submitted by    /u/anup_2004  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7u5gi",
+      "timestamp": "2026-09-05T07:40:15Z",
+      "title": "GPT 6 Astra on Pro now feels like you are on MAX Plan",
+      "author": "/u/Dadideology",
+      "url": "https://www.reddit.com/r/codex/comments/1w7u5gi/gpt_6_astra_on_pro_now_feels_like_you_are_on_max/",
+      "excerpt": "Just switched to GPT 6 Astra and it now feels like I'm on the MAX plan. Holy shit it's burning through my usage. The difference between 5.6 Sol High versus 6.0 Astra High in usage is mind bending. This must be a mistake. There's no way I'm paying $100 a month to feel like I'm on the MAX plan. I would take me maybe two hours to burn 5% usage. I just burnt 5% usage in about 39 mins and 14 seconds \n    submitted by    /u/Dadideology  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7u2l1",
+      "timestamp": "2026-09-05T07:35:37Z",
+      "title": "If I were to die today, at least I'd die happy having had the chance to use GPT-6 Astra.",
+      "author": "/u/Fit-Benefit-6524",
+      "url": "https://www.reddit.com/r/codex/comments/1w7u2l1/if_i_were_to_die_today_at_least_id_die_happy/",
+      "excerpt": "like title says\n    submitted by    /u/Fit-Benefit-6524  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7txlo",
+      "timestamp": "2026-09-05T07:27:24Z",
+      "title": "Fast mode with Astra is now 2x speed, not 1.5x?",
+      "author": "/u/jordancs180",
+      "url": "https://www.reddit.com/r/codex/comments/1w7txlo/fast_mode_with_astra_is_now_2x_speed_not_15x/",
+      "excerpt": "kewl\n    submitted by    /u/jordancs180  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/anyulstwlnnh1.png?width=320&crop=smart&auto=webp&s=43e130f2230acbf534372e12ef9963ebc1babb42",
+        "https://i.redd.it/anyulstwlnnh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7txb3",
+      "timestamp": "2026-09-05T07:26:52Z",
+      "title": "Luna-high/xhigh vs Astra-low?",
+      "author": "/u/Particular_Lemon3393",
+      "url": "https://www.reddit.com/r/codex/comments/1w7txb3/lunahighxhigh_vs_astralow/",
+      "excerpt": "Basically the title\n I am a plus user (yes i am pleb from a 3rd world country) and Luna is basically endless agentic coding. I give it clear-worded instructions and it generally follows. Most of my work is doable with it (i am not exactly a swe or developer; i am a data scientist/researcher/economist). When i need some proper intelligence, i turn on Opus or (occasionally Fable whose credits are expiring Sep19) to make a plan to give to Luna (or sonnet 5 medium) to implement. Of course Luna is not as good as Sol but i stopped using Sol many days ago when it was one-shotting my usage instead of my prompts. Anyways, what has been the overall experience so far with Astra? Is it usable on low. I noticed that was its default setting and found that to be interesting (meaning its very good even in low) Cuz i used it with medium (or was it high, i dont quite remember) and it was just not sustainable. I mean I was down smth like 50% in 30 minutes. Part of it was also some issue in codex, i am sure. Cuz just my initial prompt drained me down 15-20% iirc. \n    submitted by    /u/Particular_Lemon3393  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7tx85",
+      "timestamp": "2026-09-05T07:26:44Z",
+      "title": "Astra acts like Opus 5, and it\u2019s infuriating...",
+      "author": "/u/OkMeat6773",
+      "url": "https://www.reddit.com/r/codex/comments/1w7tx85/astra_acts_like_opus_5_and_its_infuriating/",
+      "excerpt": "So I\u2019ve noticed it has the same overconfident and overly cautious issue as Opus 5, where it says it has fixed or done something when it actually hasn\u2019t. \n It also stops way too often during the conversation, way, way too much. If I don\u2019t properly set a clear goal, it will just stop and not actually do what I asked.\n Is anyone having this issue?\n    submitted by    /u/OkMeat6773  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7tub0",
+      "timestamp": "2026-09-05T07:22:08Z",
+      "title": "Any way to find out how much does each model burn towards your usage limits relatively?",
+      "author": "/u/Consistent_Tutor_597",
+      "url": "https://www.reddit.com/r/codex/comments/1w7tub0/any_way_to_find_out_how_much_does_each_model_burn/",
+      "excerpt": "Hey guys. Is there any reliable way to work out how much does each model burn. Is the raw api pricing a good rough metric? For example astra is at 2.5x sol. So is it fair to say it's gonna burn 2.5x? \n Similar for terra which is at 1/2x sol. And luna 20x cheaper. \n Also curious if it can be used to compare cross providers too. As fable and astra are similarly priced in api. \n    submitted by    /u/Consistent_Tutor_597  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7trng",
+      "timestamp": "2026-09-05T07:17:52Z",
+      "title": "Astra talking to other threads (Including ChatGPT threads)... Incredible.",
+      "author": "/u/New-Elderberry-5726",
+      "url": "https://www.reddit.com/r/codex/comments/1w7trng/astra_talking_to_other_threads_including_chatgpt/",
+      "excerpt": "I know recently the talking between threads seems to have got a hell of a lot better so I've been taking advantage of it as much as possible, and the way Astra prompts other agents or Chat threads is amazing. I always felt that Sol's prompting was a bit much at times but the way Astra structures prompts and its general writing capability is SO much better.\n I have a pretty huge plan in place at the moment that has a million little complexities and edge cases to consider, I opened a ChatGPT thread with Astra Pro a while ago then told the Codex thread to message the chat thread with all of the relevant information to the plan for auditing.\n They've been going back and forth for well over an hour now closing down edge cases and details, it's fucking beautiful to watch. Anyone else having the agents message between Codex <-> ChatGPT threads? Seems to be creating some insanely good plans in Chat and the Codex thread just does a killer job of prompting.\n    submitted by    /u/New-Elderberry-5726  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7tr6f",
+      "timestamp": "2026-09-05T07:17:08Z",
+      "title": "Hitting Sol usage limits way faster post Astra release.",
+      "author": "/u/golita99",
+      "url": "https://www.reddit.com/r/codex/comments/1w7tr6f/hitting_sol_usage_limits_way_faster_post_astra/",
+      "excerpt": "So earlier I use to rely on Sol High for most of my tasks and it would easily get a lot of my work done mostly coding.\n With the Astra release, I see that I am hitting my 5h and weekly limits way faster than before.\n Anybody else felt the same and any recommendations to get most out of it.\n    submitted by    /u/golita99  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7tniy",
+      "timestamp": "2026-09-05T07:11:34Z",
+      "title": "Upgrade form plus to pro",
+      "author": "/u/Normal-Phone7762",
+      "url": "https://www.reddit.com/r/codex/comments/1w7tniy/upgrade_form_plus_to_pro/",
+      "excerpt": "I have two questions:\n 1) If I upgrade now from plus to pro, what happens to this reset from plus subscription?\n 2) What happens with usage limit, will it reset to?\n Thank you :)\n    submitted by    /u/Normal-Phone7762  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/vzys4e2binnh1.png?width=320&crop=smart&auto=webp&s=9299db908ee0a88a20c06eb0e779c98c94e3c6bd",
+        "https://i.redd.it/vzys4e2binnh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w7tmzc",
+      "timestamp": "2026-09-05T07:10:43Z",
+      "title": "Playable 4d chess by astra",
+      "author": "/u/Potential-Worth-7660",
+      "url": "https://www.reddit.com/r/codex/comments/1w7tmzc/playable_4d_chess_by_astra/",
+      "excerpt": "I asked astra to make playable 4d chess and it did all in a single html file \n    submitted by    /u/Potential-Worth-7660  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/ejVic3VxMHNpbm5oMXcxvxufAWWLXfrIulDlFRLWNKvQLgnwovWx9qP8tLSu.png?width=640&crop=smart&auto=webp&s=aa5fd64379c78356ee8fbb3c0a9d77bed3f9202c"
+      ]
+    }
+  ],
+  "errors": []
+}
