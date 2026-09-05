@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "purpose": "Important Update Watch GitHub acquisition feed",
+  "generated_at": "2026-09-05T16:57:08.573712Z",
+  "since": "2026-09-05T13:57:08.573712Z",
+  "fresh_for_seconds": 4500,
+  "repos": [
+    {
+      "key": "nu",
+      "full_name": "bryanedds/Nu",
+      "view_path": "views/nu.json",
+      "head_sha": "d0bf47e3947c249d3822c015ede490bc7a552a35",
+      "previous_head_sha": "d0bf47e3947c249d3822c015ede490bc7a552a35",
+      "counts": {
+        "commits": 0,
+        "issues": 0,
+        "pulls": 0,
+        "releases": 0,
+        "workflow_runs": 0,
+        "changed_files": 0
+      },
+      "errors": [],
+      "raw_artifact_id": 9973300416,
+      "raw_artifact_name": "important-update-nu-raw"
+    },
+    {
+      "key": "angourimath",
+      "full_name": "asc-community/AngouriMath",
+      "view_path": "views/angourimath.json",
+      "head_sha": "5d802babd0723618ee2e7834d31aa566ab7720fe",
+      "previous_head_sha": "5d802babd0723618ee2e7834d31aa566ab7720fe",
+      "counts": {
+        "commits": 2,
+        "issues": 15,
+        "pulls": 3,
+        "releases": 0,
+        "workflow_runs": 50,
+        "changed_files": 0
+      },
+      "errors": [],
+      "raw_artifact_id": 9973300651,
+      "raw_artifact_name": "important-update-angourimath-raw"
+    }
+  ]
+}
