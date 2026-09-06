@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T21:46:45.407068Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "candidate_discovery_only": true,
+  "source_url": "https://fxtwitter.com/thsottiaux/feed.xml",
+  "items": [
+    {
+      "text": "The number of people who don't get it in the comments is concerning to me. Go ask Astra.",
+      "url": "https://x.com/thsottiaux/status/2096700527753245068",
+      "published_at": "2026-09-06T20:42:15Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Astra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sen\u2026\nAstra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sense to me. We are not a car. Brrrrrrr",
+      "url": "https://x.com/thsottiaux/status/2096698561971064864",
+      "published_at": "2026-09-06T20:34:26Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high. If y\u2026\nTo calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.\n\n\n\nIf you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+      "url": "https://x.com/thsottiaux/status/2096688770523467947",
+      "published_at": "2026-09-06T19:55:32Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Astra was probably our biggest competitive advantage while it wasn\u2019t generally available. Since we\u2019ve had it our productivity jumped so much\u2026\nAstra was probably our biggest competitive advantage while it wasn\u2019t generally available.\n\n\n\nSince we\u2019ve had it our productivity jumped so much that we shifted some of our plans 6 months ahead and will ship them at DevDay instead of mid next year.",
+      "url": "https://x.com/thsottiaux/status/2096101429832552872",
+      "published_at": "2026-09-05T05:01:39Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "And the team will have some nice sleep now. See you next week for some more ships.",
+      "url": "https://x.com/thsottiaux/status/2096035748130795560",
+      "published_at": "2026-09-05T00:40:39Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it\u2019s o\u2026\nBecause we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it\u2019s ok!)\u2026 we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.\n\n\n\nHappy Astra day and enjoy a phenomenal weekend. \n\n\n\nPS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "published_at": "2026-09-05T00:39:25Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus a\u2026\nOK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated.\n\n\n\nAstra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes!",
+      "url": "https://x.com/thsottiaux/status/2096002992046796932",
+      "published_at": "2026-09-04T22:30:29Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Awesome to see GPT-6 Astra is #1 on Terminal Bench 4.0 using the Codex harness. At 50% of the cost of #2.",
+      "url": "https://x.com/thsottiaux/status/2095995318471168397",
+      "published_at": "2026-09-04T22:00:00Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Some Plus and Business users won't yet get access to Astra today, we've got you covered with a banked reset. Lands by end of day and if you \u2026\nSome Plus and Business users won't yet get access to Astra today, we've got you covered with a banked reset. Lands by end of day and if you create your account by 8pm PT then you'll get it too.",
+      "url": "https://x.com/thsottiaux/status/2095979536043401428",
+      "published_at": "2026-09-04T20:57:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are progressing through the rollout of Astra. Pro and Business subscriptions get it first, some of you should start seeing it across Chat\u2026\nWe are progressing through the rollout of Astra. Pro and Business subscriptions get it first, some of you should start seeing it across ChatGPT Work and Codex.\n\n\n\nAnd then we will proceed with rollout to all of Plus as fast as we can.",
+      "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "published_at": "2026-09-04T19:44:22Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountai\u2026\nWe will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\n\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "published_at": "2026-09-03T23:12:09Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are going to need a different AGI benchmark. Where is the goalpost moving next?",
+      "url": "https://x.com/thsottiaux/status/2095601101701820752",
+      "published_at": "2026-09-03T19:53:31Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Across the plans Astra will be included in the normal usage allocation and you will be able to use 100% of it towards Astra.",
+      "url": "https://x.com/thsottiaux/status/2095597659545591917",
+      "published_at": "2026-09-03T19:39:51Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring i\u2026\nWe are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring it to all Plus users and not only Pro, Business and Enterprise. \n\n\n\nIt will take a few days for the rollout to complete and behind the scenes many novel systems will operate at scale for the first time and we are bringing a lot of compute up.\n\n\n\nIt is pure magic.\n\n\n\nhttps://openai.com/index/gpt-6-astra/",
+      "url": "https://x.com/thsottiaux/status/2095597168816226335",
+      "published_at": "2026-09-03T19:37:54Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Something was felt across the internet today",
+      "url": "https://x.com/thsottiaux/status/2095538856296898868",
+      "published_at": "2026-09-03T15:46:11Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme owne\u2026\nI think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme ownership, care and pace.",
+      "url": "https://x.com/thsottiaux/status/2095369901137654271",
+      "published_at": "2026-09-03T04:34:49Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "The ChatGPT desktop app is now my main browser and my productivity has never been higher",
+      "url": "https://x.com/thsottiaux/status/2095288416292487289",
+      "published_at": "2026-09-02T23:11:01Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Bullish",
+      "url": "https://x.com/thsottiaux/status/2094939684015317363",
+      "published_at": "2026-09-02T00:05:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "https://x.com/thsottiaux/status/2094826841622348106",
+      "url": "https://x.com/thsottiaux/status/2094826841622348106",
+      "published_at": "2026-09-01T16:36:53Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Should we do a merch line?",
+      "url": "https://x.com/thsottiaux/status/2094826808114057246",
+      "published_at": "2026-09-01T16:36:45Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+      "url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "published_at": "2026-09-01T00:49:05Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "What should we ship next week?",
+      "url": "https://x.com/thsottiaux/status/2094293190945976638",
+      "published_at": "2026-08-31T05:16:21Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both P\u2026\nFor clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both Pro plans.\n\n\n\nThe Pro 20X is quite precisely 20X the usage of the Plus subscription, so it does exactly what it says on the tin.\n\nThe whole \u201c20x\u201d in Claude\u2019s pricing is so misleading. The $100 plan says 5x Pro limits, while the $200 plan says 20x Pro limits. That makes it sound like you\u2019re getting 4x the usage. But the 20x applies only to the 5-hour usage window. The weekly limit is basically just 2x the $1\u2026",
+      "url": "https://x.com/thsottiaux/status/2094254532020818191",
+      "published_at": "2026-08-31T02:42:44Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatG\u2026\nWhat I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.\n\n\n\nSee you soon for more news from The Reset Company.\n\nThis celebration is moved to tomorrow as the button was already pressed today.",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "published_at": "2026-08-31T02:34:27Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Brent is incredible and one of the main forces behind the desktop app polish, performance and reliability. Relentless improvements day after\u2026\nBrent is incredible and one of the main forces behind the desktop app polish, performance and reliability.\n\n\n\nRelentless improvements day after day.\n\nLast week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. \u2705 Long threads now load over 90% faster. \u2705 Decreased the memory footprint of long threads by over 90%.",
+      "url": "https://x.com/thsottiaux/status/2094164029044646099",
+      "published_at": "2026-08-30T20:43:06Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST. I challenge you to burn as much usage as you can and discover and the latest awesome\u2026\nYour Codex and ChatGPT Work reset will land at 6pm PST. \n\n\n\nI challenge you to burn as much usage as you can and discover and the latest awesome features. \n\n\n\nTime to go /fast",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "published_at": "2026-08-30T19:24:37Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Brent is one of the best things that happened to the quality and polish of the desktop app. Relentless improvements day after day.\nBrent is one of the best things that happened to the quality and polish of the desktop app. \n\n\n\nRelentless improvements day after day.\n\nLast week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. \u2705 Long threads now load over 90% faster. \u2705 Decreased the memory footprint of long threads by over 90%.",
+      "url": "https://x.com/thsottiaux/status/2094143696656867723",
+      "published_at": "2026-08-30T19:22:19Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Team is cooking like never before",
+      "url": "https://x.com/thsottiaux/status/2093914342551101782",
+      "published_at": "2026-08-30T04:10:56Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "This celebration is moved to tomorrow as the button was already pressed today.\n\nLooking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "url": "https://x.com/thsottiaux/status/2093811840258293947",
+      "published_at": "2026-08-29T21:23:38Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Landing 2:30pm PST",
+      "url": "https://x.com/thsottiaux/status/2093801838504186008",
+      "published_at": "2026-08-29T20:43:53Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are reseting usage for all paid users of Codex and ChatGPT Work. Please continue reading for an update on Codex usage limits. The team ha\u2026\nWe are reseting usage for all paid users of Codex and ChatGPT Work.\n\n\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\n\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\n\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn\u2019t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\n\n\nWe\u2019ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don\u2019t have to guess.\n\n\n\nGoes without saying that we\u2019re resetting usage limits and I hope you enjoy a very nice Saturday!",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784",
+      "published_at": "2026-08-29T20:43:34Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I've enjoyed working with Cursor pre-acquisition and have respect for the team and what they have built. The 5% here should have come with s\u2026\nI've enjoyed working with Cursor pre-acquisition and have respect for the team and what they have built. The 5% here should have come with strong caveat and I would love for Michael to share the math.\n\n\n\nTokens are not a proxy for revenue nor value created and the OpenAI models are on the very frontier of token efficiency. Smaller or less strong models require many more tokens to achieve a task and therefore will inflate traffic share significantly.\n\nWe\u2019re sorry to see that OpenAI put out a note saying they plan to block Cursor users from accessing OpenAI models in three months. OpenAI models serve about 5% of Cursor user traffic, and we\u2019re speaking with the OpenAI team to resolve this. Cursor was one of the very first users \u2026",
+      "url": "https://x.com/thsottiaux/status/2093784314714657110",
+      "published_at": "2026-08-29T19:34:15Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "It was time",
+      "url": "https://x.com/thsottiaux/status/2093762439645176020",
+      "published_at": "2026-08-29T18:07:20Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Looking at the dashboard we might hit a new milestone to celebrate tomorrow. Hold on to your Codex",
+      "url": "https://x.com/thsottiaux/status/2093573991965557198",
+      "published_at": "2026-08-29T05:38:31Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils\u2026\nWe unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust and we\u2019ve asked that this takes effect on November 12 to give you some time to plan.\n\n\n\nMany have used the GPT models through Cursor and here are options we know should work in the future:\n\n\n\n- We will continue to allow using your own OpenAI API key and similarly will continue to provide access through our IDE extensions for Cursor.\n\n- We will keep working with the broadest range of tools and harnesses, some of which are OSS, but also many many closed-source ones.\n\n\n\nWe are as committed as ever to continue supporting developers and the flourishing ecosystem of tools, harnesses and products. We will also continue to invest in our own open-source initiatives and believe in broad optionality for developers.\n\n\n\nYou can read more about our decision in the blog:\n\nhttps://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/\n\nWe\u2019re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor\u2019s direct access to our models would end on November 12. We know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care \u2026",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "published_at": "2026-08-29T01:47:44Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "What is the most ambitious task you\u2019ve given ChatGPT Work?",
+      "url": "https://x.com/thsottiaux/status/2093354037198696932",
+      "published_at": "2026-08-28T15:04:29Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I do wonder what the record will be of most connected accounts\n\nThis has been a very popular request! You can now connect multiple Gmail and Google Cal accounts to Codex and ChatGPT",
+      "url": "https://x.com/thsottiaux/status/2093351054834598354",
+      "published_at": "2026-08-28T14:52:38Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "But flying close to Sol doesn't make it faster, sorry.",
+      "url": "https://x.com/thsottiaux/status/2093207264194892263",
+      "published_at": "2026-08-28T05:21:16Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Starting to see more and more Codex users on airplanes and in caf\u00e9s. Underdog energy gone mainstream.",
+      "url": "https://x.com/thsottiaux/status/2093207246977318928",
+      "published_at": "2026-08-28T05:21:12Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "ChatGPT can now do your groceries, book an Uber, get you that haircut appointment (hint hint), and much more. All without ever seeing your a\u2026\nChatGPT can now do your groceries, book an Uber, get you that haircut appointment (hint hint), and much more. All without ever seeing your actual credentials and keeping it secure.\n\nChatGPT Work can now use its computer and browser to sign in to websites on web and mobile, without ChatGPT ever seeing your username or password. That means you can ask it to: \u2022 Set up utilities for a new apartment \u2022 Book a DMV or passport appointment \u2022 Check reimbursement costs\u2026",
+      "url": "https://x.com/thsottiaux/status/2093074717590921245",
+      "published_at": "2026-08-27T20:34:34Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Never slept better and feeling reseted. Brand new me and brand new usage for all ChatGPT Work and Codex users. Regaining my youth one button\u2026\nNever slept better and feeling reseted. Brand new me and brand new usage for all ChatGPT Work and Codex users. Regaining my youth one button press at a time.\n\n\n\nHappy Thursday",
+      "url": "https://x.com/thsottiaux/status/2093014447833116908",
+      "published_at": "2026-08-27T16:35:05Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "A good thing about having aged is that I feel that it\u2019s been 20 years since I\u2019ve pressed the reset button. Intrigued to see if I can find it\u2026\nA good thing about having aged is that I feel that it\u2019s been 20 years since I\u2019ve pressed the reset button. Intrigued to see if I can find it tomorrow and dust it up",
+      "url": "https://x.com/thsottiaux/status/2092862554632826968",
+      "published_at": "2026-08-27T06:31:31Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "A few weeks at OpenAI feel like years at other companies in terms of how much gets done. Crazy how much you can age in a few days",
+      "url": "https://x.com/thsottiaux/status/2092756702349398036",
+      "published_at": "2026-08-26T23:30:54Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Good products take time. At least 34 days.",
+      "url": "https://x.com/thsottiaux/status/2092487667426738179",
+      "published_at": "2026-08-26T05:41:51Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I want to see the polymarket",
+      "url": "https://x.com/thsottiaux/status/2092359619075314102",
+      "published_at": "2026-08-25T21:13:02Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies. \u2705 All ChatGPT, ChatGPT Work, and\u2026\nSo much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n\n\n\u2705 All ChatGPT, ChatGPT Work, and Codex features\n\n\u2705 Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n\n\u2705 Secure workspace with SAML, SSO, and MFA\n\n\u2705 Centralized billing and administration\n\n\u2705 Usage analytics and spend controls\n\n\u2705 No 5h limits\n\nIntroducing ChatGPT Business Premium Seats The new $100 Premium seat is a game changer for small businesses and startups\u2014giving lean teams better tools, faster workflows, and capabilities once reserved for big companies. A flexible plan that scales with your team\u2019s ambition. http\u2026",
+      "url": "https://x.com/thsottiaux/status/2092345330272780499",
+      "published_at": "2026-08-25T20:16:15Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "@cerebras ftw!",
+      "url": "https://x.com/thsottiaux/status/2092315999769117053",
+      "published_at": "2026-08-25T18:19:42Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Do I need a haircut",
+      "url": "https://x.com/thsottiaux/status/2092315945700381084",
+      "published_at": "2026-08-25T18:19:29Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impres\u2026\nExcited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.\n\n\n\nTomorrow\u2019s fast will feel like today\u2019s ultrafast. As I\u2019ve mentioned before, we\u2019re pushing to bring this to as many people as possible.\n\n\n\nWe\u2019ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I\u2019m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.\n\nSince announcing Jalape\u00f1o, our first custom inference chip, we\u2019ve been testing it and the system around it. The results show a major advance: more intelligence from every watt and faster responses, delivering both higher throughput and lower latency in one architecture without sa\u2026",
+      "url": "https://x.com/thsottiaux/status/2092311315545239771",
+      "published_at": "2026-08-25T18:01:05Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "url": "https://x.com/thsottiaux/status/2092117461646856505",
+      "published_at": "2026-08-25T05:10:47Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    }
+  ],
+  "errors": []
+}
