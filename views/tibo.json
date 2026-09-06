@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T21:56:35.556684Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "recovery_since": "2026-09-06T21:30:30.072774Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "timestamp": "2026-09-06T21:51:18Z",
+      "text": "We've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account.\n\n\n\nNo change in quality and a pure win that on the long tail can result in up to 3-4X less usage being drawn from the subscription.",
+      "url": "https://x.com/thsottiaux/status/2096717905614524491",
+      "source_handle": "@thsottiaux"
+    }
+  ],
+  "errors": []
+}

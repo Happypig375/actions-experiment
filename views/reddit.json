@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T21:56:35.556684Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-06T21:30:30.072774Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1w99gy3",
+      "timestamp": "2026-09-06T21:55:02Z",
+      "title": "Usage cut in half after weekly reset. Auto-review is turned off, yet that used up half my limits",
+      "author": "/u/innociv",
+      "url": "https://www.reddit.com/r/codex/comments/1w99gy3/usage_cut_in_half_after_weekly_reset_autoreview/",
+      "excerpt": "approvals_reviewer = \"user\" is in my config.toml. \"Approve for me\" in Codex ignores that and GPT 5.4 was set as the autoreviewer and it silently ate up almost half of my weekly usage limit. I blew through my Pro 20x limit in roughly 24 hours as a result.\n The data:\n About $2,148 of tokens since Sep 5, 6:58 AM ET (when I used banked reset), at published Codex list rates.\n Breakdown:\n  GPT-6 Astra: $1,117\n Codex Auto Review (priced as GPT-5.4): $714\n GPT-5.6 Sol: $275\n GPT-5.6 Luna: $42  All 8,717 codex-auto-review responses are guardian_review. None of them sit on a user thread or a coding subagent.\n Remove GPT-5.4, WHICH I NEVER ACTUALLY USED, the usage I actually got to use drops to $1,434.\n Why are they even using GPT-5.4 for code review instead of Luna?\n Essentially, you either have to be annoyed by popups asking permission on any basic action, or give ChatGPT full access. If you use the middle option, \"Approve for Me\", it turns on extremely expensive code Auto-Review. But that's not what \"Approve for Me\" says it does, it just says it \"Only ask for actions detected as potentially unsafe\".\n A third of my usage being an old model is absurd. Auto-review used twice as many tokens as",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w998xj",
+      "timestamp": "2026-09-06T21:45:55Z",
+      "title": "How do you feel about astra compared to sol",
+      "author": "/u/No_Leg_847",
+      "url": "https://www.reddit.com/r/codex/comments/1w998xj/how_do_you_feel_about_astra_compared_to_sol/",
+      "excerpt": "If you use astra which effort do you use, how you feel about it compared to sol\n    submitted by    /u/No_Leg_847  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w996o2",
+      "timestamp": "2026-09-06T21:43:18Z",
+      "title": "Forget Astra, Luna is share it is at",
+      "author": "/u/SwimmingLow3053",
+      "url": "https://www.reddit.com/r/codex/comments/1w996o2/forget_astra_luna_is_share_it_is_at/",
+      "excerpt": "I decided to take a different tack today, I acted like a senior developer/lead designer and instead of giving Sol/astra control i just used Luna. \n I make every decision. I make them small and one at a time. I check implementation risk and risk of straying. I review the result. I iterate but if I\u2019ve done the first steps right it shouldn\u2019t be necessary. \n I\u2019ve spent 10 hours using Luna high and Luna extra high (can\u2019t really tell the difference). Started today at 9% (why I was being frugal), now I\u2019m on 7%. 10 hours work!!!! This is on pro 100 btw. It\u2019s mad. 2% for basically a day of work. I was going to upgrade to the $200 plan but I\u2019m not sure I need alpha making the decisions I should be making. \n I also iterate prompts back to gpt/extra high when I\u2019m not sure that it\u2019s precise enough. I also ask Luna to look at the code and see if the prompt is good enough, and back to got Sol to check its response and the next iteration. \n But the real feedback is I\u2019ve done more today that I have for weeks. Totally fixed UI issues. Dealt with heterogeneous design. Removed unnecessary elements. \n Yesterday I did the opposite. I asked Astra to use Luna agents for implementation and oversee them. Gi",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w990uq",
+      "timestamp": "2026-09-06T21:36:37Z",
+      "title": "Will I eventually have a stroke because of AI gaslighting?",
+      "author": "/u/Delicious-Ant-715",
+      "url": "https://www.reddit.com/r/codex/comments/1w990uq/will_i_eventually_have_a_stroke_because_of_ai/",
+      "excerpt": "It is a hot day and although I am impressed how capable Astra handles large design tasks, the smaller tasks it still gaslight me and wait for me to follow up on every little thing. \n Sometimes I am just on the edge of smashing my laptop or having a stroke\n    submitted by    /u/Delicious-Ant-715  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
