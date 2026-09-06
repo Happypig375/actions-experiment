@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T21:46:23.194177Z",
+  "source": "r/codex media",
+  "candidate_discovery_only": true,
+  "ocr_is_untrusted": true,
+  "items": [
+    {
+      "id": "t3_1w98tab",
+      "title": "What does this mean I don't get it",
+      "url": "https://www.reddit.com/r/codex/comments/1w98tab/what_does_this_mean_i_dont_get_it/",
+      "published_at": "2026-09-06T21:28:04+00:00",
+      "media_urls": [
+        "https://preview.redd.it/bkqlr06uwynh1.png?width=320&crop=smart&auto=webp&s=d74f119445fd0a660a2773027af55e28be209987",
+        "https://i.redd.it/bkqlr06uwynh1.png"
+      ],
+      "ocr_text": "Ree ersten 520 o \u2018Asaon NDIA GPUS every morning Yue nat taking 0 somebody who \u2018woke up loser Tat se atte, ates premise mates no sence to Ime. We ote not aca Br Om a Cr as\n(9) Tibo @ @thsottiaux - 52m Gur Astra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sense to me. We are not a car. Brerrrir \u00a9 255 tio 9 19K thy 93K As",
+      "ocr_sources": [
+        "https://preview.redd.it/bkqlr06uwynh1.png?width=320&crop=smart&auto=webp&s=d74f119445fd0a660a2773027af55e28be209987",
+        "https://i.redd.it/bkqlr06uwynh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w98k8n",
+      "title": "What's all the fuss? You can max out Astra daily.",
+      "url": "https://www.reddit.com/r/codex/comments/1w98k8n/whats_all_the_fuss_you_can_max_out_astra_daily/",
+      "published_at": "2026-09-06T21:18:14+00:00",
+      "media_urls": [
+        "https://preview.redd.it/q5aga7aorynh1.png?width=140&height=60&auto=webp&s=d961a9dd7e62d11c39d2df82bd97866aaba1ef0d",
+        "https://preview.redd.it/q5aga7aorynh1.png?width=1063&format=png&auto=webp&s=67d9f809f295708ef463d79cc8eefb619e2ba441"
+      ],
+      "ocr_text": "ozs\nQ. 100/16 O fe ALL (Ca) SEARCH IMAGES VIDEOS MAPS NEWS COPILOT = MORE Gs About 76,200 results 6.25",
+      "ocr_sources": [
+        "https://preview.redd.it/q5aga7aorynh1.png?width=140&height=60&auto=webp&s=d961a9dd7e62d11c39d2df82bd97866aaba1ef0d",
+        "https://preview.redd.it/q5aga7aorynh1.png?width=1063&format=png&auto=webp&s=67d9f809f295708ef463d79cc8eefb619e2ba441"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w98hka",
+      "title": "<3 Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1w98hka/3_astra/",
+      "published_at": "2026-09-06T21:15:22+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ctg0k0mcuynh1.png?width=140&height=111&auto=webp&s=f61f0128995b278df49177fdf70b53e93edfa5b2",
+        "https://preview.redd.it/ctg0k0mcuynh1.png?width=1619&format=png&auto=webp&s=fd7e8f6fb24ec8f8728aa04bef17f95e8e38af3c"
+      ],
+      "ocr_text": "=\ngpt-5.6-luna low subagent: = - Conclusion \u2014 AGENTS/human-work.md records Hadrian\u2019s direct inspection of ACN-Data, Asensio et al., UrbanEV, Zhang et al., Esser et al., and Simolin et al. It supplies useful source observations, but does not satisfy the ledger\u2019s formal human-verified status requirements for any retained claim: exact current manuscript wording/location, source version, and claim-specific confirmation are not consistently recorded. The ledger therefore remains authoritative: five comparators are discovered; DESL-EPFL, Gerritsma, and MP-EVData are mapped; all require explicit human verification before publication-ready status. - Relevant files \u2014 ~ AGENTS/human-work.md:7 \u2014 ACN-Data fields, including session timestamps, measured energy, pilot signal, and charging current; lines 92-127 contain Al-generated interpretation and must not be treated as human evidence. ~ AGENTS/human-work.md:144 \u2014 human agrees to avoid first-paired/global-closest claims, but this is not recorded in the ledger\u2019s required formal format. ~ AGENTS/human-work.md:146 \u2014 Asensio source inspection documents session/user/station/location and timing/energy fields. ~ AGENTS/human-work.md:175 and :456 \u2014 UrbanEV inspection supports aggregated/derived demand distinction; exact raw/session-linkage verification remains uncertain. ~ AGENTS/human-work.md:458 \u2014 Zhang transaction-field inspection; electrical trajectory availability and exact retained comparison remain unresolved. ~ AGENTS/human-work.md:486 \u2014 Esser controlled high-resolution profile inspection; laboratory evidence must remain distinct from operational-population evidence. ~ AGENTS/human-work.md:518 \u2014 Simolin model/outcome/limitation inspection; claim-specific manuscript check remains needed. ~ AGENTS/literature-evidence-ledger.md:7-15,29-34,42-44,55-66 \u2014 formal statuses, blockers, and required verification procedure. ~ AGENTS/manuscript-data-descriptor-review-gates.md:10-17 \u2014 publication human gates. ~ AGENTS/supervisor-pre-read-2026-9-12.md:23-29 \u2014 outstanding visual, operating-context, access, privacy, licensing, authorship, and literature decisions. - Key contracts & gotchas \u2014 Human notes may establish observed source facts, but embedded AI replies (especially :92-127) are AI inference. Do not promote ledger statuses, claim publication readiness, or claim human visual/scientific approval. Required changes are claim-specific: inspect and record source version/location and exact manuscript wording for ACN, Asensio, UrbanEV, Zhang, Esser, Simolin, plus mapped DESL/Gerritsma/MP-EVData; weaken/remove any unsupported novelty, independence, resolution, or measurement wording and verify removal if excluded. Final DOCX visual review and supervisor/coauthor/access decisions remain open. - Open questions \u2014 The current manuscript revision\u2019s exact retained citation text and whether each human-inspected observation maps to a load-bearing claim could not be established from the human notes alone; parent should reconcile against PR #9\u2019s current source/artifact. gpt-6-astra max orchestrator: S7 -l 8 57 +The 6 September human notes cover the bounded factual support of all six current manuscript references. Final generated wording, rendered citations, figures and pages still require human revie w. DESL-EPFL, Gerritsma and MP-EVData remain mapped watch candidates: inspect their exact supporting passages if they become load-bearing claims. Do not require Hadrian to repeat the completed ACN field inspection merely to satisfy a new format. 58 AsHeads up, you have less than 10% of your weekly limit left. Run /status for a breakdown. = Interacted with ~/root/finish_mcp_040/finish_runtime_tests\u201d * Ran Get-FileHash \u2018output/EV Charging Data.docx' -Algorithm SHA256; Get-ChildItem .staging/pr9_human_reconciliation_20260907 -Recurse -File | Select-Object Name,Length; git diff -- README.md i presentation/build research presentation.js presentation/build_parts/@@_prelude.js.part presentation/build parts/02_slides 06 10.js.part presentation/generate_sufficiency figures.py Algorithm Hash Path +215 lines (ctrl + t to view transcript) * Ran rg -n \u2018connected|Directly observed|39-session|funnel|closest|scenarios|Zhang|UrbanEV' presentation/build_parts presentation/landscape* -g \u2018*.part\u2019 -g \u2018*.json\u2019; Get-Content presentation/ i build_parts/@2_slides_@6_10.js.part -TotalCount 48; Get-Content presentation/build_research_presentation.js -TotalCount 65; Get-Content presentation/extract_presentation_sources.py -Tail 60 rg: presentation/landscape*: The filename, directory name, or volume label syntax is incorrect. (os error 123) presentation/build parts\\00_prelude.js.part:39: if (!Number.isFinite(value)) throw new Error(*Missing finite funnel count: power_profiles.${key} ); ~~ +171 lines (ctrl + t to view transcript) if __name__ == \u201c__main_\": main() = Both new PDFs are confirmed locally, and the passages support the narrowed claims. The presentation review also found two issues: slide 3 retained the old ACN/Zhang wordi",
+      "ocr_sources": [
+        "https://preview.redd.it/ctg0k0mcuynh1.png?width=140&height=111&auto=webp&s=f61f0128995b278df49177fdf70b53e93edfa5b2",
+        "https://preview.redd.it/ctg0k0mcuynh1.png?width=1619&format=png&auto=webp&s=fd7e8f6fb24ec8f8728aa04bef17f95e8e38af3c"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w98cnq",
+      "title": "Codex can set goals and limit tokens?",
+      "url": "https://www.reddit.com/r/codex/comments/1w98cnq/codex_can_set_goals_and_limit_tokens/",
+      "published_at": "2026-09-06T21:09:51+00:00",
+      "media_urls": [
+        "https://preview.redd.it/wtwftxfntynh1.jpeg?width=640&crop=smart&auto=webp&s=d738ffb2f5baf2aa2b16dd220f26876a6377c3c3",
+        "https://i.redd.it/wtwftxfntynh1.jpeg"
+      ],
+      "ocr_text": "current account allowance. I'll keep the next work focused on verified fixes and avoid more broad review loops. Checking current usage allowance G Pursuing goal 8.6M / 15M\ncurrent account allowance. I'll Keep the next work focused on verified fixes and avoid more broad review loops. Checking current usage allowance G Pursuing goal 8.6M /15M",
+      "ocr_sources": [
+        "https://preview.redd.it/wtwftxfntynh1.jpeg?width=640&crop=smart&auto=webp&s=d738ffb2f5baf2aa2b16dd220f26876a6377c3c3",
+        "https://i.redd.it/wtwftxfntynh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w98051",
+      "title": "Tibo incoming?",
+      "url": "https://www.reddit.com/r/codex/comments/1w98051/tibo_incoming/",
+      "published_at": "2026-09-06T20:56:42+00:00",
+      "media_urls": [
+        "https://preview.redd.it/syvsxnv8rynh1.png?width=640&crop=smart&auto=webp&s=28f6ec4cdecff6c088909c5a34ec132d0ad91b30",
+        "https://i.redd.it/syvsxnv8rynh1.png"
+      ],
+      "ocr_text": "Ryan @ @Gelassoldat - 54m Bo Fable, in most instances. Also, my usage has expired and won't reset for a while. O1 a 04 il 4.6K As (9) Tibo @ @thsottiaux - 46m {J Who says it won't reset in a while 99 Oe 133 \u00a9 238 ht 10K As\n@) Ryan @ @Gelassoldat - 54m [Jo Fable, in most instances. Also, my usage has expired and won't reset for a while. O1 tl 04 ht 4.6K As e Tibo @ @thsottiaux - 46m (Jr Who says it won't reset in a while 99 O 67 tl 33 \u00a9 238 ili 10K [Al &",
+      "ocr_sources": [
+        "https://preview.redd.it/syvsxnv8rynh1.png?width=640&crop=smart&auto=webp&s=28f6ec4cdecff6c088909c5a34ec132d0ad91b30",
+        "https://i.redd.it/syvsxnv8rynh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w97j8u",
+      "title": "Why not put Codex on Steam?",
+      "url": "https://www.reddit.com/r/codex/comments/1w97j8u/why_not_put_codex_on_steam/",
+      "published_at": "2026-09-06T20:38:40+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ge5y6ut6mynh1.png?width=140&height=65&auto=webp&s=c7d530643f7a88a271b4e5137368c7a28484a140"
+      ],
+      "ocr_text": "code_farmer -",
+      "ocr_sources": [
+        "https://preview.redd.it/ge5y6ut6mynh1.png?width=140&height=65&auto=webp&s=c7d530643f7a88a271b4e5137368c7a28484a140"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w97eci",
+      "title": "Tidemark (AI limits display app) now on Windows",
+      "url": "https://www.reddit.com/r/codex/comments/1w97eci/tidemark_ai_limits_display_app_now_on_windows/",
+      "published_at": "2026-09-06T20:33:29+00:00",
+      "media_urls": [
+        "https://preview.redd.it/pl5ohna0mynh1.png?width=640&crop=smart&auto=webp&s=7a32d1ab8b66e8bed40f13c8f4003b98bbe40e94",
+        "https://i.redd.it/pl5ohna0mynh1.png"
+      ],
+      "ocr_text": "ny ae czeen Be ows Ho K\u2122 carasaas 85% sms 100% srs O% sr @ = \u2014_ \u2014 0% sos 3% woorrourcin \u2014 $19 a 2S See 5 608 Daity images . m \u2019 $0.66 i\nq Tidemark Cc =.ax b-) Codex *& Claude K Kimi rus ro iter 85% srous 00% sous 0% Shou \u2014\u2014\u2014\u2014\u2014. << ' _ \u2014\u2014 on ee \u2014 on ee = mr . He _ceciaa uct non eroomiSaemaEs eroomiSaemaEs - Zai o NanoGPT DeepSeek = ZT y 0% shows 3% weerivinputtorens = $1. 9B Bere . \u2018Aweek \u2014= 100% resets in 4h 48 min g $0.33 . $0.66 Ceo: crema Recetas ip oa",
+      "ocr_sources": [
+        "https://preview.redd.it/pl5ohna0mynh1.png?width=640&crop=smart&auto=webp&s=7a32d1ab8b66e8bed40f13c8f4003b98bbe40e94",
+        "https://i.redd.it/pl5ohna0mynh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w97bcc",
+      "title": "it has been such a crazy ride since june",
+      "url": "https://www.reddit.com/r/codex/comments/1w97bcc/it_has_been_such_a_crazy_ride_since_june/",
+      "published_at": "2026-09-06T20:30:17+00:00",
+      "media_urls": [
+        "https://preview.redd.it/aggpm3r5hynh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=a573680a25463006f76169374d9f1cf5c0419080",
+        "https://preview.redd.it/aggpm3r5hynh1.png?width=621&format=png&auto=webp&s=287ea722b20254b0c69e5c4650a6dd437d99c83f"
+      ],
+      "ocr_text": "ie pay wows (TOTAL TOTAL TOKENS $6751.21 4,503,058,255 \u00a9 gpt-5.6-sol $2721.87 \u2014_\u2014_\u2014_\u2014_\u2014 1,522,937,244 4% claude-opus-5 $1001.17 es 916,293,064 \u00ae gpt-5.6-luna $30.65 \u2014 4 claude-fable-5 cae $1077.98 <a 545,581,757 % claude-opus-4-8 $434.78 \u2014 \u00ae commandcode/gpt-5 .6-luna ee $28.88 \u2014 496,626,481 \u00ae gpt-5.5 $478.37 \u2014 401,348,600 Z glm-5.2 $138.48 . 318,960,198 \u00a9 xai/grok-4.6 $201.79 236,595,166 \u00a9 gpt-6-astra $176.40 -_",
+      "ocr_sources": [
+        "https://preview.redd.it/aggpm3r5hynh1.png?width=621&format=png&auto=webp&s=287ea722b20254b0c69e5c4650a6dd437d99c83f"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w96r20",
+      "title": "Why is ASTRA drawing so worst from the tech demo \ud83d\ude2d",
+      "url": "https://www.reddit.com/r/codex/comments/1w96r20/why_is_astra_drawing_so_worst_from_the_tech_demo/",
+      "published_at": "2026-09-06T20:08:41+00:00",
+      "media_urls": [
+        "https://preview.redd.it/24vjr0eqiynh1.jpeg?width=640&crop=smart&auto=webp&s=51c72fee4829427a2398009bbb5a6e9e06991f13",
+        "https://i.redd.it/24vjr0eqiynh1.jpeg"
+      ],
+      "ocr_text": "ae? PSA Qvoneaa |o- y Ceceeeoece | * o S288983 7\" 2 @ercccsccoe@ 4% \u00a9 era. ~ | geeeeen |e ~ |@ 000000 Fe , \u00b0\nnplement fullscreen upgrade Ul ChatGPT is using your computer * Esc to cancel - eB 9 < - |e \u00ae& A Qvonuv\u00e94ady-7_\u2014 @ ceceeee oo a gy SSoones \u201d B|Lececcessece & YY & _ me Se hese a (UD Omleeeemei age Teols Brushes \u2014 I Shapes | Colors Copilot Layers (3 54 \u00ab Spx 1 1152 \u00ab 576px fO) 100% Qe 1 % GPT-\u00a2 { . a\u201c",
+      "ocr_sources": [
+        "https://preview.redd.it/24vjr0eqiynh1.jpeg?width=640&crop=smart&auto=webp&s=51c72fee4829427a2398009bbb5a6e9e06991f13",
+        "https://i.redd.it/24vjr0eqiynh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w96j7c",
+      "title": "Tibo's response to the banked reset usage",
+      "url": "https://www.reddit.com/r/codex/comments/1w96j7c/tibos_response_to_the_banked_reset_usage/",
+      "published_at": "2026-09-06T20:00:31+00:00",
+      "media_urls": [
+        "https://preview.redd.it/6hdbmwe9hynh1.png?width=320&crop=smart&auto=webp&s=a396b7419149e297085aabb56cdfce927f5c09d8",
+        "https://i.redd.it/6hdbmwe9hynh1.png"
+      ],
+      "ocr_text": "Ow. Opes bankerest sounds ret untyoulokat nurs @ \u2018use oh HAL he norma ely once, bt your it alte Set prbedbocy aay on doe that ak see? Tee. \u00b0 a Notthe case. Tere isnoitference between usage you get before or afer areaet\nArun @ OpenAl\u2019s banked reset sounds great until you look at the numbers @ You get roughly HALF the normal weekly allowance, but your next real reset still gets pushed back by 7 days. How does that make sense? CODEX PRO 2@x \u2014 MATCHED USAGE AUDIT equal 14-point slices BEFORE RESET AFTER RESET Weekly counter 85% > 99% e% > 14% Time elapsed Sh Om 2h @4m Unique responses 738 489 Responses per hour 145 236 Total input 114.41M 63.60\" Cached input 108.09\" 61.39M New input 6.32M 2.21M Output 465k 285k Astra calls 592 381 New agent spawns 1 5 Full-history forks @ 2 Retry incidents 10 3 9) Tibo g Not the case. There is no difference between usage you get before or after a reset. 6,698",
+      "ocr_sources": [
+        "https://preview.redd.it/6hdbmwe9hynh1.png?width=320&crop=smart&auto=webp&s=a396b7419149e297085aabb56cdfce927f5c09d8",
+        "https://i.redd.it/6hdbmwe9hynh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w96bfu",
+      "title": "GPT Astra is a Dad",
+      "url": "https://www.reddit.com/r/codex/comments/1w96bfu/gpt_astra_is_a_dad/",
+      "published_at": "2026-09-06T19:52:37+00:00",
+      "media_urls": [
+        "https://preview.redd.it/6xqta53mfynh1.png?width=140&height=96&auto=webp&s=90d812959e7e95de3889d4c64d1f640b2bf7d414",
+        "https://preview.redd.it/6xqta53mfynh1.png?width=454&format=png&auto=webp&s=5da135eccb8e5405e7e133457350b6444a0650cf"
+      ],
+      "ocr_text": "a > Bbx Coser to 30 anveniog\n> okay cool od > Bsk Codex to do anything gpt-6-astra high - ~/Desktop/|",
+      "ocr_sources": [
+        "https://preview.redd.it/6xqta53mfynh1.png?width=140&height=96&auto=webp&s=90d812959e7e95de3889d4c64d1f640b2bf7d414",
+        "https://preview.redd.it/6xqta53mfynh1.png?width=454&format=png&auto=webp&s=5da135eccb8e5405e7e133457350b6444a0650cf"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w95n4b",
+      "title": "The only thing Astra has denied",
+      "url": "https://www.reddit.com/r/codex/comments/1w95n4b/the_only_thing_astra_has_denied/",
+      "published_at": "2026-09-06T19:27:23+00:00",
+      "media_urls": [
+        "https://preview.redd.it/qg7njkcdbynh1.jpeg?width=640&crop=smart&auto=webp&s=778b84efcbe8f534271cb5e20d0ca3428371ff67",
+        "https://i.redd.it/qg7njkcdbynh1.jpeg"
+      ],
+      "ocr_text": "Worked for 50s | can normally open Chrome tabs. The issue here wasn\u2019t that the in-app browser couldn't render -it returned an explicit access restriction that | can\u2019t work around by switching browsers. | don\u2019t have a clear explanation for why was singled out. | should have said that plainly, rather than making it sound like your script or the website was the problem.\nWorked for 50s | can normally open Chrome tabs. The issue here wasn\u2019t that the in-app browser couldn't render -it returned an explicit access restriction that | can't work around by switching browsers. | don't have a clear explanation for why was singled out. | should have said that plainly, rather than making it sound like your script or the website was the problem.",
+      "ocr_sources": [
+        "https://preview.redd.it/qg7njkcdbynh1.jpeg?width=640&crop=smart&auto=webp&s=778b84efcbe8f534271cb5e20d0ca3428371ff67",
+        "https://i.redd.it/qg7njkcdbynh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w955kh",
+      "title": "I'm building a 3D robot workshop for kids based on real mechanics and electronics.",
+      "url": "https://www.reddit.com/r/codex/comments/1w955kh/im_building_a_3d_robot_workshop_for_kids_based_on/",
+      "published_at": "2026-09-06T19:09:40+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/c291ZDAzdTM4eW5oMX8Hy5rc010bwH_-MtSpcRAh-CrdKOjfyj8ZHXJc_DKY.png?width=640&crop=smart&auto=webp&s=5abe41b95fdf9a7f9d4fa55acf9394ffd55dbf69"
+      ],
+      "ocr_text": "\u00a9 Neo = \u2014 vue eon ner a s eS i = o. 930 : oo",
+      "ocr_sources": [
+        "https://external-preview.redd.it/c291ZDAzdTM4eW5oMX8Hy5rc010bwH_-MtSpcRAh-CrdKOjfyj8ZHXJc_DKY.png?width=640&crop=smart&auto=webp&s=5abe41b95fdf9a7f9d4fa55acf9394ffd55dbf69"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w950t7",
+      "title": "Thank you Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1w950t7/thank_you_astra/",
+      "published_at": "2026-09-06T19:04:52+00:00",
+      "media_urls": [
+        "https://preview.redd.it/87g0s2qc7ynh1.jpeg?width=640&crop=smart&auto=webp&s=840c1b2c84e837e768b112b68b69700783364ed2",
+        "https://i.redd.it/87g0s2qc7ynh1.jpeg"
+      ],
+      "ocr_text": "aderboard Tails Family Friends 3 & th Challenge a friend BEA left you a route. o Race it from anywhere. \u2014 a) BEST 1 MILE TOTAL TIME SNIFFARI TIME 29:42 61:44 8:50\naderboard Tails Family Friends 5 & (4 Challenge a friend BEA left you a route. \u00a9 Race it from anywhere. , cs rn l ae. ~~ y NN a \\ yy BEST 1 MILE TOTAL TIME \u00a7 SNIFFARI TIME 29:42 61:44 8:50",
+      "ocr_sources": [
+        "https://preview.redd.it/87g0s2qc7ynh1.jpeg?width=640&crop=smart&auto=webp&s=840c1b2c84e837e768b112b68b69700783364ed2",
+        "https://i.redd.it/87g0s2qc7ynh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w94uj7",
+      "title": "I think Astra got pretty good at making cinematic videos",
+      "url": "https://www.reddit.com/r/codex/comments/1w94uj7/i_think_astra_got_pretty_good_at_making_cinematic/",
+      "published_at": "2026-09-06T18:58:42+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/amZvNW83dzE2eW5oMSCfvFmtYeSv9pocnxMqGE37Dq2elXjVAR5IevCeL1FH.png?width=640&crop=smart&auto=webp&s=53c4b6c51d6916215f9ba4958f3fea221c60a36c"
+      ],
+      "ocr_text": "= F \u2014_ m j",
+      "ocr_sources": [
+        "https://external-preview.redd.it/amZvNW83dzE2eW5oMSCfvFmtYeSv9pocnxMqGE37Dq2elXjVAR5IevCeL1FH.png?width=640&crop=smart&auto=webp&s=53c4b6c51d6916215f9ba4958f3fea221c60a36c"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w933fr",
+      "title": "Artificial Analysis coding benchmarks: Astra x Sol x Terra x Luna x Claude x Grok - Intelligence x Price x Time charts",
+      "url": "https://www.reddit.com/r/codex/comments/1w933fr/artificial_analysis_coding_benchmarks_astra_x_sol/",
+      "published_at": "2026-09-06T17:54:31+00:00",
+      "media_urls": [
+        "https://preview.redd.it/6uh1elqloxnh1.png?width=640&crop=smart&auto=webp&s=7fd9720dc6c33d1938130de39e04cbba8fc642f5",
+        "https://i.redd.it/6uh1elqloxnh1.png"
+      ],
+      "ocr_text": "Coding intelligence vs. cost per task om . a aire 1 fee ae 7 Re Ce eg eee ee P0 feo ae Bae yo eae poo\nit a a 06 SEP 2026 Coding intelligence vs. cost per task OpenAl + Claude + Gemini + Grok + Muse * Same coding benchmark suite * Cost and runtime at each point @ GPT-5.6 Sol @ GPT-5.6 Luna M Opus 5 * Fable 5.1* % = =Gemini 3.1 Pro @ Muse Spark 1.3 @ GPT-5.6 Terra @ = GPT-6 Astra A Fable 5* + Gemini 3.8 Flash @ Grok 4.5 LINEAR - $0-$4 | LOGARITHMIC - ABOVE $4 75 5 ! Muse 1.3 (max) Astra (xhigh)t ; Fable 5.1* (max) $1.58 : 24.6 min Astra (medium)t Astra (high)t Smee | eae ean eae eal .17 + 23.7 min 10. | $2.19 - time N/A $2.89 - time N/A Opus 5 (high) Pra min | 3 o e Grok 4.5 (high) oe 7 | Soliman) a ao o Astra (low)t eben sca amma cpecneeeeete GH a SQ cleaeepesembeseseseesegeney AL s te} 65 - $1.41 - time N/A $1.62 - 12.8 min ees seteanenaetnatesflaseeenenenneeseenaeettes p00 cceereveceesneereeeeenee MB egere oe __peogecesssennsceesecneneestet? Fable 5* (max) _ aa) NN @~ _....... Gemini 3.8 Flash (high) e Se ence eS crac eae scesnnseneenapeeceecensneteneeperseeeee TM aaganent et\u201d $11.69 - 23.5 min 5 Y aaa $2.04 +11.9 min e ceaaunnseneepensnsersreee ete 4 ae Opis 5 (max) po OE eee 'Sol (high) Sol (xhigh) ee ; $8.94 - 24.2 min 60 - Luna (max) eee Qe ~ Sol (medium) $3.00 - 6.2 min ooeeevereee? $3.74 7.3 min} Fable 5* (medium) en \u2018ec $0.29 -8.0 min Sol (low) cee lll' Tarra (max) af $2.19 -5.0 min aN OODOBARQOSICIE OS $4.74 - 11.0 min $ .2min e- $1.29 - 3.5 min Pe eirectiaaaes $1.93 \u00bb 8.2 min Opus 5 (medium) Fable 5* (xhigh) | : ere $3.17 + 12.2 min | $8.53 -17.1 min : gO Opus 5 (low) _ | x 35D : . ae Tord (xhigh) $2.30 + 10.0 min Fable 5* (low) ) 6 Luna (xhigh) ae : F $3.17 - 8.2 min xe} \u00a9 $0.24 6.9 min Terra (high) $1.36 - 6.7 min | \u00a3 \u00a2 \u2018 \u2018 0? $1.14 - 6.0 min \u20ac 507 Luna (high) on | a $0.18 - 5.7 min _@~\u2014 Terra (medium) | Pd : o $0.67 - 4.0 min | D 45 - 7 - Cc 9 . a | 5 / Luna(medium) fo} @ $0.09 -3.2 min O : - wn 40 - 5 con | 7) : @\u2014 Terra (low) a> : $0.39 - 2.6 min | Oo : E37 i | = : Gemini 3.1 Pro (high) cc = *~~ $1.04 - 11.1 min | 4 : 5 30-: = : | < : : Luna (low) 25 - @\u2014 $0.04-1.7 min | | 20 T T T T T T T T } T T T T T 1 $0 $0.50 $1 $1.50 $2 $2.50 $3 $3.50 $4 $5 $6 $8 $10 $12 $14 Average API cost per coding task (USD) \u00a2 Linear to $4; logarithmic above $4 SAME TASK SUITE - DIFFERENT AGENT SOFTWARE Coding Agent Index v1.4: DeepSWE (113 tasks), Terminal-Bench v2.1 (89), SWE-Atlas-QnA (124); three attempts per task. 36 selected points. GPT > Codex; Claude > Claude Code; Gemini Flash > Opencode; Gemini Pro - Gemini CLI; Grok > Grok Build; Muse \u2014 Muse Code. Settings and versions vary. t Astra low, medium, high and xhigh: scores are approximate chart readings; runtime is N/A for all four. Costs are published chart labels. Other points use numeric AA rows. * Fable uses fallback. AA publishes only max for Fable 5.1 and xhigh/max for Muse Spark 1.3 in this coding dataset. API costs include caching; runtime excludes startup and grading. One continuous cost axis: f(x) = x up to $4; f(x) = 4 + 1.6 In(x/4) above $4. Y-axis starts at 20. Dotted lines connect effort levels only; similar scores do not establish equivalence. Sources: artificialanalysis.ai/agents/coding-agents - artificialanalysis.ai/articles/benchmarking-gpt-6-astra - Retrieved 06 Sep 2026",
+      "ocr_sources": [
+        "https://preview.redd.it/6uh1elqloxnh1.png?width=640&crop=smart&auto=webp&s=7fd9720dc6c33d1938130de39e04cbba8fc642f5",
+        "https://i.redd.it/6uh1elqloxnh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w922bh",
+      "title": "Anyone else got this before?",
+      "url": "https://www.reddit.com/r/codex/comments/1w922bh/anyone_else_got_this_before/",
+      "published_at": "2026-09-06T17:17:24+00:00",
+      "media_urls": [
+        "https://preview.redd.it/8vcc7z04oxnh1.png?width=640&crop=smart&auto=webp&s=6a6620eab7a0f7fcb3587f81e59c5f192c589dd1",
+        "https://i.redd.it/8vcc7z04oxnh1.png"
+      ],
+      "ocr_text": "our systems are thinking a bit more about this request before responding. > 1. Dismiss and keep waiting 2. Learn more\nOur systems are thinking a bit more about this request before responding. > 1. Dismiss and keep waiting 2. Learn more",
+      "ocr_sources": [
+        "https://preview.redd.it/8vcc7z04oxnh1.png?width=640&crop=smart&auto=webp&s=6a6620eab7a0f7fcb3587f81e59c5f192c589dd1",
+        "https://i.redd.it/8vcc7z04oxnh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w91rrq",
+      "title": "What a way to promote competition",
+      "url": "https://www.reddit.com/r/codex/comments/1w91rrq/what_a_way_to_promote_competition/",
+      "published_at": "2026-09-06T17:06:31+00:00",
+      "media_urls": [
+        "https://preview.redd.it/1fz3ezizlxnh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=c0a1477bf56b5a2e2c16c63001f75f764943b636",
+        "https://preview.redd.it/1fz3ezizlxnh1.png?width=561&format=png&auto=webp&s=377d60035569538a570897b2b0542e0ea0c71d9d"
+      ],
+      "ocr_text": "4\n\u201c4 Introducing anthropic/claude-sonnet-5 This is GPT-6, a new generation of intelligence. Astra is state-of-the- hard problem, a half-formed idea, or anything you've been meaning to Continue with current model Try anthropic/claude-sonnet-5 now",
+      "ocr_sources": [
+        "https://preview.redd.it/1fz3ezizlxnh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=c0a1477bf56b5a2e2c16c63001f75f764943b636",
+        "https://preview.redd.it/1fz3ezizlxnh1.png?width=561&format=png&auto=webp&s=377d60035569538a570897b2b0542e0ea0c71d9d"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w90lz4",
+      "title": "ChatGPT is dumber than ever. It literally doenst understand anything. 10+ attempts to generate a list of questions and it fails 100% of the time after acknowledging the correct way to do it.",
+      "url": "https://www.reddit.com/r/codex/comments/1w90lz4/chatgpt_is_dumber_than_ever_it_literally_doenst/",
+      "published_at": "2026-09-06T16:22:50+00:00",
+      "media_urls": [
+        "https://preview.redd.it/h2wcqbbjdxnh1.png?width=140&height=132&auto=webp&s=1b4de32c3ee58b1066c737293113186b77a1b8d0"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w90gl6",
+      "title": "Saw complaints about Codex\u2019s 5-hour limit, so I built an app that might help.",
+      "url": "https://www.reddit.com/r/codex/comments/1w90gl6/saw_complaints_about_codexs_5hour_limit_so_i/",
+      "published_at": "2026-09-06T16:17:24+00:00",
+      "media_urls": [
+        "https://preview.redd.it/x5tvi23hdxnh1.jpeg?width=640&crop=smart&auto=webp&s=b6b94a25d44089b9ff2b646bc07169d8f2d98c6f",
+        "https://i.redd.it/x5tvi23hdxnh1.jpeg"
+      ],
+      "ocr_text": "Eee ec Your Codex reset clock Cm : Current $-hour window a ce e a2 jedi ey ene een nat ts =) ae ty we 6 Se ee\n& for Codex aa Ge UsageLoop Dashboard | Settings About \u2014[_Locarfirst_ | ' keep your Codex reset clock running. \u2014\u2014\u2014 Your Codex reset clock Codex starts a new 5-hour reset clock when you use it, UsageLoop can start the next one for you while you're away, so the clock is already counting down when you come back. UsageLoop does not add quota or bypass limits, It uses one minimal request to start your normal next window. v Everything is set oe The countdown runs locally. UsageLoop will follow your schedule when this window ends, . Automation Current 5-hour window \u2018CLOCK RUNNING @ 3h 42 Weekly routine m Keeps windows rolling during the day, then pauses so tomorrow's first start stays Resets at 11:12 AM eruchodule: Codex confirms this reset time. The countdown runs locally with no Codex traffic. NEXT ACTION Current window stays active until it resets Last synced 7:29 AM S-hour window 18% used ODT URES Manage schedule Recent starts Sync usage Last automatic start Today at 4:30 AM - Successful Weekly allowance \u2018SAFE 34% 34% used - resets Sat 7:30 AM Safe and private Local and lightweight \u2018Quota protected \u2018Codex keeps its own sign-in. UsageLoop never reads Countdowns move on this PC with no Codex polling, \u2018Weekly allowance is checked, and unclear requests are credentials never retried Private by design - Local-first - No telemetry - No cloud upload UsageLoop vi.3.4",
+      "ocr_sources": [
+        "https://preview.redd.it/x5tvi23hdxnh1.jpeg?width=640&crop=smart&auto=webp&s=b6b94a25d44089b9ff2b646bc07169d8f2d98c6f",
+        "https://i.redd.it/x5tvi23hdxnh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w8zbz9",
+      "title": "I analyzed the allowance a banked Reset gives vs a normal weekly reset - OpenAI is giving us a half the \"allowance\" for banked resets but delays the next real reset by 7 days.",
+      "url": "https://www.reddit.com/r/codex/comments/1w8zbz9/i_analyzed_the_allowance_a_banked_reset_gives_vs/",
+      "published_at": "2026-09-06T15:34:24+00:00",
+      "media_urls": [
+        "https://preview.redd.it/4kg2vzxr5xnh1.png?width=320&crop=smart&auto=webp&s=5509a9b4142161b7e9d90aab2d89a9fc58c35503",
+        "https://i.redd.it/4kg2vzxr5xnh1.png"
+      ],
+      "ocr_text": "{CODEX PRO 28% \u2014 MATCHED USAGE AUOIT equal 1\u00e9-point slices BEFORE RESET AFTER RESET ook counter 35% = 98 eer Tine elapaed Sh te 2h te Unique responses 738 a9 Responses per hour as, 26 Total dnput aaa 62.60H Cached input 108.0381 61.39\" Nw Snpue 6.32 22210 output \u201c65k 285 astra calls 592 3 New agent spans 1 5 Full-history forks \u00b0 2 Retry dncidents 1 3\nCODEX PRO 2@x - MATCHED USAGE AUDIT equal 14-point slices BEFORE RESET AFTER RESET Weekly counter 85% > 99% 0% > 14% Time elapsed 5h @4m 2h @4m Unique responses 738 489 Responses per hour 145 236 Total input 114.41\" 63.60M Cached input 108.29\" 61.39M New input 6.32M, 2.21M Output 465k 285k Astra calls 592 381 New agent spawns 1 5 Full-history forks e 2 Retry incidents 10 3",
+      "ocr_sources": [
+        "https://preview.redd.it/4kg2vzxr5xnh1.png?width=320&crop=smart&auto=webp&s=5509a9b4142161b7e9d90aab2d89a9fc58c35503",
+        "https://i.redd.it/4kg2vzxr5xnh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w8zb3c",
+      "title": "Astra randomized video wall player (almost) one-shot C++ on pro.",
+      "url": "https://www.reddit.com/r/codex/comments/1w8zb3c/astra_randomized_video_wall_player_almost_oneshot/",
+      "published_at": "2026-09-06T15:33:25+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/OFXJAbTggcetSeEcp4xy935ug9WWKTdFEhE7MD7sN10.jpeg?width=320&crop=smart&auto=webp&s=d4c94e7663db281e4f820148ef67b8a16a259374"
+      ],
+      "ocr_text": "as",
+      "ocr_sources": [
+        "https://external-preview.redd.it/OFXJAbTggcetSeEcp4xy935ug9WWKTdFEhE7MD7sN10.jpeg?width=320&crop=smart&auto=webp&s=d4c94e7663db281e4f820148ef67b8a16a259374"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w8z2t1",
+      "title": "Anyone else finding Astra medium to not be reflective of these price differences compared to Sol max? Its draining my use faster then Sol max. (20$ plan)",
+      "url": "https://www.reddit.com/r/codex/comments/1w8z2t1/anyone_else_finding_astra_medium_to_not_be/",
+      "published_at": "2026-09-06T15:24:21+00:00",
+      "media_urls": [
+        "https://preview.redd.it/b0ec4tc04xnh1.jpeg?width=640&crop=smart&auto=webp&s=bca2ce1abdd68f0691667e9c1743dcd070fc75d3",
+        "https://i.redd.it/b0ec4tc04xnh1.jpeg"
+      ],
+      "ocr_text": "\u00a9 gpt-6-astra [medium] 73% +3% | Avg cost $4.38 Outtok 20k Steps 26 \u00a9 gpt-5.6-sol [max] 73% +3% | Avg cost $6.46 Outtok60k Steps 61\n\u00a9 gpt-6-astra [medium] 73% +3% | Avg cost $4.38 Outtok 20k Steps 26 @ gpt-5.6-sol [max] 73% +3% rr | Avg cost $6.46 Outtok60k Steps 61",
+      "ocr_sources": [
+        "https://preview.redd.it/b0ec4tc04xnh1.jpeg?width=640&crop=smart&auto=webp&s=bca2ce1abdd68f0691667e9c1743dcd070fc75d3",
+        "https://i.redd.it/b0ec4tc04xnh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w8yp92",
+      "title": "This sh*t is too good.",
+      "url": "https://www.reddit.com/r/codex/comments/1w8yp92/this_sht_is_too_good/",
+      "published_at": "2026-09-06T15:09:55+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ujnn9hg91xnh1.png?width=640&crop=smart&auto=webp&s=b8d97b00c60ba154d043492d2c1c0622e2530a0b",
+        "https://i.redd.it/ujnn9hg91xnh1.png"
+      ],
+      "ocr_text": "\\' oY ae a \u2014\u2014 a Rt Pree No ale: S, Nn melas \u00a9 \u00a9 SS eee \u2014 TSK\n\\ ' i ) nm 4 . AR ee as we Bo) Yee, WwAW 1 Ty * : ! Ce \u2014_ an a at : \\ ps) \u2018 D F . ~~ \u201chy k ae Wes iN 7 \u20184 \u201cey A) * \\ art \\ \\ \u201cA ea AS EL WN a CA = cy! es < kt ae es \u00a5 ee | Fee Va | S22 ~P . ied eB We \u2018Ss 4. OTe 5a ~~ ee am \u2018 \u2019 = ee A ey. \u2018EL 8: BS pF eh. ae ae ee ss a > es o Hin y. @ince Pe a | a . eae 4 SAN Ere lc Ly , . a es a %: ORR os a y . 7. an, Ses De \u2018 i : a Be AS; Mt a M | >, 2a ee eee oes mid . me 27 be ae eh eg a ' \u00bb Wh! \" SEP 9 en sere ~ SACL . al - tA ESERIES a age 7 ke . ote a \u201cae ats \u201d > eta : \u2018 \\ \u2014 ea & Sori se ; if \u00a5 \u00b0 Og OE Ee ee ec: - aay ee ee \u2018 ea _ \u00ab RD 3 ery Collie sn) ; \u201c@ . \u2122 Rael \u2019 7 a + Se Oe",
+      "ocr_sources": [
+        "https://preview.redd.it/ujnn9hg91xnh1.png?width=640&crop=smart&auto=webp&s=b8d97b00c60ba154d043492d2c1c0622e2530a0b",
+        "https://i.redd.it/ujnn9hg91xnh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1w8y4ul",
+      "title": "I built a first-person zombie survival game with GPT-6-Astra & Pixelfork",
+      "url": "https://www.reddit.com/r/codex/comments/1w8y4ul/i_built_a_firstperson_zombie_survival_game_with/",
+      "published_at": "2026-09-06T14:47:16+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/MnRnczEwZjh4d25oMYWqpQClOpjesQMO9hKHmWGnJCfc7kJaPIaxsGqaAVdz.png?width=640&crop=smart&auto=webp&s=4f2cd7894f0571c61539ef1f266c57332b7a550c"
+      ],
+      "ocr_text": "| wave oa\u201d a = at i a Ter abel TTL | Lo se ae ATA, Ties ea ae",
+      "ocr_sources": [
+        "https://external-preview.redd.it/MnRnczEwZjh4d25oMYWqpQClOpjesQMO9hKHmWGnJCfc7kJaPIaxsGqaAVdz.png?width=640&crop=smart&auto=webp&s=4f2cd7894f0571c61539ef1f266c57332b7a550c"
+      ],
+      "ocr_errors": []
+    }
+  ],
+  "errors": []
+}
