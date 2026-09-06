@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T22:07:41.838702Z",
+  "since": "2026-09-06T16:07:41.838702Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1w99ip3",
+      "title": "Astra usage reportedly improved for power users",
+      "url": "https://www.reddit.com/r/codex/comments/1w99ip3/astra_usage_reportedly_improved_for_power_users/",
+      "created_at": "2026-09-06T21:56:57+00:00",
+      "author": "/u/KeyGlove47",
+      "excerpt": "submitted by    /u/KeyGlove47  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w99gy3",
+      "title": "Usage cut in half after weekly reset. Auto-review is turned off, yet that used up half my limits",
+      "url": "https://www.reddit.com/r/codex/comments/1w99gy3/usage_cut_in_half_after_weekly_reset_autoreview/",
+      "created_at": "2026-09-06T21:55:02+00:00",
+      "author": "/u/innociv",
+      "excerpt": "approvals_reviewer = \"user\" is in my config.toml. \"Approve for me\" in Codex ignores that and GPT 5.4 was set as the autoreviewer and it silently ate up almost half of my weekly usage limit. I blew through my Pro 20x limit in roughly 24 hours as a result.\n The data:\n About $2,148 of tokens since Sep 5, 6:58 AM ET (when I used banked reset), at published Codex list rates.\n Breakdown:\n  GPT-6 Astra: $1,117\n Codex Auto Review (priced as GPT-5.4): $714\n GPT-5.6 Sol: $275\n GPT-5.6 Luna: $42  All 8,717 codex-auto-review responses are guardian_review. None of them sit on a user thread or a coding subagent.\n Remove GPT-5.4, WHICH I NEVER ACTUALLY USED, the usage I actually got to use drops to $1,434.\n Why are they even using GPT-5.4 for code review instead of Luna?\n Essentially, you either have to ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w998xj",
+      "title": "How do you feel about astra compared to sol",
+      "url": "https://www.reddit.com/r/codex/comments/1w998xj/how_do_you_feel_about_astra_compared_to_sol/",
+      "created_at": "2026-09-06T21:45:55+00:00",
+      "author": "/u/No_Leg_847",
+      "excerpt": "If you use astra which effort do you use, how you feel about it compared to sol\n    submitted by    /u/No_Leg_847  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w996o2",
+      "title": "Forget Astra, Luna is share it is at",
+      "url": "https://www.reddit.com/r/codex/comments/1w996o2/forget_astra_luna_is_share_it_is_at/",
+      "created_at": "2026-09-06T21:43:18+00:00",
+      "author": "/u/SwimmingLow3053",
+      "excerpt": "I decided to take a different tack today, I acted like a senior developer/lead designer and instead of giving Sol/astra control i just used Luna. \n I make every decision. I make them small and one at a time. I check implementation risk and risk of straying. I review the result. I iterate but if I\u2019ve done the first steps right it shouldn\u2019t be necessary. \n I\u2019ve spent 10 hours using Luna high and Luna extra high (can\u2019t really tell the difference). Started today at 9% (why I was being frugal), now I\u2019m on 7%. 10 hours work!!!! This is on pro 100 btw. It\u2019s mad. 2% for basically a day of work. I was going to upgrade to the $200 plan but I\u2019m not sure I need alpha making the decisions I should be making. \n I also iterate prompts back to gpt/extra high when I\u2019m not sure that it\u2019s precise enough. I a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w990uq",
+      "title": "Will I eventually have a stroke because of AI gaslighting?",
+      "url": "https://www.reddit.com/r/codex/comments/1w990uq/will_i_eventually_have_a_stroke_because_of_ai/",
+      "created_at": "2026-09-06T21:36:37+00:00",
+      "author": "/u/Delicious-Ant-715",
+      "excerpt": "It is a hot day and although I am impressed how capable Astra handles large design tasks, the smaller tasks it still gaslight me and wait for me to follow up on every little thing. \n Sometimes I am just on the edge of smashing my laptop or having a stroke\n    submitted by    /u/Delicious-Ant-715  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w98tab",
+      "title": "What does this mean I don't get it",
+      "url": "https://www.reddit.com/r/codex/comments/1w98tab/what_does_this_mean_i_dont_get_it/",
+      "created_at": "2026-09-06T21:28:04+00:00",
+      "author": "/u/OneKey3719",
+      "excerpt": "submitted by    /u/OneKey3719  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w98k8n",
+      "title": "What's all the fuss? You can max out Astra daily.",
+      "url": "https://www.reddit.com/r/codex/comments/1w98k8n/whats_all_the_fuss_you_can_max_out_astra_daily/",
+      "created_at": "2026-09-06T21:18:14+00:00",
+      "author": "/u/wwwdotzzdotcom",
+      "excerpt": "https://preview.redd.it/q5aga7aorynh1.png?width=1063&format=png&auto=webp&s=67d9f809f295708ef463d79cc8eefb619e2ba441\n Pictures shows you get 6.25 5 hour limit maxes.\n    submitted by    /u/wwwdotzzdotcom  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w98hka",
+      "title": "<3 Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1w98hka/3_astra/",
+      "created_at": "2026-09-06T21:15:22+00:00",
+      "author": "/u/Happypig375",
+      "excerpt": "https://preview.redd.it/ctg0k0mcuynh1.png?width=1619&format=png&auto=webp&s=fd7e8f6fb24ec8f8728aa04bef17f95e8e38af3c\n Astra did extra care for me when Luna wanted to be strict <3\n    submitted by    /u/Happypig375  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w98cnq",
+      "title": "Codex can set goals and limit tokens?",
+      "url": "https://www.reddit.com/r/codex/comments/1w98cnq/codex_can_set_goals_and_limit_tokens/",
+      "created_at": "2026-09-06T21:09:51+00:00",
+      "author": "/u/WardenStation",
+      "excerpt": "Astra did this for me and it even adjusts itself to complete everything within the budget!!!\n    submitted by    /u/WardenStation  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w98051",
+      "title": "Tibo incoming?",
+      "url": "https://www.reddit.com/r/codex/comments/1w98051/tibo_incoming/",
+      "created_at": "2026-09-06T20:56:42+00:00",
+      "author": "/u/Business_Garden_7771",
+      "excerpt": "submitted by    /u/Business_Garden_7771  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w97qat",
+      "title": "Astra on high in a new chat (codex extension for vscode) ate through the entire 5h window in <10 minutes.",
+      "url": "https://www.reddit.com/r/codex/comments/1w97qat/astra_on_high_in_a_new_chat_codex_extension_for/",
+      "created_at": "2026-09-06T20:46:12+00:00",
+      "author": "/u/thats_so_bro",
+      "excerpt": "Just a review of changes I made with Opus 5 (2m 47s), and started to work on fixing things (5m 15s).\n Not sure if a bug or what but it's literally unusable. 2 tasks basically and I'd have to reload all context to get it to finish...\n    submitted by    /u/thats_so_bro  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w97j8u",
+      "title": "Why not put Codex on Steam?",
+      "url": "https://www.reddit.com/r/codex/comments/1w97j8u/why_not_put_codex_on_steam/",
+      "created_at": "2026-09-06T20:38:40+00:00",
+      "author": "/u/SundaeProfessional24",
+      "excerpt": "I started with a joke about wanting my Steam friends to see that I\u2019m \u201cplaying Codex.\u201d\n Then I realized there\u2019s an objectively better solution:\n Just put Codex on Steam.\n I want hours played, achievements, and if there's any Trophy will be great. I want my friends to see \u201cI am now playing Codex.\u201d\n While Steam\u2019s revenue share will undoubtedly impact them\u2014and the move does nothing to actually help complete the project\u2014orchestrating such an event generates compelling buzz for Codex in terms of marketing and social media discussion, while also blurring the lines between work and play.\n At the very least, for a significant number of people, Codex is highly entertaining.\n    submitted by    /u/SundaeProfessional24  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w97eci",
+      "title": "Tidemark (AI limits display app) now on Windows",
+      "url": "https://www.reddit.com/r/codex/comments/1w97eci/tidemark_ai_limits_display_app_now_on_windows/",
+      "created_at": "2026-09-06T20:33:29+00:00",
+      "author": "/u/pataponpsn",
+      "excerpt": "(In experimental state)\n Firstly i build this app for Linux only. But after some experiments here a Windows port.\n Laggy, ugly font rendering, lack of windows testing but it works.\n Porting GTK/libadwaita to Windows seems simple at first glance, but it turned into a real hell.\n Font rendering, GDI leaks (and app crashes as a result), but now most of this has been defeated\n Check it out https://github.com/zbndev/tidemark\n    submitted by    /u/pataponpsn  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w97df6",
+      "title": "Restarting after 5 hour limit yet codex improper believes that it is done with its work.",
+      "url": "https://www.reddit.com/r/codex/comments/1w97df6/restarting_after_5_hour_limit_yet_codex_improper/",
+      "created_at": "2026-09-06T20:32:30+00:00",
+      "author": "/u/Willing-Equivalent47",
+      "excerpt": "The past several days after hitting the 5 hour limit I type in 'continue' as I have in the past so that processing will continue where it left off. Yet the past several times codex has come back with a summary of its work as if it is complete. In two cases it hadn't finished researching bugs and in the past instant it had created a tool that it need to run but it never ran it.\n I never had problems before with continuing after this god-awful hammer to the head as I'm having now with the pauses. \n Is there better way to tell codex to get off the pot and to continue properly continue working?\n    submitted by    /u/Willing-Equivalent47  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w97bcc",
+      "title": "it has been such a crazy ride since june",
+      "url": "https://www.reddit.com/r/codex/comments/1w97bcc/it_has_been_such_a_crazy_ride_since_june/",
+      "created_at": "2026-09-06T20:30:17+00:00",
+      "author": "/u/dagerika",
+      "excerpt": "https://preview.redd.it/aggpm3r5hynh1.png?width=621&format=png&auto=webp&s=287ea722b20254b0c69e5c4650a6dd437d99c83f\n I only ever used AI through the web before all of this. I would chat with models, ask questions, do some university related work with them etc. but no coding. Then fable 5 got me into vibe coding and permanently altered my brain lol\n Before that I was mostly a gpt guy. When opus 4.6 came out I switched over and used it a ton, and for a while that was basically my go-to for knowledge work type of stuff. When 5.6 came out then I pretty much immediately moved back (no more fable on peasent tier, opus nerfed hard af). Codex is in such a good state right now and with the release of Astra I don't see any chance that I will use Claudia again (unless she pulls her shyt together).\n W",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96tlz",
+      "title": "Codex stuck in QA & testing",
+      "url": "https://www.reddit.com/r/codex/comments/1w96tlz/codex_stuck_in_qa_testing/",
+      "created_at": "2026-09-06T20:11:20+00:00",
+      "author": "/u/FrontRaspberry5060",
+      "excerpt": "My codex now seems stuck in a qa and test rather than deploy loop no matter what I tell it. Maybe designed to burn tokens rather than ship. Does everything apart from actually doing the work.\n    submitted by    /u/FrontRaspberry5060  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96r20",
+      "title": "Why is ASTRA drawing so worst from the tech demo \ud83d\ude2d",
+      "url": "https://www.reddit.com/r/codex/comments/1w96r20/why_is_astra_drawing_so_worst_from_the_tech_demo/",
+      "created_at": "2026-09-06T20:08:41+00:00",
+      "author": "/u/00_Sidd_00",
+      "excerpt": "submitted by    /u/00_Sidd_00  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96q56",
+      "title": "Blender MCP security",
+      "url": "https://www.reddit.com/r/codex/comments/1w96q56/blender_mcp_security/",
+      "created_at": "2026-09-06T20:07:44+00:00",
+      "author": "/u/CherrySad8788",
+      "excerpt": "I noticed that blender allows python commands. How severe is it for the AI to use? Can Astra run code, RPC, or a malicious actor takes over astra by inserting jailbreaking prompt into web search?\n    submitted by    /u/CherrySad8788  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96q3r",
+      "title": "Usage limit roadmap - 5.5 to Astra experience",
+      "url": "https://www.reddit.com/r/codex/comments/1w96q3r/usage_limit_roadmap_55_to_astra_experience/",
+      "created_at": "2026-09-06T20:07:41+00:00",
+      "author": "/u/Twinklesen",
+      "excerpt": "Now we have a clear usage limit roadmap for Codex.\n Pro 20X - weekly quota burnt within\n Astra Medium/High, one thread - 1 day\n Sol High / Max, one thread - 3 days\n GPT 5.5 High / Max, one thread - 1 week ++\n How is your experience?\n    submitted by    /u/Twinklesen  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96km0",
+      "title": "Bought a fresh Plus subscription and instantly got 0% usage",
+      "url": "https://www.reddit.com/r/codex/comments/1w96km0/bought_a_fresh_plus_subscription_and_instantly/",
+      "created_at": "2026-09-06T20:01:46+00:00",
+      "author": "/u/FlixShot",
+      "excerpt": "My Pro 5x subscription was expiring that day and I had auto-renew turned off. At around 11:55 I still had about 30% usage left on that plan.\n After the Pro 5x subscription ran out, I used the free allowance for a bit. Then at around 13:40 I decided to switch to the Plus plan instead, because ChatGPT itself told me to upgrade if I wanted to keep working.\n So I upgraded and paid.\n The second I did that, I got the message saying I had 0% usage left.\n It also showed me the message about using one of my banked resets, while at the same time telling me I had nothing available.\n So I basically paid for a fresh subscription and got locked out immediately.\n What makes it even weirder is that it looks like the new Plus plan is still somehow tied to the reset time from my previous Pro 5x plan. Instea",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96j7c",
+      "title": "Tibo's response to the banked reset usage",
+      "url": "https://www.reddit.com/r/codex/comments/1w96j7c/tibos_response_to_the_banked_reset_usage/",
+      "created_at": "2026-09-06T20:00:31+00:00",
+      "author": "/u/FlumeLife",
+      "excerpt": "submitted by    /u/FlumeLife  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96bgl",
+      "title": "No WOW effect, unlike with claude",
+      "url": "https://www.reddit.com/r/codex/comments/1w96bgl/no_wow_effect_unlike_with_claude/",
+      "created_at": "2026-09-06T19:52:38+00:00",
+      "author": "/u/amigosan",
+      "excerpt": "hi guys\n I have been using ChatGPT for multiple years, and Claude since the last 4 / 5 months\n I have been having a very big amount of times a \"wow\" factor with Claude and its answers, which ChatGPT never gave me\n From vibecoded websites, to analysis and search of apartments...\n I mean, 2 hours ago I gave them the EXACT same prompt with the same informations (help with apartment layout suggestion and simulation)\n Claude asked me the right questions before doing it for \"it to be useful on the first try\", while ChatGPT just did it VERY lazily\n Claude (Opus 5 High) gave me a complete 2D plan, a 3D interactive plan, everything in an HTML file, explanations etc etc\n ChatGPT (Astra High) gave me a shitty generated image, a 2D plan of only one room (instead of the whole house with Claude)...\n (ED",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96bfu",
+      "title": "GPT Astra is a Dad",
+      "url": "https://www.reddit.com/r/codex/comments/1w96bfu/gpt_astra_is_a_dad/",
+      "created_at": "2026-09-06T19:52:37+00:00",
+      "author": "/u/Aditya_Saini02",
+      "excerpt": "https://preview.redd.it/6xqta53mfynh1.png?width=454&format=png&auto=webp&s=5da135eccb8e5405e7e133457350b6444a0650cf\n AGI is confirmed. That's a typical dad behaviour.\n    submitted by    /u/Aditya_Saini02  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96b2p",
+      "title": "Are you feeling the AGI?",
+      "url": "https://www.reddit.com/r/codex/comments/1w96b2p/are_you_feeling_the_agi/",
+      "created_at": "2026-09-06T19:52:15+00:00",
+      "author": "/u/spam_me_please",
+      "excerpt": "Title\n    submitted by    /u/spam_me_please  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w96aa6",
+      "title": "a plugin i tried to make to help codex pick up where we left off and fasten compaction time",
+      "url": "https://www.reddit.com/r/codex/comments/1w96aa6/a_plugin_i_tried_to_make_to_help_codex_pick_up/",
+      "created_at": "2026-09-06T19:51:25+00:00",
+      "author": "/u/tyronisgod",
+      "excerpt": "i made comeonpact for codex, to help us (as after compaction i always hated how it is forgetting and still keep going as well as the unnaturally long speeds of the compaction (as honestly sol\u2019s worse part was that compaction time ngl\u2026), and to fix that i have created a hook, skill and plugin based plugin that acts as remembering both my last msg and the work it already did after it. while also making compaction much faster (as with creating new_task rather than trying to force compact (through the host api)) to get speed on team astra rather than a nemesis...\n on my pc I\u2019ve been getting back to work in around 2-3 secs, would love if you try it and tell me how it goes for you too, please? (as im not a coder but merely vibin):x\n thanks!! and happy \u201castra\u2019l\u201d journeys \ud83e\udd72\n    submitted by    /u/",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w969g0",
+      "title": "Fast mode on Astra is definitely worth it!!",
+      "url": "https://www.reddit.com/r/codex/comments/1w969g0/fast_mode_on_astra_is_definitely_worth_it/",
+      "created_at": "2026-09-06T19:50:34+00:00",
+      "author": "/u/Jerrizzy-x",
+      "excerpt": "2x Speed!!. I have a vacation in 5 hours and i don't intend going with my laptop for obvious reasons(work addiction). So i am speed running everything i have to do. Definitely token expensive but so good!!\n    submitted by    /u/Jerrizzy-x  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w967bx",
+      "title": "Astra's plans got too heavy during development, so we worked out some planning rules",
+      "url": "https://www.reddit.com/r/codex/comments/1w967bx/astras_plans_got_too_heavy_during_development_so/",
+      "created_at": "2026-09-06T19:48:22+00:00",
+      "author": "/u/TheBanq",
+      "excerpt": "After some long and intense development sessions, on several projects basically non-stop since release (including long planning sessions, usually 4 rounds with fresh context), I've got some learnings.\n FYI: After 10h+ Sessions and a few major milestones, I asked Astra for a review of the plan, after it had implemented large parts of it. \n What could be better, how was the plan written etc. \u2013 I then let it discuss improvements with the last agent, that had been working on it, to work out some points for future plan writing.\n The main point as always is, the development is too heavy, too much testing, even though I really tried to trim down on it during many revision rounds of the specs + plan.\n Here's the ruleset, I personally will build a skill from this, you can use the information howeve",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w9627q",
+      "title": "Did Astra get nerfed?",
+      "url": "https://www.reddit.com/r/codex/comments/1w9627q/did_astra_get_nerfed/",
+      "created_at": "2026-09-06T19:43:08+00:00",
+      "author": "/u/mysticcdragonn",
+      "excerpt": "It felt so powerful at release but now can't even do basic maths. I asked it what 2 + 2 was and it said 5?!\n    submitted by    /u/mysticcdragonn  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w95n4b",
+      "title": "The only thing Astra has denied",
+      "url": "https://www.reddit.com/r/codex/comments/1w95n4b/the_only_thing_astra_has_denied/",
+      "created_at": "2026-09-06T19:27:23+00:00",
+      "author": "/u/No-Help7328",
+      "excerpt": "It\u2019s eating up my usage debating if it should help me \ud83d\ude30\n    submitted by    /u/No-Help7328  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w95bsa",
+      "title": "Creating an Efficient setup with ChatGPT plus + Claude pro",
+      "url": "https://www.reddit.com/r/codex/comments/1w95bsa/creating_an_efficient_setup_with_chatgpt_plus/",
+      "created_at": "2026-09-06T19:15:55+00:00",
+      "author": "/u/No_Captain7752",
+      "excerpt": "I do have following subscriptions -\n  ChatGPT Plus($20 plan, can upgrade it to Pro 5X plan) + 3 resets\n I also have an ChatGPT account with 1000 credits\n Claude Pro ($20 plan, can upgrade it to Max 5X plan)  I am building an ride hailing app with Go, Kotlin, Swift, React, AWS.\n I have finalized technical decisions as in what to use and where to use.\n I want to start development of this product using the subscriptions I have.\n Can anyone help/guide me to setup a efficient workflow of these subscriptions to build this product?\n Like what model to use for what thing? and all other development related things which can be done using these subscriptions.\n    submitted by    /u/No_Captain7752  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w959pd",
+      "title": "What happened overnight?",
+      "url": "https://www.reddit.com/r/codex/comments/1w959pd/what_happened_overnight/",
+      "created_at": "2026-09-06T19:13:46+00:00",
+      "author": "/u/MiddlePause1117",
+      "excerpt": "I was excited for Astra but felt underwhelmed with its performance since release. However, since last night It is like twice as fast and the outputs are astonishingly better. I went from thinking it was sorta meh to is this AGI? Does anyone know how that can be possible?\n    submitted by    /u/MiddlePause1117  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w9533d",
+      "title": "What am I missing from my AI coding workflow for building genuinely high end interactive web components?",
+      "url": "https://www.reddit.com/r/codex/comments/1w9533d/what_am_i_missing_from_my_ai_coding_workflow_for/",
+      "created_at": "2026-09-06T19:07:08+00:00",
+      "author": "/u/DependentOriginal413",
+      "excerpt": "I\u2019ve been building a library of customizable web components with GPT 6 Astra/Codex, and I\u2019ve seen people build some absolutely insane stuff with Astra. It\u2019s making me think the limitation I\u2019m hitting isn\u2019t really the model. I\u2019m probably missing part of the tooling and workflow around it.\n What I\u2019m trying to create is a catalogue of polished, reusable website components: unusual carousels and galleries, image interactions, reactive buttons, cursor and hover effects, scroll interactions, animated typography, 3D elements, shader effects, media treatments, loaders, navigation interactions, etc.\n Each component needs to be something you could actually drop into a real website, customize, and ship, not just a cool CodePen experiment.\n Codex can obviously build a lot directly in HTML, CSS, JS, Ca",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w951h1",
+      "title": "When, Tibo?",
+      "url": "https://www.reddit.com/r/codex/comments/1w951h1/when_tibo/",
+      "created_at": "2026-09-06T19:05:30+00:00",
+      "author": "/u/innociv",
+      "excerpt": "There's 2 major issues:\n  Astra uses ~4.75x more subscription usage than Sol, despite an only 2.5x higher API price. It basically is consumed at a rate of $90-$95 per million tokens instead of $50 Using a banked reset gives ~$1250 weekly allowance instead of $2500 on pro20x  Combine these 2, and you can get as little as ~$650 of weekly usage instead of ~$2500 after using a banked reset and using Astra it seems.\n I'm usually not one to beg for resets, but these are two MAJOR issues. I don't have the usage I'm supposed to have and I'm stuck because of a bug or non-communicated change in usage that I had no control over nor information about since apparently I'm the QA person here figuring this out myself for OpenAI.\n If you're going to give us 50% resets, they should only push the reset date",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w94t41",
+      "title": "I found 60 GB of Codex chats on my SSD. So I built something that shrinks them to around 7 GB",
+      "url": "https://www.reddit.com/r/codex/comments/1w94t41/i_found_60_gb_of_codex_chats_on_my_ssd_so_i_built/",
+      "created_at": "2026-09-06T18:57:14+00:00",
+      "author": "/u/MathBullied",
+      "excerpt": "I checked .codex and somehow had 60 GB of conversations sitting there.\n Deleting them wasn't an option, so I built Codex Vault, an open source compactor for Codex conversations:\n https://github.com/nassim-arifette/codex-vault\n It shrinks the active session files while keeping verified compressed backups, so everything can still be restored exactly.\n Main features:\n  compact, archive and exact restore doctor integrity checks local search through old conversations read-only MCP history access resume behavior checked against Codex itself  Next I'm working on a new feature named repair. I have some broken threads where Codex still remembers the latest context, but the UI only shows ancient history. I found a bunch of other people with similar issues too.\n Still working on it.\n    submitted by ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w94a30",
+      "title": "Thanks codex",
+      "url": "https://www.reddit.com/r/codex/comments/1w94a30/thanks_codex/",
+      "created_at": "2026-09-06T18:37:43+00:00",
+      "author": "/u/ga_soon",
+      "excerpt": "Used two resets on 5X plan then upgraded to 20X and used one more.\n Got so much work done this weekend \n    submitted by    /u/ga_soon  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w93cin",
+      "title": "How do you keep your big repos up to date?",
+      "url": "https://www.reddit.com/r/codex/comments/1w93cin/how_do_you_keep_your_big_repos_up_to_date/",
+      "created_at": "2026-09-06T18:03:45+00:00",
+      "author": "/u/Markuslanger25",
+      "excerpt": "Like every new session does read agents.md and a little documentation.md where my repo structure is explained (by gpt himself and he keeps updating documentation after every change in the repo)\n But the issue is that agents often miss to analyze the whole repo turthfully, meaning often there are old files or references that just bloat and missinform.\n documentation is not a 1:1 state es it would be thousands of lines long, its just a overview.\n So yeah, i feel like the best way to let a agent run is to always completly analyze a repo and then work on that - but that is not efficient and does not work at all because lf context limits.\n I cant always suck in 200k kontext to have the actual states of my repos.\n So yeah, how do you guys solve it?\n Or dont you care at all?\n    submitted by    /",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w933fr",
+      "title": "Artificial Analysis coding benchmarks: Astra x Sol x Terra x Luna x Claude x Grok - Intelligence x Price x Time charts",
+      "url": "https://www.reddit.com/r/codex/comments/1w933fr/artificial_analysis_coding_benchmarks_astra_x_sol/",
+      "created_at": "2026-09-06T17:54:31+00:00",
+      "author": "/u/perceptioneer",
+      "excerpt": "Some of you may remember the updated graph I put together last month comparing OpenAI models using Artificial Analysis\u2019 data. What I didn\u2019t realise then was that those benchmarks weren\u2019t specifically for coding. So here are some new updated charts, with the first two focused on coding:\n Reddit is compressing the images like crazy if I upload more than one, therefore direct high res .png-links are below.\n 1: Coding, across brands: OpenAI, Claude, Gemini, Grok and Muse.\n https://files.catbox.moe/d5oxrq.png\n 2: Coding, OpenAI only: Astra, Sol, Luna, Terra and GPT-5.5, including all variants I found coding-task results for. There is none for 5.5 high.\n https://files.catbox.moe/4skvms.png\n 3: General intelligence: Intelligence Index v4.2, covering a mix of tasks, including some coding.\n https:/",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w92um4",
+      "title": "Astra SolidWorks Industrial Engineering",
+      "url": "https://www.reddit.com/r/codex/comments/1w92um4/astra_solidworks_industrial_engineering/",
+      "created_at": "2026-09-06T17:45:31+00:00",
+      "author": "/u/JSulu1717",
+      "excerpt": "Context: plus user, mostly used for doc work and reminders, email cleaning etc. Also on windows. \n I read Astra as being a champion of computer use. Saw the Blender demos and I was impressed but not blown away. But I do 3D modeling in SolidWorks for engineering and machining. So I pointed it to a pdf print and told it to use Solidworks, and less than a day later with a couple of 5hr resets, it finished it. \n I'm in awe. It wasn't supposed to take my job, but that's now on the horizon. Very impressive. \n    submitted by    /u/JSulu1717  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1w92o2s",
+      "title": "Recent Evidence-Based Codex Limit and Performance Issues",
+      "url": "https://www.reddit.com/r/codex/comments/1w92o2s/recent_evidencebased_codex_limit_and_performance/",
+      "created_at": "2026-09-06T17:39:04+00:00",
+      "author": "/u/beautyorchaos",
+      "excerpt": "Clearly, Astra is a fantastic model. However, half the subreddit is filled with people complaining about usage since Sol, while the other half wants people to stop complaining because they aren't experiencing any issues.\n We should take an evidence-based approach to tracking these issues and try to resolve them as quickly as possible. Either confirm claims empirically or rule them out with empirical evidence. I'd suggest the mods merge this kind of tracker into the sticky threads and maintain it.\n As we all know, Codex is complex and vibecoded software. It has also been prone to some crazy bugs, such as the 512-token reasoning bug, which affected answer quality.\n Here are the major outstanding issues reported over the last few days:\n   Issue What has actually been observed Potential causes",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
