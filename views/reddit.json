@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T13:12:11.606992Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-06T09:27:34.850785Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8vrh3",
+      "timestamp": "2026-09-06T13:08:29Z",
+      "title": "GPT-6 Astra for iOS dev: how do you split up tasks, and which reasoning level do you use?",
+      "author": "/u/coefficient0",
+      "url": "https://www.reddit.com/r/codex/comments/1w8vrh3/gpt6_astra_for_ios_dev_how_do_you_split_up_tasks/",
+      "excerpt": "For people using GPT-6 Astra in Codex for iOS projects, do you stick with one reasoning level or change it depending on the task?\n Curious what model and reasoning level you use for:\n - Small SwiftUI changes, layout fixes, and straightforward bugs.\n - Writing tests and refactoring existing code.\n - Planning features, architecture decisions, and debugging across multiple files.\n Also, how much work do you give it at once? For a new screen with validation, persistence, and tests, do you hand over the whole feature with checkpoints or split it into separate tasks?\n    submitted by    /u/coefficient0  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8vnc3",
+      "timestamp": "2026-09-06T13:03:21Z",
+      "title": "I thought banked resets didn\u2019t push the date back anymore?",
+      "author": "/u/mrjbelfort",
+      "url": "https://www.reddit.com/r/codex/comments/1w8vnc3/i_thought_banked_resets_didnt_push_the_date_back/",
+      "excerpt": "My limits were going to reset later today so I used a banked reset get a little more astra usage. I thought resets didn\u2019t push the date back but now it\u2019s been pushed back a week so it was basically useless. Feels like constant mind games with the resets, I swear there was something recently that using a reset wouldn\u2019t push the date back anymore but I guess not\n    submitted by    /u/mrjbelfort  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8vlnr",
+      "timestamp": "2026-09-06T13:01:22Z",
+      "title": "Astra appears to consume ~50% more subscription quota per API-equivalent dollar than Sol",
+      "author": "/u/Aemonculaba",
+      "url": "https://www.reddit.com/r/codex/comments/1w8vlnr/astra_appears_to_consume_50_more_subscription/",
+      "excerpt": "I'm on Pro 20x. With Sol, I get around $22 to $24 of API-equivalent usage per 1% of my weekly quota. With Astra, it's around $15.\n Just saying:\n The 4x multiplier of the 20x account fits to the 5-6$ per % of my old Pro 5x account (if we use Sol as the basis).\n But 15$ per % of the weekly quota for Astra?\n That's roughly 50% more quota burned for the same API pricing value. And yes, Astra's higher token prices are already part of that comparison.\n Then I found other people reporting almost exactly the same thing.\n Someone tested six Team accounts, three using Sol and three using Astra. They found Astra consumed roughly 40% to 60% more quota after accounting for each model's API prices: https://linux.do/t/topic/2861388\n Another Pro 20x user estimated about $2,500 of API-equivalent usage per week with Sol, versus $1,600 to $1,800 with Astra: https://linux.do/t/topic/2861037\n For reference, these are the official API prices: https://developers.openai.com/api/docs/pricing\n I know the subscription isn't a fixed balance of API credits. These aren't perfectly controlled tests either. But the same gap keeps showing up, and \u201cAstra is more expensive\u201d just doesn't explain it.\n    submitted by ",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8v73r",
+      "timestamp": "2026-09-06T12:43:00Z",
+      "title": "why is chatgpt app still sooo laggy",
+      "author": "/u/Other_Smell5744",
+      "url": "https://www.reddit.com/r/codex/comments/1w8v73r/why_is_chatgpt_app_still_sooo_laggy/",
+      "excerpt": "a few months ago i ranted abt this too https://www.reddit.com/r/codex/comments/1uzc550/codex_lags/\n then i switched to cli only. today tried chatgpt app and my fps went to 20 after like 2 hours of work\n    submitted by    /u/Other_Smell5744  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8v4tl",
+      "timestamp": "2026-09-06T12:40:05Z",
+      "title": "I want to buy Plus Plan",
+      "author": "/u/MoneyAndCoke2712",
+      "url": "https://www.reddit.com/r/codex/comments/1w8v4tl/i_want_to_buy_plus_plan/",
+      "excerpt": "Hi, I want to buy the ChatGPT Plus Plan for Codex and ChatGPT Work. What Model should I Use Then? Is Astra even Worth it with my Usage? \n    submitted by    /u/MoneyAndCoke2712  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8v3up",
+      "timestamp": "2026-09-06T12:38:47Z",
+      "title": "Do you really need more than Astra Low/Light?",
+      "author": "/u/Yuuyuuei",
+      "url": "https://www.reddit.com/r/codex/comments/1w8v3up/do_you_really_need_more_than_astra_lowlight/",
+      "excerpt": "I've been using Astra Low and honestly it's all I need. Before I was using Sol High. Astra Low is only a little bit more expensive but does a slightly better job. Never hit the weekly limit.\n What are people even working on that they need Max or Ultra? \ud83d\ude02\n    submitted by    /u/Yuuyuuei  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8v04g",
+      "timestamp": "2026-09-06T12:33:58Z",
+      "title": "Another morning after Astra release and....",
+      "author": "/u/Pitiful_Entrance5174",
+      "url": "https://www.reddit.com/r/codex/comments/1w8v04g/another_morning_after_astra_release_and/",
+      "excerpt": "like clockwork 8am est, \"\u26a0 Selected model is at capacity. Please try a different model\". By 11am EST when the west coast wakes up it will be unusable for a few hours. You guys gotta chill out. Lol. \n    submitted by    /u/Pitiful_Entrance5174  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8uvqx",
+      "timestamp": "2026-09-06T12:28:09Z",
+      "title": "I have a theory with evidence about limits - OpenAI may have a serious bug with false flagging Codex to specific hardware",
+      "author": "/u/AppropriateRanger401",
+      "url": "https://www.reddit.com/r/codex/comments/1w8uvqx/i_have_a_theory_with_evidence_about_limits_openai/",
+      "excerpt": "My limits, along with many other people on this sub reddit seemed to have been significantly decreased lately. Recently, I ran an experiment. I ran Astra on both my M4 Mac Mini and my other Windows machine, and NerfTrack was installed on both of them. After using Astra for a while on both of them, I saw I significant difference in the limit consumption of both. \n The 1st screenshot shows the NerfTrack screenshot taken on the Windows device. The API equivalent value of a weekly limit was shown to be ~$160.\n On the other hand, the 2nd screenshot was taken on my M4 Mac mini, which obviously has a day and night difference. On my Mac, I only got ~$64 worth of API usage on the weekly limit. This is shows that the rate of limit consumption on the Mac was more than twice on the PC.\n The exact same account was used on both machines with the same settings and plan and on the same day. \n I believe this proves nothing but that OpenAI has a severe bug in their backend. Tibo has already told us that flagged accounts get less usage than non-flagged ones. However, I think the flagging does not happen at account level, but rather at hardware level. I all noticed this trend of faster limits consumpt",
+      "media_urls": [
+        "https://preview.redd.it/x79gfhtw5wnh1.jpg?width=140&height=88&auto=webp&s=ea9d43f2bcace5d0d9f7f1505a8f086aa73c301f"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8ufpp",
+      "timestamp": "2026-09-06T12:06:36Z",
+      "title": "Inferred token prices on plus account",
+      "author": "/u/Melodic_Candle_5285",
+      "url": "https://www.reddit.com/r/codex/comments/1w8ufpp/inferred_token_prices_on_plus_account/",
+      "excerpt": "Astra\n   Token type API price Plus-equivalent price    Input $10 $0.7   Cached input $1 $0.07   Output $50 $3.3   Luna\n   Token type API price Plus-equivalent price    Input $0.20 $0.0067   Cached input $0.02 $0.00067   Output $1.20 $0.04   Based on this post: https://www.reddit.com/r/codex/comments/1w8r103/astra_costs_190_more_under_the_plus_subscription/\n    submitted by    /u/Melodic_Candle_5285  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8uf0g",
+      "timestamp": "2026-09-06T12:05:38Z",
+      "title": "GPT-6 Astra is the first model that genuinely makes me nervous as a software engineer",
+      "author": "/u/SkepticalHuman0",
+      "url": "https://www.reddit.com/r/codex/comments/1w8uf0g/gpt6_astra_is_the_first_model_that_genuinely/",
+      "excerpt": "I am a software engineer and I spend basically my whole day building software.\n I still know how to code obviously, but if I am being realistic, I don't write nearly as much code manually anymore. Most of my work has shifted more into this weird \"agentic engineer\" role, or whatever we are going to call it in a year. I describe what I want, review things, make architectural decisions, debug issues, steer agents and jump in myself when something gets stuck.\n And until recently I was pretty comfortable with that.\n There were always roadblocks where I felt like, okay, this is where you still clearly need an experienced developer.\n Some weird performance issue. A bug buried somewhere in a larger codebase. UI details that the model just doesn't get right. Scaling problems. Architecture decisions. Finding out why something works in development but falls apart in production.\n Fable 5.1 already made me slightly nervous in that regard.\n But after using GPT-6 Astra quite heavily for the last two days, I am honestly starting to feel differently about this.\n Obviously two days is nowhere near enough to properly evaluate a model, so I don't want to make some huge prediction based on that.\n But s",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8tz56",
+      "timestamp": "2026-09-06T11:44:34Z",
+      "title": "Banked Reset Bugs",
+      "author": "/u/cmak414",
+      "url": "https://www.reddit.com/r/codex/comments/1w8tz56/banked_reset_bugs/",
+      "excerpt": "Ive encountered a bug/multiple bugs and wondering if anyone else experienced similar.\n Last night I had 24 hrs until my weekly reset (Sept 7 22:00) and 0% usage left. \n I decided to try the banked reset bc I thought openai changed it to not make it reset weekly. \n The reset DID reset my weekly and pushed it back 7 days instead of keeping it at Sept 7 which sucks. \n Okay fine, so then I used my 5 hr limit (in 15 minutes with 1 Astra low prompt but that's a different plus issue). But then this morning tried to use again after 5hr limit reset but it said my weekly is now 0% and my weekly reset is back to Sept 7 22:00! The banked reset is gone too!\n So it basically ate my banked reset in exchange for a 5hr limit reset and kept my weekly reset date the same.\n Weird bug. Anyone else? \n    submitted by    /u/cmak414  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8ty6a",
+      "timestamp": "2026-09-06T11:43:09Z",
+      "title": "Banked Codex resets are pushing back the weekly date again - after OpenAI changed this two weeks ago",
+      "author": "/u/Nowaries",
+      "url": "https://www.reddit.com/r/codex/comments/1w8ty6a/banked_codex_resets_are_pushing_back_the_weekly/",
+      "excerpt": "For context, the first screenshot shows the previous version of OpenAI\u2019s documentation, where they explicitly stated that using a banked reset does not change your scheduled weekly reset date. The second screenshot shows the latest version, where that has been changed back. \n When banked resets were first introduced, using one pushed your scheduled weekly reset back by a week. This meant it wasn't really an additional reset, you were effectively exchanging your upcoming weekly reset for an earlier one.\n About two weeks ago, OpenAI changed this. Their documentation explicitly said:\n \u201cA banked reset refreshes your eligible Codex usage windows. It does not change your scheduled weekly reset date.\u201d\n This was a huge improvement and made banked resets genuinely useful.\n Now it appears to have been changed back: using a banked reset once again moves your scheduled weekly reset date.\n The issue isn't only that the behavior changed. There doesn't seem to have been any announcement or explanation, even though the previous behavior had specifically been changed and documented.\n OpenAI needs to be more transparent about changes like this. If a feature or policy is changed, especially after use",
+      "media_urls": [
+        "https://preview.redd.it/uy5b2yje0wnh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=b50b4fe7e5c33936463132a7feaf0c5518f6b1b7"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8tsnb",
+      "timestamp": "2026-09-06T11:35:08Z",
+      "title": "Steering and impact on usage/best practices",
+      "author": "/u/Content_Piano_7765",
+      "url": "https://www.reddit.com/r/codex/comments/1w8tsnb/steering_and_impact_on_usagebest_practices/",
+      "excerpt": "If you're watching codex work and realize you need to give it feedback, do you think it is more usage quota efficient to go ahead and steer or to let it finish and then give feedback as a separate turn? Any advice in general on using steering? \n Is there an established best practice? If I had infinite usage I would just stop and redo with a better prompt once I realized that things weren't going exactly where I intended but that isn't the world we live in. Thanks\n    submitted by    /u/Content_Piano_7765  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8tl78",
+      "timestamp": "2026-09-06T11:23:56Z",
+      "title": "To upgrade or not",
+      "author": "/u/Economy-School-4514",
+      "url": "https://www.reddit.com/r/codex/comments/1w8tl78/to_upgrade_or_not/",
+      "excerpt": "Is Astra worth the upgrade to pro for someone building an app? I have been using claude code and sometimes codex. I enjoy the strategy, planning, and design of the app, but hate testing all the time. I have heard that astra is capable of doing the UX testing for you, and considered upgrading from plus to pro to have codex take on the roles that are tedious to me. Has anyone had success doing this, and is it worth the upgrade?\n    submitted by    /u/Economy-School-4514  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8tj3d",
+      "timestamp": "2026-09-06T11:20:50Z",
+      "title": "Does banked reset still reset weekly reset date?",
+      "author": "/u/Worth_Golf_3695",
+      "url": "https://www.reddit.com/r/codex/comments/1w8tj3d/does_banked_reset_still_reset_weekly_reset_date/",
+      "excerpt": "Hey guys sorry if this has been answered before. Ive read somewhere that they changed it so using a banked reset wont Delay your normal weekly reset by 7 days anymore? It this true or not? \n Thanks for your help\n    submitted by    /u/Worth_Golf_3695  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8tbp6",
+      "timestamp": "2026-09-06T11:09:55Z",
+      "title": "Why GPT-5.4 is removed from codex?!",
+      "author": "/u/blnkslt",
+      "url": "https://www.reddit.com/r/codex/comments/1w8tbp6/why_gpt54_is_removed_from_codex/",
+      "excerpt": "I'm using mostly GPT-5.4 High on codex on Zed editor, as it is quite token-efficient and more than enough for 95% of my coding tasks. But to my great disappointment, since gigantic Astra has added, only GPT-5.4-mini is available, which is not as good as 5.4. So I'm wondering if there is any way to still use 5.4?\n    submitted by    /u/blnkslt  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/keukzc24uvnh1.png?width=640&crop=smart&auto=webp&s=8a1172d2bd809209ef5a4a94621f8cf13477d3a8",
+        "https://i.redd.it/keukzc24uvnh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8t735",
+      "timestamp": "2026-09-06T11:03:07Z",
+      "title": "How are you using GPT-6 Astra in Codex, and is the extra cost worth it?",
+      "author": "/u/Constant-Software967",
+      "url": "https://www.reddit.com/r/codex/comments/1w8t735/how_are_you_using_gpt6_astra_in_codex_and_is_the/",
+      "excerpt": "I\u2019m trying to understand how people are using the new GPT-6 Astra model in Codex.\n OpenAI\u2019s current pricing page shows very different estimated local-message ranges for the Plus plan:\n  GPT-6 Astra: 5\u201345 messages per five-hour period GPT-5.6 Sol: 10\u2013100 GPT-5.6 Terra: 25\u2013200 GPT-5.6 Luna: 250\u20132,000  The estimates are explicitly not fixed limits, but they still suggest that Astra can consume the allowance much faster. I recently used GPT-5.6 Sol on Medium for a relatively straightforward analysis, and it already used around 20% of my allowance. That made me wonder how expensive Astra might feel in real Codex workflows.\n Based on the current Artificial Analysis benchmarks, my tentative plan is:\n  Luna for simple, repetitive, or clearly defined coding tasks Sol Medium as the general-purpose default Astra Low for difficult tasks where I need stronger reasoning Astra Medium or High only for genuinely complex architecture, debugging, or long-horizon work  The benchmark results look impressive, but benchmarks are obviously not everything. Real-world factors such as tool use, repository size, context length, retries, latency, and how often the model gets stuck probably matter just as much.",
+      "media_urls": [
+        "https://preview.redd.it/pkavbopnsvnh1.png?width=140&height=89&auto=webp&s=aff4f48373e3b12a36c298def048ddaa9b483fc6",
+        "https://preview.redd.it/pkavbopnsvnh1.png?width=1151&format=png&auto=webp&s=b1025dae76cf65405cb115aaeaac573c057a6f6f"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8t3tu",
+      "timestamp": "2026-09-06T10:58:28Z",
+      "title": "Astra is lazy?",
+      "author": "/u/Acceptable_Lock_6982",
+      "url": "https://www.reddit.com/r/codex/comments/1w8t3tu/astra_is_lazy/",
+      "excerpt": "Idk if it\u2019s just me but I kinda feel like Astra is lazy and you kinda have to be more specific about what you want when I thought it was supposed to be the opposite? It also has no idea what\u2019s going on when I\u2019ve said to review something to make changes then mid task said to use the data analytics plugin and then it just forgets the original task and like just does a random analysis instead of doing the analysis on the review?\n    submitted by    /u/Acceptable_Lock_6982  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8t15y",
+      "timestamp": "2026-09-06T10:54:23Z",
+      "title": "Codex Context Window",
+      "author": "/u/Inevitable_Media7265",
+      "url": "https://www.reddit.com/r/codex/comments/1w8t15y/codex_context_window/",
+      "excerpt": "I read somewhere Astra comes with 1.05M token window. I used codex desktop app. Why does it say 256k only? Tried seeing if I need to update the app or manually adjust somewhere in the settings window. But did not find anything. Can someone explain my trivial doubt?\n    submitted by    /u/Inevitable_Media7265  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8sxbc",
+      "timestamp": "2026-09-06T10:48:39Z",
+      "title": "I'm wondering if OpenAI has a discriminatory policy toward Germans? Even though it\u2019s available everywhere else, there\u2019s still no GPT-6 in Germany",
+      "author": "/u/Alpayusa",
+      "url": "https://www.reddit.com/r/codex/comments/1w8sxbc/im_wondering_if_openai_has_a_discriminatory/",
+      "excerpt": "submitted by    /u/Alpayusa  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/rwmvbp6tqvnh1.jpeg?width=640&crop=smart&auto=webp&s=bc0c07a80d262333554cd2c6a885787be719040b",
+        "https://i.redd.it/rwmvbp6tqvnh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8svql",
+      "timestamp": "2026-09-06T10:46:17Z",
+      "title": "PSA: codex-lb users with fast limits / broken compaction \u2014 check streaming",
+      "author": "/u/Large-Style-8355",
+      "url": "https://www.reddit.com/r/codex/comments/1w8svql/psa_codexlb_users_with_fast_limits_broken/",
+      "excerpt": "Been fighting this since GPT-5.5:\n Codex VSCode \u2192 codex-lb \u2192 2 Plus accounts.\n Symptoms:\n  limits gone stupidly fast compaction randomly broken streaming errors chats eventually unusable copy context \u2192 new chat \u2192 repeat every few minutes \ud83e\udd21  Noticed codex-lb logs showing HTTP + streaming stuff per request. Asked Codex CLI to check the proxy config and changed it to actual end-to-end streaming:\n supports_websockets = true\n Since then, ~2 weeks:\n  zero compaction errors zero streaming deaths chats run forever Luna High suddenly gets a ridiculous amount done before limits matter  N=1, obviously. But if you use codex-lb/proxy + have the same symptoms: check whether you\u2019re REALLY streaming end-to-end.\n    submitted by    /u/Large-Style-8355  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8svkh",
+      "timestamp": "2026-09-06T10:46:01Z",
+      "title": "I do not like Astra in Codex subscription. Sol did better job.",
+      "author": "/u/sickfar",
+      "url": "https://www.reddit.com/r/codex/comments/1w8svkh/i_do_not_like_astra_in_codex_subscription_sol_did/",
+      "excerpt": "It is slow, extremely thorough, eats limits like crazy and does nothing of what we agreed on planning phase.\n We planned together, created spec, ui design reference using visualize skill, plan and I left execution on Astra to check. Now it is 28 hours since kick-off, it produced absolutely perfect code. It is a masterpiece I would never write myself. The problem is that it does absolutely nothing of discussed on planning and looks completely different. And it ate 2x of my weekly allowance (I used 2 banked reset).\n And it did not even manage to get to UI review and e2e tests because I assume it was busy polishing its masterpiece I am going to throw away.\n All this time it is running on low effort with standard codex context. I am going to stop it and call Luna xhigh with Sol subagents for reviews and checks. Because Luna xhigh rocks and works faster (on same typical tasks by 28th hour Luna manages to receive review, refactor and complete e2e).\n Maybe it one shots games from zero to hero. But it is impossible to plug it in into a working and settled process.\n    submitted by    /u/sickfar  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8stfs",
+      "timestamp": "2026-09-06T10:42:56Z",
+      "title": "Fast mode keeps turning on",
+      "author": "/u/lucien2k",
+      "url": "https://www.reddit.com/r/codex/comments/1w8stfs/fast_mode_keeps_turning_on/",
+      "excerpt": "I've had a bit of a frustrating bug with codex, my fast mode keeps turning on. I just realised this morning when I burned through my reset again. It looks like it turned on when I changed to Astra high but wasn't turned on when I changed it back to medium. Its like it remembered something or got stuck.\n When I did remote control via the iphone app, it turned it on again. So frustrating that I've burned so much usage because of this. suggest people keep an eye on it.\n    submitted by    /u/lucien2k  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8stct",
+      "timestamp": "2026-09-06T10:42:48Z",
+      "title": "GPT-Astra 6 sucks at UI Design?",
+      "author": "/u/Big-Hall8193",
+      "url": "https://www.reddit.com/r/codex/comments/1w8stct/gptastra_6_sucks_at_ui_design/",
+      "excerpt": "I\u2019ve been using AI for web design and development for quite a while now, and I\u2019ve tried pretty much everything from GPT-4o to Claude Fable 5.1.\n I eventually switched from Cursor to Claude Max because the quality of Opus and Fable kept getting better, to the point where I was using those models almost exclusively.\n Then Codex released Astra 6, so I decided to get the Max 100 plan and give it a proper try.\n I keep seeing people talk about how impressive Astra 6 is with Blender, 3D games, complex logic, etc. But when it comes to UI/UX and web design, my experience has been completely different.\n If I give Astra 6 Extra High the exact same prompt I give Fable 5.1 Extra High, the difference in output quality is massive. Fable usually understands the design direction and produces something that feels intentional, while Astra often gives me something that looks generic and template-driven.\n And I\u2019m not just running basic one-shot prompts. I have custom design guidelines, agent instructions, and skill .md files that I\u2019ve refined for my workflow.\n With Astra, though, it often feels like it ignores a lot of that context and blindly falls back to some generic design template or pattern.\n So ",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8st3v",
+      "timestamp": "2026-09-06T10:42:25Z",
+      "title": "Astra Light writing obfuscated JS/TS code",
+      "author": "/u/SocketByte",
+      "url": "https://www.reddit.com/r/codex/comments/1w8st3v/astra_light_writing_obfuscated_jsts_code/",
+      "excerpt": "https://preview.redd.it/s7mq9gnepvnh1.png?width=1109&format=png&auto=webp&s=8e6eb3a24ae027fabd1720323350b228e435a1f6\n Like the hell is that. No matter the prompt I get this shit when playing around with some new projects. I specifically told it to only create well-formatted and readable code. Anyone had a similar issue?\n AGI btw\n    submitted by    /u/SocketByte  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/s7mq9gnepvnh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=ae971cfe8360299c568312c928791618e88b2592",
+        "https://preview.redd.it/s7mq9gnepvnh1.png?width=1109&format=png&auto=webp&s=8e6eb3a24ae027fabd1720323350b228e435a1f6"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8sqon",
+      "timestamp": "2026-09-06T10:38:47Z",
+      "title": "Codex 5.6 after every context compaction: \u201cSorry, what were we doing?\u201d",
+      "author": "/u/Medium-Philosophy942",
+      "url": "https://www.reddit.com/r/codex/comments/1w8sqon/codex_56_after_every_context_compaction_sorry/",
+      "excerpt": "Codex 5.6 after every context compaction: \u201cSorry, what were we doing?\u201d\n Is it just me, or has Codex 5.6 been genuinely lobotomized?\n You spend an hour explaining the project, showing it the architecture, correcting its assumptions, establishing constraints, and repeatedly telling it which approaches have already failed. Eventually, through patience and what I can only describe as unpaid neurological rehabilitation, it finally understands the task.\n For five glorious minutes, it works beautifully. It knows the files, remembers the decisions, understands the dependencies, and even stops trying to rewrite half the project for no reason.\n Then the context gets compacted.\n Suddenly, this digital douche wakes up in the middle of the repository like a dementia patient abandoned at a bus station:\n \u201cCould you remind me what we were working on?\u201d\n My brother in artificial intelligence, you were working on it twelve seconds ago.\n You wrote the code. You ran the tests. You explained the bug to me. You created a detailed plan. Now you\u2019re staring at your own changes like police have just shown you crime-scene photographs.\n Then begins the ritual.\n It reopens every file it already inspected. It \u201cd",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8sn43",
+      "timestamp": "2026-09-06T10:33:11Z",
+      "title": "Astra keeps stopping and waiting for accept to continue",
+      "author": "/u/GalacticGiraffeGuru",
+      "url": "https://www.reddit.com/r/codex/comments/1w8sn43/astra_keeps_stopping_and_waiting_for_accept_to/",
+      "excerpt": "Hi guys,\n Working with Astra is quite a different thing than working with Sol. With Sol I could have my agent work for hours or days if the prompt was good enough. But with Astra, it does 1 thing, then stops and ask for permission to continue - even that I said it doesn't need to and I tried giving it full access too.\n It's not effective for me to work and keep starting it, even it's not even done with the task I'm giving it - so it's kind of fustrating to me.\n Do you guys have any advice for me?\n UPDATE: updating and restarting Codex fixed it, thanks guys.\n    submitted by    /u/GalacticGiraffeGuru  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8slqf",
+      "timestamp": "2026-09-06T10:31:03Z",
+      "title": "Github actions vs Blacksmith",
+      "author": "/u/SgtHobo41",
+      "url": "https://www.reddit.com/r/codex/comments/1w8slqf/github_actions_vs_blacksmith/",
+      "excerpt": "Hello everybody, I have a bit of a random question, but does anybody use Blacksmith or CI instead of GitHub? \n I'm only asking because I'm doing both iOS and macOS cross-device support, and I keep hitting the upper limits of my pro plan on GitHub for CI and so I'm just wondering if anybody has any experience using Blacksmith. I've heard some things about it, saying it's better, it's faster, it's cheaper, but I want to see if anybody had real use and how well it plays with codex and the GPT models. \n I appreciate any and all advice, and I'm also more than open to advice from anybody for optimizing CI usage for macOS projects. \n Thank you in advance!\n    submitted by    /u/SgtHobo41  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8sg42",
+      "timestamp": "2026-09-06T10:22:18Z",
+      "title": "I thought Astra was just slow\u2026",
+      "author": "/u/ElonMusksQueef",
+      "url": "https://www.reddit.com/r/codex/comments/1w8sg42/i_thought_astra_was_just_slow/",
+      "excerpt": "Been running Astra X High full throttle since Friday night when it dropped and it seemed to much slower than 5.6 Sol. Just noticed this today. It only shows in the Remote view of the phone app and doesn\u2019t show anything at all in Codex. There is nothing cyber security related happening. My perfectly ordinary integration-test vocabulary sounds absolutely murderous when stripped of context \ud83d\ude02\n    submitted by    /u/ElonMusksQueef  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/mhcp5584mvnh1.jpeg?width=640&crop=smart&auto=webp&s=8ce5cd4582a5e0a58048438d7d3204cd5a72d327",
+        "https://i.redd.it/mhcp5584mvnh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8s076",
+      "timestamp": "2026-09-06T09:58:20Z",
+      "title": "Is anyone still using something like OpenClaw WITH Codex? If you are, can you please explain to me the best use cases?",
+      "author": "/u/LieV2",
+      "url": "https://www.reddit.com/r/codex/comments/1w8s076/is_anyone_still_using_something_like_openclaw/",
+      "excerpt": "Wanting to build a Codex agent development team, but I'd lke to hear use cases of OpenClaw (or something similar/better) WITH Codex please. \n    submitted by    /u/LieV2  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8rxum",
+      "timestamp": "2026-09-06T09:54:39Z",
+      "title": "Codex banked resets still push the weekly timer, right?",
+      "author": "/u/donassasin",
+      "url": "https://www.reddit.com/r/codex/comments/1w8rxum/codex_banked_resets_still_push_the_weekly_timer/",
+      "excerpt": "basicly title, i read somewhere that they changed so the banked reset doesnt push the weekly date, but google searches say otherwise, anyone can confirm.\n    submitted by    /u/donassasin  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1w8rru9",
+      "timestamp": "2026-09-06T09:45:06Z",
+      "title": "This will either be great or terrible",
+      "author": "/u/PandoraKestrel",
+      "url": "https://www.reddit.com/r/codex/comments/1w8rru9/this_will_either_be_great_or_terrible/",
+      "excerpt": "I was about to start a refactor when Astra dropped so I decided to see how it handled it. How long can it actually go? \n    submitted by    /u/PandoraKestrel  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/z1lb5cchfvnh1.jpeg?width=640&crop=smart&auto=webp&s=5381ef9668647705b19badcf05d38559d141ae3e",
+        "https://i.redd.it/z1lb5cchfvnh1.jpeg"
+      ]
+    }
+  ],
+  "errors": []
+}

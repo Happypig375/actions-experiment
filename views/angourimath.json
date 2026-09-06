@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T13:12:11.606992Z",
+  "source": "asc-community/AngouriMath",
+  "recovery_since": "2026-09-06T11:39:10.915859Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "events": [],
+  "errors": []
+}
