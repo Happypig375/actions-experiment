@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T21:44:58.303741Z",
+  "since": "2026-09-06T18:44:58.303741Z",
+  "repo": "bryanedds/Nu",
+  "default_branch": "master",
+  "head_sha": "ded7b547be23368614a7c9ab2c41ad485ad01c22",
+  "previous_head_sha": "ded7b547be23368614a7c9ab2c41ad485ad01c22",
+  "commits": [
+    {
+      "sha": "ded7b547be23368614a7c9ab2c41ad485ad01c22",
+      "message": "Update lighting model description in ReadMe.md",
+      "author": "bryanedds",
+      "date": "2026-09-06T18:51:55Z",
+      "url": "https://github.com/bryanedds/Nu/commit/ded7b547be23368614a7c9ab2c41ad485ad01c22"
+    }
+  ],
+  "issues": [],
+  "pulls": [],
+  "releases": [],
+  "workflow_runs": [
+    {
+      "id": 34053064398,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_branch": "master",
+      "head_sha": "ded7b547be23368614a7c9ab2c41ad485ad01c22",
+      "updated_at": "2026-09-06T19:38:44Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/34053064398"
+    }
+  ],
+  "changed_files_since_previous_feed": [],
+  "errors": []
+}
