@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13T07:56:38.980959Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-13T05:28:27.183358Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wf1f3t",
+      "timestamp": "2026-09-13T07:53:05Z",
+      "title": "How to Orchestrate With Astra",
+      "author": "/u/number531",
+      "url": "https://www.reddit.com/r/codex/comments/1wf1f3t/how_to_orchestrate_with_astra/",
+      "excerpt": "Maximize Astra Usage with a Plugin\n With the consistent dialogue of Astra decimating weekly usage, figured I would share a solution. When .agent, toml are properly configured, Astra delegates the majority of work to subagent task during long horizon sessions. Recommendation is to apply Astra Max/Ultra, Sol Max/Ultra ensuring the parent model distributes tasks to more efficient models.\n The attached example is a long running implementation of a complex feature into an enterprise product codebase with Astra Ultra being the selected model.\n This session consumed 11% of weekly 20x account limit\u2026\n Repo/Plugin pinned below!\n    submitted by    /u/number531  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/d9242vovt8ph1.jpeg?width=320&crop=smart&auto=webp&s=7fc5f4445d3f9640e6f47d5ae153745cfdc60fbe",
+        "https://i.redd.it/d9242vovt8ph1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wf0zog",
+      "timestamp": "2026-09-13T07:26:49Z",
+      "title": "CLI Vs desktop App",
+      "author": "/u/IllustriousGrade7691",
+      "url": "https://www.reddit.com/r/codex/comments/1wf0zog/cli_vs_desktop_app/",
+      "excerpt": "Does anybody feels that the CLI actually works better than the codex app and I am not talking only about responsivnes but also general code quality and how the agent works did you guys find any difference, I know it sounds stupid but currently feel that in the CLI the agent actually accomplishes more. \n    submitted by    /u/IllustriousGrade7691  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wf0urt",
+      "timestamp": "2026-09-13T07:18:57Z",
+      "title": "Just released an open source project launcher",
+      "author": "/u/simplindustries",
+      "url": "https://www.reddit.com/r/codex/comments/1wf0urt/just_released_an_open_source_project_launcher/",
+      "excerpt": "I was tired of having to keep track of all my projects and which start with a python http server, npm run, node, and so on.\n Codex and Claude Code go through this same issue at the start of any new thread - needing to spent tokens just to figure out the page structure or launch method.\n This led me to creating Launch Station many months ago - which I have been using for a long time since. Its features:\n  makes it super easy to startup your localhost sites, apps, and so on with the click of a button manages your ports so codex/claude code don't need to know which ports are active, which need to be started and which port something is running on manages your stack - can start a multi-step stack and will stop it in reverse to make sure the backend starts first and stops last increase compatibility of using your startups between codex/claude code and human starting and stopping of them more features but these are the main ones  Hope this can help people's every launch like it has for mine!\n Site: https://launchstation.net/\n GitHub: https://github.com/JakeMawson/launchstation\n Product Hunt Launch: https://www.producthunt.com/products/launch-station\n Free macos signed install with brew in",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wf08qv",
+      "timestamp": "2026-09-13T06:44:16Z",
+      "title": "the future is now...",
+      "author": "/u/Minimum_Hour519",
+      "url": "https://www.reddit.com/r/codex/comments/1wf08qv/the_future_is_now/",
+      "excerpt": "``` \u2022 Three agents are active:\n  /root \u2014 me, coordinating and reviewing both tasks. /root/hqtui_kill \u2014 fixing Yes/No navigation and adding the unchecked force-kill option. /root/openfleet \u2014 adding fleet membership, metadata, and CoinPay rental rates.\n Each task agent has its own git worktree. ```\n     submitted by    /u/Minimum_Hour519  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wf04i2",
+      "timestamp": "2026-09-13T06:37:30Z",
+      "title": "They don't have enough compute for 20x subs but you still get resets.",
+      "author": "/u/ryuukiba",
+      "url": "https://www.reddit.com/r/codex/comments/1wf04i2/they_dont_have_enough_compute_for_20x_subs_but/",
+      "excerpt": "That's the best argument I've thought of for resets NOT favoring us. Whether they're masking a degrading service or something else. If they can't handle 200 usd subs, why would they be giving us free compute? \n    submitted by    /u/ryuukiba  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wezj2y",
+      "timestamp": "2026-09-13T06:03:47Z",
+      "title": "Bug: Codex shows a blank screen while processing instructions and needs to be restarted",
+      "author": "/u/grandemoficial",
+      "url": "https://www.reddit.com/r/codex/comments/1wezj2y/bug_codex_shows_a_blank_screen_while_processing/",
+      "excerpt": "I had never experienced any issues with Codex before, but now, whenever I send it a prompt, the screen goes blank after a few minutes and the task is interrupted. The only way to fix it is to open a new window or restart Codex, but the problem eventually happens again.\n If I try to access other chats, their content appears normally. However, when I return to the affected chat, all I see is a blank screen.\n I\u2019ve already tried clearing the memory under Settings > Personalization and repairing the Codex app on Windows.\n Does anyone know how to fix this?\n    submitted by    /u/grandemoficial  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1weyz7y",
+      "timestamp": "2026-09-13T05:33:09Z",
+      "title": "How to actually reduce usage",
+      "author": "/u/Linkpharm2",
+      "url": "https://www.reddit.com/r/codex/comments/1weyz7y/how_to_actually_reduce_usage/",
+      "excerpt": "https://preview.redd.it/ml4ae2a048ph1.png?width=1300&format=png&auto=webp&s=ad4fec7c4622a2ad8be0b0929555462cb1086c60\n Add .codex/config.toml to whereever your project root is with this inside. You'll have to reload the project inside Codex. \n model_context_window = 128000\n model_auto_compact_token_limit = 115000\n When you're doing a big task running it to 258k, the upper 128k takes about 75% of the tokens. If you compact earlier and have it just read the code on disk, that cuts it by about 74%. \n Doubling how long you let a conversation run before compacting doesn't double the cost, it roughly quadruples (minus cache create, so if you're using an API key it's more like 3x) it. Scaling is quadratic. You could even go to 64k, but that's less of an insane jump at only 40% less than 128k.\n https://preview.redd.it/7cdto2io48ph1.png?width=1332&format=png&auto=webp&s=687d687ee202bed6832bcfb4843f80bd53df7157\n Billed tokens:\n 258k -> 8,925,000\n 128k -> 4,590,000\n 64k -> 2,700,000 \n Just let it read the code a second time.\n    submitted by    /u/Linkpharm2  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ml4ae2a048ph1.png?width=140&height=60&auto=webp&s=dba4c2302fdfd2825051b709bda9a7f0cdc7a7e0",
+        "https://preview.redd.it/ml4ae2a048ph1.png?width=1300&format=png&auto=webp&s=ad4fec7c4622a2ad8be0b0929555462cb1086c60",
+        "https://preview.redd.it/7cdto2io48ph1.png?width=1332&format=png&auto=webp&s=687d687ee202bed6832bcfb4843f80bd53df7157"
+      ]
+    }
+  ],
+  "errors": []
+}
