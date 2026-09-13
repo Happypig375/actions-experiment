@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13T05:43:27.183358Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-13T02:36:56.182337Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1weyz7y",
+      "timestamp": "2026-09-13T05:33:09Z",
+      "title": "How to actually reduce usage",
+      "author": "/u/Linkpharm2",
+      "url": "https://www.reddit.com/r/codex/comments/1weyz7y/how_to_actually_reduce_usage/",
+      "excerpt": "https://preview.redd.it/ml4ae2a048ph1.png?width=1300&format=png&auto=webp&s=ad4fec7c4622a2ad8be0b0929555462cb1086c60\n Add .codex/config.toml to whereever your project root is with this inside. You'll have to reload the project inside Codex. \n model_context_window = 128000\n model_auto_compact_token_limit = 115000\n When you're doing a big task running it to 258k, the upper 128k takes about 75% of the tokens. If you compact earlier and have it just read the code on disk, that cuts it by about 74%. \n Doubling how long you let a conversation run before compacting doesn't double the cost, it roughly quadruples (minus cache create, so if you're using an API key it's more like 3x) it. Scaling is quadratic. You could even go to 64k, but that's less of an insane jump at only 40% less than 128k.\n https://preview.redd.it/7cdto2io48ph1.png?width=1332&format=png&auto=webp&s=687d687ee202bed6832bcfb4843f80bd53df7157\n Billed tokens:\n 258k -> 8,925,000\n 128k -> 4,590,000\n 64k -> 2,700,000 \n Just let it read the code a second time.\n    submitted by    /u/Linkpharm2  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ml4ae2a048ph1.png?width=140&height=60&auto=webp&s=dba4c2302fdfd2825051b709bda9a7f0cdc7a7e0",
+        "https://preview.redd.it/ml4ae2a048ph1.png?width=1300&format=png&auto=webp&s=ad4fec7c4622a2ad8be0b0929555462cb1086c60",
+        "https://preview.redd.it/7cdto2io48ph1.png?width=1332&format=png&auto=webp&s=687d687ee202bed6832bcfb4843f80bd53df7157"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1weymok",
+      "timestamp": "2026-09-13T05:14:11Z",
+      "title": "CliDeck V2 is out with projects, live status, collaboration across CLI providers, and auto previews (docs, html, images, videos, etc) by your agents.",
+      "author": "/u/Oren_Lester",
+      "url": "https://www.reddit.com/r/codex/comments/1weymok/clideck_v2_is_out_with_projects_live_status/",
+      "excerpt": "Obviously, I think it's the best way to work with CLI agents like Codex across different providers. It's very productive and fun. In V2, CLI agents can give tasks and communicate between themselves in the natural CLI TUI, so you see everything they send to each other.\n Clideck is fully open source so give it a try feel free to change it to your own needs,\n Give it a try, Thanks.\n https://github.com/rustykuntz/clideck \n    submitted by    /u/Oren_Lester  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1weyk6c",
+      "timestamp": "2026-09-13T05:10:15Z",
+      "title": "Vibecoding is becoming an ethical question...",
+      "author": "/u/tazecode",
+      "url": "https://www.reddit.com/r/codex/comments/1weyk6c/vibecoding_is_becoming_an_ethical_question/",
+      "excerpt": "If you want to do a deep dive check this out:\n https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/\n Essentially they mapped out the whole fly's brain by slicing it up and this is literally one on one, the exact brain of a fly. This shows that it's definitely possible to do this with a human too.\n We really need laws for that soon...\n    submitted by    /u/tazecode  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/N3V3ejViZW8wOHBoMWMheceZDvsw2SBRkr45Iii_nnVnjay5kNngQK7ZTp1U.png?width=640&crop=smart&auto=webp&s=a9f5a96d92995b09b351453bc441b007d0bc916a"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1weyk2i",
+      "timestamp": "2026-09-13T05:10:06Z",
+      "title": "Max x20 is gone for good.",
+      "author": "/u/Current_Balance6692",
+      "url": "https://www.reddit.com/r/codex/comments/1weyk2i/max_x20_is_gone_for_good/",
+      "excerpt": "I'm bringing the heat jabronis\n There is something deeply satisfying about watching the exact argument that was used to dismiss Plus users finally travel up the pricing ladder.\n For ages, whenever $20 Plus users complained about limits, degraded access, queues, or losing something they had built workflows around, a certain type of Max user had the same response:\n \u201cYou pay $20. What did you expect?\u201d\n \u201cIt\u2019s the cheap plan.\u201d\n \u201cSerious users pay more.\u201d\n \u201cIf $20 is a problem, this product isn\u2019t for you.\u201d\n \u201cYou can\u2019t expect the company to subsidize you forever.\u201d\n Fine.\n Keep that exact energy for the $200 plan.\n Because $200 is not some magical economic threshold at which compute suddenly becomes free. If a power user is burning hundreds or thousands of dollars of effective inference every month while paying a flat $200, then that user is being subsidized too.\n Possibly far more heavily than the Plus user they were laughing at.\n The $200 plan is not a constitutional right. It is a pricing experiment. A loss leader can exist because a company wants serious users to build habits, move their workflows over, demonstrate what agentic coding can do, and become dependent enough on the product t",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wexu4h",
+      "timestamp": "2026-09-13T04:31:52Z",
+      "title": "Codex on mobile is unusable",
+      "author": "/u/l_say_mean_things",
+      "url": "https://www.reddit.com/r/codex/comments/1wexu4h/codex_on_mobile_is_unusable/",
+      "excerpt": "I get this generic error for every remote session where I try to connect to my MacBooks session from my iPhone. It\u2019s been this way for weeks. Any tips?\n    submitted by    /u/l_say_mean_things  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/mg48u6czt7ph1.jpeg?width=640&crop=smart&auto=webp&s=a8785929c4f297b79606733fce54715eb054e36b",
+        "https://i.redd.it/mg48u6czt7ph1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wexpti",
+      "timestamp": "2026-09-13T04:25:24Z",
+      "title": "Monthly usage in codex cli",
+      "author": "/u/AccomplishedFail9857",
+      "url": "https://www.reddit.com/r/codex/comments/1wexpti/monthly_usage_in_codex_cli/",
+      "excerpt": "Because there is none, I wanted to share it with you guys:\n Calculate my 2026 year-to-date token total by summing the returned dailyUsageBuckets whose startDate is in 2026. Show: - The 2026 total from the available daily records. - A monthly breakdown. - The earliest and latest dates returned. - The separate lifetimeTokens value. Do not treat the lifetime total as the 2026 total. Clearly state whether historical coverage can be verified, and label the result as account-level usage rather than CLI-only usage. Do not display authentication tokens or change my configuration. I\u2019ll use the openai-docs skill to check the local RPC interface, then retrieve account usage and sum the 2026 daily records without changing configuration or exposing credentials.  I got around 20B, pretty useful:\n https://preview.redd.it/iiylg3css7ph1.png?width=444&format=png&auto=webp&s=65211390ba2a6fe45cef1de834a2e5b9ceecc468\n    submitted by    /u/AccomplishedFail9857  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/iiylg3css7ph1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=7dc54d6e6d9a19b41f890e0bbe375c5a7521494f",
+        "https://preview.redd.it/iiylg3css7ph1.png?width=444&format=png&auto=webp&s=65211390ba2a6fe45cef1de834a2e5b9ceecc468"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wexp9b",
+      "timestamp": "2026-09-13T04:24:36Z",
+      "title": "Agent Interop MCP",
+      "author": "/u/NumerousCommunity619",
+      "url": "https://www.reddit.com/r/codex/comments/1wexp9b/agent_interop_mcp/",
+      "excerpt": "I created this MCP because i wanted a way for models and providers to be able to speak to each other inside of one native chat. Currently, freebuff, Opencode, codex, and claudecode, and cursor have been added (cursor hasnt been tested). Basically, what it does is it allows you, for example, in a codex session to send a message to opencode big pickle high reasoning to implement a certain prompt. You can check progress within the session, and read relevant file, then send follow ups witihn the same prompt. It has automatic ID detection so it can detect what services are signed in and what you can use. If you guys wanna check it out https://github.com/Praket7/agent-interop-runtime and let me know what you think. If you could test and give me feedback and star it, I would appreciate it.\n    submitted by    /u/NumerousCommunity619  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wexijr",
+      "timestamp": "2026-09-13T04:15:09Z",
+      "title": "Idk what the heck you guys are complaining about",
+      "author": "/u/Plenty-Option8351",
+      "url": "https://www.reddit.com/r/codex/comments/1wexijr/idk_what_the_heck_you_guys_are_complaining_about/",
+      "excerpt": "I just upgraded from Plus to Pro because I had some extra cash this month and I wanted to genuinely try out Astra. I couldn\u2019t get any work done with that five hour limit on Astra. Even medium reasoning would give me like 20 minutes before I ran out of usage. And HOLY crap guys and gals. The Pro plan is WAAAAY more usage than Plus. \n I have been throwing every problem that I can think of at Astra on extra high for hours and I\u2019ve only used like 30% of my weekly limit. I\u2019m talking code reviews, bug fixes, issues with my home lab, projects I\u2019ve been meaning to get to for months, but haven\u2019t had the time. And it absolutely crushes them without breaking a sweat. To burn through I just tell it what I want to happen and it makes it work. \n I figured I\u2019d maybe get a couple hours of Astra at that high of reasoning level before I would have to burn through a banked reset, but I have three of them so I figured what the heck. Just keep throwing problems at it until it runs out of usage. I\u2019m now to the point where I\u2019m running out of problems to throw at it lol. \n I paid the hundred bucks so I want to get as much usage out of it as possible but I think I\u2019ve got like three more things I want to wo",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wex95b",
+      "timestamp": "2026-09-13T04:01:27Z",
+      "title": "Codex Desktop \u2013 \u201cUnable to attach appshot\u201d with the new Appshots feature on Windows 11",
+      "author": "/u/calvin_dev77",
+      "url": "https://www.reddit.com/r/codex/comments/1wex95b/codex_desktop_unable_to_attach_appshot_with_the/",
+      "excerpt": "Hi everyone,\n I'm having an issue with the new Appshots feature in Codex Desktop on Windows.\n Whenever I use the Appshot keyboard shortcut, Codex recognizes the shortcut but immediately shows:\n \"Unable to attach appshot\"\n Codex Desktop:\n Powered by Codex & OWL\n Version: 26.908.40834\n Released: September 12, 2026\n Windows:\n Windows 11 Pro\n Version: 25H2\n OS Build: 26200.9445\n Windows Feature Experience Pack: 1000.26100.360.0\n I've tried capturing different applications, including simple Windows apps, but the result is always the same.\n The keyboard shortcut itself appears to be working because Codex responds immediately. The failure seems to happen when Codex tries to capture or attach the Appshot.\n I've also restarted both Codex Desktop and Windows, but the issue persists.\n Is anyone else experiencing the same issue on Windows?\n Has anyone managed to get Appshots working successfully on version 26.908.40834? If so, did you need to enable any additional Windows permissions or settings?\n Screenshot of the error attached.\n    submitted by    /u/calvin_dev77  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/0ktb7dzio7ph1.png?width=320&crop=smart&auto=webp&s=17a5671f914a6df30397ad3e5cc799f15f9c4719",
+        "https://i.redd.it/0ktb7dzio7ph1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wex5nu",
+      "timestamp": "2026-09-13T03:56:53Z",
+      "title": "The Bubble No One Is Talking About: Why AI Is Going to Become a Luxury \u2014 and We\u2019re Too Blind to See It",
+      "author": "/u/Brilliant-War-5214",
+      "url": "https://www.reddit.com/r/codex/comments/1wex5nu/the_bubble_no_one_is_talking_about_why_ai_is/",
+      "excerpt": "Everyone is fascinated by what frontier AI models can generate. Startups, creators, and curious users are flooding the internet with extraordinary things every day. But there\u2019s an elephant in the room that, as users, we refuse to acknowledge:\n The current economic model is an illusion.\n Here are a few uncomfortable realities we\u2019re ignoring:\n  The corporate pullback: There are already reports of large companies asking employees to limit their use of advanced AI models. It\u2019s not only about privacy. Paying premium token costs for thousands of employees can become a massive financial black hole. Companies can end up spending millions on AI usage that is difficult to justify on a monthly balance sheet. The unsustainable subsidy: OpenAI, Anthropic, and others are burning through billions of dollars. Heavy AI workloads are incredibly expensive. Right now, users are often paying only a fraction of what it actually costs to build, train, and operate these systems because companies are competing aggressively for market share with enormous amounts of investor capital. The Wall Street reality check: Once these companies face stronger pressure from public markets and investors, profitability wi",
+      "media_urls": [
+        "https://preview.redd.it/q1a1ncqon7ph1.png?width=640&crop=smart&auto=webp&s=22786311c48798bf4263fa97e1cacd4406f07c37",
+        "https://i.redd.it/q1a1ncqon7ph1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wewqfj",
+      "timestamp": "2026-09-13T03:34:55Z",
+      "title": "Archive problem ?",
+      "author": "/u/BoringCanary",
+      "url": "https://www.reddit.com/r/codex/comments/1wewqfj/archive_problem/",
+      "excerpt": "anyone else been having this issue with archive creation since yesterday ?... what workaround ?\n    submitted by    /u/BoringCanary  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/sxuba4zmj7ph1.png?width=640&crop=smart&auto=webp&s=8980d65993325e8588126e2308d51eb8fbadeb4f",
+        "https://i.redd.it/sxuba4zmj7ph1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wew63a",
+      "timestamp": "2026-09-13T03:05:58Z",
+      "title": "Astra Usage Tip",
+      "author": "/u/RedZero76",
+      "url": "https://www.reddit.com/r/codex/comments/1wew63a/astra_usage_tip/",
+      "excerpt": "I've been doing this for the last 24 hours. I would say it has slowed down the usage rate overall by about 50% or so, without any difference in quality at all. Def worth doing! I have the $200 Pro plan and normally it lasts all week, but lately it is lasting 1-2 days, but now with this, think it'll last more like 3-4 days at the rate it's going now. \n ---\n Codex has the ability to choose which models and reasoning effort are used for subagent helpers. (Claude doesn\u2019t, btw). This is a big deal. Add something like this to the Agents.md:\n You are powered by GPT 6 Astra High. Usage goes very fast. Keep doing substantial hands-on Astra work. But, use \\gpt-5.6-sol` helpers with task-appropriate effort when suitable! Retain Astra for hard reasoning.`\n This will let Astra know to use Sol for subtasks, straightforward recon, stuff like that.\n I posted this to X but no one follows me there, and I'm dying to share it bc it's easy and makes a nice difference. `@SirBadfish` on X btw but that's not the only reason I'm posting this... just hope it helps.\n    submitted by    /u/RedZero76  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wevxki",
+      "timestamp": "2026-09-13T02:54:00Z",
+      "title": "They removed the option to renew my $200 plan",
+      "author": "/u/BigBreath",
+      "url": "https://www.reddit.com/r/codex/comments/1wevxki/they_removed_the_option_to_renew_my_200_plan/",
+      "excerpt": "So yesterday my subscription should have renewed. My plan was $200/m plan but it repeatedly refused to renew it. My plan was purchased through the App Store.\n The only available option they gave me was to downgrade to $100 plan or lower but I can\u2019t stay on the $200 plan\n The moment I got switched to $100 plan my usage immediately dropped to 51% which before the switch it was sitting at 92%.\n I was doing important work which was time-sensitive. I can\u2019t even switch to Claude Code quickly as I built everything around Codex. I am kind of stuck now.\n Tibo or ChatGPT team if you are seeing this then please fix it. You people said existing customers will not be affected. I have been a Max customer for like a year now and when I needed it most I couldn\u2019t use it.\n I am kind of helpless now as this work was extremely important for me and put my future in stakes too\n    submitted by    /u/BigBreath  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wevq2w",
+      "timestamp": "2026-09-13T02:43:18Z",
+      "title": "Help me find the best harness",
+      "author": "/u/AdDangerous8989",
+      "url": "https://www.reddit.com/r/codex/comments/1wevq2w/help_me_find_the_best_harness/",
+      "excerpt": "I am looking for a great harness but I do not know which It Is the best for Astra. Otherwise, my app is not ready yet\n    submitted by    /u/AdDangerous8989  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
