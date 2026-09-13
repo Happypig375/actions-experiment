@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13T06:47:20.336996Z",
+  "since": "2026-09-13T03:47:20.336996Z",
+  "repo": "asc-community/AngouriMath",
+  "default_branch": "master",
+  "head_sha": "63420d2417d649cd4badee368cd3fc874b354bae",
+  "previous_head_sha": "63420d2417d649cd4badee368cd3fc874b354bae",
+  "commits": [],
+  "issues": [],
+  "pulls": [],
+  "releases": [],
+  "workflow_runs": [],
+  "changed_files_since_previous_feed": [],
+  "errors": []
+}
