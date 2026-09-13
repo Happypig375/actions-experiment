@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13T06:48:43.674554Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "candidate_discovery_only": true,
+  "source_url": "https://fxtwitter.com/thsottiaux/feed.xml",
+  "items": [
+    {
+      "text": "Reset all propagated. Sweet dreams.\n\nHi Astra users. A reset and a quick update on quality issues that have been posted around. Working with some of you, we have found and fixed the following issues: - Some skills written for previous models were triggering too often or preventing the model from checking its work. -\u2026",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "published_at": "2026-09-12T08:09:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Astra powered ships this week - Images 2.5 - GPT-Live-1 - Agents API - Data Agent - ChatGPT for Financial Services and yet it\u2019s not yet DevD\u2026\nAstra powered ships this week\n\n\n\n- Images 2.5\n\n- GPT-Live-1\n\n- Agents API\n\n- Data Agent\n\n- ChatGPT for Financial Services\n\n\n\nand yet it\u2019s not yet DevDay. Busy plans for next week too.",
+      "url": "https://x.com/thsottiaux/status/2098639827084480864",
+      "published_at": "2026-09-12T05:08:20Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Hi Astra users. A reset and a quick update on quality issues that have been posted around. Working with some of you, we have found and fixed\u2026\nHi Astra users. A reset and a quick update on quality issues that have been posted around.\n\n\n\nWorking with some of you, we have found and fixed the following issues:\n\n- Some skills written for previous models were triggering too often or preventing the model from checking its work.\n\n- An opt-in context management experiment that could cause early stops or replies to older messages. We've disabled it. Our rough estimate is that 4-5k users were affected by this experiment.\n\n- We've also removed some badly configured engines that resulted in a measured quality degradation for a long tail of traffic flowing through them.\n\n\n\nWe\u2019ve also made some more minor improvements and things should feel significantly better across the board. More consistent follow-through, better tracking of your latest message, and better checks on the work as it\u2019s going through the motions.\n\n\n\nThe examples posted and all the users who worked directly with us were incredibly useful in helping fix things quickly. Always grateful for this incredible community.\n\n\n\nAnd of course, a reset is also landing by midnight today.",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "published_at": "2026-09-12T03:20:36Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Excited to welcome Aidan & @ Sasha from the Git AI team to OpenAI! They are building in the open and have developed an open-source tool that\u2026\nExcited to welcome Aidan & @\n\nSasha from the Git AI team to OpenAI! \n\n\n\nThey are building in the open and have developed an open-source tool that helps developers understand how coding agents contribute to their codebase. \n\n\n\nTogether, we\u2019ll make it easier for businesses to see where Codex is making a difference when working through problems for individuals and teams. We\u2019ll also keep Git AI open source and continue investing in it.",
+      "url": "https://x.com/thsottiaux/status/2098569976143806918",
+      "published_at": "2026-09-12T00:30:46Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Massive upgrade to creating, sharing and hosting sites directly through ChatGPT.\n\nThree months ago, we launched ChatGPT Sites \u2013 an easy way for anyone to build and host fully functional, interactive web apps. Since then, people have created over 5M sites. We\u2019ve been listening to your feedback and ICYMI, we\u2019ve launched a few Sites updates: \ud83e\udec2 Build together: In\u2026",
+      "url": "https://x.com/thsottiaux/status/2098569538510180712",
+      "published_at": "2026-09-12T00:29:02Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Next week we\u2019ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!! It's had a good run and was a lot of fun\u2026\nNext week we\u2019ll be retiring GPT-5.3-Codex-Spark. Can you believe we shipped a model named as such!!\n\n\n\nIt's had a good run and was a lot of fun, but usage has been declining and we have significantly better models now. Time to make room for the future.",
+      "url": "https://x.com/thsottiaux/status/2098300998968357218",
+      "published_at": "2026-09-11T06:41:57Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Scaled agents on demand. This is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which yo\u2026\nScaled agents on demand.\n\n\n\nThis is pretty much the infrastructure that runs under the hood for ChatGPT Work, all wrapped up in an API which you can use to get started in < 1 min. Happy building.\n\nToday we're launching the Agents API, a brand new way to build Agents in the cloud, backed by the Codex harness. Bring along all your favorite tools and connectors, connect it to any sandbox, and let Astra cook. Can't wait to see what you whip up \ud83d\udc68\u200d\ud83c\udf73 https://openai.com/index/in\u2026",
+      "url": "https://x.com/thsottiaux/status/2098238138334548260",
+      "published_at": "2026-09-11T02:32:10Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Do you pronounce it data or data? This is the way everyone makes dashboards and learns about the business at OpenAI. Can't live without it.\n\nNow everyone can put data to work. We\u2019re introducing a new Data agent in ChatGPT Work so you can turn your company\u2019s data into answers, interactive dashboards, and action\u2014just by asking. Just add the Data Plugin in ChatGPT Work, connect to the data sources and context you already\u2026",
+      "url": "https://x.com/thsottiaux/status/2098165551554240764",
+      "published_at": "2026-09-10T21:43:44Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "To make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 \u2026\nTo make sure our current users have an incredible experience and continued access to Astra, we are going to pause subscriptions to our $200 Pro plan. These put the most strain on our systems and we wanted to take the smallest step that allows us to continue giving the broadest access possible. All other plans and the api remain available.\n\n\n\nThere is no impact to existing accounts and we are working on adding more capacity as fast as we can. Thanks!\n\nDemand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might hav\u2026",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "published_at": "2026-09-10T18:17:14Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "You can now build on top of the same voice system that we shipped to 1B users in ChatGPT. So many fun applications of a full duplex system w\u2026\nYou can now build on top of the same voice system that we shipped to 1B users in ChatGPT.\n\n\n\nSo many fun applications of a full duplex system with solid toolcalling. Going back to text-only experiences after this feels harder than I had expected.\n\nGPT-Live-1 is now available in the API. Bring ChatGPT\u2019s natural back-and-forth to your app, with voice agents that listen while they speak and work with the models and harness you choose.",
+      "url": "https://x.com/thsottiaux/status/2098105060186374280",
+      "published_at": "2026-09-10T17:43:21Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "One of the greatest joys is debating new model names with researchers. They come up with the most hilarious stuff",
+      "url": "https://x.com/thsottiaux/status/2097912273264095536",
+      "published_at": "2026-09-10T04:57:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Happy to be building here with you all. Lots to explore",
+      "url": "https://x.com/thsottiaux/status/2097829053147582782",
+      "published_at": "2026-09-09T23:26:36Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "There was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who use\u2026\nThere was a bit of a kerfuffle this morning with some banked resets not fully applying when used in ChatGPT Work and Codex. Everyone who used one in the affected time window is getting another one and an email to apologize.",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "published_at": "2026-09-09T18:23:34Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Worth clarifying that this is flatly false and the two options are just two independent ways to opt-out. We respect our users' choice whethe\u2026\nWorth clarifying that this is flatly false and the two options are just two independent ways to opt-out.\n\n\n\nWe respect our users' choice whether to use their data to \u201cimprove our models for everyone\u201d regardless of where they express that choice. Users can opt out in the in-app settings or indeed also in our privacy portal. They do not need to opt out in both places, and we will make this clearer in our Help Center.\n\n\n\nhttps://privacy.openai.com/policies/en/\n\nThere is a super shady data control setting on everyone's ChatGPT which makes it seem like your data can be used for training even if you explicitly say to *NOT* improve the model for everyone (1/9)",
+      "url": "https://x.com/thsottiaux/status/2097746417012166816",
+      "published_at": "2026-09-09T17:58:14Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it un\u2026\nDemand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like it until now and we went through very steep growth before. Priority will always be to keep excellent service for existing users, but we might have to pause new Pro subscriptions for a bit if this continues.",
+      "url": "https://x.com/thsottiaux/status/2097559315150426222",
+      "published_at": "2026-09-09T05:34:46Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "See you at the Astra party. Excited to meet some of you\n\nWe want to celebrate with people using GPT-6. We did this for GPT-5.5 and it was really fun. We\u2019re getting together in SF on September 16 to talk about the model, what we should build next, and mostly just to hang out. Apply by Sep 10: https://gpt6-launch-event.openai.chatgpt.sit\u2026",
+      "url": "https://x.com/thsottiaux/status/2097492424474165293",
+      "published_at": "2026-09-09T01:08:58Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I am pleased to see that Ant\u2019s new Claude Code has a version of background computer use on par with the version from Codex from last May thi\u2026\nI am pleased to see that Ant\u2019s new Claude Code has a version of background computer use on par with the version from Codex from last May this year. Nice work!\n\n\n\nShipping great features first turns out to be a great way to encourage other labs to ship too. We will continue to do this until other labs pay more attention to shipping. This is good for everyone and there is a lot of room left to go!\n\n\n\nWe solved computer use in practice for GPT models about four months ago. But computer use is a significantly awesome thing no matter what model you use, and it is important that the industry similarly spends more effort to train their models to be great at computer use, among other elements of model capabilities.\n\n\n\nAs models become more capable and central to businesses and economies, the value of computer use only increases. We should be taking it seriously, and doing the right thing for our customers and the world.",
+      "url": "https://x.com/thsottiaux/status/2097482341916852719",
+      "published_at": "2026-09-09T00:28:54Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I for one am glad prompt injection is getting solved across the industry and that Astra is not only our most capable, but also our most alig\u2026\nI for one am glad prompt injection is getting solved across the industry and that Astra is not only our most capable, but also our most aligned model to date. But also ...\n\nI am pleased to see that OpenAI\u2019s new model is roughly on par with Gemini Flash and Opus 4.8 on prompt injection risk. Nice work! Evaluating and naming other labs turns out to be a great way to encourage them to train more aligned models. We will continue to do this until other l\u2026",
+      "url": "https://x.com/thsottiaux/status/2097482307812859978",
+      "published_at": "2026-09-09T00:28:46Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Look! A fish!\n\nChatGPT Images 2.5\u2014faster, sharper, smarter, with better tools for creating whatever you can dream of. - Faster image generation to keep your ideas flowing - Improved fidelity for more natural, recognizable images - Consistent details across multiple edits - Comment-based edits t\u2026",
+      "url": "https://x.com/thsottiaux/status/2097476797298520292",
+      "published_at": "2026-09-09T00:06:52Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Looking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see wha\u2026\nLooking at this 28 page deck right now where Codex is keeping track of all the individual launches. Each one of them I can't wait to see what people do with it.\n\n\n\nBrought to you by an incredible team (and Astra)",
+      "url": "https://x.com/thsottiaux/status/2097193293532848288",
+      "published_at": "2026-09-08T05:20:19Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "All reset for everyone. Enjoy the week with Astra.\n\nNever gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you Thanks for reading. We will do a global reset of the usage for all paid subscriptions so that you can keep e\u2026",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "published_at": "2026-09-08T04:05:53Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I think I can officially say: we are so back",
+      "url": "https://x.com/thsottiaux/status/2097088586843816330",
+      "published_at": "2026-09-07T22:24:15Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Neve\u2026\nNever gonna give you up\n\nNever gonna let you down\n\nNever gonna run around and desert you\n\nNever gonna make you cry\n\nNever gonna say goodbye\n\nNever gonna tell a lie and hurt you\n\n\n\nThanks for reading. We will do a global reset of the usage for all paid subscriptions so that you can keep enjoying Astra after burning through all of it doing fun 3D modeling in blender. The work week is about to start.\n\n\n\nLands around 6pm PST today.",
+      "url": "https://x.com/thsottiaux/status/2097043464538264003",
+      "published_at": "2026-09-07T19:24:57Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account. No chang\u2026\nWe've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account.\n\n\n\nNo change in quality and a pure win that on the long tail can result in up to 3-4X less usage being drawn from the subscription.",
+      "url": "https://x.com/thsottiaux/status/2096717905614524491",
+      "published_at": "2026-09-06T21:51:18Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "The number of people who don't get it in the comments is concerning to me. Go ask Astra.",
+      "url": "https://x.com/thsottiaux/status/2096700527753245068",
+      "published_at": "2026-09-06T20:42:15Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Astra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sen\u2026\nAstra on NVIDIA GPUs every morning: You're not talking to somebody who woke up a loser. That loser attitude, that loser premise makes no sense to me. We are not a car. Brrrrrrr",
+      "url": "https://x.com/thsottiaux/status/2096698561971064864",
+      "published_at": "2026-09-06T20:34:26Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high. If y\u2026\nTo calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.\n\n\n\nIf you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+      "url": "https://x.com/thsottiaux/status/2096688770523467947",
+      "published_at": "2026-09-06T19:55:32Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Astra was probably our biggest competitive advantage while it wasn\u2019t generally available. Since we\u2019ve had it our productivity jumped so much\u2026\nAstra was probably our biggest competitive advantage while it wasn\u2019t generally available.\n\n\n\nSince we\u2019ve had it our productivity jumped so much that we shifted some of our plans 6 months ahead and will ship them at DevDay instead of mid next year.",
+      "url": "https://x.com/thsottiaux/status/2096101429832552872",
+      "published_at": "2026-09-05T05:01:39Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "And the team will have some nice sleep now. See you next week for some more ships.",
+      "url": "https://x.com/thsottiaux/status/2096035748130795560",
+      "published_at": "2026-09-05T00:40:39Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Because we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it\u2019s o\u2026\nBecause we are beyond happy to have Astra rolled out today ahead of schedule and you have been super patient with us (not really, but it\u2019s ok!)\u2026 we will do the full banked reset today too for all Plus, Pro and Business users. Lands end of day.\n\n\n\nHappy Astra day and enjoy a phenomenal weekend. \n\n\n\nPS: If you create the account or upgrade before 8pm PT you will get it too. Still time!",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "published_at": "2026-09-05T00:39:25Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "OK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated. Astra is now rolled out to all Plus a\u2026\nOK nevermind, the team and Astra did a good job and our systems are more scalable than we anticipated.\n\n\n\nAstra is now rolled out to all Plus and Business users too. Hope you have a blast and let us know how it goes!",
+      "url": "https://x.com/thsottiaux/status/2096002992046796932",
+      "published_at": "2026-09-04T22:30:29Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Awesome to see GPT-6 Astra is #1 on Terminal Bench 4.0 using the Codex harness. At 50% of the cost of #2.",
+      "url": "https://x.com/thsottiaux/status/2095995318471168397",
+      "published_at": "2026-09-04T22:00:00Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Some Plus and Business users won't yet get access to Astra today, we've got you covered with a banked reset. Lands by end of day and if you \u2026\nSome Plus and Business users won't yet get access to Astra today, we've got you covered with a banked reset. Lands by end of day and if you create your account by 8pm PT then you'll get it too.",
+      "url": "https://x.com/thsottiaux/status/2095979536043401428",
+      "published_at": "2026-09-04T20:57:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are progressing through the rollout of Astra. Pro and Business subscriptions get it first, some of you should start seeing it across Chat\u2026\nWe are progressing through the rollout of Astra. Pro and Business subscriptions get it first, some of you should start seeing it across ChatGPT Work and Codex.\n\n\n\nAnd then we will proceed with rollout to all of Plus as fast as we can.",
+      "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "published_at": "2026-09-04T19:44:22Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today. Team is moving mountai\u2026\nWe will give one banked reset for every day you don't have access to Astra on your paid ChatGPT plan, starting today.  Team is moving mountains to give access as fast as we can.\n\n\n\nFirst one will land in ~ 3 hours. There is still time to create your account if you don't have one.",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "published_at": "2026-09-03T23:12:09Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are going to need a different AGI benchmark. Where is the goalpost moving next?",
+      "url": "https://x.com/thsottiaux/status/2095601101701820752",
+      "published_at": "2026-09-03T19:53:31Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Across the plans Astra will be included in the normal usage allocation and you will be able to use 100% of it towards Astra.",
+      "url": "https://x.com/thsottiaux/status/2095597659545591917",
+      "published_at": "2026-09-03T19:39:51Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "We are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring i\u2026\nWe are starting to release GPT-6 Astra and we are doing it as carefully and quickly as possible. It was very important to us that we bring it to all Plus users and not only Pro, Business and Enterprise. \n\n\n\nIt will take a few days for the rollout to complete and behind the scenes many novel systems will operate at scale for the first time and we are bringing a lot of compute up.\n\n\n\nIt is pure magic.\n\n\n\nhttps://openai.com/index/gpt-6-astra/",
+      "url": "https://x.com/thsottiaux/status/2095597168816226335",
+      "published_at": "2026-09-03T19:37:54Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Something was felt across the internet today",
+      "url": "https://x.com/thsottiaux/status/2095538856296898868",
+      "published_at": "2026-09-03T15:46:11Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "I think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme owne\u2026\nI think the best way to describe OpenAI's culture is as a mega startup. It's hard to believe unless you see it from the inside. Extreme ownership, care and pace.",
+      "url": "https://x.com/thsottiaux/status/2095369901137654271",
+      "published_at": "2026-09-03T04:34:49Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "The ChatGPT desktop app is now my main browser and my productivity has never been higher",
+      "url": "https://x.com/thsottiaux/status/2095288416292487289",
+      "published_at": "2026-09-02T23:11:01Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Bullish",
+      "url": "https://x.com/thsottiaux/status/2094939684015317363",
+      "published_at": "2026-09-02T00:05:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "https://x.com/thsottiaux/status/2094826841622348106",
+      "url": "https://x.com/thsottiaux/status/2094826841622348106",
+      "published_at": "2026-09-01T16:36:53Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Should we do a merch line?",
+      "url": "https://x.com/thsottiaux/status/2094826808114057246",
+      "published_at": "2026-09-01T16:36:45Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "If you still haven't tried Codex but have considered it in the past, what's the one thing holding you back?",
+      "url": "https://x.com/thsottiaux/status/2094588317245509959",
+      "published_at": "2026-09-01T00:49:05Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "What should we ship next week?",
+      "url": "https://x.com/thsottiaux/status/2094293190945976638",
+      "published_at": "2026-08-31T05:16:21Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "For clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both P\u2026\nFor clarity, while both are called 20X, in Codex they apply specifically to weekly usage limits. And we also don't have 5h limits for both Pro plans.\n\n\n\nThe Pro 20X is quite precisely 20X the usage of the Plus subscription, so it does exactly what it says on the tin.\n\nThe whole \u201c20x\u201d in Claude\u2019s pricing is so misleading. The $100 plan says 5x Pro limits, while the $200 plan says 20x Pro limits. That makes it sound like you\u2019re getting 4x the usage. But the 20x applies only to the 5-hour usage window. The weekly limit is basically just 2x the $1\u2026",
+      "url": "https://x.com/thsottiaux/status/2094254532020818191",
+      "published_at": "2026-08-31T02:42:44Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "What I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatG\u2026\nWhat I wanted to say yesterday is that we hit 25M active users and to celebrate we have now reset usage for all paid subscriptions for ChatGPT Work and Codex.\n\n\n\nSee you soon for more news from The Reset Company.\n\nThis celebration is moved to tomorrow as the button was already pressed today.",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "published_at": "2026-08-31T02:34:27Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Brent is incredible and one of the main forces behind the desktop app polish, performance and reliability. Relentless improvements day after\u2026\nBrent is incredible and one of the main forces behind the desktop app polish, performance and reliability.\n\n\n\nRelentless improvements day after day.\n\nLast week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. \u2705 Long threads now load over 90% faster. \u2705 Decreased the memory footprint of long threads by over 90%.",
+      "url": "https://x.com/thsottiaux/status/2094164029044646099",
+      "published_at": "2026-08-30T20:43:06Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST. I challenge you to burn as much usage as you can and discover and the latest awesome\u2026\nYour Codex and ChatGPT Work reset will land at 6pm PST. \n\n\n\nI challenge you to burn as much usage as you can and discover and the latest awesome features. \n\n\n\nTime to go /fast",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "published_at": "2026-08-30T19:24:37Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    }
+  ],
+  "errors": []
+}
