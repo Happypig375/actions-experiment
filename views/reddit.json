@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-13T06:48:36.151652Z",
+  "since": "2026-09-13T00:48:36.151652Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1wf08qv",
+      "title": "the future is now...",
+      "url": "https://www.reddit.com/r/codex/comments/1wf08qv/the_future_is_now/",
+      "created_at": "2026-09-13T06:44:16+00:00",
+      "author": "/u/Minimum_Hour519",
+      "excerpt": "``` \u2022 Three agents are active:\n  /root \u2014 me, coordinating and reviewing both tasks. /root/hqtui_kill \u2014 fixing Yes/No navigation and adding the unchecked force-kill option. /root/openfleet \u2014 adding fleet membership, metadata, and CoinPay rental rates.\n Each task agent has its own git worktree. ```\n     submitted by    /u/Minimum_Hour519  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wf04i2",
+      "title": "They don't have enough compute for 20x subs but you still get resets.",
+      "url": "https://www.reddit.com/r/codex/comments/1wf04i2/they_dont_have_enough_compute_for_20x_subs_but/",
+      "created_at": "2026-09-13T06:37:30+00:00",
+      "author": "/u/ryuukiba",
+      "excerpt": "That's the best argument I've thought of for resets NOT favoring us. Whether they're masking a degrading service or something else. If they can't handle 200 usd subs, why would they be giving us free compute? \n    submitted by    /u/ryuukiba  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wezj2y",
+      "title": "Bug: Codex shows a blank screen while processing instructions and needs to be restarted",
+      "url": "https://www.reddit.com/r/codex/comments/1wezj2y/bug_codex_shows_a_blank_screen_while_processing/",
+      "created_at": "2026-09-13T06:03:47+00:00",
+      "author": "/u/grandemoficial",
+      "excerpt": "I had never experienced any issues with Codex before, but now, whenever I send it a prompt, the screen goes blank after a few minutes and the task is interrupted. The only way to fix it is to open a new window or restart Codex, but the problem eventually happens again.\n If I try to access other chats, their content appears normally. However, when I return to the affected chat, all I see is a blank screen.\n I\u2019ve already tried clearing the memory under Settings > Personalization and repairing the Codex app on Windows.\n Does anyone know how to fix this?\n    submitted by    /u/grandemoficial  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weyz7y",
+      "title": "How to actually reduce usage",
+      "url": "https://www.reddit.com/r/codex/comments/1weyz7y/how_to_actually_reduce_usage/",
+      "created_at": "2026-09-13T05:33:09+00:00",
+      "author": "/u/Linkpharm2",
+      "excerpt": "https://preview.redd.it/ml4ae2a048ph1.png?width=1300&format=png&auto=webp&s=ad4fec7c4622a2ad8be0b0929555462cb1086c60\n Add .codex/config.toml to whereever your project root is with this inside. You'll have to reload the project inside Codex. \n model_context_window = 128000\n model_auto_compact_token_limit = 115000\n When you're doing a big task running it to 258k, the upper 128k takes about 75% of the tokens. If you compact earlier and have it just read the code on disk, that cuts it by about 74%. \n Doubling how long you let a conversation run before compacting doesn't double the cost, it roughly quadruples (minus cache create, so if you're using an API key it's more like 3x) it. Scaling is quadratic. You could even go to 64k, but that's less of an insane jump at only 40% less than 128k.\n htt",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weymok",
+      "title": "CliDeck V2 is out with projects, live status, collaboration across CLI providers, and auto previews (docs, html, images, videos, etc) by your agents.",
+      "url": "https://www.reddit.com/r/codex/comments/1weymok/clideck_v2_is_out_with_projects_live_status/",
+      "created_at": "2026-09-13T05:14:11+00:00",
+      "author": "/u/Oren_Lester",
+      "excerpt": "Obviously, I think it's the best way to work with CLI agents like Codex across different providers. It's very productive and fun. In V2, CLI agents can give tasks and communicate between themselves in the natural CLI TUI, so you see everything they send to each other.\n Clideck is fully open source so give it a try feel free to change it to your own needs,\n Give it a try, Thanks.\n https://github.com/rustykuntz/clideck \n    submitted by    /u/Oren_Lester  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weyk6c",
+      "title": "Vibecoding is becoming an ethical question...",
+      "url": "https://www.reddit.com/r/codex/comments/1weyk6c/vibecoding_is_becoming_an_ethical_question/",
+      "created_at": "2026-09-13T05:10:15+00:00",
+      "author": "/u/tazecode",
+      "excerpt": "If you want to do a deep dive check this out:\n https://research.google/blog/a-connectomics-milestone-mapping-the-complete-male-fruit-fly-brain/\n Essentially they mapped out the whole fly's brain by slicing it up and this is literally one on one, the exact brain of a fly. This shows that it's definitely possible to do this with a human too.\n We really need laws for that soon...\n    submitted by    /u/tazecode  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weyk2i",
+      "title": "Max x20 is gone for good.",
+      "url": "https://www.reddit.com/r/codex/comments/1weyk2i/max_x20_is_gone_for_good/",
+      "created_at": "2026-09-13T05:10:06+00:00",
+      "author": "/u/Current_Balance6692",
+      "excerpt": "I'm bringing the heat jabronis\n There is something deeply satisfying about watching the exact argument that was used to dismiss Plus users finally travel up the pricing ladder.\n For ages, whenever $20 Plus users complained about limits, degraded access, queues, or losing something they had built workflows around, a certain type of Max user had the same response:\n \u201cYou pay $20. What did you expect?\u201d\n \u201cIt\u2019s the cheap plan.\u201d\n \u201cSerious users pay more.\u201d\n \u201cIf $20 is a problem, this product isn\u2019t for you.\u201d\n \u201cYou can\u2019t expect the company to subsidize you forever.\u201d\n Fine.\n Keep that exact energy for the $200 plan.\n Because $200 is not some magical economic threshold at which compute suddenly becomes free. If a power user is burning hundreds or thousands of dollars of effective inference every month",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wexu4h",
+      "title": "Codex on mobile is unusable",
+      "url": "https://www.reddit.com/r/codex/comments/1wexu4h/codex_on_mobile_is_unusable/",
+      "created_at": "2026-09-13T04:31:52+00:00",
+      "author": "/u/l_say_mean_things",
+      "excerpt": "I get this generic error for every remote session where I try to connect to my MacBooks session from my iPhone. It\u2019s been this way for weeks. Any tips?\n    submitted by    /u/l_say_mean_things  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wexpti",
+      "title": "Monthly usage in codex cli",
+      "url": "https://www.reddit.com/r/codex/comments/1wexpti/monthly_usage_in_codex_cli/",
+      "created_at": "2026-09-13T04:25:24+00:00",
+      "author": "/u/AccomplishedFail9857",
+      "excerpt": "Because there is none, I wanted to share it with you guys:\n Calculate my 2026 year-to-date token total by summing the returned dailyUsageBuckets whose startDate is in 2026. Show: - The 2026 total from the available daily records. - A monthly breakdown. - The earliest and latest dates returned. - The separate lifetimeTokens value. Do not treat the lifetime total as the 2026 total. Clearly state whether historical coverage can be verified, and label the result as account-level usage rather than CLI-only usage. Do not display authentication tokens or change my configuration. I\u2019ll use the openai-docs skill to check the local RPC interface, then retrieve account usage and sum the 2026 daily records without changing configuration or exposing credentials.  I got around 20B, pretty useful:\n https:",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wexp9b",
+      "title": "Agent Interop MCP",
+      "url": "https://www.reddit.com/r/codex/comments/1wexp9b/agent_interop_mcp/",
+      "created_at": "2026-09-13T04:24:36+00:00",
+      "author": "/u/NumerousCommunity619",
+      "excerpt": "I created this MCP because i wanted a way for models and providers to be able to speak to each other inside of one native chat. Currently, freebuff, Opencode, codex, and claudecode, and cursor have been added (cursor hasnt been tested). Basically, what it does is it allows you, for example, in a codex session to send a message to opencode big pickle high reasoning to implement a certain prompt. You can check progress within the session, and read relevant file, then send follow ups witihn the same prompt. It has automatic ID detection so it can detect what services are signed in and what you can use. If you guys wanna check it out https://github.com/Praket7/agent-interop-runtime and let me know what you think. If you could test and give me feedback and star it, I would appreciate it.\n    su",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wexijr",
+      "title": "Idk what the heck you guys are complaining about",
+      "url": "https://www.reddit.com/r/codex/comments/1wexijr/idk_what_the_heck_you_guys_are_complaining_about/",
+      "created_at": "2026-09-13T04:15:09+00:00",
+      "author": "/u/Plenty-Option8351",
+      "excerpt": "I just upgraded from Plus to Pro because I had some extra cash this month and I wanted to genuinely try out Astra. I couldn\u2019t get any work done with that five hour limit on Astra. Even medium reasoning would give me like 20 minutes before I ran out of usage. And HOLY crap guys and gals. The Pro plan is WAAAAY more usage than Plus. \n I have been throwing every problem that I can think of at Astra on extra high for hours and I\u2019ve only used like 30% of my weekly limit. I\u2019m talking code reviews, bug fixes, issues with my home lab, projects I\u2019ve been meaning to get to for months, but haven\u2019t had the time. And it absolutely crushes them without breaking a sweat. To burn through I just tell it what I want to happen and it makes it work. \n I figured I\u2019d maybe get a couple hours of Astra at that hi",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wex95b",
+      "title": "Codex Desktop \u2013 \u201cUnable to attach appshot\u201d with the new Appshots feature on Windows 11",
+      "url": "https://www.reddit.com/r/codex/comments/1wex95b/codex_desktop_unable_to_attach_appshot_with_the/",
+      "created_at": "2026-09-13T04:01:27+00:00",
+      "author": "/u/calvin_dev77",
+      "excerpt": "Hi everyone,\n I'm having an issue with the new Appshots feature in Codex Desktop on Windows.\n Whenever I use the Appshot keyboard shortcut, Codex recognizes the shortcut but immediately shows:\n \"Unable to attach appshot\"\n Codex Desktop:\n Powered by Codex & OWL\n Version: 26.908.40834\n Released: September 12, 2026\n Windows:\n Windows 11 Pro\n Version: 25H2\n OS Build: 26200.9445\n Windows Feature Experience Pack: 1000.26100.360.0\n I've tried capturing different applications, including simple Windows apps, but the result is always the same.\n The keyboard shortcut itself appears to be working because Codex responds immediately. The failure seems to happen when Codex tries to capture or attach the Appshot.\n I've also restarted both Codex Desktop and Windows, but the issue persists.\n Is anyone else ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wex5nu",
+      "title": "The Bubble No One Is Talking About: Why AI Is Going to Become a Luxury \u2014 and We\u2019re Too Blind to See It",
+      "url": "https://www.reddit.com/r/codex/comments/1wex5nu/the_bubble_no_one_is_talking_about_why_ai_is/",
+      "created_at": "2026-09-13T03:56:53+00:00",
+      "author": "/u/Brilliant-War-5214",
+      "excerpt": "Everyone is fascinated by what frontier AI models can generate. Startups, creators, and curious users are flooding the internet with extraordinary things every day. But there\u2019s an elephant in the room that, as users, we refuse to acknowledge:\n The current economic model is an illusion.\n Here are a few uncomfortable realities we\u2019re ignoring:\n  The corporate pullback: There are already reports of large companies asking employees to limit their use of advanced AI models. It\u2019s not only about privacy. Paying premium token costs for thousands of employees can become a massive financial black hole. Companies can end up spending millions on AI usage that is difficult to justify on a monthly balance sheet. The unsustainable subsidy: OpenAI, Anthropic, and others are burning through billions of doll",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wewqfj",
+      "title": "Archive problem ?",
+      "url": "https://www.reddit.com/r/codex/comments/1wewqfj/archive_problem/",
+      "created_at": "2026-09-13T03:34:55+00:00",
+      "author": "/u/BoringCanary",
+      "excerpt": "anyone else been having this issue with archive creation since yesterday ?... what workaround ?\n    submitted by    /u/BoringCanary  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wew63a",
+      "title": "Astra Usage Tip",
+      "url": "https://www.reddit.com/r/codex/comments/1wew63a/astra_usage_tip/",
+      "created_at": "2026-09-13T03:05:58+00:00",
+      "author": "/u/RedZero76",
+      "excerpt": "I've been doing this for the last 24 hours. I would say it has slowed down the usage rate overall by about 50% or so, without any difference in quality at all. Def worth doing! I have the $200 Pro plan and normally it lasts all week, but lately it is lasting 1-2 days, but now with this, think it'll last more like 3-4 days at the rate it's going now. \n ---\n Codex has the ability to choose which models and reasoning effort are used for subagent helpers. (Claude doesn\u2019t, btw). This is a big deal. Add something like this to the Agents.md:\n You are powered by GPT 6 Astra High. Usage goes very fast. Keep doing substantial hands-on Astra work. But, use \\gpt-5.6-sol` helpers with task-appropriate effort when suitable! Retain Astra for hard reasoning.`\n This will let Astra know to use Sol for subta",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wevxki",
+      "title": "They removed the option to renew my $200 plan",
+      "url": "https://www.reddit.com/r/codex/comments/1wevxki/they_removed_the_option_to_renew_my_200_plan/",
+      "created_at": "2026-09-13T02:54:00+00:00",
+      "author": "/u/BigBreath",
+      "excerpt": "So yesterday my subscription should have renewed. My plan was $200/m plan but it repeatedly refused to renew it. My plan was purchased through the App Store.\n The only available option they gave me was to downgrade to $100 plan or lower but I can\u2019t stay on the $200 plan\n The moment I got switched to $100 plan my usage immediately dropped to 51% which before the switch it was sitting at 92%.\n I was doing important work which was time-sensitive. I can\u2019t even switch to Claude Code quickly as I built everything around Codex. I am kind of stuck now.\n Tibo or ChatGPT team if you are seeing this then please fix it. You people said existing customers will not be affected. I have been a Max customer for like a year now and when I needed it most I couldn\u2019t use it.\n I am kind of helpless now as this ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wevq2w",
+      "title": "Help me find the best harness",
+      "url": "https://www.reddit.com/r/codex/comments/1wevq2w/help_me_find_the_best_harness/",
+      "created_at": "2026-09-13T02:43:18+00:00",
+      "author": "/u/AdDangerous8989",
+      "excerpt": "I am looking for a great harness but I do not know which It Is the best for Astra. Otherwise, my app is not ready yet\n    submitted by    /u/AdDangerous8989  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wevjg9",
+      "title": "How to improve workflow with codex/claude",
+      "url": "https://www.reddit.com/r/codex/comments/1wevjg9/how_to_improve_workflow_with_codexclaude/",
+      "created_at": "2026-09-13T02:34:06+00:00",
+      "author": "/u/AvailableSecret5161",
+      "excerpt": "For context I'm not a developer but I have been developing apps and workflows for enterprises for about a year now and i primarily use VSCode on windows and very rarely CLI. Since past few weeks/months I have been struggling with my workflows which used to work fairly well until gpt 5.5 and claude 4.6. Specific areas which I'm struggling with now:\n  Testing strategy - I have tried using automated bounded testing strategy invocation which does not work and without any strategy models keep creating stupid tests and just going into a loop of testing forever \n I primarily use coderabbit and codeant which further increases friction. Either these tools got better or models just started accepting all edge cases or both. \n I also have an automated script for all static checks like formatting, lint",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weuygy",
+      "title": "Is browser control model or harnes related? Like if I have muse configured inside codex, can I have it use browser control?",
+      "url": "https://www.reddit.com/r/codex/comments/1weuygy/is_browser_control_model_or_harnes_related_like/",
+      "created_at": "2026-09-13T02:07:04+00:00",
+      "author": "/u/Prior-Meeting1645",
+      "excerpt": "Cuz othet stuff worked like /goal etc\n    submitted by    /u/Prior-Meeting1645  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weuybj",
+      "title": "Observation: Multiple sessions running in parallel including sub agents. About 25% of weekly usage gone on 20x sub in 4 hours and $370 USD in API credits.",
+      "url": "https://www.reddit.com/r/codex/comments/1weuybj/observation_multiple_sessions_running_in_parallel/",
+      "created_at": "2026-09-13T02:06:51+00:00",
+      "author": "/u/AI_Simp",
+      "excerpt": "https://preview.redd.it/h2no9n1n27ph1.png?width=708&format=png&auto=webp&s=1f9cbfbb7ede58cbc38cbfc843e6f07b4b7e4ddd\n Multiple sessions running in parallel including sub agents. About 25% of weekly usage gone on 20x sub. \n Would be about $6000 USD in API usage per sub without resets for about $200 USD per month. \n So they're obviously quite generous with the API equivalent allowances. I don't think subscriptions are likely running at a loss. API prices is probably 15-40x their costs.\n What concerns me is that this does not seem like the equivalent amount of work I'd get done for 25% on Claude code. The benchmarks gave me the impression astra would be more token efficient. \n I routinely have 10-20 sessions running in parallel even in Claude 20x and it'd be hard to use them up in a few days.\n",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weuvol",
+      "title": "I feel like I'm throwing tokens away every time I interrupt a subagent",
+      "url": "https://www.reddit.com/r/codex/comments/1weuvol/i_feel_like_im_throwing_tokens_away_every_time_i/",
+      "created_at": "2026-09-13T02:03:14+00:00",
+      "author": "/u/babamba_324",
+      "excerpt": "I'm trying to build a little bootstrap tool for my own projects with Codex. It's a bit like a harness, and it saves the agents' messages and progress to a database as they work.\n I have a main agent that gives tasks to subagents. Sometimes it sends one off to do something, then realizes it forgot to include important information. But the subagent is already working by then. So the main agent interrupts it and gives it updated instructions.\n That part really bothers me. If the work it already did gets thrown away, it feels like I burned those tokens for nothing.\n I'm thinking of making the main agent wait once it gives out a task. Let the subagent finish, get the result, then give it the missing info and ask it to fix whatever needs fixing. Basically, work with what it already did rather th",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weuufh",
+      "title": "I have to tell Codex \"pls proceed\" \"let's implement them all\" \"you have my full permissions please don't stop\" constantly",
+      "url": "https://www.reddit.com/r/codex/comments/1weuufh/i_have_to_tell_codex_pls_proceed_lets_implement/",
+      "created_at": "2026-09-13T02:01:27+00:00",
+      "author": "/u/SeparateRemove9902",
+      "excerpt": "I have to tell Codex \"pls proceed\" \"let's implement them all\" \"you have my full permissions please don't stop\" constantly.\n This is even more of a problem with astra than sol. \n I feel exhausted asking for status and tell it to continue.\n    submitted by    /u/SeparateRemove9902  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weu7f3",
+      "title": "Using Codex Business for personal stuff... <RISKY?>",
+      "url": "https://www.reddit.com/r/codex/comments/1weu7f3/using_codex_business_for_personal_stuff_risky/",
+      "created_at": "2026-09-13T01:29:44+00:00",
+      "author": "/u/AttentionParty3787",
+      "excerpt": "At my job, they gave me access to ChatGPT Business and told me I was free to use it for personal things. The problem is that they never specified whether Codex was also \u201cfree\u201d to use for whatever I wanted, and I currently have a lot of unused quota that will expire if I don\u2019t use it.\n I\u2019d like to take advantage of that quota, but I\u2019m worried that the ChatGPT Business administrator at my company might notice that I\u2019m programming personal projects with the account and fire me from my job.\n Do you guys have any experience with something like this? Can the admin see what I code with Codex? I\u2019m worried, but at the same time I feel like I\u2019m not really hurting anyone because it\u2019s quota that will disappear if I don\u2019t use it anyway. What do you think?\n    submitted by    /u/AttentionParty3787  \n [l",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weu41n",
+      "title": "GPT-6-Pluto to be cheaper than Luna and more capable",
+      "url": "https://www.reddit.com/r/codex/comments/1weu41n/gpt6pluto_to_be_cheaper_than_luna_and_more_capable/",
+      "created_at": "2026-09-13T01:25:13+00:00",
+      "author": "/u/Just_Lingonberry_352",
+      "excerpt": "submitted by    /u/Just_Lingonberry_352  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wetr8a",
+      "title": "This is the quality of GPT6 PRO on Chatgpt web",
+      "url": "https://www.reddit.com/r/codex/comments/1wetr8a/this_is_the_quality_of_gpt6_pro_on_chatgpt_web/",
+      "created_at": "2026-09-13T01:08:38+00:00",
+      "author": "/u/Even_Sea_8005",
+      "excerpt": "https://preview.redd.it/pijjfz3ht6ph1.png?width=1412&format=png&auto=webp&s=bc55e64e039c1624f3ea5d0db77ba0ffcba98726\n This never happened on a GPT5.x Pro model before. Pro models were diliigent and thorough. Now GPT6Pro just frequently makes things up. \n    submitted by    /u/Even_Sea_8005  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wetm28",
+      "title": "We switched from Claude Code to Codex at work (Opus High vs. Sol Max) and noticed a clear difference in quality. Anyone else?",
+      "url": "https://www.reddit.com/r/codex/comments/1wetm28/we_switched_from_claude_code_to_codex_at_work/",
+      "created_at": "2026-09-13T01:02:07+00:00",
+      "author": "/u/SemFutur0",
+      "excerpt": "Hey everyone,\n The company I work for recently switched from Claude Code to Codex to cut costs. Before making the switch, I spent some time analyzing benchmarks to pick an equivalent model tier so the team wouldn't take a productivity hit. I also ported our configurations.\n In practice, the drop in output quality has been noticeable. On Claude Code, we ran Opus on High; on Codex, we moved to Sol on Extra High and Max. Despite that, the consensus across the team is that Opus delivers more accurate, concise code that requires far less rework.\n On top of that, Opus responds faster, whereas Codex takes longer to process. Our company policy disables agent \"fast mode\" and blocks models like Fable and Astra (even though we have a generous $1,000/month per dev cap for each tool, so budget isn't th",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wes86l",
+      "title": "A little help to save tokens.",
+      "url": "https://www.reddit.com/r/codex/comments/1wes86l/a_little_help_to_save_tokens/",
+      "created_at": "2026-09-12T23:57:34+00:00",
+      "author": "/u/Secret_Department398",
+      "excerpt": "Hello,\n I've been experimenting with automatic model routing in Codex instead of running the entire coding session at the same model/reasoning level.\n My setup is roughly:\n Luna LOW \u2192 coordinator\n \u2193\n Astra Light \u2192 diagnostician\n  investigates non-trivial bugs establishes the root cause produces an implementation-ready work order read-only, so it cannot modify the repo  \u2193\n Luna MAX \u2192 patcher\n  receives the confirmed diagnosis implements only the bounded change runs the relevant tests/validation reports the final result  The parent agent handles orchestration and only invokes the diagnostician/patcher workflow when appropriate.\n The idea is simple: don't spend MAX reasoning on repository exploration, repeated diagnosis, coordination, and other work that doesn't require it.\n I haven't run a l",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1werlyn",
+      "title": "2B Nier minecraft mod made with openai astra. Built ENTIRELY with AI, animations, model and code. Interesting pushing what the models can do.",
+      "url": "https://www.reddit.com/r/codex/comments/1werlyn/2b_nier_minecraft_mod_made_with_openai_astra/",
+      "created_at": "2026-09-12T23:28:48+00:00",
+      "author": "/u/AetherworkCreations",
+      "excerpt": "Added some more images and a download link on my twitter.\n https://x.com/Aetherworking/status/2098915914276040978\n    submitted by    /u/AetherworkCreations  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1weqb8z",
+      "title": "Model or Clear Instructions",
+      "url": "https://www.reddit.com/r/codex/comments/1weqb8z/model_or_clear_instructions/",
+      "created_at": "2026-09-12T22:31:36+00:00",
+      "author": "/u/Opposite-Topic-7444",
+      "excerpt": "Both cannot be an answer in this discussion. What is more important, the model being used or the instructions included in the prompt? I\u2019ve been experimenting using Luna with varying reasoning - High, Xhigh, Max. The idea I have in my head is - do we really need a better model or is it that most of us does not know how to provide clear instructions so we rely on more intelligent models to do the heavy lifting? \n I\u2019m sure the \u201ccheat code\u201d is both a model and instructions given but I\u2019m curious about everyone\u2019s hypothesis on this. \n    submitted by    /u/Opposite-Topic-7444  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wepcn2",
+      "title": "Significant reduction in the memory footprint of the Klyn runtime environment with Codex Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1wepcn2/significant_reduction_in_the_memory_footprint_of/",
+      "created_at": "2026-09-12T21:50:37+00:00",
+      "author": "/u/Dom-Klyn",
+      "excerpt": "Thanks to the latest Codex reset, I used it to reduce the memory footprint of my Klyn programming language. The Astra model is absolutely insane when it comes to programming languages, and I'm blown away by the result. Thanks, u/tibo-openai!\n For those who are curious: https://klyn.deepcodia.fr\n    submitted by    /u/Dom-Klyn  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wep0sf",
+      "title": "Honest opinion.",
+      "url": "https://www.reddit.com/r/codex/comments/1wep0sf/honest_opinion/",
+      "created_at": "2026-09-12T21:36:45+00:00",
+      "author": "/u/Top_Parfait_5555",
+      "excerpt": "Honestly I tried the Astra hype, but is nowhere near AGI, nowhere near in 3d modelling hype i ve seen online(probably with 2 pro $200 accounts can reach something).\n As for my coding tasks I am still sticking to Sol, learned to prompt better, learned to give more details needed. I think we are moving too fast from model to model. I personally got used to SOL and I enjoy it. Also using SOL limits seems more than enough for me.\n What are your experiences with Astra vs SOL?\n    submitted by    /u/Top_Parfait_5555  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wenzkp",
+      "title": "Codex vs ZCode",
+      "url": "https://www.reddit.com/r/codex/comments/1wenzkp/codex_vs_zcode/",
+      "created_at": "2026-09-12T20:55:11+00:00",
+      "author": "/u/Secret_Department398",
+      "excerpt": "Hi everyone,\n I\u2019m on the $100 Codex plan, and I mostly use Luna MAX because the more capable models can burn through my usage allowance in just a few days.\n I\u2019ve been reading comparisons and looking at benchmark/analytics sites, and GLM 5.3 seems surprisingly competitive with GPT-5.6 Sol at XHigh reasoning, while apparently using significantly fewer tokens. Zcode is also around $56/month, and from what I understand, usage during off-peak hours is discounted by 50%.\n I\u2019m considering trying it as an alternative to Codex for day-to-day development, but I\u2019d rather hear from people who have actually used both.\n Has anyone here switched from Codex to Zcode, or used them side by side for serious development work?\n I\u2019m particularly interested in:\n  Code quality and ability to understand large exis",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wenyty",
+      "title": "ChatGPT + Grok Android login failure \u2014 browser works",
+      "url": "https://www.reddit.com/r/codex/comments/1wenyty/chatgpt_grok_android_login_failure_browser_works/",
+      "created_at": "2026-09-12T20:54:19+00:00",
+      "author": "/u/whysoserious280792",
+      "excerpt": "ChatGPT + Grok Android login failure \u2014 browser works\n Samsung S25 Ultra, Android 16. ChatGPT and Grok apps both fail to complete login. ChatGPT shows \u201cSign-in request cancelled by ChatGPT.\u201d\n - Login works normally in Chrome.\n - Chrome is default browser.\n - Cleared ChatGPT + Chrome cache/data.\n - Android System WebView is installed/up to date.\n - Google Play Services is up to date; cleared cache + force stopped.\n - VPN off, Private DNS automatic.\n - All apps updated.\n - ChatGPT works when installed inside Samsung Secure Folder.\n What Android authentication component/settings could cause the login handoff to be cancelled in the normal profile?\n    submitted by    /u/whysoserious280792  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
