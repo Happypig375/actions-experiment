@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-14T19:37:56.245869Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-14T17:17:18.791474Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wgd55t",
+      "timestamp": "2026-09-14T19:18:21Z",
+      "title": "Built a Windows Codex Usage plugin \u2014 now live",
+      "author": "/u/jayseattle",
+      "url": "https://www.reddit.com/r/codex/comments/1wgd55t/built_a_windows_codex_usage_plugin_now_live/",
+      "excerpt": "I made Codex Usage, a small Windows-only Codex plugin that shows your 5-hour/weekly usage and reset status in the title bar.\n Install either way:\n  Web: view details + install here https://chatgpt.com/plugins/plugins_6aa81c5dad4881918bd29685d1fb6523 In Codex: open the plugin store and search Codex Usage  Then select Codex Usage and run:Start!\n For the Codex desktop app on Windows, not ChatGPT web.\n Mac version coming soon.\n GitHub: github.com/jayhilwig/codexusage\n    submitted by    /u/jayseattle  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/8no6wvuqcjph1.png?width=640&crop=smart&auto=webp&s=33182f55c4ec96b1025df64e7e3245300c6f02c1",
+        "https://i.redd.it/8no6wvuqcjph1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wgc1u8",
+      "timestamp": "2026-09-14T18:40:02Z",
+      "title": "Tonight I'm livestreaming my game that I built entirely in Codex",
+      "author": "/u/Camenwolf",
+      "url": "https://www.reddit.com/r/codex/comments/1wgc1u8/tonight_im_livestreaming_my_game_that_i_built/",
+      "excerpt": "If anyone is interested catch it, it's at 6pm CDT. It's not going to blow your hair back with mind bending graphics or anything. It's a zero gravity physics/puzzle game. But it's an idea that I've had for decades and Codex finally let me bring it to fruition.\n Sorry if I'm not supposed to post livestream links here. I don't see anything in the rules that says not to, and it *is* an entirely Codex based project.\n    submitted by    /u/Camenwolf  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/2gv8GSHc2Xr0wCyl29rJ3GQRDkHvmBTpPnhduOARWY4.jpeg?width=640&crop=smart&auto=webp&s=a0fee6e822f6a06d059556580c1494c6c2c346c5"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wgbon7",
+      "timestamp": "2026-09-14T18:27:23Z",
+      "title": "Setting token limits on /goals in codex -- didn't know you could do this",
+      "author": "/u/shepbryan",
+      "url": "https://www.reddit.com/r/codex/comments/1wgbon7/setting_token_limits_on_goals_in_codex_didnt_know/",
+      "excerpt": "I learned something new today.... You can set a token limit with /goal in Codex. I was trying to have 5.6 Sol estimate a token usage projection based on similar goals, told it that historically the final tally for similar work is around 1.2M to 3.5M and 4-12 hours based on past runs. It then set a token usage ceiling for this goal, and kicked off the work. The sidebar goal window in the desktop app doesn't really offer any add'l info about the goal token limit but it's there in my goal bar and it's going up slowly but surely. Very interesting.\n Codex has a lot of great features that aren't well documented. Have any of you seen this yet? Maybe this is just something that's been around a while and I've been missing it.\n    submitted by    /u/shepbryan  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/bk544z2v3jph1.png?width=640&crop=smart&auto=webp&s=ab53d46e5ef6bed7648d71068813fa9c1d43f812",
+        "https://i.redd.it/bk544z2v3jph1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wgak2b",
+      "timestamp": "2026-09-14T17:48:56Z",
+      "title": "Yeah about that...",
+      "author": "/u/TeaScam",
+      "url": "https://www.reddit.com/r/codex/comments/1wgak2b/yeah_about_that/",
+      "excerpt": "To be fair he never specified how much \ud83e\udd23\n    submitted by    /u/TeaScam  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/0u70ynbwwiph1.jpeg?width=640&crop=smart&auto=webp&s=208108bcce94aee3ff1ec20b6bad5d3eab786803",
+        "https://i.redd.it/0u70ynbwwiph1.jpeg"
+      ]
+    }
+  ],
+  "errors": []
+}
