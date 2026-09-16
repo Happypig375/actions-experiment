@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-16T01:45:58.757722Z",
+  "since": "2026-09-15T19:45:58.757722Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1whji71",
+      "title": "How do you actually keep up with everything AI gives you?",
+      "url": "https://www.reddit.com/r/codex/comments/1whji71/how_do_you_actually_keep_up_with_everything_ai/",
+      "created_at": "2026-09-16T01:41:44+00:00",
+      "author": "/u/save-to-poor",
+      "excerpt": "I\u2019ve been using AI a lot lately and sometimes I honestly can\u2019t keep up.\n It gives me one idea, then five more ideas, then we make a few decisions and move on. An hour later I can\u2019t remember why we decided something or what I was originally trying to do.\n It\u2019s all still somewhere in the chat, but I don\u2019t really have the full picture in my head anymore. Sometimes I feel faster, but also kind of dumber.\n I tried notes and summaries, but they quickly become another wall of text that I don\u2019t want to read.\n So I built a small tool to test a different approach: keeping the important ideas, questions and decisions visible, and showing how they connect while I\u2019m working with AI.\n It\u2019s still very early and I don\u2019t know if this is actually the right solution. I made a small website to explain the ide",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whjhwr",
+      "title": "I want to buy Codex Pro but.",
+      "url": "https://www.reddit.com/r/codex/comments/1whjhwr/i_want_to_buy_codex_pro_but/",
+      "created_at": "2026-09-16T01:41:23+00:00",
+      "author": "/u/FrontRaspberry5060",
+      "excerpt": "I paid for Max for the Claude code, but\n Codex handles things cleverly.\n The usage of 20 dollars is enough.\n But I will pay for the pro. I want to contribute to their development. \n    submitted by    /u/FrontRaspberry5060  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whjgd7",
+      "title": "I built a tool that makes it easier to switch between codex accounts",
+      "url": "https://www.reddit.com/r/codex/comments/1whjgd7/i_built_a_tool_that_makes_it_easier_to_switch/",
+      "created_at": "2026-09-16T01:39:33+00:00",
+      "author": "/u/Maxteabag",
+      "excerpt": "Kind of a ridiculous project but I built a CLI/TUI to manage all of your codex (and claude) accounts.\n The idea is to\n 1. overview of usage of your accounts\n 2. easily switch between them\n 3. automatically resume your codex sessions when usage limit has been hit.\n This was made for us who have multiple accounts, especially business accounts that only allow up to x5, and has no idea why Anthropic/OpenAI don\u2019t shut up and take our money with one single big subscription.\n In any case, the repo is https://github.com/Maxteabag/hotseat\n https://x.com/max\\_tbag/status/2099921911270572443?s=46\n    submitted by    /u/Maxteabag  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whizjj",
+      "title": "How do you stop Artra from \"scope creeping\" and refactoring code outside the Jira ticket?",
+      "url": "https://www.reddit.com/r/codex/comments/1whizjj/how_do_you_stop_artra_from_scope_creeping_and/",
+      "created_at": "2026-09-16T01:18:36+00:00",
+      "author": "/u/owen800q",
+      "excerpt": "Hey everyone,\n I\u2019ve been using Astra to read my Jira tickets and implement bug fixes. While it's great at understanding the context, it has one incredibly frustrating habit: it constantly introduces scope creep.\n Instead of just fixing the specific bug requested in the Jira ticket, it will:\n Create random, unnecessary 3-line helper functions.\n Refactor perfectly fine code outside the scope of the ticket.\n Make unsolicited architectural changes that I never asked for.\n I want it to strictly adhere to what is requested in the Jira requirement\u2014no more, no less.\n Has anyone successfully fixed this with system prompts, custom instructions, or specific workflows? How do you force the model to stay entirely within the bounds of a Jira ticket without over-engineering or refactoring the rest of the",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whioz4",
+      "title": "is luna reserves no longer a thing?",
+      "url": "https://www.reddit.com/r/codex/comments/1whioz4/is_luna_reserves_no_longer_a_thing/",
+      "created_at": "2026-09-16T01:05:47+00:00",
+      "author": "/u/Ecstatic_Gur7231",
+      "excerpt": "3 hours ago there was still 60% left on my luna reserves when i checked. then after getting to my pc thinking i can get some minimal work done i came back and there is no longer luna reserves and i can no longer send messages to codex\n This used to show luna reserves\n    submitted by    /u/Ecstatic_Gur7231  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whhyd6",
+      "title": "agent interop mcp",
+      "url": "https://www.reddit.com/r/codex/comments/1whhyd6/agent_interop_mcp/",
+      "created_at": "2026-09-16T00:32:38+00:00",
+      "author": "/u/Swimming_Ask3859",
+      "excerpt": "I created an MCP that allows you to chat with Codex, Claude Code, Cursor, Opencode, and Freebuff in a native codex or Claude code chat. If you could check it out, star it, and let me know if there are any fixes needed, I would appreciate it https://github.com/Praket7/agent-interop-runtime\n    submitted by    /u/Swimming_Ask3859  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whhxcr",
+      "title": "They swapped the sol and astra positions.",
+      "url": "https://www.reddit.com/r/codex/comments/1whhxcr/they_swapped_the_sol_and_astra_positions/",
+      "created_at": "2026-09-16T00:31:25+00:00",
+      "author": "/u/Linkpharm2",
+      "excerpt": "https://preview.redd.it/6lh1023o1sph1.png?width=493&format=png&auto=webp&s=302f10e087db646a4f343e31f3ff2f781c795c92\n So 6 Sol > 6 Astra?\n    submitted by    /u/Linkpharm2  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whh8if",
+      "title": "Heavy user",
+      "url": "https://www.reddit.com/r/codex/comments/1whh8if/heavy_user/",
+      "created_at": "2026-09-16T00:01:11+00:00",
+      "author": "/u/Objective-Tea9607",
+      "excerpt": "Heavy Codex user.\n 20x plan.\n Was using codex 20 + Claude pro.\n Upgraded Claude to 20x, will keep codex 20x, too.\n The difference is crazy.\n You can get so much shit done with Claude - there\u2019s not even a comparison. Stability is also another plus, you just get work done.\n I don\u2019t know what\u2019s going on with OpenAI - but they need to get their shit together.\n Resets are not cutting it - it\u2019s unstable, unpredictable - and even with that - still a huge difference compared to Claude.\n I hope it improves. Astra is really good with audits, coding is pretty good too, I believe it\u2019s better than Fable.\n Speed, usage transparency and instability is what could kill the enterprise story for OpenAI - if they don\u2019t improve - and is what makes Claude a really good value. And yes, Claude models are pretty g",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whgryk",
+      "title": "Everything eventually gets a Dust 2 remake, so I had Codex build one",
+      "url": "https://www.reddit.com/r/codex/comments/1whgryk/everything_eventually_gets_a_dust_2_remake_so_i/",
+      "created_at": "2026-09-15T23:42:13+00:00",
+      "author": "/u/AINativeBuilder",
+      "excerpt": "There\u2019s a long-running meme that eventually everything gets a Dust 2 remake.\n So naturally, I had Codex build one that's browser based for everyone to enjoy (even works decent on mobile).\n It started as a simple browser-based walkable map and has now turned into a little FPS sandbox with full match bomb defusal mode, deathmatch, bots, inspired by classic Counter-Strike. I even had it add in spray patterns for the AK47.\n Still a work in progress, but it\u2019s been a fun example of how far you can push Codex. Most of it was built with Astra Light. After a few hiccups with early map design, it was shaping together nicely after just the 4th build.\n The stack is deliberately lightweight:\n  JavaScript (ES modules) for gameplay, weapons, bots, economy, and round logic Three.js / WebGL for the 3D map,",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whgpmp",
+      "title": "Kilnroad - Showing off whatever this is",
+      "url": "https://www.reddit.com/r/codex/comments/1whgpmp/kilnroad_showing_off_whatever_this_is/",
+      "created_at": "2026-09-15T23:39:31+00:00",
+      "author": "/u/Plenty_Candle_6161",
+      "excerpt": "Everyone keeps showing off their little game concepts; here is mine, Kilnroad. Just conducting a study at the moment with materials, cameras, lighting, staging, characters, etc. Just an early concept, but I'm loving it so far. What do you think? Astra ftw. \n I created the characters out of reference sheets made with chat, then processed them in Meshy, then I had Astra fix, correct, and finish them. I then had Astra create the rigs/skeleton; then it conducted a study on movements for a 6-legged creature, figured out how to match ground movement with limb movement, and a billion other things.\n With this study, I'm only going for composition. I wanted to decorate a basic courtyard, test out colors, lighting, and see if I could make it feel warm and inviting. It still looks too clean; I need t",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whfas0",
+      "title": "VFX for pre-respawn created by non-other than Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1whfas0/vfx_for_prerespawn_created_by_nonother_than_astra/",
+      "created_at": "2026-09-15T22:40:20+00:00",
+      "author": "/u/ADIRTYHOBO59",
+      "excerpt": "submitted by    /u/ADIRTYHOBO59  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whf8ek",
+      "title": "Is this just a codex thing?",
+      "url": "https://www.reddit.com/r/codex/comments/1whf8ek/is_this_just_a_codex_thing/",
+      "created_at": "2026-09-15T22:37:35+00:00",
+      "author": "/u/iliadz",
+      "excerpt": "Recently moved to codex 20x plan from Claude, and I've been using it for around two weeks now. This has happened at least four or five times. I will have a mockup created, from existing code. Once approved, astra does it's thing, and it's not even close. \n Coming from Claude, and it really never happened to me using it. Is there something I need to change? \n https://preview.redd.it/64pjrrklfrph1.png?width=1234&format=png&auto=webp&s=ead6422562bfa2bce5764941ff8e844dfef7ceaa\n    submitted by    /u/iliadz  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whf5si",
+      "title": "Creating Graphics With AI+Blender For Your Game And Where To Draw The Line",
+      "url": "https://www.reddit.com/r/codex/comments/1whf5si/creating_graphics_with_aiblender_for_your_game/",
+      "created_at": "2026-09-15T22:34:39+00:00",
+      "author": "/u/bingewavecinema",
+      "excerpt": "Tomorrow's talk at the festival AI Gaming Festival is Intro To Making Graphics With AI + Blender\n If you are new to game development, the session will go over how to create graphics by using LLM s(Claude Code or Codex), along with a lot of mistakes to avoid when creating those graphics, and which LLM is actually better.\n An honest take, AI can get your graphics 80% to 90% of the way, definitely enough for a good prototype or demo. Where it falls short, is that final piece where AI starts to \"spin almost indefinitely\" at those fine tuned polishing points, and that's when you're better off hiring someone to finish the last bits.\n    submitted by    /u/bingewavecinema  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wheo1u",
+      "title": "How do I migrate Codex history to a new Mac",
+      "url": "https://www.reddit.com/r/codex/comments/1wheo1u/how_do_i_migrate_codex_history_to_a_new_mac/",
+      "created_at": "2026-09-15T22:14:53+00:00",
+      "author": "/u/abombSFCA",
+      "excerpt": "I'm moving from one Mac to another and trying to preserve my local Codex Desktop conversations/projects.\n I successfully migrated Claude Code by copying its local project/session history and adjusting the old Mac's path to the new Mac's path. Claude immediately recognized my old sessions and I was able to resume them normally.\n Codex hasn't been so easy. I copied:\n  ~/.codex/sessions (105 old sessions) ~/.codex/.chatgpt-projects session_index.jsonl  The files are definitely there on the new Mac and the JSONL files contain the old conversations, but Codex Desktop still only shows conversations created on the new Mac and says \"No projects.\"\n The macOS username also changed, so paths inside the old sessions reference /Users/OLDUSER/... instead of /Users/NEWUSER/....\n I found codex-rehome, but",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wheh4z",
+      "title": "I spent $700k in tokens to give my agents a history tab",
+      "url": "https://www.reddit.com/r/codex/comments/1wheh4z/i_spent_700k_in_tokens_to_give_my_agents_a/",
+      "created_at": "2026-09-15T22:07:02+00:00",
+      "author": "/u/hola_tech",
+      "excerpt": "I honestly couldn't believe it when I saw it but I'm trending towards 1 trillion in lifetime codex tokens. Not sure whether to be proud or horrified.\n But the result is ctx: https://github.com/ctxrs/ctx\n It's a fast local rust CLI that lets agents search their own history. It has been amazing for grounding the agents in all of my context.\n I do try to continuously mine out lessons back into specs and docs. But that only goes so far. You sometimes need the agents to pick up from another session, reference a previous failed attempt, or remember where it put something.\n It's 50x more token efficient than raw transcript search. Apparently my agents use ctx about 31k times per month so Ive saved about 2b tokens just from that efficiency alone.\n Granted it's not $700k out of pocket. That is equi",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whef80",
+      "title": "App or CLI?",
+      "url": "https://www.reddit.com/r/codex/comments/1whef80/app_or_cli/",
+      "created_at": "2026-09-15T22:04:53+00:00",
+      "author": "/u/Purple_Drive_7152",
+      "excerpt": "So I've been using codex via the mac app for months. I am building an app on retool.com that is connected to supabase and connects to several API'S. I've heard you save tokens with using cli but you miss out on many user friendly features. How big is the trade off? I use mcp connections and occasionally let codex use chrome to check things out. \n    submitted by    /u/Purple_Drive_7152  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whe2dh",
+      "title": "Does anyone know how to optimize seo and aso when vibe coding?",
+      "url": "https://www.reddit.com/r/codex/comments/1whe2dh/does_anyone_know_how_to_optimize_seo_and_aso_when/",
+      "created_at": "2026-09-15T21:50:58+00:00",
+      "author": "/u/cosmicwildcard",
+      "excerpt": "Im wondering if I should let ai generate all my text in my app and website or if I should write it myself just to make it seem authentic and not slop\n    submitted by    /u/cosmicwildcard  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whdr5d",
+      "title": "Just ask codex to go faster",
+      "url": "https://www.reddit.com/r/codex/comments/1whdr5d/just_ask_codex_to_go_faster/",
+      "created_at": "2026-09-15T21:38:12+00:00",
+      "author": "/u/MapleBaconWaffles",
+      "excerpt": "I have been working on something that has been dragging on. Taking WAY longer than I expected. I even stopped, and switched models, adjusted to try and speed it up. Then I just basically gave up and said \"Somehow we need to move faster, I am not sure how you can do that.\".\n Then it literally started working a different way... \"bundling things\" together, now it is way faster.\n I guess we are at a point where we need to monitor our agents and tell them to hurry the fuck up sometimes! Possibly like a real employee lollll\n    submitted by    /u/MapleBaconWaffles  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whd5n2",
+      "title": "You can\u2019t purchase Usage Limit Resets anymore ?",
+      "url": "https://www.reddit.com/r/codex/comments/1whd5n2/you_cant_purchase_usage_limit_resets_anymore/",
+      "created_at": "2026-09-15T21:15:19+00:00",
+      "author": "/u/Wpns_Grade",
+      "excerpt": "I notice that there is no prompt anymore to purchase Usage resets. I\u2019m in the 5X pro plan for $100. Am I tripping or what ? \n I swear there was a way to purchase a reset. \n    submitted by    /u/Wpns_Grade  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whd1bh",
+      "title": "Where the GPT-5.3-Codex-Spark s supposed to be?",
+      "url": "https://www.reddit.com/r/codex/comments/1whd1bh/where_the_gpt53codexspark_s_supposed_to_be/",
+      "created_at": "2026-09-15T21:10:44+00:00",
+      "author": "/u/Hekatonkheir_",
+      "excerpt": "submitted by    /u/Hekatonkheir_  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1whcb1h",
+      "title": "GPT-6 Astra seems to spend most of the time in a severely degraded state",
+      "url": "https://www.reddit.com/r/codex/comments/1whcb1h/gpt6_astra_seems_to_spend_most_of_the_time_in_a/",
+      "created_at": "2026-09-15T20:43:16+00:00",
+      "author": "/u/Pigfy",
+      "excerpt": "I've been seeing severe intermittent degradation with GPT-6 Astra (and sometimes Sol) through my Codex subscription. The clearest example is these two ChatGPT Work runs on essentially the same coding task and settings.\n Degraded run:\n https://chatgpt.com/share/6aa9a512-3ff4-83e8-b992-8579bf0a3445\n Good run:\n https://chatgpt.com/share/6aa9ac63-6f38-83e8-8cb0-9fe5fdef1698\n In the degraded run, Astra Medium repeatedly implements a small slice, stops, and reports completion even though large parts of the spec are still untouched. In the good run, it works continuously for 30+ minutes and actually carries the task through. The difference in both persistence and output quality is huge.\n The weird part is that this seems to happen in sustained periods per account, not just randomly message-to-mes",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wha7jq",
+      "title": "Question about game making models",
+      "url": "https://www.reddit.com/r/codex/comments/1wha7jq/question_about_game_making_models/",
+      "created_at": "2026-09-15T19:26:39+00:00",
+      "author": "/u/OkEmphasis7107",
+      "excerpt": "Just wondering when you guys are creating games with codex what is your rule of thumb for brainstorming, design and actual coding? \n I've been using Terra Medium for design and brainstorming and using Astra Medium for actual implementation.\n Thanks!\n    submitted by    /u/OkEmphasis7107  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wha0dj",
+      "title": "Codex can now check usage?",
+      "url": "https://www.reddit.com/r/codex/comments/1wha0dj/codex_can_now_check_usage/",
+      "created_at": "2026-09-15T19:19:26+00:00",
+      "author": "/u/Australasian25",
+      "excerpt": "It seems codex can now check usage limits.\n Just had Terra medium get_usage_limits and correctly listed my remaining 5 hour limit, gave itself the green light to continue.\n What is everyone's experience?\n    submitted by    /u/Australasian25  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh9wik",
+      "title": "Why isn\u2019t \u201cweekly usage\u201d actually weekly?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh9wik/why_isnt_weekly_usage_actually_weekly/",
+      "created_at": "2026-09-15T19:15:36+00:00",
+      "author": "/u/Defiant-Truck3",
+      "excerpt": "Why not just make it Monday \u2192 Sunday, like a normal week?\n Reset the allowance every Monday and keep the schedule fixed. For people using it for work and side projects (like me), it would make planning way easier\n Mid-week,work + small projects\n End of week, you unleash the beast\n Feels like common sense, no???\n Edit: After seeing people say \"everyone resetting together would destroy compute\"\n But global resets done by Tibo already put a huge number of users back at full allowance at roughly the same time.\n Sure, the exact timer depends on when each person sends their first message, plus new users or people using banked resets.. But we're still mostly aligned, and another global reset eventually aligns a lot of users again. \n So I don't really get the compute argument. If global resets alr",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh9871",
+      "title": "Do banked Codex resets survive if I cancel Pro and resubscribe later?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh9871/do_banked_codex_resets_survive_if_i_cancel_pro/",
+      "created_at": "2026-09-15T18:51:48+00:00",
+      "author": "/u/Efficient_Tell_449",
+      "excerpt": "My ChatGPT Pro subscription is ending on September 17. I currently have two banked resets, scheduled for October 4 and October 5.\n I'm considering cancelling my subscription when it ends and then resubscribing to Pro on October 1.\n Does anyone know what will happen to those banked resets?\n  Will the two banked resets still be available when I resubscribe on October 1? Or will they be lost when my Pro subscription expires on September 17? Has anyone actually tried cancelling Pro and resubscribing later while having banked resets?  I'll be using the same ChatGPT account when I resubscribe.\n Would appreciate any firsthand experience or clarification from someone who knows how the banked reset system works. Thanks!\n    submitted by    /u/Efficient_Tell_449  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh8slr",
+      "title": "Astra helped me finish my first game",
+      "url": "https://www.reddit.com/r/codex/comments/1wh8slr/astra_helped_me_finish_my_first_game/",
+      "created_at": "2026-09-15T18:36:28+00:00",
+      "author": "/u/Low-Effort-9774",
+      "excerpt": "This is Animore Run, the first game I\u2019ve ever made!\n Play it here: https://guessthisanime.com/endless\n Claude helped me create the initial prototype, but it still felt pretty rough. I later moved the project into Codex with GPT Astra, and that\u2019s when it started feeling like an actual game instead of a demo.\n Astra worked across the Three.js codebase, connected to Blender through MCP, improved the 3D assets, polished the UI and micro-animations, and optimized everything for mobile.\n What surprised me most wasn\u2019t how quickly it added features, it was how well it handled the hundreds of small details that make a game feel finished.\n Still wild that I can now play my first game on my phone lol\n Would love to know what you\u2019d improve next?\n    submitted by    /u/Low-Effort-9774  \n [link]   [comm",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh8ozp",
+      "title": "Remote App?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh8ozp/remote_app/",
+      "created_at": "2026-09-15T18:32:53+00:00",
+      "author": "/u/HighAspect_0",
+      "excerpt": "I\u2019m liking Codex quite a bit - coming from Claude code\n I run visual code and Claude terminal - my favorite feature is typing \\RC and then continuing my sessions on my iOS devices with the app\n I can\u2019t seem to find anything close with Codex ? \n    submitted by    /u/HighAspect_0  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh8kgn",
+      "title": "Switching from Claude Code Max to Codex advice from heavy daily users?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh8kgn/switching_from_claude_code_max_to_codex_advice/",
+      "created_at": "2026-09-15T18:28:28+00:00",
+      "author": "/u/Nearby-Theme-5096",
+      "excerpt": "After around 2 years of using Claude Code Max, I\u2019m thinking about switching to Codex.\n Before I make the switch, I\u2019d like to hear from people who use Codex every day for heavy development work.\n I\u2019m a full-stack developer, not a vibe coder. I use AI as part of my development workflow for things like coding, debugging, code review, refactoring, architecture, DevOps, etc. I still understand and review the code I'm not just telling the AI to build an entire app and hoping it works.\n My plan is to use GPT/Codex as a subscription through OpenCode and also use it with OpenClaw, alongside my normal daily development work.\n A little background on my usage:\n  I\u2019m primarily a terminal/CLI user, not a GUI user. I use AI heavily for daily development. With Claude Code Max, I usually use around 50\u201360% ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh87v7",
+      "title": "PenEcho gives Codex a spatial workspace",
+      "url": "https://www.reddit.com/r/codex/comments/1wh87v7/penecho_gives_codex_a_spatial_workspace/",
+      "created_at": "2026-09-15T18:16:04+00:00",
+      "author": "/u/Civil-Direction-6981",
+      "excerpt": "Inspired by what people have been doing with Blender lately, I\u2019ve updated PenEcho to connect directly to agents like Codex, Claude, and Kimi Code through MCP\u2014giving them a spatial workspace to work in.\n In this workspace, you can sketch your ideas by hand and have AI understand what you mean and turn them into designs. You can also ask AI to draw out system architectures so you can work through problems together, or explore layouts, visual styles, and interactions before committing to code. The idea is to see what the final result will look like before implementation, saving a lot of time on debugging and deployment.\n The most fun part is that different agents can connect to the same canvas. You can have Kimi 3 design a page, then have Codex implement it\u2014without manually passing things bac",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh7w4d",
+      "title": "Can't use 5.3 spark?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh7w4d/cant_use_53_spark/",
+      "created_at": "2026-09-15T18:04:45+00:00",
+      "author": "/u/Squizzytm",
+      "excerpt": "Did they remove it from the codex app? I ran out of usage (ofc) but even though it says 100% usage for spark I don't see it available? and it used to route to luna after usage was done for weekly but seems they removed it, so we just touch grass I guess?\n    submitted by    /u/Squizzytm  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh7ugm",
+      "title": "I built 10 Agent Skills for production LLM engineering and tested them",
+      "url": "https://www.reddit.com/r/codex/comments/1wh7ugm/i_built_10_agent_skills_for_production_llm/",
+      "created_at": "2026-09-15T18:03:05+00:00",
+      "author": "/u/Quirky-Location7712",
+      "excerpt": "The motivation was pretty simple: coding agents are good at writing plausible code, but they still make recurring engineering mistakes around architecture and AI-specific implementation details.\n For example, they'll often:\n  build an agent when a workflow would be enough expose every API endpoint as a separate tool manually parse JSON when structured outputs are available overuse multi-agent architectures stuff retrieved chunks into context without thinking about document-level retrieval change models or RAG pipelines without actually measuring whether the change helped  I turned production-oriented guidance for these problems into 10 Agent Skills covering architecture, tool calling, tool design, structured output, prompting, context/memory, RAG, subagents, model selection, and evals.\n Th",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh7ty9",
+      "title": "Show us all what you've been building with Codex. (Most upvoted project gets a week of free promotion on the sub).",
+      "url": "https://www.reddit.com/r/codex/comments/1wh7ty9/show_us_all_what_youve_been_building_with_codex/",
+      "created_at": "2026-09-15T18:02:37+00:00",
+      "author": "/u/AutoModerator",
+      "excerpt": "This is a weekly Showcase post to share with others what you've built using Codex.\n The top-voted project by Thursday midnight UTC will get a week of free promotion on r/Codex - either as a prominent button on the main page of the sub - or as part of a sticky comment on every new Showcase post.  \n  Last week's most popular project was Tidbit Trivia , at https://www.reddit.com/r/codex/comments/1wavxwy/comment/p8lhwxs/. Tidbit Trivia is a fun way to learn while waiting for your agents to work. Play traditional trivia, unique game modes, party with friends, earn cool cosmetics, complete challenges, study for tests, or compete in the Arena! You can play it for free at Tidbittrivia.com.\n    submitted by    /u/AutoModerator  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh7rkb",
+      "title": "Codex down for anyone else?",
+      "url": "https://www.reddit.com/r/codex/comments/1wh7rkb/codex_down_for_anyone_else/",
+      "created_at": "2026-09-15T18:00:25+00:00",
+      "author": "/u/okiemochidokie",
+      "excerpt": "Not able to use codex or chatgpt at the moment. Just used a reset 20 seconds prior too lol..\n    submitted by    /u/okiemochidokie  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh7q8w",
+      "title": "Ran a few experiments to test reasoning levels and solo vs. multi-agents",
+      "url": "https://www.reddit.com/r/codex/comments/1wh7q8w/ran_a_few_experiments_to_test_reasoning_levels/",
+      "created_at": "2026-09-15T17:59:12+00:00",
+      "author": "/u/Copenhagen79",
+      "excerpt": "A bit of background info; I've been running Codex on 20x almost daily (except for 9 days) over the past year. Up until Astra I never had issues with token consumption despite it being an issue for a lot of users. Fast forward.. Astra is here, and I would burn through a week's usage in less than a day.\n I asked Astra to go through the logs to identify what changed, but rarely got any useful answers except the fact that sub-agents consumed a lot of my tokens. So I decided to do two experiments to gain a better understanding of the model/token economics and output quality.\n  Experiment 1: Solo agent running the same task 3 times each on low, medium, high, and xhigh. Experiment 2: Solo agent vs. multi-agents (one root agent plus two workers) running the same task 3 times each on high.  I also ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh77g6",
+      "title": "The 5-hour window for Command Code GOAT ($10) is larger than the 5-hour window for ChatGPT Plus ($20)",
+      "url": "https://www.reddit.com/r/codex/comments/1wh77g6/the_5hour_window_for_command_code_goat_10_is/",
+      "created_at": "2026-09-15T17:40:30+00:00",
+      "author": "/u/snyper_velox",
+      "excerpt": "I asked my agent (Hermes Agent) to create a battery of simple, medium, and complex tests and run them in isolation using GPT 5.6 Sol MAX, three times via the OpenAI API (ChatGPT Plus OAuth) and three times via the Command Code Go API (GOAT plan). My goal was to see how much worse the latency and speed of a third-party provider would be compared to the original provider (OpenAI), and whether there would be any difference in response quality.\n ChatGPT Plus consumed 1.6 times more of the 5-hour quota compared to Command Code GOAT. ChatGPT Plus comes out on top when we extrapolate usage to the weekly (2x) and monthly (9x) quotas, but GOAT costs half as much ($20 x $10).\n The conclusion is that for light to moderate use, specifically with a bursty usage pattern, GOAT seems like the better choic",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh6vfs",
+      "title": "Local static analysis for Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wh6vfs/local_static_analysis_for_codex/",
+      "created_at": "2026-09-15T17:28:44+00:00",
+      "author": "/u/CodacyOfficial",
+      "excerpt": "Hey, Codex peeps! We just launched a new skill that lets you run an analysis locally and fix issues before the first commit.\n There are two Codacy Skills as part of this launch: one teaches the agent how to set up and run Codacy analysis locally, and another one that teaches it how to use Codacy analysis as part of any code review (free to use, no authentication needed).\n Walkthrough here: https://blog.codacy.com/introducing-codacy-skills-part-4-sca...\n Or direct to GH https://github.com/codacy/codacy-skills/blob/master/skills/codacy-analysis-cli/SKILL.md\n Let us know if you have any feedback \ud83d\ude80\n    submitted by    /u/CodacyOfficial  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh6tar",
+      "title": "MAKE SURE YOUR OTHER USERS ARENT USING WORK MODE",
+      "url": "https://www.reddit.com/r/codex/comments/1wh6tar/make_sure_your_other_users_arent_using_work_mode/",
+      "created_at": "2026-09-15T17:26:31+00:00",
+      "author": "/u/Specialist-Cry-7516",
+      "excerpt": "i gave my parents access to my chatgpt and i was wondering why my limits were dropping even when i wasnt using it \n my mother was using astra ultra 2x on work mode asking for recipes\n jus make sure they arent lmao \n    submitted by    /u/Specialist-Cry-7516  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wh69pc",
+      "title": "Guide on model usage",
+      "url": "https://www.reddit.com/r/codex/comments/1wh69pc/guide_on_model_usage/",
+      "created_at": "2026-09-15T17:07:12+00:00",
+      "author": "/u/AttractiveCorpse",
+      "excerpt": "Is there a guide out there already for the different uses for different models? I am working on my first project and using Lune light for small interface tweaks and switching to Astra medium or heavy when asking something more complex. I just don't know what the definition of \"complex\" is. It would be nice to have a list of the models and some examples of appropriate prompts for each one.\n    submitted by    /u/AttractiveCorpse  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
