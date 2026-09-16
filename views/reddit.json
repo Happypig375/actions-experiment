@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-16T01:00:43.932489Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-15T23:55:11.758265Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1whhyd6",
+      "timestamp": "2026-09-16T00:32:38Z",
+      "title": "agent interop mcp",
+      "author": "/u/Swimming_Ask3859",
+      "url": "https://www.reddit.com/r/codex/comments/1whhyd6/agent_interop_mcp/",
+      "excerpt": "I created an MCP that allows you to chat with Codex, Claude Code, Cursor, Opencode, and Freebuff in a native codex or Claude code chat. If you could check it out, star it, and let me know if there are any fixes needed, I would appreciate it https://github.com/Praket7/agent-interop-runtime\n    submitted by    /u/Swimming_Ask3859  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1whhxcr",
+      "timestamp": "2026-09-16T00:31:25Z",
+      "title": "They swapped the sol and astra positions.",
+      "author": "/u/Linkpharm2",
+      "url": "https://www.reddit.com/r/codex/comments/1whhxcr/they_swapped_the_sol_and_astra_positions/",
+      "excerpt": "https://preview.redd.it/6lh1023o1sph1.png?width=493&format=png&auto=webp&s=302f10e087db646a4f343e31f3ff2f781c795c92\n So 6 Sol > 6 Astra?\n    submitted by    /u/Linkpharm2  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/6lh1023o1sph1.png?width=140&height=124&auto=webp&s=a3da549f9675bcb90bca760a7ae88421c2036b04",
+        "https://preview.redd.it/6lh1023o1sph1.png?width=493&format=png&auto=webp&s=302f10e087db646a4f343e31f3ff2f781c795c92"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1whh8if",
+      "timestamp": "2026-09-16T00:01:11Z",
+      "title": "Heavy user",
+      "author": "/u/Objective-Tea9607",
+      "url": "https://www.reddit.com/r/codex/comments/1whh8if/heavy_user/",
+      "excerpt": "Heavy Codex user.\n 20x plan.\n Was using codex 20 + Claude pro.\n Upgraded Claude to 20x, will keep codex 20x, too.\n The difference is crazy.\n You can get so much shit done with Claude - there\u2019s not even a comparison. Stability is also another plus, you just get work done.\n I don\u2019t know what\u2019s going on with OpenAI - but they need to get their shit together.\n Resets are not cutting it - it\u2019s unstable, unpredictable - and even with that - still a huge difference compared to Claude.\n I hope it improves. Astra is really good with audits, coding is pretty good too, I believe it\u2019s better than Fable.\n Speed, usage transparency and instability is what could kill the enterprise story for OpenAI - if they don\u2019t improve - and is what makes Claude a really good value. And yes, Claude models are pretty good too, they work better as implementation agents, rather than planning or all around.\n The learning curve is stiffer, it\u2019s easier to confidently fuckup if you don\u2019t know what you are doing. \n    submitted by    /u/Objective-Tea9607  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
