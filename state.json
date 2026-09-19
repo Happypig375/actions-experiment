@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "nu": {
+      "last_success_at": "2026-09-19T16:44:25.707568Z"
+    },
+    "angourimath": {
+      "last_success_at": "2026-09-19T16:44:25.707568Z"
+    },
+    "reddit": {
+      "last_success_at": "2026-09-19T16:44:25.707568Z"
+    },
+    "tibo": {
+      "last_success_at": "2026-09-19T16:44:25.707568Z"
+    },
+    "codex_resets": {
+      "last_success_at": "2026-09-19T16:44:25.707568Z"
+    }
+  },
+  "generated_at": "2026-09-19T16:44:25.707568Z"
+}
