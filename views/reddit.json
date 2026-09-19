@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T09:31:41.313137Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-19T06:42:31.842423Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkhlip",
+      "timestamp": "2026-09-19T09:26:26Z",
+      "title": "Is \"Skill issue\" modern lexicon already?",
+      "author": "/u/aivampires",
+      "url": "https://www.reddit.com/r/codex/comments/1wkhlip/is_skill_issue_modern_lexicon_already/",
+      "excerpt": "How far are we from the general public using it in HR meetings and to explain certain traffic accidents?\n    submitted by    /u/aivampires  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkhd01",
+      "timestamp": "2026-09-19T09:12:22Z",
+      "title": "Does this Astra Max + Astra Pro setup actually make sense?",
+      "author": "/u/Vast-Singer-2839",
+      "url": "https://www.reddit.com/r/codex/comments/1wkhd01/does_this_astra_max_astra_pro_setup_actually_make/",
+      "excerpt": "Hey everyone,\n I got my weekly reset today, so I\u2019ve been testing a different setup to see if I can make my Astra Max usage last longer, not by reducing its use for actual coding, but by offloading some of the other work.\n I created a shared cloud folder that both Codex Astra Max and Web Astra Pro can access.\n Each one maintains its own .md files with context, notes, tasks, results, etc. When one of them replies or updates something, that version effectively gets priority based on which agent worked on it last.\n Both also have scheduled checks running every 5 minutes.\n The general idea is that Astra Max handles the coding/orchestration side, while it offloads longer checks, research, reviews, and similar tasks to Astra Pro. Astra Pro only communicate with me and Astra Max think that Astra Pro replies are mine not from a second agent. \n The only slightly annoying part is that after around 60-70 messages on Pro, I usually need to start a new chat. But so far that hasn\u2019t been much of a problem because the important state/context is stored in the shared cloud folder rather than relying entirely on the chat history.\n It definitely feels a little slower than doing everything directly with",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkh3po",
+      "timestamp": "2026-09-19T08:57:13Z",
+      "title": "Thanks for the button, Tibo!",
+      "author": "/u/innociv",
+      "url": "https://www.reddit.com/r/codex/comments/1wkh3po/thanks_for_the_button_tibo/",
+      "excerpt": "Was it time for my weekly reset to automatically refresh itself? Sure.\n But I know that Tibo personally hit that button 1 second earlier for me and it warms my heart.\n    submitted by    /u/innociv  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkglen",
+      "timestamp": "2026-09-19T08:26:28Z",
+      "title": "I benchmarked Jev against gpt-5.6-luna!",
+      "author": "/u/LowNefariousness9966",
+      "url": "https://www.reddit.com/r/codex/comments/1wkglen/i_benchmarked_jev_against_gpt56luna/",
+      "excerpt": "I got access to TypeSafe's Jev a few days ago. It's an odd kind of model that doesn't generate text at all. You send it some content plus typed questions (yes/no, pick one of these options, rate this on a scale) and it gives you back probabilities.\n Setup: 49 tasks, about 8,200 items, all from public labelled datasets (SST-2, MMLU, ARC, MS MARCO, XNLI, SQuAD, Banking77 and so on), plus some synthetic tests where code computes the right answer. Both models got the same question wording. The baseline was gpt-5.6-luna with reasoning off, and again with reasoning on low.\n What I found:\n Jev matched or beat the baseline on 42 of 49 tasks!\n ~105ms median server time vs 700-800ms\n about $0.04 per 1,000 items vs $0.16-0.19\n calibration error roughly half the baseline's, so the probabilities actually mean something\n The part that surprised me was reasoning. LogiQA 0.77 vs 0.59, WinoGrande 0.89 vs 0.66, ARC-Challenge 0.97 vs 0.87, MMLU 0.94 vs 0.87. I assumed it had memorised the benchmarks, so I generated 120 new math word problems with a script using Fable 5.1. It got 0.75 on those, about the same as its 0.72 on GSM8K. Luna with reasoning off got 0.17 on the same problems.\n Reranking was a",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkgdob",
+      "timestamp": "2026-09-19T08:13:53Z",
+      "title": "Astra for planning + Gemini 3.8 Flash for implementation for free?",
+      "author": "/u/Billygin",
+      "url": "https://www.reddit.com/r/codex/comments/1wkgdob/astra_for_planning_gemini_38_flash_for/",
+      "excerpt": "I depleted my 2x $200 Codex subscriptions in 2 days and just realized that Antigravity CLI + Gemini 3.8 Flash is free of charge and smarter than Luna... Has anyone tried Astra for planning + Gemini 3.8 Flash?\n Curious to see if that could be a workaround to save a ton.\n    submitted by    /u/Billygin  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkg4df",
+      "timestamp": "2026-09-19T07:59:11Z",
+      "title": "I added a tool so Astra can compact its own context in Codex (burning less quota)",
+      "author": "/u/Key-Attorney-4207",
+      "url": "https://www.reddit.com/r/codex/comments/1wkg4df/i_added_a_tool_so_astra_can_compact_its_own/",
+      "excerpt": "Astra is the first model I\u2019ve used that\u2019s good at knowing when it no longer needs the logs, searches and file reads from a completed task/investigation. I patched Codex to let Astra request compaction at will.\n It passes findings and next steps as tool arguments. Codex runs its normal compaction, then inserts those arguments verbatim into the new context and keeps working.\n I saw ~35% fewer processed tokens across two days with similar call counts. Different tasks so not a benchmark, but the results are clear. Haven\u2019t noticed quality regressions during my daily work.\n No per-turn cap. Adjust when it compacts through AGENTS.md. Currently tested only on macOS, but ask Astra and it will work everywhere.\n Code and install instructions\n    submitted by    /u/Key-Attorney-4207  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/kz28bqofofqh1.jpg?width=140&height=140&auto=webp&s=e7f5d05c1554dd0b11e51bc6f199575e80a7c5e3"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkfwu1",
+      "timestamp": "2026-09-19T07:46:49Z",
+      "title": "I got fed up with coding agents and build tools dumping caches/output all over my projects, so I built something to route it properly",
+      "author": "/u/Pathfinder-electron",
+      "url": "https://www.reddit.com/r/codex/comments/1wkfwu1/i_got_fed_up_with_coding_agents_and_build_tools/",
+      "excerpt": "Been messing with a way to stop Codex and normal dev tooling scattering caches/build output everywhere.\n Built this today \u2014 it routes supported stuff like Cargo, npm, Go, uv etc. into one managed location, without adding anything to prompt context.\n Still early, but figured some of you might find it useful:\n https://github.com/magrathean-uk/clean-development\n Would love some development aid and testing from folks.\n    submitted by    /u/Pathfinder-electron  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkfm2a",
+      "timestamp": "2026-09-19T07:29:12Z",
+      "title": "Is the 0% usage left club here? OR AKA the too-poor-to-buy-another-20x subscription club here?",
+      "author": "/u/Current_Balance6692",
+      "url": "https://www.reddit.com/r/codex/comments/1wkfm2a/is_the_0_usage_left_club_here_or_aka_the/",
+      "excerpt": "I guess we'll go touch some grass this weekend... (aka no money to afford another 20x subscription? :( )\n    submitted by    /u/Current_Balance6692  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkf6xv",
+      "timestamp": "2026-09-19T07:05:26Z",
+      "title": "What is the intended use case for the $200 plan under the current limits?",
+      "author": "/u/KyotoTheFox1",
+      "url": "https://www.reddit.com/r/codex/comments/1wkf6xv/what_is_the_intended_use_case_for_the_200_plan/",
+      "excerpt": "I know usage limits have been discussed a lot, but I'm genuinely trying to understand what OpenAI considers normal usage for the $200/month plan.\n I'm currently working on two projects in parallel, one with Astra on High and another with Sol on High. Nothing particularly heavy or automated, just regular development work across two projects.\n I used my reset bank on Wednesday at around 8 PM. By Thursday morning, I was already below 30% again.\n That made me wonder what level of sustained work the $200 plan is actually designed to support. The newer models are clearly useful, but their practical value is limited if ordinary work across two projects consumes most of the available usage in less than a day.\n I also have a question about the reset bank. From what I understand, using accumulated resets also moves the weekly reset date. If that's correct, doesn't it reduce much of the benefit?\n Rather than receiving extra capacity for the current week, it seems that part of the next usage period is simply being brought forward. The bank still helps, but the actual bonus is smaller than it initially appears.\n I understand that running these models is expensive, and I don't expect unlimited u",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkezkm",
+      "timestamp": "2026-09-19T06:54:19Z",
+      "title": "Don\u2019t need better, just cheaper (and maybe faster).",
+      "author": "/u/manaPoolParty",
+      "url": "https://www.reddit.com/r/codex/comments/1wkezkm/dont_need_better_just_cheaper_and_maybe_faster/",
+      "excerpt": "Astra is amazing at most things. So is Fable. Opus and Sol and Sonnet and Terra and Luna\u2014all great. Honestly, they\u2019re probably better than just about any of us actually need. I wish OpenAi and Anthropic would focus on reducing cost to consumer per token rather than continuing to push the frontier toward actual self-improving AGI.\n I guess I feel like we\u2019re in the sweet spot right now where if you learn the tools you can build just about anything. And I don\u2019t think it can kill us all yet. At least it doesn\u2019t seem inclined to do so at the moment. Like, I have so many ideas and just not enough tokens (and time) to go around. I just hope advanced AI doesn\u2019t nuke us before I get to see my kids graduate or make my Gibli-coded real-time airport bathroom cleanliness rating app.\n Maybe those doing bleeding edge science and physics would like to have more power but I think all of us here making cozy to-do apps and PowerPoints for our family vacations and manga aggregators or whatever are probably more than served with the models already available.\n Maybe it\u2019s because I\u2019m having a 0% moment of clarity, maybe I aged 1000 years in the last six months\u2014but I think I\u2019m just ok with this version of",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
