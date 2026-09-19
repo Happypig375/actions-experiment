@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T16:49:44.129032Z",
+  "since": "2026-09-19T10:49:44.129032Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1wkr4ck",
+      "title": "3 reasons I switched from Claude to Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wkr4ck/3_reasons_i_switched_from_claude_to_codex/",
+      "created_at": "2026-09-19T16:48:18+00:00",
+      "author": "/u/BuffaloConscious7919",
+      "excerpt": "After using Claude for over a year professionally and personally I switched and here's why:\n  Opus 5 was driving me crazy. The verbose and often incredibly unnecessary output was difficult to control \n I just needed a change tbh. It felt a bit like when you need a holiday, you just need some fresh perspective \n Codex UI just feels smoother and quicker. I can highlight and open a side chat or quickly compact.\n  There are more but is anyone else enjoying codex for different reasons I'd like to learn more here tbh\n    submitted by    /u/BuffaloConscious7919  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkr3nb",
+      "title": "Should I continue building My app truth or dare.",
+      "url": "https://www.reddit.com/r/codex/comments/1wkr3nb/should_i_continue_building_my_app_truth_or_dare/",
+      "created_at": "2026-09-19T16:47:34+00:00",
+      "author": "/u/Desperate_Fudge3234",
+      "excerpt": "This is a good app I stopped working on it cause I thought no one would play it\n    submitted by    /u/Desperate_Fudge3234  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkquce",
+      "title": "Making Memory un-remember - an Apache 2.0, OSS project built on top of Jev",
+      "url": "https://www.reddit.com/r/codex/comments/1wkquce/making_memory_unremember_an_apache_20_oss_project/",
+      "created_at": "2026-09-19T16:37:16+00:00",
+      "author": "/u/Ok-Responsibility734",
+      "excerpt": "Hi folks,\n I am the creator of Headroom (https://github.com/headroomlabs-ai/headroom) - the token compression platform for AI Agents - with 70k+ stars & 2M developers.\n We are saving > 1T Tokens for our users / month\n I got excited about Jev, and tried to see what could be built on top of such a model! I converged on - https://github.com/chopratejas/invalidate\n What is it?\n - In simple words, making your memories un-remember something\n - When you use memory solutions, like Letta, Zep, Mem0, etc. - they cannot unremember things easily - they will write new memories. So - if you started liking PostGres, but now like SQLite - good luck having your new project choose one over the other.\n - The reason it was hard is - any *event\\ had to go look at similar older memories and \\update*** them\n Wha",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkqquu",
+      "title": "When you use multiple coding agents, what actually keeps them from drifting apart?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqquu/when_you_use_multiple_coding_agents_what_actually/",
+      "created_at": "2026-09-19T16:33:21+00:00",
+      "author": "/u/Both-Butterfly-1048",
+      "excerpt": "I\u2019ve been experimenting more with multiagent coding workflows lately: one agent planning, another implementing, another reviewing. The part I keep finding tricky isn\u2019t really the models themselves. It\u2019s keeping them aligned once the task gets longer.\n If the planning agent makes one bad assumption, the implementation agent can build on it, then the reviewer ends up reviewing against the wrong premise. By the end of the chain everything can look internally consistent but still be wrong.\n I\u2019m starting to think the harder problem is shared context and state between the agents, not orchestration itself.\n How are you handling this in practice? Shared docs? Issues? MCP? Some kind of service catalog or external source of truth?\n    submitted by    /u/Both-Butterfly-1048  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkqknb",
+      "title": "Jev playing my game Soccer Pinball inside Unity using Codex (Astra) + Unity CLI",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqknb/jev_playing_my_game_soccer_pinball_inside_unity/",
+      "created_at": "2026-09-19T16:26:35+00:00",
+      "author": "/u/astrohoundstudios",
+      "excerpt": "I built a Jev wrapper inside Unity that lets it actually play Soccer Pinball. Jev controls the flippers and plays full matches against the opponents while I can just sit back and watch how everything behaves.\n It works out to around 2 cents per match, and I\u2019ve also built a difficulty slider so I can control how well Jev plays.\n The main reason I wanted this is to help figure out the difficulty of the game. I can let Jev play through different opponent setups, adjust its skill level, and actually watch where things become too easy or too difficult without having to play every match myself.\n    submitted by    /u/astrohoundstudios  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkqbf1",
+      "title": "Agentic Research Contracts - An Engineer's Approach to AI Code",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqbf1/agentic_research_contracts_an_engineers_approach/",
+      "created_at": "2026-09-19T16:16:06+00:00",
+      "author": "/u/gamejnkie",
+      "excerpt": "I'm typing this out in a mostly flow of conscience style, so I might make some errors (and I'm hyper fixating on this and just trying to get it out). I'm not really going to get technical in this post, but the theory essentially boils down to:\n  Long-running agentic R&D becomes more trustworthy and reproducible when authority, evidence validity, release identity, resource bounds, review, and adoption are moved outside the model into explicit, externally enforceable contracts.\n  (AI wrote that part, everything else in this reddit post is me)\n I'm referring to this as a thesis to sound fancy, I'm not an actual academic.\n TLDR, look at this github and tell me what you think\n Using the ideas presented, I am now running semi-autonomous research/development loops that can run for hours at a time",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkq3gi",
+      "title": "Have you gone back to a simpler setup with Codex?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkq3gi/have_you_gone_back_to_a_simpler_setup_with_codex/",
+      "created_at": "2026-09-19T16:07:17+00:00",
+      "author": "/u/Don_Crespo",
+      "excerpt": "Interested in people who added a bunch of tools, instructions, agents, whatever, then removed most of it.\n There\u2019s always another thing you can configure. At some point I\u2019d want to know whether the setup is helping me finish work or has become the work.\n What did you remove, and did you actually miss it?\n Especially interested in anything you were convinced was essential two weeks before deleting it.\n    submitted by    /u/Don_Crespo  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkq1if",
+      "title": "Track your friends Codex/token usage",
+      "url": "https://www.reddit.com/r/codex/comments/1wkq1if/track_your_friends_codextoken_usage/",
+      "created_at": "2026-09-19T16:05:08+00:00",
+      "author": "/u/erroneouslevi",
+      "excerpt": "I\u2019m a Stanford student working on this app Die With Me for MacOS\n You can track your friends\u2019 Codex usage % and there\u2019s also leaderboards so you can see where you rank in countries and universities. It\u2019s kinda like find my friends but for AI \u270c\ufe0f\n I just wanted to share in case anyone finds it helpful or cool! http://diewithme.co\n    submitted by    /u/erroneouslevi  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkpmpq",
+      "title": "What is this issue? Happens randomly when I try queueing up a message",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpmpq/what_is_this_issue_happens_randomly_when_i_try/",
+      "created_at": "2026-09-19T15:48:52+00:00",
+      "author": "/u/Alternative-Car8221",
+      "excerpt": "https://preview.redd.it/b497ply40iqh1.png?width=798&format=png&auto=webp&s=1062c4a4c48b29d8acdae58c99d62446e9400363\n Just wondering what's causing it. Codex is still working it just won't let me queue a message.\n    submitted by    /u/Alternative-Car8221  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkpic6",
+      "title": "Small but mighty FEATURE REQUEST: \"Jump to Latest\"",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpic6/small_but_mighty_feature_request_jump_to_latest/",
+      "created_at": "2026-09-19T15:43:52+00:00",
+      "author": "/u/Sketaverse",
+      "excerpt": "GPT8 scraper god or Codex team if you're reading this, please add this feature - I use it in CMUX all the time and it's so good for rapid iteration on multiple threads\n One shortcut key -> next blue dotted thread\n Your ADHD audience will love it\n https://preview.redd.it/ik4z3bc3zhqh1.png?width=342&format=png&auto=webp&s=e5ef7a6d800280afaf5949878f3e03c10a14d18c\n    submitted by    /u/Sketaverse  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkpdvc",
+      "title": "We should be paying way more for Codex subscriptions",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpdvc/we_should_be_paying_way_more_for_codex/",
+      "created_at": "2026-09-19T15:38:40+00:00",
+      "author": "/u/Electrical_Rub_6009",
+      "excerpt": "I know this is going to be unpopular, but $200/month for Codex is absurdly cheap.\n People will spend $3,000 on a GPU, $2,500 on a MacBook, $700/year on IDEs and random SaaS, and then act like OpenAI personally robbed their grandmother because an agent that writes, debugs, refactors, searches a repo, runs tests, and works for hours costs more than Netflix.\n If you're a professional developer making six figures, Codex saving you even two hours a month already pays for itself.\n And before somebody says \u201cbut I can do all of that myself\u201d \u2014 yes. That's the point. I can also wash my clothes in a river.\n The current pricing is obviously subsidized. We're getting ridiculous amounts of inference from frontier models for the price of a mediocre dinner for two. If anything, I'm surprised the serious c",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkosz1",
+      "title": "Is the Astra as a subagent workflow valid?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkosz1/is_the_astra_as_a_subagent_workflow_valid/",
+      "created_at": "2026-09-19T15:14:17+00:00",
+      "author": "/u/Fabulous-Mushroom124",
+      "excerpt": "Well, my quota has been reset. I've read about this \u2013 I think here, actually, and I've been wanting to give it a try but figured I might ask first.\n A few days ago I've read about using Sol medium/high as an orchestrator and Astra light/medium as an implementer. With the reason being that Astra is very efficient and capable, but wastes a lot of tokens by performing tests, pinging, etc.\n On paper the idea makes sense to me \u2013 it implements efficiently avoiding token burnage and leaves Sol which is cheaper but still capable to coordinate the whole thing.\n So I'm curious to know if anyone has tested this yet, if results are decent, or if it's just another one of those 'hacks' that people talk about but kind of makes things worse in one way or the other.\n    submitted by    /u/Fabulous-Mushroom",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkomcy",
+      "title": "Codex desktop + custom models",
+      "url": "https://www.reddit.com/r/codex/comments/1wkomcy/codex_desktop_custom_models/",
+      "created_at": "2026-09-19T15:06:38+00:00",
+      "author": "/u/BothYou243",
+      "excerpt": "I love codex desktop, and codex being my personal agent for everything, it has all of it I want, I don't use hermes or openclaw it feels a bit less polished and bloated, I was simple and powerful entity as codex is THE BEST for me.\n but I absolutely hate the rate limits, I've seen now I am unconsciously doing random stuff myself just because I feel it'll take all my quota, \ud83e\udee0\n so is there any method I can get custom models running with chatgpt(codex) desktop app\n ollama support kills the plugins, computer use and a lot of other features.\n can you guys help me with this please\n    submitted by    /u/BothYou243  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkoh1e",
+      "title": "Awwwards-mcp -MCP server that gives agents design references from award-winning sites (search + inline screenshots, design DNA, page-structure band maps, motion recording)",
+      "url": "https://www.reddit.com/r/codex/comments/1wkoh1e/awwwardsmcp_mcp_server_that_gives_agents_design/",
+      "created_at": "2026-09-19T15:00:48+00:00",
+      "author": "/u/_insane7",
+      "excerpt": "Built an MCP server that turns awwwards.com into an agent-readable design library. 7 tools over stdio (official SDK, TypeScript, zero native deps):\n  search_sites \u2014 filter by color hex / tag slugs / technology / award; results carry inline JPEG screenshots (agents judge visually) get_site_details / get_site_elements \u2014 palette, stack, jury score; element-level posters + mp4 URLs for motion study capture_live_site, analyze_page_structure, record_site_motion \u2014 optional playwright tools: full-page capture, DOM band-map JSON, and a ~27s scripted motion recording returned as filmstrip + .webm list_categories \u2014 the full filter taxonomy (198 tag slugs, 27 colors)  GitHub\n    submitted by    /u/_insane7  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wknf9m",
+      "title": "What is Daybreak? This popped up for me while working with Astra on Ultra effort",
+      "url": "https://www.reddit.com/r/codex/comments/1wknf9m/what_is_daybreak_this_popped_up_for_me_while/",
+      "created_at": "2026-09-19T14:17:01+00:00",
+      "author": "/u/ElderberryTopp",
+      "excerpt": "submitted by    /u/ElderberryTopp  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkn8tl",
+      "title": "A friend of mine suggested this idea for Codex:",
+      "url": "https://www.reddit.com/r/codex/comments/1wkn8tl/a_friend_of_mine_suggested_this_idea_for_codex/",
+      "created_at": "2026-09-19T14:09:41+00:00",
+      "author": "/u/GambAntonio",
+      "excerpt": "What if we got a weekly time allowance to run any model we want at max/ultra effort?\n \u200bPlus: 10 mins\n \u200bPro 5x: 1 hour\n \u200bPro 20x: 4 hours\n \u200bYou'd trigger it with /free, and the clock only drops while the model is actually working on your prompt.\n Thoughts on this?\n    submitted by    /u/GambAntonio  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkn5kt",
+      "title": "Astra pro in chat vs Astra max in work",
+      "url": "https://www.reddit.com/r/codex/comments/1wkn5kt/astra_pro_in_chat_vs_astra_max_in_work/",
+      "created_at": "2026-09-19T14:05:58+00:00",
+      "author": "/u/AffectionateCap539",
+      "excerpt": "Anyone knows the difference between these two.\n    submitted by    /u/AffectionateCap539  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkn13p",
+      "title": "People with Codex Plus/Claude Code Pro subscription, which one is better now?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkn13p/people_with_codex_plusclaude_code_pro/",
+      "created_at": "2026-09-19T14:00:58+00:00",
+      "author": "/u/bhishmagaming",
+      "excerpt": "So I am an AI researcher, and have been using Claude Code for most of my research tasks. It has been amazing as of now, but the way GPT 5.6 sol and Astra is being hyped, I can\u2019t help but consider switching to Codex. \n So those who already have the 20 dollar subscription, which one do ya\u2019ll suggest? The main criteria for me is both, the intelligence as well as the limits. But mostly the limits. So which one do ya\u2019ll suggest?\n    submitted by    /u/bhishmagaming  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmxmd",
+      "title": "A problem with weekly limits that nobody talks about",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmxmd/a_problem_with_weekly_limits_that_nobody_talks/",
+      "created_at": "2026-09-19T13:57:13+00:00",
+      "author": "/u/34986234986234982346",
+      "excerpt": "People are constantly complaining about the normal things, but I have not seen this. Mention: your weekly limit starts when you enter your first prompt, NOT when your last week ends.\n So let's see your usage reset Friday night, but you didn't use Codex until Saturday morning. \n If you go through all your usage in the next few days, your next reset will be Saturday. And if you don't go online next Saturday, maybe it gets pushed another day to Sunday, etc.\n Seems weird to me. I can see it being good for some circumstances, bad for others, but mostly it's just WEIRD imo.\n    submitted by    /u/34986234986234982346  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmx7r",
+      "title": "codex conversation recaps in simplified chinese?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmx7r/codex_conversation_recaps_in_simplified_chinese/",
+      "created_at": "2026-09-19T13:56:42+00:00",
+      "author": "/u/biboFPS",
+      "excerpt": "just a regular saturday coding sessions when suddenly my conversation recap comes back in SIMPLIFIED CHINESE while using GPT-5.6??? \n I've come across this issue when using GLM in Pi, the model would sometime drift to chinese... ok, but using codex ??? \n First thought is that they might be routing conversation recaps to open-source chinese models for cheaper inference? what's yours?\n    submitted by    /u/biboFPS  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmsql",
+      "title": "Saw a lot of discussion around Codex cache hits and had the same confusion, so I built a small tool for the info and analysis",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmsql/saw_a_lot_of_discussion_around_codex_cache_hits/",
+      "created_at": "2026-09-19T13:51:23+00:00",
+      "author": "/u/Hungry_Sun2455",
+      "excerpt": "Codex Token Watch v0.1.0:\n https://github.com/premk134/codex-token-watch \n Codex already records useful token and prompt-cache data locally, but that information isn\u2019t easy to inspect per turn in the Desktop app.\n So I built Codex Token Watch, a lightweight terminal tool that turns the existing local data into readable reports.\n It shows:\n  Input, cached, output, and reasoning tokens Model-call count and turn duration Model and reasoning-effort changes API-equivalent cost estimates Complete cache misses and the gap since the preceding model call Cache misses across one task or all recently active tasks  You can inspect an entire task, only the latest few turns, or cache misses within a rolling period:\n codex-token-watch THREAD --last 5 codex-token-watch --zero-cache --since 6h  It runs loc",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmq9u",
+      "title": "Guys help me: what am i supposed to do here?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmq9u/guys_help_me_what_am_i_supposed_to_do_here/",
+      "created_at": "2026-09-19T13:48:24+00:00",
+      "author": "/u/Time-Toe-1276",
+      "excerpt": "https://preview.redd.it/qajs4qpjehqh1.png?width=1110&format=png&auto=webp&s=7187e4ebf9aaedad855b4111b10d0ecb15904174\n so as you guys can see, i need to gigure out a way to consume the usage limit quickly... somehow. and lowkey I might be cooked here \ud83d\ude2d\n and also i have a butload of opencode credits too which i have to burn. gosh, I suffer from good...\n P.S: jokes aside, what should I actually do?\n I am working on some dataset processing and making an electron app which use llama.cpp.\n can someone give me some good tips to use the unused limits?\n    submitted by    /u/Time-Toe-1276  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmkir",
+      "title": "Hi guys looking for Jason",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmkir/hi_guys_looking_for_jason/",
+      "created_at": "2026-09-19T13:41:19+00:00",
+      "author": "/u/FrontRaspberry5060",
+      "excerpt": "I keep seeing json and wondering why but not found him please help \n    submitted by    /u/FrontRaspberry5060  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkmdka",
+      "title": "Using jev already",
+      "url": "https://www.reddit.com/r/codex/comments/1wkmdka/using_jev_already/",
+      "created_at": "2026-09-19T13:32:57+00:00",
+      "author": "/u/Trick_Ad_7761",
+      "excerpt": "Anyone using it have any types? \n    submitted by    /u/Trick_Ad_7761  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkm8yl",
+      "title": "Reset culture is terrible for subscription users and the whole usage meter should be redone",
+      "url": "https://www.reddit.com/r/codex/comments/1wkm8yl/reset_culture_is_terrible_for_subscription_users/",
+      "created_at": "2026-09-19T13:27:19+00:00",
+      "author": "/u/coz",
+      "excerpt": "People are now sitting at 0%, watching Tibo, guessing when the next free reset is coming, and changing how they use Codex because of this reset stuff happening much more frequently than it use to. It sucks for everyone because we don't know if we're wasting \"potential usage\", by action or inaction.\n Just get rid of the weekly reset concept at a certain time entirely. Give every plan a usage bucket that regenerates predictably, a few times a day.\n Want to give everyone free compute? Tibo hitting \"the button\" would just add some to everyone's meter and doesn't reset anything.\n Otherwise it's just going to get worse. -20x.\n    submitted by    /u/coz  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkm50n",
+      "title": "I built jev-compact: stops Codex's /compact from silently losing critical tool outputs",
+      "url": "https://www.reddit.com/r/codex/comments/1wkm50n/i_built_jevcompact_stops_codexs_compact_from/",
+      "created_at": "2026-09-19T13:22:31+00:00",
+      "author": "/u/fatelei",
+      "excerpt": "Codex compaction is just a lossy summary and it has no clue which tool outputs are load-bearing. I kept losing test results and error\n stacks to \"the tests passed\", and then the model either continues on secondhand info or re-runs the whole tool just to get the info\n back. You never find out what got dropped.\n For Claude Code there's fast-jev-compaction which solves this properly: it scores messages with TypeSafe's Jev model and the hook\n returns a whole new message list, replacing the compaction output. Turned out Codex can't do that. I dug through the docs and the\n binary: PreCompact can only allow or block compaction, there's no field for submitting your own result. So I rewrote the idea against\n what Codex can actually do.\n How it works: right before compaction, a PreCompact hook sends",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkm1zw",
+      "title": "Need advice on how to create my own CTO (matt pocock skills vs my own harness)",
+      "url": "https://www.reddit.com/r/codex/comments/1wkm1zw/need_advice_on_how_to_create_my_own_cto_matt/",
+      "created_at": "2026-09-19T13:18:45+00:00",
+      "author": "/u/keremobje",
+      "excerpt": "I am non technical and have no knowledge on technical aspects of software development.\n I have been developing a mobile app for the last 6 months by using Codex, and I am planning to launch the app in 2 weeks.\n I have 3 major needs as of now:\n  I need to polish all my code before the launch, since I couldn't manage the architecture of the codebase. I need the codebase proper, so I can maintain the code and fix the bugs quickly after the launch. I need to identify root causes of possible bugs and fix them asap after the launch while avoiding ruining the codebase I need to make innovations and renovations in UX/UI or functionality after the launch according the user feedback after the launch. I shouldn't ruin the current functionality and experience while introducing others  To handle these ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkm0t3",
+      "title": "Pro Account getting downgraded to GPT-5",
+      "url": "https://www.reddit.com/r/codex/comments/1wkm0t3/pro_account_getting_downgraded_to_gpt5/",
+      "created_at": "2026-09-19T13:17:17+00:00",
+      "author": "/u/Standard_Boat_33",
+      "excerpt": "This is my first time posting on Reddit, but the usage limits have become frustrating enough that I need to vent.\n Back in the 5.2\u20135.4 days, I was on Plus and barely had to think about limits. I even deliberately pushed my usage to see what it would take to burn through my quota, and I still couldn\u2019t use it all up.\n As the models became more capable, I wasn\u2019t expecting the same level of usage forever. When the limits started getting particularly restrictive after the 5.6 Sol release, I upgraded to Pro.\n For the first month, it was great. It felt like being back in the 5.2 days: I could actually use the models without constantly worrying about how much quota I had left. Now, in my second month, even the $100 plan doesn\u2019t feel like enough. It certainly doesn\u2019t feel like the access I was gett",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wklrvd",
+      "title": "Theory: They want non-enterprise usage to be highest on the weekend",
+      "url": "https://www.reddit.com/r/codex/comments/1wklrvd/theory_they_want_nonenterprise_usage_to_be/",
+      "created_at": "2026-09-19T13:06:16+00:00",
+      "author": "/u/Anxious_Marsupial_59",
+      "excerpt": "I think for the past 2-4 weeks they A/B tested whether its better to be synced on Monday vs Thursday vs Friday vs Saturday and I think they decided the weekend is better for non-enterprise to be synced on to spread out compute across businesses and consumers. I think they'll also stop banked resets from changing the reset date since that gets people out of sync, next week with their release they'll likely pin this down.\n source: It came to me in a dream\n    submitted by    /u/Anxious_Marsupial_59  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkl3t5",
+      "title": "PSA: As your natural reset comes up, remember to send a message ASAP otherwise the next 7 days won't start counting",
+      "url": "https://www.reddit.com/r/codex/comments/1wkl3t5/psa_as_your_natural_reset_comes_up_remember_to/",
+      "created_at": "2026-09-19T12:35:35+00:00",
+      "author": "/u/adamallcock",
+      "excerpt": "Claude Code resets on a counter, but for us it does not. Every hour after your reset you have not sent a message (via Work or Codex modes, anything that draws allowance), your next reset moving further and further away.\n    submitted by    /u/adamallcock  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkkhon",
+      "title": "Hitting a wall at 80% finished project.",
+      "url": "https://www.reddit.com/r/codex/comments/1wkkhon/hitting_a_wall_at_80_finished_project/",
+      "created_at": "2026-09-19T12:06:07+00:00",
+      "author": "/u/Un_Wise7",
+      "excerpt": "I have fantastic success with building 80% of a program and then codex fall into a patch on patch on the last patch broke functionality, so two layers of patch and this goes on till I shelve the project.\n For context, I've just prompted it, used it in planning mode to define the project, used planning mode to write a technical spec for the project, used Chatgpt to write prompts for it, used Chatgpt to plan and define the project in detail, used Chatgpt to develop a technical spec with tests, acceptance definition, failure definition, regression tests, and milestones.\n I don't code at all, so I'm relying on learning industry best practices, following others projects, implementing others agent.md and other guardrail devices, using Chatgpt, Google, and small local llm to get a consensus on ho",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkjx9k",
+      "title": "How often do you rotate coding subagents in long running projects?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkjx9k/how_often_do_you_rotate_coding_subagents_in_long/",
+      "created_at": "2026-09-19T11:37:41+00:00",
+      "author": "/u/ForgeSensitive",
+      "excerpt": "For people automating long running coding projects with an orchestrator that assigns work to separate threads/subagents, each potentially using a different model and reasoning effort depending on the task:\n Do you instruct the orchestrator to regularly replace coding threads with fresh ones before their context becomes too long, or do you try to keep the same threads alive for as long as possible to preserve the cached context and avoid repeatedly rebuilding it?\n If you do rotate threads, what signs do you tell the orchestrator to watch for before starting a fresh thread for the same ongoing task?\n For example, do you base it on context length, declining quality, repeated mistakes, loss of focus, too much irrelevant history, or something else?\n I\u2019m mainly interested in how people balance c",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkjv0v",
+      "title": "End of an Era... 110 Day streak halted abruptly",
+      "url": "https://www.reddit.com/r/codex/comments/1wkjv0v/end_of_an_era_110_day_streak_halted_abruptly/",
+      "created_at": "2026-09-19T11:34:19+00:00",
+      "author": "/u/IDrinkPhenolpthalein",
+      "excerpt": "Bet you can't guess why!\n ... That's right! It's a skill issue \ud83d\ude09\n Certainly took Astra to it's limits - 20x - used all the resets to greatest potential...\n    submitted by    /u/IDrinkPhenolpthalein  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkjb4b",
+      "title": "Will AI just be for enterprises and we are just the testers?",
+      "url": "https://www.reddit.com/r/codex/comments/1wkjb4b/will_ai_just_be_for_enterprises_and_we_are_just/",
+      "created_at": "2026-09-19T11:04:30+00:00",
+      "author": "/u/kyrax80",
+      "excerpt": "Every new model uses more tokens every time, which makes sense bec it's also more expensive for them, so there will be a point where we won't be able to afford it (we are kinda suffering it already with Astra, even x20 users) unless local LLM are as good as Astra or Sol (for example) but then we'll also need very good PCs to use them. What's your guess?\n    submitted by    /u/kyrax80  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wkj460",
+      "title": "Codex limits issue",
+      "url": "https://www.reddit.com/r/codex/comments/1wkj460/codex_limits_issue/",
+      "created_at": "2026-09-19T10:54:10+00:00",
+      "author": "/u/AvailableSecret5161",
+      "excerpt": "Just got my reset and 10% down within an hour without even using Astra. Wtf is going on ? How is this scam even allowed? One subagent invoked a few thousand LOC with sol medium on a $100 plan. Exploration by Luna high. \n Is this a joke ? I'm going to ask for a refund. Why is this not an issue yet. @mods please don't delete this post and cover the scam. \n Edit: People who are trying to provide free tips. Please stop patronizing me and others in this group. I'm not asking for your advice on how to use codex better. If you are happy good for you and no you don't have a secret formula or better limits. \n    submitted by    /u/AvailableSecret5161  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
