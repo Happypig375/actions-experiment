@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T16:44:25.707568Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-19T15:00:10.243411Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkquce",
+      "timestamp": "2026-09-19T16:37:16Z",
+      "title": "Making Memory un-remember - an Apache 2.0, OSS project built on top of Jev",
+      "author": "/u/Ok-Responsibility734",
+      "url": "https://www.reddit.com/r/codex/comments/1wkquce/making_memory_unremember_an_apache_20_oss_project/",
+      "excerpt": "Hi folks,\n I am the creator of Headroom (https://github.com/headroomlabs-ai/headroom) - the token compression platform for AI Agents - with 70k+ stars & 2M developers.\n We are saving > 1T Tokens for our users / month\n I got excited about Jev, and tried to see what could be built on top of such a model! I converged on - https://github.com/chopratejas/invalidate\n What is it?\n - In simple words, making your memories un-remember something\n - When you use memory solutions, like Letta, Zep, Mem0, etc. - they cannot unremember things easily - they will write new memories. So - if you started liking PostGres, but now like SQLite - good luck having your new project choose one over the other.\n - The reason it was hard is - any *event\\ had to go look at similar older memories and \\update*** them\n What is possible now?\n - With Jev, it is possible to check ALL memories on each event, cheap + fast\n - You can edit memories\n - We do not delete them - we ask questions - is this old memory stale? Should it up updated? or reinforced etc etc.\n The goal was to play around a bit with Jev, and see its practical value!\n Do give it a try and tell me what you think. Its Open Source, Apache 2.0, free to use.",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkqquu",
+      "timestamp": "2026-09-19T16:33:21Z",
+      "title": "When you use multiple coding agents, what actually keeps them from drifting apart?",
+      "author": "/u/Both-Butterfly-1048",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqquu/when_you_use_multiple_coding_agents_what_actually/",
+      "excerpt": "I\u2019ve been experimenting more with multiagent coding workflows lately: one agent planning, another implementing, another reviewing. The part I keep finding tricky isn\u2019t really the models themselves. It\u2019s keeping them aligned once the task gets longer.\n If the planning agent makes one bad assumption, the implementation agent can build on it, then the reviewer ends up reviewing against the wrong premise. By the end of the chain everything can look internally consistent but still be wrong.\n I\u2019m starting to think the harder problem is shared context and state between the agents, not orchestration itself.\n How are you handling this in practice? Shared docs? Issues? MCP? Some kind of service catalog or external source of truth?\n    submitted by    /u/Both-Butterfly-1048  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkqknb",
+      "timestamp": "2026-09-19T16:26:35Z",
+      "title": "Jev playing my game Soccer Pinball inside Unity using Codex (Astra) + Unity CLI",
+      "author": "/u/astrohoundstudios",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqknb/jev_playing_my_game_soccer_pinball_inside_unity/",
+      "excerpt": "I built a Jev wrapper inside Unity that lets it actually play Soccer Pinball. Jev controls the flippers and plays full matches against the opponents while I can just sit back and watch how everything behaves.\n It works out to around 2 cents per match, and I\u2019ve also built a difficulty slider so I can control how well Jev plays.\n The main reason I wanted this is to help figure out the difficulty of the game. I can let Jev play through different opponent setups, adjust its skill level, and actually watch where things become too easy or too difficult without having to play every match myself.\n    submitted by    /u/astrohoundstudios  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/eWc2cGc5dHg2aXFoMZgJJx1e7F4oMJHRnw_ML_5bj14hM22MnTm7n5_9DHZw.png?width=640&crop=smart&auto=webp&s=a3b7b1c2d22075c8e706b7f2ca599070b658b7b4"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkqbf1",
+      "timestamp": "2026-09-19T16:16:06Z",
+      "title": "Agentic Research Contracts - An Engineer's Approach to AI Code",
+      "author": "/u/gamejnkie",
+      "url": "https://www.reddit.com/r/codex/comments/1wkqbf1/agentic_research_contracts_an_engineers_approach/",
+      "excerpt": "I'm typing this out in a mostly flow of conscience style, so I might make some errors (and I'm hyper fixating on this and just trying to get it out). I'm not really going to get technical in this post, but the theory essentially boils down to:\n  Long-running agentic R&D becomes more trustworthy and reproducible when authority, evidence validity, release identity, resource bounds, review, and adoption are moved outside the model into explicit, externally enforceable contracts.\n  (AI wrote that part, everything else in this reddit post is me)\n I'm referring to this as a thesis to sound fancy, I'm not an actual academic.\n TLDR, look at this github and tell me what you think\n Using the ideas presented, I am now running semi-autonomous research/development loops that can run for hours at a time without most of the degradation/disaster that I usually encounter when trying them (cheaply! this was all made/researched/developed/iterated upon alongside all the random projects I'm developing, operating on 1 $100 openAI sub and 1 $20 gemini sub). \n To be absolutely clear, this is not a drag and drop thing--it's a set of ideas that, when put together properly, helps your AI practice traditional",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkq3gi",
+      "timestamp": "2026-09-19T16:07:17Z",
+      "title": "Have you gone back to a simpler setup with Codex?",
+      "author": "/u/Don_Crespo",
+      "url": "https://www.reddit.com/r/codex/comments/1wkq3gi/have_you_gone_back_to_a_simpler_setup_with_codex/",
+      "excerpt": "Interested in people who added a bunch of tools, instructions, agents, whatever, then removed most of it.\n There\u2019s always another thing you can configure. At some point I\u2019d want to know whether the setup is helping me finish work or has become the work.\n What did you remove, and did you actually miss it?\n Especially interested in anything you were convinced was essential two weeks before deleting it.\n    submitted by    /u/Don_Crespo  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkq1if",
+      "timestamp": "2026-09-19T16:05:08Z",
+      "title": "Track your friends Codex/token usage",
+      "author": "/u/erroneouslevi",
+      "url": "https://www.reddit.com/r/codex/comments/1wkq1if/track_your_friends_codextoken_usage/",
+      "excerpt": "I\u2019m a Stanford student working on this app Die With Me for MacOS\n You can track your friends\u2019 Codex usage % and there\u2019s also leaderboards so you can see where you rank in countries and universities. It\u2019s kinda like find my friends but for AI \u270c\ufe0f\n I just wanted to share in case anyone finds it helpful or cool! http://diewithme.co\n    submitted by    /u/erroneouslevi  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/keczpcx43iqh1.jpeg?width=640&crop=smart&auto=webp&s=2f88394a26a462f231466ca2f221d93599887884",
+        "https://i.redd.it/keczpcx43iqh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkpmpq",
+      "timestamp": "2026-09-19T15:48:52Z",
+      "title": "What is this issue? Happens randomly when I try queueing up a message",
+      "author": "/u/Alternative-Car8221",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpmpq/what_is_this_issue_happens_randomly_when_i_try/",
+      "excerpt": "https://preview.redd.it/b497ply40iqh1.png?width=798&format=png&auto=webp&s=1062c4a4c48b29d8acdae58c99d62446e9400363\n Just wondering what's causing it. Codex is still working it just won't let me queue a message.\n    submitted by    /u/Alternative-Car8221  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/b497ply40iqh1.png?width=140&height=29&auto=webp&s=336f4befc67ee428208f733ea5008efed4107abb",
+        "https://preview.redd.it/b497ply40iqh1.png?width=798&format=png&auto=webp&s=1062c4a4c48b29d8acdae58c99d62446e9400363"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkpic6",
+      "timestamp": "2026-09-19T15:43:52Z",
+      "title": "Small but mighty FEATURE REQUEST: \"Jump to Latest\"",
+      "author": "/u/Sketaverse",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpic6/small_but_mighty_feature_request_jump_to_latest/",
+      "excerpt": "GPT8 scraper god or Codex team if you're reading this, please add this feature - I use it in CMUX all the time and it's so good for rapid iteration on multiple threads\n One shortcut key -> next blue dotted thread\n Your ADHD audience will love it\n https://preview.redd.it/ik4z3bc3zhqh1.png?width=342&format=png&auto=webp&s=e5ef7a6d800280afaf5949878f3e03c10a14d18c\n    submitted by    /u/Sketaverse  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ik4z3bc3zhqh1.png?width=140&height=36&auto=webp&s=90ae082c30369554ded4e5f86b73508e6aadaa66",
+        "https://preview.redd.it/ik4z3bc3zhqh1.png?width=342&format=png&auto=webp&s=e5ef7a6d800280afaf5949878f3e03c10a14d18c"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkpdvc",
+      "timestamp": "2026-09-19T15:38:40Z",
+      "title": "We should be paying way more for Codex subscriptions",
+      "author": "/u/Electrical_Rub_6009",
+      "url": "https://www.reddit.com/r/codex/comments/1wkpdvc/we_should_be_paying_way_more_for_codex/",
+      "excerpt": "I know this is going to be unpopular, but $200/month for Codex is absurdly cheap.\n People will spend $3,000 on a GPU, $2,500 on a MacBook, $700/year on IDEs and random SaaS, and then act like OpenAI personally robbed their grandmother because an agent that writes, debugs, refactors, searches a repo, runs tests, and works for hours costs more than Netflix.\n If you're a professional developer making six figures, Codex saving you even two hours a month already pays for itself.\n And before somebody says \u201cbut I can do all of that myself\u201d \u2014 yes. That's the point. I can also wash my clothes in a river.\n The current pricing is obviously subsidized. We're getting ridiculous amounts of inference from frontier models for the price of a mediocre dinner for two. If anything, I'm surprised the serious coding tiers aren't $500\u2013$1,000/month.\n The funniest part is watching developers complain that AI is simultaneously:\n  powerful enough to destroy their profession not worth $200  Pick one.\n    submitted by    /u/Electrical_Rub_6009  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkosz1",
+      "timestamp": "2026-09-19T15:14:17Z",
+      "title": "Is the Astra as a subagent workflow valid?",
+      "author": "/u/Fabulous-Mushroom124",
+      "url": "https://www.reddit.com/r/codex/comments/1wkosz1/is_the_astra_as_a_subagent_workflow_valid/",
+      "excerpt": "Well, my quota has been reset. I've read about this \u2013 I think here, actually, and I've been wanting to give it a try but figured I might ask first.\n A few days ago I've read about using Sol medium/high as an orchestrator and Astra light/medium as an implementer. With the reason being that Astra is very efficient and capable, but wastes a lot of tokens by performing tests, pinging, etc.\n On paper the idea makes sense to me \u2013 it implements efficiently avoiding token burnage and leaves Sol which is cheaper but still capable to coordinate the whole thing.\n So I'm curious to know if anyone has tested this yet, if results are decent, or if it's just another one of those 'hacks' that people talk about but kind of makes things worse in one way or the other.\n    submitted by    /u/Fabulous-Mushroom124  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkomcy",
+      "timestamp": "2026-09-19T15:06:38Z",
+      "title": "Codex desktop + custom models",
+      "author": "/u/BothYou243",
+      "url": "https://www.reddit.com/r/codex/comments/1wkomcy/codex_desktop_custom_models/",
+      "excerpt": "I love codex desktop, and codex being my personal agent for everything, it has all of it I want, I don't use hermes or openclaw it feels a bit less polished and bloated, I was simple and powerful entity as codex is THE BEST for me.\n but I absolutely hate the rate limits, I've seen now I am unconsciously doing random stuff myself just because I feel it'll take all my quota, \ud83e\udee0\n so is there any method I can get custom models running with chatgpt(codex) desktop app\n ollama support kills the plugins, computer use and a lot of other features.\n can you guys help me with this please\n    submitted by    /u/BothYou243  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wkoh1e",
+      "timestamp": "2026-09-19T15:00:48Z",
+      "title": "Awwwards-mcp -MCP server that gives agents design references from award-winning sites (search + inline screenshots, design DNA, page-structure band maps, motion recording)",
+      "author": "/u/_insane7",
+      "url": "https://www.reddit.com/r/codex/comments/1wkoh1e/awwwardsmcp_mcp_server_that_gives_agents_design/",
+      "excerpt": "Built an MCP server that turns awwwards.com into an agent-readable design library. 7 tools over stdio (official SDK, TypeScript, zero native deps):\n  search_sites \u2014 filter by color hex / tag slugs / technology / award; results carry inline JPEG screenshots (agents judge visually) get_site_details / get_site_elements \u2014 palette, stack, jury score; element-level posters + mp4 URLs for motion study capture_live_site, analyze_page_structure, record_site_motion \u2014 optional playwright tools: full-page capture, DOM band-map JSON, and a ~27s scripted motion recording returned as filmstrip + .webm list_categories \u2014 the full filter taxonomy (198 tag slugs, 27 colors)  GitHub\n    submitted by    /u/_insane7  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/emdlbnBjamtyaHFoMXG3x3shCkF2hjpOfvUriLkUYmMlxcHqaHgZ9sR1IAIr.png?width=640&crop=smart&auto=webp&s=37af0e463d9bebfdc2e499b1bd430df0ad5a8f07"
+      ]
+    }
+  ],
+  "errors": []
+}

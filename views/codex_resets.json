@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T16:44:25.707568Z",
+  "source": "@codex_resets",
+  "recovery_since": "2026-09-19T15:00:10.243411Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [],
+  "errors": []
+}
