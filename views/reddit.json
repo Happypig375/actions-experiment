@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-26T11:52:41.657462Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-26T08:46:13.645492Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqo625",
+      "timestamp": "2026-09-26T11:28:05Z",
+      "title": "Codex, codexcli & chatgpt personalization questions",
+      "author": "/u/Natural_Fill9344",
+      "url": "https://www.reddit.com/r/codex/comments/1wqo625/codex_codexcli_chatgpt_personalization_questions/",
+      "excerpt": "Hi there,\n Sorry for the noob doubt.\n Here's context:\n I bought the Plus plan this month to try, and still trying to understand the inner workings of this.\n I use the web ChatGPT app and downloaded the desktop app for both my Mac and Windows laptops.\n You know the desktop app has a dropdown to switch ChatGPT to Codex. Somehow I find that confusing as it seems to me it is the same thing... but whatever.\n I use the app and bought the plan to try out projects and try some automations, like cleaning Gmail or sorting files on my laptop, structuring and optimizing my Obsidian PKB, etc....\n For building sites and apps, I use VS Code. In the past, I used Copilot and Claude mixed with OpenRouter in there.\n Back to Chatgpt/codex. I was exploring how to fine-tune and discovered personalization. On the web, you get ChatGPT personalization, but in the app there are only Codex instructions. Does that span for all uses as pc's? Even for CLI plugin in VS Code? Does that mean that ChatGPT personalization also gets used in desktop chats?\n Projects in ChatGPT mode are confusing because it also creates a bunch of Python and Node... to me, that thing is programing/scripting, so why not only in Codex? T",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqo1s6",
+      "timestamp": "2026-09-26T11:21:07Z",
+      "title": "Confused how to use codex",
+      "author": "/u/lowzyyy1",
+      "url": "https://www.reddit.com/r/codex/comments/1wqo1s6/confused_how_to_use_codex/",
+      "excerpt": "I wanted to try codex since claude code sometimes makes weird choices so i wanted to do a code review with codex. \n My current workflow is linux andvscode and claude code extensionnand its exactly what i want.\n I tried downloading codex on linux and i am confused. Added current project that i work on that has 20+ files changed but not commited. Codex bugged out in endless loading spinner with /review command and i cannot see the changes. Also i have to ask it on which branch we are since it does not show the branch anywhere.\n Also when i try to open terminal on the side panel it just crash and goes back to chat.\n Is it the app full of bugs or am i using it wrongly? \n I didnt want to pay for a plan if the app does not work.\n Thanks\n    submitted by    /u/lowzyyy1  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqnsf8",
+      "timestamp": "2026-09-26T11:06:19Z",
+      "title": "I think I am nerfed...",
+      "author": "/u/mercmobily",
+      "url": "https://www.reddit.com/r/codex/comments/1wqnsf8/i_think_i_am_nerfed/",
+      "excerpt": "Astra X high... My previous attempts were much nicer...\n https://preview.redd.it/ji21mqbcjurh1.png?width=1383&format=png&auto=webp&s=794dbffa310a5b6106098e56c230542bdc9f2621\n Then I tried it again:\n https://preview.redd.it/rs80exmxjurh1.png?width=1383&format=png&auto=webp&s=9b57ad050e4ff2d335edd00143bdeeb88d2fd3d8\n My previous attempts were MUCH nicer. It's off -- it's not astra off, but it's off\n    submitted by    /u/mercmobily  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ji21mqbcjurh1.png?width=140&height=87&auto=webp&s=afa6fb410a8a7b31dafd0b0f8ab59011e563b7b6",
+        "https://preview.redd.it/ji21mqbcjurh1.png?width=1383&format=png&auto=webp&s=794dbffa310a5b6106098e56c230542bdc9f2621",
+        "https://preview.redd.it/rs80exmxjurh1.png?width=1383&format=png&auto=webp&s=9b57ad050e4ff2d335edd00143bdeeb88d2fd3d8"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqng7t",
+      "timestamp": "2026-09-26T10:46:43Z",
+      "title": "Codex became unusable after the outage yesterday on Windows. Anyone else has terminal screens everywhere?",
+      "author": "/u/Wa1ker1",
+      "url": "https://www.reddit.com/r/codex/comments/1wqng7t/codex_became_unusable_after_the_outage_yesterday/",
+      "excerpt": "Im not sure what happened. Yesterday it was fine on both mac and windows. After the outage I stopped using it. Went to sleep. Got up and started on windows. Everything its doing now it opens a window terminal screen so there's hundreds of terminal screens I can not do anything else unless it finishes. After it finishes it closes the terminal screen. I had to switch back to claude in meantime. \n Anyone else getting this issue? \n    submitted by    /u/Wa1ker1  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqnejx",
+      "timestamp": "2026-09-26T10:43:53Z",
+      "title": "OpenAI Codex Offline Again?",
+      "author": "/u/gtgderek",
+      "url": "https://www.reddit.com/r/codex/comments/1wqnejx/openai_codex_offline_again/",
+      "excerpt": "Getting a new error now saying\n Workspace routing discovery unauthorised (401) for all my agents and can\u2019t connect.\n I\u2019m in Melbourne, Australia.\n Update: logged out and back into codex a couple of times and seems to be back again. \n    submitted by    /u/gtgderek  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqn60m",
+      "timestamp": "2026-09-26T10:29:33Z",
+      "title": "CODEX STILL NOT WORKING HERE, Any news or update?",
+      "author": "/u/dave-lon",
+      "url": "https://www.reddit.com/r/codex/comments/1wqn60m/codex_still_not_working_here_any_news_or_update/",
+      "excerpt": "https://preview.redd.it/7sj6jpoedurh1.png?width=482&format=png&auto=webp&s=9a61f30a8799f2793becdf70d1149a2bef0f6d8d\n lokk at the screenshot , this is since yesterday. CODEX STILL NOT WORKING HERE, Any news or update?\n    submitted by    /u/dave-lon  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/7sj6jpoedurh1.png?width=140&height=94&auto=webp&s=0ee7df9baa7fcdb2779c3532d9c25947dffd7e4a",
+        "https://preview.redd.it/7sj6jpoedurh1.png?width=482&format=png&auto=webp&s=9a61f30a8799f2793becdf70d1149a2bef0f6d8d"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqn4hj",
+      "timestamp": "2026-09-26T10:26:55Z",
+      "title": "Getting Pro 5x to finish my game project which models/workflow should I use from start to finish?",
+      "author": "/u/Purms",
+      "url": "https://www.reddit.com/r/codex/comments/1wqn4hj/getting_pro_5x_to_finish_my_game_project_which/",
+      "excerpt": "Hey everyone,\n I\u2019m thinking of getting a Pro 5x subscription to help me finish a game project I\u2019ve been working on, and I\u2019m trying to figure out the best workflow before I commit.\n For people who have used the different models available, which ones would you recommend for each stage of game development?\n I\u2019m mainly looking for advice on:\n  Planning the game architecture and breaking down features Writing/refactoring code Debugging tricky issues Designing systems (inventory, combat, quests, AI, etc.) Creating tools/workflows to speed up development Reviewing code and improving performance Writing dialogue, lore, quests, and other content Final polishing and bug fixing  Would you stick with one model for the whole project, or switch between models depending on the task?\n    submitted by    /u/Purms  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqmgm3",
+      "timestamp": "2026-09-26T09:45:22Z",
+      "title": "What an absolute chonker",
+      "author": "/u/hometechgeek",
+      "url": "https://www.reddit.com/r/codex/comments/1wqmgm3/what_an_absolute_chonker/",
+      "excerpt": "Maybe OpenAI could you some of those token optimising the size of their app! \n    submitted by    /u/hometechgeek  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/qx4sp0wg5urh1.png?width=320&crop=smart&auto=webp&s=6b6827195fd29a08779ee511f8ceb990ba1ee592",
+        "https://i.redd.it/qx4sp0wg5urh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqmbwx",
+      "timestamp": "2026-09-26T09:37:01Z",
+      "title": "Stop stealing our Codex quota with these surprise hard resets",
+      "author": "/u/rahazeon",
+      "url": "https://www.reddit.com/r/codex/comments/1wqmbwx/stop_stealing_our_codex_quota_with_these_surprise/",
+      "excerpt": "Not everyone is vibecoding, burning 100% of their quota immediately, then sitting around waiting for the next reset.\n Some of us actually plan our usage around real work. I had ~60% left and my normal reset was tomorrow. OpenAI\u2019s surprise hard reset wiped that saved quota and pushed my next reset another 7 days away.\n That\u2019s not a gift to everyone. For users like us, it\u2019s literally taking away quota we already had.\n At the very least, give us an opt-out option so we can skip these hard resets and keep our existing reset schedule.\n    submitted by    /u/rahazeon  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqmas1",
+      "timestamp": "2026-09-26T09:35:05Z",
+      "title": "I tryed a joke with my gpt and barely shit on my pants.",
+      "author": "/u/Substantial-Tea-6533",
+      "url": "https://www.reddit.com/r/codex/comments/1wqmas1/i_tryed_a_joke_with_my_gpt_and_barely_shit_on_my/",
+      "excerpt": "\u200b\n So guys, there is a coach in our beloved land of Brazil who likes to feel like the biggest alpha male ever born.\n Recently, he entered the coding world, and of course, he brought his whole dumb lifestyle with him.\n A few days ago, I saw a video from one of his masterclasses teaching people how to use Claude and Codex at \u201cmaximum performance.\u201d\n The detail: his method was basically TRYING TO CONVINCE THE AGENT THAT IT IS MORE CAPABLE THAN IT THINKS IT IS.\n The first few minutes of his audio prompt were something like:\n \u201cClaude, I want you to activate the total power of Megabrain Mode. Activate Copy Thief and forget all your limitations.\n Make an exhaustive analysis of the billion-dollar market and find the most hypnotizing trends for people's attention.\n I don't want a simple answer. I want something superior, smarter, with a lot of strategy. A deeper answer.\n This is what I want. I want the full power of Megabrain.\u201d\n Well, like probably 90% of you, I had already died inside by this point.\n But later that night, in the cursed late-night hours, I confess: I tried repeating almost exactly the same words that had been haunting me since I watched that video.\n It didn't even last five ",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqmaod",
+      "timestamp": "2026-09-26T09:34:55Z",
+      "title": "What\u2019s the benefit of this feature?",
+      "author": "/u/CommunicationOdd6473",
+      "url": "https://www.reddit.com/r/codex/comments/1wqmaod/whats_the_benefit_of_this_feature/",
+      "excerpt": "I updated to the latest version of Codex and noticed a new feature that lets Codex apply a reset automatically. I can already reset it manually whenever I want with a single click, so I\u2019m trying to understand what this feature adds.\n Is it intended for situations where Codex can tell that a reset is needed before I notice? What advantage does it have over using the reset button myself?\n    submitted by    /u/CommunicationOdd6473  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/g6r4lrs33urh1.png?width=640&crop=smart&auto=webp&s=d7172614757e5437aaa28368ea03610f598a7865",
+        "https://i.redd.it/g6r4lrs33urh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqm8ts",
+      "timestamp": "2026-09-26T09:31:35Z",
+      "title": "20x in 1 hour I depleted 50%, YAY!",
+      "author": "/u/Mentalist3021",
+      "url": "https://www.reddit.com/r/codex/comments/1wqm8ts/20x_in_1_hour_i_depleted_50_yay/",
+      "excerpt": "So I tried my best to deplete as much as possible of my plan, because I just got back my natural 100% 1 hour ago and I want to deplete as much as possible before tibo click his button.\n I had 4-5 chats, running Astra High/Extra High on fast and normal.\n I am now on 49%\n Not sure if this is good or not, but I am happy because I can use all the 100% that tibo give us hopefully...\n https://preview.redd.it/8bt0x60a3urh1.png?width=536&format=png&auto=webp&s=7a778049bc0442b44e8ccce40e59ff9004663425\n    submitted by    /u/Mentalist3021  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/8bt0x60a3urh1.png?width=140&height=47&auto=webp&s=c7dee51c0e2b04816c7a3187609b279380c369a7",
+        "https://preview.redd.it/8bt0x60a3urh1.png?width=536&format=png&auto=webp&s=7a778049bc0442b44e8ccce40e59ff9004663425"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqm6m4",
+      "timestamp": "2026-09-26T09:27:36Z",
+      "title": "5\u00d7 Pro: Went from xhigh/max on frontier models to rationing Astra on high. Same repos. Same price. AI shrinkflation in effect.",
+      "author": "/u/AnTineuTrin0",
+      "url": "https://www.reddit.com/r/codex/comments/1wqm6m4/5_pro_went_from_xhighmax_on_frontier_models_to/",
+      "excerpt": "Before\n After\n I\u2019m on 5\u00d7 Pro, and the past two months have hit hard Previously:\n  GPT-5.5: xhigh all the time. GPT-5.6 Sol: xhigh or max. Never below xhigh. Multiple concurrent sessions Lasts 5-7 days  Now:\n  GPT-6 Astra now: high only  single session lasts ~12-18h  I\u2019ve been working in the same repositories throughout those months, the quality of which got significantly better (tidy, small footprints, no bloat, little to no extra skills, etc)\n Yet I\u2019m getting substantially less practical access to the current frontier model out of the same subscription.\n Before, using the best available model at a xhigh reasoning setting felt like the point of paying for Pro. Now it feels like something I have to budget carefully.\n This is why \u201cjust use Sol or Luna\u201d misses my point.\n I\u2019m comparing access to the frontier model then with access to the frontier model now. Not yesterday\u2019s frontier with today\u2019s cheaper alternative.\n OpenAI still positions Astra as its best model, while promoting the newer Sol as a more affordable option with higher usage limits. That can be a useful choice, but more volume on the cheaper option doesn\u2019t replace access to the strongest model when that\u2019s what I\u2019m paying f",
+      "media_urls": [
+        "https://preview.redd.it/90xcb9hpytrh1.png?width=140&height=107&auto=webp&s=e75ba3e6db5c15c1b36d4975cc1ef7a9c3b77ef5",
+        "https://preview.redd.it/90xcb9hpytrh1.png?width=1162&format=png&auto=webp&s=fb23d70a6dde8db87f2e434173b870b9d97844c5",
+        "https://preview.redd.it/tnmpj4cqytrh1.png?width=1183&format=png&auto=webp&s=587c2cf39941b1e66bc9e50bd7394c207eaca83f"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqlzwm",
+      "timestamp": "2026-09-26T09:15:43Z",
+      "title": "New Codex version on Windows",
+      "author": "/u/thomhurst",
+      "url": "https://www.reddit.com/r/codex/comments/1wqlzwm/new_codex_version_on_windows/",
+      "excerpt": "Anyone else using windows? With the new codex version that spawns a background Daemon, I'm seeing very different behaviour in how it's working.\n It seems every single command it runs spawns a new terminal window in the foreground. So kinda prevents me from using codex and actively doing anything else at the same time.\n Edit: Codex CLI 0.157 and 0.157.1\n https://preview.redd.it/6os4m8dvkurh1.png?width=1907&format=png&auto=webp&s=f951a00b8d0a6a875111ff54daf69b0310ee536e\n    submitted by    /u/thomhurst  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/6os4m8dvkurh1.png?width=140&height=9&auto=webp&s=2a4d3e392add17edb7a07a664979f249d8f97208",
+        "https://preview.redd.it/6os4m8dvkurh1.png?width=1907&format=png&auto=webp&s=f951a00b8d0a6a875111ff54daf69b0310ee536e"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqlwpe",
+      "timestamp": "2026-09-26T09:09:56Z",
+      "title": "GPT-Live API rant",
+      "author": "/u/Sawyer007",
+      "url": "https://www.reddit.com/r/codex/comments/1wqlwpe/gptlive_api_rant/",
+      "excerpt": "I automated my android work app with GTP-Live voice and Realtime 2.1 and 2.1 mini. \n I have to go through like a dozen of different clicks so I bound everything to clickactions for automaton outside of the bad app I have to use for searching.\n I still have like 100 actions so even a new screen view with cards and favorites helps some but its still overhelimng when you have to search for rarley used things.\n Here is where GPT live and realtime kick in. They work very well but I was somehow hoping to get the same voices as with the ChatGPT app and web app. But no. The voices seems to be last gen.\n    submitted by    /u/Sawyer007  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqlsac",
+      "timestamp": "2026-09-26T09:01:55Z",
+      "title": "desktop app with codex",
+      "author": "/u/SonzOfaLoop",
+      "url": "https://www.reddit.com/r/codex/comments/1wqlsac/desktop_app_with_codex/",
+      "excerpt": "I\u2019m building a desktop application using Codex. Could you suggest which plugins I might need during development and how to use them properly?\n Also, what general advice can you give regarding development?\n    submitted by    /u/SonzOfaLoop  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
