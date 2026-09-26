@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-26T19:41:39.293728Z",
+  "source": "r/codex",
+  "recovery_since": "2026-09-26T18:00:16.167445Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqyf9k",
+      "timestamp": "2026-09-26T18:53:51Z",
+      "title": "i'm a model hopper (in different threads) but i keep coming back to astra light.",
+      "author": "/u/Tight-Grocery9053",
+      "url": "https://www.reddit.com/r/codex/comments/1wqyf9k/im_a_model_hopper_in_different_threads_but_i_keep/",
+      "excerpt": "not sure how to explain this, but astra low for me ends up being less expensive. \n this is a higher-order point because you have to understand that lower models can get you closer, but the cleanup is often not worth the savings. \n one thing you'll not see in the chart (because stats lag) is that after that big sol 6.0 ramp in my usage (on xhigh) i found myself back to astra light. \n i don't think i'll be switching from astra light from now until dev day and that also depends on what they present. \n    submitted by    /u/Tight-Grocery9053  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/eb17q9o1vwrh1.png?width=640&crop=smart&auto=webp&s=a1b34b8cf7bd09bdd3c4a6d9ba05634ed19d4aab",
+        "https://i.redd.it/eb17q9o1vwrh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqyau5",
+      "timestamp": "2026-09-26T18:48:54Z",
+      "title": "I gave sol-6 medium a $10 dollar budget. It blew $200 on voice lines in 5 minutes",
+      "author": "/u/SanoKei",
+      "url": "https://www.reddit.com/r/codex/comments/1wqyau5/i_gave_sol6_medium_a_10_dollar_budget_it_blew_200/",
+      "excerpt": "I guess I'm not eating lunch for it next month, you gotta be kidding me.\n I'm actually so incredibly peeved. The fal.ai key sits in the env, as part of its spec it only gets to use a $10 budget.\n Just completely ignored me and now I'm in debt to fal.ai\n Thanks, now I am never using codex again and just switching to Claude permanently. This is the last straw and I've had enough. I seriously can't afford this mistake and it completely just doesn't care because obviously it's just a machine that says \"Oh you're right, I didn't see that\"\n Alignment my ass, god damnit\n    submitted by    /u/SanoKei  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqy217",
+      "timestamp": "2026-09-26T18:38:59Z",
+      "title": "Ultra Mode Bro.",
+      "author": "/u/WayneTechLab",
+      "url": "https://www.reddit.com/r/codex/comments/1wqy217/ultra_mode_bro/",
+      "excerpt": "If you run Ultra mode with a goal for more then 10 hrs. What has been you luck getting your \"goal\" completed? \n - Currently I am working on a private app for fun I call Swap Nakamoto, created with the agientic wallet from Coinbase then has a local AI LLM from Apple for chart and projection verification. \n https://preview.redd.it/l870u6d6pwrh1.png?width=1624&format=png&auto=webp&s=40e22e4410a6844f7daec11a52559d3ce6e1ac64\n Where the ML and paper trading side works for multi-strategies while being able to run 100 trades at a time. Currently testing function level getting wallets, and basic parts of app working. Currently over 60 pages of tools running local on Apple M4 with optimized GPU, CPU and so on co-processing logic. Next step is connecting several VPS direct into the apps shard compute space and cloud storage. \n The goal of my app is 100% automated live trading with real money, connected with Conbase, Polymarket and Robinhood for starts. The app functions with a CEO bot that has a team of exectuive bots, with 21 worker bots then a spacial team of bots. The only real \"LLM\" is a local model provide by Apple caked a native swift into the app \"UNO AI\" for chars and other co-process",
+      "media_urls": [
+        "https://preview.redd.it/l870u6d6pwrh1.png?width=140&height=91&auto=webp&s=212c74fd04c640420e60e8a274801f5ea8987252",
+        "https://preview.redd.it/l870u6d6pwrh1.png?width=1624&format=png&auto=webp&s=40e22e4410a6844f7daec11a52559d3ce6e1ac64",
+        "https://preview.redd.it/q5doffyzpwrh1.png?width=2032&format=png&auto=webp&s=23c0ffa1b804f039c1801e50eca422ed1fffa442"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqy0qx",
+      "timestamp": "2026-09-26T18:37:26Z",
+      "title": "How are you guys going about creating plans with Sol 6?",
+      "author": "/u/Peleias",
+      "url": "https://www.reddit.com/r/codex/comments/1wqy0qx/how_are_you_guys_going_about_creating_plans_with/",
+      "excerpt": "I\u2019m used to using the \"superpowers\" approach with writing plans.\n But when I use GPT-6 Sol, it simply generates a summary of the plan.\n It performs a bit better after the third or fourth prompt specifying that the plan is to be executed by a Luna sub-agent.\n I review it with Opus 5.5, and it improves by about 60%.\n It\u2019s acting really strangely when it comes to creating plans\u2014at least for me.\n You're right. The previous plan left it up to the person executing it to figure out the solution. I rewrote [Plan XXXXX] to include references to the source, signature, and preflight logic, a table of all affected gestures, the exact rollback sequence, and tests with verifiable results.\n Yes. The plan still leaves the core logic in prose, despite the section on interfaces. I will add C++ blocks for the Save predicate, migration, collection, and map writing, as well as the call points and test assertions. It remains a plan; the plugin itself is not being edited.\n    submitted by    /u/Peleias  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqxiro",
+      "timestamp": "2026-09-26T18:17:34Z",
+      "title": "Daybreak Issue",
+      "author": "/u/moneywins-",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxiro/daybreak_issue/",
+      "excerpt": "Hey everyone, I am developing my own software and was testing security from every angle. While working on it, I encountered a situation involving daybreak where I lack access to you attempting to break my software, which might help me identify a security issue in the future. If any of you have ideas on how I might resolve this as an individual, could I obtain access to this daybreak?\n    submitted by    /u/moneywins-  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/j8g1t8z4pwrh1.jpeg?width=640&crop=smart&auto=webp&s=d97c5a3350f6e6e2c453a74e32612732cdc035ef",
+        "https://i.redd.it/j8g1t8z4pwrh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqxfsb",
+      "timestamp": "2026-09-26T18:14:13Z",
+      "title": "What LLM are you finding is best for writing?",
+      "author": "/u/ConsistentAndWin",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxfsb/what_llm_are_you_finding_is_best_for_writing/",
+      "excerpt": "I've been trying to figure out the best LLM to use for writing. And I'd love to know which one you find the best. Here, I'm talking specifically about writing, not coding.\n Never tried an Anthropic model until yesterday. But was not that impressed, frankly, with Opus 5.5. Admittedly, I have not tried it that much yet.\n But I have to make a decision here in a few days as to whether or not I renew my $200 OpenAI plan.\n For writing a course, I found careful planning with Astra and writing with GPT-6 Sol seems to produce the best results. Astra writes a bit too stilted, but plans really well, from what I have experienced.\n I've never tried any other models than OpenAI and now Anthropic. Except a long time ago, Gemini, which really started sucking bad fast.\n I want to hear from people that do a lot of writing and what model you have found works the best. I use Codex and the models within it. That's the relevance to Codex. Just trying to figure out what's best between OpenAI and Anthropic, or any other model for that matter. \n Also, I've created a skill of my voice. That does seem to help quite a bit.\n Please tell me what you use, what you found best, any special things you do to get it ",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wqxfpl",
+      "timestamp": "2026-09-26T18:14:06Z",
+      "title": "New Codex CLI interface sucks. Ctrl-C now means copy and also exit. I was thinking I am copying, but instead it exited another tab where there was no selection.",
+      "author": "/u/k_brn",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxfpl/new_codex_cli_interface_sucks_ctrlc_now_means/",
+      "excerpt": "Honestly, the latest interface update is a UX disaster. The decision to remap Cmd-C to nothing and make Ctrl-C mean \"copy\" is baffling. On macOS, Cmd-C has meant copy for decades, and Ctrl-C has meant interrupt/exit. Now I hit Ctrl-C expecting to copy a snippet, and instead, it kills the process in a tab where I had no selection at all. This is muscle memory breaking, and it makes the tool feel unpredictable.\n And can we talk about the UI colors? It now looks like a Christmas tree. There is so much color on screen for no functional reason. I get that some color helps distinguish user vs. assistant messages, but this is sensory overload.\n The previous interface wasn\u2019t perfect, but at least Ctrl-C didn\u2019t sabotage your workflow and the color scheme didn\u2019t require sunglasses. I really hope they walk this back or at least make the keybindings and theme configurable.\n    submitted by    /u/k_brn  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}

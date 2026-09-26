@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-26T19:41:39.293728Z",
+  "source": "@codex_resets",
+  "recovery_since": "2026-09-26T18:00:16.167445Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "codex_reset_message",
+      "id": "codex_resets/46",
+      "timestamp": "2026-09-26T18:18:13Z",
+      "text": "\u2705 Codex reset confirmed\n\nResets all propagated. That will be all. Have a fantastic weekend. - Tibo\n\nView on X \u00b7 Tracked by codex-resets.com",
+      "url": "https://t.me/codex_resets/46",
+      "links": [
+        "https://t.me/codex_resets",
+        "https://x.com/i/status/2103911959544610829",
+        "https://codex-resets.com/",
+        "https://t.me/codex_resets/46"
+      ]
+    }
+  ],
+  "errors": []
+}
