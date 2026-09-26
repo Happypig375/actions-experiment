@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "purpose": "Important Update Watch authoritative Tibo timeline feed",
+  "generated_at": "2026-09-26T18:44:46.547174Z",
+  "fresh_for_seconds": 4500,
+  "source": {
+    "key": "tibo",
+    "name": "@thsottiaux",
+    "view_path": "views/tibo.json",
+    "status": "ok",
+    "acquisition_mode": "fxtwitter",
+    "candidate_count": 50,
+    "errors": [],
+    "raw_artifact_id": 10912189389,
+    "raw_artifact_name": "important-update-tibo-raw"
+  }
+}
