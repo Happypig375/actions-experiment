@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-26T19:27:36.377583Z",
+  "since": "2026-09-26T13:27:36.377583Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1wqyf9k",
+      "title": "i'm a model hopper (in different threads) but i keep coming back to astra light.",
+      "url": "https://www.reddit.com/r/codex/comments/1wqyf9k/im_a_model_hopper_in_different_threads_but_i_keep/",
+      "created_at": "2026-09-26T18:53:51+00:00",
+      "author": "/u/Tight-Grocery9053",
+      "excerpt": "not sure how to explain this, but astra low for me ends up being less expensive. \n this is a higher-order point because you have to understand that lower models can get you closer, but the cleanup is often not worth the savings. \n one thing you'll not see in the chart (because stats lag) is that after that big sol 6.0 ramp in my usage (on xhigh) i found myself back to astra light. \n i don't think i'll be switching from astra light from now until dev day and that also depends on what they present. \n    submitted by    /u/Tight-Grocery9053  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqyau5",
+      "title": "I gave sol-6 medium a $10 dollar budget. It blew $200 on voice lines in 5 minutes",
+      "url": "https://www.reddit.com/r/codex/comments/1wqyau5/i_gave_sol6_medium_a_10_dollar_budget_it_blew_200/",
+      "created_at": "2026-09-26T18:48:54+00:00",
+      "author": "/u/SanoKei",
+      "excerpt": "I guess I'm not eating lunch for it next month, you gotta be kidding me.\n I'm actually so incredibly peeved. The fal.ai key sits in the env, as part of its spec it only gets to use a $10 budget.\n Just completely ignored me and now I'm in debt to fal.ai\n Thanks, now I am never using codex again and just switching to Claude permanently. This is the last straw and I've had enough. I seriously can't afford this mistake and it completely just doesn't care because obviously it's just a machine that says \"Oh you're right, I didn't see that\"\n Alignment my ass, god damnit\n    submitted by    /u/SanoKei  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqy217",
+      "title": "Ultra Mode Bro.",
+      "url": "https://www.reddit.com/r/codex/comments/1wqy217/ultra_mode_bro/",
+      "created_at": "2026-09-26T18:38:59+00:00",
+      "author": "/u/WayneTechLab",
+      "excerpt": "If you run Ultra mode with a goal for more then 10 hrs. What has been you luck getting your \"goal\" completed? \n - Currently I am working on a private app for fun I call Swap Nakamoto, created with the agientic wallet from Coinbase then has a local AI LLM from Apple for chart and projection verification. \n https://preview.redd.it/l870u6d6pwrh1.png?width=1624&format=png&auto=webp&s=40e22e4410a6844f7daec11a52559d3ce6e1ac64\n Where the ML and paper trading side works for multi-strategies while being able to run 100 trades at a time. Currently testing function level getting wallets, and basic parts of app working. Currently over 60 pages of tools running local on Apple M4 with optimized GPU, CPU and so on co-processing logic. Next step is connecting several VPS direct into the apps shard compute",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqy0qx",
+      "title": "How are you guys going about creating plans with Sol 6?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqy0qx/how_are_you_guys_going_about_creating_plans_with/",
+      "created_at": "2026-09-26T18:37:26+00:00",
+      "author": "/u/Peleias",
+      "excerpt": "I\u2019m used to using the \"superpowers\" approach with writing plans.\n But when I use GPT-6 Sol, it simply generates a summary of the plan.\n It performs a bit better after the third or fourth prompt specifying that the plan is to be executed by a Luna sub-agent.\n I review it with Opus 5.5, and it improves by about 60%.\n It\u2019s acting really strangely when it comes to creating plans\u2014at least for me.\n You're right. The previous plan left it up to the person executing it to figure out the solution. I rewrote [Plan XXXXX] to include references to the source, signature, and preflight logic, a table of all affected gestures, the exact rollback sequence, and tests with verifiable results.\n Yes. The plan still leaves the core logic in prose, despite the section on interfaces. I will add C++ blocks for th",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqxiro",
+      "title": "Daybreak Issue",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxiro/daybreak_issue/",
+      "created_at": "2026-09-26T18:17:34+00:00",
+      "author": "/u/moneywins-",
+      "excerpt": "Hey everyone, I am developing my own software and was testing security from every angle. While working on it, I encountered a situation involving daybreak where I lack access to you attempting to break my software, which might help me identify a security issue in the future. If any of you have ideas on how I might resolve this as an individual, could I obtain access to this daybreak?\n    submitted by    /u/moneywins-  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqxfsb",
+      "title": "What LLM are you finding is best for writing?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxfsb/what_llm_are_you_finding_is_best_for_writing/",
+      "created_at": "2026-09-26T18:14:13+00:00",
+      "author": "/u/ConsistentAndWin",
+      "excerpt": "I've been trying to figure out the best LLM to use for writing. And I'd love to know which one you find the best. Here, I'm talking specifically about writing, not coding.\n Never tried an Anthropic model until yesterday. But was not that impressed, frankly, with Opus 5.5. Admittedly, I have not tried it that much yet.\n But I have to make a decision here in a few days as to whether or not I renew my $200 OpenAI plan.\n For writing a course, I found careful planning with Astra and writing with GPT-6 Sol seems to produce the best results. Astra writes a bit too stilted, but plans really well, from what I have experienced.\n I've never tried any other models than OpenAI and now Anthropic. Except a long time ago, Gemini, which really started sucking bad fast.\n I want to hear from people that do a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqxfpl",
+      "title": "New Codex CLI interface sucks. Ctrl-C now means copy and also exit. I was thinking I am copying, but instead it exited another tab where there was no selection.",
+      "url": "https://www.reddit.com/r/codex/comments/1wqxfpl/new_codex_cli_interface_sucks_ctrlc_now_means/",
+      "created_at": "2026-09-26T18:14:06+00:00",
+      "author": "/u/k_brn",
+      "excerpt": "Honestly, the latest interface update is a UX disaster. The decision to remap Cmd-C to nothing and make Ctrl-C mean \"copy\" is baffling. On macOS, Cmd-C has meant copy for decades, and Ctrl-C has meant interrupt/exit. Now I hit Ctrl-C expecting to copy a snippet, and instead, it kills the process in a tab where I had no selection at all. This is muscle memory breaking, and it makes the tool feel unpredictable.\n And can we talk about the UI colors? It now looks like a Christmas tree. There is so much color on screen for no functional reason. I get that some color helps distinguish user vs. assistant messages, but this is sensory overload.\n The previous interface wasn\u2019t perfect, but at least Ctrl-C didn\u2019t sabotage your workflow and the color scheme didn\u2019t require sunglasses. I really hope the",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqwrr1",
+      "title": "Codex+Claude",
+      "url": "https://www.reddit.com/r/codex/comments/1wqwrr1/codexclaude/",
+      "created_at": "2026-09-26T17:47:25+00:00",
+      "author": "/u/rick_ranger",
+      "excerpt": "https://preview.redd.it/yks463kahwrh1.png?width=2292&format=png&auto=webp&s=91dc5b9943f76694db41572be5adbe53da055969\n Got Codex and Claude desktop apps talking back and forth reliably. Just did 60 different messaging tests to smooth out the wrinkles.\n You can message from Codex or Claude and that one becomes the orchestrator, you can flip flop back and forth, ask them to create new chats in either one, or message specific chats. I have an intermediary mailman app that passes signed messages between them and has a blanket approval on accepting messages from each other but standard guards are still on so anything weird still gets flagged in auto or approve for me modes.\n I have it set for when doing work my preferred agents are \n Luna high/xhigh orchestrator (with pre-planned campaigns/epics",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqwkza",
+      "title": "Astra Ultra with Sol/Luna subagents has been working really well for me",
+      "url": "https://www.reddit.com/r/codex/comments/1wqwkza/astra_ultra_with_solluna_subagents_has_been/",
+      "created_at": "2026-09-26T17:39:50+00:00",
+      "author": "/u/NoTeach252",
+      "excerpt": "Astra Ultra was burning through my $200 plan pretty quickly, so I tried keeping Astra as the main agent while using cheaper models for delegated work.\n Just two small changes:\n In ~/.codex/config.toml\n [agents] default_subagent_model = \"gpt-6-sol\" default_subagent_reasoning_effort = \"xhigh\"  In global ~/.codex/AGENTS.md\n When delegating, prefer gpt-6-sol; use gpt-6-luna when it is sufficient for the task. Explicitly set reasoning effort to xhigh or max for either model. Do not use Astra subagents unless explicitly requested.  Then select Astra Ultra as usual. No elaborate orchestration instructions. Astra still decides what to delegate and how to manage the work.\n Really liking the results so far. For my workload, usage feels roughly comparable to running GPT-5.6 Sol Ultra a few weeks ago,",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqwa2n",
+      "title": "Can we have a QoL change?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqwa2n/can_we_have_a_qol_change/",
+      "created_at": "2026-09-26T17:27:41+00:00",
+      "author": "/u/Friendly-Gur-3289",
+      "excerpt": "Just thinking....if a user's weekly limit is below a certain threshold, these 'resets' be put as a banked ones..else it can get applied just normally???\n This way everyone can get their fair share of proper usage.....\n    submitted by    /u/Friendly-Gur-3289  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqw7qi",
+      "title": "\"Yes\"",
+      "url": "https://www.reddit.com/r/codex/comments/1wqw7qi/yes/",
+      "created_at": "2026-09-26T17:25:11+00:00",
+      "author": "/u/reddit_is_kayfabe",
+      "excerpt": "Yesterday's bit of Codex amusing weirdness:\n I was Codexing on several projects last night when my Mac suddenly started running quite slowly. I checked Activity Manager and found about 30 processes, each taking up 12-17% CPU, all named... \"yes.\"\n The Activity Manager open file handles dialog pointed to one particular session. It wasn't even aware that its testing had nearly crashed my system.\n    submitted by    /u/reddit_is_kayfabe  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqw484",
+      "title": "CursorBench 4.0: Anthropic is miles ahead of OpenAI",
+      "url": "https://www.reddit.com/r/codex/comments/1wqw484/cursorbench_40_anthropic_is_miles_ahead_of_openai/",
+      "created_at": "2026-09-26T17:21:17+00:00",
+      "author": "/u/mateus_coutinho",
+      "excerpt": "Love how CursorBench stopped scoring OpenAI models after the cutoff.\n    submitted by    /u/mateus_coutinho  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqw3cv",
+      "title": "It's been 18 hours",
+      "url": "https://www.reddit.com/r/codex/comments/1wqw3cv/its_been_18_hours/",
+      "created_at": "2026-09-26T17:20:20+00:00",
+      "author": "/u/innociv",
+      "excerpt": "I've never seen Tibo say we're getting a reset without a specific date, and not give it soon after saying it.\n The last ~20 resets he's done, when he says \"reset coming\" it's been within 4 hours.\n When it's coming a whole different day, he says \"will come Tuesday\" or something.\n So for all we know, we won't get this reset until Tuesday, or Thursday, or next month.\n    submitted by    /u/innociv  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqw2qq",
+      "title": "Warning: Codex allowances have dropped about 20% over the last month",
+      "url": "https://www.reddit.com/r/codex/comments/1wqw2qq/warning_codex_allowances_have_dropped_about_20/",
+      "created_at": "2026-09-26T17:19:39+00:00",
+      "author": "/u/adamallcock",
+      "excerpt": "I run tibotattle.com which pools usage logs from the community, with over 1000 users. Since GPT-5.6 and now GPT-6, we've seen a consistent decrease in API equivalent value, from about $2,200 to $1,750 per weekly Pro 20x when merged across all plans.\n Each plan type has similarly dropped, so this is more so about the value of the models provided. Both GPT-5.5 and GPT-5.6 Sol were very well priced on Codex, giving us nearly $2,500 of usage, but the remaining models are closer to $1,250. \n Put another way, GPT-6 Sol and Luna being 50% cheaper on the API does not correspond to more usage on Codex, but rather corresponds to a lower value of the Codex plans.\n Happy to answer any questions.\n    submitted by    /u/adamallcock  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqw0dj",
+      "title": "Resets are rolling out",
+      "url": "https://www.reddit.com/r/codex/comments/1wqw0dj/resets_are_rolling_out/",
+      "created_at": "2026-09-26T17:16:56+00:00",
+      "author": "/u/Organic-Wafer-9165",
+      "excerpt": "https://preview.redd.it/hq59u3o3ewrh1.png?width=548&format=png&auto=webp&s=b90b75c7d4f735a17108ee88165ab01b47fbe78d\n Perfect timing\n    submitted by    /u/Organic-Wafer-9165  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqvnle",
+      "title": "AI Driven Personal Assistant is Bad !?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqvnle/ai_driven_personal_assistant_is_bad/",
+      "created_at": "2026-09-26T17:02:41+00:00",
+      "author": "/u/Black_Syth1",
+      "excerpt": "So many people told me that what I'm working on (custom ai assistant with full pipeline of VibeASR to transcript to tool calling and all) is just waste of time but I Really want to build this Personal AI assistant with local llms and all So If anyone of you have any kind of idea or suggestions I'm open for it and it's not Jarvis so yeah... And I'm doing it with the help Of Chatgpt or Codex I think u can call this vibe coding . \n    submitted by    /u/Black_Syth1  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqvlf3",
+      "title": "Made a Twisted Metal like game almost exclusively through codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wqvlf3/made_a_twisted_metal_like_game_almost_exclusively/",
+      "created_at": "2026-09-26T17:00:34+00:00",
+      "author": "/u/DrJoshuaWyatt",
+      "excerpt": "The newest model is absolutely insane. I started out just asking it to make a game like twisted metal. But browser based and mobile friendly. I had it make the art, wire billboards, find sound assets, and build a bunch of levels from places in my home city. It still needs some work but if anyone wants to play around I would love to stress test a pretty basic server. it's set to cap players at 16 but multiple additional people can join in \"spectate mode\"\n https://car-fighter.com\n    submitted by    /u/DrJoshuaWyatt  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqvl66",
+      "title": "Reset just came in :)",
+      "url": "https://www.reddit.com/r/codex/comments/1wqvl66/reset_just_came_in/",
+      "created_at": "2026-09-26T17:00:20+00:00",
+      "author": "/u/IntelliDev",
+      "excerpt": "submitted by    /u/IntelliDev  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqvbzz",
+      "title": "Rate limits have improved, and I didnt even notied it. how does it feel for you and your work?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqvbzz/rate_limits_have_improved_and_i_didnt_even_notied/",
+      "created_at": "2026-09-26T16:50:20+00:00",
+      "author": "/u/Time-Toe-1276",
+      "excerpt": "So, two months ago, rate limits were genuinely UNUSABLE. I had to buy an OpenAI subscription too.\n But now, with even more demanding workloads, GPT-6 Luna and Sol barely use any credits. Now I absolutely DO NOT want to jinx it \ud83d\ude2d, but damn... like in the late GPT-5.4 and 5.5 days, the rate limits were unusable, le and I only used 5.3 Codex for a very long time.\n But WOW! Also, the gpt-6 luna model has improved in real-world stuff a lot. Like when GPT-5.6 Luna came out, I was hesitant about its performance, but 6 luna seems to be substantially better (like for me personally, its between the old terra and sol)\n I hope OpenAI dont read this bcs they will def reduce the limits \ud83d\ude2d\n but how is the experience for you?\n    submitted by    /u/Time-Toe-1276  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqv90c",
+      "title": "am I the only one? Unsupported service_tier: flex",
+      "url": "https://www.reddit.com/r/codex/comments/1wqv90c/am_i_the_only_one_unsupported_service_tier_flex/",
+      "created_at": "2026-09-26T16:47:00+00:00",
+      "author": "/u/dave-lon",
+      "excerpt": "Unsupported service_tier: flex\n but i'm on pro\n thats' my error even after the today update, any idea ? or solution?\n    submitted by    /u/dave-lon  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqv6r4",
+      "title": "Astra 6 changing my life, saving me $2 x 10^-16 worth of cloud GPU credits \ud83d\udcaa\ud83d\udcaa\ud83d\udcaa",
+      "url": "https://www.reddit.com/r/codex/comments/1wqv6r4/astra_6_changing_my_life_saving_me_2_x_1016_worth/",
+      "created_at": "2026-09-26T16:44:21+00:00",
+      "author": "/u/HungryHungryChildren",
+      "excerpt": "https://preview.redd.it/726nvwcq7wrh1.png?width=492&format=png&auto=webp&s=271dca61d5841166bb3815073a283cfc0de554d7\n Amazing work, it's really revolutionizing my finances by making $8 of cloud GPU credits go further than I imagined\n    submitted by    /u/HungryHungryChildren  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqul45",
+      "title": "Davinci Resolve MCP is awesome with Codex!",
+      "url": "https://www.reddit.com/r/codex/comments/1wqul45/davinci_resolve_mcp_is_awesome_with_codex/",
+      "created_at": "2026-09-26T16:19:34+00:00",
+      "author": "/u/Camenwolf",
+      "excerpt": "Guys, Davinci Resolve v21.1 released with a built in MCP server. I just connected Codex to it and fed it ALL of the footage from a 4 hour livestream and told it to make a 15 minute video out of it. Honestly I was expecting it to be complete garbage, but it was NOT! It did a freaking GREAT job!! Now I made a skill out of it, that takes long livestreams, edits them down to 2 or 3 highlight videos, creates thumbnails, descriptions, tags, etc and pushes them up to youtube. It's CRAZY. It's like an actual editor.\n    submitted by    /u/Camenwolf  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqubcf",
+      "title": "ChatGPT/Codex on Mac: How can I restrict file access to explicitly authorized folders?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqubcf/chatgptcodex_on_mac_how_can_i_restrict_file/",
+      "created_at": "2026-09-26T16:08:12+00:00",
+      "author": "/u/haisss23",
+      "excerpt": "I want ChatGPT/Codex on my MacBook to access only the folders I explicitly authorize for each project. All other folders should be inaccessible, including for read-only access.\n While testing, the agent was able to list subfolders at my request, even though the active project was located in a different directory.\n What confuses me: Full Disk Access for ChatGPT is disabled in macOS settings. Under \u201cFiles & Folders,\u201d access to the Documents folder is also disabled for the \u201ccodex\u201d entry. These settings were already disabled before the access occurred.\n I\u2019m looking for an actual technical restriction that applies to the entire app, rather than a chat instruction telling the agent not to open certain folders.\n How can I reliably restrict access to explicitly authorized project folders?\n Why can",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqu991",
+      "title": "Codex went down and I genuinely didn\u2019t notice",
+      "url": "https://www.reddit.com/r/codex/comments/1wqu991/codex_went_down_and_i_genuinely_didnt_notice/",
+      "created_at": "2026-09-26T16:05:46+00:00",
+      "author": "/u/Disastrous-Radio-732",
+      "excerpt": "Apparently Codex was down today. I found out from X afterwards.\n That made me realize how much I\u2019ve started expecting the workflow to survive the model, rather than the other way around.\n Models hit quotas, sessions die, providers have outages. At some point those probably just become normal recoverable runtime events.\n Not saying Claude/Codex/etc are interchangeable. Just that one of them disappearing for a while probably shouldn\u2019t mean all work stops.\n Anyone else building their workflow around that assumption? \ud83d\ude08\n    submitted by    /u/Disastrous-Radio-732  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqtyo7",
+      "title": "new codex ui",
+      "url": "https://www.reddit.com/r/codex/comments/1wqtyo7/new_codex_ui/",
+      "created_at": "2026-09-26T15:53:49+00:00",
+      "author": "/u/hello_motherfuckers_",
+      "excerpt": "https://preview.redd.it/3i5v2fl7zvrh1.png?width=3022&format=png&auto=webp&s=df7300eacd14285729558a89b9cf8e3740cc169a\n hell is this new design???\n they are making it look much worse\n    submitted by    /u/hello_motherfuckers_  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqtrul",
+      "title": "Breadcrumbing",
+      "url": "https://www.reddit.com/r/codex/comments/1wqtrul/breadcrumbing/",
+      "created_at": "2026-09-26T15:45:58+00:00",
+      "author": "/u/BingGongTing",
+      "excerpt": "I've noticed with Luna and 6-Sol that they are breadcrumbing a lot now. I highlight an issue and it doesn't get on and fix it unless I explicitly tell it to do so, it just confirms the issue with short text response. I don't get this issue with Astra/other models.\n I think this might explain why they dropped the price so much, but it also requires more tokens to complete a task.\n My current workaround is to use goal mode as an 'auto-nudger', but if this isn't addressed by renewal, I am moving to Claude.\n Has any one else experienced this?\n    submitted by    /u/BingGongTing  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqtd1g",
+      "title": "OpenAI GPU are really cooling down; Theo just posted that usage graph, brutal.",
+      "url": "https://www.reddit.com/r/codex/comments/1wqtd1g/openai_gpu_are_really_cooling_down_theo_just/",
+      "created_at": "2026-09-26T15:28:30+00:00",
+      "author": "/u/debian3",
+      "excerpt": "submitted by    /u/debian3  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqt2ml",
+      "title": "What effort is optimal for astra while using astra orchestrator to minimize token usae",
+      "url": "https://www.reddit.com/r/codex/comments/1wqt2ml/what_effort_is_optimal_for_astra_while_using/",
+      "created_at": "2026-09-26T15:16:27+00:00",
+      "author": "/u/Fit-Significance3472",
+      "excerpt": "so basically im using this skill: https://github.com/CodePawfect/puppetmaster, which makes astra delegates most of the work in my workflow to luna on max priority, but the usage is still off the charts, what effort should i put on astra, is there a difference between high and xhigh?\n    submitted by    /u/Fit-Significance3472  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqt1z9",
+      "title": "Quota got much better with Astra?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqt1z9/quota_got_much_better_with_astra/",
+      "created_at": "2026-09-26T15:15:41+00:00",
+      "author": "/u/Hairy-Slide-5541",
+      "excerpt": "I don't know if it's because of my task, maybe it's too simple but I noticed astra light used just 4% of my weekly usage on a 5X account in 2 hours of intense use while yesterday it used 15% in just 1 hour.\n Did they finally fix the usage with astra models?\n    submitted by    /u/Hairy-Slide-5541  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqsikp",
+      "title": "The most intelligent Deep Research Agent harness (fully open-source) now works with Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wqsikp/the_most_intelligent_deep_research_agent_harness/",
+      "created_at": "2026-09-26T14:53:38+00:00",
+      "author": "/u/heisdancingdancing",
+      "excerpt": "A few months ago I built an open-source deep research agent that topped the deep research benchmarks, all based on Claude Code and local browser rendering via crawl4ai.\n Finally (been super busy for a few months) I've added support for Codex. The results are amazing, especially with Astra at the helm. I've found it can often outperform even Opus 5.5 on certain queries. \n Warning: it DESTROYS your usage, so use light mode to test it out. \n    submitted by    /u/heisdancingdancing  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqsgbw",
+      "title": "Codex event-triggering feature",
+      "url": "https://www.reddit.com/r/codex/comments/1wqsgbw/codex_eventtriggering_feature/",
+      "created_at": "2026-09-26T14:51:02+00:00",
+      "author": "/u/AvailableSecret5161",
+      "excerpt": "If I ask Codex to monitor a CI run, it keeps polling GitHub until the run finishes. Claude can effectively wait for a completion event/alert and only wake up when something actually happens.\n Why hasn\u2019t OpenAI implemented the same event-driven architecture for Codex?\n For CI, deployments, PR checks, etc., GitHub webhooks could wake the Codex agent when the relevant event occurs instead of keeping an agent alive and repeatedly polling.\n OpenAI clearly has the infrastructure to support event-triggered workflows elsewhere, so this feels like an obvious improvement for Codex.\n Am I missing a technical reason why Codex still works this way?\n    submitted by    /u/AvailableSecret5161  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqqqqm",
+      "title": "Codex telling me its using cheaper models?",
+      "url": "https://www.reddit.com/r/codex/comments/1wqqqqm/codex_telling_me_its_using_cheaper_models/",
+      "created_at": "2026-09-26T13:36:19+00:00",
+      "author": "/u/rendez2k",
+      "excerpt": "I feel like I've been hammering Astra a bit today and my usage has only gone from 18% to about 14%. Just happened to look at the log and it's telling me it's using cheaper models for some stuff. That's really great news if it's doing that itself because I've not asked it to do it!\n https://preview.redd.it/vz1qufbwavrh1.png?width=499&format=png&auto=webp&s=5efe4d0f7145f516c7035f9cfc1f84bf70c532e3\n    submitted by    /u/rendez2k  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqqhy9",
+      "title": "The Pelican Test...extended version",
+      "url": "https://www.reddit.com/r/codex/comments/1wqqhy9/the_pelican_testextended_version/",
+      "created_at": "2026-09-26T13:25:04+00:00",
+      "author": "/u/AholeKevin",
+      "excerpt": "Upgraded pelican test. I originally made this to see how bad it would have turned out, but I'm surprised it did well. Either way, my inconsistencies and massive usage depletion with GPT 6 has made me try Claude and I'm pretty happy with Opus 5.5.\n ---------prompt below---------\n Astra Max: Write HTML code that produces a 2D animation of Pelican riding a bicycle using SVG graphics. Slightly above the pelicans head, it needs to say in small font \"OpenAI.\"\n Once that is complete, lead and complete a smooth animation where the 2D pelican then pulls a long stick out of its feathers. When he pulls the stick out, the stick needs to be labeled or named \"OpenAI\". The pelican then jams the stick into its front bicycle tire, and then they fall off the bicycle. When the pelican falls off the bicycle, ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqqg0k",
+      "title": "On the reset situation, written by Astra",
+      "url": "https://www.reddit.com/r/codex/comments/1wqqg0k/on_the_reset_situation_written_by_astra/",
+      "created_at": "2026-09-26T13:22:36+00:00",
+      "author": "/u/teh_mICON",
+      "excerpt": "Tibo\u2019s quota resets are frustrating because they make the service impossible to plan around.\n  If I don\u2019t use as much of my quota as possible before an expected reset, I\u2019m effectively wasting money.\n If I assume a reset is coming and burn through my remaining quota, I risk getting stranded if the reset doesn\u2019t happen at all \u2014 which happened last week, when I had no quota for three days.\n If I still have 90% of my quota available one day before a reset and the reset happens, that remaining quota effectively disappears. Instead of having up to 190% of an 8-day quota available across the boundary, I\u2019m cut back to 100%.\n  Possible solutions:\n  Only do banked resets, so unused quota carries over. Announce resets at least four days in advance. Reset the quota to 100%, but keep the existing upcom",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqqfpj",
+      "title": "Codex desktop on Ubuntu stuck on \u201cStarting your task\u201d after outage",
+      "url": "https://www.reddit.com/r/codex/comments/1wqqfpj/codex_desktop_on_ubuntu_stuck_on_starting_your/",
+      "created_at": "2026-09-26T13:22:14+00:00",
+      "author": "/u/cLearNowJacob",
+      "excerpt": "Using the official ChatGPT desktop app on Ubuntu 26.04.1 LTS with Codex Local projects.\n Since the Sept 25 Codex outage, my existing Codex chats won\u2019t load properly, new Local tasks hang indefinitely on \u201cStarting your task\u201d, and Codex no longer shows Git branches for my project.\n The repo itself is fine: VS Code/Git sees the correct branch and uncommitted changes. I use normal ChatGPT login, not an API key. During the outage I also saw a strange 401 Unauthorized: Incorrect API key provided error.\n I\u2019ve restarted, updated the app, logged out/in, and checked ~/.codex/config.toml for obvious config issues.\n Anyone else seeing this on Linux, or know of a safe way to reset Codex desktop state without losing local chat history?\n    submitted by    /u/cLearNowJacob  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wqqam3",
+      "title": "I built an MCP tool router for Codex \u2014 Jev + MCTS for smarter tool selection",
+      "url": "https://www.reddit.com/r/codex/comments/1wqqam3/i_built_an_mcp_tool_router_for_codex_jev_mcts_for/",
+      "created_at": "2026-09-26T13:15:37+00:00",
+      "author": "/u/Revolutionary_Sir140",
+      "excerpt": "I\u2019ve been experimenting with reducing how much reasoning Codex spends just deciding which tool to call next.\n So I built harness-router:\n https://harness-router.vercel.app\n The idea is pretty simple:\n  obvious next action \u2192 don\u2019t route at all several plausible tools \u2192 Jev chooses from a small candidate set multi-step decision \u2192 bounded Monte Carlo Tree Search exposed directly to Codex through MCP as route and route_mcts  For example, if Codex already knows it needs to read a file, there\u2019s no point adding another model/router call.\n But if it has 4 plausible actions and the choice actually matters, it can ask the router.\n For longer decisions, route_mcts can explore a side-effect-free state graph and return only the first real action.\n The goal isn\u2019t to replace Codex reasoning.\n It\u2019s to ski",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
