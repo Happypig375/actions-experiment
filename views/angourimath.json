@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-26T18:45:07.370351Z",
+  "since": "2026-09-26T15:45:07.370351Z",
+  "repo": "asc-community/AngouriMath",
+  "default_branch": "master",
+  "head_sha": "f3a2056e5bb1ba4451dd0e785210bb5c1d9af671",
+  "previous_head_sha": "f3a2056e5bb1ba4451dd0e785210bb5c1d9af671",
+  "commits": [],
+  "issues": [
+    {
+      "number": 1493,
+      "title": "The substitution search drops a trigonometric candidate its quotient cannot be a function of",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-09-26T18:19:44Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1493",
+      "kind": "pull_request"
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1493,
+      "title": "The substitution search drops a trigonometric candidate its quotient cannot be a function of",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-09-26T18:19:44Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "substitution-numeric-screen",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1493",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    }
+  ],
+  "releases": [],
+  "workflow_runs": [
+    {
+      "id": 36262150188,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:26:31Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262150188"
+    },
+    {
+      "id": 36262150125,
+      "name": "C++ Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:24:53Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262150125"
+    },
+    {
+      "id": 36262149989,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:24:27Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149989"
+    },
+    {
+      "id": 36262149984,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:25:01Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149984"
+    },
+    {
+      "id": 36262149978,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:23:45Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149978"
+    },
+    {
+      "id": 36262149942,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:24:55Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149942"
+    },
+    {
+      "id": 36262149936,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:21:20Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149936"
+    },
+    {
+      "id": 36262149914,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:23:42Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149914"
+    },
+    {
+      "id": 36262149899,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:19:58Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149899"
+    },
+    {
+      "id": 36262149828,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:23:49Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149828"
+    },
+    {
+      "id": 36262149802,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:24:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149802"
+    },
+    {
+      "id": 36262149798,
+      "name": "Kernel Benchmark",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "substitution-numeric-screen",
+      "head_sha": "d715d239cd501f20b7fe5690b0684e771ac52959",
+      "updated_at": "2026-09-26T18:30:39Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36262149798"
+    }
+  ],
+  "changed_files_since_previous_feed": [],
+  "errors": []
+}
