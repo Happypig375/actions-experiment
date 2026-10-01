@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:08:26.234436Z",
-  "since": "2026-10-01T14:08:26.234436Z",
+  "generated_at": "2026-10-01T18:09:18.051451Z",
+  "since": "2026-10-01T15:09:18.051451Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
   "head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
@@ -10,30 +10,7 @@
   "issues": [],
   "pulls": [],
   "releases": [],
-  "workflow_runs": [
-    {
-      "id": 36872623429,
-      "name": "CI",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "mutable",
-      "head_sha": "9ffcd58d8ac41e81171eb9d5f37b1237aee387dc",
-      "updated_at": "2026-10-01T14:33:45Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36872623429"
-    },
-    {
-      "id": 36872193553,
-      "name": "CI",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
-      "updated_at": "2026-10-01T14:23:02Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36872193553"
-    }
-  ],
+  "workflow_runs": [],
   "changed_files_since_previous_feed": [],
   "errors": []
 }

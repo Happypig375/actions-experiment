@@ -1,16 +1,464 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:08:26.234436Z",
-  "since": "2026-10-01T14:08:26.234436Z",
+  "generated_at": "2026-10-01T18:09:18.051451Z",
+  "since": "2026-10-01T15:09:18.051451Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
-  "head_sha": "dcf5ba7cefbbb4c44f199a107cf6ab0fa8dfa9b4",
+  "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
   "previous_head_sha": "dcf5ba7cefbbb4c44f199a107cf6ab0fa8dfa9b4",
-  "commits": [],
-  "issues": [],
-  "pulls": [],
+  "commits": [
+    {
+      "sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "message": "A product is written letters before functions (#1635)",
+      "author": "Rafael-SOWNet",
+      "date": "2026-10-01T17:54:28Z",
+      "url": "https://github.com/asc-community/AngouriMath/commit/e8446b65df3c4d7c366c793180a28a8d5b7e1488"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1649,
+      "title": "Organization-level management",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T18:03:40Z",
+      "user": "Happypig375",
+      "comments": 1,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1649",
+      "kind": "issue"
+    },
+    {
+      "number": 180,
+      "title": "Let's steal some issues from https://github.com/davidedc/Algebrite! >:3",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T17:54:43Z",
+      "user": "Happypig375",
+      "comments": 10,
+      "url": "https://github.com/asc-community/AngouriMath/issues/180",
+      "kind": "issue"
+    },
+    {
+      "number": 1628,
+      "title": "A product is written letters before functions: y sin(x), not sin(x) y",
+      "state": "closed",
+      "state_reason": "completed",
+      "updated_at": "2026-10-01T17:54:30Z",
+      "user": "Rafael-SOWNet",
+      "comments": 3,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1628",
+      "kind": "issue"
+    },
+    {
+      "number": 1635,
+      "title": "A product is written letters before functions",
+      "state": "closed",
+      "state_reason": null,
+      "updated_at": "2026-10-01T17:54:29Z",
+      "user": "Rafael-SOWNet",
+      "comments": 1,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1635",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1252,
+      "title": "SoundUnderAssumptions names no assumption: 177 rules declare it and the condition exists only in comments",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T17:38:31Z",
+      "user": "Rafael-SOWNet",
+      "comments": 2,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1252",
+      "kind": "issue"
+    },
+    {
+      "number": 1648,
+      "title": "Dividing by a reciprocal gives a value where the quotient has none: 1/(1/x) is x",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T17:38:10Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1648",
+      "kind": "issue"
+    }
+  ],
+  "pulls": [
+    {
+      "number": 1635,
+      "title": "A product is written letters before functions",
+      "state": "closed",
+      "draft": false,
+      "updated_at": "2026-10-01T17:54:29Z",
+      "merged_at": "2026-10-01T17:54:29Z",
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "a-product-is-written-letters-before-functions",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1635",
+      "recent_reviews": [],
+      "recent_issue_comments": [
+        {
+          "user": "Rafael-SOWNet",
+          "created_at": "2026-10-01T17:19:57Z",
+          "updated_at": "2026-10-01T17:19:57Z",
+          "body": "Brought up to master (`dcf5ba7c`, which has #1636 and the integration PRs #1639\u2013#1647): the merge was clean. Suite on net10.0 at `fa5d1dd8`: 14297 passed, none failed, so none of the new tests pins the old order. Gate: allocation matches the baseline on all 19 gated benchmarks."
+        }
+      ],
+      "recent_review_comments": []
+    }
+  ],
   "releases": [],
-  "workflow_runs": [],
-  "changed_files_since_previous_feed": [],
+  "workflow_runs": [
+    {
+      "id": 36902872876,
+      "name": "Interactive Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:01:05Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872876"
+    },
+    {
+      "id": 36902872821,
+      "name": "F# Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:58:22Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872821"
+    },
+    {
+      "id": 36902872819,
+      "name": "Integration Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:02:44Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872819"
+    },
+    {
+      "id": 36902872788,
+      "name": "F# Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:00:47Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872788"
+    },
+    {
+      "id": 36902872786,
+      "name": "C# Test",
+      "event": "push",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:58:29Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872786"
+    },
+    {
+      "id": 36902872782,
+      "name": "C++ Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:59:07Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872782"
+    },
+    {
+      "id": 36902872767,
+      "name": "C++ Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:00:16Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872767"
+    },
+    {
+      "id": 36902872755,
+      "name": "Trimming & NativeAOT",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:59:49Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872755"
+    },
+    {
+      "id": 36902872742,
+      "name": "Solution Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:00:57Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872742"
+    },
+    {
+      "id": 36902872703,
+      "name": "C#/Kernel Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:58:43Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872703"
+    },
+    {
+      "id": 36902872696,
+      "name": "Kernel Benchmark",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T18:05:30Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872696"
+    },
+    {
+      "id": 36902872684,
+      "name": "Interactive Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
+      "updated_at": "2026-10-01T17:57:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872684"
+    },
+    {
+      "id": 36898589623,
+      "name": "C++ Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:26:17Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589623"
+    },
+    {
+      "id": 36898589593,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:25:30Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589593"
+    },
+    {
+      "id": 36898589590,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:25:38Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589590"
+    },
+    {
+      "id": 36898589471,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:46:58Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589471"
+    },
+    {
+      "id": 36898589468,
+      "name": "Kernel Benchmark",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:31:33Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589468"
+    },
+    {
+      "id": 36898589437,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:25:53Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589437"
+    },
+    {
+      "id": 36898589430,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:24:03Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589430"
+    },
+    {
+      "id": 36898589421,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:26:35Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589421"
+    },
+    {
+      "id": 36898589411,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:23:16Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589411"
+    },
+    {
+      "id": 36898589408,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:24:25Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589408"
+    },
+    {
+      "id": 36898589400,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:24:53Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589400"
+    },
+    {
+      "id": 36898589390,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-product-is-written-letters-before-functions",
+      "head_sha": "fa5d1dd85a32f340c544eeace795ecf35a5b6f5c",
+      "updated_at": "2026-10-01T17:25:46Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589390"
+    }
+  ],
+  "changed_files_since_previous_feed": [
+    {
+      "filename": "BREAKING-CHANGES.md",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 0,
+      "changes": 26
+    },
+    {
+      "filename": "Sources/AngouriMath/Functions/Simplification/Simplificator.cs",
+      "status": "modified",
+      "additions": 92,
+      "deletions": 1,
+      "changes": 93
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Calculus/DerivativeTest.cs",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Calculus/IntegrationTest.cs",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Common/LambdaCalculusTest.cs",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Core/BinomialIdentityTest.cs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Core/Sets/IntervalImageTest.cs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/Core/Sets/IntervalScalingTest.cs",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/PatternsTest/FactorOrderTest.cs",
+      "status": "added",
+      "additions": 64,
+      "deletions": 0,
+      "changes": 64
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/PatternsTest/FractionSimplify.cs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/PatternsTest/SimplifyTest.cs",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 4,
+      "changes": 8
+    },
+    {
+      "filename": "Sources/Tests/UnitTests/PatternsTest/SortSimplifyTest.cs",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10
+    }
+  ],
   "errors": []
 }
