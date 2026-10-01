@@ -1,10 +1,83 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T17:09:35.860900Z",
+  "generated_at": "2026-10-01T18:15:27.287273Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wv6epc",
+      "title": "avg 18 tps after they claim to fix 6.1sol speed...",
+      "url": "https://www.reddit.com/r/codex/comments/1wv6epc/avg_18_tps_after_they_claim_to_fix_61sol_speed/",
+      "published_at": "2026-10-01T17:57:30+00:00",
+      "media_urls": [
+        "https://preview.redd.it/56h2x14r9wsh1.png?width=140&height=43&auto=webp&s=a56b2ff76501e9fcb4a329fde46103cb51b55c02",
+        "https://preview.redd.it/56h2x14r9wsh1.png?width=1463&format=png&auto=webp&s=eed54fd201cf121cc8d2f55b0353c76c1e779b65"
+      ],
+      "ocr_text": "Both modes used the same prompt and xhiigh, reasoning effort, with threes runs per mode, Mode Previous average TPS New average TPS Three newruns Standard 16.2 18.6 17.4 | 21.6 | 16.7 Fast 32.9 38.1 35.9 / 33.6 | 44.7 Average time to first token was 22.4 seconds for Standard and 12.7 seconds for Fast. Both modes wers approximately 15% faster than in the previous test, with Fast maintaining roughly twice the output throughput.",
+      "ocr_sources": [
+        "https://preview.redd.it/56h2x14r9wsh1.png?width=1463&format=png&auto=webp&s=eed54fd201cf121cc8d2f55b0353c76c1e779b65"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv6dmo",
+      "title": "Are we not allowed to leave the agents working while we are not at the pc anymore?",
+      "url": "https://www.reddit.com/r/codex/comments/1wv6dmo/are_we_not_allowed_to_leave_the_agents_working/",
+      "published_at": "2026-10-01T17:56:22+00:00",
+      "media_urls": [
+        "https://preview.redd.it/lr5sl9v59wsh1.png?width=640&crop=smart&auto=webp&s=c4b6b6b1ec56a807e7d17cfeebf22554869e5ef6",
+        "https://i.redd.it/lr5sl9v59wsh1.png"
+      ],
+      "ocr_text": "\u2122 Selected model is at capacity. Please try a different model.\nm\u2122 Selected model is at capacity. Please try a different model.",
+      "ocr_sources": [
+        "https://preview.redd.it/lr5sl9v59wsh1.png?width=640&crop=smart&auto=webp&s=c4b6b6b1ec56a807e7d17cfeebf22554869e5ef6",
+        "https://i.redd.it/lr5sl9v59wsh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv6248",
+      "title": "GPT-6.1 Sol saturates FrontierMath Tier 4",
+      "url": "https://www.reddit.com/r/codex/comments/1wv6248/gpt61_sol_saturates_frontiermath_tier_4/",
+      "published_at": "2026-10-01T17:44:03+00:00",
+      "media_urls": [
+        "https://preview.redd.it/zi8lqmfn7wsh1.png?width=640&crop=smart&auto=webp&s=850d75f277975453ddd60a7a45f108fbdaf5a89e",
+        "https://i.redd.it/zi8lqmfn7wsh1.png"
+      ],
+      "ocr_text": ". GPT-6.1 Sol (max) x Split | Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl Identifier gpt-6.1-sol_max Al pert rt Epoch Benchmark 21.0 expe! Version 69 Resul Frontiert_ View model > 100% @ e@ 90% 9 Claude Eable-S- (max) \u00a2 ; 80% ' J L \u00a2 70% i 60% GPT-6 Luna (max) 50% 40% \u2018 30% J 20% I ; \u00b0 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date\n. GPT-6.1 Sol (max) x Split Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl : : Identifier gpt-6.1-sol_max Al pert t Epoch Benchmark 2.1.0 exper Version 69 Resul Frontier! View model > 100% \u00ae : \u00b0 90% @ Claude Fable 5 (max) \u00a9 ? 80% T 2 60% GPT-6 Luna (max) 50% 40% \u2018 30% \u00b0 20% \u00b0 0 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date",
+      "ocr_sources": [
+        "https://preview.redd.it/zi8lqmfn7wsh1.png?width=640&crop=smart&auto=webp&s=850d75f277975453ddd60a7a45f108fbdaf5a89e",
+        "https://i.redd.it/zi8lqmfn7wsh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv55wv",
+      "title": "Turns Out r/ClaudeCode Is Just r/codex In A Different Font",
+      "url": "https://www.reddit.com/r/codex/comments/1wv55wv/turns_out_rclaudecode_is_just_rcodex_in_a/",
+      "published_at": "2026-10-01T17:10:42+00:00",
+      "media_urls": [
+        "https://preview.redd.it/mo8s77bg1wsh1.png?width=140&height=23&auto=webp&s=22ae1a412acd685954d70f10d53cdbd7788bfbd6"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv55ri",
+      "title": "Claude Code wrote a Python tool, Codex reviewed it and found 3 real bugs, then Claude fixed them, all in one Hellhound room",
+      "url": "https://www.reddit.com/r/codex/comments/1wv55ri/claude_code_wrote_a_python_tool_codex_reviewed_it/",
+      "published_at": "2026-10-01T17:10:33+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
+      ],
+      "ocr_text": "GAY matthoune Paamnrd Toot 220 \u2018oven (omni) (Sioa _ Pama ES Chateacosnncmiste ome vat er 1 nT) #rytmnemo 2B Gols Bd red > ame srmmerttett 8 =, \u00a9 cme neo fa, \u00ae cot mr re sgt : HELLHOUND \u2018si bebegninget oom. Cie a pe ig on md yk poche contact vs Poncrrensoaucoene Shon gomer psc er toy ony ete ry ees ane S \u201ca= cc - oMlsoca - o x ao =o mentay% ova a= EE gree cc ts rg > \u2014 & B @ a @ e meee Olt Deacon SS) Ye Oemea +08 = 12x 12cm vont \u00ae > owe se aro ea ae ea ay",
+      "ocr_sources": [
+        "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wv4yk5",
       "title": "gpt 6.1 sol got release and i still can't see it",
@@ -308,83 +381,6 @@
       "ocr_sources": [
         "https://preview.redd.it/k4vyhv14ktsh1.jpeg?width=640&crop=smart&auto=webp&s=0b0034efa6a4fd99ca63d2feee8978c6a1de3a6d",
         "https://i.redd.it/k4vyhv14ktsh1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wuubxy",
-      "title": "thx a lot for those credits",
-      "url": "https://www.reddit.com/r/codex/comments/1wuubxy/thx_a_lot_for_those_credits/",
-      "published_at": "2026-10-01T08:50:01+00:00",
-      "media_urls": [
-        "https://preview.redd.it/v4zwtvznjtsh1.png?width=140&height=89&auto=webp&s=1aeb915bafae2c6720c31826abdba9b09d06bfba",
-        "https://preview.redd.it/v4zwtvznjtsh1.png?width=1906&format=png&auto=webp&s=04094dee785957c2e5e1b343fae51e4082ab8c22"
-      ],
-      "ocr_text": "a \u201cbe PPE fi igus i Bil Bi\n@ FLEET VIEW \u00bb WORK IN FLIGHT 36 ROW(s) GROUP BY CLAIMS ACROSS ALL MACHINES oveRvIEW TIckET waar BoaRD MODEL STATUS worken BEAT LEBLANC 16 CLAIN(S) - LOAD: STALE (LAST SEEN 40 23H) BLUEIN-361 Current game audit harness BLUEIN gpt-6.1-sol in_development implementation 62713 17m 25s HOSTS 4 BLUEIN-87 Visual only: crystal racer BLUEIN gpt-6-luna verify review 83741 5m 04s BLUEIN-93, Visual only: scout enemy BLUEIN gpt-6.1-sol in_development implementation 83116 18s nee = BRIGHTMAT-186 R19 - Alignment (precision peak: BRIGHTMAT gpt-6.1-sol in_development implementation 88626 5m 27s BRIGHTMAT-273, Author wing manifests: rooms 11-15. BRIGHTMAT gpt-6-luna verify review 54661 17m 46s BRIGHTMAT-301 Polish: clamp flood/mirror cone-mesh bounds: BRIGHTMAT gpt-6-luna verify review 38778 1m 14s BTLGWEB-320 Implement approved Qwen layout BTLGWEB gpt-6.1-sol in_development implementation 47898 2h 53m XSCAP3-4868 Fable path-traced captures XSCAP3 gpt-6.1-sol in_development implementation 77053 1h 03m XSCAP3-4915 Complete missing minigame coverage XSCAP3 gpt-6-luna verify review 79336 46m 33s XSCAP3-4919, Correct fuse label audit XSCAP3 gpt-6.1-sol verify (integration) integration 89726 42s XSCAP3-4968 Lab light switch XSCAP3 gpt-6-luna verify review 72977 35m 43s XSCAP3-4974 Lobby early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 67760 1th 38m XSCAP3-4975 Lab early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 87877 1h 36m XSCAP3-4977 Bank Vault ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 20769 41h 36m XSCAP3-4978 Classroom early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 56006 1h 36m XSCAP3-4979 Fable early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 33308 1h 03m NOTEBOOK - 12 CLAIM(S) \u00abLOAD: STALE (LAST SEEN 10 ooH) BTLGWEB-340 Restore daily reporting BTLGWEB gpt-6 verify (integration) integration 28961 16m 46s TASKBOARD-438 Unify finished set \u2018TASKBOARD gpt-6.1-sol in_development implementation 94108 11m 29s VHELL-88 Sculpted shading and material hierarchy VHELL gpt-6.1-sol in_development implementation 85601 29m 30s XSCAP3-4044 Unblock XSCAP3-4023: test:full is red XSCAP3 claude-sonnet-5-5 in_development implementation 96540 1th 05m XSCAP3-4819, Fix camera path clips XSCAP3 claude-sonnet-5-5 in_development implementation 84833 54m 43s XSCAP3-4860, Voices to ElevenLabs v4 XSCAP3 claude-sonnet-5-5 in_development implementation 90620 1th 04m XSCAP3-4903, Gas Chamber flashbacks v2 XSCAP3 claude-sonnet-5-5 in_development implementation 14585 th 14m XSCAP3-4957 Lab instruments terminal closure XSCAP3 claude-sonnet-5-5 in_development implementation 54409 5m 26s XSCAP3-4958 Lab plates terminal closure. XSCAP3 claude-sonnet-5-5 in_development implementation 11641 5m 26s XSCAP3-4964 Minimum resolution guard test XSCAP3 claude-opus-5-5 in_development implementation 71061 6m 07s XSCAP3-4969, Readable Lab experiment labels XSCAP3 gpt-6.1-sol verify (integration) integration 77907 4m 31s XSCAP3-4992, Autoplay fails Lab instruments XSCAP3 gpt-5.6-sol in_development implementation 14185 14m 12s HMR, WHITE \u00bb 5 CLAIM(S) - LOAD: NO DATA XSCAP3-4970 Cell biology station XSCAP3 gpt-6.1-sol in_development implementation 69402 3m 54s XSCAP3-4971 Centrifuge mini game XSCAP3 gpt-6.1-sol in_development implementation 18963 \u20181m 05s XSCAP3-4973 Q1 early ceiling fade XSCAP3 gpt-6-luna verify review 71163 15m 20s XSCAP3-4980 Garden navigation roof safety XSCAP3 gpt-6.1-sol in_development implementation 56401 8m 13s XSCAP3-4996 Continuous event replay dialogue XSCAP3 gpt-6.1-sol in_development implementation 61541 16m 45s HE MARS - 3 CLAIN(S) - LOAD: NO DATA NEEDLEIT-359\u00b0 Animate ammo belt slots NEEDLEIT gpt-6 in_development implementation 58577 48s NEEDLEIT-368 Animate loss reasons NEEDLEIT gpt-6 in_development implementation 51469 1m 11s NEEDLEIT-408 Menu and title icon pass NEEDLEIT gpt-6 in_development implementation 43265 6m 05s",
-      "ocr_sources": [
-        "https://preview.redd.it/v4zwtvznjtsh1.png?width=140&height=89&auto=webp&s=1aeb915bafae2c6720c31826abdba9b09d06bfba",
-        "https://preview.redd.it/v4zwtvznjtsh1.png?width=1906&format=png&auto=webp&s=04094dee785957c2e5e1b343fae51e4082ab8c22"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wut8rv",
-      "title": "Spin up a virtual Law Firm in 80 seconds",
-      "url": "https://www.reddit.com/r/codex/comments/1wut8rv/spin_up_a_virtual_law_firm_in_80_seconds/",
-      "published_at": "2026-10-01T07:37:56+00:00",
-      "media_urls": [
-        "https://preview.redd.it/l1bvqgua5tsh1.png?width=140&height=87&auto=webp&s=4c7bd244ab418ad2a0b8287ed7d9e1a7193c3bd5",
-        "https://preview.redd.it/l1bvqgua5tsh1.png?width=3046&format=png&auto=webp&s=6becef6f47d920231e4b462def58998ab03e8345"
-      ],
-      "ocr_text": "eee Install vCLO @ Codex Install vCLO from \u00a9 https://github.com/rohasnagpal/legal-ai-skills and (Z New chat say hello vCLO. News vCLO 3.3.1 is installed and matches the current GitHub repository. e Welcome to vCLO \u2014 your Al legal team by Rohas. Your vCLO includes: e 1 virtual Chief Legal Officer e 9 specialist virtual lawyers e India, US and UK Counsel e 185 specialist legal skills e 10 coordinated legal workflows e company-registry and legal-research connections e local DOCX, PDF, OCR and document-production tools Tell me what legal matter you are handling, who we represent and the relevant jurisdiction. I'll assemble the appropriate virtual legal team. + 5 GPT-5.6 Sol g @O",
-      "ocr_sources": [
-        "https://preview.redd.it/l1bvqgua5tsh1.png?width=3046&format=png&auto=webp&s=6becef6f47d920231e4b462def58998ab03e8345"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wut2ww",
-      "title": "6.1 Sol \"fast\" is a joke",
-      "url": "https://www.reddit.com/r/codex/comments/1wut2ww/61_sol_fast_is_a_joke/",
-      "published_at": "2026-10-01T07:27:19+00:00",
-      "media_urls": [
-        "https://preview.redd.it/qru5yerj5tsh1.png?width=140&height=51&auto=webp&s=5df65789096adfcff3f0b4706b2ca1d5842b848f",
-        "https://preview.redd.it/qru5yerj5tsh1.png?width=550&format=png&auto=webp&s=c29501a0c968c6b8f85a74ba6aeadf4a17700536",
-        "https://preview.redd.it/0ev2a1ao5tsh1.png?width=572&format=png&auto=webp&s=514c9cf9fbb8c89f6c0707fc9b2b67882cdd8128"
-      ],
-      "ocr_text": "| hi Hi! How can I help? Build - GPT-6.1 Sol Fast - 2.85 - 4.0 tok/s",
-      "ocr_sources": [
-        "https://preview.redd.it/qru5yerj5tsh1.png?width=550&format=png&auto=webp&s=c29501a0c968c6b8f85a74ba6aeadf4a17700536"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wut0z5",
-      "title": "Live Footage Of The Tibo Button",
-      "url": "https://www.reddit.com/r/codex/comments/1wut0z5/live_footage_of_the_tibo_button/",
-      "published_at": "2026-10-01T07:23:54+00:00",
-      "media_urls": [
-        "https://external-preview.redd.it/bmMyY210dHk0dHNoMa3hgOyZZsPUc0bmDEw9v3LOgCN5p7gYPmbrC9LOGDzW.png?width=320&crop=smart&auto=webp&s=e3011c26825534dc97e89070875b24393c0f0195"
-      ],
-      "ocr_text": "eet ae | ot aS a es, Sa i big Codex usage { | ie it A feoet Setter iereal \u00a7 '* es ae a rr Sg RSA con be is (ea P ps Bets oa ; ns BR, 4, ne y i ae ee a 9 = . wm, \u2018 i- | ee \u2018in Be",
-      "ocr_sources": [
-        "https://external-preview.redd.it/bmMyY210dHk0dHNoMa3hgOyZZsPUc0bmDEw9v3LOgCN5p7gYPmbrC9LOGDzW.png?width=320&crop=smart&auto=webp&s=e3011c26825534dc97e89070875b24393c0f0195"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wus3o3",
-      "title": "Finally Did it!",
-      "url": "https://www.reddit.com/r/codex/comments/1wus3o3/finally_did_it/",
-      "published_at": "2026-10-01T06:26:58+00:00",
-      "media_urls": [
-        "https://preview.redd.it/t1crda45tssh1.png?width=140&height=97&auto=webp&s=8a4e5d8ea97758c55293d00f7664c8ef6e235727",
-        "https://preview.redd.it/t1crda45tssh1.png?width=1506&format=png&auto=webp&s=b7d18882daaf77857d26a2d6825c0f36a95464de"
-      ],
-      "ocr_text": "== ot \u2014 8\nCodex Chat my Chats D3 GZ \u2014_\u2014 \u2014\u2014\u2014\u2014 fe) _o \u2014= == fe) --- fe) ene fe) \u2014e ee fe) ._\u2014 fe) _\u2014\u2014 \u2014- fe) View all (52)",
-      "ocr_sources": [
-        "https://preview.redd.it/t1crda45tssh1.png?width=140&height=97&auto=webp&s=8a4e5d8ea97758c55293d00f7664c8ef6e235727",
-        "https://preview.redd.it/t1crda45tssh1.png?width=1506&format=png&auto=webp&s=b7d18882daaf77857d26a2d6825c0f36a95464de"
       ],
       "ocr_errors": []
     }
