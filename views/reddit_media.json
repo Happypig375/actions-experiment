@@ -1,10 +1,72 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T20:11:48.569440Z",
+  "generated_at": "2026-10-01T21:13:40.135632Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvbdlx",
+      "title": "OpenDots - an open-source alternative to OpenAI Dots that runs on your machine",
+      "url": "https://www.reddit.com/r/codex/comments/1wvbdlx/opendots_an_opensource_alternative_to_openai_dots/",
+      "published_at": "2026-10-01T21:08:51+00:00",
+      "media_urls": [
+        "https://preview.redd.it/7hw47ur88xsh1.png?width=640&crop=smart&auto=webp&s=700ee6220d8e2352c5974a633f8af8ba24edf2bd",
+        "https://i.redd.it/7hw47ur88xsh1.png"
+      ],
+      "ocr_text": "OpenDots Giveitagoal. _ Keep work moving. :\nG i i | ive it a goal. K k i eep work Moving. Open-source agents. Your models. Your control. ee & ec @ localhost:8765 ose ork Overview OpenDots YOUR AGENTS, AT WORK pa Improve project accessibilit Website maintsiner \u2014\u2014v 38 overview p proj y G Agents Incoming event Review proposed action pproval required \u00a9 GitHub issue sr\u00a2/components/SearchButton. jsx 4 Events Search button needs an accessible label @@ -1,3 +1,3 @@ 1 export function SearchButton() { | Reviews . Agent activity A a me \"4 + <button aria-label=\"Search\">Search</button> ill Activity \u00a9 Read relevant files 02:29 AM Sat \u00a9 Prepared a scoped change 02:29 AM \u00a9 Waiting for your approval 02:29 AM @& ) Event > 2 ) Agent > &Y ) Your review & ) Patch + checks",
+      "ocr_sources": [
+        "https://preview.redd.it/7hw47ur88xsh1.png?width=640&crop=smart&auto=webp&s=700ee6220d8e2352c5974a633f8af8ba24edf2bd",
+        "https://i.redd.it/7hw47ur88xsh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvb0kl",
+      "title": "This really made me laugh, thank you Codex :-)",
+      "url": "https://www.reddit.com/r/codex/comments/1wvb0kl/this_really_made_me_laugh_thank_you_codex/",
+      "published_at": "2026-10-01T20:54:21+00:00",
+      "media_urls": [
+        "https://preview.redd.it/nchtpvgg5xsh1.png?width=140&height=10&auto=webp&s=78b68444cf1848f40c541144d9bc21d718698a2b",
+        "https://preview.redd.it/nchtpvgg5xsh1.png?width=891&format=png&auto=webp&s=532c6cf70f69821462a472b30d7a8c3863aadd77"
+      ],
+      "ocr_text": "Working (59s * esc to interrupt) | Tip: Moving from Claude Code? Use /import to bring over your setup, project, and recent chats.",
+      "ocr_sources": [
+        "https://preview.redd.it/nchtpvgg5xsh1.png?width=891&format=png&auto=webp&s=532c6cf70f69821462a472b30d7a8c3863aadd77"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv92f7",
+      "title": "FYI for users considering switching since apparently its not common knowledge: Anthropic's $200 plan is not really 20x usage (in actual use its ~10x), and weekly allowance fluctuates constantly. More in post body.",
+      "url": "https://www.reddit.com/r/codex/comments/1wv92f7/fyi_for_users_considering_switching_since/",
+      "published_at": "2026-10-01T19:37:03+00:00",
+      "media_urls": [
+        "https://preview.redd.it/94nrbxqgpwsh1.png?width=140&height=126&auto=webp&s=fcb5672a6877f7c84d58afe5a4efbd52c9e8079a",
+        "https://preview.redd.it/94nrbxqgpwsh1.png?width=1086&format=png&auto=webp&s=0de4a26218ed05e3a25eed5c2b8792b0699fc660"
+      ],
+      "ocr_text": "Deen lteplentervenyeegeane\nDoes the Max plan have any usage limits? Yes. The Max plan offers substantially higher usage compared to our Pro plan and is available in two tiers: Max 5x includes five fimes|the Pro plan's persession usage allowance. This tier is ideal for frequent users who work with Claude on a variety of tasks. Max 20x includes 20 times the Pro plan's per-session usage allowance. This tier is ideal for daily users who collaborate often with Claude for most tasks. Your session-based usage limit will reset every five hours. Max plans also - have a weekly usage limit that applies across all models. The weekly limit resets at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in Settings > Usage.",
+      "ocr_sources": [
+        "https://preview.redd.it/94nrbxqgpwsh1.png?width=140&height=126&auto=webp&s=fcb5672a6877f7c84d58afe5a4efbd52c9e8079a",
+        "https://preview.redd.it/94nrbxqgpwsh1.png?width=1086&format=png&auto=webp&s=0de4a26218ed05e3a25eed5c2b8792b0699fc660"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv7qim",
+      "title": "Spinning Forever in VS Code Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wv7qim/spinning_forever_in_vs_code_codex/",
+      "published_at": "2026-10-01T18:47:40+00:00",
+      "media_urls": [
+        "https://preview.redd.it/7hu10mn0jwsh1.png?width=140&height=54&auto=webp&s=3b706b5a35bbb830e70f69598a5bdb230827f822",
+        "https://preview.redd.it/7hu10mn0jwsh1.png?width=1104&format=png&auto=webp&s=ce7e5cd46c25c750d9dc2d452a596eac64e4ea16"
+      ],
+      "ocr_text": "oO??? % U OF 99999999 9% w Ask for follow-up changes + \u00a9 Approve for me GPT-6.1 Sol Medium v v@ IDE contexr 0 \u00a9 Work locally v",
+      "ocr_sources": [
+        "https://preview.redd.it/7hu10mn0jwsh1.png?width=1104&format=png&auto=webp&s=ce7e5cd46c25c750d9dc2d452a596eac64e4ea16"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wv7qeo",
       "title": "greatVibe. A new way to build with AI.",
@@ -13,7 +75,7 @@
       "media_urls": [
         "https://external-preview.redd.it/bXc2c3kzOHJpd3NoMf_hX421E095k_q8CDuiLUEY-EBE0wdHEezKixHDtgVQ.png?width=640&crop=smart&auto=webp&s=23e3ee16897a374b3cc8e381b98106a323c53005"
       ],
-      "ocr_text": "104 BORN ONS ‘OLOBAL RING! LIVE WORK, RTA oe O€ Existing hosts. Missing service wiring. 4 worn: 3 acta doe, select Connect the regional data, TLS and registry so each pair can safely serve its nome region, = ‘Cloudflare global entry ae eters ett ney sow ries & noves )@ ‘Sydney US West London hop) rexnty = f=) i lh 1) ee ; Sonia asataae a ane A Issue and store... (STALLED) : : TUE scoped DNS controller tesesctecneeeeceeeeqeceeeeceeececeeeseet Lares http.go.ace ‘Signes crose-ting sezsions remsin 2 separate verification gate. a ie : EVIDENCE DOCK Q) 27m 19s 3 { rurcoder + clude MCP and saved cards pssed Rrra | Soc cone 62 262 (pe bearer erection“ aeplymentsaty oe a ‘eveD )( EVIDENCE ) (toroocy )( rites ){ MAIN VIEW )( + ‘ino A tenve and store ndon uswe. = (CUED ) ( ) #©@GO@OMOC@® o «",
+      "ocr_text": "104 BORN ONS \u2018OLOBAL RING! LIVE WORK, RTA oe O\u20ac Existing hosts. Missing service wiring. 4 worn: 3 acta doe, select Connect the regional data, TLS and registry so each pair can safely serve its nome region, = \u2018Cloudflare global entry ae eters ett ney sow ries & noves )@ \u2018Sydney US West London hop) rexnty = f=) i lh 1) ee ; Sonia asataae a ane A Issue and store... (STALLED) : : TUE scoped DNS controller tesesctecneeeeceeeeqeceeeeceeececeeeseet Lares http.go.ace \u2018Signes crose-ting sezsions remsin 2 separate verification gate. a ie : EVIDENCE DOCK Q) 27m 19s 3 { rurcoder + clude MCP and saved cards pssed Rrra | Soc cone 62 262 (pe bearer erection\u201c aeplymentsaty oe a \u2018eveD )( EVIDENCE ) (toroocy )( rites ){ MAIN VIEW )( + \u2018ino A tenve and store ndon uswe. = (CUED ) ( ) #\u00a9@GO@OMOC@\u00ae o \u00ab",
       "ocr_sources": [
         "https://external-preview.redd.it/bXc2c3kzOHJpd3NoMf_hX421E095k_q8CDuiLUEY-EBE0wdHEezKixHDtgVQ.png?width=640&crop=smart&auto=webp&s=23e3ee16897a374b3cc8e381b98106a323c53005"
       ],
@@ -42,7 +104,7 @@
         "https://preview.redd.it/mloncuzrhwsh1.jpeg?width=640&crop=smart&auto=webp&s=bc1fc4af9521e590d750ba3d74c3244bcf73f407",
         "https://i.redd.it/mloncuzrhwsh1.jpeg"
       ],
-      "ocr_text": "i py se GOs \\ a iy a\ni) —_..... | ~ sens fo\" ee, 4 tes = to Ct oe ae *: on Oo fg ENS ; Be sce gene Z . ipa | Nes or 5 38s 4) < Ko ‘ : : a8 of MEE ww MES 3 “age a , F | ee 1.900 mee , °:* e.",
+      "ocr_text": "i py se GOs \\ a iy a\ni) \u2014_..... | ~ sens fo\" ee, 4 tes = to Ct oe ae *: on Oo fg ENS ; Be sce gene Z . ipa | Nes or 5 38s 4) < Ko \u2018 : : a8 of MEE ww MES 3 \u201cage a , F | ee 1.900 mee , \u00b0:* e.",
       "ocr_sources": [
         "https://preview.redd.it/mloncuzrhwsh1.jpeg?width=640&crop=smart&auto=webp&s=bc1fc4af9521e590d750ba3d74c3244bcf73f407",
         "https://i.redd.it/mloncuzrhwsh1.jpeg"
@@ -102,7 +164,7 @@
         "https://preview.redd.it/zi8lqmfn7wsh1.png?width=640&crop=smart&auto=webp&s=850d75f277975453ddd60a7a45f108fbdaf5a89e",
         "https://i.redd.it/zi8lqmfn7wsh1.png"
       ],
-      "ocr_text": ". GPT-6.1 Sol (max) x Split | Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl Identifier gpt-6.1-sol_max Al pert rt Epoch Benchmark 21.0 expe! Version 69 Resul Frontiert_ View model > 100% @ e@ 90% 9 Claude Eable-S- (max) ¢ ; 80% ' J L ¢ 70% i 60% GPT-6 Luna (max) 50% 40% ‘ 30% J 20% I ; ° 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date\n. GPT-6.1 Sol (max) x Split Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl : : Identifier gpt-6.1-sol_max Al pert t Epoch Benchmark 2.1.0 exper Version 69 Resul Frontier! View model > 100% ® : ° 90% @ Claude Fable 5 (max) © ? 80% T 2 60% GPT-6 Luna (max) 50% 40% ‘ 30% ° 20% ° 0 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date",
+      "ocr_text": ". GPT-6.1 Sol (max) x Split | Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl Identifier gpt-6.1-sol_max Al pert rt Epoch Benchmark 21.0 expe! Version 69 Resul Frontiert_ View model > 100% @ e@ 90% 9 Claude Eable-S- (max) \u00a2 ; 80% ' J L \u00a2 70% i 60% GPT-6 Luna (max) 50% 40% \u2018 30% J 20% I ; \u00b0 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date\n. GPT-6.1 Sol (max) x Split Tier 4 Release date Sept. 29, 2026 pass@1 accuracy 100% Organization OpenAl : : Identifier gpt-6.1-sol_max Al pert t Epoch Benchmark 2.1.0 exper Version 69 Resul Frontier! View model > 100% \u00ae : \u00b0 90% @ Claude Fable 5 (max) \u00a9 ? 80% T 2 60% GPT-6 Luna (max) 50% 40% \u2018 30% \u00b0 20% \u00b0 0 10% 0% @ Gemini 3.5 Flash-Lite July 2026 Sept. 2026 Nov. 2026 Release date",
       "ocr_sources": [
         "https://preview.redd.it/zi8lqmfn7wsh1.png?width=640&crop=smart&auto=webp&s=850d75f277975453ddd60a7a45f108fbdaf5a89e",
         "https://i.redd.it/zi8lqmfn7wsh1.png"
@@ -129,7 +191,7 @@
       "media_urls": [
         "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
       ],
-      "ocr_text": "GAY matthoune Paamnrd Toot 220 ‘oven (omni) (Sioa _ Pama ES Chateacosnncmiste ome vat er 1 nT) #rytmnemo 2B Gols Bd red > ame srmmerttett 8 =, © cme neo fa, ® cot mr re sgt : HELLHOUND ‘si bebegninget oom. Cie a pe ig on md yk poche contact vs Poncrrensoaucoene Shon gomer psc er toy ony ete ry ees ane S “a= cc - oMlsoca - o x ao =o mentay% ova a= EE gree cc ts rg > — & B @ a @ e meee Olt Deacon SS) Ye Oemea +08 = 12x 12cm vont ® > owe se aro ea ae ea ay",
+      "ocr_text": "GAY matthoune Paamnrd Toot 220 \u2018oven (omni) (Sioa _ Pama ES Chateacosnncmiste ome vat er 1 nT) #rytmnemo 2B Gols Bd red > ame srmmerttett 8 =, \u00a9 cme neo fa, \u00ae cot mr re sgt : HELLHOUND \u2018si bebegninget oom. Cie a pe ig on md yk poche contact vs Poncrrensoaucoene Shon gomer psc er toy ony ete ry ees ane S \u201ca= cc - oMlsoca - o x ao =o mentay% ova a= EE gree cc ts rg > \u2014 & B @ a @ e meee Olt Deacon SS) Ye Oemea +08 = 12x 12cm vont \u00ae > owe se aro ea ae ea ay",
       "ocr_sources": [
         "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
       ],
@@ -160,7 +222,7 @@
         "https://preview.redd.it/wqr1c21osvsh1.png?width=140&height=15&auto=webp&s=3f0f2d9b2c3947e7b162bf14efe7178d80095895",
         "https://preview.redd.it/wqr1c21osvsh1.png?width=1006&format=png&auto=webp&s=2a74a81d5f87591146b0ff23f62247e45395ed76"
       ],
-      "ocr_text": "Queue paused because you interrupted » Resume © canwe like in this page default to the basic prodtc option that is",
+      "ocr_text": "Queue paused because you interrupted \u00bb Resume \u00a9 canwe like in this page default to the basic prodtc option that is",
       "ocr_sources": [
         "https://preview.redd.it/wqr1c21osvsh1.png?width=1006&format=png&auto=webp&s=2a74a81d5f87591146b0ff23f62247e45395ed76"
       ],
@@ -176,7 +238,7 @@
         "https://preview.redd.it/f6wrnp0yqvsh1.png?width=1502&format=png&auto=webp&s=0348b5e11434e94f61b7108f696489d10cbb3130",
         "https://preview.redd.it/37k8eo0yqvsh1.png?width=1341&format=png&auto=webp&s=28d5b57ae610aed2d7992d28d5521a467aa5ebc9"
       ],
-      "ocr_text": "—_— —\n9 oreo 02 Guided content 03 Glossary 04 Action rules os Self-check 06 My notes These frameworks connect the key ideas behind the content units, glossary and action rules. | Framework cards Framework relationships 01 Live Adventurously and Prudently A family motto that places adventure and prudence side by side. Applies when: reading about Musk’'s early experiences of migration, exploration, and risk. 02 03 Collaboration between Design and Three Long-Term Missions Engineerin 9 9 The internet, sustainable energy, and space travel are the long- Subject design choices to engineering feasibility checks early. term directions Musk describes. Applies when: product design and technical implementation affect one Applies when: examining why he moved capital and entrepreneurship another. from the internet toward energy and space. Chapter 12 “X.com” - Printed p. 073 - PDF p. 081 > Original source label * 1?",
+      "ocr_text": "\u2014_\u2014 \u2014\n9 oreo 02 Guided content 03 Glossary 04 Action rules os Self-check 06 My notes These frameworks connect the key ideas behind the content units, glossary and action rules. | Framework cards Framework relationships 01 Live Adventurously and Prudently A family motto that places adventure and prudence side by side. Applies when: reading about Musk\u2019's early experiences of migration, exploration, and risk. 02 03 Collaboration between Design and Three Long-Term Missions Engineerin 9 9 The internet, sustainable energy, and space travel are the long- Subject design choices to engineering feasibility checks early. term directions Musk describes. Applies when: product design and technical implementation affect one Applies when: examining why he moved capital and entrepreneurship another. from the internet toward energy and space. Chapter 12 \u201cX.com\u201d - Printed p. 073 - PDF p. 081 > Original source label * 1?",
       "ocr_sources": [
         "https://preview.redd.it/f6wrnp0yqvsh1.png?width=140&height=107&auto=webp&s=75b9813780d322425c260ee052bfeca201b226e4",
         "https://preview.redd.it/f6wrnp0yqvsh1.png?width=1502&format=png&auto=webp&s=0348b5e11434e94f61b7108f696489d10cbb3130"
@@ -208,7 +270,7 @@
         "https://preview.redd.it/50i90uxtpvsh1.jpeg?width=640&crop=smart&auto=webp&s=9cce3140234aaae3a518a2a4394509bd0965e9ee",
         "https://i.redd.it/50i90uxtpvsh1.jpeg"
       ],
-      "ocr_text": "9) Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can’t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views\n@:, Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can’t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views",
+      "ocr_text": "9) Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can\u2019t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views\n@:, Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can\u2019t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views",
       "ocr_sources": [
         "https://preview.redd.it/50i90uxtpvsh1.jpeg?width=640&crop=smart&auto=webp&s=9cce3140234aaae3a518a2a4394509bd0965e9ee",
         "https://i.redd.it/50i90uxtpvsh1.jpeg"
@@ -251,7 +313,7 @@
       "media_urls": [
         "https://external-preview.redd.it/eWdrZ25uMzlidnNoMd_ystCDHY0mFBbNqNQNiabpo8F9SRSZsvmdd-8feVob.png?width=640&crop=smart&auto=webp&s=6ef6f1f1043d5f88d89c728c9762b51035ae23c1"
       ],
-      "ocr_text": "ae a - se Oo _ | : — >. aoe a a .-. | - Oo > - oe - - | 7 a — . _ — oO ae a - | a. oe — ae - _ oS — — : a SS — SS _ _ 7 — oo ee oe | : | i . - — - a — — >. a. — : a oe . a ae 7 _ — : _ : — : a — _— ae a 2 eo ear a - - : ee — — So _ a | — — = — : — oo oe oo — a oe — eae i",
+      "ocr_text": "ae a - se Oo _ | : \u2014 >. aoe a a .-. | - Oo > - oe - - | 7 a \u2014 . _ \u2014 oO ae a - | a. oe \u2014 ae - _ oS \u2014 \u2014 : a SS \u2014 SS _ _ 7 \u2014 oo ee oe | : | i . - \u2014 - a \u2014 \u2014 >. a. \u2014 : a oe . a ae 7 _ \u2014 : _ : \u2014 : a \u2014 _\u2014 ae a 2 eo ear a - - : ee \u2014 \u2014 So _ a | \u2014 \u2014 = \u2014 : \u2014 oo oe oo \u2014 a oe \u2014 eae i",
       "ocr_sources": [
         "https://external-preview.redd.it/eWdrZ25uMzlidnNoMd_ystCDHY0mFBbNqNQNiabpo8F9SRSZsvmdd-8feVob.png?width=640&crop=smart&auto=webp&s=6ef6f1f1043d5f88d89c728c9762b51035ae23c1"
       ],
@@ -265,7 +327,7 @@
       "media_urls": [
         "https://external-preview.redd.it/bDRhdXFobGQydnNoMeIaEPu72sMtqrg1Tw6QfkCrQSdVhrnQLDrivzf7waJP.png?width=320&crop=smart&auto=webp&s=8a9cbbdf1b12fe6961f144d688bbf1ef21c47334"
       ],
-      "ocr_text": "q ° « & : * | (nF ) ef 9 9 EEN ( cam f ; |e}",
+      "ocr_text": "q \u00b0 \u00ab & : * | (nF ) ef 9 9 EEN ( cam f ; |e}",
       "ocr_sources": [
         "https://external-preview.redd.it/bDRhdXFobGQydnNoMeIaEPu72sMtqrg1Tw6QfkCrQSdVhrnQLDrivzf7waJP.png?width=320&crop=smart&auto=webp&s=8a9cbbdf1b12fe6961f144d688bbf1ef21c47334"
       ],
@@ -296,7 +358,7 @@
         "https://preview.redd.it/e723llnbwush1.gif?width=640&crop=smart&s=36f4c1869af1c124d04897272b458e98c3bc13b6",
         "https://i.redd.it/e723llnbwush1.gif"
       ],
-      "ocr_text": "[ cemet | GPT6 Claude Claude — af ge as conmoc wse em sex eran sont cn a re vo thoc sgn wm samen ‘Harvey's Legal Agent Benchmark SA% 67% 3.8% “occas oea a — x EY an om con een enan—~—«n0ak ~~ ‘Terminal-bench 4.0 574% 58.2% 579% 66.4% a ra re cgece eminence a: res seen san een sonomtch ron esak «ee ‘Long context Up to 128%, BFS (FI) 98.7% NAG 90.6% cre cs nee son cam Crone spestenton — ee cowens20 sews | om | mee - a cre oe — wk mma Soucy cweboenn = “annoy gmngngoneasonaatosnanaeieen\nGemini 4 GPT-6 Claude Claude Benchmark Argon Astra Fable 5.1 Opus 5.5 Knowledge work Vals Index 63.1% 65.8% 67.0% AutomationBench Score 41.4% 31.4% 42.5% Vals Finance Agent v2 53.5% 58.9% 58.6% Harvey's Legal Agent Benchmark 5.4% 6.7% 3.8% Agentic coding = DeepSWE v1.1 741% 67.4% 74.2% FrontierSWE v2 55.0% 65.5% 56.3% 62.3% Vibe Code Bench 89.6% 90.3% 90.3% Terminal-bench 4.0 57.4% 58.2% 57.9% 66.4% MLengineering — PostTrainBench 45.3% 44.3% 40.2% 49.3% Science and Terminal-Bench Science 0.1 57.6% 68.1% 52.6% 63.3% mat LABBench 2 85.4% 68.6% 73.1% RiemannBench 72.0% 65.6% 69.6% Long context Up to 128k, BFS (F1) 98.7% 91.4% 90.6% GraphWalks 256k to 1M, BFS (F1) 71.8% 65.0% 66.8% Computer use Agent's Last Exam Pass rate 34.2% — 38.2% Offli b OSWorld-2.0 Satalecene 69.2% 72.6% - - Multimodal Chartography 71.0% 46.2% 66.3% understanding LVBench 87.5% 79.7% 83.7% Cybersecurity CWE-bench v1 68.0% 58.0% 67.0% Methodology: deepmind.google/models/evals-methodology/gemini-4-argon",
+      "ocr_text": "[ cemet | GPT6 Claude Claude \u2014 af ge as conmoc wse em sex eran sont cn a re vo thoc sgn wm samen \u2018Harvey's Legal Agent Benchmark SA% 67% 3.8% \u201coccas oea a \u2014 x EY an om con een enan\u2014~\u2014\u00abn0ak ~~ \u2018Terminal-bench 4.0 574% 58.2% 579% 66.4% a ra re cgece eminence a: res seen san een sonomtch ron esak \u00abee \u2018Long context Up to 128%, BFS (FI) 98.7% NAG 90.6% cre cs nee son cam Crone spestenton \u2014 ee cowens20 sews | om | mee - a cre oe \u2014 wk mma Soucy cweboenn = \u201cannoy gmngngoneasonaatosnanaeieen\nGemini 4 GPT-6 Claude Claude Benchmark Argon Astra Fable 5.1 Opus 5.5 Knowledge work Vals Index 63.1% 65.8% 67.0% AutomationBench Score 41.4% 31.4% 42.5% Vals Finance Agent v2 53.5% 58.9% 58.6% Harvey's Legal Agent Benchmark 5.4% 6.7% 3.8% Agentic coding = DeepSWE v1.1 741% 67.4% 74.2% FrontierSWE v2 55.0% 65.5% 56.3% 62.3% Vibe Code Bench 89.6% 90.3% 90.3% Terminal-bench 4.0 57.4% 58.2% 57.9% 66.4% MLengineering \u2014 PostTrainBench 45.3% 44.3% 40.2% 49.3% Science and Terminal-Bench Science 0.1 57.6% 68.1% 52.6% 63.3% mat LABBench 2 85.4% 68.6% 73.1% RiemannBench 72.0% 65.6% 69.6% Long context Up to 128k, BFS (F1) 98.7% 91.4% 90.6% GraphWalks 256k to 1M, BFS (F1) 71.8% 65.0% 66.8% Computer use Agent's Last Exam Pass rate 34.2% \u2014 38.2% Offli b OSWorld-2.0 Satalecene 69.2% 72.6% - - Multimodal Chartography 71.0% 46.2% 66.3% understanding LVBench 87.5% 79.7% 83.7% Cybersecurity CWE-bench v1 68.0% 58.0% 67.0% Methodology: deepmind.google/models/evals-methodology/gemini-4-argon",
       "ocr_sources": [
         "https://preview.redd.it/e723llnbwush1.gif?width=640&crop=smart&s=36f4c1869af1c124d04897272b458e98c3bc13b6",
         "https://i.redd.it/e723llnbwush1.gif"
@@ -312,64 +374,12 @@
         "https://preview.redd.it/0x3jwnxxiush1.png?width=140&height=27&auto=webp&s=3b3d832b7b8c9b1e93c18454bba6a7dd99a28446",
         "https://preview.redd.it/0x3jwnxxiush1.png?width=807&format=png&auto=webp&s=27602ce226a0381eb0c752defb76116a5fdc26d9"
       ],
-      "ocr_text": "© app This computer Worktree + © Fullaccess sorrsisoiion» & @",
+      "ocr_text": "\u00a9 app This computer Worktree + \u00a9 Fullaccess sorrsisoiion\u00bb & @",
       "ocr_sources": [
         "https://preview.redd.it/0x3jwnxxiush1.png?width=807&format=png&auto=webp&s=27602ce226a0381eb0c752defb76116a5fdc26d9"
       ],
       "ocr_errors": []
-    },
-    {
-      "id": "t3_1wux9g6",
-      "title": "6.1 Sol suddenly defaults to Low now",
-      "url": "https://www.reddit.com/r/codex/comments/1wux9g6/61_sol_suddenly_defaults_to_low_now/",
-      "published_at": "2026-10-01T11:44:53+00:00",
-      "media_urls": [
-        "https://preview.redd.it/y2mf5ae8fush1.png?width=140&height=34&auto=webp&s=82a4b123efbaa1cc838669d60e95789d4bc7fcbe",
-        "https://preview.redd.it/y2mf5ae8fush1.png?width=1294&format=png&auto=webp&s=9f8b28be829177cdc5aa92db049c2b00b3170798"
-      ],
-      "ocr_text": "a\nSelect Reasoning Level for GPT-6.1-SoL 1. Low (default) 2. Medium 3. High 5. More reasoning...",
-      "ocr_sources": [
-        "https://preview.redd.it/y2mf5ae8fush1.png?width=140&height=34&auto=webp&s=82a4b123efbaa1cc838669d60e95789d4bc7fcbe",
-        "https://preview.redd.it/y2mf5ae8fush1.png?width=1294&format=png&auto=webp&s=9f8b28be829177cdc5aa92db049c2b00b3170798"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wuwg6e",
-      "title": "I can't access Codex desktop application",
-      "url": "https://www.reddit.com/r/codex/comments/1wuwg6e/i_cant_access_codex_desktop_application/",
-      "published_at": "2026-10-01T11:00:55+00:00",
-      "media_urls": [
-        "https://preview.redd.it/bm1nskcs7ush1.png?width=140&height=70&auto=webp&s=079c6a57402113d8269f8dcfda87912b332ecfa5",
-        "https://preview.redd.it/bm1nskcs7ush1.png?width=1624&format=png&auto=webp&s=ff0a728cd62ce2558f0b43ce870bad623d2e6169"
-      ],
-      "ocr_text": "CLI and IDE Ex 3? Community highlights a oo ty highlig This is the infor . subreddit for O Codex Usage and Operation Show us all what you've been ANYONE ELSE? - Ask here CLI. Codex IDE Discussion - last updated building with Codex. (Most about current Codex issues and ‘ __. si Cloud that are | : pvoted project gets a week of workarounds - Pro, Business, E t/Codex is desi : discussion. Pos all 1\\ Organization settings could not be loaded help others her ; == - official OpenAl The app is paused until your organization settings can be loaded safely. A network 9) u/vincent_sch + 21 connection, proxy, or firewall may be preventing access. Check your connection and try again, on @ Created Oct : or sign out to use another account. If the problem continues, contact your IT administrator ® Public Unofficial Code: ake H c . 669K narrated videos Retry Sign out Quit — Weekly visitors R/CODEX HALL C = . _d li Recent Showcase How much it may do alone saenien W nan OpenAI Codex ie",
-      "ocr_sources": [
-        "https://preview.redd.it/bm1nskcs7ush1.png?width=1624&format=png&auto=webp&s=ff0a728cd62ce2558f0b43ce870bad623d2e6169"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wuw447",
-      "title": "Calendar feature coming soon?",
-      "url": "https://www.reddit.com/r/codex/comments/1wuw447/calendar_feature_coming_soon/",
-      "published_at": "2026-10-01T10:41:52+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7m7whbfe4ush1.jpeg?width=640&crop=smart&auto=webp&s=91493a75c3cf8f0a377c19ff1df42e78847eb1cf",
-        "https://i.redd.it/7m7whbfe4ush1.jpeg"
-      ],
-      "ocr_text": "3:16 NO Fel < Post Gg =\" = yxXnico Can someone make a calendar app for codex. I’m off today 9:24 AM - 30 Sep 26 - 19.3K Views Ou wv An « Relevant v View quotes > ria) jason @ @jxnico- 17h g La ok ®\n3:16 X69 Fl GD €< Post (| *& jason : @* - @jxnico Can someone make a calendar app for codex. I’m off today 9:24 AM - 30 Sep 26 - 19.3K Views O14 tl @ 4 C11 x Relevant v View quotes > i jason @ @jxnico-17h J WF ok",
-      "ocr_sources": [
-        "https://preview.redd.it/7m7whbfe4ush1.jpeg?width=640&crop=smart&auto=webp&s=91493a75c3cf8f0a377c19ff1df42e78847eb1cf",
-        "https://i.redd.it/7m7whbfe4ush1.jpeg"
-      ],
-      "ocr_errors": []
     }
   ],
-  "errors": [],
-  "publication_privacy": {
-    "excluded_candidate_count": 1,
-    "reason": "Potentially sensitive screenshot content withheld",
-    "acquisition_coverage_complete": true
-  }
+  "errors": []
 }
