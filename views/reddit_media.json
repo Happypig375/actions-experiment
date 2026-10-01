@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T19:11:58.763538Z",
+  "generated_at": "2026-10-01T20:11:48.569440Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
@@ -16,6 +16,20 @@
       "ocr_text": "104 BORN ONS ‘OLOBAL RING! LIVE WORK, RTA oe O€ Existing hosts. Missing service wiring. 4 worn: 3 acta doe, select Connect the regional data, TLS and registry so each pair can safely serve its nome region, = ‘Cloudflare global entry ae eters ett ney sow ries & noves )@ ‘Sydney US West London hop) rexnty = f=) i lh 1) ee ; Sonia asataae a ane A Issue and store... (STALLED) : : TUE scoped DNS controller tesesctecneeeeceeeeqeceeeeceeececeeeseet Lares http.go.ace ‘Signes crose-ting sezsions remsin 2 separate verification gate. a ie : EVIDENCE DOCK Q) 27m 19s 3 { rurcoder + clude MCP and saved cards pssed Rrra | Soc cone 62 262 (pe bearer erection“ aeplymentsaty oe a ‘eveD )( EVIDENCE ) (toroocy )( rites ){ MAIN VIEW )( + ‘ino A tenve and store ndon uswe. = (CUED ) ( ) #©@GO@OMOC@® o «",
       "ocr_sources": [
         "https://external-preview.redd.it/bXc2c3kzOHJpd3NoMf_hX421E095k_q8CDuiLUEY-EBE0wdHEezKixHDtgVQ.png?width=640&crop=smart&auto=webp&s=23e3ee16897a374b3cc8e381b98106a323c53005"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv7lt7",
+      "title": "Clef: Open-source decision model by Cloudflare",
+      "url": "https://www.reddit.com/r/codex/comments/1wv7lt7/clef_opensource_decision_model_by_cloudflare/",
+      "published_at": "2026-10-01T18:42:41+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/yBOh5DMT9RFvHbXMZCmIGsHM9hnRCW8gkv28voq1XzA.png?width=640&crop=smart&auto=webp&s=40256ebf26b4a1e4849add4403c6ca08afe47103"
+      ],
+      "ocr_text": "a@>crovoriane CLOUDFLARE BLOG - Introducing Clef: our + ~ open-source decision models, and new RL 7 fine-tuning platform Ce a esses ee",
+      "ocr_sources": [
+        "https://external-preview.redd.it/yBOh5DMT9RFvHbXMZCmIGsHM9hnRCW8gkv28voq1XzA.png?width=640&crop=smart&auto=webp&s=40256ebf26b4a1e4849add4403c6ca08afe47103"
       ],
       "ocr_errors": []
     },
@@ -348,21 +362,6 @@
       "ocr_sources": [
         "https://preview.redd.it/7m7whbfe4ush1.jpeg?width=640&crop=smart&auto=webp&s=91493a75c3cf8f0a377c19ff1df42e78847eb1cf",
         "https://i.redd.it/7m7whbfe4ush1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wuw0hu",
-      "title": "“Capabilities reduced until later” is way too vague, especially for 20x users",
-      "url": "https://www.reddit.com/r/codex/comments/1wuw0hu/capabilities_reduced_until_later_is_way_too_vague/",
-      "published_at": "2026-10-01T10:35:55+00:00",
-      "media_urls": [
-        "https://preview.redd.it/bo7zdlja3ush1.png?width=140&height=25&auto=webp&s=1dea044462b67406d1fba2767b4e58405ed7cae7",
-        "https://preview.redd.it/bo7zdlja3ush1.png?width=848&format=png&auto=webp&s=3ce384e5e47dbe28dc74b8d1773491458b285f76"
-      ],
-      "ocr_text": "5 EP ~ Capabilities reduced until later. Responses may have lower quality.",
-      "ocr_sources": [
-        "https://preview.redd.it/bo7zdlja3ush1.png?width=848&format=png&auto=webp&s=3ce384e5e47dbe28dc74b8d1773491458b285f76"
       ],
       "ocr_errors": []
     }
