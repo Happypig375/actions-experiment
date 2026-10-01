@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T18:09:18.051451Z",
-  "since": "2026-10-01T15:09:18.051451Z",
+  "generated_at": "2026-10-01T19:09:33.013890Z",
+  "since": "2026-10-01T16:09:33.013890Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
   "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
-  "previous_head_sha": "dcf5ba7cefbbb4c44f199a107cf6ab0fa8dfa9b4",
+  "previous_head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
   "commits": [
     {
       "sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
@@ -17,14 +17,36 @@
   ],
   "issues": [
     {
+      "number": 1650,
+      "title": "The boundary, root and corpus harnesses run in CI",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T18:45:33Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1650",
+      "kind": "pull_request"
+    },
+    {
       "number": 1649,
       "title": "Organization-level management",
       "state": "open",
       "state_reason": null,
-      "updated_at": "2026-10-01T18:03:40Z",
+      "updated_at": "2026-10-01T18:35:08Z",
       "user": "Happypig375",
-      "comments": 1,
+      "comments": 3,
       "url": "https://github.com/asc-community/AngouriMath/issues/1649",
+      "kind": "issue"
+    },
+    {
+      "number": 1648,
+      "title": "Dividing by a reciprocal gives a value where the quotient has none: 1/(1/x) is x",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T18:20:23Z",
+      "user": "Rafael-SOWNet",
+      "comments": 1,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1648",
       "kind": "issue"
     },
     {
@@ -70,20 +92,24 @@
       "comments": 2,
       "url": "https://github.com/asc-community/AngouriMath/issues/1252",
       "kind": "issue"
-    },
-    {
-      "number": 1648,
-      "title": "Dividing by a reciprocal gives a value where the quotient has none: 1/(1/x) is x",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-01T17:38:10Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1648",
-      "kind": "issue"
     }
   ],
   "pulls": [
+    {
+      "number": 1650,
+      "title": "The boundary, root and corpus harnesses run in CI",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-01T18:45:33Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "the-harnesses-run-in-ci",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1650",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    },
     {
       "number": 1635,
       "title": "A product is written letters before functions",
@@ -109,6 +135,127 @@
   ],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 36909220358,
+      "name": "Harnesses",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:48:35Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220358"
+    },
+    {
+      "id": 36909220312,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:52:55Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220312"
+    },
+    {
+      "id": 36909220294,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:52:56Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220294"
+    },
+    {
+      "id": 36909220217,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:47:51Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220217"
+    },
+    {
+      "id": 36909220211,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:49:54Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220211"
+    },
+    {
+      "id": 36909220185,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:51:40Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220185"
+    },
+    {
+      "id": 36909220141,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:52:19Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220141"
+    },
+    {
+      "id": 36909220120,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:50:37Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220120"
+    },
+    {
+      "id": 36909220099,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:49:44Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909220099"
+    },
+    {
+      "id": 36909219968,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:45:44Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909219968"
+    },
+    {
+      "id": 36909219944,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-harnesses-run-in-ci",
+      "head_sha": "95b893e807a3c6823fe99b6a30c9cb2ba0f761c5",
+      "updated_at": "2026-10-01T18:47:23Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36909219944"
+    },
     {
       "id": 36902872876,
       "name": "Interactive Test",
@@ -157,11 +304,11 @@
       "id": 36902872786,
       "name": "C# Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "e8446b65df3c4d7c366c793180a28a8d5b7e1488",
-      "updated_at": "2026-10-01T17:58:29Z",
+      "updated_at": "2026-10-01T18:22:24Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/36902872786"
     },
     {
@@ -374,91 +521,6 @@
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/36898589390"
     }
   ],
-  "changed_files_since_previous_feed": [
-    {
-      "filename": "BREAKING-CHANGES.md",
-      "status": "modified",
-      "additions": 26,
-      "deletions": 0,
-      "changes": 26
-    },
-    {
-      "filename": "Sources/AngouriMath/Functions/Simplification/Simplificator.cs",
-      "status": "modified",
-      "additions": 92,
-      "deletions": 1,
-      "changes": 93
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/DerivativeTest.cs",
-      "status": "modified",
-      "additions": 3,
-      "deletions": 3,
-      "changes": 6
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/IntegrationTest.cs",
-      "status": "modified",
-      "additions": 2,
-      "deletions": 2,
-      "changes": 4
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Common/LambdaCalculusTest.cs",
-      "status": "modified",
-      "additions": 2,
-      "deletions": 2,
-      "changes": 4
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Core/BinomialIdentityTest.cs",
-      "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Core/Sets/IntervalImageTest.cs",
-      "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Core/Sets/IntervalScalingTest.cs",
-      "status": "modified",
-      "additions": 2,
-      "deletions": 2,
-      "changes": 4
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/PatternsTest/FactorOrderTest.cs",
-      "status": "added",
-      "additions": 64,
-      "deletions": 0,
-      "changes": 64
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/PatternsTest/FractionSimplify.cs",
-      "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/PatternsTest/SimplifyTest.cs",
-      "status": "modified",
-      "additions": 4,
-      "deletions": 4,
-      "changes": 8
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/PatternsTest/SortSimplifyTest.cs",
-      "status": "modified",
-      "additions": 5,
-      "deletions": 5,
-      "changes": 10
-    }
-  ],
+  "changed_files_since_previous_feed": [],
   "errors": []
 }
