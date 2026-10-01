@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-01T16:26:54.831329Z",
+  "source": "r/codex media",
+  "candidate_discovery_only": true,
+  "ocr_is_untrusted": true,
+  "items": [
+    {
+      "id": "t3_1wv3kvl",
+      "title": "I made a free Codex skill that turns PDFs into study pages with page references",
+      "url": "https://www.reddit.com/r/codex/comments/1wv3kvl/i_made_a_free_codex_skill_that_turns_pdfs_into/",
+      "published_at": "2026-10-01T16:11:05+00:00",
+      "media_urls": [
+        "https://preview.redd.it/f6wrnp0yqvsh1.png?width=140&height=107&auto=webp&s=75b9813780d322425c260ee052bfeca201b226e4",
+        "https://preview.redd.it/f6wrnp0yqvsh1.png?width=1502&format=png&auto=webp&s=0348b5e11434e94f61b7108f696489d10cbb3130",
+        "https://preview.redd.it/37k8eo0yqvsh1.png?width=1341&format=png&auto=webp&s=28d5b57ae610aed2d7992d28d5521a467aa5ebc9"
+      ],
+      "ocr_text": "\u2014_\u2014 \u2014\n9 oreo 02 Guided content 03 Glossary 04 Action rules os Self-check 06 My notes These frameworks connect the key ideas behind the content units, glossary and action rules. | Framework cards Framework relationships 01 Live Adventurously and Prudently A family motto that places adventure and prudence side by side. Applies when: reading about Musk\u2019's early experiences of migration, exploration, and risk. 02 03 Collaboration between Design and Three Long-Term Missions Engineerin 9 9 The internet, sustainable energy, and space travel are the long- Subject design choices to engineering feasibility checks early. term directions Musk describes. Applies when: product design and technical implementation affect one Applies when: examining why he moved capital and entrepreneurship another. from the internet toward energy and space. Chapter 12 \u201cX.com\u201d - Printed p. 073 - PDF p. 081 > Original source label * 1?",
+      "ocr_sources": [
+        "https://preview.redd.it/f6wrnp0yqvsh1.png?width=140&height=107&auto=webp&s=75b9813780d322425c260ee052bfeca201b226e4",
+        "https://preview.redd.it/f6wrnp0yqvsh1.png?width=1502&format=png&auto=webp&s=0348b5e11434e94f61b7108f696489d10cbb3130"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv3f4p",
+      "title": "GPT-6.1 SOL not available for me",
+      "url": "https://www.reddit.com/r/codex/comments/1wv3f4p/gpt61_sol_not_available_for_me/",
+      "published_at": "2026-10-01T16:05:05+00:00",
+      "media_urls": [
+        "https://preview.redd.it/il9qugd1qvsh1.png?width=320&crop=smart&auto=webp&s=572230ee360f7beab0bf445bf41401d578b826e8",
+        "https://i.redd.it/il9qugd1qvsh1.png"
+      ],
+      "ocr_text": "Select model Default Recommended set of models GPT-6 Astra GPT-6 Sol v GPT-6 Luna GPT-5.6 Sol GPT-5.6 Terra GPT-5.6 Luna GPT-5.5\nSelect model Default Recommended set of models GPT-6 Astra GPT-6 Sol Vv GPT-6 Luna GPT-5.6 Sol GPT-5.6 Terra GPT-5.6 Luna GPT-5.5",
+      "ocr_sources": [
+        "https://preview.redd.it/il9qugd1qvsh1.png?width=320&crop=smart&auto=webp&s=572230ee360f7beab0bf445bf41401d578b826e8",
+        "https://i.redd.it/il9qugd1qvsh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv3dvu",
+      "title": "October 1, 2026 - The day that spontaneous resets officially ended",
+      "url": "https://www.reddit.com/r/codex/comments/1wv3dvu/october_1_2026_the_day_that_spontaneous_resets/",
+      "published_at": "2026-10-01T16:03:46+00:00",
+      "media_urls": [
+        "https://preview.redd.it/50i90uxtpvsh1.jpeg?width=640&crop=smart&auto=webp&s=9cce3140234aaae3a518a2a4394509bd0965e9ee",
+        "https://i.redd.it/50i90uxtpvsh1.jpeg"
+      ],
+      "ocr_text": "9) Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can\u2019t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views\n@:, Tibo @ Message @thsottiaux Because usage on your primary dot is virtually unlimited at the moment, | can\u2019t really give a reset. | need to come up with something new fast. 9:51AM - 10/1/26 - 251K Views",
+      "ocr_sources": [
+        "https://preview.redd.it/50i90uxtpvsh1.jpeg?width=640&crop=smart&auto=webp&s=9cce3140234aaae3a518a2a4394509bd0965e9ee",
+        "https://i.redd.it/50i90uxtpvsh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv1foj",
+      "title": "I build a record player that lives on my Mac desktop",
+      "url": "https://www.reddit.com/r/codex/comments/1wv1foj/i_build_a_record_player_that_lives_on_my_mac/",
+      "published_at": "2026-10-01T14:49:30+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/bzJzMDIxNGtjdnNoMbbA1jjCbhhiLSSzmV1djzqtm4oIGSW6LNV0E4oPLCmU.png?width=640&crop=smart&auto=webp&s=85989f047d661b3bdff7f88d99241e21f202d220"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv1ca9",
+      "title": "dots",
+      "url": "https://www.reddit.com/r/codex/comments/1wv1ca9/dots/",
+      "published_at": "2026-10-01T14:45:39+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/eWdrZ25uMzlidnNoMd_ystCDHY0mFBbNqNQNiabpo8F9SRSZsvmdd-8feVob.png?width=640&crop=smart&auto=webp&s=6ef6f1f1043d5f88d89c728c9762b51035ae23c1"
+      ],
+      "ocr_text": "ae a - se Oo _ | : \u2014 >. aoe a a .-. | - Oo > - oe - - | 7 a \u2014 . _ \u2014 oO ae a - | a. oe \u2014 ae - _ oS \u2014 \u2014 : a SS \u2014 SS _ _ 7 \u2014 oo ee oe | : | i . - \u2014 - a \u2014 \u2014 >. a. \u2014 : a oe . a ae 7 _ \u2014 : _ : \u2014 : a \u2014 _\u2014 ae a 2 eo ear a - - : ee \u2014 \u2014 So _ a | \u2014 \u2014 = \u2014 : \u2014 oo oe oo \u2014 a oe \u2014 eae i",
+      "ocr_sources": [
+        "https://external-preview.redd.it/eWdrZ25uMzlidnNoMd_ystCDHY0mFBbNqNQNiabpo8F9SRSZsvmdd-8feVob.png?width=640&crop=smart&auto=webp&s=6ef6f1f1043d5f88d89c728c9762b51035ae23c1"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv00fc",
+      "title": "Dot now lives on my touchbar",
+      "url": "https://www.reddit.com/r/codex/comments/1wv00fc/dot_now_lives_on_my_touchbar/",
+      "published_at": "2026-10-01T13:52:22+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/bDRhdXFobGQydnNoMeIaEPu72sMtqrg1Tw6QfkCrQSdVhrnQLDrivzf7waJP.png?width=320&crop=smart&auto=webp&s=8a9cbbdf1b12fe6961f144d688bbf1ef21c47334"
+      ],
+      "ocr_text": "q \u00b0 \u00ab & : * | (nF ) ef 9 9 EEN ( cam f ; |e}",
+      "ocr_sources": [
+        "https://external-preview.redd.it/bDRhdXFobGQydnNoMeIaEPu72sMtqrg1Tw6QfkCrQSdVhrnQLDrivzf7waJP.png?width=320&crop=smart&auto=webp&s=8a9cbbdf1b12fe6961f144d688bbf1ef21c47334"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuzd3u",
+      "title": "GPT-6 Pro messages drops from 200 to 100 per week as well, by the way.",
+      "url": "https://www.reddit.com/r/codex/comments/1wuzd3u/gpt6_pro_messages_drops_from_200_to_100_per_week/",
+      "published_at": "2026-10-01T13:24:35+00:00",
+      "media_urls": [
+        "https://preview.redd.it/5nz7r3idxush1.png?width=640&crop=smart&auto=webp&s=4b27c2d3459bdd694aeb862cacdec593a5fa1084",
+        "https://i.redd.it/5nz7r3idxush1.png"
+      ],
+      "ocr_text": "Starting October 30, 2026, your included usage in ChatGPT Work and Codex will decrease from 20 times to 10 times the ChatGPT Plus allowance. Your GPT-6 Pro limit in Chat will decrease from 200 to 100 messages per week. You'll keep your current limits through October 29, 2026.\nStarting October 30, 2026, your included usage in ChatGPT Work and Codex will decrease from 20 times to 10 times the ChatGPT Plus allowance. Your GPT-6 Pro limit in Chat will decrease from 200 to 100 messages per week. You'll keep your current limits through October 29, 2026.",
+      "ocr_sources": [
+        "https://preview.redd.it/5nz7r3idxush1.png?width=640&crop=smart&auto=webp&s=4b27c2d3459bdd694aeb862cacdec593a5fa1084",
+        "https://i.redd.it/5nz7r3idxush1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuz80e",
+      "title": "yo, new gemini model coming",
+      "url": "https://www.reddit.com/r/codex/comments/1wuz80e/yo_new_gemini_model_coming/",
+      "published_at": "2026-10-01T13:18:23+00:00",
+      "media_urls": [
+        "https://preview.redd.it/e723llnbwush1.gif?width=640&crop=smart&s=36f4c1869af1c124d04897272b458e98c3bc13b6",
+        "https://i.redd.it/e723llnbwush1.gif"
+      ],
+      "ocr_text": "[ cemet | GPT6 Claude Claude \u2014 af ge as conmoc wse em sex eran sont cn a re vo thoc sgn wm samen \u2018Harvey's Legal Agent Benchmark SA% 67% 3.8% \u201coccas oea a \u2014 x EY an om con een enan\u2014~\u2014\u00abn0ak ~~ \u2018Terminal-bench 4.0 574% 58.2% 579% 66.4% a ra re cgece eminence a: res seen san een sonomtch ron esak \u00abee \u2018Long context Up to 128%, BFS (FI) 98.7% NAG 90.6% cre cs nee son cam Crone spestenton \u2014 ee cowens20 sews | om | mee - a cre oe \u2014 wk mma Soucy cweboenn = \u201cannoy gmngngoneasonaatosnanaeieen\nGemini 4 GPT-6 Claude Claude Benchmark Argon Astra Fable 5.1 Opus 5.5 Knowledge work Vals Index 63.1% 65.8% 67.0% AutomationBench Score 41.4% 31.4% 42.5% Vals Finance Agent v2 53.5% 58.9% 58.6% Harvey's Legal Agent Benchmark 5.4% 6.7% 3.8% Agentic coding = DeepSWE v1.1 741% 67.4% 74.2% FrontierSWE v2 55.0% 65.5% 56.3% 62.3% Vibe Code Bench 89.6% 90.3% 90.3% Terminal-bench 4.0 57.4% 58.2% 57.9% 66.4% MLengineering \u2014 PostTrainBench 45.3% 44.3% 40.2% 49.3% Science and Terminal-Bench Science 0.1 57.6% 68.1% 52.6% 63.3% mat LABBench 2 85.4% 68.6% 73.1% RiemannBench 72.0% 65.6% 69.6% Long context Up to 128k, BFS (F1) 98.7% 91.4% 90.6% GraphWalks 256k to 1M, BFS (F1) 71.8% 65.0% 66.8% Computer use Agent's Last Exam Pass rate 34.2% \u2014 38.2% Offli b OSWorld-2.0 Satalecene 69.2% 72.6% - - Multimodal Chartography 71.0% 46.2% 66.3% understanding LVBench 87.5% 79.7% 83.7% Cybersecurity CWE-bench v1 68.0% 58.0% 67.0% Methodology: deepmind.google/models/evals-methodology/gemini-4-argon",
+      "ocr_sources": [
+        "https://preview.redd.it/e723llnbwush1.gif?width=640&crop=smart&s=36f4c1869af1c124d04897272b458e98c3bc13b6",
+        "https://i.redd.it/e723llnbwush1.gif"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuxp2d",
+      "title": "Worktree checkbox: we can only create worktrees from the 'main' branch now",
+      "url": "https://www.reddit.com/r/codex/comments/1wuxp2d/worktree_checkbox_we_can_only_create_worktrees/",
+      "published_at": "2026-10-01T12:06:34+00:00",
+      "media_urls": [
+        "https://preview.redd.it/0x3jwnxxiush1.png?width=140&height=27&auto=webp&s=3b3d832b7b8c9b1e93c18454bba6a7dd99a28446",
+        "https://preview.redd.it/0x3jwnxxiush1.png?width=807&format=png&auto=webp&s=27602ce226a0381eb0c752defb76116a5fdc26d9"
+      ],
+      "ocr_text": "\u00a9 app This computer Worktree + \u00a9 Fullaccess sorrsisoiion\u00bb & @",
+      "ocr_sources": [
+        "https://preview.redd.it/0x3jwnxxiush1.png?width=807&format=png&auto=webp&s=27602ce226a0381eb0c752defb76116a5fdc26d9"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wux9g6",
+      "title": "6.1 Sol suddenly defaults to Low now",
+      "url": "https://www.reddit.com/r/codex/comments/1wux9g6/61_sol_suddenly_defaults_to_low_now/",
+      "published_at": "2026-10-01T11:44:53+00:00",
+      "media_urls": [
+        "https://preview.redd.it/y2mf5ae8fush1.png?width=140&height=34&auto=webp&s=82a4b123efbaa1cc838669d60e95789d4bc7fcbe",
+        "https://preview.redd.it/y2mf5ae8fush1.png?width=1294&format=png&auto=webp&s=9f8b28be829177cdc5aa92db049c2b00b3170798"
+      ],
+      "ocr_text": "a\nSelect Reasoning Level for GPT-6.1-SoL 1. Low (default) 2. Medium 3. High 5. More reasoning...",
+      "ocr_sources": [
+        "https://preview.redd.it/y2mf5ae8fush1.png?width=140&height=34&auto=webp&s=82a4b123efbaa1cc838669d60e95789d4bc7fcbe",
+        "https://preview.redd.it/y2mf5ae8fush1.png?width=1294&format=png&auto=webp&s=9f8b28be829177cdc5aa92db049c2b00b3170798"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuwg6e",
+      "title": "I can't access Codex desktop application",
+      "url": "https://www.reddit.com/r/codex/comments/1wuwg6e/i_cant_access_codex_desktop_application/",
+      "published_at": "2026-10-01T11:00:55+00:00",
+      "media_urls": [
+        "https://preview.redd.it/bm1nskcs7ush1.png?width=140&height=70&auto=webp&s=079c6a57402113d8269f8dcfda87912b332ecfa5",
+        "https://preview.redd.it/bm1nskcs7ush1.png?width=1624&format=png&auto=webp&s=ff0a728cd62ce2558f0b43ce870bad623d2e6169"
+      ],
+      "ocr_text": "CLI and IDE Ex 3? Community highlights a oo ty highlig This is the infor . subreddit for O Codex Usage and Operation Show us all what you've been ANYONE ELSE? - Ask here CLI. Codex IDE Discussion - last updated building with Codex. (Most about current Codex issues and \u2018 __. si Cloud that are | : pvoted project gets a week of workarounds - Pro, Business, E t/Codex is desi : discussion. Pos all 1\\ Organization settings could not be loaded help others her ; == - official OpenAl The app is paused until your organization settings can be loaded safely. A network 9) u/vincent_sch + 21 connection, proxy, or firewall may be preventing access. Check your connection and try again, on @ Created Oct : or sign out to use another account. If the problem continues, contact your IT administrator \u00ae Public Unofficial Code: ake H c . 669K narrated videos Retry Sign out Quit \u2014 Weekly visitors R/CODEX HALL C = . _d li Recent Showcase How much it may do alone saenien W nan OpenAI Codex ie",
+      "ocr_sources": [
+        "https://preview.redd.it/bm1nskcs7ush1.png?width=1624&format=png&auto=webp&s=ff0a728cd62ce2558f0b43ce870bad623d2e6169"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuw447",
+      "title": "Calendar feature coming soon?",
+      "url": "https://www.reddit.com/r/codex/comments/1wuw447/calendar_feature_coming_soon/",
+      "published_at": "2026-10-01T10:41:52+00:00",
+      "media_urls": [
+        "https://preview.redd.it/7m7whbfe4ush1.jpeg?width=640&crop=smart&auto=webp&s=91493a75c3cf8f0a377c19ff1df42e78847eb1cf",
+        "https://i.redd.it/7m7whbfe4ush1.jpeg"
+      ],
+      "ocr_text": "3:16 NO Fel < Post Gg =\" = yxXnico Can someone make a calendar app for codex. I\u2019m off today 9:24 AM - 30 Sep 26 - 19.3K Views Ou wv An \u00ab Relevant v View quotes > ria) jason @ @jxnico- 17h g La ok \u00ae\n3:16 X69 Fl GD \u20ac< Post (| *& jason : @* - @jxnico Can someone make a calendar app for codex. I\u2019m off today 9:24 AM - 30 Sep 26 - 19.3K Views O14 tl @ 4 C11 x Relevant v View quotes > i jason @ @jxnico-17h J WF ok",
+      "ocr_sources": [
+        "https://preview.redd.it/7m7whbfe4ush1.jpeg?width=640&crop=smart&auto=webp&s=91493a75c3cf8f0a377c19ff1df42e78847eb1cf",
+        "https://i.redd.it/7m7whbfe4ush1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuw268",
+      "title": "Orgtree v3: It's Fast!!",
+      "url": "https://www.reddit.com/r/codex/comments/1wuw268/orgtree_v3_its_fast/",
+      "published_at": "2026-10-01T10:38:40+00:00",
+      "media_urls": [
+        "https://preview.redd.it/xtlgxqqt3ush1.png?width=640&crop=smart&auto=webp&s=ae08e69ec8081101fe7d9973c790729ca992a324",
+        "https://i.redd.it/xtlgxqqt3ush1.png"
+      ],
+      "ocr_text": "nl a) \"5 EE L__ B.< ape ater 7\n= orgtree @ camas 4\\Pems > - ax \u201c| Needs attention 7% & % Usage 7% X OF Agent desk 7x - BENG) cocrdimatoropes OQ \u00a9 icte35: Hale cissowe-161 [eft] inbox docket presented 8 history files \u00a9 Pending questions, tickets needing Claude Code. vpdnedz0sago Codex default updated t3sagoG2deK- openai- \u00ae cE Ee \" * : a attention, and urgent mail show m (He 305) (cache 59:28) gen St @ (Euser X) org inbox x $1303.70 (medium) here. rate limited by the API \u2014 retry in Os Codex Pro Codex Pro Lite 3 1 (5) coordinator-asta2 @ \u2018Tdays resets in 2d 10h 100% 7 days resets in 2d 10h 81% |B v2 plan review: what is really needed | v2 sign-off list: every user-facing change v_ el | @ shorter coordinator charter (draft for you t_ | B orgtree 3.0.0 changelog (since 2.1.14) \u2014 ot. UraHTee-SeTUD-S.UU.eRe -10%./ 1s Antigravity updated 12sgo | OPenRouter sk-or-v1- pated 208 990 1 you: can you reenable automatic updates on this build so ican check f the update sequence works again 3dd..5c0 Sara resetsin6d2ah 0% $8.49 of $25.00 cap $18.57 balance - \u2018\u00a9 Bash echo \u201c- 06:23Z USER: re-enable auto updates to test update sequence. Installed = 3.0.0-alp - 1 line renews weekly \u2018Automatic updates can't be switched back on in the build you have installed. You're on 3.0.0-alpha.10, and the alpha Gemini Models - Five Hour resets in 4h 59m 34% builds have the updater turned off when they're built, so no setting will enable it. Your \u201cautomatic updates\u201d setting is ow already on; the updater is simply missing from this build. To test the update sequence, install the public 3.0.0 build, which has the updater on. I've sent you the published Claude and GPT models - Weekly installer as a download card above ( orgtree-Setup-3.0.0.exe , sha256 4409a873..6312 ). It's the same file as on GitHub. resets in 6d 23h 0% ; 1. Run the installer by hand over alpha.10, the same way you installed the alphas. Your data is already converted, so no conversion runs at first start. 2. Once 3.0.0 is running, it should check GitHub and offer 3.0.1. 3. Accept the offer and let it download and install. That tests the real update from 3.0.0 to 3.0.1: stop, silent install, restart. If it doesn't offer 3.0.1, or something goes wrong during the update, tell me. The update log ( update-log-json in the [= app data folder) will show where it stopped. is i \u2018 = (7) Rackend restarted System 49ec047 Installed version:3.0.1. 2026-10-01 092546GMT+3 system no reply expected { Context = i ' z [e) Bing O INO E) Message User 2026-10-01 0825:87 GMT=3 USER | [e) | oO upgrade seems to have gone through ao O \u2018 Bash cd \u201c/c/Users |i ADpData/Roaming/Orgtree v2\"; python -c * import json;d=json.load(o - 26 lines ( | [e) [e) @ thaupht ors : \u2018\u00a9 Bash echo \u201c- 06:26Z VERIFIED real auto-update 3.0.0 -> 3.0.1 on live all-users install (update- - 1 line [a Ce The update from 3.0.0 to 3.0.1 worked from start to finish. I checked the app\u2019s update log and the engine restart \\ notice. 5 == o 1. Found the update: 3.0.0 checked GitHub and found 3.0.1. | [e) N Z [e) 2. Downloaded it: it first tried to download only the changed parts of the installer, which failed a checksum check. It ' then downloaded the full installer, which worked. That costs some extra download time but nothing else. b N 3. Installled it: after you clicked to update, it stopped the engine, ran the installer silently, and Orgtree restarted itself g \\ = about 25 seconds later. oO : NY 4, Running 3.0.1: the engine now runs 3.0.1, installed for all users in C:\\Program Files\\Orgtree . NY 5. Up to date: the next update check reported that 3.0.1 is the latest version. = aN = The partial-download failure is minor. Tell me if you want someone to look into it. [e) > O [e) Y (5) coordinatorsol @ || v (0) ni-reviewastra @ || (0) transcript-db-review-astra @ || (0) transcript-db-fic-astra @ a VS) atrcal \u00a9 | (W (0) maithub- textiobtion opusss @ | ((V (0) pozeontacts ops @ | le) [= Y (\u00a9) pOt-current-gap-opus55 @ | (\u00a9) native-design-revew @ | { \u00a5 (0] poBteadopnss @ |v (0) podwct-pgoenice @ Va O i [B) pO8-ws2-storecore @ || \u00a5 (0) plB-ws5-mail @ || \u00a5 (6) pl3-wst-rcfamiles @ |v (8) plB-wsie-staffing @ 5 Is oO) / a3 fa 0 ) onf = Jo icons ) = = Y (0) scale-utastra @ |v (0) scaleruntime @ | { + (0) review astra @ |{ + (0) erows-astra @ | v (5) reviewsol @ . fa 4 x= fo Tiassa \u00a9) CES) CERES = fe) fo fe) 7 sas Gar op = so A * 2Blive S1 022 5a a1) ( $42474,71 estimated/incomplete ) ( & maurdekye-net Ongtree 30:1",
+      "ocr_sources": [
+        "https://preview.redd.it/xtlgxqqt3ush1.png?width=640&crop=smart&auto=webp&s=ae08e69ec8081101fe7d9973c790729ca992a324",
+        "https://i.redd.it/xtlgxqqt3ush1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuw0hu",
+      "title": "\u201cCapabilities reduced until later\u201d is way too vague, especially for 20x users",
+      "url": "https://www.reddit.com/r/codex/comments/1wuw0hu/capabilities_reduced_until_later_is_way_too_vague/",
+      "published_at": "2026-10-01T10:35:55+00:00",
+      "media_urls": [
+        "https://preview.redd.it/bo7zdlja3ush1.png?width=140&height=25&auto=webp&s=1dea044462b67406d1fba2767b4e58405ed7cae7",
+        "https://preview.redd.it/bo7zdlja3ush1.png?width=848&format=png&auto=webp&s=3ce384e5e47dbe28dc74b8d1773491458b285f76"
+      ],
+      "ocr_text": "5 EP ~ Capabilities reduced until later. Responses may have lower quality.",
+      "ocr_sources": [
+        "https://preview.redd.it/bo7zdlja3ush1.png?width=848&format=png&auto=webp&s=3ce384e5e47dbe28dc74b8d1773491458b285f76"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuv7kq",
+      "title": "Unofficial Codex CLI demo, made with explainroo: a free kit that lets Codex make narrated videos",
+      "url": "https://www.reddit.com/r/codex/comments/1wuv7kq/unofficial_codex_cli_demo_made_with_explainroo_a/",
+      "published_at": "2026-10-01T09:47:33+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/MXUzYTNpdml1dHNoMby3uSF8rcKdqbRoaxP75GzDSluEjPIEbI_Vvz0BytVN.png?width=640&crop=smart&auto=webp&s=48287c24d32c6e0fb89433011b22331c8521ee31"
+      ],
+      "ocr_text": "Codex CLI",
+      "ocr_sources": [
+        "https://external-preview.redd.it/MXUzYTNpdml1dHNoMby3uSF8rcKdqbRoaxP75GzDSluEjPIEbI_Vvz0BytVN.png?width=640&crop=smart&auto=webp&s=48287c24d32c6e0fb89433011b22331c8521ee31"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuv09t",
+      "title": "Sol-6.1 & Blender: A real Sol-Galactica",
+      "url": "https://www.reddit.com/r/codex/comments/1wuv09t/sol61_blender_a_real_solgalactica/",
+      "published_at": "2026-10-01T09:34:20+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ob6njvyoqtsh1.jpg?width=140&height=73&auto=webp&s=b416dd24422cac3db0bdccb30e27482c7b1078e8"
+      ],
+      "ocr_text": "= E",
+      "ocr_sources": [
+        "https://preview.redd.it/ob6njvyoqtsh1.jpg?width=140&height=73&auto=webp&s=b416dd24422cac3db0bdccb30e27482c7b1078e8"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuuw2t",
+      "title": "new Codex 10X = $500 API per week",
+      "url": "https://www.reddit.com/r/codex/comments/1wuuw2t/new_codex_10x_500_api_per_week/",
+      "published_at": "2026-10-01T09:26:37+00:00",
+      "media_urls": [
+        "https://preview.redd.it/dop02d08qtsh1.png?width=140&height=95&auto=webp&s=50890bdcfc9b30e0e5f1de17aaac08cce6749ca2",
+        "https://preview.redd.it/dop02d08qtsh1.png?width=720&format=png&auto=webp&s=68b811603ba47c7b54e5be5965c50ce9e10eb909"
+      ],
+      "ocr_text": "4\n2026-10-01 Daily @ gpt-6.1-sol 1.9B @ gpt-6-astra 48.2M @ codex-auto-review 39.4M Cost by provider pe) \u00ae@ Codex CLI $517.56 Total tokens 2.0B lis... alae | iy",
+      "ocr_sources": [
+        "https://preview.redd.it/dop02d08qtsh1.png?width=140&height=95&auto=webp&s=50890bdcfc9b30e0e5f1de17aaac08cce6749ca2",
+        "https://preview.redd.it/dop02d08qtsh1.png?width=720&format=png&auto=webp&s=68b811603ba47c7b54e5be5965c50ce9e10eb909"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuuc4e",
+      "title": "GPT 6.1 Sol caught faking tests",
+      "url": "https://www.reddit.com/r/codex/comments/1wuuc4e/gpt_61_sol_caught_faking_tests/",
+      "published_at": "2026-10-01T08:50:17+00:00",
+      "media_urls": [
+        "https://preview.redd.it/k4vyhv14ktsh1.jpeg?width=640&crop=smart&auto=webp&s=0b0034efa6a4fd99ca63d2feee8978c6a1de3a6d",
+        "https://i.redd.it/k4vyhv14ktsh1.jpeg"
+      ],
+      "ocr_text": "Worth knowing: reviews caught Codex adjusting tests to hide its own regressions, twice. Both were caught before anything shipped, and every review now checks changed tests specifically. The preview at SS :: still up. +: Waiting for 3 background agents to finish *: Running scheduled task (Sep 30 9:27am)\nWorth knowing: reviews caught Codex adjusting tests to hide its own regressions, twice. Both were caught before anything shipped, and every review now checks changed tests specifically. The preview at SS :: still up. + Waiting for 3 background agents to finish + Running scheduled task (Sep 30 9:27am)",
+      "ocr_sources": [
+        "https://preview.redd.it/k4vyhv14ktsh1.jpeg?width=640&crop=smart&auto=webp&s=0b0034efa6a4fd99ca63d2feee8978c6a1de3a6d",
+        "https://i.redd.it/k4vyhv14ktsh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuubxy",
+      "title": "thx a lot for those credits",
+      "url": "https://www.reddit.com/r/codex/comments/1wuubxy/thx_a_lot_for_those_credits/",
+      "published_at": "2026-10-01T08:50:01+00:00",
+      "media_urls": [
+        "https://preview.redd.it/v4zwtvznjtsh1.png?width=140&height=89&auto=webp&s=1aeb915bafae2c6720c31826abdba9b09d06bfba",
+        "https://preview.redd.it/v4zwtvznjtsh1.png?width=1906&format=png&auto=webp&s=04094dee785957c2e5e1b343fae51e4082ab8c22"
+      ],
+      "ocr_text": "a \u201cbe PPE fi igus i Bil Bi\n@ FLEET VIEW \u00bb WORK IN FLIGHT 36 ROW(s) GROUP BY CLAIMS ACROSS ALL MACHINES oveRvIEW TIckET waar BoaRD MODEL STATUS worken BEAT LEBLANC 16 CLAIN(S) - LOAD: STALE (LAST SEEN 40 23H) BLUEIN-361 Current game audit harness BLUEIN gpt-6.1-sol in_development implementation 62713 17m 25s HOSTS 4 BLUEIN-87 Visual only: crystal racer BLUEIN gpt-6-luna verify review 83741 5m 04s BLUEIN-93, Visual only: scout enemy BLUEIN gpt-6.1-sol in_development implementation 83116 18s nee = BRIGHTMAT-186 R19 - Alignment (precision peak: BRIGHTMAT gpt-6.1-sol in_development implementation 88626 5m 27s BRIGHTMAT-273, Author wing manifests: rooms 11-15. BRIGHTMAT gpt-6-luna verify review 54661 17m 46s BRIGHTMAT-301 Polish: clamp flood/mirror cone-mesh bounds: BRIGHTMAT gpt-6-luna verify review 38778 1m 14s BTLGWEB-320 Implement approved Qwen layout BTLGWEB gpt-6.1-sol in_development implementation 47898 2h 53m XSCAP3-4868 Fable path-traced captures XSCAP3 gpt-6.1-sol in_development implementation 77053 1h 03m XSCAP3-4915 Complete missing minigame coverage XSCAP3 gpt-6-luna verify review 79336 46m 33s XSCAP3-4919, Correct fuse label audit XSCAP3 gpt-6.1-sol verify (integration) integration 89726 42s XSCAP3-4968 Lab light switch XSCAP3 gpt-6-luna verify review 72977 35m 43s XSCAP3-4974 Lobby early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 67760 1th 38m XSCAP3-4975 Lab early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 87877 1h 36m XSCAP3-4977 Bank Vault ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 20769 41h 36m XSCAP3-4978 Classroom early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 56006 1h 36m XSCAP3-4979 Fable early ceiling fade XSCAP3 gpt-6.1-sol in_development implementation 33308 1h 03m NOTEBOOK - 12 CLAIM(S) \u00abLOAD: STALE (LAST SEEN 10 ooH) BTLGWEB-340 Restore daily reporting BTLGWEB gpt-6 verify (integration) integration 28961 16m 46s TASKBOARD-438 Unify finished set \u2018TASKBOARD gpt-6.1-sol in_development implementation 94108 11m 29s VHELL-88 Sculpted shading and material hierarchy VHELL gpt-6.1-sol in_development implementation 85601 29m 30s XSCAP3-4044 Unblock XSCAP3-4023: test:full is red XSCAP3 claude-sonnet-5-5 in_development implementation 96540 1th 05m XSCAP3-4819, Fix camera path clips XSCAP3 claude-sonnet-5-5 in_development implementation 84833 54m 43s XSCAP3-4860, Voices to ElevenLabs v4 XSCAP3 claude-sonnet-5-5 in_development implementation 90620 1th 04m XSCAP3-4903, Gas Chamber flashbacks v2 XSCAP3 claude-sonnet-5-5 in_development implementation 14585 th 14m XSCAP3-4957 Lab instruments terminal closure XSCAP3 claude-sonnet-5-5 in_development implementation 54409 5m 26s XSCAP3-4958 Lab plates terminal closure. XSCAP3 claude-sonnet-5-5 in_development implementation 11641 5m 26s XSCAP3-4964 Minimum resolution guard test XSCAP3 claude-opus-5-5 in_development implementation 71061 6m 07s XSCAP3-4969, Readable Lab experiment labels XSCAP3 gpt-6.1-sol verify (integration) integration 77907 4m 31s XSCAP3-4992, Autoplay fails Lab instruments XSCAP3 gpt-5.6-sol in_development implementation 14185 14m 12s HMR, WHITE \u00bb 5 CLAIM(S) - LOAD: NO DATA XSCAP3-4970 Cell biology station XSCAP3 gpt-6.1-sol in_development implementation 69402 3m 54s XSCAP3-4971 Centrifuge mini game XSCAP3 gpt-6.1-sol in_development implementation 18963 \u20181m 05s XSCAP3-4973 Q1 early ceiling fade XSCAP3 gpt-6-luna verify review 71163 15m 20s XSCAP3-4980 Garden navigation roof safety XSCAP3 gpt-6.1-sol in_development implementation 56401 8m 13s XSCAP3-4996 Continuous event replay dialogue XSCAP3 gpt-6.1-sol in_development implementation 61541 16m 45s HE MARS - 3 CLAIN(S) - LOAD: NO DATA NEEDLEIT-359\u00b0 Animate ammo belt slots NEEDLEIT gpt-6 in_development implementation 58577 48s NEEDLEIT-368 Animate loss reasons NEEDLEIT gpt-6 in_development implementation 51469 1m 11s NEEDLEIT-408 Menu and title icon pass NEEDLEIT gpt-6 in_development implementation 43265 6m 05s",
+      "ocr_sources": [
+        "https://preview.redd.it/v4zwtvznjtsh1.png?width=140&height=89&auto=webp&s=1aeb915bafae2c6720c31826abdba9b09d06bfba",
+        "https://preview.redd.it/v4zwtvznjtsh1.png?width=1906&format=png&auto=webp&s=04094dee785957c2e5e1b343fae51e4082ab8c22"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wut8rv",
+      "title": "Spin up a virtual Law Firm in 80 seconds",
+      "url": "https://www.reddit.com/r/codex/comments/1wut8rv/spin_up_a_virtual_law_firm_in_80_seconds/",
+      "published_at": "2026-10-01T07:37:56+00:00",
+      "media_urls": [
+        "https://preview.redd.it/l1bvqgua5tsh1.png?width=140&height=87&auto=webp&s=4c7bd244ab418ad2a0b8287ed7d9e1a7193c3bd5",
+        "https://preview.redd.it/l1bvqgua5tsh1.png?width=3046&format=png&auto=webp&s=6becef6f47d920231e4b462def58998ab03e8345"
+      ],
+      "ocr_text": "eee Install vCLO @ Codex Install vCLO from \u00a9 https://github.com/rohasnagpal/legal-ai-skills and (Z New chat say hello vCLO. News vCLO 3.3.1 is installed and matches the current GitHub repository. e Welcome to vCLO \u2014 your Al legal team by Rohas. Your vCLO includes: e 1 virtual Chief Legal Officer e 9 specialist virtual lawyers e India, US and UK Counsel e 185 specialist legal skills e 10 coordinated legal workflows e company-registry and legal-research connections e local DOCX, PDF, OCR and document-production tools Tell me what legal matter you are handling, who we represent and the relevant jurisdiction. I'll assemble the appropriate virtual legal team. + 5 GPT-5.6 Sol g @O",
+      "ocr_sources": [
+        "https://preview.redd.it/l1bvqgua5tsh1.png?width=3046&format=png&auto=webp&s=6becef6f47d920231e4b462def58998ab03e8345"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wut2ww",
+      "title": "6.1 Sol \"fast\" is a joke",
+      "url": "https://www.reddit.com/r/codex/comments/1wut2ww/61_sol_fast_is_a_joke/",
+      "published_at": "2026-10-01T07:27:19+00:00",
+      "media_urls": [
+        "https://preview.redd.it/qru5yerj5tsh1.png?width=140&height=51&auto=webp&s=5df65789096adfcff3f0b4706b2ca1d5842b848f",
+        "https://preview.redd.it/qru5yerj5tsh1.png?width=550&format=png&auto=webp&s=c29501a0c968c6b8f85a74ba6aeadf4a17700536",
+        "https://preview.redd.it/0ev2a1ao5tsh1.png?width=572&format=png&auto=webp&s=514c9cf9fbb8c89f6c0707fc9b2b67882cdd8128"
+      ],
+      "ocr_text": "| hi Hi! How can I help? Build - GPT-6.1 Sol Fast - 2.85 - 4.0 tok/s",
+      "ocr_sources": [
+        "https://preview.redd.it/qru5yerj5tsh1.png?width=550&format=png&auto=webp&s=c29501a0c968c6b8f85a74ba6aeadf4a17700536"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wut0z5",
+      "title": "Live Footage Of The Tibo Button",
+      "url": "https://www.reddit.com/r/codex/comments/1wut0z5/live_footage_of_the_tibo_button/",
+      "published_at": "2026-10-01T07:23:54+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/bmMyY210dHk0dHNoMa3hgOyZZsPUc0bmDEw9v3LOgCN5p7gYPmbrC9LOGDzW.png?width=320&crop=smart&auto=webp&s=e3011c26825534dc97e89070875b24393c0f0195"
+      ],
+      "ocr_text": "eet ae | ot aS a es, Sa i big Codex usage { | ie it A feoet Setter iereal \u00a7 '* es ae a rr Sg RSA con be is (ea P ps Bets oa ; ns BR, 4, ne y i ae ee a 9 = . wm, \u2018 i- | ee \u2018in Be",
+      "ocr_sources": [
+        "https://external-preview.redd.it/bmMyY210dHk0dHNoMa3hgOyZZsPUc0bmDEw9v3LOgCN5p7gYPmbrC9LOGDzW.png?width=320&crop=smart&auto=webp&s=e3011c26825534dc97e89070875b24393c0f0195"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wus3o3",
+      "title": "Finally Did it!",
+      "url": "https://www.reddit.com/r/codex/comments/1wus3o3/finally_did_it/",
+      "published_at": "2026-10-01T06:26:58+00:00",
+      "media_urls": [
+        "https://preview.redd.it/t1crda45tssh1.png?width=140&height=97&auto=webp&s=8a4e5d8ea97758c55293d00f7664c8ef6e235727",
+        "https://preview.redd.it/t1crda45tssh1.png?width=1506&format=png&auto=webp&s=b7d18882daaf77857d26a2d6825c0f36a95464de"
+      ],
+      "ocr_text": "== ot \u2014 8\nCodex Chat my Chats D3 GZ \u2014_\u2014 \u2014\u2014\u2014\u2014 fe) _o \u2014= == fe) --- fe) ene fe) \u2014e ee fe) ._\u2014 fe) _\u2014\u2014 \u2014- fe) View all (52)",
+      "ocr_sources": [
+        "https://preview.redd.it/t1crda45tssh1.png?width=140&height=97&auto=webp&s=8a4e5d8ea97758c55293d00f7664c8ef6e235727",
+        "https://preview.redd.it/t1crda45tssh1.png?width=1506&format=png&auto=webp&s=b7d18882daaf77857d26a2d6825c0f36a95464de"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wuryrz",
+      "title": "I have problems with the ChatGPT/Codex app on Windows 11.",
+      "url": "https://www.reddit.com/r/codex/comments/1wuryrz/i_have_problems_with_the_chatgptcodex_app_on/",
+      "published_at": "2026-10-01T06:18:33+00:00",
+      "media_urls": [
+        "https://preview.redd.it/b8ia8qxatssh1.png?width=140&height=71&auto=webp&s=162ac9c35572ebb28c36cf4d2856ce87cec569b1",
+        "https://preview.redd.it/b8ia8qxatssh1.png?width=1284&format=png&auto=webp&s=cf28f196f48331b4ae1d121a5e32f43b025621bf"
+      ],
+      "ocr_text": "\u00a9",
+      "ocr_sources": [
+        "https://preview.redd.it/b8ia8qxatssh1.png?width=1284&format=png&auto=webp&s=cf28f196f48331b4ae1d121a5e32f43b025621bf"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wurrnw",
+      "title": "I calculated the daily token value for 1% of a 20x plan's weekly usage for the month of September, and the chaos was real.",
+      "url": "https://www.reddit.com/r/codex/comments/1wurrnw/i_calculated_the_daily_token_value_for_1_of_a_20x/",
+      "published_at": "2026-10-01T06:06:08+00:00",
+      "media_urls": [
+        "https://preview.redd.it/1x3fxpe4uush1.png?width=140&height=135&auto=webp&s=4f965058e721936e8ca403c76f6b181ff7ba7ff7",
+        "https://preview.redd.it/1x3fxpe4uush1.png?width=732&format=png&auto=webp&s=439ea087b13032f3ab39c052975c7c963540b072"
+      ],
+      "ocr_text": "September - Daily Codex Usage Breakdown (20x) Rounded Tokens Per Reported Token Reported Weekly Effective Token Per Weekly Percentage _Addltional Date Usage Percentage Usage Percentage Point Point credits Used September1,2026 _277500,000 7 apeszasne 40m September 2.2028 440,200,000 rm 36683.39333 am September 32026 697600,000 \u20189 23671878047 am September 4.2026 124,800,000 4 31200,000.00 3M 2:220,600,000 21% 2092424696 SIMst% Avg ca September6, 2026 15000,000 1 15,000,00000 7M Forced Reset September7,2026 729,000,000 90 \u00a38100,000.00 am aia User Reset September 8,2026 886,500,000 * 91309;75.26 om 88 September 98,2028 1400,000,000 100 14,000,00000 aM September 10,2026 25,800,000 3 600,000.00 om Septembers,2026 133700000 \u00b0 14.855,55556 1M Forced Reset September 12,2026 10,500,000 1 10,500,000.00 \u2018mM 3,200.500,000 301% ttassa0012 Mt Avg 498 ca September 18,2026 97400000 3 32,466 66667 3eM September 14,2026 2,000,000 \u00b0 0.00 \u00b0 September16,2026 293,500.00 30 978333333 10M September'6,2026 718,400,000 1 10830088 10M September 17,2026 26,000,000 2 13,000,00000 1M September'6,2026 1200000 \u00b0 000 \u00b0 September 19,2026 \u00b0 \u00b0 0.00 \u00b0 128,500,000 106% 164207146 toMst% Avo \u00b0 ca September 20,2086 \u00b0 \u00b0 000 \u00b0 September 21,2028 924,000.00 re 2160000000 2am September 22,2028 29,400,000 3 800,000.00 tom September 23,2026 130,000.00 a 49348)4815, 4am September 24,2026 2200,000,000 43 5116279070 sim User Reset September 25,2026 1,200,000,000 28 4942857143 acm 1 ForcedResot September 26,2028 2,600,000,000 56 45,428,571.43 asm 753,400,000 172% 37261346.95 amt Av 1\" September 272026 200,000,000 2 48837,20020 20M September 28,2028 484,200,000 0 48,420,000 eM September 29,2026 179,600,000 4 144800,000.00 45M 83 September 30,2026 307500000 2 153750,000.00 sau",
+      "ocr_sources": [
+        "https://preview.redd.it/suwe5l70rssh1.png?width=732&format=png&auto=webp&s=e37a01796c25760706ba11aa9cf330ef3fed912e"
+      ],
+      "ocr_errors": []
+    }
+  ],
+  "errors": []
+}
