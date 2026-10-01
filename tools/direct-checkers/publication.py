@@ -8,7 +8,7 @@ protection while preserving immutable snapshot trees and existing consumer branc
 """
 from __future__ import annotations
 import argparse,datetime as dt,hashlib,json,pathlib,re
-from dataclasses import dataclass
+from dataclasses import dataclass,replace
 from runner import content_hash,now,parse,read,source_health
 
 REPOSITORY='Happypig375/actions-experiment'
@@ -19,6 +19,18 @@ FEEDS={
 }
 SHA=re.compile(r'^[0-9a-f]{40}$')
 FORBIDDEN_KEYS={'access_token','refresh_token','authorization','cookie','cookies','password','api_key','apikey','credentials','oauth_state','account_id','fivehour','weekly','ratelimits'}
+# Conservative publication withholding, not exhaustive secret/privacy certification.
+# This reviewed screenshot must stay withheld even if later OCR omits the risky text.
+MEDIA_WITHHELD_IDS=frozenset({'t3_1wuw268'})
+MEDIA_SENSITIVE_PATTERNS=tuple(re.compile(pattern,re.I) for pattern in (
+ r'\b(?:sk-|gh[opsu]_|github_pat_|xox[baprs]-|AIza|AKIA[A-Z0-9]{16})',
+ r'BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY',
+ r'(?:password|api[_ -]?key|access[_ -]?token|authorization)\s*[:=][\s\"\']*[A-Za-z0-9+/_=-]{8,}',
+ r'\bbearer\s+(?:[A-Za-z0-9+/_=-][\r\n]*){20,}',
+ r'\b(?:account|wallet|credit|prepaid|remaining)\s+(?:balance|spend|spending|credits)\b|\b(?:spent|spend|usage charges)\s*[:=]\s*\$[0-9.,]+|\$[0-9.,]+\s*(?:of\s*\$[0-9.,]+\s*cap|balance)\b',
+ r'USER:|AppData|Program Files|Message User|[A-Z]:[\\/]+Users[\\/]|/(?:Users|home)/[^/\s]+/',
+ r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b',
+))
 class PublishBlocked(RuntimeError):pass
 class RefRejected(RuntimeError):pass
 class RefUncertain(RuntimeError):pass
@@ -43,7 +55,39 @@ class Candidate:
  generated_at:str
  snapshot_sha256:str
  files:dict[str,str]
+ source_snapshot_sha256:str|None=None
  def tree_elements(self):return [{'path':p,'mode':'100644','type':'blob','content':self.files[p]} for p in sorted(self.files)]
+
+def _files_hash(files):
+ h=hashlib.sha256()
+ for path,content in sorted(files.items()):h.update(path.encode()+b'\0'+content.encode()+b'\0')
+ return h.hexdigest()
+
+def _media_privacy_flag(value):
+ if isinstance(value,str):return any(identity in value for identity in MEDIA_WITHHELD_IDS) or any(pattern.search(value) for pattern in MEDIA_SENSITIVE_PATTERNS)
+ if isinstance(value,dict):return any(_media_privacy_flag(key) or _media_privacy_flag(item) for key,item in value.items())
+ if isinstance(value,list):return any(_media_privacy_flag(item) for item in value)
+ return False
+
+def _prepare_media_publication(candidate):
+ """Derive public bytes without changing the immutable acquisition or its pointer."""
+ if set(candidate.files)!=set(FEEDS['media']['paths']):raise PublishBlocked('Unexpected media publication file')
+ docs={path:json.loads(text) for path,text in candidate.files.items()}
+ view=docs['views/reddit_media.json'];index=docs['index.json'];items=view.get('items',[])
+ if not isinstance(items,list) or any(not isinstance(item,dict) for item in items):raise PublishBlocked('Malformed media candidates')
+ excluded=[item for item in items if _media_privacy_flag(item)]
+ if not excluded:return candidate
+ view['items']=[item for item in items if not _media_privacy_flag(item)]
+ privacy={'excluded_candidate_count':len(excluded),'reason':'Potentially sensitive screenshot content withheld','acquisition_coverage_complete':True}
+ for doc in docs.values():doc['publication_privacy']=privacy.copy()
+ index['candidate_count']=len(view['items']);index['ocr_candidate_count']=sum(bool(item.get('ocr_text')) for item in view['items'])
+ if not view['items']:index['status']='empty'
+ files={path:json.dumps(doc,indent=2,ensure_ascii=False)+'\n' for path,doc in docs.items()}
+ remaining='\n'.join(files.values())
+ for item in excluded:
+  references=[item.get('id'),item.get('url'),item.get('ocr_text'),*(item.get('media_urls') or []),*(item.get('ocr_sources') or [])]
+  if any(isinstance(value,str) and value and json.dumps(value,ensure_ascii=False)[1:-1] in remaining for value in references):raise PublishBlocked('Withheld media content remains outside its candidate')
+ return replace(candidate,files=files,snapshot_sha256=_files_hash(files),source_snapshot_sha256=candidate.snapshot_sha256)
 
 def validate_candidate(candidate:Candidate):
  if candidate.key not in FEEDS or candidate.branch!=FEEDS[candidate.key]['branch']:raise PublishBlocked('Unapproved feed or branch')
@@ -77,6 +121,14 @@ def validate_candidate(candidate:Candidate):
   index=docs['index.json']
   if index.get('view_path')!='views/reddit_media.json' or index.get('status') not in ('ok','empty') or index.get('errors'):raise PublishBlocked('Reddit OCR source index mismatch or unhealthy')
   if doc.get('errors') or any(i.get('ocr_errors') for i in doc.get('items',[])):raise PublishBlocked('Incomplete Reddit OCR source')
+  if _media_privacy_flag(docs):raise PublishBlocked('Potentially sensitive media content requires withholding or review')
+  privacy=index.get('publication_privacy')
+  if privacy is not None:
+   if not isinstance(privacy,dict) or set(privacy)!={'excluded_candidate_count','reason','acquisition_coverage_complete'}:raise PublishBlocked('Unexpected public privacy metadata')
+   count=privacy.get('excluded_candidate_count')
+   if type(count) is not int or count<1 or privacy.get('acquisition_coverage_complete') is not True:raise PublishBlocked('Invalid privacy withholding metadata')
+   if doc.get('publication_privacy')!=privacy or index.get('candidate_count')!=len(doc.get('items',[])) or index.get('ocr_candidate_count')!=sum(bool(i.get('ocr_text')) for i in doc.get('items',[])):raise PublishBlocked('Inconsistent media privacy counts')
+   if not candidate.source_snapshot_sha256 or not re.fullmatch(r'[0-9a-f]{64}',candidate.source_snapshot_sha256) or candidate.snapshot_sha256!=_files_hash(candidate.files):raise PublishBlocked('Missing or invalid derived media provenance')
  return candidate
 
 def prepare_candidate(state:pathlib.Path,key:str):
@@ -90,7 +142,9 @@ def prepare_candidate(state:pathlib.Path,key:str):
  files={str(p.relative_to(snapshot)):p.read_bytes().decode('utf-8') for p in snapshot.rglob('*') if p.is_file()}
  rows=source_health(read(snapshot/'index.json'),snapshot)
  if not rows or any(s['status']!='ok' for s in rows):raise PublishBlocked('Partial/unavailable source cannot be published during cutover')
- return validate_candidate(Candidate(key,FEEDS[key]['branch'],pointer['generated_at'],pointer['sha256'],files))
+ candidate=Candidate(key,FEEDS[key]['branch'],pointer['generated_at'],pointer['sha256'],files)
+ if key=='media':candidate=_prepare_media_publication(candidate)
+ return validate_candidate(candidate)
 
 class Publisher:
  """Backend: head(branch), file(commit,path), tree(elements), commit(tree,parent,message), update(branch,sha,force=False)."""
@@ -136,6 +190,7 @@ def main():
  p=argparse.ArgumentParser();p.add_argument('key',choices=FEEDS);p.add_argument('--state',default=str(pathlib.Path(__file__).parent/'runtime'));p.add_argument('--output');a=p.parse_args()
  c=prepare_candidate(pathlib.Path(a.state).resolve(),a.key)
  plan={'repository':REPOSITORY,'key':c.key,'branch':c.branch,'generated_at':c.generated_at,'snapshot_sha256':c.snapshot_sha256,'files':c.files,'tree_elements':c.tree_elements(),'publication_mode':'parented-fast-forward-only','remote_writes_performed':False}
+ if c.source_snapshot_sha256:plan['source_snapshot_sha256']=c.source_snapshot_sha256
  text=json.dumps(plan,indent=2)+'\n'
  if a.output:pathlib.Path(a.output).write_text(text)
  else:print(text,end='')

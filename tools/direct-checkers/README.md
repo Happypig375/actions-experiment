@@ -1,5 +1,7 @@
 # Direct public-source checkers
 
+Reddit media publication derives a separate public view from the immutable acquisition. Reviewed risky screenshots and conservative credential/account-detail matches are withheld as complete items, with accurate candidate counts and privacy-exclusion metadata distinct from acquisition health. Raw local snapshots and their timestamps remain unchanged. A final publication check blocks remaining suspect content; this heuristic guard is not exhaustive privacy or secret detection and does not replace review of uncertain content.
+
 Finite, token-free acquisition commands extracted from this repository's existing public workflows. This directory creates no cron, daemon, scheduled task, webhook, or notification. An external caller invokes the required collector and reads its health.
 
 The existing public snapshot branches remain the consumer interface. Consumers continue resolving a branch to an immutable commit SHA, then read `index.json` and all selected views at that same SHA. This runner can produce those same compact JSON views locally; an explicitly authorized connector publication step publishes verified outputs.

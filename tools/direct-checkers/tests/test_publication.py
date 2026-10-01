@@ -688,5 +688,127 @@ class ConnectorHostTemplateTests(PublicationCase):
         self.assertEqual(result['initial'], result['head'])
 
 
+class MediaPrivacyTests(PublicationCase):
+    def with_items(self, items, **view_extra):
+        c = candidate('media')
+        c = changed_document(c, 'views/reddit_media.json', lambda d: d.update(items=items, **view_extra))
+        return changed_document(c, 'index.json', lambda d: d.update(
+            candidate_count=len(items), ocr_candidate_count=sum(bool(i.get('ocr_text')) for i in items)))
+
+    def derive(self, c):
+        return publication.validate_candidate(publication._prepare_media_publication(c))
+
+    def test_known_item_is_withheld_even_when_ocr_looks_safe(self):
+        risky = {'id': next(iter(publication.MEDIA_WITHHELD_IDS)), 'url': 'https://example.org/reviewed',
+                 'ocr_text': 'No risky words survived this OCR run', 'media_urls': ['https://example.org/image'],
+                 'ocr_sources': ['https://example.org/ocr'], 'ocr_errors': []}
+        safe = {'id': 'safe', 'url': 'https://example.org/safe', 'ocr_text': 'Public product demonstration', 'ocr_errors': []}
+        original = self.with_items([risky, safe])
+        before = dict(original.files)
+        derived = self.derive(original)
+        self.assertEqual(before, original.files)
+        self.assertEqual(original.snapshot_sha256, derived.source_snapshot_sha256)
+        self.assertNotEqual(original.snapshot_sha256, derived.snapshot_sha256)
+        self.assertEqual(derived.snapshot_sha256, publication._files_hash(derived.files))
+        self.assertEqual(original.generated_at, derived.generated_at)
+        output = '\n'.join(derived.files.values())
+        for value in (risky['id'], risky['url'], risky['ocr_text'], *risky['media_urls'], *risky['ocr_sources']):
+            self.assertNotIn(value, output)
+        index = json.loads(derived.files['index.json'])
+        view = json.loads(derived.files['views/reddit_media.json'])
+        self.assertEqual([safe], view['items'])
+        self.assertEqual((1, 1), (index['candidate_count'], index['ocr_candidate_count']))
+        self.assertEqual(1, index['publication_privacy']['excluded_candidate_count'])
+        self.assertEqual(index['publication_privacy'], view['publication_privacy'])
+        self.assertEqual('ok', index['status'])
+
+    def test_sensitive_item_fields_are_withheld_without_echoing_values(self):
+        for text in ['sk-example-truncated', 'Account balance is hidden', 'C:\\Users\\example\\private',
+                     'Message User confidential transcript', 'contact@example.org', 'BEGIN PRIVATE KEY',
+                     'api_key: syntheticexamplevalue']:
+            with self.subTest(category=text.split()[0]):
+                c = self.with_items([{'id': 'synthetic', 'ocr_text': text, 'ocr_errors': []}])
+                with self.assertRaises(publication.PublishBlocked):
+                    publication.validate_candidate(c)
+                derived = self.derive(c)
+                index = json.loads(derived.files['index.json'])
+                self.assertEqual((0, 0, 'empty'), (index['candidate_count'], index['ocr_candidate_count'], index['status']))
+                self.assertTrue(index['publication_privacy']['acquisition_coverage_complete'])
+
+    def test_suspect_text_outside_items_fails_closed(self):
+        c = self.with_items([], diagnostic='sk-example-truncated')
+        with self.assertRaises(publication.PublishBlocked):
+            self.derive(c)
+
+    def test_quoted_and_multiline_ocr_is_scanned_before_json_escaping(self):
+        for text in ['api_key: "syntheticexamplevalue"', 'password:\nsyntheticexamplevalue',
+                     'prefix\nsk-example-truncated', 'Bearer abcdef1234\nsyntheticvalue5678']:
+            with self.subTest(form=text.split(':')[0]):
+                c = self.with_items([{'id': 'synthetic', 'ocr_text': text, 'ocr_errors': []}])
+                with self.assertRaises(publication.PublishBlocked):
+                    publication.validate_candidate(c)
+                self.assertEqual([], json.loads(self.derive(c).files['views/reddit_media.json'])['items'])
+
+    def test_withheld_reference_in_another_field_fails_closed(self):
+        c = self.with_items([{'id': next(iter(publication.MEDIA_WITHHELD_IDS)), 'ocr_text': 'reviewed string "quoted"'}],
+                            cache='reviewed string "quoted"')
+        with self.assertRaises(publication.PublishBlocked):
+            self.derive(c)
+
+    def test_ordinary_technical_words_are_not_credential_values(self):
+        c = self.with_items([{'id': 'safe', 'ocr_text': 'API tokens and bearer authentication overview', 'ocr_errors': []}])
+        self.assertEqual(c, self.derive(c))
+
+    def test_public_product_prices_and_cost_news_are_preserved(self):
+        for text in ['The public product price is $20/month', 'The model costs $1 per million tokens',
+                     'A good balance of speed and quality', 'Pricing starts at $25 with optional upgrades']:
+            with self.subTest(text=text):
+                c = self.with_items([{'id': 'safe', 'ocr_text': text, 'ocr_errors': []}])
+                self.assertEqual(c, self.derive(c))
+
+    def test_account_specific_balance_and_spend_are_withheld(self):
+        for text in ['Your account balance is $18.57', 'Wallet balance: $18.57', 'Spent: $12.34',
+                     '$18.57 balance', '$8.49 of $25.00 cap']:
+            with self.subTest(text=text):
+                c = self.with_items([{'id': 'synthetic', 'ocr_text': text, 'ocr_errors': []}])
+                self.assertEqual([], json.loads(self.derive(c).files['views/reddit_media.json'])['items'])
+
+    def test_count_or_provenance_tampering_is_blocked(self):
+        c = self.derive(self.with_items([{'id': next(iter(publication.MEDIA_WITHHELD_IDS)), 'ocr_text': 'reviewed'}]))
+        with self.assertRaises(publication.PublishBlocked):
+            publication.validate_candidate(dataclasses.replace(c, source_snapshot_sha256=None))
+        bad = changed_document(c, 'index.json', lambda d: d.update(candidate_count=99))
+        with self.assertRaises(publication.PublishBlocked):
+            publication.validate_candidate(bad)
+
+    def test_repeated_prepare_preserves_source_files_pointer_and_timestamp(self):
+        c = self.with_items([{'id': next(iter(publication.MEDIA_WITHHELD_IDS)), 'ocr_text': 'reviewed'}])
+        snapshot, pointer = self.store(c, mode='live-anonymous')
+        pointer_path = self.state / 'pointers' / 'media.json'
+        before_pointer = pointer_path.read_bytes()
+        before_files = {str(p.relative_to(snapshot)): p.read_bytes() for p in snapshot.rglob('*') if p.is_file()}
+        first = publication.prepare_candidate(self.state, 'media')
+        second = publication.prepare_candidate(self.state, 'media')
+        self.assertEqual(first, second)
+        self.assertEqual(pointer['sha256'], first.source_snapshot_sha256)
+        self.assertEqual(pointer['sha256'], publication.content_hash(snapshot))
+        self.assertEqual(before_pointer, pointer_path.read_bytes())
+        self.assertEqual(before_files, {str(p.relative_to(snapshot)): p.read_bytes() for p in snapshot.rglob('*') if p.is_file()})
+        self.assertEqual(c.generated_at, first.generated_at)
+
+    def test_privacy_exclusion_cannot_hide_failed_acquisition(self):
+        c = self.with_items([{'id': next(iter(publication.MEDIA_WITHHELD_IDS)), 'ocr_errors': ['failed OCR']}])
+        self.store(c, mode='live-anonymous')
+        with self.assertRaises(publication.PublishBlocked):
+            publication.prepare_candidate(self.state, 'media')
+
+    def test_direct_unsafe_publication_fails_before_any_remote_read_or_write(self):
+        c = self.with_items([{'id': 'synthetic', 'ocr_text': 'sk-example-truncated'}])
+        backend = FakeBackend()
+        with self.assertRaises(publication.PublishBlocked):
+            publication.Publisher(backend).publish(c)
+        self.assertEqual([], backend.calls)
+
+
 if __name__ == '__main__':
     unittest.main()
