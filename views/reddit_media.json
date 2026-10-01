@@ -1,10 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T16:26:54.831329Z",
+  "generated_at": "2026-10-01T17:09:35.860900Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wv4yk5",
+      "title": "gpt 6.1 sol got release and i still can't see it",
+      "url": "https://www.reddit.com/r/codex/comments/1wv4yk5/gpt_61_sol_got_release_and_i_still_cant_see_it/",
+      "published_at": "2026-10-01T17:03:09+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=140&height=62&auto=webp&s=4e74ea31ebc44ab489adc4f51ca9f1c579288739",
+        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=699&format=png&auto=webp&s=61792fce526a571f8092c32053a8cf7751637260",
+        "https://preview.redd.it/0qfkhzj40wsh1.png?width=1313&format=png&auto=webp&s=75df88a8050fc519c284e55c67232ad786338fe9"
+      ],
+      "ocr_text": "Select Model and Effort b 1. GPT-6-Astra (default) Frontier intelligence for the most_denanding work 2. GPT-6-Sol Previous generation workhorse model. 3. GPT-6-Luna Fast and affordable model for easier tasks. 4. GPT-5.6-SoL Older generation workhorse model. 5. GPT-5.6-Terra Older balanced model for straightforward work. 6. GPT-5.6-Luna Older fast and efficient model. 7. GPT-5.5 Legacy coding model. enter select - ese back",
+      "ocr_sources": [
+        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=699&format=png&auto=webp&s=61792fce526a571f8092c32053a8cf7751637260"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wv3kvl",
       "title": "I made a free Codex skill that turns PDFs into study pages with page references",
@@ -51,6 +67,22 @@
       "ocr_sources": [
         "https://preview.redd.it/50i90uxtpvsh1.jpeg?width=640&crop=smart&auto=webp&s=9cce3140234aaae3a518a2a4394509bd0965e9ee",
         "https://i.redd.it/50i90uxtpvsh1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wv1lz1",
+      "title": "Criei o Mascote da minha startup no chat gpt para usar como Mini.",
+      "url": "https://www.reddit.com/r/codex/comments/1wv1lz1/criei_o_mascote_da_minha_startup_no_chat_gpt_para/",
+      "published_at": "2026-10-01T14:56:07+00:00",
+      "media_urls": [
+        "https://preview.redd.it/8pd6pjdrdvsh1.jpeg?width=216&crop=smart&auto=webp&s=8d3855552e493c000e9fc8e185cda95eb7fbb937",
+        "https://i.redd.it/8pd6pjdrdvsh1.jpeg"
+      ],
+      "ocr_text": "?\n?",
+      "ocr_sources": [
+        "https://preview.redd.it/8pd6pjdrdvsh1.jpeg?width=216&crop=smart&auto=webp&s=8d3855552e493c000e9fc8e185cda95eb7fbb937",
+        "https://i.redd.it/8pd6pjdrdvsh1.jpeg"
       ],
       "ocr_errors": []
     },
@@ -353,36 +385,6 @@
       "ocr_sources": [
         "https://preview.redd.it/t1crda45tssh1.png?width=140&height=97&auto=webp&s=8a4e5d8ea97758c55293d00f7664c8ef6e235727",
         "https://preview.redd.it/t1crda45tssh1.png?width=1506&format=png&auto=webp&s=b7d18882daaf77857d26a2d6825c0f36a95464de"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wuryrz",
-      "title": "I have problems with the ChatGPT/Codex app on Windows 11.",
-      "url": "https://www.reddit.com/r/codex/comments/1wuryrz/i_have_problems_with_the_chatgptcodex_app_on/",
-      "published_at": "2026-10-01T06:18:33+00:00",
-      "media_urls": [
-        "https://preview.redd.it/b8ia8qxatssh1.png?width=140&height=71&auto=webp&s=162ac9c35572ebb28c36cf4d2856ce87cec569b1",
-        "https://preview.redd.it/b8ia8qxatssh1.png?width=1284&format=png&auto=webp&s=cf28f196f48331b4ae1d121a5e32f43b025621bf"
-      ],
-      "ocr_text": "\u00a9",
-      "ocr_sources": [
-        "https://preview.redd.it/b8ia8qxatssh1.png?width=1284&format=png&auto=webp&s=cf28f196f48331b4ae1d121a5e32f43b025621bf"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wurrnw",
-      "title": "I calculated the daily token value for 1% of a 20x plan's weekly usage for the month of September, and the chaos was real.",
-      "url": "https://www.reddit.com/r/codex/comments/1wurrnw/i_calculated_the_daily_token_value_for_1_of_a_20x/",
-      "published_at": "2026-10-01T06:06:08+00:00",
-      "media_urls": [
-        "https://preview.redd.it/1x3fxpe4uush1.png?width=140&height=135&auto=webp&s=4f965058e721936e8ca403c76f6b181ff7ba7ff7",
-        "https://preview.redd.it/1x3fxpe4uush1.png?width=732&format=png&auto=webp&s=439ea087b13032f3ab39c052975c7c963540b072"
-      ],
-      "ocr_text": "September - Daily Codex Usage Breakdown (20x) Rounded Tokens Per Reported Token Reported Weekly Effective Token Per Weekly Percentage _Addltional Date Usage Percentage Usage Percentage Point Point credits Used September1,2026 _277500,000 7 apeszasne 40m September 2.2028 440,200,000 rm 36683.39333 am September 32026 697600,000 \u20189 23671878047 am September 4.2026 124,800,000 4 31200,000.00 3M 2:220,600,000 21% 2092424696 SIMst% Avg ca September6, 2026 15000,000 1 15,000,00000 7M Forced Reset September7,2026 729,000,000 90 \u00a38100,000.00 am aia User Reset September 8,2026 886,500,000 * 91309;75.26 om 88 September 98,2028 1400,000,000 100 14,000,00000 aM September 10,2026 25,800,000 3 600,000.00 om Septembers,2026 133700000 \u00b0 14.855,55556 1M Forced Reset September 12,2026 10,500,000 1 10,500,000.00 \u2018mM 3,200.500,000 301% ttassa0012 Mt Avg 498 ca September 18,2026 97400000 3 32,466 66667 3eM September 14,2026 2,000,000 \u00b0 0.00 \u00b0 September16,2026 293,500.00 30 978333333 10M September'6,2026 718,400,000 1 10830088 10M September 17,2026 26,000,000 2 13,000,00000 1M September'6,2026 1200000 \u00b0 000 \u00b0 September 19,2026 \u00b0 \u00b0 0.00 \u00b0 128,500,000 106% 164207146 toMst% Avo \u00b0 ca September 20,2086 \u00b0 \u00b0 000 \u00b0 September 21,2028 924,000.00 re 2160000000 2am September 22,2028 29,400,000 3 800,000.00 tom September 23,2026 130,000.00 a 49348)4815, 4am September 24,2026 2200,000,000 43 5116279070 sim User Reset September 25,2026 1,200,000,000 28 4942857143 acm 1 ForcedResot September 26,2028 2,600,000,000 56 45,428,571.43 asm 753,400,000 172% 37261346.95 amt Av 1\" September 272026 200,000,000 2 48837,20020 20M September 28,2028 484,200,000 0 48,420,000 eM September 29,2026 179,600,000 4 144800,000.00 45M 83 September 30,2026 307500000 2 153750,000.00 sau",
-      "ocr_sources": [
-        "https://preview.redd.it/suwe5l70rssh1.png?width=732&format=png&auto=webp&s=e37a01796c25760706ba11aa9cf330ef3fed912e"
       ],
       "ocr_errors": []
     }
