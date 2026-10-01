@@ -1,0 +1,31 @@
+{
+  "repository": "Happypig375/actions-experiment",
+  "commit": "e0b0bf9358bb0f694eb381fa6f027b7e651de523",
+  "collectors": {
+    "github": {
+      "workflow": "important-update-github-feed.yml",
+      "source_sha256": "ed62e5aa1e5f00b0f076443351a66dfcc0b6a96450ba03d4065230eb86e88e2f",
+      "collector_sha256": "27a00b454f803d72dc3bfa26e3a2177905f2cd315e606a59494c36945b7ed2d6"
+    },
+    "public": {
+      "workflow": "important-update-public-feed.yml",
+      "source_sha256": "f86924c6bd8422bdc4ca47e0c39870c9f38f5dc86432355a9a243268b48e6dff",
+      "collector_sha256": "85bf3ceae18d0cdbbc346cffd475119dd31600e6a05bff4f28288ce0e53b655c"
+    },
+    "tibo": {
+      "workflow": "important-update-tibo-feed.yml",
+      "source_sha256": "fd13a80b0e69e0cdf272ef4e6ab1ef08ba00d18df64f1dbc1c8059b7e84cabd2",
+      "collector_sha256": "4b1b4a9626e99514eee89a7b1b48a9cd085ab1eb9bace83f37481b48298db8ae"
+    },
+    "media": {
+      "workflow": "important-update-reddit-media-feed.yml",
+      "source_sha256": "417a0a9cc0d4bbf608f698f322c61dc96567b5daed4078549fc70204f7056c02",
+      "collector_sha256": "7deb60932a65b08dc35813396c9a96d6c3fb22368870e4076900a2d9fbc233a7"
+    },
+    "recovery": {
+      "workflow": "important-update-outage-recovery.yml",
+      "source_sha256": "5082d3ff9590b7d7124d559c5b9fead313e3aa27dadff270f5ffdb6612526e26",
+      "collector_sha256": "936591ebf3c28bb29ec34756d75944fea8e484d4b76214a1c7588598ccc3c574"
+    }
+  }
+}

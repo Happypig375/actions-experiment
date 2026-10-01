@@ -1,0 +1,441 @@
+name: Important update GitHub feed
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/important-update-github-feed.yml'
+      - '.github/scripts/publish_generated_snapshot.py'
+  schedule:
+    - cron: '47 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: important-update-github-feed
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Collect watched GitHub activity
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p raw hot/views
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import pathlib
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          repos = [
+              ('nu', 'bryanedds/Nu'),
+              ('angourimath', 'asc-community/AngouriMath'),
+          ]
+          now = dt.datetime.now(dt.timezone.utc)
+          since = now - dt.timedelta(hours=3)
+          token = os.environ.get('GH_TOKEN', '')
+
+          def iso(x):
+              return x.isoformat().replace('+00:00', 'Z')
+
+          def parse_time(value):
+              if not value:
+                  return None
+              try:
+                  return dt.datetime.fromisoformat(value.replace('Z', '+00:00'))
+              except Exception:
+                  return None
+
+          def api(path, params=None):
+              url = 'https://api.github.com' + path
+              if params:
+                  url += '?' + urllib.parse.urlencode(params)
+              headers = {
+                  'Accept': 'application/vnd.github+json',
+                  'User-Agent': 'Happypig375-public-info-aggregators/1.0',
+                  'X-GitHub-Api-Version': '2022-11-28',
+              }
+              if token:
+                  headers['Authorization'] = f'Bearer {token}'
+              req = urllib.request.Request(url, headers=headers)
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as exc:
+                  body = exc.read().decode('utf-8', 'replace')[:1000]
+                  raise RuntimeError(f'GitHub API {exc.code} for {path}: {body}') from exc
+
+          def recent(items, fields=('updated_at', 'created_at')):
+              out = []
+              for item in items:
+                  stamp = None
+                  for field in fields:
+                      stamp = parse_time(item.get(field))
+                      if stamp:
+                          break
+                  if stamp and stamp >= since:
+                      out.append(item)
+              return out
+
+          previous_heads = {}
+          try:
+              import subprocess
+              subprocess.run(
+                  ['git', 'fetch', 'origin', 'chatgpt-important-update-feed'],
+                  check=True,
+                  stdout=subprocess.DEVNULL,
+                  stderr=subprocess.DEVNULL,
+              )
+              old = subprocess.check_output(
+                  ['git', 'show', 'FETCH_HEAD:index.json'], text=True
+              )
+              old_doc = json.loads(old)
+              for repo in old_doc.get('repos', []):
+                  if repo.get('full_name') and repo.get('head_sha'):
+                      previous_heads[repo['full_name']] = repo['head_sha']
+          except Exception:
+              pass
+
+          index_repos = []
+          for key, full_name in repos:
+              owner, name = full_name.split('/', 1)
+              raw = {'repo': full_name, 'generated_at': iso(now), 'since': iso(since)}
+              errors = []
+              try:
+                  meta = api(f'/repos/{owner}/{name}')
+                  default_branch = meta['default_branch']
+                  branch = api(
+                      f'/repos/{owner}/{name}/branches/{urllib.parse.quote(default_branch, safe="")}'
+                  )
+                  head_sha = branch['commit']['sha']
+                  previous_sha = previous_heads.get(full_name)
+                  raw['meta'] = meta
+
+                  commits = api(
+                      f'/repos/{owner}/{name}/commits',
+                      {'sha': default_branch, 'since': iso(since), 'per_page': 50},
+                  )
+                  raw['commits'] = commits
+
+                  issues = api(
+                      f'/repos/{owner}/{name}/issues',
+                      {
+                          'state': 'all',
+                          'sort': 'updated',
+                          'direction': 'desc',
+                          'since': iso(since),
+                          'per_page': 50,
+                      },
+                  )
+                  raw['issues'] = issues
+
+                  pulls = api(
+                      f'/repos/{owner}/{name}/pulls',
+                      {'state': 'all', 'sort': 'updated', 'direction': 'desc', 'per_page': 50},
+                  )
+                  pulls = recent(pulls)
+                  raw['pulls'] = pulls
+
+                  releases = api(f'/repos/{owner}/{name}/releases', {'per_page': 20})
+                  releases = recent(releases, ('published_at', 'created_at', 'updated_at'))
+                  raw['releases'] = releases
+
+                  try:
+                      workflow_runs = api(
+                          f'/repos/{owner}/{name}/actions/runs', {'per_page': 50}
+                      ).get('workflow_runs', [])
+                      workflow_runs = recent(workflow_runs, ('updated_at', 'created_at'))
+                  except Exception as exc:
+                      workflow_runs = []
+                      errors.append(f'workflow_runs: {exc}')
+                  raw['workflow_runs'] = workflow_runs
+
+                  compare = None
+                  if previous_sha and previous_sha != head_sha:
+                      try:
+                          compare = api(
+                              f'/repos/{owner}/{name}/compare/{previous_sha}...{head_sha}'
+                          )
+                      except Exception as exc:
+                          errors.append(f'compare: {exc}')
+                  raw['compare'] = compare
+
+                  pr_details = {}
+                  for pull in pulls[:10]:
+                      number = pull['number']
+                      detail = {}
+                      for label, path in (
+                          ('reviews', f'/repos/{owner}/{name}/pulls/{number}/reviews'),
+                          ('issue_comments', f'/repos/{owner}/{name}/issues/{number}/comments'),
+                          ('review_comments', f'/repos/{owner}/{name}/pulls/{number}/comments'),
+                      ):
+                          try:
+                              values = api(path, {'per_page': 50})
+                              detail[label] = recent(
+                                  values,
+                                  ('submitted_at', 'updated_at', 'created_at'),
+                              )
+                          except Exception as exc:
+                              detail[label] = []
+                              errors.append(f'pr#{number} {label}: {exc}')
+                      pr_details[str(number)] = detail
+                  raw['pr_details'] = pr_details
+
+                  def user_name(obj):
+                      user = obj.get('user') or obj.get('author') or {}
+                      return user.get('login') or user.get('name')
+
+                  compact_commits = [
+                      {
+                          'sha': commit.get('sha'),
+                          'message': ((commit.get('commit') or {}).get('message') or '').split('\n', 1)[0],
+                          'author': (
+                              (commit.get('author') or {}).get('login')
+                              or ((commit.get('commit') or {}).get('author') or {}).get('name')
+                          ),
+                          'date': (((commit.get('commit') or {}).get('author') or {}).get('date')),
+                          'url': commit.get('html_url'),
+                      }
+                      for commit in commits[:50]
+                  ]
+                  compact_issues = [
+                      {
+                          'number': item.get('number'),
+                          'title': item.get('title'),
+                          'state': item.get('state'),
+                          'state_reason': item.get('state_reason'),
+                          'updated_at': item.get('updated_at'),
+                          'user': user_name(item),
+                          'comments': item.get('comments'),
+                          'url': item.get('html_url'),
+                          'kind': 'pull_request' if item.get('pull_request') else 'issue',
+                      }
+                      for item in issues[:50]
+                  ]
+                  compact_pulls = []
+                  for pull in pulls[:30]:
+                      number = pull.get('number')
+                      details = pr_details.get(str(number), {})
+                      compact_pulls.append(
+                          {
+                              'number': number,
+                              'title': pull.get('title'),
+                              'state': pull.get('state'),
+                              'draft': pull.get('draft'),
+                              'updated_at': pull.get('updated_at'),
+                              'merged_at': pull.get('merged_at'),
+                              'user': user_name(pull),
+                              'base': (pull.get('base') or {}).get('ref'),
+                              'head': (pull.get('head') or {}).get('ref'),
+                              'url': pull.get('html_url'),
+                              'recent_reviews': [
+                                  {
+                                      'state': review.get('state'),
+                                      'user': user_name(review),
+                                      'submitted_at': review.get('submitted_at'),
+                                  }
+                                  for review in details.get('reviews', [])
+                              ],
+                              'recent_issue_comments': [
+                                  {
+                                      'user': user_name(comment),
+                                      'created_at': comment.get('created_at'),
+                                      'updated_at': comment.get('updated_at'),
+                                      'body': (comment.get('body') or '')[:1200],
+                                  }
+                                  for comment in details.get('issue_comments', [])
+                              ],
+                              'recent_review_comments': [
+                                  {
+                                      'user': user_name(comment),
+                                      'created_at': comment.get('created_at'),
+                                      'updated_at': comment.get('updated_at'),
+                                      'path': comment.get('path'),
+                                      'body': (comment.get('body') or '')[:1200],
+                                  }
+                                  for comment in details.get('review_comments', [])
+                              ],
+                          }
+                      )
+
+                  compact_releases = [
+                      {
+                          'tag': release.get('tag_name'),
+                          'name': release.get('name'),
+                          'published_at': release.get('published_at'),
+                          'prerelease': release.get('prerelease'),
+                          'draft': release.get('draft'),
+                          'url': release.get('html_url'),
+                      }
+                      for release in releases[:20]
+                  ]
+                  compact_runs = [
+                      {
+                          'id': run.get('id'),
+                          'name': run.get('name'),
+                          'event': run.get('event'),
+                          'status': run.get('status'),
+                          'conclusion': run.get('conclusion'),
+                          'head_branch': run.get('head_branch'),
+                          'head_sha': run.get('head_sha'),
+                          'updated_at': run.get('updated_at'),
+                          'url': run.get('html_url'),
+                      }
+                      for run in workflow_runs[:50]
+                  ]
+                  changed_files = []
+                  if compare:
+                      changed_files = [
+                          {
+                              'filename': changed.get('filename'),
+                              'status': changed.get('status'),
+                              'additions': changed.get('additions'),
+                              'deletions': changed.get('deletions'),
+                              'changes': changed.get('changes'),
+                          }
+                          for changed in (compare.get('files') or [])[:300]
+                      ]
+
+                  view = {
+                      'schema_version': 1,
+                      'generated_at': iso(now),
+                      'since': iso(since),
+                      'repo': full_name,
+                      'default_branch': default_branch,
+                      'head_sha': head_sha,
+                      'previous_head_sha': previous_sha,
+                      'commits': compact_commits,
+                      'issues': compact_issues,
+                      'pulls': compact_pulls,
+                      'releases': compact_releases,
+                      'workflow_runs': compact_runs,
+                      'changed_files_since_previous_feed': changed_files,
+                      'errors': errors,
+                  }
+                  pathlib.Path(f'hot/views/{key}.json').write_text(
+                      json.dumps(view, indent=2), encoding='utf-8'
+                  )
+                  index_repos.append(
+                      {
+                          'key': key,
+                          'full_name': full_name,
+                          'view_path': f'views/{key}.json',
+                          'head_sha': head_sha,
+                          'previous_head_sha': previous_sha,
+                          'counts': {
+                              'commits': len(compact_commits),
+                              'issues': len(compact_issues),
+                              'pulls': len(compact_pulls),
+                              'releases': len(compact_releases),
+                              'workflow_runs': len(compact_runs),
+                              'changed_files': len(changed_files),
+                          },
+                          'errors': errors,
+                      }
+                  )
+              except Exception as exc:
+                  errors.append(str(exc))
+                  view = {
+                      'schema_version': 1,
+                      'generated_at': iso(now),
+                      'since': iso(since),
+                      'repo': full_name,
+                      'errors': errors,
+                  }
+                  pathlib.Path(f'hot/views/{key}.json').write_text(
+                      json.dumps(view, indent=2), encoding='utf-8'
+                  )
+                  index_repos.append(
+                      {
+                          'key': key,
+                          'full_name': full_name,
+                          'view_path': f'views/{key}.json',
+                          'head_sha': None,
+                          'previous_head_sha': previous_heads.get(full_name),
+                          'counts': {},
+                          'errors': errors,
+                      }
+                  )
+              pathlib.Path(f'raw/{key}.json').write_text(
+                  json.dumps(raw, indent=2), encoding='utf-8'
+              )
+
+          index = {
+              'schema_version': 1,
+              'purpose': 'Important Update Watch GitHub acquisition feed',
+              'generated_at': iso(now),
+              'since': iso(since),
+              'fresh_for_seconds': 4500,
+              'repos': index_repos,
+          }
+          pathlib.Path('hot/index.json').write_text(
+              json.dumps(index, indent=2), encoding='utf-8'
+          )
+          PY
+
+      - name: Upload Nu raw snapshot
+        id: nu_artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: important-update-nu-raw
+          path: raw/nu.json
+          retention-days: 1
+          compression-level: 6
+          if-no-files-found: error
+
+      - name: Upload AngouriMath raw snapshot
+        id: angouri_artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: important-update-angourimath-raw
+          path: raw/angourimath.json
+          retention-days: 1
+          compression-level: 6
+          if-no-files-found: error
+
+      - name: Publish immutable hot feed snapshot monotonically
+        shell: bash
+        env:
+          NU_ARTIFACT_ID: ${{ steps.nu_artifact.outputs.artifact-id }}
+          ANGOURI_ARTIFACT_ID: ${{ steps.angouri_artifact.outputs.artifact-id }}
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+
+          path = pathlib.Path('hot/index.json')
+          document = json.loads(path.read_text(encoding='utf-8'))
+          ids = {
+              'nu': int(os.environ['NU_ARTIFACT_ID']),
+              'angourimath': int(os.environ['ANGOURI_ARTIFACT_ID']),
+          }
+          for repo in document['repos']:
+              repo['raw_artifact_id'] = ids[repo['key']]
+              repo['raw_artifact_name'] = f"important-update-{repo['key']}-raw"
+          path.write_text(json.dumps(document, indent=2), encoding='utf-8')
+          PY
+
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir hot \
+            --branch chatgpt-important-update-feed \
+            --metadata-file index.json \
+            --timestamp-field generated_at \
+            --message 'Refresh important update GitHub feed'

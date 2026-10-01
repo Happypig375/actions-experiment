@@ -1,0 +1,299 @@
+name: Important update Reddit media feed
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '.github/workflows/important-update-reddit-media-feed.yml'
+      - '.github/scripts/publish_generated_snapshot.py'
+  schedule:
+    - cron: '56 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: important-update-reddit-media-feed
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract recent Reddit media candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p hot/views
+          python - <<'PY'
+          import datetime as dt
+          import html
+          import json
+          import pathlib
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          now = dt.datetime.now(dt.timezone.utc)
+          since = now - dt.timedelta(hours=24)
+          user_agent = 'Happypig375-public-info-aggregators-media/1.0'
+          namespace = {'a': 'http://www.w3.org/2005/Atom'}
+
+          def parse_time(value):
+              try:
+                  return dt.datetime.fromisoformat((value or '').replace('Z', '+00:00'))
+              except Exception:
+                  return None
+
+          def get(url):
+              request = urllib.request.Request(
+                  url,
+                  headers={
+                      'User-Agent': user_agent,
+                      'Accept': 'application/atom+xml, application/xml, text/xml, image/*',
+                  },
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return response.read(), response.headers.get_content_type()
+
+          def media_urls(fragment):
+              if not fragment:
+                  return []
+              urls = []
+              for pattern in [
+                  r'<img[^>]+src=["\']([^"\']+)',
+                  r'<a[^>]+href=["\']([^"\']+)',
+              ]:
+                  for url in re.findall(pattern, fragment, flags=re.I):
+                      url = html.unescape(url)
+                      low = url.lower()
+                      if any(
+                          host in low
+                          for host in (
+                              'i.redd.it',
+                              'preview.redd.it',
+                              'external-preview.redd.it',
+                              'redditmedia.com',
+                          )
+                      ) and url not in urls:
+                          urls.append(url)
+              return urls[:3]
+
+          previous = {}
+          try:
+              import subprocess
+              subprocess.run(
+                  [
+                      'git',
+                      'fetch',
+                      'origin',
+                      'chatgpt-important-update-reddit-media-feed',
+                  ],
+                  check=True,
+                  stdout=subprocess.DEVNULL,
+                  stderr=subprocess.DEVNULL,
+              )
+              old = subprocess.check_output(
+                  ['git', 'show', 'FETCH_HEAD:views/reddit_media.json'],
+                  text=True,
+              )
+              for item in json.loads(old).get('items', []):
+                  previous[item.get('id')] = item
+          except Exception:
+              pass
+
+          errors = []
+          items = []
+          try:
+              body, _ = get('https://www.reddit.com/r/codex/new/.rss?limit=100')
+              root = ET.fromstring(body)
+              for entry in root.findall('a:entry', namespace):
+                  published = entry.findtext(
+                      'a:published', default='', namespaces=namespace
+                  ) or entry.findtext(
+                      'a:updated', default='', namespaces=namespace
+                  )
+                  stamp = parse_time(published)
+                  if not stamp or stamp < since:
+                      continue
+                  entry_id = entry.findtext(
+                      'a:id', default='', namespaces=namespace
+                  )
+                  title = entry.findtext(
+                      'a:title', default='', namespaces=namespace
+                  )
+                  link = next(
+                      (
+                          item.attrib.get('href')
+                          for item in entry.findall('a:link', namespace)
+                          if item.attrib.get('href')
+                      ),
+                      None,
+                  )
+                  content = entry.findtext(
+                      'a:content', default='', namespaces=namespace
+                  ) or ''
+                  urls = media_urls(content)
+                  if not urls:
+                      continue
+                  item_id = entry_id or link or title
+                  prior = previous.get(item_id, {})
+                  items.append(
+                      {
+                          'id': item_id,
+                          'title': title,
+                          'url': link,
+                          'published_at': published,
+                          'media_urls': urls,
+                          'ocr_text': prior.get('ocr_text'),
+                          'ocr_sources': prior.get('ocr_sources', []),
+                          'ocr_errors': prior.get('ocr_errors', []),
+                      }
+                  )
+          except Exception as exc:
+              errors.append(f'Reddit new RSS: {exc}')
+
+          items.sort(
+              key=lambda item: parse_time(item.get('published_at'))
+              or dt.datetime.min.replace(tzinfo=dt.timezone.utc),
+              reverse=True,
+          )
+          pathlib.Path('/tmp/media_candidates.json').write_text(
+              json.dumps(
+                  {
+                      'generated_at': now.isoformat().replace('+00:00', 'Z'),
+                      'items': items[:25],
+                      'errors': errors,
+                  },
+                  indent=2,
+              ),
+              encoding='utf-8',
+          )
+          PY
+
+      - name: Ensure OCR engine
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v tesseract >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y -qq --no-install-recommends tesseract-ocr
+          fi
+          tesseract --version | head -1
+
+      - name: OCR screenshot candidates
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import subprocess
+          import tempfile
+          import urllib.request
+
+          path = pathlib.Path('/tmp/media_candidates.json')
+          document = json.loads(path.read_text(encoding='utf-8'))
+          user_agent = 'Happypig375-public-info-aggregators-media/1.0'
+
+          for item in document['items']:
+              if item.get('ocr_text'):
+                  continue
+              texts = []
+              sources = []
+              errors = []
+              for index, url in enumerate(item.get('media_urls', [])[:2]):
+                  try:
+                      request = urllib.request.Request(
+                          url,
+                          headers={'User-Agent': user_agent, 'Accept': 'image/*'},
+                      )
+                      with urllib.request.urlopen(request, timeout=30) as response:
+                          data = response.read(12 * 1024 * 1024)
+                          content_type = (
+                              response.headers.get_content_type() or ''
+                          ).lower()
+                      if not content_type.startswith('image/'):
+                          raise RuntimeError(f'not image content: {content_type}')
+                      suffix = '.png' if 'png' in content_type else '.jpg'
+                      with tempfile.NamedTemporaryFile(
+                          suffix=suffix, delete=False
+                      ) as temporary:
+                          temporary.write(data)
+                          image_path = temporary.name
+                      try:
+                          process = subprocess.run(
+                              ['tesseract', image_path, 'stdout', '--psm', '6'],
+                              text=True,
+                              capture_output=True,
+                              timeout=45,
+                          )
+                          if process.returncode != 0:
+                              raise RuntimeError(
+                                  process.stderr.strip()[:500]
+                                  or f'tesseract exit {process.returncode}'
+                              )
+                          text = ' '.join(process.stdout.split())
+                          if text:
+                              texts.append(text[:5000])
+                              sources.append(url)
+                      finally:
+                          try:
+                              os.unlink(image_path)
+                          except OSError:
+                              pass
+                  except Exception as exc:
+                      errors.append(f'image {index + 1}: {exc}')
+              item['ocr_text'] = '\n'.join(texts)[:8000] if texts else None
+              item['ocr_sources'] = sources
+              item['ocr_errors'] = errors
+
+          output = {
+              'schema_version': 1,
+              'generated_at': document['generated_at'],
+              'source': 'r/codex media',
+              'candidate_discovery_only': True,
+              'ocr_is_untrusted': True,
+              'items': document['items'],
+              'errors': document.get('errors', []),
+          }
+          pathlib.Path('hot/views/reddit_media.json').write_text(
+              json.dumps(output, indent=2), encoding='utf-8'
+          )
+          pathlib.Path('hot/index.json').write_text(
+              json.dumps(
+                  {
+                      'schema_version': 1,
+                      'purpose': 'Important Update Watch Reddit screenshot OCR feed',
+                      'generated_at': document['generated_at'],
+                      'fresh_for_seconds': 4500,
+                      'status': 'ok' if document['items'] else 'empty',
+                      'candidate_count': len(document['items']),
+                      'ocr_candidate_count': sum(
+                          1 for item in document['items'] if item.get('ocr_text')
+                      ),
+                      'view_path': 'views/reddit_media.json',
+                      'errors': document.get('errors', []),
+                  },
+                  indent=2,
+              ),
+              encoding='utf-8',
+          )
+          PY
+
+      - name: Publish Reddit media hot feed monotonically
+        shell: bash
+        run: |
+          set -euo pipefail
+          python .github/scripts/publish_generated_snapshot.py \
+            --source-dir hot \
+            --branch chatgpt-important-update-reddit-media-feed \
+            --metadata-file index.json \
+            --timestamp-field generated_at \
+            --message 'Refresh Reddit screenshot OCR feed'
