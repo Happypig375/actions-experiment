@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch GitHub acquisition feed",
-  "generated_at": "2026-10-01T16:26:52.894567Z",
-  "since": "2026-10-01T13:26:52.894567Z",
+  "generated_at": "2026-10-01T17:08:26.234436Z",
+  "since": "2026-10-01T14:08:26.234436Z",
   "fresh_for_seconds": 4500,
   "repos": [
     {
@@ -12,16 +12,14 @@
       "head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
       "previous_head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
       "counts": {
-        "commits": 1,
+        "commits": 0,
         "issues": 0,
         "pulls": 0,
         "releases": 0,
         "workflow_runs": 2,
         "changed_files": 0
       },
-      "errors": [],
-      "raw_artifact_id": 11176937273,
-      "raw_artifact_name": "important-update-nu-raw"
+      "errors": []
     },
     {
       "key": "angourimath",
@@ -37,9 +35,7 @@
         "workflow_runs": 0,
         "changed_files": 0
       },
-      "errors": [],
-      "raw_artifact_id": 11176892233,
-      "raw_artifact_name": "important-update-angourimath-raw"
+      "errors": []
     }
   ]
 }
