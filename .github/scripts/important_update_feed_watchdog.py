@@ -32,6 +32,9 @@ class Producer:
     cooldown_seconds: int = 15 * 60
 
 
+MIGRATED_LOCAL_WORKFLOWS = frozenset(('important-update-github-feed.yml', 'important-update-tibo-feed.yml', 'important-update-reddit-media-feed.yml'))
+
+
 PRODUCERS = (
     Producer("GitHub feed", "important-update-github-feed.yml", "chatgpt-important-update-feed", "generated_at"),
     Producer("Public feed", "important-update-public-feed.yml", "chatgpt-important-update-public-feed", "generated_at"),
@@ -178,6 +181,10 @@ def main() -> int:
             "workflow": producer.workflow,
             "branch": producer.branch,
         }
+        if producer.workflow in MIGRATED_LOCAL_WORKFLOWS:
+            row.update({"action": "external-local", "freshness": "not-monitored-here"})
+            rows.append(row)
+            continue
         try:
             document = github.branch_document(producer)
             published = parse_time(document.get(producer.timestamp_field) if document else None)
@@ -262,7 +269,8 @@ def main() -> int:
         "dry_run": dry_run,
         "dispatch_count": dispatch_count,
         "failure_count": failures,
-        "all_fresh": all(row.get("action") == "fresh" for row in rows),
+        "all_fresh": all(row.get("action") == "fresh" for row in rows if row.get("action") != "external-local"),
+        "local_producers_not_monitored": sorted(MIGRATED_LOCAL_WORKFLOWS),
         "producers": rows,
     }
     write_status(status)

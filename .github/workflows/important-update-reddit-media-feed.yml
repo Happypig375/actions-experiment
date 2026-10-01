@@ -7,8 +7,6 @@ on:
     paths:
       - '.github/workflows/important-update-reddit-media-feed.yml'
       - '.github/scripts/publish_generated_snapshot.py'
-  schedule:
-    - cron: '56 * * * *'
   workflow_dispatch:
 
 permissions:

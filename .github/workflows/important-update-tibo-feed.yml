@@ -7,8 +7,6 @@ on:
     paths:
       - '.github/workflows/important-update-tibo-feed.yml'
       - '.github/scripts/publish_generated_snapshot.py'
-  schedule:
-    - cron: '55 * * * *'
   workflow_dispatch:
 
 permissions:

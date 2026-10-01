@@ -24,11 +24,13 @@ for(let attempt=1;attempt<=4;attempt++){
  if(!tree)tree=sha(await tools.mcp__codex_apps__github_create_tree({repository_full_name:repository,base_tree_sha:null,tree_elements:plan.tree_elements}));
  const commit=sha(await tools.mcp__codex_apps__github_create_commit({repository_full_name:repository,tree_sha:tree,parent_sha:previous.head,message:"Refresh public "+key+" snapshot from direct acquisition"}));
  stillFresh();
+ text({stage:"prepared-ref-update",branch:plan.branch,commit,parent:previous.head});
  const update=await tools.mcp__codex_apps__github_update_ref({repository_full_name:repository,branch_name:plan.branch,sha:commit,force:false});
  if(update.isError){
+  text({stage:"ref-update-error",branch:plan.branch,commit,result:update});
   const detail=JSON.stringify(update);
   if(/not a fast.forward|non.fast.forward/i.test(detail)){if(attempt===4)throw Error("Concurrent writer exhausted publication budget");continue;}
-  if(/denied|not authorized|permission|forbidden/i.test(detail))throw Error("Publication denied; stop without retry");
+  if(/denied|rejected due to unacceptable risk|not authorized|permission|forbidden/i.test(detail))throw Error("Publication denied; stop without retry");
   const after=await current();
   if(after.head===commit){await verify(commit);text({action:"published-verified-after-uncertain-update",branch:plan.branch,commit});break;}
   if(after.when>=Date.parse(plan.generated_at)){text({action:"superseded-after-uncertain-update",branch:plan.branch,current_commit:after.head});break;}

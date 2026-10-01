@@ -7,8 +7,6 @@ on:
     paths:
       - '.github/workflows/important-update-github-feed.yml'
       - '.github/scripts/publish_generated_snapshot.py'
-  schedule:
-    - cron: '47 * * * *'
   workflow_dispatch:
 
 permissions:

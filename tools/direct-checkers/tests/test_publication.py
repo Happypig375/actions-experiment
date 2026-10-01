@@ -561,6 +561,7 @@ const tools = {
     if(updates===1 && request.mode==='race_older')head=external(Date.parse(plan.generated_at)-1000,head);
     if(updates===1 && request.mode==='race_newer')head=external(Date.parse(plan.generated_at)+1000,head);
     if(request.mode==='denied')return fail('permission denied');
+    if(request.mode==='risk_rejected')return fail('This action was rejected due to unacceptable risk.');
     if(request.mode==='reject_all')return fail('not a fast-forward');
     if(request.mode==='uncertain_not_applied')return fail('synthetic timeout');
     if(request.mode==='uncertain_newer'){head=external(Date.parse(plan.generated_at)+1000,head);return fail('synthetic timeout');}
@@ -601,7 +602,10 @@ class ConnectorHostTemplateTests(PublicationCase):
                    'current': stamp(current or BASE - dt.timedelta(seconds=60))}
         result = subprocess.run(['node', '-e', HOST_HARNESS], input=json.dumps(request),
                                 text=True, capture_output=True, timeout=10, check=True)
-        return json.loads(result.stdout), c
+        data=json.loads(result.stdout)
+        data['diagnostics']=[v for v in data['outputs'] if 'stage' in v]
+        data['outputs']=[v for v in data['outputs'] if 'action' in v]
+        return data, c
 
     def test_host_is_read_only_by_default(self):
         result, _ = self.run_host(approved=False)
@@ -664,6 +668,18 @@ class ConnectorHostTemplateTests(PublicationCase):
         self.assertIn('Uncertain ref update', result['error'])
         self.assertEqual(1, sum(call[0] == 'update' for call in result['calls']))
         self.assertEqual(result['initial'], result['head'])
+
+    def test_host_retains_prepared_commit_and_error_diagnostics(self):
+        for mode in ('uncertain_not_applied','risk_rejected'):
+            with self.subTest(mode=mode):
+                result,_=self.run_host(mode=mode)
+                prepared=[v for v in result['diagnostics'] if v['stage']=='prepared-ref-update']
+                errors=[v for v in result['diagnostics'] if v['stage']=='ref-update-error']
+                self.assertEqual(1,len(prepared));self.assertEqual(1,len(errors))
+                self.assertEqual(prepared[0]['commit'],errors[0]['commit'])
+                self.assertTrue(errors[0]['result']['isError'])
+                self.assertEqual(1,sum(call[0]=='update' for call in result['calls']))
+                if mode=='risk_rejected':self.assertIn('denied',result['error'])
 
     def test_host_rechecks_freshness_immediately_before_ref_update(self):
         result, _ = self.run_host(mode='expire')
