@@ -1,10 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T04:03:22.836169Z",
+  "generated_at": "2026-10-02T05:13:31.652675Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvlbps",
+      "title": "my life in short",
+      "url": "https://www.reddit.com/r/codex/comments/1wvlbps/my_life_in_short/",
+      "published_at": "2026-10-02T05:12:32+00:00",
+      "media_urls": [
+        "https://preview.redd.it/waaf2exhmzsh1.png?width=320&crop=smart&auto=webp&s=1e508bd60ca491f7c956762d4a593434dfa0fa20",
+        "https://i.redd.it/waaf2exhmzsh1.png"
+      ],
+      "ocr_text": "a t vt oo\nah t in AIM | oe",
+      "ocr_sources": [
+        "https://preview.redd.it/waaf2exhmzsh1.png?width=320&crop=smart&auto=webp&s=1e508bd60ca491f7c956762d4a593434dfa0fa20",
+        "https://i.redd.it/waaf2exhmzsh1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvkj74",
+      "title": "An app for codex resets notifications",
+      "url": "https://www.reddit.com/r/codex/comments/1wvkj74/an_app_for_codex_resets_notifications/",
+      "published_at": "2026-10-02T04:27:13+00:00",
+      "media_urls": [
+        "https://preview.redd.it/dhgxkthudzsh1.png?width=640&crop=smart&auto=webp&s=e3333eb6d31f6532af3c143ba5e3ac0ee94d0a38",
+        "https://i.redd.it/dhgxkthudzsh1.png"
+      ],
+      "ocr_text": "Code x Ti racker \u00a2 or Usage & R esets \\\\ 5 . \u2018 codex AK er \\ possible reser \\\\ py se 26 39:29 ones W 1 ene \\ nest wee \\ \\Y + \u2014 - \\ \u2014 | prniett Wi \u2018enous went. ws\nfor Usage ( aa:29 qu\u00bb _\u2014 ) codex Wak | @ @THSOTTIAUX \\ we RESET WATCH * ELEVATED siGNAt \u00a9 62% ) possivle reset \\ BY SEP 26 Na 19 +29 gwt+\u00ae carter sugges? a reset mey be c\\ose: \\ seen tL your ago view OE LAT est RESET sep 2\u00b0 ar 022\u00b0 ow \\ cove* ysnct geset> ww? day> cnarP plus ol ot \\ <-nour yin |",
+      "ocr_sources": [
+        "https://preview.redd.it/dhgxkthudzsh1.png?width=640&crop=smart&auto=webp&s=e3333eb6d31f6532af3c143ba5e3ac0ee94d0a38",
+        "https://i.redd.it/dhgxkthudzsh1.png"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvjl27",
       "title": "yeah tibo, so much faster",
@@ -335,35 +367,6 @@
       "ocr_sources": [
         "https://preview.redd.it/mloncuzrhwsh1.jpeg?width=640&crop=smart&auto=webp&s=bc1fc4af9521e590d750ba3d74c3244bcf73f407",
         "https://i.redd.it/mloncuzrhwsh1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv7e7b",
-      "title": "Codex helped me rebuild my game trailer with in-engine shots and clearer PT/EN narration",
-      "url": "https://www.reddit.com/r/codex/comments/1wv7e7b/codex_helped_me_rebuild_my_game_trailer_with/",
-      "published_at": "2026-10-01T18:34:36+00:00",
-      "media_urls": [
-        "https://external-preview.redd.it/OWZwazFyNjhnd3NoMU_Wu8iQBffzZmlH8TSS2W_Mm5KUKIXep89Fi7flZmQr.png?width=640&crop=smart&auto=webp&s=5488c2c39ae489ea7afa95f478ddeb9cf0b7489f"
-      ],
-      "ocr_text": "< Ot hs Sa owe Tk oe eigen os ye uae Se eo eee Fox P Paws",
-      "ocr_sources": [
-        "https://external-preview.redd.it/OWZwazFyNjhnd3NoMU_Wu8iQBffzZmlH8TSS2W_Mm5KUKIXep89Fi7flZmQr.png?width=640&crop=smart&auto=webp&s=5488c2c39ae489ea7afa95f478ddeb9cf0b7489f"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv78iu",
-      "title": "Turn unused Codex allowance into progress on your backlog",
-      "url": "https://www.reddit.com/r/codex/comments/1wv78iu/turn_unused_codex_allowance_into_progress_on_your/",
-      "published_at": "2026-10-01T18:28:31+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7qlzymff1wsh1.gif?width=640&crop=smart&s=d9c76f0dfb24595e9bc3214df4bfc083794b6617",
-        "https://i.redd.it/7qlzymff1wsh1.gif"
-      ],
-      "ocr_text": "\\ =a SE",
-      "ocr_sources": [
-        "https://i.redd.it/7qlzymff1wsh1.gif"
       ],
       "ocr_errors": []
     }
