@@ -1,16 +1,51 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T22:11:45.464421Z",
-  "since": "2026-10-01T19:11:45.464421Z",
+  "generated_at": "2026-10-02T00:55:01.929377Z",
+  "since": "2026-10-01T21:55:01.929377Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
   "head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
   "previous_head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
   "commits": [],
-  "issues": [],
+  "issues": [
+    {
+      "number": 336,
+      "title": "Omni Blade issue and suggestion tracking.",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T23:59:17Z",
+      "user": "bryanedds",
+      "comments": 0,
+      "url": "https://github.com/bryanedds/Nu/issues/336",
+      "kind": "issue"
+    },
+    {
+      "number": 1453,
+      "title": "Dummied out `macos-26` CI until we figure out how to fix / replace it.",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-01T23:10:38Z",
+      "user": "bryanedds",
+      "comments": 0,
+      "url": "https://github.com/bryanedds/Nu/issues/1453",
+      "kind": "issue"
+    }
+  ],
   "pulls": [],
   "releases": [],
-  "workflow_runs": [],
+  "workflow_runs": [
+    {
+      "id": 36942412262,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "omni-blade",
+      "head_sha": "88d539600403c27ee71b5f2a589b550354a34717",
+      "updated_at": "2026-10-02T00:03:25Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36942412262"
+    }
+  ],
   "changed_files_since_previous_feed": [],
   "errors": []
 }
