@@ -1,10 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T14:32:06.033860Z",
+  "generated_at": "2026-10-02T15:34:49.696540Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvut0t",
+      "title": "Please help, codex has been loading like this both in the app and in the vscode extension.",
+      "url": "https://www.reddit.com/r/codex/comments/1wvut0t/please_help_codex_has_been_loading_like_this_both/",
+      "published_at": "2026-10-02T14:09:45+00:00",
+      "media_urls": [
+        "https://preview.redd.it/i98lcjvy92th1.png?width=216&crop=smart&auto=webp&s=5d61fe27808e7b9fd12f0ab2cb813c51bad51cf4",
+        "https://i.redd.it/i98lcjvy92th1.png"
+      ],
+      "ocr_text": "yes proceed with this then. + e fe\nyes proceed with this then. + OA e for me",
+      "ocr_sources": [
+        "https://preview.redd.it/i98lcjvy92th1.png?width=216&crop=smart&auto=webp&s=5d61fe27808e7b9fd12f0ab2cb813c51bad51cf4",
+        "https://i.redd.it/i98lcjvy92th1.png"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvt32m",
       "title": "Solid codex cloud specs",
@@ -356,22 +372,6 @@
       "ocr_text": "\u201cis creativly. ? t From idea \u2014 * tocampaign. > : . au > \\ pc: ae _ a",
       "ocr_sources": [
         "https://external-preview.redd.it/spH1TgzxeSNzBpHg8JVacOqP-ocX1L9HVxjVh2IIQhQ.jpeg?width=320&crop=smart&auto=webp&s=2fcd44ae536bb4b06fd7613469a94622622403ec"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvf271",
-      "title": "Must be a joke",
-      "url": "https://www.reddit.com/r/codex/comments/1wvf271/must_be_a_joke/",
-      "published_at": "2026-10-01T23:52:34+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7ahfsrwg1ysh1.jpeg?width=640&crop=smart&auto=webp&s=916a60124c936822b46f71647a552b9efd97a88e",
-        "https://i.redd.it/7ahfsrwg1ysh1.jpeg"
-      ],
-      "ocr_text": "731 & 6% ll 100% & Ow: As part of our continuous upgrade process, we are deprecating the following models: \u00a2 gpt-5.4-nano \u00a2 gpt-5.1 \u00a2 gpt-5.3-codex Access to these models will be shut off on April 1, 2027. Ahead of the shutdown timeline, we encourage you to explore our recommended replacement models here. If you have any questions, feel free to reach out on the OpenAl Developer Forum. OpenAl : Yo oh Il O <\n753 & wll 100% @ \u20ac nS : As part of our continuous upgrade process, we are deprecating the following models: e gpt-5.4-nano e gpt-5.1 e gpt-5.3-codex Access to these models will be shut off on April 1, 2027. Ahead of the shutdown timeline, we encourage you to explore our recommended replacement models here. If you have any questions, feel free to reach out on the OpenAl Developer Forum. OpenAl : Wd Gr lI O <",
-      "ocr_sources": [
-        "https://preview.redd.it/7ahfsrwg1ysh1.jpeg?width=640&crop=smart&auto=webp&s=916a60124c936822b46f71647a552b9efd97a88e",
-        "https://i.redd.it/7ahfsrwg1ysh1.jpeg"
       ],
       "ocr_errors": []
     }
