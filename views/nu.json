@@ -1,12 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T04:02:10.583387Z",
-  "since": "2026-10-02T01:02:10.583387Z",
+  "generated_at": "2026-10-02T05:14:39.241489Z",
+  "since": "2026-10-02T02:14:39.241489Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
-  "head_sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
-  "previous_head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
+  "head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
+  "previous_head_sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
   "commits": [
+    {
+      "sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
+      "message": "Gaia paste bug fix.",
+      "author": "bryanedds",
+      "date": "2026-10-02T04:37:56Z",
+      "url": "https://github.com/bryanedds/Nu/commit/c5f10ae388954fa8018d4901930b95ccf4ff1056"
+    },
     {
       "sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
       "message": "More fine-grained discrimination against what propagation sources can be childed.",
@@ -19,6 +26,28 @@
   "pulls": [],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 36965534259,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "mutable",
+      "head_sha": "8ef782e5859e1b897f019de105d812b5add927e1",
+      "updated_at": "2026-10-02T04:58:13Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36965534259"
+    },
+    {
+      "id": 36965401853,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
+      "updated_at": "2026-10-02T04:57:14Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36965401853"
+    },
     {
       "id": 36960469331,
       "name": "CI",
@@ -33,11 +62,11 @@
   ],
   "changed_files_since_previous_feed": [
     {
-      "filename": "Nu/Nu.Gaia/Gaia.fs",
+      "filename": "Nu/Nu/World/WorldEntity.fs",
       "status": "modified",
-      "additions": 30,
-      "deletions": 25,
-      "changes": 55
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
     }
   ],
   "errors": []
