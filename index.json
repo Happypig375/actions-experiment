@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch Reddit screenshot OCR feed",
-  "generated_at": "2026-10-02T11:25:08.517910Z",
+  "generated_at": "2026-10-02T12:27:24.673443Z",
   "fresh_for_seconds": 4500,
   "status": "ok",
   "candidate_count": 25,
-  "ocr_candidate_count": 20,
+  "ocr_candidate_count": 18,
   "view_path": "views/reddit_media.json",
   "errors": []
 }

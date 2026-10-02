@@ -1,10 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T11:25:08.517910Z",
+  "generated_at": "2026-10-02T12:27:24.673443Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvs49b",
+      "title": "Token speed difference, FYI",
+      "url": "https://www.reddit.com/r/codex/comments/1wvs49b/token_speed_difference_fyi/",
+      "published_at": "2026-10-02T12:08:43+00:00",
+      "media_urls": [
+        "https://preview.redd.it/o99wpm1to1th1.jpg?width=140&height=118&auto=webp&s=f10365f5e15201e909d92b9b3e4a376e81729411"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvro9d",
+      "title": "Sol 6.1 modes mismatch",
+      "url": "https://www.reddit.com/r/codex/comments/1wvro9d/sol_61_modes_mismatch/",
+      "published_at": "2026-10-02T11:46:03+00:00",
+      "media_urls": [
+        "https://preview.redd.it/bbdslbdrk1th1.jpg?width=140&height=63&auto=webp&s=b7611e23e4c45b0db113cc4ffa7995aebcd9fe30"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvqd9q",
       "title": "GPT 6.1 \"Near Astra\" and Usage limits in Plus and Pro",
@@ -342,35 +366,6 @@
       "ocr_text": "De 0 entrees + Gx + :8 \u00b0 \u00b0 @ e e bd to) & \u2018Sect e ee ee \u00b0 5 a Fae",
       "ocr_sources": [
         "https://external-preview.redd.it/ZW1qcnJ4N2h5eHNoMZWaI-Uc7bDFL8YiUs7Vt3dQyuCUGi4_xKJXyHLcVPiF.png?width=640&crop=smart&auto=webp&s=a1438c7984046c1b88faa73ec116a348f81b2e5b"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wveigj",
-      "title": "'Giving this request a little extra thought' Popup?",
-      "url": "https://www.reddit.com/r/codex/comments/1wveigj/giving_this_request_a_little_extra_thought_popup/",
-      "published_at": "2026-10-01T23:26:45+00:00",
-      "media_urls": [
-        "https://preview.redd.it/6fr37abpwxsh1.png?width=140&height=36&auto=webp&s=70def60aa58630d5ffaac3e55c0bc65167940732",
-        "https://preview.redd.it/6fr37abpwxsh1.png?width=657&format=png&auto=webp&s=f7e3d69cefefabb5c5269aacd537ef55876e7fac"
-      ],
-      "ocr_text": "Giving this request a little extra thought If you'd rather not wait, retry with a faster model. It may be less capable @ __ ofhandling complex requests. Learn more Dis V",
-      "ocr_sources": [
-        "https://preview.redd.it/6fr37abpwxsh1.png?width=657&format=png&auto=webp&s=f7e3d69cefefabb5c5269aacd537ef55876e7fac"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvdh8p",
-      "title": "It did not get faster",
-      "url": "https://www.reddit.com/r/codex/comments/1wvdh8p/it_did_not_get_faster/",
-      "published_at": "2026-10-01T22:39:27+00:00",
-      "media_urls": [
-        "https://preview.redd.it/qk0rg0bfoxsh1.jpg?width=140&height=110&auto=webp&s=a42b8a51267b31cfff8d89d956080ec89c41a5e3"
-      ],
-      "ocr_text": "ox wom mttmewmporenatyons Ses saicadaninate:",
-      "ocr_sources": [
-        "https://preview.redd.it/qk0rg0bfoxsh1.jpg?width=140&height=110&auto=webp&s=a42b8a51267b31cfff8d89d956080ec89c41a5e3"
       ],
       "ocr_errors": []
     }
