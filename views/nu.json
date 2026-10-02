@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T07:20:58.727010Z",
-  "since": "2026-10-02T04:20:58.727010Z",
+  "generated_at": "2026-10-02T08:23:13.369858Z",
+  "since": "2026-10-02T05:23:13.369858Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
-  "head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
+  "head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
   "previous_head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
   "commits": [
     {
-      "sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
-      "message": "Gaia paste bug fix.",
+      "sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
+      "message": "Updated Prime and calling new SymbolicConverter.Init function.",
       "author": "bryanedds",
-      "date": "2026-10-02T04:37:56Z",
-      "url": "https://github.com/bryanedds/Nu/commit/c5f10ae388954fa8018d4901930b95ccf4ff1056"
+      "date": "2026-10-02T08:06:32Z",
+      "url": "https://github.com/bryanedds/Nu/commit/375fac16f2c478478e6ef1eb366ac0274f742482"
     }
   ],
   "issues": [],
@@ -20,28 +20,50 @@
   "releases": [],
   "workflow_runs": [
     {
-      "id": 36965534259,
+      "id": 36982231983,
       "name": "CI",
       "event": "push",
       "status": "completed",
-      "conclusion": "success",
+      "conclusion": "failure",
       "head_branch": "mutable",
-      "head_sha": "8ef782e5859e1b897f019de105d812b5add927e1",
-      "updated_at": "2026-10-02T04:58:13Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36965534259"
+      "head_sha": "2118b7c81d85cc16ab874d22f07b77d616ef29fa",
+      "updated_at": "2026-10-02T08:09:55Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36982231983"
     },
     {
-      "id": 36965401853,
+      "id": 36982189691,
       "name": "CI",
       "event": "push",
-      "status": "completed",
-      "conclusion": "success",
+      "status": "in_progress",
+      "conclusion": null,
       "head_branch": "master",
-      "head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
-      "updated_at": "2026-10-02T04:57:14Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36965401853"
+      "head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
+      "updated_at": "2026-10-02T08:06:50Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36982189691"
     }
   ],
-  "changed_files_since_previous_feed": [],
+  "changed_files_since_previous_feed": [
+    {
+      "filename": "Nu/Nu.Gaia/Gaia.fs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Nu/Nu/Nu.fsproj",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Nu/Nu/World/World.fs",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3
+    }
+  ],
   "errors": []
 }
