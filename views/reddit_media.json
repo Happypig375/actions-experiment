@@ -1,26 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T13:29:21.528602Z",
+  "generated_at": "2026-10-02T14:32:06.033860Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
-    {
-      "id": "t3_1wvtm0k",
-      "title": "\"Why don't you use Claude, bro? Opus 5.5 is the BEST MODEL! Look at what [some stupid benchmark] says! It's better than GPT-6 Astra!!!\" I don't get Claude's fanboys.",
-      "url": "https://www.reddit.com/r/codex/comments/1wvtm0k/why_dont_you_use_claude_bro_opus_55_is_the_best/",
-      "published_at": "2026-10-02T13:18:47+00:00",
-      "media_urls": [
-        "https://preview.redd.it/4p5e0wv302th1.png?width=640&crop=smart&auto=webp&s=f7771b12a3ed728b7d81c31be23597a74a7fa369",
-        "https://i.redd.it/4p5e0wv302th1.png"
-      ],
-      "ocr_text": "anyou heb th fete nse my con ED (ERD na morgen afore. cart pbs fetes fo a \u2018urea spouts ne fests doa wre a0 yu suc? Shae roan cose anguge, and whats happening vrs Wat Yu expect. iat cas yout isthe ei memory Fes, evese ern, rendering creas, gue ta) happy oe wah NAN fer arectons + Demo parsing: ray ee fs o bls esta, Yock our uty sge, eve posing of compte ts etme damoge. ras he eeparer2 make pprocrabe + Reverse engineering practice: Cracnes, CTF changes, o sgl sloyertine ganas where modtying manor does atc anyone oe. ad\nCan you help with a feature inside my own/ifiii) G@RADand I'm working on a feature. AX claude-opus-5.5, @x @ opt-6-sol-max Bou | can't help build features for a\u2019 Sure\u2014what should the feature do, and where are you stuck? Share the relevant code, language, and what's happening versus what you expected. If what draws you to this is the technical side (memory reading, reverse engineering, rendering overlays, game internals), I'm happy to help with that in other directions: * Demo parsing: Analyze .dem files to build heatmaps, track your utility usage, review positioning, or compute stats like time-to-damage. Libraries like demoparser2 make this approachable. \u00ab Reverse engineering practice: Crackmes, CTF challenges, or single- player/offline games where modifying memory doesn't affect anyone else. checks, behavioral analysis, \u2014 . This 1s a solid path into v",
-      "ocr_sources": [
-        "https://preview.redd.it/4p5e0wv302th1.png?width=640&crop=smart&auto=webp&s=f7771b12a3ed728b7d81c31be23597a74a7fa369",
-        "https://i.redd.it/4p5e0wv302th1.png"
-      ],
-      "ocr_errors": []
-    },
     {
       "id": "t3_1wvt32m",
       "title": "Solid codex cloud specs",
@@ -372,6 +356,22 @@
       "ocr_text": "\u201cis creativly. ? t From idea \u2014 * tocampaign. > : . au > \\ pc: ae _ a",
       "ocr_sources": [
         "https://external-preview.redd.it/spH1TgzxeSNzBpHg8JVacOqP-ocX1L9HVxjVh2IIQhQ.jpeg?width=320&crop=smart&auto=webp&s=2fcd44ae536bb4b06fd7613469a94622622403ec"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvf271",
+      "title": "Must be a joke",
+      "url": "https://www.reddit.com/r/codex/comments/1wvf271/must_be_a_joke/",
+      "published_at": "2026-10-01T23:52:34+00:00",
+      "media_urls": [
+        "https://preview.redd.it/7ahfsrwg1ysh1.jpeg?width=640&crop=smart&auto=webp&s=916a60124c936822b46f71647a552b9efd97a88e",
+        "https://i.redd.it/7ahfsrwg1ysh1.jpeg"
+      ],
+      "ocr_text": "731 & 6% ll 100% & Ow: As part of our continuous upgrade process, we are deprecating the following models: \u00a2 gpt-5.4-nano \u00a2 gpt-5.1 \u00a2 gpt-5.3-codex Access to these models will be shut off on April 1, 2027. Ahead of the shutdown timeline, we encourage you to explore our recommended replacement models here. If you have any questions, feel free to reach out on the OpenAl Developer Forum. OpenAl : Yo oh Il O <\n753 & wll 100% @ \u20ac nS : As part of our continuous upgrade process, we are deprecating the following models: e gpt-5.4-nano e gpt-5.1 e gpt-5.3-codex Access to these models will be shut off on April 1, 2027. Ahead of the shutdown timeline, we encourage you to explore our recommended replacement models here. If you have any questions, feel free to reach out on the OpenAl Developer Forum. OpenAl : Wd Gr lI O <",
+      "ocr_sources": [
+        "https://preview.redd.it/7ahfsrwg1ysh1.jpeg?width=640&crop=smart&auto=webp&s=916a60124c936822b46f71647a552b9efd97a88e",
+        "https://i.redd.it/7ahfsrwg1ysh1.jpeg"
       ],
       "ocr_errors": []
     }
