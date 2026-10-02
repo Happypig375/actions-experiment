@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch GitHub acquisition feed",
-  "generated_at": "2026-10-02T18:46:35.096857Z",
-  "since": "2026-10-02T15:46:35.096857Z",
+  "generated_at": "2026-10-02T19:49:22.457515Z",
+  "since": "2026-10-02T16:49:22.457515Z",
   "fresh_for_seconds": 4500,
   "repos": [
     {
@@ -25,15 +25,15 @@
       "key": "angourimath",
       "full_name": "asc-community/AngouriMath",
       "view_path": "views/angourimath.json",
-      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
-      "previous_head_sha": "e33fbab2a84c11e52f852677f04ac5faba8e61c7",
+      "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
+      "previous_head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
       "counts": {
-        "commits": 2,
-        "issues": 9,
-        "pulls": 5,
+        "commits": 4,
+        "issues": 11,
+        "pulls": 7,
         "releases": 0,
         "workflow_runs": 50,
-        "changed_files": 1
+        "changed_files": 5
       },
       "errors": []
     }
