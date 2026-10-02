@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T08:23:13.369858Z",
-  "since": "2026-10-02T05:23:13.369858Z",
+  "generated_at": "2026-10-02T09:24:55.397335Z",
+  "since": "2026-10-02T06:24:55.397335Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
   "head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
-  "previous_head_sha": "c5f10ae388954fa8018d4901930b95ccf4ff1056",
+  "previous_head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
   "commits": [
     {
       "sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
@@ -15,10 +15,33 @@
       "url": "https://github.com/bryanedds/Nu/commit/375fac16f2c478478e6ef1eb366ac0274f742482"
     }
   ],
-  "issues": [],
+  "issues": [
+    {
+      "number": 1453,
+      "title": "Dummied out `macos-26` CI until we figure out how to fix or replace it.",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T08:44:04Z",
+      "user": "bryanedds",
+      "comments": 0,
+      "url": "https://github.com/bryanedds/Nu/issues/1453",
+      "kind": "issue"
+    }
+  ],
   "pulls": [],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 36985108235,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "mutable",
+      "head_sha": "cdc8d501ebc786930cb4e18a3b06390ba5e37e7d",
+      "updated_at": "2026-10-02T08:56:24Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36985108235"
+    },
     {
       "id": 36982231983,
       "name": "CI",
@@ -34,36 +57,14 @@
       "id": 36982189691,
       "name": "CI",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
-      "updated_at": "2026-10-02T08:06:50Z",
+      "updated_at": "2026-10-02T08:31:20Z",
       "url": "https://github.com/bryanedds/Nu/actions/runs/36982189691"
     }
   ],
-  "changed_files_since_previous_feed": [
-    {
-      "filename": "Nu/Nu.Gaia/Gaia.fs",
-      "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2
-    },
-    {
-      "filename": "Nu/Nu/Nu.fsproj",
-      "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2
-    },
-    {
-      "filename": "Nu/Nu/World/World.fs",
-      "status": "modified",
-      "additions": 2,
-      "deletions": 1,
-      "changes": 3
-    }
-  ],
+  "changed_files_since_previous_feed": [],
   "errors": []
 }

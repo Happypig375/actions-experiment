@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T08:23:13.369858Z",
-  "since": "2026-10-02T05:23:13.369858Z",
+  "generated_at": "2026-10-02T09:24:55.397335Z",
+  "since": "2026-10-02T06:24:55.397335Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
   "head_sha": "be009d56448d419d843b1a825bec2f004e6bd71d",
-  "previous_head_sha": "94ba5ff6764d9553e9982c6f30190c7433f98e89",
+  "previous_head_sha": "be009d56448d419d843b1a825bec2f004e6bd71d",
   "commits": [
     {
       "sha": "be009d56448d419d843b1a825bec2f004e6bd71d",
@@ -31,6 +31,28 @@
   ],
   "issues": [
     {
+      "number": 1648,
+      "title": "Dividing by a reciprocal gives a value where the quotient has none: 1/(1/x) is x",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T08:36:25Z",
+      "user": "Rafael-SOWNet",
+      "comments": 12,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1648",
+      "kind": "issue"
+    },
+    {
+      "number": 1649,
+      "title": "Organization-level management",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T08:31:19Z",
+      "user": "Happypig375",
+      "comments": 14,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1649",
+      "kind": "issue"
+    },
+    {
       "number": 1019,
       "title": "Pending breakages: changes agreed or arguable that cannot ship before a major version",
       "state": "open",
@@ -53,17 +75,6 @@
       "kind": "issue"
     },
     {
-      "number": 1649,
-      "title": "Organization-level management",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T08:18:18Z",
-      "user": "Happypig375",
-      "comments": 13,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1649",
-      "kind": "issue"
-    },
-    {
       "number": 1671,
       "title": "Breaking-changes entries for the integrals that say where they hold, and the spellings at risk measured again",
       "state": "closed",
@@ -73,17 +84,6 @@
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/pull/1671",
       "kind": "pull_request"
-    },
-    {
-      "number": 1648,
-      "title": "Dividing by a reciprocal gives a value where the quotient has none: 1/(1/x) is x",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T08:18:17Z",
-      "user": "Rafael-SOWNet",
-      "comments": 11,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1648",
-      "kind": "issue"
     },
     {
       "number": 1670,
@@ -127,28 +127,6 @@
       "user": "Rafael-SOWNet",
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/pull/1668",
-      "kind": "pull_request"
-    },
-    {
-      "number": 1660,
-      "title": "packages",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T05:34:25Z",
-      "user": "WhiteBlackGoose",
-      "comments": 3,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1660",
-      "kind": "issue"
-    },
-    {
-      "number": 1654,
-      "title": "amcli answers one command and exits, as the standalone CLI did",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T05:34:24Z",
-      "user": "Rafael-SOWNet",
-      "comments": 2,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1654",
       "kind": "pull_request"
     }
   ],
@@ -197,34 +175,6 @@
       "recent_reviews": [],
       "recent_issue_comments": [],
       "recent_review_comments": []
-    },
-    {
-      "number": 1654,
-      "title": "amcli answers one command and exits, as the standalone CLI did",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T05:34:24Z",
-      "merged_at": "2026-10-01T21:04:58Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "amcli-answers-one-command-and-exits",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1654",
-      "recent_reviews": [],
-      "recent_issue_comments": [
-        {
-          "user": "Happypig375",
-          "created_at": "2026-10-02T05:28:03Z",
-          "updated_at": "2026-10-02T05:28:29Z",
-          "body": "remember to revise the command names for clarity and correctness for v3"
-        },
-        {
-          "user": "Rafael-SOWNet",
-          "created_at": "2026-10-02T05:34:24Z",
-          "updated_at": "2026-10-02T05:34:24Z",
-          "body": "Recorded as [item 16 on #1019](https://github.com/asc-community/AngouriMath/issues/1019): `simp` \u2192 `simplify`, `fsimp` \u2192 `normalize`, `diff` \u2192 `differentiate`, `sub` \u2192 `substitute`, `info` \u2192 `describe`, `eval` \u2192 `evaluate`.\n\nTwo lines of the usage text are also wrong now: \"differentiates over VAR\" should be \"with respect to VAR\", and \"solves over VAR\" should be \"for VAR\". That's text only, so I'll fix it in 2.6.\n"
-        }
-      ],
-      "recent_review_comments": []
     }
   ],
   "releases": [],
@@ -266,11 +216,11 @@
       "id": 36981496118,
       "name": "C# Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "be009d56448d419d843b1a825bec2f004e6bd71d",
-      "updated_at": "2026-10-02T08:01:56Z",
+      "updated_at": "2026-10-02T08:24:39Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/36981496118"
     },
     {
@@ -780,14 +730,6 @@
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/36974247553"
     }
   ],
-  "changed_files_since_previous_feed": [
-    {
-      "filename": "BREAKING-CHANGES.md",
-      "status": "modified",
-      "additions": 32,
-      "deletions": 6,
-      "changes": 38
-    }
-  ],
+  "changed_files_since_previous_feed": [],
   "errors": []
 }
