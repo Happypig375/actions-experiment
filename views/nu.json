@@ -1,28 +1,44 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T02:59:30.907751Z",
-  "since": "2026-10-01T23:59:30.907751Z",
+  "generated_at": "2026-10-02T04:02:10.583387Z",
+  "since": "2026-10-02T01:02:10.583387Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
-  "head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
+  "head_sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
   "previous_head_sha": "c49e121cda41f8b88f2b905342ff7a26712866d9",
-  "commits": [],
+  "commits": [
+    {
+      "sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
+      "message": "More fine-grained discrimination against what propagation sources can be childed.",
+      "author": "bryanedds",
+      "date": "2026-10-02T03:30:20Z",
+      "url": "https://github.com/bryanedds/Nu/commit/308268215fa9017a18e2f32649c5a75e31aaa71b"
+    }
+  ],
   "issues": [],
   "pulls": [],
   "releases": [],
   "workflow_runs": [
     {
-      "id": 36942412262,
+      "id": 36960469331,
       "name": "CI",
       "event": "push",
       "status": "completed",
       "conclusion": "success",
-      "head_branch": "omni-blade",
-      "head_sha": "88d539600403c27ee71b5f2a589b550354a34717",
-      "updated_at": "2026-10-02T00:03:25Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36942412262"
+      "head_branch": "master",
+      "head_sha": "308268215fa9017a18e2f32649c5a75e31aaa71b",
+      "updated_at": "2026-10-02T03:51:10Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/36960469331"
     }
   ],
-  "changed_files_since_previous_feed": [],
+  "changed_files_since_previous_feed": [
+    {
+      "filename": "Nu/Nu.Gaia/Gaia.fs",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 25,
+      "changes": 55
+    }
+  ],
   "errors": []
 }

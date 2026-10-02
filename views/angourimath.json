@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T02:59:30.907751Z",
-  "since": "2026-10-01T23:59:30.907751Z",
+  "generated_at": "2026-10-02T04:02:10.583387Z",
+  "since": "2026-10-02T01:02:10.583387Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
   "head_sha": "bc6c190cb7e981704f2a799991252feebe2d3e27",
@@ -13,13 +13,6 @@
       "author": "Rafael-SOWNet",
       "date": "2026-10-02T01:54:09Z",
       "url": "https://github.com/asc-community/AngouriMath/commit/bc6c190cb7e981704f2a799991252feebe2d3e27"
-    },
-    {
-      "sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "message": "The Terminal's .deb installs amcli, with a man page and completion (#1662)",
-      "author": "Rafael-SOWNet",
-      "date": "2026-10-02T00:19:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/commit/422c7112751cf98687508779a2eed30197c39c90"
     }
   ],
   "issues": [
@@ -77,39 +70,6 @@
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/issues/1664",
       "kind": "issue"
-    },
-    {
-      "number": 1659,
-      "title": "bash-autocompletion script",
-      "state": "closed",
-      "state_reason": "completed",
-      "updated_at": "2026-10-02T00:19:21Z",
-      "user": "WhiteBlackGoose",
-      "comments": 1,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1659",
-      "kind": "issue"
-    },
-    {
-      "number": 1658,
-      "title": "`man` entry",
-      "state": "closed",
-      "state_reason": "completed",
-      "updated_at": "2026-10-02T00:19:21Z",
-      "user": "WhiteBlackGoose",
-      "comments": 1,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1658",
-      "kind": "issue"
-    },
-    {
-      "number": 1662,
-      "title": "The Terminal's .deb installs amcli, with a man page and completion",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T00:19:20Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1662",
-      "kind": "pull_request"
     }
   ],
   "pulls": [
@@ -124,21 +84,6 @@
       "base": "master",
       "head": "an-answer-past-the-cut-keeps-its-sign",
       "url": "https://github.com/asc-community/AngouriMath/pull/1663",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
-    },
-    {
-      "number": 1662,
-      "title": "The Terminal's .deb installs amcli, with a man page and completion",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T00:19:20Z",
-      "merged_at": "2026-10-02T00:19:20Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "the-deb-installs-amcli",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1662",
       "recent_reviews": [],
       "recent_issue_comments": [],
       "recent_review_comments": []
@@ -431,127 +376,6 @@
       "head_sha": "765f983ed1f41a576548957363a9c149ffd57053",
       "updated_at": "2026-10-02T01:24:35Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/36950489744"
-    },
-    {
-      "id": 36945400756,
-      "name": "C#/Kernel Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:24:42Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400756"
-    },
-    {
-      "id": 36945400751,
-      "name": "Integration Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:24:03Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400751"
-    },
-    {
-      "id": 36945400749,
-      "name": "C# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:46:52Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400749"
-    },
-    {
-      "id": 36945400735,
-      "name": "C++ Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:23:58Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400735"
-    },
-    {
-      "id": 36945400730,
-      "name": "Trimming & NativeAOT",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:25:00Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400730"
-    },
-    {
-      "id": 36945400714,
-      "name": "Interactive Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:24:07Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400714"
-    },
-    {
-      "id": 36945400697,
-      "name": "Interactive Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:22:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400697"
-    },
-    {
-      "id": 36945400678,
-      "name": "F# Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:21:04Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400678"
-    },
-    {
-      "id": 36945400674,
-      "name": "Solution Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:23:29Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400674"
-    },
-    {
-      "id": 36945400672,
-      "name": "F# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "422c7112751cf98687508779a2eed30197c39c90",
-      "updated_at": "2026-10-02T00:23:47Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36945400672"
-    },
-    {
-      "id": 36942653126,
-      "name": "C# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "the-deb-installs-amcli",
-      "head_sha": "885bf4f09194d281469f123821f02b3307753de0",
-      "updated_at": "2026-10-02T00:17:40Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/36942653126"
     }
   ],
   "changed_files_since_previous_feed": [],
