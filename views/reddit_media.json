@@ -1,10 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T09:20:31.692373Z",
+  "generated_at": "2026-10-02T10:22:39.860977Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvpw5o",
+      "title": "How to enable ultra fast?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvpw5o/how_to_enable_ultra_fast/",
+      "published_at": "2026-10-02T10:03:47+00:00",
+      "media_urls": [
+        "https://preview.redd.it/5r9ysvre21th1.png?width=140&height=48&auto=webp&s=881a1737cc5ac3a344d0caf639fee545d3ae9cf9",
+        "https://preview.redd.it/5r9ysvre21th1.png?width=1860&format=png&auto=webp&s=757f5c4f30a617863fd98d8fd343152378890d3a"
+      ],
+      "ocr_text": "ee eee ee ee ee ee eee ee eee ee eee ee eee EN EIN EEE CEE ENE CMs RAEN OE the team has forward power support. They also check that an old cached lane gets reconsidered when enemy power changes. I'm running that batch and strict linting together now. Preparing sequential test driver 1.5x speed 13 files changed +100 More usage G Pursuing goal Complete the remaining SFSB 0.2.0 implementat 4 Ultra 2) GPT-6 Astra > + \u00a9 Fullaccess Select effort . gg 0",
+      "ocr_sources": [
+        "https://preview.redd.it/5r9ysvre21th1.png?width=1860&format=png&auto=webp&s=757f5c4f30a617863fd98d8fd343152378890d3a"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvpd4m",
+      "title": "Use free models in Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wvpd4m/use_free_models_in_codex/",
+      "published_at": "2026-10-02T09:30:43+00:00",
+      "media_urls": [
+        "https://preview.redd.it/yg1c4ntxv0th1.png?width=640&crop=smart&auto=webp&s=b5004937741766472a8bb3c1648039dfa3c4dd0f",
+        "https://i.redd.it/yg1c4ntxv0th1.png"
+      ],
+      "ocr_text": "\u00a9 \u00a9 \u00a9 2 \u00a9 B seety ne activ mde! ar c) \u2018ist alfiles in the project fo} @ | Read files, ran a command ss _787 aca tes\u2014 the raw dump ots nated, ores th shape oft \u00a9 Usesties n Work for 988 7a7 wacked les, eouped Prajna oe wae) 2 ost 2 Prajna? \u00bb toca acapmatetitaiiee * Locatoctneiopostes \u201c tocaacaeterecs = soca strent \u00ae Locate rp acing po 26:10 Pe Lecce pw OP. Sa 9 Open 661 8 Lecacatrsareansucies Atop: Cue Somes 8 th) ocntoesgesnapte Atop cde Smet 8 \u2018Woe dv ater \u2018eet AGENTS, RAND README tis petasiecrgtnn \u2018Projectournal.xcodepros .7 eee atest van Ova as rina See Bay Ata v s + > Senn ura cariion = @ ;\n@\u00ae <\u00ab ~\u2014 O @ _ B\u00ae (dentify the active model no list all files in the project @ 6 Read files, ran a command see 787 tracked files \u2014 the raw dump gets truncated, so here's the shape of it: 6 Listed files ne \u00b0 Worked for 36s 787 tracked files, grouped: 7 Area Files - ProjectJournal/ (app target) 236 docs/ 201 a ProjectJournalTests/ 79 LocalPackages/NoteEditorWebView 74 LocalPackages/Diagnostics 34 LocalPackages/Preferences 33 Screenshots/ 23 LocalPackages/SharedUI 12 LocalPackages/PayWallPackage Pareto 26.10 Preview LocalPackages/OnboardingUI OpenAl: GPT-6.1 Sol Pro OpenAl: GPT-6.1 Sol Posall packedes/siiaied Ses Caetes Anthropic: Claude Sonnet 5.5 (batch) ocalPackages/NagKit Anthropic: Claude Sonnet 5.5 1 TypeSafe: Jev Router repo root (AGENTS.md, BRAND.md, README, test plans, .storekit) Perceptron: Perceptron Mk1.5 ProjectJournal.xcodeproj Ny Fireworks: Ember-1 Z.ai: GLM 5.3 Prime 1 Qwen: Qwen3.8 Max Prime Do anything Space Bunny Alpha v ry + \\ Space Bunny Alpha Extra High v +)",
+      "ocr_sources": [
+        "https://preview.redd.it/yg1c4ntxv0th1.png?width=640&crop=smart&auto=webp&s=b5004937741766472a8bb3c1648039dfa3c4dd0f",
+        "https://i.redd.it/yg1c4ntxv0th1.png"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvot0j",
       "title": "PSA: Dots will use your codex usage IF it THINKS it is a codex related job",
@@ -336,37 +367,6 @@
       "ocr_sources": [
         "https://preview.redd.it/h9b33nvc9xsh1.jpeg?width=640&crop=smart&auto=webp&s=2f853cc5230d43a27ac78f8645e5f4b6e63d408e",
         "https://i.redd.it/h9b33nvc9xsh1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvbdlx",
-      "title": "OpenDots - an open-source alternative to OpenAI Dots that runs on your machine",
-      "url": "https://www.reddit.com/r/codex/comments/1wvbdlx/opendots_an_opensource_alternative_to_openai_dots/",
-      "published_at": "2026-10-01T21:08:51+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7hw47ur88xsh1.png?width=640&crop=smart&auto=webp&s=700ee6220d8e2352c5974a633f8af8ba24edf2bd",
-        "https://i.redd.it/7hw47ur88xsh1.png"
-      ],
-      "ocr_text": "OpenDots Giveitagoal. _ Keep work moving. :\nG i i | ive it a goal. K k i eep work Moving. Open-source agents. Your models. Your control. ee & ec @ localhost:8765 ose ork Overview OpenDots YOUR AGENTS, AT WORK pa Improve project accessibilit Website maintsiner \u2014\u2014v 38 overview p proj y G Agents Incoming event Review proposed action pproval required \u00a9 GitHub issue sr\u00a2/components/SearchButton. jsx 4 Events Search button needs an accessible label @@ -1,3 +1,3 @@ 1 export function SearchButton() { | Reviews . Agent activity A a me \"4 + <button aria-label=\"Search\">Search</button> ill Activity \u00a9 Read relevant files 02:29 AM Sat \u00a9 Prepared a scoped change 02:29 AM \u00a9 Waiting for your approval 02:29 AM @& ) Event > 2 ) Agent > &Y ) Your review & ) Patch + checks",
-      "ocr_sources": [
-        "https://preview.redd.it/7hw47ur88xsh1.png?width=640&crop=smart&auto=webp&s=700ee6220d8e2352c5974a633f8af8ba24edf2bd",
-        "https://i.redd.it/7hw47ur88xsh1.png"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvb0kl",
-      "title": "This really made me laugh, thank you Codex :-)",
-      "url": "https://www.reddit.com/r/codex/comments/1wvb0kl/this_really_made_me_laugh_thank_you_codex/",
-      "published_at": "2026-10-01T20:54:21+00:00",
-      "media_urls": [
-        "https://preview.redd.it/nchtpvgg5xsh1.png?width=140&height=10&auto=webp&s=78b68444cf1848f40c541144d9bc21d718698a2b",
-        "https://preview.redd.it/nchtpvgg5xsh1.png?width=891&format=png&auto=webp&s=532c6cf70f69821462a472b30d7a8c3863aadd77"
-      ],
-      "ocr_text": "Working (59s * esc to interrupt) | Tip: Moving from Claude Code? Use /import to bring over your setup, project, and recent chats.",
-      "ocr_sources": [
-        "https://preview.redd.it/nchtpvgg5xsh1.png?width=891&format=png&auto=webp&s=532c6cf70f69821462a472b30d7a8c3863aadd77"
       ],
       "ocr_errors": []
     }
