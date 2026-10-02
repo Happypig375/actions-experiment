@@ -1,10 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T07:16:28.108790Z",
+  "generated_at": "2026-10-02T08:18:14.624699Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvmmto",
+      "title": "Stalled Codex on VSCode After Prompt",
+      "url": "https://www.reddit.com/r/codex/comments/1wvmmto/stalled_codex_on_vscode_after_prompt/",
+      "published_at": "2026-10-02T06:32:13+00:00",
+      "media_urls": [
+        "https://preview.redd.it/wga3q7zm00th1.png?width=140&height=87&auto=webp&s=92f93de4e11c3fbb24961e11de230bbdf9a90b62",
+        "https://preview.redd.it/wga3q7zm00th1.png?width=580&format=png&auto=webp&s=110f413b6efcc0f97bd5b21e26bdb1a7006cf576",
+        "https://preview.redd.it/c665a1rn00th1.png?width=580&format=png&auto=webp&s=d4b507b0b34fc9fea2ef0d90b20b97a17836fd10"
+      ],
+      "ocr_text": "Delivery could not be confirmed. Check the conversation before deleting this saved message =. @ hold on. thats like 30x slower. why is ngspice so much slower why are my prompts not getting throuhg? \u00a9 + @Q fullaccess GB Work locally v sy",
+      "ocr_sources": [
+        "https://preview.redd.it/wga3q7zm00th1.png?width=580&format=png&auto=webp&s=110f413b6efcc0f97bd5b21e26bdb1a7006cf576"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvmghe",
       "title": "If you have subscription of both, this will let your Claude Code and Codex collaborate much better.",
@@ -351,21 +367,6 @@
       "ocr_sources": [
         "https://preview.redd.it/94nrbxqgpwsh1.png?width=140&height=126&auto=webp&s=fcb5672a6877f7c84d58afe5a4efbd52c9e8079a",
         "https://preview.redd.it/94nrbxqgpwsh1.png?width=1086&format=png&auto=webp&s=0de4a26218ed05e3a25eed5c2b8792b0699fc660"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv7qim",
-      "title": "Spinning Forever in VS Code Codex",
-      "url": "https://www.reddit.com/r/codex/comments/1wv7qim/spinning_forever_in_vs_code_codex/",
-      "published_at": "2026-10-01T18:47:40+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7hu10mn0jwsh1.png?width=140&height=54&auto=webp&s=3b706b5a35bbb830e70f69598a5bdb230827f822",
-        "https://preview.redd.it/7hu10mn0jwsh1.png?width=1104&format=png&auto=webp&s=ce7e5cd46c25c750d9dc2d452a596eac64e4ea16"
-      ],
-      "ocr_text": "oO??? % U OF 99999999 9% w Ask for follow-up changes + \u00a9 Approve for me GPT-6.1 Sol Medium v v@ IDE contexr 0 \u00a9 Work locally v",
-      "ocr_sources": [
-        "https://preview.redd.it/7hu10mn0jwsh1.png?width=1104&format=png&auto=webp&s=ce7e5cd46c25c750d9dc2d452a596eac64e4ea16"
       ],
       "ocr_errors": []
     }
