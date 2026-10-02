@@ -1,20 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T12:31:08.030561Z",
-  "since": "2026-10-02T09:31:08.030561Z",
+  "generated_at": "2026-10-02T13:34:21.378473Z",
+  "since": "2026-10-02T10:34:21.378473Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
   "head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
   "previous_head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
-  "commits": [
-    {
-      "sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
-      "message": "More explicit declaration of player for demonstration purposes.",
-      "author": "bryanedds",
-      "date": "2026-10-02T09:43:26Z",
-      "url": "https://github.com/bryanedds/Nu/commit/41ec586acf1adba7af824b35033b2d27bea9613d"
-    }
-  ],
+  "commits": [],
   "issues": [
     {
       "number": 1316,
@@ -30,19 +22,7 @@
   ],
   "pulls": [],
   "releases": [],
-  "workflow_runs": [
-    {
-      "id": 36991426081,
-      "name": "CI",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
-      "updated_at": "2026-10-02T10:01:22Z",
-      "url": "https://github.com/bryanedds/Nu/actions/runs/36991426081"
-    }
-  ],
+  "workflow_runs": [],
   "changed_files_since_previous_feed": [],
   "errors": []
 }
