@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch authoritative Tibo timeline feed",
-  "generated_at": "2026-10-02T15:35:40.844977Z",
+  "generated_at": "2026-10-02T16:38:12.032258Z",
   "fresh_for_seconds": 4500,
   "source": {
     "key": "tibo",
@@ -9,7 +9,7 @@
     "view_path": "views/tibo.json",
     "status": "ok",
     "acquisition_mode": "fxtwitter",
-    "candidate_count": 20,
+    "candidate_count": 50,
     "errors": []
   }
 }
