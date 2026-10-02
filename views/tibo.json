@@ -1,11 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T03:01:23.566238Z",
+  "generated_at": "2026-10-02T04:04:17.292286Z",
   "source": "@thsottiaux",
   "acquisition_mode": "fxtwitter",
   "candidate_discovery_only": true,
   "source_url": "https://fxtwitter.com/thsottiaux/feed.xml",
   "items": [
+    {
+      "text": "You can ask your dot to \"create a pet and set it as your avatar\". It can be based on an idea, an image or pretty much anything. Here is my d\u2026\nYou can ask your dot to \"create a pet and set it as your avatar\". It can be based on an idea, an image or pretty much anything. Here is my dot\n\nMedia",
+      "url": "https://x.com/thsottiaux/status/2105862010521219406",
+      "published_at": "2026-10-02T03:26:42Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
     {
       "text": "Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to runnin\u2026\nGlobal reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies for the slow start with GPT-6.1 Sol, it's now back to running at expected speeds after the massive load spike in the first two days.",
       "url": "https://x.com/thsottiaux/status/2105843926221660585",
@@ -129,20 +136,6 @@
       "text": "Read this on thread on ChatGPT Space if you only read one thing about it.\n\nWe can finally show what we've been cooking. \ud83e\uddd1\u200d\ud83c\udf73 Here's some details about it that I really like:",
       "url": "https://x.com/thsottiaux/status/2105028036240552179",
       "published_at": "2026-09-29T20:12:48Z",
-      "source_handle": "@thsottiaux",
-      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
-    },
-    {
-      "text": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "url": "https://x.com/thsottiaux/status/2105007775676072381",
-      "published_at": "2026-09-29T18:52:17Z",
-      "source_handle": "@thsottiaux",
-      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
-    },
-    {
-      "text": "GPT-6.1 is a good model. And it\u2019s unbelievably efficient. Included in all paid plans and on the API today.",
-      "url": "https://x.com/thsottiaux/status/2105007628460109953",
-      "published_at": "2026-09-29T18:51:42Z",
       "source_handle": "@thsottiaux",
       "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
     },
