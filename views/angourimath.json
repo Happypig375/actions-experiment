@@ -1,12 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T19:49:22.457515Z",
-  "since": "2026-10-02T16:49:22.457515Z",
+  "generated_at": "2026-10-02T20:52:42.230801Z",
+  "since": "2026-10-02T17:52:42.230801Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
-  "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-  "previous_head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+  "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+  "previous_head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
   "commits": [
+    {
+      "sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "message": "A product of powers is read as its own raised product's derivative without a sum beside it (#1694)",
+      "author": "Rafael-SOWNet",
+      "date": "2026-10-02T20:13:40Z",
+      "url": "https://github.com/asc-community/AngouriMath/commit/96ac3bc7572530c2e7f431a0516df52a7efed895"
+    },
     {
       "sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
       "message": "A quadratic is split over a root it shares with a linear beside it (#1693)",
@@ -27,16 +34,64 @@
       "author": "Rafael-SOWNet",
       "date": "2026-10-02T18:35:37Z",
       "url": "https://github.com/asc-community/AngouriMath/commit/f2567748195ab7df18eb7b01363d42bb4a89fcf1"
-    },
-    {
-      "sha": "e33fbab2a84c11e52f852677f04ac5faba8e61c7",
-      "message": "Symbolic factors of a denominator that share a factor are written over it (#1687)",
-      "author": "Rafael-SOWNet",
-      "date": "2026-10-02T16:53:40Z",
-      "url": "https://github.com/asc-community/AngouriMath/commit/e33fbab2a84c11e52f852677f04ac5faba8e61c7"
     }
   ],
   "issues": [
+    {
+      "number": 1649,
+      "title": "Organization-level management",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T20:40:07Z",
+      "user": "Happypig375",
+      "comments": 29,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1649",
+      "kind": "issue"
+    },
+    {
+      "number": 1689,
+      "title": "Move what is left in AngouriMathLab here",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T20:38:03Z",
+      "user": "Rafael-SOWNet",
+      "comments": 5,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1689",
+      "kind": "issue"
+    },
+    {
+      "number": 1696,
+      "title": "The release checklist names the MCP server here, not its archived repository",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T20:37:13Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1696",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1695,
+      "title": "A root of a square in a fractional power of x is the modulus as well",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T20:25:28Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1695",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1694,
+      "title": "A product of powers is read as its own raised product's derivative without a sum beside it",
+      "state": "closed",
+      "state_reason": null,
+      "updated_at": "2026-10-02T20:13:40Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1694",
+      "kind": "pull_request"
+    },
     {
       "number": 1693,
       "title": "A quadratic is split over a root it shares with a linear beside it",
@@ -49,28 +104,6 @@
       "kind": "pull_request"
     },
     {
-      "number": 1649,
-      "title": "Organization-level management",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T19:40:36Z",
-      "user": "Happypig375",
-      "comments": 28,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1649",
-      "kind": "issue"
-    },
-    {
-      "number": 1694,
-      "title": "A product of powers is read as its own raised product's derivative without a sum beside it",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T19:35:08Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1694",
-      "kind": "pull_request"
-    },
-    {
       "number": 1691,
       "title": "A power of a multiple of a quadratic's derivative beside a power of the quadratic is a binomial",
       "state": "closed",
@@ -80,17 +113,6 @@
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/pull/1691",
       "kind": "pull_request"
-    },
-    {
-      "number": 1689,
-      "title": "Move what is left in AngouriMathLab here",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T19:08:50Z",
-      "user": "Rafael-SOWNet",
-      "comments": 4,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1689",
-      "kind": "issue"
     },
     {
       "number": 1688,
@@ -113,53 +135,54 @@
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/issues/1692",
       "kind": "issue"
-    },
-    {
-      "number": 1690,
-      "title": "The C++ and Python wrappers follow the operation catalogue",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T17:46:36Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/issues/1690",
-      "kind": "issue"
-    },
-    {
-      "number": 1687,
-      "title": "Symbolic factors of a denominator that share a factor are written over it",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T16:53:41Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1687",
-      "kind": "pull_request"
-    },
-    {
-      "number": 1686,
-      "title": "Two piecewises split on one quantity combine sign by sign",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T16:53:33Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1686",
-      "kind": "pull_request"
-    },
-    {
-      "number": 1685,
-      "title": "A conditional expression is differentiated where its condition holds",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T16:53:31Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1685",
-      "kind": "pull_request"
     }
   ],
   "pulls": [
+    {
+      "number": 1696,
+      "title": "The release checklist names the MCP server here, not its archived repository",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-02T20:37:13Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "the-mcp-server-is-released-from-here",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1696",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    },
+    {
+      "number": 1695,
+      "title": "A root of a square in a fractional power of x is the modulus as well",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-02T20:25:28Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "a-square-in-a-fractional-power-is-a-modulus",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1695",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    },
+    {
+      "number": 1694,
+      "title": "A product of powers is read as its own raised product's derivative without a sum beside it",
+      "state": "closed",
+      "draft": false,
+      "updated_at": "2026-10-02T20:13:40Z",
+      "merged_at": "2026-10-02T20:13:40Z",
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "a-product-of-powers-without-a-sum-beside-it",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1694",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    },
     {
       "number": 1693,
       "title": "A quadratic is split over a root it shares with a linear beside it",
@@ -171,21 +194,6 @@
       "base": "master",
       "head": "a-quadratic-split-over-a-root-it-shares",
       "url": "https://github.com/asc-community/AngouriMath/pull/1693",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
-    },
-    {
-      "number": 1694,
-      "title": "A product of powers is read as its own raised product's derivative without a sum beside it",
-      "state": "open",
-      "draft": false,
-      "updated_at": "2026-10-02T19:35:08Z",
-      "merged_at": null,
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "a-product-of-powers-without-a-sum-beside-it",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1694",
       "recent_reviews": [],
       "recent_issue_comments": [],
       "recent_review_comments": []
@@ -220,18 +228,6 @@
       "recent_issue_comments": [
         {
           "user": "Happypig375",
-          "created_at": "2026-10-02T17:01:18Z",
-          "updated_at": "2026-10-02T17:01:18Z",
-          "body": "The Lab's content, which seem to be C++ and notebooks, are verified migrated to main repo already, right?"
-        },
-        {
-          "user": "Rafael-SOWNet",
-          "created_at": "2026-10-02T17:46:08Z",
-          "updated_at": "2026-10-02T17:46:08Z",
-          "body": "Not all of it, no. I compared each of Lab's branches with master:\n\n- **C++.** The source is here: `Sources/Wrappers/AngouriMath.CPP.Exporting` and `.Importing`, their tests, `Sources/Samples/CPlusPlusPlayground`, `CPPBuild.yml` and `CPPTest.yml`. The distribution isn't. The website's C++ quickstart fetches Lab's `cpp-release` branch, and its CMakeLists downloads the binaries of Lab's `0.0.0-poc` release, built in May 2021. `CPPBuild.yml` keeps its builds as workflow artifacts only, so nothing here publishes newer ones.\n- **Notebooks.** Not migrated. Lab's `try` branch has an F# tutorial of 68 cells, with plotting, and a C# notebook of 9 cells. Here there are two samples of 5 cells each in `Sources/Samples`.\n- The `try` branch is also the Binder setup behind the README's Try button. It holds AngouriGamma too, a WPF demo of the limit, simplifier and solver that exists nowhere else.\n- Lab's `main` branch has `articles.md` and `we-thank.md`.\n\nThis PR moves only the Terminal's builds. I've put the rest on #1689's checklist, so Lab isn't archived until each has a home here.\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_012sonx8iAspMiwRwok"
-        },
-        {
-          "user": "Happypig375",
           "created_at": "2026-10-02T18:20:02Z",
           "updated_at": "2026-10-02T18:20:02Z",
           "body": "AngouriGamma should be migrated to a web app for v3.1, and redesigned according to https://github.com/asc-community/AngouriMath/issues/1649#issuecomment-5937212347 alongside the existing website. "
@@ -244,55 +240,406 @@
         }
       ],
       "recent_review_comments": []
-    },
-    {
-      "number": 1687,
-      "title": "Symbolic factors of a denominator that share a factor are written over it",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T16:53:41Z",
-      "merged_at": "2026-10-02T16:53:40Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "symbolic-factors-written-over-their-common-factors",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1687",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
-    },
-    {
-      "number": 1686,
-      "title": "Two piecewises split on one quantity combine sign by sign",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T16:53:33Z",
-      "merged_at": "2026-10-02T14:43:22Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "a-sum-of-sign-splits-stays-split",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1686",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
-    },
-    {
-      "number": 1685,
-      "title": "A conditional expression is differentiated where its condition holds",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T16:53:31Z",
-      "merged_at": "2026-10-02T14:06:42Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "a-conditional-answer-is-differentiated-under-its-condition",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1685",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
     }
   ],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 37061753453,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:45:40Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753453"
+    },
+    {
+      "id": 37061753451,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:45:53Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753451"
+    },
+    {
+      "id": 37061753411,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:42:44Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753411"
+    },
+    {
+      "id": 37061753399,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:42:33Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753399"
+    },
+    {
+      "id": 37061753388,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:41:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753388"
+    },
+    {
+      "id": 37061753351,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:42:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753351"
+    },
+    {
+      "id": 37061753350,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:42:22Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753350"
+    },
+    {
+      "id": 37061753284,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:44:20Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753284"
+    },
+    {
+      "id": 37061753275,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:42:24Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753275"
+    },
+    {
+      "id": 37061753265,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "the-mcp-server-is-released-from-here",
+      "head_sha": "e5300ea51c4bebf0a04f93ddf8bc90c797beb3d4",
+      "updated_at": "2026-10-02T20:37:24Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37061753265"
+    },
+    {
+      "id": 37060488636,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:30:17Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488636"
+    },
+    {
+      "id": 37060488583,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:35:35Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488583"
+    },
+    {
+      "id": 37060488571,
+      "name": "C++ Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:32:01Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488571"
+    },
+    {
+      "id": 37060488568,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:31:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488568"
+    },
+    {
+      "id": 37060488561,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:31:08Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488561"
+    },
+    {
+      "id": 37060488559,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:32:19Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488559"
+    },
+    {
+      "id": 37060488549,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:51:06Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488549"
+    },
+    {
+      "id": 37060488537,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:31:12Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488537"
+    },
+    {
+      "id": 37060488533,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:31:12Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488533"
+    },
+    {
+      "id": 37060488507,
+      "name": "Harnesses",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:38:48Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488507"
+    },
+    {
+      "id": 37060488496,
+      "name": "Kernel Benchmark",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:37:14Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488496"
+    },
+    {
+      "id": 37060488487,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:30:43Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488487"
+    },
+    {
+      "id": 37060488486,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-square-in-a-fractional-power-is-a-modulus",
+      "head_sha": "9d45d29cccef0d8ba428e714209ece5fd8d80f68",
+      "updated_at": "2026-10-02T20:32:42Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37060488486"
+    },
+    {
+      "id": 37059213157,
+      "name": "Interactive Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:21:41Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213157"
+    },
+    {
+      "id": 37059213126,
+      "name": "Integration Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:21:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213126"
+    },
+    {
+      "id": 37059213113,
+      "name": "Harnesses",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:22:59Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213113"
+    },
+    {
+      "id": 37059213109,
+      "name": "Trimming & NativeAOT",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:18:26Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213109"
+    },
+    {
+      "id": 37059213108,
+      "name": "C++ Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:20:24Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213108"
+    },
+    {
+      "id": 37059213107,
+      "name": "F# Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:20:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213107"
+    },
+    {
+      "id": 37059213100,
+      "name": "F# Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:17:00Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213100"
+    },
+    {
+      "id": 37059213098,
+      "name": "Solution Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:22:17Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213098"
+    },
+    {
+      "id": 37059213092,
+      "name": "Kernel Benchmark",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:25:14Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213092"
+    },
+    {
+      "id": 37059213061,
+      "name": "C#/Kernel Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:20:21Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213061"
+    },
+    {
+      "id": 37059213052,
+      "name": "Interactive Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:17:16Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059213052"
+    },
+    {
+      "id": 37059212989,
+      "name": "C++ Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:20:43Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059212989"
+    },
+    {
+      "id": 37059212974,
+      "name": "C# Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "96ac3bc7572530c2e7f431a0516df52a7efed895",
+      "updated_at": "2026-10-02T20:43:11Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37059212974"
+    },
     {
       "id": 37056101601,
       "name": "Interactive Build",
@@ -308,11 +655,11 @@
       "id": 37056101599,
       "name": "C# Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:47:16Z",
+      "updated_at": "2026-10-02T20:11:00Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101599"
     },
     {
@@ -330,55 +677,55 @@
       "id": 37056101559,
       "name": "Trimming & NativeAOT",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:40Z",
+      "updated_at": "2026-10-02T19:53:09Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101559"
     },
     {
       "id": 37056101537,
       "name": "C++ Build",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:29Z",
+      "updated_at": "2026-10-02T19:51:35Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101537"
     },
     {
       "id": 37056101505,
       "name": "Interactive Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:07Z",
+      "updated_at": "2026-10-02T19:52:31Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101505"
     },
     {
       "id": 37056101482,
       "name": "C++ Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:45Z",
+      "updated_at": "2026-10-02T19:52:32Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101482"
     },
     {
       "id": 37056101469,
       "name": "Kernel Benchmark",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:36Z",
+      "updated_at": "2026-10-02T20:01:35Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101469"
     },
     {
@@ -407,22 +754,22 @@
       "id": 37056101429,
       "name": "F# Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:48:06Z",
+      "updated_at": "2026-10-02T19:51:29Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101429"
     },
     {
       "id": 37056101407,
       "name": "Harnesses",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "a34dbc3bb98b98ea1d9555a20644389cc979181e",
-      "updated_at": "2026-10-02T19:49:03Z",
+      "updated_at": "2026-10-02T19:54:18Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37056101407"
     },
     {
@@ -446,439 +793,29 @@
       "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
       "updated_at": "2026-10-02T19:44:29Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077477"
-    },
-    {
-      "id": 37055077335,
-      "name": "Kernel Benchmark",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:47:10Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077335"
-    },
-    {
-      "id": 37055077326,
-      "name": "F# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:42:22Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077326"
-    },
-    {
-      "id": 37055077323,
-      "name": "Solution Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:44:08Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077323"
-    },
-    {
-      "id": 37055077322,
-      "name": "C++ Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:43:38Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077322"
-    },
-    {
-      "id": 37055077295,
-      "name": "Trimming & NativeAOT",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:42:04Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077295"
-    },
-    {
-      "id": 37055077254,
-      "name": "F# Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:40:06Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077254"
-    },
-    {
-      "id": 37055077227,
-      "name": "Interactive Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:39:50Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077227"
-    },
-    {
-      "id": 37055077221,
-      "name": "Integration Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:42:07Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077221"
-    },
-    {
-      "id": 37055077183,
-      "name": "Interactive Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:40:29Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077183"
-    },
-    {
-      "id": 37055077142,
-      "name": "C++ Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:43:35Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077142"
-    },
-    {
-      "id": 37055077115,
-      "name": "C# Test",
-      "event": "pull_request",
-      "status": "in_progress",
-      "conclusion": null,
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:36:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077115"
-    },
-    {
-      "id": 37055077114,
-      "name": "C#/Kernel Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-product-of-powers-without-a-sum-beside-it",
-      "head_sha": "4a9fe5115994259b46e28e05b71831300ffbbce7",
-      "updated_at": "2026-10-02T19:39:21Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37055077114"
-    },
-    {
-      "id": 37053452432,
-      "name": "Interactive Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:25:23Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452432"
-    },
-    {
-      "id": 37053452415,
-      "name": "F# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:24:54Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452415"
-    },
-    {
-      "id": 37053452357,
-      "name": "Integration Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:25:25Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452357"
-    },
-    {
-      "id": 37053452347,
-      "name": "C++ Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:29:14Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452347"
-    },
-    {
-      "id": 37053452343,
-      "name": "F# Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:25:22Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452343"
-    },
-    {
-      "id": 37053452331,
-      "name": "Solution Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:28:55Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452331"
-    },
-    {
-      "id": 37053452320,
-      "name": "Trimming & NativeAOT",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:27:42Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452320"
-    },
-    {
-      "id": 37053452318,
-      "name": "Interactive Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:24:23Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452318"
-    },
-    {
-      "id": 37053452316,
-      "name": "Kernel Benchmark",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:38:22Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452316"
-    },
-    {
-      "id": 37053452312,
-      "name": "C# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:43:59Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452312"
-    },
-    {
-      "id": 37053452310,
-      "name": "C#/Kernel Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:25:54Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452310"
-    },
-    {
-      "id": 37053452307,
-      "name": "C++ Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:27:50Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452307"
-    },
-    {
-      "id": 37053452285,
-      "name": "Harnesses",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-quadratic-split-over-a-root-it-shares",
-      "head_sha": "5f87b85361f4504851b5c54cae3cde2a87e2311b",
-      "updated_at": "2026-10-02T19:31:56Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37053452285"
-    },
-    {
-      "id": 37052286317,
-      "name": "C++ Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:15:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286317"
-    },
-    {
-      "id": 37052286251,
-      "name": "Solution Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:16:53Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286251"
-    },
-    {
-      "id": 37052286196,
-      "name": "F# Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:14:37Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286196"
-    },
-    {
-      "id": 37052286103,
-      "name": "C#/Kernel Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:15:26Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286103"
-    },
-    {
-      "id": 37052286079,
-      "name": "Integration Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:17:10Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286079"
-    },
-    {
-      "id": 37052286033,
-      "name": "Harnesses",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:19:00Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286033"
-    },
-    {
-      "id": 37052286011,
-      "name": "C++ Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:18:06Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286011"
-    },
-    {
-      "id": 37052286010,
-      "name": "Interactive Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:16:59Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052286010"
-    },
-    {
-      "id": 37052285978,
-      "name": "Trimming & NativeAOT",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:13:28Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052285978"
-    },
-    {
-      "id": 37052285966,
-      "name": "F# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:14:54Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052285966"
-    },
-    {
-      "id": 37052285896,
-      "name": "Kernel Benchmark",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "61de03de7f675e7fbc5fc70b39cef93374bc4bfa",
-      "updated_at": "2026-10-02T19:24:16Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37052285896"
     }
   ],
   "changed_files_since_previous_feed": [
     {
       "filename": "BREAKING-CHANGES.md",
       "status": "modified",
-      "additions": 34,
+      "additions": 15,
       "deletions": 0,
-      "changes": 34
+      "changes": 15
     },
     {
       "filename": "Sources/AngouriMath/Functions/Continuous/Integration/IndefiniteIntegralSolver.cs",
       "status": "modified",
-      "additions": 123,
-      "deletions": 2,
-      "changes": 125
+      "additions": 50,
+      "deletions": 11,
+      "changes": 61
     },
     {
-      "filename": "Sources/AngouriMath/Functions/Continuous/Integration/Integration.Definition.cs",
+      "filename": "Sources/Tests/UnitTests/Calculus/ProductOfPowersDerivativeTest.cs",
       "status": "modified",
-      "additions": 3,
+      "additions": 25,
       "deletions": 0,
-      "changes": 3
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/DerivativeOfAQuadraticAsTheVariableTest.cs",
-      "status": "added",
-      "additions": 56,
-      "deletions": 0,
-      "changes": 56
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/EachLinearWrittenOnceIntegralTest.cs",
-      "status": "modified",
-      "additions": 21,
-      "deletions": 0,
-      "changes": 21
+      "changes": 25
     }
   ],
   "errors": []
