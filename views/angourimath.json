@@ -1,12 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T17:44:25.326782Z",
-  "since": "2026-10-02T14:44:25.326782Z",
+  "generated_at": "2026-10-02T18:46:35.096857Z",
+  "since": "2026-10-02T15:46:35.096857Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
-  "head_sha": "e33fbab2a84c11e52f852677f04ac5faba8e61c7",
-  "previous_head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
+  "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+  "previous_head_sha": "e33fbab2a84c11e52f852677f04ac5faba8e61c7",
   "commits": [
+    {
+      "sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "message": "The Terminal's builds are attached to the release of the packages (#1688)",
+      "author": "Rafael-SOWNet",
+      "date": "2026-10-02T18:35:37Z",
+      "url": "https://github.com/asc-community/AngouriMath/commit/f2567748195ab7df18eb7b01363d42bb4a89fcf1"
+    },
     {
       "sha": "e33fbab2a84c11e52f852677f04ac5faba8e61c7",
       "message": "Symbolic factors of a denominator that share a factor are written over it (#1687)",
@@ -21,22 +28,55 @@
       "title": "Archive AngouriMathLab once 2.6.0 carries the Terminal's builds",
       "state": "open",
       "state_reason": null,
-      "updated_at": "2026-10-02T17:06:23Z",
+      "updated_at": "2026-10-02T18:35:56Z",
       "user": "Rafael-SOWNet",
-      "comments": 1,
+      "comments": 3,
       "url": "https://github.com/asc-community/AngouriMath/issues/1689",
       "kind": "issue"
     },
     {
       "number": 1688,
       "title": "The Terminal's builds are attached to the release of the packages",
-      "state": "open",
+      "state": "closed",
       "state_reason": null,
-      "updated_at": "2026-10-02T17:01:18Z",
+      "updated_at": "2026-10-02T18:35:38Z",
       "user": "Rafael-SOWNet",
-      "comments": 1,
+      "comments": 4,
       "url": "https://github.com/asc-community/AngouriMath/pull/1688",
       "kind": "pull_request"
+    },
+    {
+      "number": 1692,
+      "title": "AngouriGamma becomes a web app beside the website",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T18:35:11Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1692",
+      "kind": "issue"
+    },
+    {
+      "number": 1691,
+      "title": "A power of a multiple of a quadratic's derivative beside a power of the quadratic is a binomial",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T18:34:11Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1691",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1690,
+      "title": "The C++ and Python wrappers follow the operation catalogue",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-02T17:46:36Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/issues/1690",
+      "kind": "issue"
     },
     {
       "number": 1687,
@@ -87,10 +127,10 @@
     {
       "number": 1688,
       "title": "The Terminal's builds are attached to the release of the packages",
-      "state": "open",
+      "state": "closed",
       "draft": false,
-      "updated_at": "2026-10-02T17:01:18Z",
-      "merged_at": null,
+      "updated_at": "2026-10-02T18:35:38Z",
+      "merged_at": "2026-10-02T18:35:38Z",
       "user": "Rafael-SOWNet",
       "base": "master",
       "head": "the-terminal-is-attached-to-the-release",
@@ -102,8 +142,41 @@
           "created_at": "2026-10-02T17:01:18Z",
           "updated_at": "2026-10-02T17:01:18Z",
           "body": "The Lab's content, which seem to be C++ and notebooks, are verified migrated to main repo already, right?"
+        },
+        {
+          "user": "Rafael-SOWNet",
+          "created_at": "2026-10-02T17:46:08Z",
+          "updated_at": "2026-10-02T17:46:08Z",
+          "body": "Not all of it, no. I compared each of Lab's branches with master:\n\n- **C++.** The source is here: `Sources/Wrappers/AngouriMath.CPP.Exporting` and `.Importing`, their tests, `Sources/Samples/CPlusPlusPlayground`, `CPPBuild.yml` and `CPPTest.yml`. The distribution isn't. The website's C++ quickstart fetches Lab's `cpp-release` branch, and its CMakeLists downloads the binaries of Lab's `0.0.0-poc` release, built in May 2021. `CPPBuild.yml` keeps its builds as workflow artifacts only, so nothing here publishes newer ones.\n- **Notebooks.** Not migrated. Lab's `try` branch has an F# tutorial of 68 cells, with plotting, and a C# notebook of 9 cells. Here there are two samples of 5 cells each in `Sources/Samples`.\n- The `try` branch is also the Binder setup behind the README's Try button. It holds AngouriGamma too, a WPF demo of the limit, simplifier and solver that exists nowhere else.\n- Lab's `main` branch has `articles.md` and `we-thank.md`.\n\nThis PR moves only the Terminal's builds. I've put the rest on #1689's checklist, so Lab isn't archived until each has a home here.\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_012sonx8iAspMiwRwok"
+        },
+        {
+          "user": "Happypig375",
+          "created_at": "2026-10-02T18:20:02Z",
+          "updated_at": "2026-10-02T18:20:02Z",
+          "body": "AngouriGamma should be migrated to a web app for v3.1, and redesigned according to https://github.com/asc-community/AngouriMath/issues/1649#issuecomment-5937212347 alongside the existing website. "
+        },
+        {
+          "user": "Rafael-SOWNet",
+          "created_at": "2026-10-02T18:35:27Z",
+          "updated_at": "2026-10-02T18:35:27Z",
+          "body": "Filed as #1692 in 3.1, beside the website, and ticked on #1689's checklist: its source stays readable in the archived Lab until then.\n\n\ud83e\udd16 Generated with [Claude Code](https://claude.com/claude-code)\n\nhttps://claude.ai/code/session_012sonx8iAspMiwRwokT1Ura\n"
         }
       ],
+      "recent_review_comments": []
+    },
+    {
+      "number": 1691,
+      "title": "A power of a multiple of a quadratic's derivative beside a power of the quadratic is a binomial",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-02T18:34:11Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "the-derivative-of-a-quadratic-as-the-variable",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1691",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
       "recent_review_comments": []
     },
     {
@@ -154,6 +227,259 @@
   ],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 37048489620,
+      "name": "Solution Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:48:07Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489620"
+    },
+    {
+      "id": 37048489512,
+      "name": "C++ Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:45:55Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489512"
+    },
+    {
+      "id": 37048489433,
+      "name": "C# Test",
+      "event": "push",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:41:24Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489433"
+    },
+    {
+      "id": 37048489401,
+      "name": "C#/Kernel Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:45:32Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489401"
+    },
+    {
+      "id": 37048489282,
+      "name": "Integration Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:47:08Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489282"
+    },
+    {
+      "id": 37048489278,
+      "name": "Trimming & NativeAOT",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:46:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489278"
+    },
+    {
+      "id": 37048489191,
+      "name": "F# Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:43:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489191"
+    },
+    {
+      "id": 37048489188,
+      "name": "Interactive Test",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:46:46Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489188"
+    },
+    {
+      "id": 37048489142,
+      "name": "Interactive Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:44:01Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489142"
+    },
+    {
+      "id": 37048489128,
+      "name": "F# Build",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "f2567748195ab7df18eb7b01363d42bb4a89fcf1",
+      "updated_at": "2026-10-02T18:43:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048489128"
+    },
+    {
+      "id": 37048328536,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:41:23Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328536"
+    },
+    {
+      "id": 37048328501,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:43:04Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328501"
+    },
+    {
+      "id": 37048328497,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:37:52Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328497"
+    },
+    {
+      "id": 37048328489,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:37:33Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328489"
+    },
+    {
+      "id": 37048328456,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:40:55Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328456"
+    },
+    {
+      "id": 37048328449,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:38:04Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328449"
+    },
+    {
+      "id": 37048328434,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:45:12Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328434"
+    },
+    {
+      "id": 37048328413,
+      "name": "Kernel Benchmark",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:45:41Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328413"
+    },
+    {
+      "id": 37048328317,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:39:18Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328317"
+    },
+    {
+      "id": 37048328304,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:45:47Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328304"
+    },
+    {
+      "id": 37048328301,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:39:40Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328301"
+    },
+    {
+      "id": 37048328293,
+      "name": "C++ Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:41:01Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328293"
+    },
+    {
+      "id": 37048328255,
+      "name": "Harnesses",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "the-derivative-of-a-quadratic-as-the-variable",
+      "head_sha": "6b295a7286eba6f799192da90b095187c55c9b6a",
+      "updated_at": "2026-10-02T18:44:00Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37048328255"
+    },
     {
       "id": 37037025017,
       "name": "C++ Test",
@@ -450,282 +776,15 @@
       "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
       "updated_at": "2026-10-02T16:28:12Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707718"
-    },
-    {
-      "id": 37033707717,
-      "name": "Harnesses",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:37:34Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707717"
-    },
-    {
-      "id": 37033707696,
-      "name": "Interactive Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:28:22Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707696"
-    },
-    {
-      "id": 37033707673,
-      "name": "Kernel Benchmark",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:41:27Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707673"
-    },
-    {
-      "id": 37033707644,
-      "name": "Integration Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:29:13Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707644"
-    },
-    {
-      "id": 37033707628,
-      "name": "C++ Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:31:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707628"
-    },
-    {
-      "id": 37033707606,
-      "name": "F# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:29:37Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707606"
-    },
-    {
-      "id": 37033707588,
-      "name": "C# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:50:43Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707588"
-    },
-    {
-      "id": 37033707560,
-      "name": "Interactive Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:28:14Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707560"
-    },
-    {
-      "id": 37033707558,
-      "name": "F# Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:28:17Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707558"
-    },
-    {
-      "id": 37033707532,
-      "name": "C++ Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "symbolic-factors-written-over-their-common-factors",
-      "head_sha": "ce26dee2c31431e261d189bac999d4e6fe81222d",
-      "updated_at": "2026-10-02T16:28:42Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37033707532"
-    },
-    {
-      "id": 37021854994,
-      "name": "Kernel Benchmark",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:56:29Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854994"
-    },
-    {
-      "id": 37021854968,
-      "name": "C# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T15:10:05Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854968"
-    },
-    {
-      "id": 37021854894,
-      "name": "Interactive Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:48:36Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854894"
-    },
-    {
-      "id": 37021854652,
-      "name": "F# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:51:31Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854652"
-    },
-    {
-      "id": 37021854651,
-      "name": "Trimming & NativeAOT",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:51:19Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854651"
-    },
-    {
-      "id": 37021854388,
-      "name": "F# Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:49:24Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854388"
-    },
-    {
-      "id": 37021854386,
-      "name": "Solution Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:49:15Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854386"
-    },
-    {
-      "id": 37021854382,
-      "name": "C#/Kernel Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:49:28Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854382"
-    },
-    {
-      "id": 37021854327,
-      "name": "C++ Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:49:40Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854327"
-    },
-    {
-      "id": 37021854292,
-      "name": "Integration Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:48:23Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854292"
-    },
-    {
-      "id": 37021854184,
-      "name": "Harnesses",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:52:52Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854184"
-    },
-    {
-      "id": 37021854090,
-      "name": "C++ Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:51:40Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021854090"
-    },
-    {
-      "id": 37021853649,
-      "name": "Interactive Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "70b4be6235aa580102bb34d1e3c9583c1dd7daab",
-      "updated_at": "2026-10-02T14:48:18Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37021853649"
     }
   ],
   "changed_files_since_previous_feed": [
     {
-      "filename": "BREAKING-CHANGES.md",
+      "filename": ".github/workflows/TerminalNightly.yml",
       "status": "modified",
-      "additions": 17,
-      "deletions": 0,
-      "changes": 17
-    },
-    {
-      "filename": "Sources/AngouriMath/Functions/Continuous/Integration/IndefiniteIntegralSolver.cs",
-      "status": "modified",
-      "additions": 228,
-      "deletions": 0,
-      "changes": 228
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/SymbolicFactorsPartialFractionsTest.cs",
-      "status": "modified",
-      "additions": 29,
-      "deletions": 0,
-      "changes": 29
+      "additions": 32,
+      "deletions": 13,
+      "changes": 45
     }
   ],
   "errors": []
