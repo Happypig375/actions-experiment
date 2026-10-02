@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch GitHub acquisition feed",
-  "generated_at": "2026-10-02T10:26:28.822872Z",
-  "since": "2026-10-02T07:26:28.822872Z",
+  "generated_at": "2026-10-02T11:28:39.811026Z",
+  "since": "2026-10-02T08:28:39.811026Z",
   "fresh_for_seconds": 4500,
   "repos": [
     {
@@ -10,14 +10,14 @@
       "full_name": "bryanedds/Nu",
       "view_path": "views/nu.json",
       "head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
-      "previous_head_sha": "375fac16f2c478478e6ef1eb366ac0274f742482",
+      "previous_head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
       "counts": {
-        "commits": 2,
-        "issues": 1,
+        "commits": 1,
+        "issues": 2,
         "pulls": 0,
         "releases": 0,
-        "workflow_runs": 4,
-        "changed_files": 1
+        "workflow_runs": 3,
+        "changed_files": 0
       },
       "errors": []
     },
@@ -25,15 +25,15 @@
       "key": "angourimath",
       "full_name": "asc-community/AngouriMath",
       "view_path": "views/angourimath.json",
-      "head_sha": "fb520e2016c8a0aa863edf2153fc3bccc2e76e5a",
-      "previous_head_sha": "be009d56448d419d843b1a825bec2f004e6bd71d",
+      "head_sha": "6d7530009931eb10dc2f4d53ba06a75886dca1c1",
+      "previous_head_sha": "fb520e2016c8a0aa863edf2153fc3bccc2e76e5a",
       "counts": {
-        "commits": 2,
+        "commits": 3,
         "issues": 15,
-        "pulls": 4,
+        "pulls": 5,
         "releases": 0,
         "workflow_runs": 50,
-        "changed_files": 4
+        "changed_files": 36
       },
       "errors": []
     }
