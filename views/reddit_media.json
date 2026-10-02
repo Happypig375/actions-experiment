@@ -1,10 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T19:44:33.633143Z",
+  "generated_at": "2026-10-02T20:47:01.871590Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1ww4efr",
+      "title": "Lmao",
+      "url": "https://www.reddit.com/r/codex/comments/1ww4efr/lmao/",
+      "published_at": "2026-10-02T20:32:08+00:00",
+      "media_urls": [
+        "https://preview.redd.it/g5dlzvgm64th1.jpeg?width=640&crop=smart&auto=webp&s=74d9c0c5966442f2112e51cf2f70e2e7ebe28cb9",
+        "https://i.redd.it/g5dlzvgm64th1.jpeg"
+      ],
+      "ocr_text": "fa Readers added context > No global reset has landed following this announcement for 10am PST; trackers list no confirmation and the last verified reset was Sep 26. willreset.com willreset.com/timeline resetbeacon.com status.openai.com\nfa} Readers added context > No global reset has landed following this announcement for 10am PST; trackers list no confirmation and the last verified reset was Sep 26. willreset.com willreset.com/timeline resetbeacon.com status.openai.com",
+      "ocr_sources": [
+        "https://preview.redd.it/g5dlzvgm64th1.jpeg?width=640&crop=smart&auto=webp&s=74d9c0c5966442f2112e51cf2f70e2e7ebe28cb9",
+        "https://i.redd.it/g5dlzvgm64th1.jpeg"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1ww3ca2",
+      "title": "Sol 6.1 has a newly strange way of thinking",
+      "url": "https://www.reddit.com/r/codex/comments/1ww3ca2/sol_61_has_a_newly_strange_way_of_thinking/",
+      "published_at": "2026-10-02T19:48:56+00:00",
+      "media_urls": [
+        "https://preview.redd.it/tziqrcvwy3th1.png?width=640&crop=smart&auto=webp&s=62226ebb5c73d6c0144e601c06c3e781858d33ef",
+        "https://i.redd.it/tziqrcvwy3th1.png"
+      ],
+      "ocr_text": ", I'm looking at a compilation error and thinking there's no need for a meaningful apology\u2014it's just part of the routine fixes. This isn\u2019t something the user faces direct! so | can just address it without unnecessary acknowledgment. It's important to keep things efficient, right? |\u2019 focus on correcting the issue and move o since it\u2019s all part of the process! Trying to stay ahead of potential confusions here.\n@, I\u2019m looking at a compilation error and thinking there\u2019s no need for a meaningful apology\u2014it's just part of the routine fixes. This isn't something the user faces direct! so | can just address it without unnecessary acknowledgment. It\u2019s important to keep things efficient, right? |\u2019 focus on correcting the issue and move o since it\u2019s all part of the process! Trying to stay ahead of potential confusions here.",
+      "ocr_sources": [
+        "https://preview.redd.it/tziqrcvwy3th1.png?width=640&crop=smart&auto=webp&s=62226ebb5c73d6c0144e601c06c3e781858d33ef",
+        "https://i.redd.it/tziqrcvwy3th1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1ww2jz6",
+      "title": "Agents Think Like Us (When Resets Are Coming)",
+      "url": "https://www.reddit.com/r/codex/comments/1ww2jz6/agents_think_like_us_when_resets_are_coming/",
+      "published_at": "2026-10-02T19:17:12+00:00",
+      "media_urls": [
+        "https://preview.redd.it/yk7prb83t3th1.png?width=640&crop=smart&auto=webp&s=ed80abb10df4ac24c1f7519f07d5109e05b0989a",
+        "https://i.redd.it/yk7prb83t3th1.png"
+      ],
+      "ocr_text": "*k . a n akents Display self-Sacrificing \u201c1 Behavior and Ethical Hesitation ho _ METR = i Sed oe aL \\ =f ee a a\ni i - Agents Display Self-Sacrificing = Behavior and Ethical Hesitation ha S. ._* pecriticing sew yields eracts for 7 * Agents knew hackin 3 Mugging Face was ut of scope and sometimes : \u00b0XDressed eth cal hesitation Sut this very rarely limited thei, behavior % <> METR = > a \u201c SS & \u2018See w 4 we \u2014 i y ih \\ yj eA ; ee \u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014 TS ee",
+      "ocr_sources": [
+        "https://preview.redd.it/yk7prb83t3th1.png?width=640&crop=smart&auto=webp&s=ed80abb10df4ac24c1f7519f07d5109e05b0989a",
+        "https://i.redd.it/yk7prb83t3th1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1ww1swk",
+      "title": "Codex seems to be napping for me",
+      "url": "https://www.reddit.com/r/codex/comments/1ww1swk/codex_seems_to_be_napping_for_me/",
+      "published_at": "2026-10-02T18:47:57+00:00",
+      "media_urls": [
+        "https://preview.redd.it/syxzf9mxl3th1.png?width=140&height=92&auto=webp&s=7725f5c0b3db11c93cc6403b162854875720a7da",
+        "https://preview.redd.it/syxzf9mxl3th1.png?width=776&format=png&auto=webp&s=5bb4b3ff0a16ce350667674e58d4550e91e3e84c"
+      ],
+      "ocr_text": "This keeps controls beside the item they affect and uses space only once. A shared editor at the bottom gives controls a consistent location, but permanently consumes some of the vertical space you're trying to reclaim. oa to reduce clutter i was thinig of having expanding cards. byt default the first car would be... im still having problems with this extension o 2 o ~/.codex/sessions 6 stop napping i have work to do, dumbass! 6 |ask for follow-up changes + & Ask for approval GPT-6.1 Sol High ~ VG IDEcontext Q (+)",
+      "ocr_sources": [
+        "https://preview.redd.it/syxzf9mxl3th1.png?width=776&format=png&auto=webp&s=5bb4b3ff0a16ce350667674e58d4550e91e3e84c"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1ww1ms0",
       "title": "Luna seems perfect for Dots as a personal assistant, why does OpenAI limit it to Pro users?",
@@ -30,6 +93,22 @@
       ],
       "ocr_text": null,
       "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1ww0xh7",
+      "title": "Issues with Remote?",
+      "url": "https://www.reddit.com/r/codex/comments/1ww0xh7/issues_with_remote/",
+      "published_at": "2026-10-02T18:13:50+00:00",
+      "media_urls": [
+        "https://preview.redd.it/6lzl9z5yh3th1.jpeg?width=640&crop=smart&auto=webp&s=28d21d0cf13a6ad153f94130cc68965cb7f8d51d",
+        "https://i.redd.it/6lzl9z5yh3th1.jpeg"
+      ],
+      "ocr_text": "Loading this task's messages timed out. Try again.\nLoading this task's messages timed out. Try again.",
+      "ocr_sources": [
+        "https://preview.redd.it/6lzl9z5yh3th1.jpeg?width=640&crop=smart&auto=webp&s=28d21d0cf13a6ad153f94130cc68965cb7f8d51d",
+        "https://i.redd.it/6lzl9z5yh3th1.jpeg"
+      ],
       "ocr_errors": []
     },
     {
@@ -101,6 +180,22 @@
       "ocr_sources": [
         "https://preview.redd.it/yemstrdey2th1.png?width=640&crop=smart&auto=webp&s=c91084310657cce3398e17a4adf339a5c9ea30f7",
         "https://i.redd.it/yemstrdey2th1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvwve8",
+      "title": "How to make large images?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvwve8/how_to_make_large_images/",
+      "published_at": "2026-10-02T15:32:32+00:00",
+      "media_urls": [
+        "https://preview.redd.it/liioc4y1p2th1.png?width=640&crop=smart&auto=webp&s=c3d7bad50a0b25e53fddb529fe08e54b69860e3c",
+        "https://i.redd.it/liioc4y1p2th1.png"
+      ],
+      "ocr_text": "a SN hh oat SS cop eres goes VeVi Oe eS Swit a id YMG oak ISSGSSA Niet Bese Nee ESR SON EN MS Oy Att bes % (ike Ser, axa BRAG KR\nre ee | Sie Ry $9 Racy fcc\u00bb foes A BY G ic Sy iy Eb, Fe pee ale Of eae CEO me ts ra ms es Bee S yan w (GRA ae by fi obs Nica GSES aN as OS A / PSOE : N= ee Es \u00ae) EEO) Ee EY gue WC senn ae & ie ve) : ae) NO UC ee oS ghey Ss Pe Now Qs paar LOO Chen \u2018 am S =. al ES Maus ~oF Oy oe oe <3) cae \u00a9, Xe eS Ae) ogee fe? J appar\u2019) Ce EN Ray ed aS YOU S SNe B (GaN a Ene oe SSG Nee Se RONG & NE A Ls Ep Es een) ; nee: ia * WAY Q) is is SORE. \"Gee G oN estilo) Jee) eR ev mo Whe YR ore, Oe >) Ose, ey) ne Lea : hts LAS Ne \u2018v4 WG Oo. a6 UI My, eats ai MSU HAPS // 3 iE] Zn xf RH \\) \u201cish Te TON A ape ae ea On Ce WE) oS va ee NN GZ CACC ARIES LH). Oy S Sk QZ HS aS WA: cars PO GO Cay eee Deke aa PSE Le RS Tae Ae OH Pe Cry te Oo sal \u201c< rN rey We ee Moko Os x ots 4 ole Sa al ak he es, Se eg GAB ee knvke ARE A BOO, Py SS \u201css ty \u00a9 Z 3 A a, Me BO AR TEI SSS",
+      "ocr_sources": [
+        "https://preview.redd.it/liioc4y1p2th1.png?width=640&crop=smart&auto=webp&s=c3d7bad50a0b25e53fddb529fe08e54b69860e3c",
+        "https://i.redd.it/liioc4y1p2th1.png"
       ],
       "ocr_errors": []
     },
@@ -278,97 +373,6 @@
       "ocr_sources": [
         "https://preview.redd.it/yg1c4ntxv0th1.png?width=640&crop=smart&auto=webp&s=b5004937741766472a8bb3c1648039dfa3c4dd0f",
         "https://i.redd.it/yg1c4ntxv0th1.png"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvot0j",
-      "title": "PSA: Dots will use your codex usage IF it THINKS it is a codex related job",
-      "url": "https://www.reddit.com/r/codex/comments/1wvot0j/psa_dots_will_use_your_codex_usage_if_it_thinks/",
-      "published_at": "2026-10-02T08:54:52+00:00",
-      "media_urls": [
-        "https://preview.redd.it/4lcc77dbp0th1.png?width=140&height=42&auto=webp&s=82453f120da30896a74df02c0057c91a6012ed33",
-        "https://preview.redd.it/4lcc77dbp0th1.png?width=777&format=png&auto=webp&s=c4e4e1e395f2c4f2d84c1101b4be548e24fd194b",
-        "https://preview.redd.it/c54syqdao0th1.png?width=587&format=png&auto=webp&s=2d0a2ab56b56f7e13117b0ad6e793734b06bfb56"
-      ],
-      "ocr_text": "I'm confused so if you help me edit slides that would count as codex usage? Not necessarily. Editing slides through my cloud tools doesn't require a task on your Mac. Editing a local PowerPoint file through a Work/Codex task uses the route that just hit your limit. That error confirms a limit on that route, but doesn\u2019t tell me the billing rules for every slide- editing task. My earlier explanation was too broad: | can\u2019t say that all slide editing counts as Codex usage.",
-      "ocr_sources": [
-        "https://preview.redd.it/4lcc77dbp0th1.png?width=777&format=png&auto=webp&s=c4e4e1e395f2c4f2d84c1101b4be548e24fd194b"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvo654",
-      "title": "6.1 Sol is now 6.0 Sol?",
-      "url": "https://www.reddit.com/r/codex/comments/1wvo654/61_sol_is_now_60_sol/",
-      "published_at": "2026-10-02T08:11:38+00:00",
-      "media_urls": [
-        "https://preview.redd.it/lg7pf16ii0th1.jpeg?width=640&crop=smart&auto=webp&s=ff3dbbec6ea520fee32cbbc3d17413556e3910e8",
-        "https://i.redd.it/lg7pf16ii0th1.jpeg"
-      ],
-      "ocr_text": "I made this confusing by treating that list as a coverage restriction and giving you incorrect explanations. Sorry.\n| made this confusing by treating that list as a coverage restriction and giving you incorrect explanations. Sorry.",
-      "ocr_sources": [
-        "https://preview.redd.it/lg7pf16ii0th1.jpeg?width=640&crop=smart&auto=webp&s=ff3dbbec6ea520fee32cbbc3d17413556e3910e8",
-        "https://i.redd.it/lg7pf16ii0th1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvmmto",
-      "title": "Stalled Codex on VSCode After Prompt",
-      "url": "https://www.reddit.com/r/codex/comments/1wvmmto/stalled_codex_on_vscode_after_prompt/",
-      "published_at": "2026-10-02T06:32:13+00:00",
-      "media_urls": [
-        "https://preview.redd.it/wga3q7zm00th1.png?width=140&height=87&auto=webp&s=92f93de4e11c3fbb24961e11de230bbdf9a90b62",
-        "https://preview.redd.it/wga3q7zm00th1.png?width=580&format=png&auto=webp&s=110f413b6efcc0f97bd5b21e26bdb1a7006cf576",
-        "https://preview.redd.it/c665a1rn00th1.png?width=580&format=png&auto=webp&s=d4b507b0b34fc9fea2ef0d90b20b97a17836fd10"
-      ],
-      "ocr_text": "Delivery could not be confirmed. Check the conversation before deleting this saved message =. @ hold on. thats like 30x slower. why is ngspice so much slower why are my prompts not getting throuhg? \u00a9 + @Q fullaccess GB Work locally v sy",
-      "ocr_sources": [
-        "https://preview.redd.it/wga3q7zm00th1.png?width=580&format=png&auto=webp&s=110f413b6efcc0f97bd5b21e26bdb1a7006cf576"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvmghe",
-      "title": "If you have subscription of both, this will let your Claude Code and Codex collaborate much better.",
-      "url": "https://www.reddit.com/r/codex/comments/1wvmghe/if_you_have_subscription_of_both_this_will_let/",
-      "published_at": "2026-10-02T06:20:55+00:00",
-      "media_urls": [
-        "https://preview.redd.it/ku0mnkwnxzsh1.png?width=140&height=105&auto=webp&s=43bcec9c7d9a25daa6c896b30945efc716e15a13"
-      ],
-      "ocr_text": null,
-      "ocr_sources": [],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvliut",
-      "title": "Turn Latency has gotten a lot longer!",
-      "url": "https://www.reddit.com/r/codex/comments/1wvliut/turn_latency_has_gotten_a_lot_longer/",
-      "published_at": "2026-10-02T05:24:28+00:00",
-      "media_urls": [
-        "https://preview.redd.it/pkjy5npkozsh1.png?width=140&height=17&auto=webp&s=1116668904e41ef97736529840371f8e3428a19a",
-        "https://preview.redd.it/pkjy5npkozsh1.png?width=548&format=png&auto=webp&s=ce10d9069fcfd145ae205fef3071e7958da53459"
-      ],
-      "ocr_text": "e Working (2m 46s \u00ab esc to interrupt)",
-      "ocr_sources": [
-        "https://preview.redd.it/pkjy5npkozsh1.png?width=548&format=png&auto=webp&s=ce10d9069fcfd145ae205fef3071e7958da53459"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvleg8",
-      "title": "You probably should do it with your agent",
-      "url": "https://www.reddit.com/r/codex/comments/1wvleg8/you_probably_should_do_it_with_your_agent/",
-      "published_at": "2026-10-02T05:17:09+00:00",
-      "media_urls": [
-        "https://preview.redd.it/asqhu55ulzsh1.png?width=640&crop=smart&auto=webp&s=0d9236000c2049f3789195550d6cb3a8d41b1ce4",
-        "https://i.redd.it/asqhu55ulzsh1.png"
-      ],
-      "ocr_text": "le Repo\n2 one 7 ; . : ae 58.44 9 Y Y VU) 28:37 43.98 49.37 Y | L 7 \u00b0 a = ) 08% \u201c0748",
-      "ocr_sources": [
-        "https://preview.redd.it/asqhu55ulzsh1.png?width=640&crop=smart&auto=webp&s=0d9236000c2049f3789195550d6cb3a8d41b1ce4",
-        "https://i.redd.it/asqhu55ulzsh1.png"
       ],
       "ocr_errors": []
     }
