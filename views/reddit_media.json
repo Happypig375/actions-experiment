@@ -1,10 +1,50 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T01:58:19.062066Z",
+  "generated_at": "2026-10-02T03:00:41.954730Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvhw40",
+      "title": "Astra is pretty good at making fixtures. 1-shot to print",
+      "url": "https://www.reddit.com/r/codex/comments/1wvhw40/astra_is_pretty_good_at_making_fixtures_1shot_to/",
+      "published_at": "2026-10-02T02:07:31+00:00",
+      "media_urls": [
+        "https://preview.redd.it/23f81okpnysh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=54d97406f4fcc45cec4a932b17c7604896f92533"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvgfkc",
+      "title": "What the hell is going on at OpenAI?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvgfkc/what_the_hell_is_going_on_at_openai/",
+      "published_at": "2026-10-02T00:57:32+00:00",
+      "media_urls": [
+        "https://preview.redd.it/v78980nncysh1.png?width=140&height=63&auto=webp&s=888348ac733747f21c373d1db9eb78e0cc80767c"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvgebx",
+      "title": "First time user of the desktop app: what the hell am I looking at?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvgebx/first_time_user_of_the_desktop_app_what_the_hell/",
+      "published_at": "2026-10-02T00:55:48+00:00",
+      "media_urls": [
+        "https://preview.redd.it/bf52jbf77ysh1.png?width=640&crop=smart&auto=webp&s=5e123aec5bd98cdf0dba53364ed3a896f453e3e2",
+        "https://i.redd.it/bf52jbf77ysh1.png"
+      ],
+      "ocr_text": "What codex What should we work on in humanize-main? 4 . +o os \u00b0\neee < O @ Codex ~ a Q \u00ae ChatGPT Work Create, learn, and explore \u00a9 Codex Build, debug, and ship v is What should we work on in humanize-main? \u00a9 humanize-main ry + = Ask for approval 5.5 Extra High v +)",
+      "ocr_sources": [
+        "https://preview.redd.it/bf52jbf77ysh1.png?width=640&crop=smart&auto=webp&s=5e123aec5bd98cdf0dba53364ed3a896f453e3e2",
+        "https://i.redd.it/bf52jbf77ysh1.png"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvffy9",
       "title": "You don\u2019t know what u had till u lose it. I didn\u2019t how bad the mobile app cc/remote control is on Claude\ud83e\udee9 given that even google\u2019s ANTIGRAVITY has a rc experience similar to codex !",
@@ -327,48 +367,6 @@
       "ocr_sources": [
         "https://preview.redd.it/zi8lqmfn7wsh1.png?width=640&crop=smart&auto=webp&s=850d75f277975453ddd60a7a45f108fbdaf5a89e",
         "https://i.redd.it/zi8lqmfn7wsh1.png"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv55wv",
-      "title": "Turns Out r/ClaudeCode Is Just r/codex In A Different Font",
-      "url": "https://www.reddit.com/r/codex/comments/1wv55wv/turns_out_rclaudecode_is_just_rcodex_in_a/",
-      "published_at": "2026-10-01T17:10:42+00:00",
-      "media_urls": [
-        "https://preview.redd.it/mo8s77bg1wsh1.png?width=140&height=23&auto=webp&s=22ae1a412acd685954d70f10d53cdbd7788bfbd6"
-      ],
-      "ocr_text": null,
-      "ocr_sources": [],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv55ri",
-      "title": "Claude Code wrote a Python tool, Codex reviewed it and found 3 real bugs, then Claude fixed them, all in one Hellhound room",
-      "url": "https://www.reddit.com/r/codex/comments/1wv55ri/claude_code_wrote_a_python_tool_codex_reviewed_it/",
-      "published_at": "2026-10-01T17:10:33+00:00",
-      "media_urls": [
-        "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
-      ],
-      "ocr_text": "GAY matthoune Paamnrd Toot 220 \u2018oven (omni) (Sioa _ Pama ES Chateacosnncmiste ome vat er 1 nT) #rytmnemo 2B Gols Bd red > ame srmmerttett 8 =, \u00a9 cme neo fa, \u00ae cot mr re sgt : HELLHOUND \u2018si bebegninget oom. Cie a pe ig on md yk poche contact vs Poncrrensoaucoene Shon gomer psc er toy ony ete ry ees ane S \u201ca= cc - oMlsoca - o x ao =o mentay% ova a= EE gree cc ts rg > \u2014 & B @ a @ e meee Olt Deacon SS) Ye Oemea +08 = 12x 12cm vont \u00ae > owe se aro ea ae ea ay",
-      "ocr_sources": [
-        "https://external-preview.redd.it/NDZxZHB6bWoxd3NoMY8UUKXmWeS9zLxoyNJNEK7gVkGq4hYfbJDIIaMFMkZ_.png?width=640&crop=smart&auto=webp&s=1589166f1c26f37f93568448ffc192865cf9dbe6"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv4yk5",
-      "title": "gpt 6.1 sol got release and i still can't see it",
-      "url": "https://www.reddit.com/r/codex/comments/1wv4yk5/gpt_61_sol_got_release_and_i_still_cant_see_it/",
-      "published_at": "2026-10-01T17:03:09+00:00",
-      "media_urls": [
-        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=140&height=62&auto=webp&s=4e74ea31ebc44ab489adc4f51ca9f1c579288739",
-        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=699&format=png&auto=webp&s=61792fce526a571f8092c32053a8cf7751637260",
-        "https://preview.redd.it/0qfkhzj40wsh1.png?width=1313&format=png&auto=webp&s=75df88a8050fc519c284e55c67232ad786338fe9"
-      ],
-      "ocr_text": "Select Model and Effort b 1. GPT-6-Astra (default) Frontier intelligence for the most_denanding work 2. GPT-6-Sol Previous generation workhorse model. 3. GPT-6-Luna Fast and affordable model for easier tasks. 4. GPT-5.6-SoL Older generation workhorse model. 5. GPT-5.6-Terra Older balanced model for straightforward work. 6. GPT-5.6-Luna Older fast and efficient model. 7. GPT-5.5 Legacy coding model. enter select - ese back",
-      "ocr_sources": [
-        "https://preview.redd.it/ma7j4b3zzvsh1.png?width=699&format=png&auto=webp&s=61792fce526a571f8092c32053a8cf7751637260"
       ],
       "ocr_errors": []
     }
