@@ -1,10 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T18:41:24.651702Z",
+  "generated_at": "2026-10-02T19:44:33.633143Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1ww1ms0",
+      "title": "Luna seems perfect for Dots as a personal assistant, why does OpenAI limit it to Pro users?",
+      "url": "https://www.reddit.com/r/codex/comments/1ww1ms0/luna_seems_perfect_for_dots_as_a_personal/",
+      "published_at": "2026-10-02T18:41:26+00:00",
+      "media_urls": [
+        "https://preview.redd.it/4ox9216yn3th1.png?width=140&height=30&auto=webp&s=7ebe6945f8b5351d4816f8c566d28fa7ef8228b8",
+        "https://preview.redd.it/4ox9216yn3th1.png?width=1544&format=png&auto=webp&s=9f296a99176d5d1a0bd06697e315cb6300c576bc"
+      ],
+      "ocr_text": "Dots are frontier intelligence that have your back. Powered by GPT-6 Aiea, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever you need them.",
+      "ocr_sources": [
+        "https://preview.redd.it/4ox9216yn3th1.png?width=1544&format=png&auto=webp&s=9f296a99176d5d1a0bd06697e315cb6300c576bc"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1ww1fq1",
       "title": "Astra + Opus 5.5 made this horror trailer for my dev tools from 4 prompts",
@@ -354,22 +369,6 @@
       "ocr_sources": [
         "https://preview.redd.it/asqhu55ulzsh1.png?width=640&crop=smart&auto=webp&s=0d9236000c2049f3789195550d6cb3a8d41b1ce4",
         "https://i.redd.it/asqhu55ulzsh1.png"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvkpul",
-      "title": "The branch selector disappeared after the latest update.",
-      "url": "https://www.reddit.com/r/codex/comments/1wvkpul/the_branch_selector_disappeared_after_the_latest/",
-      "published_at": "2026-10-02T04:37:37+00:00",
-      "media_urls": [
-        "https://preview.redd.it/7zvxlja8gzsh1.png?width=640&crop=smart&auto=webp&s=b486d7c5f656a458cbc1c50cecfafb5018543422",
-        "https://i.redd.it/7zvxlja8gzsh1.png"
-      ],
-      "ocr_text": "\u00a9 Lettura This computer Worktree | + \u00a9 Approve for me oPr-etunamecium\u00bb 2 @\n6 Lettura G This computer Worktree + \u00a9 Approve for me GPT-6 Luna Medium v Q i)",
-      "ocr_sources": [
-        "https://preview.redd.it/7zvxlja8gzsh1.png?width=640&crop=smart&auto=webp&s=b486d7c5f656a458cbc1c50cecfafb5018543422",
-        "https://i.redd.it/7zvxlja8gzsh1.png"
       ],
       "ocr_errors": []
     }
