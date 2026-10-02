@@ -1,10 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T06:14:28.108288Z",
+  "generated_at": "2026-10-02T07:16:28.108790Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvmghe",
+      "title": "If you have subscription of both, this will let your Claude Code and Codex collaborate much better.",
+      "url": "https://www.reddit.com/r/codex/comments/1wvmghe/if_you_have_subscription_of_both_this_will_let/",
+      "published_at": "2026-10-02T06:20:55+00:00",
+      "media_urls": [
+        "https://preview.redd.it/ku0mnkwnxzsh1.png?width=140&height=105&auto=webp&s=43bcec9c7d9a25daa6c896b30945efc716e15a13"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvliut",
       "title": "Turn Latency has gotten a lot longer!",
@@ -354,20 +366,6 @@
       "ocr_text": "oO??? % U OF 99999999 9% w Ask for follow-up changes + \u00a9 Approve for me GPT-6.1 Sol Medium v v@ IDE contexr 0 \u00a9 Work locally v",
       "ocr_sources": [
         "https://preview.redd.it/7hu10mn0jwsh1.png?width=1104&format=png&auto=webp&s=ce7e5cd46c25c750d9dc2d452a596eac64e4ea16"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv7qeo",
-      "title": "greatVibe. A new way to build with AI.",
-      "url": "https://www.reddit.com/r/codex/comments/1wv7qeo/greatvibe_a_new_way_to_build_with_ai/",
-      "published_at": "2026-10-01T18:47:33+00:00",
-      "media_urls": [
-        "https://external-preview.redd.it/bXc2c3kzOHJpd3NoMf_hX421E095k_q8CDuiLUEY-EBE0wdHEezKixHDtgVQ.png?width=640&crop=smart&auto=webp&s=23e3ee16897a374b3cc8e381b98106a323c53005"
-      ],
-      "ocr_text": "104 BORN ONS \u2018OLOBAL RING! LIVE WORK, RTA oe O\u20ac Existing hosts. Missing service wiring. 4 worn: 3 acta doe, select Connect the regional data, TLS and registry so each pair can safely serve its nome region, = \u2018Cloudflare global entry ae eters ett ney sow ries & noves )@ \u2018Sydney US West London hop) rexnty = f=) i lh 1) ee ; Sonia asataae a ane A Issue and store... (STALLED) : : TUE scoped DNS controller tesesctecneeeeceeeeqeceeeeceeececeeeseet Lares http.go.ace \u2018Signes crose-ting sezsions remsin 2 separate verification gate. a ie : EVIDENCE DOCK Q) 27m 19s 3 { rurcoder + clude MCP and saved cards pssed Rrra | Soc cone 62 262 (pe bearer erection\u201c aeplymentsaty oe a \u2018eveD )( EVIDENCE ) (toroocy )( rites ){ MAIN VIEW )( + \u2018ino A tenve and store ndon uswe. = (CUED ) ( ) #\u00a9@GO@OMOC@\u00ae o \u00ab",
-      "ocr_sources": [
-        "https://external-preview.redd.it/bXc2c3kzOHJpd3NoMf_hX421E095k_q8CDuiLUEY-EBE0wdHEezKixHDtgVQ.png?width=640&crop=smart&auto=webp&s=23e3ee16897a374b3cc8e381b98106a323c53005"
       ],
       "ocr_errors": []
     }
