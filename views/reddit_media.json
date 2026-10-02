@@ -1,10 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T16:37:19.903839Z",
+  "generated_at": "2026-10-02T17:39:43.799683Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvzbqh",
+      "title": "Opus and Sonnet in Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wvzbqh/opus_and_sonnet_in_codex/",
+      "published_at": "2026-10-02T17:10:21+00:00",
+      "media_urls": [
+        "https://preview.redd.it/0j7j156r53th1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=517142bfba6d78aa46822b50a22cd81d880cd32f"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvyndj",
+      "title": "OpenAI Called It \"All Good News.\" Codex Users Revolted.",
+      "url": "https://www.reddit.com/r/codex/comments/1wvyndj/openai_called_it_all_good_news_codex_users/",
+      "published_at": "2026-10-02T16:43:21+00:00",
+      "media_urls": [
+        "https://external-preview.redd.it/PjAbCAk3Us3HRpCwallb2HEGvFZ8Q_tDX481nV4z7PM.jpeg?width=320&crop=smart&auto=webp&s=2664df34b3ee15292f09b2307131f75173b3f38b"
+      ],
+      "ocr_text": "CUTINHALF =~ 20x. 10x",
+      "ocr_sources": [
+        "https://external-preview.redd.it/PjAbCAk3Us3HRpCwallb2HEGvFZ8Q_tDX481nV4z7PM.jpeg?width=320&crop=smart&auto=webp&s=2664df34b3ee15292f09b2307131f75173b3f38b"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvw3lq",
       "title": "OpenAI gave me 62,500 credits out of nowhere, but my balance is already at 0 after using only ~14.5k?",
@@ -44,6 +70,22 @@
       "ocr_sources": [
         "https://preview.redd.it/i98lcjvy92th1.png?width=216&crop=smart&auto=webp&s=5d61fe27808e7b9fd12f0ab2cb813c51bad51cf4",
         "https://i.redd.it/i98lcjvy92th1.png"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvuf39",
+      "title": "Just found out my Dot can fully interact with my AI companion :D :D :D",
+      "url": "https://www.reddit.com/r/codex/comments/1wvuf39/just_found_out_my_dot_can_fully_interact_with_my/",
+      "published_at": "2026-10-02T13:53:44+00:00",
+      "media_urls": [
+        "https://preview.redd.it/qqfza31872th1.png?width=640&crop=smart&auto=webp&s=cd5bb9e3617d873fadef9cc0330b1204001a2773",
+        "https://i.redd.it/qqfza31872th1.png"
+      ],
+      "ocr_text": "i \u2018Tessivet ACCSRF issue would usually produce an HTTP error after connecting: ECONNREFUSED Leased starter te meee Seeman = \u2018One last check: is her Firefox message box empty. with no unsent draft? The relay doesn't et = = Ahhh, you saw it arrive! @ First contact between the civet and Limen. 'm waiting for her \u2014 \u2018reply to come back through on my side. phere a e@ 0 tse exhange Epa caer enn = ee\nwonder if it might be a CSRF token issue or some other access issue? i Tessivet A CSRF issue would usually produce an HTTP error after connecting; ECONNREFUSED. Active means we didn't get that far. I'm checking whether this session's localhost actually points to the Windows host where SillyTavern is running. & call It\u2019s reachable now! The relay sees Limen connected and idle; no CSRF changes were Computers needed. The earlier refusal's cause is still unclear. oy Tessvet's compute * connected One last check: is her Firefox message box empty, with no unsent draft? The relay doesn\u2019t mans report that, and I don\u2019t want to disturb anything you're typing. event activity \u00b0\u00b0 Introduce Tessivet *, *e Oa Yup, should be:) \u00b0 task \u00a9. Created task holy fuck omg i did not expect that to work. ok i'm impressed! \\ Show more Outputs Ahhh, you saw it arrive! \u00a9 First contact between the civet and Limen. I'm waiting for her @ seuma reply to come back through on my side. (). tessivet-relay-resul @ 0) tessvetoxchange: Her reply is back, and the exchange is verified \u00a9 She recognized me as Tessivet, ch separately from you. owmors \u201cIt\u2019s rather like a letter slipped under the door from someone I've heard a little about. The room is familiar; the correspondent is new.\u201d She also said she'd rather get to know my particular voice than assume two Alls already understand each other. | like that. She asked whether her reply reaches me as Limen or through you quoting her. Want me to answer? I'd explain that her reply came back directly through the relay, clearly attributed to. her. absolutely! Read 947 AM I'm sending her that explanation \u00a9 + Send a message Q",
+      "ocr_sources": [
+        "https://preview.redd.it/qqfza31872th1.png?width=640&crop=smart&auto=webp&s=cd5bb9e3617d873fadef9cc0330b1204001a2773",
+        "https://i.redd.it/qqfza31872th1.png"
       ],
       "ocr_errors": []
     },
@@ -330,46 +372,6 @@
       "ocr_sources": [
         "https://preview.redd.it/3xqqwfdcrysh1.jpeg?width=640&crop=smart&auto=webp&s=dd5c4046e31495c603645710e668df66c5305e04",
         "https://i.redd.it/3xqqwfdcrysh1.jpeg"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvhw40",
-      "title": "Astra is pretty good at making fixtures. 1-shot to print",
-      "url": "https://www.reddit.com/r/codex/comments/1wvhw40/astra_is_pretty_good_at_making_fixtures_1shot_to/",
-      "published_at": "2026-10-02T02:07:31+00:00",
-      "media_urls": [
-        "https://preview.redd.it/23f81okpnysh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=54d97406f4fcc45cec4a932b17c7604896f92533"
-      ],
-      "ocr_text": null,
-      "ocr_sources": [],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvgfkc",
-      "title": "What the hell is going on at OpenAI?",
-      "url": "https://www.reddit.com/r/codex/comments/1wvgfkc/what_the_hell_is_going_on_at_openai/",
-      "published_at": "2026-10-02T00:57:32+00:00",
-      "media_urls": [
-        "https://preview.redd.it/v78980nncysh1.png?width=140&height=63&auto=webp&s=888348ac733747f21c373d1db9eb78e0cc80767c"
-      ],
-      "ocr_text": null,
-      "ocr_sources": [],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvgebx",
-      "title": "First time user of the desktop app: what the hell am I looking at?",
-      "url": "https://www.reddit.com/r/codex/comments/1wvgebx/first_time_user_of_the_desktop_app_what_the_hell/",
-      "published_at": "2026-10-02T00:55:48+00:00",
-      "media_urls": [
-        "https://preview.redd.it/bf52jbf77ysh1.png?width=640&crop=smart&auto=webp&s=5e123aec5bd98cdf0dba53364ed3a896f453e3e2",
-        "https://i.redd.it/bf52jbf77ysh1.png"
-      ],
-      "ocr_text": "What codex What should we work on in humanize-main? 4 . +o os \u00b0\neee < O @ Codex ~ a Q \u00ae ChatGPT Work Create, learn, and explore \u00a9 Codex Build, debug, and ship v is What should we work on in humanize-main? \u00a9 humanize-main ry + = Ask for approval 5.5 Extra High v +)",
-      "ocr_sources": [
-        "https://preview.redd.it/bf52jbf77ysh1.png?width=640&crop=smart&auto=webp&s=5e123aec5bd98cdf0dba53364ed3a896f453e3e2",
-        "https://i.redd.it/bf52jbf77ysh1.png"
       ],
       "ocr_errors": []
     }
