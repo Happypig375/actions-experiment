@@ -1,10 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T15:34:49.696540Z",
+  "generated_at": "2026-10-02T16:37:19.903839Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvw3lq",
+      "title": "OpenAI gave me 62,500 credits out of nowhere, but my balance is already at 0 after using only ~14.5k?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvw3lq/openai_gave_me_62500_credits_out_of_nowhere_but/",
+      "published_at": "2026-10-02T15:02:40+00:00",
+      "media_urls": [
+        "https://preview.redd.it/y9jlx3lqj2th1.png?width=140&height=62&auto=webp&s=38d4560a551a2164a91ddeb1a5349f6965ed381b"
+      ],
+      "ocr_text": null,
+      "ocr_sources": [],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvutjr",
+      "title": "Opus 4.7 mistakes alot, codex mistakes alot",
+      "url": "https://www.reddit.com/r/codex/comments/1wvutjr/opus_47_mistakes_alot_codex_mistakes_alot/",
+      "published_at": "2026-10-02T14:10:22+00:00",
+      "media_urls": [
+        "https://preview.redd.it/t25r0i8ia2th1.jpg?width=140&height=105&auto=webp&s=6c6d106fe27d16fa08f0450822c179cfec055bab"
+      ],
+      "ocr_text": "eet \u2014\u2014 EE = ns",
+      "ocr_sources": [
+        "https://preview.redd.it/t25r0i8ia2th1.jpg?width=140&height=105&auto=webp&s=6c6d106fe27d16fa08f0450822c179cfec055bab"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvut0t",
       "title": "Please help, codex has been loading like this both in the app and in the vscode extension.",
@@ -344,34 +370,6 @@
       "ocr_sources": [
         "https://preview.redd.it/bf52jbf77ysh1.png?width=640&crop=smart&auto=webp&s=5e123aec5bd98cdf0dba53364ed3a896f453e3e2",
         "https://i.redd.it/bf52jbf77ysh1.png"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvffy9",
-      "title": "You don\u2019t know what u had till u lose it. I didn\u2019t how bad the mobile app cc/remote control is on Claude\ud83e\udee9 given that even google\u2019s ANTIGRAVITY has a rc experience similar to codex !",
-      "url": "https://www.reddit.com/r/codex/comments/1wvffy9/you_dont_know_what_u_had_till_u_lose_it_i_didnt/",
-      "published_at": "2026-10-02T00:09:55+00:00",
-      "media_urls": [
-        "https://preview.redd.it/gerjlabk4ysh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=fef498356ac9cb046b54b96bf916b2211ef3ead7"
-      ],
-      "ocr_text": "Sorc cemate eee iopenen trie mona tc mannan fron meron occa en cen than",
-      "ocr_sources": [
-        "https://preview.redd.it/gerjlabk4ysh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=fef498356ac9cb046b54b96bf916b2211ef3ead7"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvfcez",
-      "title": "Used Astra to make this motion graphics video in After Effects",
-      "url": "https://www.reddit.com/r/codex/comments/1wvfcez/used_astra_to_make_this_motion_graphics_video_in/",
-      "published_at": "2026-10-02T00:05:14+00:00",
-      "media_urls": [
-        "https://external-preview.redd.it/spH1TgzxeSNzBpHg8JVacOqP-ocX1L9HVxjVh2IIQhQ.jpeg?width=320&crop=smart&auto=webp&s=2fcd44ae536bb4b06fd7613469a94622622403ec"
-      ],
-      "ocr_text": "\u201cis creativly. ? t From idea \u2014 * tocampaign. > : . au > \\ pc: ae _ a",
-      "ocr_sources": [
-        "https://external-preview.redd.it/spH1TgzxeSNzBpHg8JVacOqP-ocX1L9HVxjVh2IIQhQ.jpeg?width=320&crop=smart&auto=webp&s=2fcd44ae536bb4b06fd7613469a94622622403ec"
       ],
       "ocr_errors": []
     }
