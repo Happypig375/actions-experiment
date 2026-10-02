@@ -1,10 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T08:18:14.624699Z",
+  "generated_at": "2026-10-02T09:20:31.692373Z",
   "source": "r/codex media",
   "candidate_discovery_only": true,
   "ocr_is_untrusted": true,
   "items": [
+    {
+      "id": "t3_1wvot0j",
+      "title": "PSA: Dots will use your codex usage IF it THINKS it is a codex related job",
+      "url": "https://www.reddit.com/r/codex/comments/1wvot0j/psa_dots_will_use_your_codex_usage_if_it_thinks/",
+      "published_at": "2026-10-02T08:54:52+00:00",
+      "media_urls": [
+        "https://preview.redd.it/4lcc77dbp0th1.png?width=140&height=42&auto=webp&s=82453f120da30896a74df02c0057c91a6012ed33",
+        "https://preview.redd.it/4lcc77dbp0th1.png?width=777&format=png&auto=webp&s=c4e4e1e395f2c4f2d84c1101b4be548e24fd194b",
+        "https://preview.redd.it/c54syqdao0th1.png?width=587&format=png&auto=webp&s=2d0a2ab56b56f7e13117b0ad6e793734b06bfb56"
+      ],
+      "ocr_text": "I'm confused so if you help me edit slides that would count as codex usage? Not necessarily. Editing slides through my cloud tools doesn't require a task on your Mac. Editing a local PowerPoint file through a Work/Codex task uses the route that just hit your limit. That error confirms a limit on that route, but doesn\u2019t tell me the billing rules for every slide- editing task. My earlier explanation was too broad: | can\u2019t say that all slide editing counts as Codex usage.",
+      "ocr_sources": [
+        "https://preview.redd.it/4lcc77dbp0th1.png?width=777&format=png&auto=webp&s=c4e4e1e395f2c4f2d84c1101b4be548e24fd194b"
+      ],
+      "ocr_errors": []
+    },
+    {
+      "id": "t3_1wvo654",
+      "title": "6.1 Sol is now 6.0 Sol?",
+      "url": "https://www.reddit.com/r/codex/comments/1wvo654/61_sol_is_now_60_sol/",
+      "published_at": "2026-10-02T08:11:38+00:00",
+      "media_urls": [
+        "https://preview.redd.it/lg7pf16ii0th1.jpeg?width=640&crop=smart&auto=webp&s=ff3dbbec6ea520fee32cbbc3d17413556e3910e8",
+        "https://i.redd.it/lg7pf16ii0th1.jpeg"
+      ],
+      "ocr_text": "I made this confusing by treating that list as a coverage restriction and giving you incorrect explanations. Sorry.\n| made this confusing by treating that list as a coverage restriction and giving you incorrect explanations. Sorry.",
+      "ocr_sources": [
+        "https://preview.redd.it/lg7pf16ii0th1.jpeg?width=640&crop=smart&auto=webp&s=ff3dbbec6ea520fee32cbbc3d17413556e3910e8",
+        "https://i.redd.it/lg7pf16ii0th1.jpeg"
+      ],
+      "ocr_errors": []
+    },
     {
       "id": "t3_1wvmmto",
       "title": "Stalled Codex on VSCode After Prompt",
@@ -335,38 +367,6 @@
       "ocr_text": "Working (59s * esc to interrupt) | Tip: Moving from Claude Code? Use /import to bring over your setup, project, and recent chats.",
       "ocr_sources": [
         "https://preview.redd.it/nchtpvgg5xsh1.png?width=891&format=png&auto=webp&s=532c6cf70f69821462a472b30d7a8c3863aadd77"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wvagc9",
-      "title": "Codex app suddenly refuses to open on PC",
-      "url": "https://www.reddit.com/r/codex/comments/1wvagc9/codex_app_suddenly_refuses_to_open_on_pc/",
-      "published_at": "2026-10-01T20:31:43+00:00",
-      "media_urls": [
-        "https://preview.redd.it/ivwfut2h1xsh1.png?width=140&height=85&auto=webp&s=6a767a02c0e481af26454c616e9811bfee4497e9",
-        "https://preview.redd.it/ivwfut2h1xsh1.png?width=1623&format=png&auto=webp&s=3eec6bcccf27ef9a0639ffc5f70af5f0e88aff03"
-      ],
-      "ocr_text": "a\n\u00a9",
-      "ocr_sources": [
-        "https://preview.redd.it/ivwfut2h1xsh1.png?width=140&height=85&auto=webp&s=6a767a02c0e481af26454c616e9811bfee4497e9",
-        "https://preview.redd.it/ivwfut2h1xsh1.png?width=1623&format=png&auto=webp&s=3eec6bcccf27ef9a0639ffc5f70af5f0e88aff03"
-      ],
-      "ocr_errors": []
-    },
-    {
-      "id": "t3_1wv92f7",
-      "title": "FYI for users considering switching since apparently its not common knowledge: Anthropic's $200 plan is not really 20x usage (in actual use its ~10x), and weekly allowance fluctuates constantly. More in post body.",
-      "url": "https://www.reddit.com/r/codex/comments/1wv92f7/fyi_for_users_considering_switching_since/",
-      "published_at": "2026-10-01T19:37:03+00:00",
-      "media_urls": [
-        "https://preview.redd.it/94nrbxqgpwsh1.png?width=140&height=126&auto=webp&s=fcb5672a6877f7c84d58afe5a4efbd52c9e8079a",
-        "https://preview.redd.it/94nrbxqgpwsh1.png?width=1086&format=png&auto=webp&s=0de4a26218ed05e3a25eed5c2b8792b0699fc660"
-      ],
-      "ocr_text": "Deen lteplentervenyeegeane\nDoes the Max plan have any usage limits? Yes. The Max plan offers substantially higher usage compared to our Pro plan and is available in two tiers: Max 5x includes five fimes|the Pro plan's persession usage allowance. This tier is ideal for frequent users who work with Claude on a variety of tasks. Max 20x includes 20 times the Pro plan's per-session usage allowance. This tier is ideal for daily users who collaborate often with Claude for most tasks. Your session-based usage limit will reset every five hours. Max plans also - have a weekly usage limit that applies across all models. The weekly limit resets at a fixed time each week that is assigned to your account. Your reset day and time stay the same regardless of when you start using Claude or when your subscription begins, and you receive your full weekly allowance each cycle. You can see your next reset time in Settings > Usage.",
-      "ocr_sources": [
-        "https://preview.redd.it/94nrbxqgpwsh1.png?width=140&height=126&auto=webp&s=fcb5672a6877f7c84d58afe5a4efbd52c9e8079a",
-        "https://preview.redd.it/94nrbxqgpwsh1.png?width=1086&format=png&auto=webp&s=0de4a26218ed05e3a25eed5c2b8792b0699fc660"
       ],
       "ocr_errors": []
     }
