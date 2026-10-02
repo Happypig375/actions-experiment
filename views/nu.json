@@ -1,25 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T13:34:21.378473Z",
-  "since": "2026-10-02T10:34:21.378473Z",
+  "generated_at": "2026-10-02T14:36:42.379591Z",
+  "since": "2026-10-02T11:36:42.379591Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
   "head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
   "previous_head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
   "commits": [],
-  "issues": [
-    {
-      "number": 1316,
-      "title": "Area lights and emulating volume for existing simple point and spot lights with this one weird trick...!",
-      "state": "open",
-      "state_reason": null,
-      "updated_at": "2026-10-02T10:40:40Z",
-      "user": "bryanedds",
-      "comments": 0,
-      "url": "https://github.com/bryanedds/Nu/issues/1316",
-      "kind": "issue"
-    }
-  ],
+  "issues": [],
   "pulls": [],
   "releases": [],
   "workflow_runs": [],
