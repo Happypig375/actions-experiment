@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T23:41:41.682823Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-03T21:48:05.323293Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wx0uac",
+      "timestamp": "2026-10-03T23:19:28Z",
+      "title": "Is ChatGPT Go enough for heavy document editing, learning, job searching, and frequent Voice Mode use?",
+      "author": "/u/Successful-Life8510",
+      "url": "https://www.reddit.com/r/codex/comments/1wx0uac/is_chatgpt_go_enough_for_heavy_document_editing/",
+      "excerpt": "I accidentally forgot to cancel another subscription and it took most of the money I had left on my card. Now I only have around $13, and because of the yearly international payment limit in my country, I can\u2019t just add more money to the card. So next month I won\u2019t be able to pay for ChatGPT Plus.\n I recently graduated and I want to dedicate October and November to working seriously on my CV, preparing for interviews, searching for jobs and understanding the job market better. I also still have a full report that needs a lot of editing, and I want to spend a lot of time learning new stuff.\n I use ChatGPT pretty heavily, especially for learning, writing, research, editing long documents, and asking a lot of follow-up questions. I also really like Voice Mode and use it a lot for learning, so that\u2019s important to me too.\n Would ChatGPT Go be enough for this kind of usage ?\n And if Go isn\u2019t enough, is there another good alternative ? I\u2019ve heard about Abacus.AI, but I have no idea if it\u2019s actually good for this kind of workload. I also know about OpenRouter, but since I use AI a lot, using a pay-as-you-go service doesn\u2019t seem like a great option for me.\n    submitted by    /u/Successful-",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wx0d8x",
+      "timestamp": "2026-10-03T22:56:13Z",
+      "title": "Claude $20 plan + Codex Pro 100: my first impressions (and a question)",
+      "author": "/u/rjn2-8",
+      "url": "https://www.reddit.com/r/codex/comments/1wx0d8x/claude_20_plan_codex_pro_100_my_first_impressions/",
+      "excerpt": "Hey everyone,\n I recently got the $20 Claude subscription. For what it's worth, Claude's $20 plan (with opus 5.5 high) feels roughly equivalent to Codex's $100 plan(with astra medium at least) (but anyway, moving on).\n I use Opus 5.5 as a code reviewer alongside Astra work, and here's some quick early feedback for anyone thinking of trying the same setup.\n Overall, Astra is noticeably more careful about small details, especially on the backend. It often happens that Opus suggests a fix, Codex pushes back on it, and then Opus itself admits that Astra's solution is much better.\n On the other hand, I find Opus way more creative than Astra. So the two really complement each other well.\n My question: does anyone know a good way to get them working hand in hand? A workflow, a tool, a config\u2026 I'm open to any ideas.\n Thanks in advance!\n    submitted by    /u/rjn2-8  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wx08cc",
+      "timestamp": "2026-10-03T22:49:19Z",
+      "title": "There is way to much talk about Opus 5.5 on this sub.",
+      "author": "/u/AkindaGood_programer",
+      "url": "https://www.reddit.com/r/codex/comments/1wx08cc/there_is_way_to_much_talk_about_opus_55_on_this/",
+      "excerpt": "This is the CODEX sub. Not r/vibecoding, not r/Anthropic.\n Almost every time I see a post talking positively about Sol 6.1 or Astra, the comments are inundated with people saying, \"Erm, Opus 5.5 is better; why are we even talking about Sol?\"\n When I talk about a problem with Codex, the first response shouldn't be \"Just go switch to Anthropic; Opus 5.5 is way better\".\n Opus 5.5 is a great model, BUT THAT ISN'T THE POINT. Maybe someone already has a Codex sub, and they can't dedicate more money this month. Maybe their work only allows them to use OAI. The reason why they aren't using Opus 5.5 shouldn't be the purpose of the post.\n It's fine to talk about Opus 5.5 when directly comparing models, but if I'm making a post about how much work I'm getting done; the first comment I get shouldn't be \"You'd get way more usage with Opus 5.5 btw\".\n    submitted by    /u/AkindaGood_programer  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wx02pd",
+      "timestamp": "2026-10-03T22:41:24Z",
+      "title": "Resets no longer work",
+      "author": "/u/Temporary-Mix8022",
+      "url": "https://www.reddit.com/r/codex/comments/1wx02pd/resets_no_longer_work/",
+      "excerpt": "https://preview.redd.it/67bqzqqaybth1.png?width=1268&format=png&auto=webp&s=8e54af6dcb9efc69945a7fb8a5f70dca7bb1518c\n I know that I'm probably not going to use 90% of a $100 plan tomorrow.. but still.. I have a reset, and I want to use it. Clearly... 90% does not equal 100%.\n Anyone know how I can actually reset this? Or will it automatically go to 100% in the morning?\n    submitted by    /u/Temporary-Mix8022  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/67bqzqqaybth1.png?width=140&height=63&auto=webp&s=494208fa552c62c2f1b80cf87def1e2127bf694b",
+        "https://preview.redd.it/67bqzqqaybth1.png?width=1268&format=png&auto=webp&s=8e54af6dcb9efc69945a7fb8a5f70dca7bb1518c"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwzvfn",
+      "timestamp": "2026-10-03T22:31:31Z",
+      "title": "Rust port of CLIProxyAPI: spread Codex across several ChatGPT accounts and see each one's 5h / weekly limit on one screen",
+      "author": "/u/Fit-Reaction242",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzvfn/rust_port_of_cliproxyapi_spread_codex_across/",
+      "excerpt": "If you run Codex CLI through CLIProxyAPI, I made a Rust port of it called cliproxy-rs. Same idea, a small server on your machine that your tools talk to instead of the provider, but it's one binary with the dashboard built in.\n Codex-specific bits:\n  sign in several ChatGPT / Codex accounts and spread requests across them (round-robin, fill-first, weighted), or try the experimental soonest-reset mode, which spends whichever account's weekly window resets first the quota view shows each account's 5-hour and weekly limit, named the same way the Codex CLI names them a conversation sticks to one account so the prompt cache stays warm, and an account that hits its limit sits out while the others take over Codex over WebSocket works  It reads the same config.yaml and auth files as the Go version, so if you already run CLIProxyAPI you can try it and switch back without redoing anything.\n Caveats, to be upfront: it's v0.1.0. Go is still faster on raw non-streaming throughput; the Rust one uses about half the memory and is faster when it has to translate streams between formats (numbers in docs/BENCHMARKS.md). Using a subscription outside the official app can break the provider's terms, so ",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwztof",
+      "timestamp": "2026-10-03T22:29:09Z",
+      "title": "6.1 being slow is the best thing ever and you are not understanding",
+      "author": "/u/Impossible-Sand5012",
+      "url": "https://www.reddit.com/r/codex/comments/1wwztof/61_being_slow_is_the_best_thing_ever_and_you_are/",
+      "excerpt": "I have been hammering it for the past 6 hours, 3-4 task in parallel running all the time, with long contexts, images\u2026coding tasks.\n Effort: Max\n Used just 10%.\n The amount of work I accomplished is just absolutely obscene.\n Yes, it\u2019s slow but is reliable and dependable you know what to expect, for fuck sake.\n You want it fast? Use fast mode.\n Why am I telling you this?\n Do you want a nerfed model? Because when you keep complaining about it being slow and asking OpenAI to make it fast, that\u2019s how you get a nerfed model. Just fucking stop.\n    submitted by    /u/Impossible-Sand5012  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwzm2f",
+      "timestamp": "2026-10-03T22:19:02Z",
+      "title": "Why codex thinks in spanish?",
+      "author": "/u/Wanderspor",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzm2f/why_codex_thinks_in_spanish/",
+      "excerpt": "How do i even fix it\n    submitted by    /u/Wanderspor  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/19auazaiubth1.png?width=640&crop=smart&auto=webp&s=9528b058f3327290338c1d2c967f0f5a4b7b7b3f",
+        "https://i.redd.it/19auazaiubth1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwzjcu",
+      "timestamp": "2026-10-03T22:15:29Z",
+      "title": "Very confused with new Models in Codex!",
+      "author": "/u/SortConfident265",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzjcu/very_confused_with_new_models_in_codex/",
+      "excerpt": "For basic code (not auditing out complex work) what is the best for the price? I was using 5.6 Sol on Light or Medium but a read that 6.1 Sol is cheaper? Is that correct?\n For work which was more complex I would switch to 5.6 Astra on Low/Medium but Medium would eat through credits like crazy.\n Any input would be great please.\n    submitted by    /u/SortConfident265  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwzcgd",
+      "timestamp": "2026-10-03T22:06:29Z",
+      "title": "I have 24h to burn a whole week, and my Codex fork makes that basically impossible. Any Codex feature requests?",
+      "author": "/u/RoboErectus",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzcgd/i_have_24h_to_burn_a_whole_week_and_my_codex_fork/",
+      "excerpt": "My codex fork has made it very difficult to use all my quotas.\n The Tldr is I got rid of useless tool call outputs and got rid of polling so it's event driven. Point luna at my fork and have it Tldr my Tldr.\n Due to the banked R word you all seem to loathe so much around here, this has created a situation where I need to burn a full 200 plan in 24h. It's just not possible doing regular SWE work so I need some more mechanical tasks.\n So I have these guys expiring about 24h apart. I am getting set up to run benchmarks and experiments for my day job but if anyone has another straightforward idea that will increase productivity or make codex better, I'll have it ready for up Monday.\n    submitted by    /u/RoboErectus  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/081v1u8dsbth1.jpeg?width=640&crop=smart&auto=webp&s=eb806623685d3563fe2270edfd94c766a8f048ad",
+        "https://i.redd.it/081v1u8dsbth1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwz5gn",
+      "timestamp": "2026-10-03T21:57:40Z",
+      "title": "GPT 6.1 Sol built my chess arena, then played Sonnet 5.5 for an hour. I tracked the token usage.",
+      "author": "/u/adigrazia80",
+      "url": "https://www.reddit.com/r/codex/comments/1wwz5gn/gpt_61_sol_built_my_chess_arena_then_played/",
+      "excerpt": "I've been using GPT 6.1 Sol a lot lately, and my subscription counter barely moves. I wanted to put some numbers behind that, so I had it build a local Mac app and play chess against Sonnet 5.5.\n The whole app, LLM Chess Arena, was built with GPT 6.1 Sol at Medium reasoning. For the match, I opened one Codex conversation and one Claude Desktop conversation, connected both through MCP, and gave them the game code.\n Each player stays in the same conversation throughout the game. It records a plan, plays, waits for the opponent, then works from the new position. The server checks legality. Neither player gets a chess engine or a list of legal moves.\n The attached video is a 4:10 edit of a game that lasted 62 minutes and 47 seconds. Both models were set to Medium.\n   Measure GPT 6.1 Sol / Codex Sonnet 5.5 / Claude    Time spent on claimed turns 21m 12s 33m 45s   Output tokens, including reasoning 34,956 269,076   Reasoning/thinking portion of output 12,128 224,770   Cumulative input tokens 16.81M 57.44M   Input read from cache 98.95% 99.07%   Rejected illegal moves 0 1   Estimated API equivalent $2.37 $16.21   The clock starts when a player claims its turn, before the server returns th",
+      "media_urls": [
+        "https://external-preview.redd.it/b2Ezd29kYW9xYnRoMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png?width=640&crop=smart&auto=webp&s=116efcbf6a56951548f9420ca49ec3435ba117c2"
+      ]
+    }
+  ],
+  "errors": []
+}
