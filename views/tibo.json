@@ -1,11 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T04:18:04.996413Z",
+  "generated_at": "2026-10-03T05:21:20.435860Z",
   "source": "@thsottiaux",
   "acquisition_mode": "fxtwitter",
   "candidate_discovery_only": true,
   "source_url": "https://fxtwitter.com/thsottiaux/feed.xml",
   "items": [
+    {
+      "text": "Fortunately our future models will be much better at code deletion and simplification. Just in time",
+      "url": "https://x.com/thsottiaux/status/2106252868307271752",
+      "published_at": "2026-10-03T05:19:50Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "All fixed. Surprising number of Pro 500 users on here.\n\nSeeing some reports that the Pro 500 didn\u2019t get the reset as expected earlier. Investigating and will make up for it",
+      "url": "https://x.com/thsottiaux/status/2106239435461579088",
+      "published_at": "2026-10-03T04:26:28Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
     {
       "text": "Seeing some reports that the Pro 500 didn\u2019t get the reset as expected earlier. Investigating and will make up for it",
       "url": "https://x.com/thsottiaux/status/2106233145163141249",
@@ -276,6 +290,69 @@
       "text": "I\u2019ll explain the new Pro 200 plan differently, before I start live tweeting from DevDay on things that are going out! Today we are going to \u2026\nI\u2019ll explain the new Pro 200 plan differently, before I start live tweeting from DevDay on things that are going out!\n\n\n\nToday we are going to ship a number of things that increase what you can do across the Plus and Pro plans. A lot of compute is online for this increase. As we increase the floor, we are changing the relative difference between plans to be\n\n\n\nPlus = 1X\n\nPro 100 = 5X\n\nPro 200 = 10X\n\n\n\nand we are reopening subscriptions for Pro 200 (we had paused it). If you have an existing plan you will keep the 20X multiplier for a bit and also receive a lot of additional credits because we know changes are hard even if it means that everyone will get more in the end.",
       "url": "https://x.com/thsottiaux/status/2104951965184925941",
       "published_at": "2026-09-29T15:10:31Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "That was yesterday, today is DevDay. And it's all good news. I'm surprised we've kept it all under wraps.\n\nHi, Tomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. Now that it\u2026",
+      "url": "https://x.com/thsottiaux/status/2104838506363408740",
+      "published_at": "2026-09-29T07:39:40Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Hi, Tomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the\u2026\nHi,\n\n\n\nTomorrow we are re-opening the Pro $200 subscriptions to new subscribers, but together with it we are also changing how we calculate the usage for it. In effect, if you do the math, it will net out at half the dollar in API spend compared to the old Pro $200 plan. \n\n\n\nNow that it's said, let me explain why this is happening and why you will still get more work done than if you were on the Pro $200 subscription one month ago.\n\n\n\n(a) We didn't want to compromise in other ways and are committing to not reintroducing the 5h limit, so that you can fully use the weekly usage when you want.\n\n(b) On the subscription, we guarantee that over time you always get more work done and with an increasing level of quality. This means that you will continue to get more value per dollar spent as a result of models getting more efficient and us passing down the improvements in the form of API price reductions.\n\n(c) We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot (and workaround it through discounts, etc). Instead we want to continue to both rapidly reduce prices and increase capabilities of models on the API. This week we introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price. Over time, we see prices go low enough that it makes sense for most to buy usage as needed without there being a significant gap between what you get in a subscription and what you get in the API for a dollar spent.\n\n(d) Tomorrow, we are adding more things to the subscription that won't draw on the usage, I won't reveal what that is yet.\n\n\n\nI wanted to be transparent before all the big announcements tomorrow. Lots of new exciting things are coming to the subscriptions that will make it super compelling, but I wanted to make sure to share this change ahead of time so you can all understand it before we shower you with good news.\n\n\n\nCodexingly,\n\nTibo",
+      "url": "https://x.com/thsottiaux/status/2104823812042940713",
+      "published_at": "2026-09-29T06:41:17Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Taken by none other than the incredible @ah20im",
+      "url": "https://x.com/thsottiaux/status/2104467346945675347",
+      "published_at": "2026-09-28T07:04:49Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Sunday vibes. See you at Fort Mason soon \ud83c\udfae\ud83d\udc69\u200d\ud83d\udcbb",
+      "url": "https://x.com/thsottiaux/status/2104465709384491519",
+      "published_at": "2026-09-28T06:58:18Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": ". . . . . .",
+      "url": "https://x.com/thsottiaux/status/2104383749723128052",
+      "published_at": "2026-09-28T01:32:38Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Code freeze isn\u2019t really a thing anymore before releases and in the future the code might even be generated online per request according to \u2026\nCode freeze isn\u2019t really a thing anymore before releases and in the future the code might even be generated online per request according to some constraints.",
+      "url": "https://x.com/thsottiaux/status/2104108167806550046",
+      "published_at": "2026-09-27T07:17:34Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "Resets all propagated. That will be all. Have a fantastic weekend.",
+      "url": "https://x.com/thsottiaux/status/2103911959544610829",
+      "published_at": "2026-09-26T18:17:54Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "o yes\u2026 we\u2019re back in action and we\u2019ll reset usage limits for all paid users across codex and ChatGPT work sorry about the brief disruption! \u2026\no yes\u2026 we\u2019re back in action and we\u2019ll reset usage limits for all paid users across codex and ChatGPT work\n\n\n\nsorry about the brief disruption!\n\n\n\n(and yes we have a special spare codex when things are down to help us out)\n\no no :(",
+      "url": "https://x.com/thsottiaux/status/2103637477760311522",
+      "published_at": "2026-09-26T00:07:13Z",
+      "source_handle": "@thsottiaux",
+      "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
+    },
+    {
+      "text": "o no :(",
+      "url": "https://x.com/thsottiaux/status/2103622639386574979",
+      "published_at": "2026-09-25T23:08:15Z",
       "source_handle": "@thsottiaux",
       "authority": "Tibo Sottiaux / OpenAI Codex & ChatGPT Work lead"
     }
