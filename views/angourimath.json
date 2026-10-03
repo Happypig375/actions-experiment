@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T02:07:52.103696Z",
-  "since": "2026-10-02T23:07:52.103696Z",
+  "generated_at": "2026-10-03T03:12:10.262178Z",
+  "since": "2026-10-03T00:12:10.262178Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
   "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-  "previous_head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
+  "previous_head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
   "commits": [
     {
       "sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
@@ -13,20 +13,6 @@
       "author": "Rafael-SOWNet",
       "date": "2026-10-03T02:07:35Z",
       "url": "https://github.com/asc-community/AngouriMath/commit/148f3007806b5eea869440dc424fac9f995d0a8d"
-    },
-    {
-      "sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "message": "A power of x beside a symbolic block, and blocks in one power of x, are split off (#1700)",
-      "author": "Rafael-SOWNet",
-      "date": "2026-10-03T00:10:01Z",
-      "url": "https://github.com/asc-community/AngouriMath/commit/3fba4e5de2001f5b22bafbe8f0c1308d8047caf1"
-    },
-    {
-      "sha": "504a5570d04a087edbec1da6d80507e4ea79c344",
-      "message": "A polynomial over a power of a binomial past the cube is taken down a power at a time (#1699)",
-      "author": "Rafael-SOWNet",
-      "date": "2026-10-02T23:31:08Z",
-      "url": "https://github.com/asc-community/AngouriMath/commit/504a5570d04a087edbec1da6d80507e4ea79c344"
     }
   ],
   "issues": [
@@ -39,28 +25,6 @@
       "user": "Rafael-SOWNet",
       "comments": 0,
       "url": "https://github.com/asc-community/AngouriMath/pull/1701",
-      "kind": "pull_request"
-    },
-    {
-      "number": 1700,
-      "title": "A power of x beside a symbolic block, and blocks in one power of x, are split off",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-03T00:10:02Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1700",
-      "kind": "pull_request"
-    },
-    {
-      "number": 1699,
-      "title": "A polynomial over a power of a binomial past the cube is taken down a power at a time",
-      "state": "closed",
-      "state_reason": null,
-      "updated_at": "2026-10-02T23:31:09Z",
-      "user": "Rafael-SOWNet",
-      "comments": 0,
-      "url": "https://github.com/asc-community/AngouriMath/pull/1699",
       "kind": "pull_request"
     }
   ],
@@ -79,36 +43,6 @@
       "recent_reviews": [],
       "recent_issue_comments": [],
       "recent_review_comments": []
-    },
-    {
-      "number": 1700,
-      "title": "A power of x beside a symbolic block, and blocks in one power of x, are split off",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-03T00:10:02Z",
-      "merged_at": "2026-10-03T00:10:02Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "a-power-of-x-beside-a-symbolic-block",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1700",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
-    },
-    {
-      "number": 1699,
-      "title": "A polynomial over a power of a binomial past the cube is taken down a power at a time",
-      "state": "closed",
-      "draft": false,
-      "updated_at": "2026-10-02T23:31:09Z",
-      "merged_at": "2026-10-02T23:31:09Z",
-      "user": "Rafael-SOWNet",
-      "base": "master",
-      "head": "a-polynomial-over-a-power-of-a-binomial",
-      "url": "https://github.com/asc-community/AngouriMath/pull/1699",
-      "recent_reviews": [],
-      "recent_issue_comments": [],
-      "recent_review_comments": []
     }
   ],
   "releases": [],
@@ -117,143 +51,143 @@
       "id": 37088694225,
       "name": "Interactive Test",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:15:08Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694225"
     },
     {
       "id": 37088694194,
       "name": "C# Test",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:38:00Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694194"
     },
     {
       "id": 37088694114,
       "name": "Trimming & NativeAOT",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:14:05Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694114"
     },
     {
       "id": 37088694103,
       "name": "Kernel Benchmark",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:41Z",
+      "updated_at": "2026-10-03T02:19:26Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694103"
     },
     {
       "id": 37088694081,
       "name": "Interactive Build",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:12:40Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694081"
     },
     {
       "id": 37088694077,
       "name": "F# Build",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:12:03Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694077"
     },
     {
       "id": 37088694075,
       "name": "C#/Kernel Build",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:14:20Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694075"
     },
     {
       "id": 37088694049,
       "name": "Integration Test",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:42Z",
+      "updated_at": "2026-10-03T02:12:19Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694049"
     },
     {
       "id": 37088694046,
       "name": "C++ Test",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:11:52Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694046"
     },
     {
       "id": 37088694040,
       "name": "Solution Build",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:42Z",
+      "updated_at": "2026-10-03T02:14:16Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694040"
     },
     {
       "id": 37088694023,
       "name": "F# Test",
       "event": "push",
-      "status": "queued",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:39Z",
+      "updated_at": "2026-10-03T02:13:11Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694023"
     },
     {
       "id": 37088694020,
       "name": "Harnesses",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:42Z",
+      "updated_at": "2026-10-03T02:18:05Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694020"
     },
     {
       "id": 37088694016,
       "name": "C++ Build",
       "event": "push",
-      "status": "in_progress",
-      "conclusion": null,
+      "status": "completed",
+      "conclusion": "success",
       "head_branch": "master",
       "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
-      "updated_at": "2026-10-03T02:07:47Z",
+      "updated_at": "2026-10-03T02:12:29Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37088694016"
     },
     {
@@ -541,158 +475,8 @@
       "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
       "updated_at": "2026-10-03T00:16:47Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892433"
-    },
-    {
-      "id": 37078834155,
-      "name": "F# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:51:10Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078834155"
-    },
-    {
-      "id": 37078834081,
-      "name": "F# Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:47:14Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078834081"
-    },
-    {
-      "id": 37078834061,
-      "name": "Interactive Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:46:08Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078834061"
-    },
-    {
-      "id": 37078834038,
-      "name": "Interactive Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:49:20Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078834038"
-    },
-    {
-      "id": 37078834023,
-      "name": "Solution Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:46:54Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078834023"
-    },
-    {
-      "id": 37078833996,
-      "name": "Kernel Benchmark",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:54:08Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833996"
-    },
-    {
-      "id": 37078833981,
-      "name": "C++ Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:49:20Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833981"
-    },
-    {
-      "id": 37078833971,
-      "name": "C++ Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:47:01Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833971"
-    },
-    {
-      "id": 37078833935,
-      "name": "Harnesses",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:56:39Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833935"
-    },
-    {
-      "id": 37078833925,
-      "name": "C#/Kernel Build",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-02T23:49:51Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833925"
-    },
-    {
-      "id": 37078833923,
-      "name": "C# Test",
-      "event": "pull_request",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "a-power-of-x-beside-a-symbolic-block",
-      "head_sha": "17f49b833bf53904ab59908fc05764ff32b3bf37",
-      "updated_at": "2026-10-03T00:09:11Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37078833923"
     }
   ],
-  "changed_files_since_previous_feed": [
-    {
-      "filename": "BREAKING-CHANGES.md",
-      "status": "modified",
-      "additions": 21,
-      "deletions": 0,
-      "changes": 21
-    },
-    {
-      "filename": "Sources/AngouriMath/Functions/Continuous/Integration/IndefiniteIntegralSolver.cs",
-      "status": "modified",
-      "additions": 440,
-      "deletions": 164,
-      "changes": 604
-    },
-    {
-      "filename": "Sources/AngouriMath/Functions/Continuous/Integration/Integration.Definition.cs",
-      "status": "modified",
-      "additions": 2,
-      "deletions": 0,
-      "changes": 2
-    },
-    {
-      "filename": "Sources/Tests/UnitTests/Calculus/PowerOfALinearBesideTheRootOfAQuadraticTest.cs",
-      "status": "added",
-      "additions": 147,
-      "deletions": 0,
-      "changes": 147
-    }
-  ],
+  "changed_files_since_previous_feed": [],
   "errors": []
 }

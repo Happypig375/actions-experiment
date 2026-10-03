@@ -1,12 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T02:07:52.103696Z",
-  "since": "2026-10-02T23:07:52.103696Z",
+  "generated_at": "2026-10-03T03:12:10.262178Z",
+  "since": "2026-10-03T00:12:10.262178Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
-  "head_sha": "a8d6d3eded129c624b2852032208d5edb5ec3571",
-  "previous_head_sha": "aec7d8d36ad9e5527ae89fbf164c2595bc3a6e73",
+  "head_sha": "84a78630ed8ae398303075d9eedb23c043f5ed61",
+  "previous_head_sha": "a8d6d3eded129c624b2852032208d5edb5ec3571",
   "commits": [
+    {
+      "sha": "84a78630ed8ae398303075d9eedb23c043f5ed61",
+      "message": "Changed default light to PointLight 0.5f.",
+      "author": "bryanedds",
+      "date": "2026-10-03T03:02:25Z",
+      "url": "https://github.com/bryanedds/Nu/commit/84a78630ed8ae398303075d9eedb23c043f5ed61"
+    },
+    {
+      "sha": "e26e43553c77cf20687b471c416bdce4bff649fc",
+      "message": "More algo adjustments.",
+      "author": "bryanedds",
+      "date": "2026-10-03T02:38:38Z",
+      "url": "https://github.com/bryanedds/Nu/commit/e26e43553c77cf20687b471c416bdce4bff649fc"
+    },
     {
       "sha": "a8d6d3eded129c624b2852032208d5edb5ec3571",
       "message": "Light radius algo adjustments.",
@@ -52,6 +66,28 @@
   "pulls": [],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 37091869028,
+      "name": "CI",
+      "event": "push",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "master",
+      "head_sha": "84a78630ed8ae398303075d9eedb23c043f5ed61",
+      "updated_at": "2026-10-03T03:02:47Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/37091869028"
+    },
+    {
+      "id": 37090518297,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "e26e43553c77cf20687b471c416bdce4bff649fc",
+      "updated_at": "2026-10-03T02:56:24Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/37090518297"
+    },
     {
       "id": 37085612262,
       "name": "CI",
@@ -102,400 +138,414 @@
       "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Nu/Nu/Core/Math.fs",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6
+    },
+    {
+      "filename": "Nu/Nu/World/WorldFacets.fs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedDeferredLighting.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedForwardAnimated.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     },
     {
       "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedForwardStatic.frag",
       "status": "modified",
       "additions": 1,
-      "deletions": 2,
-      "changes": 3
+      "deletions": 1,
+      "changes": 2
     }
   ],
   "errors": []
