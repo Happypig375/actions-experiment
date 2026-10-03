@@ -1,16 +1,648 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T00:01:16.208331Z",
-  "since": "2026-10-02T21:01:16.208331Z",
+  "generated_at": "2026-10-03T01:04:45.655689Z",
+  "since": "2026-10-02T22:04:45.655689Z",
   "repo": "bryanedds/Nu",
   "default_branch": "master",
-  "head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
+  "head_sha": "aec7d8d36ad9e5527ae89fbf164c2595bc3a6e73",
   "previous_head_sha": "41ec586acf1adba7af824b35033b2d27bea9613d",
-  "commits": [],
-  "issues": [],
+  "commits": [
+    {
+      "sha": "aec7d8d36ad9e5527ae89fbf164c2595bc3a6e73",
+      "message": "Fixed application of light radius.",
+      "author": "bryanedds",
+      "date": "2026-10-03T00:43:45Z",
+      "url": "https://github.com/bryanedds/Nu/commit/aec7d8d36ad9e5527ae89fbf164c2595bc3a6e73"
+    },
+    {
+      "sha": "578949c4a9d23c30cac2bfd609b4252e1a9566df",
+      "message": "Emulating volume for existing simple point and spot lights with this one weird trick... (make sure to propagate assets)!",
+      "author": "bryanedds",
+      "date": "2026-10-03T00:13:07Z",
+      "url": "https://github.com/bryanedds/Nu/commit/578949c4a9d23c30cac2bfd609b4252e1a9566df"
+    }
+  ],
+  "issues": [
+    {
+      "number": 1316,
+      "title": "Consider implementing area lights.",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-03T00:13:50Z",
+      "user": "bryanedds",
+      "comments": 0,
+      "url": "https://github.com/bryanedds/Nu/issues/1316",
+      "kind": "issue"
+    }
+  ],
   "pulls": [],
   "releases": [],
-  "workflow_runs": [],
-  "changed_files_since_previous_feed": [],
+  "workflow_runs": [
+    {
+      "id": 37083278103,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "aec7d8d36ad9e5527ae89fbf164c2595bc3a6e73",
+      "updated_at": "2026-10-03T01:02:11Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/37083278103"
+    },
+    {
+      "id": 37081125144,
+      "name": "CI",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "578949c4a9d23c30cac2bfd609b4252e1a9566df",
+      "updated_at": "2026-10-03T00:32:12Z",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/37081125144"
+    }
+  ],
+  "changed_files_since_previous_feed": [
+    {
+      "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Gaia/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Pipe/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Empty/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.ImSim.Game/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Empty/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Template.Mmcc.Game/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu.Tests/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Nu/Nu/Core/Math.fs",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 10,
+      "changes": 27
+    },
+    {
+      "filename": "Nu/Nu/Render/Renderer3d.fs",
+      "status": "modified",
+      "additions": 27,
+      "deletions": 22,
+      "changes": 49
+    },
+    {
+      "filename": "Nu/Nu/Vulkan/VulkanPhysicallyBased.fs",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 8,
+      "changes": 25
+    },
+    {
+      "filename": "Nu/Nu/Vulkan/VulkanSpriteBatch.fs",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2
+    },
+    {
+      "filename": "Nu/Nu/World/WorldFacets.fs",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12
+    },
+    {
+      "filename": "Nu/Nu/World/WorldImGui.fs",
+      "status": "modified",
+      "additions": 21,
+      "deletions": 10,
+      "changes": 31
+    },
+    {
+      "filename": "Nu/Nu/World/WorldModule2.fs",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4
+    },
+    {
+      "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Blaze Vector ImSim/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Blaze Vector Mmcc/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout ImSim/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Breakout Mmcc/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Jump Box/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Metrics/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Mobile/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Nelmish/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 2d/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Sand Box 3d/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Terra Firma/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedDeferredFogging.frag",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1
+    },
+    {
+      "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedDeferredLighting.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedForwardAnimated.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    },
+    {
+      "filename": "Projects/Twenty 48/Assets/Default/PhysicallyBasedForwardStatic.frag",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15
+    }
+  ],
   "errors": []
 }
