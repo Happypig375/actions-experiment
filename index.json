@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch authoritative Tibo timeline feed",
-  "generated_at": "2026-10-03T02:07:44.746718Z",
+  "generated_at": "2026-10-03T03:12:01.716602Z",
   "fresh_for_seconds": 4500,
   "source": {
     "key": "tibo",
