@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T22:03:05.323293Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-03T20:37:56.439735Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwz5gn",
+      "timestamp": "2026-10-03T21:57:40Z",
+      "title": "GPT 6.1 Sol built my chess arena, then played Sonnet 5.5 for an hour. I tracked the token usage.",
+      "author": "/u/adigrazia80",
+      "url": "https://www.reddit.com/r/codex/comments/1wwz5gn/gpt_61_sol_built_my_chess_arena_then_played/",
+      "excerpt": "I've been using GPT 6.1 Sol a lot lately, and my subscription counter barely moves. I wanted to put some numbers behind that, so I had it build a local Mac app and play chess against Sonnet 5.5.\n The whole app, LLM Chess Arena, was built with GPT 6.1 Sol at Medium reasoning. For the match, I opened one Codex conversation and one Claude Desktop conversation, connected both through MCP, and gave them the game code.\n Each player stays in the same conversation throughout the game. It records a plan, plays, waits for the opponent, then works from the new position. The server checks legality. Neither player gets a chess engine or a list of legal moves.\n The attached video is a 4:10 edit of a game that lasted 62 minutes and 47 seconds. Both models were set to Medium.\n   Measure GPT 6.1 Sol / Codex Sonnet 5.5 / Claude    Time spent on claimed turns 21m 12s 33m 45s   Output tokens, including reasoning 34,956 269,076   Reasoning/thinking portion of output 12,128 224,770   Cumulative input tokens 16.81M 57.44M   Input read from cache 98.95% 99.07%   Rejected illegal moves 0 1   Estimated API equivalent $2.37 $16.21   The clock starts when a player claims its turn, before the server returns th",
+      "media_urls": [
+        "https://external-preview.redd.it/b2Ezd29kYW9xYnRoMVbsotEFYFzHUfwHlfPArts0mbbllCMKYJjr5sAoDp74.png?width=640&crop=smart&auto=webp&s=116efcbf6a56951548f9420ca49ec3435ba117c2"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwypl9",
+      "timestamp": "2026-10-03T21:37:08Z",
+      "title": "I fixed codex",
+      "author": "/u/mt-beefcake",
+      "url": "https://www.reddit.com/r/codex/comments/1wwypl9/i_fixed_codex/",
+      "excerpt": "With sol 6.1 down to under 20tps, codex is unusable. Other models nerfed. Dots is a gimmick. \n So just download claude code onto the vm that came with dots. Problem solved. Youre welcome everyone \n    submitted by    /u/mt-beefcake  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwyo7b",
+      "timestamp": "2026-10-03T21:35:22Z",
+      "title": "How does 6.1 Sol feel compared to Astra?",
+      "author": "/u/AdApprehensive5643",
+      "url": "https://www.reddit.com/r/codex/comments/1wwyo7b/how_does_61_sol_feel_compared_to_astra/",
+      "excerpt": "I tried 6.1 Sol when it came out and it worked but somehow for me atleast it felt worse than Astra.\n Last few days I only used Astra and would like to know other people perspective.\n Maybe I am just missing something.\n EDIT:\n Seems that is normal to be worse and expected. I though that all these performance benchmarks put it at Astra level so it should be like Astra just way cheaper. \n    submitted by    /u/AdApprehensive5643  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwy97z",
+      "timestamp": "2026-10-03T21:16:48Z",
+      "title": "Bug: ChatGPT Dot-started local Codex tasks on Windows lose Computer Use / node_repl even with Full access",
+      "author": "/u/BrennanFlentge",
+      "url": "https://www.reddit.com/r/codex/comments/1wwy97z/bug_chatgpt_dotstarted_local_codex_tasks_on/",
+      "excerpt": "Posting this because this has never worked for me, and GitHub issue #49458 now has multiple Windows users reproducing the same problem.\n GitHub:\n https://github.com/openai/codex/issues/49458\n The bug is pretty straightforward:\n ChatGPT Dot can start a local Codex task on my connected Windows PC.\n That task can:\n - Run PowerShell\n - Read local files\n - Load the Computer Use skill\n What it does not get:\n - node_repl\n - cua_repl\n - Windows UI control\n - Chrome / Edge control\n - Screenshot, mouse, or keyboard control\n So Dot successfully delegates the task to my PC, and local execution works, but the tools required for Computer Use never show up.\n My setup:\n - Windows 11 25H2, build 26200.9168\n - Codex desktop package 26.930.2377.0\n - Computer Use plugin 26.930.21537\n - node_repl is configured\n - node_repl.exe exists\n - Runtime/helper processes are running\n - PC is connected and available to Dot\n I also tested the permission modes separately:\n Custom \u2192 Approve for me \u2192 Full access\n None of them changed the available tools.\n The delegated task continued reporting workspace-write, restricted network, and auto_review even after switching to Full access.\n I've also tried:\n - Fresh Dot-crea",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwxn38",
+      "timestamp": "2026-10-03T20:49:51Z",
+      "title": "Does adding/removing 3rd (Premium) seat in Biz/Teams affect a BOGO promo?",
+      "author": "/u/Infinite100p",
+      "url": "https://www.reddit.com/r/codex/comments/1wwxn38/does_addingremoving_3rd_premium_seat_in_bizteams/",
+      "excerpt": "If I have 2 non-premium Biz seats in CODEX with the old BOGO promo.\n If I add one premium seat for 1 month (so, 3rd seat total), and then remove it a month later -- does that affect the BOGO promo with OpenAI?\n Did anyone try it?\n Edit: Also, do you know if upgrading one of the two existing BOGO seats instead and then downgrading it back kills the promo?\n Thanks\n    submitted by    /u/Infinite100p  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1wwxewf",
+      "timestamp": "2026-10-03T20:39:44Z",
+      "title": "How to Use Dots",
+      "author": "/u/BopSupreme",
+      "url": "https://www.reddit.com/r/codex/comments/1wwxewf/how_to_use_dots/",
+      "excerpt": "The biggest workflow change from using Dots is not needing to go back and forth between Chat and Codex. Dots in iOS or ChatGPT Desktop is all you need to communicate with to keep Codex, Work, and Chats going. Codex cloud means you don\u2019t need to leave your PC on 24/7 either. Cool stuff - I think their Dots presentation, the goofy shapes and the Call feature make it seem like it\u2019s for casual users when in reality it\u2019s most suitable to acting as the orchestration layer that\u2019s always on. Helps coordinate parallel and multiple workstreams, reducing the brain fatigue that comes with switching between multiple chats and tabs all the time\n    submitted by    /u/BopSupreme  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}

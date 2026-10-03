@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T22:03:05.323293Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "recovery_since": "2026-10-03T18:42:20.889896Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "timestamp": "2026-10-03T21:46:38Z",
+      "text": "If we were to add one more sidebar, what should be in it",
+      "url": "https://x.com/thsottiaux/status/2106501204285239560",
+      "source_handle": "@thsottiaux"
+    }
+  ],
+  "errors": []
+}
