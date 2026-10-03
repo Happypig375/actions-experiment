@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "purpose": "Important Update Watch GitHub acquisition feed",
-  "generated_at": "2026-10-03T03:12:10.262178Z",
-  "since": "2026-10-03T00:12:10.262178Z",
+  "generated_at": "2026-10-03T04:16:28.155974Z",
+  "since": "2026-10-03T01:16:28.155974Z",
   "fresh_for_seconds": 4500,
   "repos": [
     {
@@ -10,14 +10,14 @@
       "full_name": "bryanedds/Nu",
       "view_path": "views/nu.json",
       "head_sha": "84a78630ed8ae398303075d9eedb23c043f5ed61",
-      "previous_head_sha": "a8d6d3eded129c624b2852032208d5edb5ec3571",
+      "previous_head_sha": "84a78630ed8ae398303075d9eedb23c043f5ed61",
       "counts": {
-        "commits": 6,
+        "commits": 3,
         "issues": 1,
         "pulls": 0,
         "releases": 0,
-        "workflow_runs": 6,
-        "changed_files": 59
+        "workflow_runs": 4,
+        "changed_files": 0
       },
       "errors": []
     },
@@ -29,8 +29,8 @@
       "previous_head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
       "counts": {
         "commits": 1,
-        "issues": 1,
-        "pulls": 1,
+        "issues": 2,
+        "pulls": 2,
         "releases": 0,
         "workflow_runs": 39,
         "changed_files": 0

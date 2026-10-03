@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T03:12:10.262178Z",
-  "since": "2026-10-03T00:12:10.262178Z",
+  "generated_at": "2026-10-03T04:16:28.155974Z",
+  "since": "2026-10-03T01:16:28.155974Z",
   "repo": "asc-community/AngouriMath",
   "default_branch": "master",
   "head_sha": "148f3007806b5eea869440dc424fac9f995d0a8d",
@@ -17,6 +17,17 @@
   ],
   "issues": [
     {
+      "number": 1702,
+      "title": "A function of one linear under a power inside a sum is written in that linear",
+      "state": "open",
+      "state_reason": null,
+      "updated_at": "2026-10-03T03:32:02Z",
+      "user": "Rafael-SOWNet",
+      "comments": 0,
+      "url": "https://github.com/asc-community/AngouriMath/pull/1702",
+      "kind": "pull_request"
+    },
+    {
       "number": 1701,
       "title": "A polynomial over a power of a linear beside the root of a quadratic is integrated by undetermined coefficients",
       "state": "closed",
@@ -29,6 +40,21 @@
     }
   ],
   "pulls": [
+    {
+      "number": 1702,
+      "title": "A function of one linear under a power inside a sum is written in that linear",
+      "state": "open",
+      "draft": false,
+      "updated_at": "2026-10-03T03:32:02Z",
+      "merged_at": null,
+      "user": "Rafael-SOWNet",
+      "base": "master",
+      "head": "a-function-of-one-shifted-linear",
+      "url": "https://github.com/asc-community/AngouriMath/pull/1702",
+      "recent_reviews": [],
+      "recent_issue_comments": [],
+      "recent_review_comments": []
+    },
     {
       "number": 1701,
       "title": "A polynomial over a power of a linear beside the root of a quadratic is integrated by undetermined coefficients",
@@ -47,6 +73,149 @@
   ],
   "releases": [],
   "workflow_runs": [
+    {
+      "id": 37093255670,
+      "name": "F# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:33:11Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255670"
+    },
+    {
+      "id": 37093255659,
+      "name": "Interactive Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:34:58Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255659"
+    },
+    {
+      "id": 37093255653,
+      "name": "Solution Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:32:12Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255653"
+    },
+    {
+      "id": 37093255631,
+      "name": "F# Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:30:57Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255631"
+    },
+    {
+      "id": 37093255629,
+      "name": "C++ Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:31:52Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255629"
+    },
+    {
+      "id": 37093255627,
+      "name": "Interactive Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:33:31Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255627"
+    },
+    {
+      "id": 37093255624,
+      "name": "Harnesses",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:37:10Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255624"
+    },
+    {
+      "id": 37093255619,
+      "name": "C#/Kernel Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:31:27Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255619"
+    },
+    {
+      "id": 37093255613,
+      "name": "Trimming & NativeAOT",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:32:58Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255613"
+    },
+    {
+      "id": 37093255609,
+      "name": "C++ Build",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:31:26Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255609"
+    },
+    {
+      "id": 37093255606,
+      "name": "Kernel Benchmark",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:37:59Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255606"
+    },
+    {
+      "id": 37093255595,
+      "name": "Integration Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:31:57Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255595"
+    },
+    {
+      "id": 37093255594,
+      "name": "C# Test",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-function-of-one-shifted-linear",
+      "head_sha": "9509cbb49ab2176ae13365fc0059746efca6c05e",
+      "updated_at": "2026-10-03T03:53:16Z",
+      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37093255594"
+    },
     {
       "id": 37088694225,
       "name": "Interactive Test",
@@ -332,149 +501,6 @@
       "head_sha": "43605ba3ae5d0fedd14bea50b6d738fea8596488",
       "updated_at": "2026-10-03T01:48:45Z",
       "url": "https://github.com/asc-community/AngouriMath/actions/runs/37087140906"
-    },
-    {
-      "id": 37080892554,
-      "name": "Interactive Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:16:30Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892554"
-    },
-    {
-      "id": 37080892548,
-      "name": "C++ Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:17:53Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892548"
-    },
-    {
-      "id": 37080892546,
-      "name": "Interactive Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:14:40Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892546"
-    },
-    {
-      "id": 37080892515,
-      "name": "Integration Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:14:33Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892515"
-    },
-    {
-      "id": 37080892496,
-      "name": "C# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:36:27Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892496"
-    },
-    {
-      "id": 37080892488,
-      "name": "F# Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:14:56Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892488"
-    },
-    {
-      "id": 37080892483,
-      "name": "Solution Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:15:54Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892483"
-    },
-    {
-      "id": 37080892479,
-      "name": "Trimming & NativeAOT",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:13:50Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892479"
-    },
-    {
-      "id": 37080892475,
-      "name": "Kernel Benchmark",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:21:01Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892475"
-    },
-    {
-      "id": 37080892460,
-      "name": "Harnesses",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:20:20Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892460"
-    },
-    {
-      "id": 37080892450,
-      "name": "C#/Kernel Build",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:14:11Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892450"
-    },
-    {
-      "id": 37080892444,
-      "name": "C++ Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:14:33Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892444"
-    },
-    {
-      "id": 37080892433,
-      "name": "F# Test",
-      "event": "push",
-      "status": "completed",
-      "conclusion": "success",
-      "head_branch": "master",
-      "head_sha": "3fba4e5de2001f5b22bafbe8f0c1308d8047caf1",
-      "updated_at": "2026-10-03T00:16:47Z",
-      "url": "https://github.com/asc-community/AngouriMath/actions/runs/37080892433"
     }
   ],
   "changed_files_since_previous_feed": [],
