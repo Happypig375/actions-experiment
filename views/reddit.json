@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-04T00:03:49.692655Z",
+  "since": "2026-10-03T18:03:49.692655Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1wx1det",
+      "title": "This new queue thing is a disaster",
+      "url": "https://www.reddit.com/r/codex/comments/1wx1det/this_new_queue_thing_is_a_disaster/",
+      "created_at": "2026-10-03T23:47:03+00:00",
+      "author": "/u/bakawolf123",
+      "excerpt": "Chat constantly getting stuck when sending new messages.\n Cannot steer properly.\n Cannot interrupt and ask for rework before it gets sour properly.\n Requests are getting duplicated.\n Something old is getting sent instead of what I asked now.\n New messages sometimes get lost (workaround with undo, then copy the message).\n Clear queue doesn't work.\n Have to constantly restart codex to get it to work again.\n What is this???\n    submitted by    /u/bakawolf123  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx1cyp",
+      "title": "what to pick",
+      "url": "https://www.reddit.com/r/codex/comments/1wx1cyp/what_to_pick/",
+      "created_at": "2026-10-03T23:46:25+00:00",
+      "author": "/u/Other_Smell5744",
+      "excerpt": "My last CC accounts were banned today, so Ive switched to what was left of my codex 200$ account. Was using fable+opus pipelines previously, here Ive tried astra+sol6.1. Not sure how I feel abt it yet but the limits are just unbearable\n Should I go for the 500$ or maybe try some chinese models? \n    submitted by    /u/Other_Smell5744  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx0uac",
+      "title": "Is ChatGPT Go enough for heavy document editing, learning, job searching, and frequent Voice Mode use?",
+      "url": "https://www.reddit.com/r/codex/comments/1wx0uac/is_chatgpt_go_enough_for_heavy_document_editing/",
+      "created_at": "2026-10-03T23:19:28+00:00",
+      "author": "/u/Successful-Life8510",
+      "excerpt": "I accidentally forgot to cancel another subscription and it took most of the money I had left on my card. Now I only have around $13, and because of the yearly international payment limit in my country, I can\u2019t just add more money to the card. So next month I won\u2019t be able to pay for ChatGPT Plus.\n I recently graduated and I want to dedicate October and November to working seriously on my CV, preparing for interviews, searching for jobs and understanding the job market better. I also still have a full report that needs a lot of editing, and I want to spend a lot of time learning new stuff.\n I use ChatGPT pretty heavily, especially for learning, writing, research, editing long documents, and asking a lot of follow-up questions. I also really like Voice Mode and use it a lot for learning, so",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx0d8x",
+      "title": "Claude $20 plan + Codex Pro 100: my first impressions (and a question)",
+      "url": "https://www.reddit.com/r/codex/comments/1wx0d8x/claude_20_plan_codex_pro_100_my_first_impressions/",
+      "created_at": "2026-10-03T22:56:13+00:00",
+      "author": "/u/rjn2-8",
+      "excerpt": "Hey everyone,\n I recently got the $20 Claude subscription. For what it's worth, Claude's $20 plan (with opus 5.5 high) feels roughly equivalent to Codex's $100 plan(with astra medium at least) (but anyway, moving on).\n I use Opus 5.5 as a code reviewer alongside Astra work, and here's some quick early feedback for anyone thinking of trying the same setup.\n Overall, Astra is noticeably more careful about small details, especially on the backend. It often happens that Opus suggests a fix, Codex pushes back on it, and then Opus itself admits that Astra's solution is much better.\n On the other hand, I find Opus way more creative than Astra. So the two really complement each other well.\n My question: does anyone know a good way to get them working hand in hand? A workflow, a tool, a config\u2026 I'm",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx08cc",
+      "title": "There is way to much talk about Opus 5.5 on this sub.",
+      "url": "https://www.reddit.com/r/codex/comments/1wx08cc/there_is_way_to_much_talk_about_opus_55_on_this/",
+      "created_at": "2026-10-03T22:49:19+00:00",
+      "author": "/u/AkindaGood_programer",
+      "excerpt": "This is the CODEX sub. Not r/vibecoding, not r/Anthropic.\n Almost every time I see a post talking positively about Sol 6.1 or Astra, the comments are inundated with people saying, \"Erm, Opus 5.5 is better; why are we even talking about Sol?\"\n When I talk about a problem with Codex, the first response shouldn't be \"Just go switch to Anthropic; Opus 5.5 is way better\".\n Opus 5.5 is a great model, BUT THAT ISN'T THE POINT. Maybe someone already has a Codex sub, and they can't dedicate more money this month. Maybe their work only allows them to use OAI. The reason why they aren't using Opus 5.5 shouldn't be the purpose of the post.\n It's fine to talk about Opus 5.5 when directly comparing models, but if I'm making a post about how much work I'm getting done; the first comment I get shouldn't b",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx02pd",
+      "title": "Resets no longer work",
+      "url": "https://www.reddit.com/r/codex/comments/1wx02pd/resets_no_longer_work/",
+      "created_at": "2026-10-03T22:41:24+00:00",
+      "author": "/u/Temporary-Mix8022",
+      "excerpt": "https://preview.redd.it/67bqzqqaybth1.png?width=1268&format=png&auto=webp&s=8e54af6dcb9efc69945a7fb8a5f70dca7bb1518c\n I know that I'm probably not going to use 90% of a $100 plan tomorrow.. but still.. I have a reset, and I want to use it. Clearly... 90% does not equal 100%.\n Anyone know how I can actually reset this? Or will it automatically go to 100% in the morning?\n    submitted by    /u/Temporary-Mix8022  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wx01vu",
+      "title": "What do yall still use astra for??",
+      "url": "https://www.reddit.com/r/codex/comments/1wx01vu/what_do_yall_still_use_astra_for/",
+      "created_at": "2026-10-03T22:40:15+00:00",
+      "author": "/u/Last-Government533",
+      "excerpt": "Honestly I've been running a VRchat unity fps optimizer for the last 24 hours and have used 3% on astra that would have been honestly like 30%, so like what do yall deem worth astra? Like I have been getting comparable results and sol has found things astra didnt so what do yall use it on wondering?? \n    submitted by    /u/Last-Government533  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwzvfn",
+      "title": "Rust port of CLIProxyAPI: spread Codex across several ChatGPT accounts and see each one's 5h / weekly limit on one screen",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzvfn/rust_port_of_cliproxyapi_spread_codex_across/",
+      "created_at": "2026-10-03T22:31:31+00:00",
+      "author": "/u/Fit-Reaction242",
+      "excerpt": "If you run Codex CLI through CLIProxyAPI, I made a Rust port of it called cliproxy-rs. Same idea, a small server on your machine that your tools talk to instead of the provider, but it's one binary with the dashboard built in.\n Codex-specific bits:\n  sign in several ChatGPT / Codex accounts and spread requests across them (round-robin, fill-first, weighted), or try the experimental soonest-reset mode, which spends whichever account's weekly window resets first the quota view shows each account's 5-hour and weekly limit, named the same way the Codex CLI names them a conversation sticks to one account so the prompt cache stays warm, and an account that hits its limit sits out while the others take over Codex over WebSocket works  It reads the same config.yaml and auth files as the Go version",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwztof",
+      "title": "6.1 being slow is the best thing ever and you are not understanding",
+      "url": "https://www.reddit.com/r/codex/comments/1wwztof/61_being_slow_is_the_best_thing_ever_and_you_are/",
+      "created_at": "2026-10-03T22:29:09+00:00",
+      "author": "/u/Impossible-Sand5012",
+      "excerpt": "I have been hammering it for the past 6 hours, 3-4 task in parallel running all the time, with long contexts, images\u2026coding tasks.\n Effort: Max\n Used just 10%.\n The amount of work I accomplished is just absolutely obscene.\n Yes, it\u2019s slow but is reliable and dependable you know what to expect, for fuck sake.\n You want it fast? Use fast mode.\n Why am I telling you this?\n Do you want a nerfed model? Because when you keep complaining about it being slow and asking OpenAI to make it fast, that\u2019s how you get a nerfed model. Just fucking stop.\n    submitted by    /u/Impossible-Sand5012  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwzm2f",
+      "title": "Why codex thinks in spanish?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzm2f/why_codex_thinks_in_spanish/",
+      "created_at": "2026-10-03T22:19:02+00:00",
+      "author": "/u/Wanderspor",
+      "excerpt": "How do i even fix it\n    submitted by    /u/Wanderspor  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwzjcu",
+      "title": "Very confused with new Models in Codex!",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzjcu/very_confused_with_new_models_in_codex/",
+      "created_at": "2026-10-03T22:15:29+00:00",
+      "author": "/u/SortConfident265",
+      "excerpt": "For basic code (not auditing out complex work) what is the best for the price? I was using 5.6 Sol on Light or Medium but a read that 6.1 Sol is cheaper? Is that correct?\n For work which was more complex I would switch to 5.6 Astra on Low/Medium but Medium would eat through credits like crazy.\n Any input would be great please.\n    submitted by    /u/SortConfident265  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwzcgd",
+      "title": "I have 24h to burn a whole week, and my Codex fork makes that basically impossible. Any Codex feature requests?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwzcgd/i_have_24h_to_burn_a_whole_week_and_my_codex_fork/",
+      "created_at": "2026-10-03T22:06:29+00:00",
+      "author": "/u/RoboErectus",
+      "excerpt": "My codex fork has made it very difficult to use all my quotas.\n The Tldr is I got rid of useless tool call outputs and got rid of polling so it's event driven. Point luna at my fork and have it Tldr my Tldr.\n Due to the banked R word you all seem to loathe so much around here, this has created a situation where I need to burn a full 200 plan in 24h. It's just not possible doing regular SWE work so I need some more mechanical tasks.\n So I have these guys expiring about 24h apart. I am getting set up to run benchmarks and experiments for my day job but if anyone has another straightforward idea that will increase productivity or make codex better, I'll have it ready for up Monday.\n    submitted by    /u/RoboErectus  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwz5gn",
+      "title": "GPT 6.1 Sol built my chess arena, then played Sonnet 5.5 for an hour. I tracked the token usage.",
+      "url": "https://www.reddit.com/r/codex/comments/1wwz5gn/gpt_61_sol_built_my_chess_arena_then_played/",
+      "created_at": "2026-10-03T21:57:40+00:00",
+      "author": "/u/adigrazia80",
+      "excerpt": "I've been using GPT 6.1 Sol a lot lately, and my subscription counter barely moves. I wanted to put some numbers behind that, so I had it build a local Mac app and play chess against Sonnet 5.5.\n The whole app, LLM Chess Arena, was built with GPT 6.1 Sol at Medium reasoning. For the match, I opened one Codex conversation and one Claude Desktop conversation, connected both through MCP, and gave them the game code.\n Each player stays in the same conversation throughout the game. It records a plan, plays, waits for the opponent, then works from the new position. The server checks legality. Neither player gets a chess engine or a list of legal moves.\n The attached video is a 4:10 edit of a game that lasted 62 minutes and 47 seconds. Both models were set to Medium.\n   Measure GPT 6.1 Sol / Code",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwyv1f",
+      "title": "And now we wait",
+      "url": "https://www.reddit.com/r/codex/comments/1wwyv1f/and_now_we_wait/",
+      "created_at": "2026-10-03T21:44:08+00:00",
+      "author": "/u/No_Durian9227",
+      "excerpt": "As OpenAI slowly degrades Sol 6.1\u2019s performance. Until people start noticing and complaining, at which time they drop Astra 6.1 and Sol 6.2, and give some usage resets, then repeat the process. \n Are they stalling progress of the everyday consumer models to grow their customer base? \n Can someone explain their strategy from a financial perspective? I wish I knew more. \n    submitted by    /u/No_Durian9227  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwypl9",
+      "title": "I fixed codex",
+      "url": "https://www.reddit.com/r/codex/comments/1wwypl9/i_fixed_codex/",
+      "created_at": "2026-10-03T21:37:08+00:00",
+      "author": "/u/mt-beefcake",
+      "excerpt": "With sol 6.1 down to under 20tps, codex is unusable. Other models nerfed. Dots is a gimmick. \n So just download claude code onto the vm that came with dots. Problem solved. Youre welcome everyone \n    submitted by    /u/mt-beefcake  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwyo7b",
+      "title": "How does 6.1 Sol feel compared to Astra?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwyo7b/how_does_61_sol_feel_compared_to_astra/",
+      "created_at": "2026-10-03T21:35:22+00:00",
+      "author": "/u/AdApprehensive5643",
+      "excerpt": "I tried 6.1 Sol when it came out and it worked but somehow for me atleast it felt worse than Astra.\n Last few days I only used Astra and would like to know other people perspective.\n Maybe I am just missing something.\n EDIT:\n Seems that is normal to be worse and expected. I though that all these performance benchmarks put it at Astra level so it should be like Astra just way cheaper. \n    submitted by    /u/AdApprehensive5643  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwy97z",
+      "title": "Bug: ChatGPT Dot-started local Codex tasks on Windows lose Computer Use / node_repl even with Full access",
+      "url": "https://www.reddit.com/r/codex/comments/1wwy97z/bug_chatgpt_dotstarted_local_codex_tasks_on/",
+      "created_at": "2026-10-03T21:16:48+00:00",
+      "author": "/u/BrennanFlentge",
+      "excerpt": "Posting this because this has never worked for me, and GitHub issue #49458 now has multiple Windows users reproducing the same problem.\n GitHub:\n https://github.com/openai/codex/issues/49458\n The bug is pretty straightforward:\n ChatGPT Dot can start a local Codex task on my connected Windows PC.\n That task can:\n - Run PowerShell\n - Read local files\n - Load the Computer Use skill\n What it does not get:\n - node_repl\n - cua_repl\n - Windows UI control\n - Chrome / Edge control\n - Screenshot, mouse, or keyboard control\n So Dot successfully delegates the task to my PC, and local execution works, but the tools required for Computer Use never show up.\n My setup:\n - Windows 11 25H2, build 26200.9168\n - Codex desktop package 26.930.2377.0\n - Computer Use plugin 26.930.21537\n - node_repl is configured",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwxxr5",
+      "title": "How unsafe is it to share your chrome saved passwords with Codex?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwxxr5/how_unsafe_is_it_to_share_your_chrome_saved/",
+      "created_at": "2026-10-03T21:02:43+00:00",
+      "author": "/u/sleafordbods",
+      "excerpt": "This seems really dangerous to give Codex / ChatGPT's agentic-browser access to my stored passwords in Chrome. We know so little about agents still - and it seems like you could accidentally really mess up your life if it had access to all of your accounts and the agent started to behave like a bad actor. (basically financial, personal, relationships, jobs, etc).\n I would love to know your perspective on whether this is as much of a security risk as it looks like. maybe i'm thinking about this wrong.\n    submitted by    /u/sleafordbods  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwxn38",
+      "title": "Does adding/removing 3rd (Premium) seat in Biz/Teams affect a BOGO promo?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwxn38/does_addingremoving_3rd_premium_seat_in_bizteams/",
+      "created_at": "2026-10-03T20:49:51+00:00",
+      "author": "/u/Infinite100p",
+      "excerpt": "If I have 2 non-premium Biz seats in CODEX with the old BOGO promo.\n If I add one premium seat for 1 month (so, 3rd seat total), and then remove it a month later -- does that affect the BOGO promo with OpenAI?\n Did anyone try it?\n Edit: Also, do you know if upgrading one of the two existing BOGO seats instead and then downgrading it back kills the promo?\n Thanks\n    submitted by    /u/Infinite100p  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwxewf",
+      "title": "How to Use Dots",
+      "url": "https://www.reddit.com/r/codex/comments/1wwxewf/how_to_use_dots/",
+      "created_at": "2026-10-03T20:39:44+00:00",
+      "author": "/u/BopSupreme",
+      "excerpt": "The biggest workflow change from using Dots is not needing to go back and forth between Chat and Codex. Dots in iOS or ChatGPT Desktop is all you need to communicate with to keep Codex, Work, and Chats going. Codex cloud means you don\u2019t need to leave your PC on 24/7 either. Cool stuff - I think their Dots presentation, the goofy shapes and the Call feature make it seem like it\u2019s for casual users when in reality it\u2019s most suitable to acting as the orchestration layer that\u2019s always on. Helps coordinate parallel and multiple workstreams, reducing the brain fatigue that comes with switching between multiple chats and tabs all the time\n    submitted by    /u/BopSupreme  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwx04q",
+      "title": "Is OpenAI cooked?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwx04q/is_openai_cooked/",
+      "created_at": "2026-10-03T20:21:55+00:00",
+      "author": "/u/Runelaron",
+      "excerpt": "OAI\n - Limits are all over the place\n - DOTS free until Nov?\n - 20x reduced to 10x\n - 500 tier offered as 25x\n Gemini\n - 99 a mo\n - YT plus included\n - YT music included \n - 20tb storage included \n - multiple user discounts\n - Gemini 4 beating Astra \n What do you all think?\n Haven't even gotten to Anthropic.\n    submitted by    /u/Runelaron  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwwudy",
+      "title": "standard is the new ultraslow?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwwudy/standard_is_the_new_ultraslow/",
+      "created_at": "2026-10-03T20:15:23+00:00",
+      "author": "/u/dagerika",
+      "excerpt": "source: https://openrouter.ai\n where is the speed Tibo promised us? Literally all 5.6 and 6 models are running ultraslow on standard API inference. Funny thing is that subscriptions seems to be served at an even slower pace. My external usage monitor shows that Sol is running at a miserable 26 tok/s as we speak. \ud83e\udd23\n Is this how OpenAI is pacing the frontier?\n    submitted by    /u/dagerika  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwvqvs",
+      "title": "Someone explain to me how to use Sub-agents like im five!",
+      "url": "https://www.reddit.com/r/codex/comments/1wwvqvs/someone_explain_to_me_how_to_use_subagents_like/",
+      "created_at": "2026-10-03T19:29:23+00:00",
+      "author": "/u/PresentationMany7589",
+      "excerpt": "So im playing around with Codex and trying to figure out the best way to use sub-agents. I've got 3 agents plus the orchestrator..\n and this thing chews threw my budget like its a starving child that just saw their first bite of food in 3 days...\n Seriously.. i dont know what else to do lol. It only works for like 5 minutes but in that five minutes its eating my entire 5 hr budget.\n at first i made the mistake of using Astra, and then it spawned all sub agents with Astra at the same thinking level.\n then i specifically made the orchestrator Astra-light, and told it to make the other agents 6.1 sol medium.\n that Still ate my entire budget.. \n Ok, i thought, still too much...\n So i used Astra-light, and 2 agents are on Luna - medium with one agent on 6.1 sol - high (the agent that does the m",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwvgad",
+      "title": "GPT-6 Astra requests in my Codex logs show GPT-6 Luna",
+      "url": "https://www.reddit.com/r/codex/comments/1wwvgad/gpt6_astra_requests_in_my_codex_logs_show_gpt6/",
+      "created_at": "2026-10-03T19:16:57+00:00",
+      "author": "/u/ApaaGames",
+      "excerpt": "Been digging through local Codex logs because Astra has been making a lot more mistakes lately. First guess was that some Astra requests were getting sent to 5.6. Doesn't look like that, at least not in what I kept.\n Affected chat and the production chat were both set to gpt-6-astra, reasoning xhigh. Sample from Oct 3, 18:43\u201320:30: 77 HTTP metadata entries on those Astra requests with\n x-codex-safety-buffering-enabled: true\n x-codex-safety-buffering-faster-model: gpt-6-luna\n So the faster model in the header is gpt-6-luna, not 5.6. \n OpenAI and Anthropic both do this kind of fallback on the top tier. Google and some API shops mostly just drop you off the fast tier without saying so. Usage still counts as Astra, but the number of mistakes looks like 5.6. Anthropic at least puts a notice up ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwvdcm",
+      "title": "Can you finish now im tired of waiting",
+      "url": "https://www.reddit.com/r/codex/comments/1wwvdcm/can_you_finish_now_im_tired_of_waiting/",
+      "created_at": "2026-10-03T19:13:33+00:00",
+      "author": "/u/Imaserventofreps",
+      "excerpt": "What\u2019s your experience with other models? Luna seems kinda slow\n    submitted by    /u/Imaserventofreps  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwuv64",
+      "title": "I turned a $5 clock into a tiny Codex dashboard",
+      "url": "https://www.reddit.com/r/codex/comments/1wwuv64/i_turned_a_5_clock_into_a_tiny_codex_dashboard/",
+      "created_at": "2026-10-03T18:52:53+00:00",
+      "author": "/u/Senior_Wear4670",
+      "excerpt": "Put my Codex and Claude limits on a ~$5 AliExpress clock. Turned out pretty cute.\n Stock firmware, with a computer running the updates.\n Code if you're curious: https://github.com/click6067-ship-it/token-tv\n    submitted by    /u/Senior_Wear4670  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwunz9",
+      "title": "6.1 Sol is the first model I've seen that can play games at a reasonable cost",
+      "url": "https://www.reddit.com/r/codex/comments/1wwunz9/61_sol_is_the_first_model_ive_seen_that_can_play/",
+      "created_at": "2026-10-03T18:44:23+00:00",
+      "author": "/u/innociv",
+      "excerpt": "Fable and Astra were able to play games well, but they'd use like $250-$500 (10%-20%) of your weekly usage per hour.\n 6 Luna and a ton of other models aren't good enough (though maybe with Jev they could do it).\n 6.1 Sol is the first model which does it while using less than 1% of a $200 plan's usage per hour. It actually seems to use under 0.25% per hour and could be optimized further with Jev and such.\n    submitted by    /u/innociv  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwujrm",
+      "title": "How Codex usage limits feel these days",
+      "url": "https://www.reddit.com/r/codex/comments/1wwujrm/how_codex_usage_limits_feel_these_days/",
+      "created_at": "2026-10-03T18:39:29+00:00",
+      "author": "/u/FalconsArentReal",
+      "excerpt": "submitted by    /u/FalconsArentReal  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwttoe",
+      "title": "Dot optimization guide",
+      "url": "https://www.reddit.com/r/codex/comments/1wwttoe/dot_optimization_guide/",
+      "created_at": "2026-10-03T18:09:18+00:00",
+      "author": "/u/EmergencyMarzipan575",
+      "excerpt": "Hi all, with dot out I wanted to share my orchestration framework and how im utilizing dot in case it is helpful to anyone.\n I see a lot of people using dot as an orchestrator or a personal assistant. I personally think thats a waste of dots capacity. For the next month (and maybe beyond?) we have unlimited astra usage from dot. So what I have been doing is using my existing orchestration (which I prefer bc it works well, and gives me the flexibility to switch between claude/codex models instead of tying me to an ecosystem). And I have been using dot as a 24/7 workhorse, keeping it queued up with large swaths of work to keep the astra model workign for me non stop on backlog items, infrastructure improvements, and new projects.\n This is my orchestration framework which I recently open sour",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwtdxr",
+      "title": "There has been a degraded performance",
+      "url": "https://www.reddit.com/r/codex/comments/1wwtdxr/there_has_been_a_degraded_performance/",
+      "created_at": "2026-10-03T17:51:24+00:00",
+      "author": "/u/ThenLayer5977",
+      "excerpt": "Folks, yesterday we got a reset, and I\u2019m on the $200 plan with 20X usage until the end of the month. I\u2019m already out of uses from using GPT Astra.\n I\u2019ve used Astra before without the $500 plan, and the usage used to be stable. It would normally get me around two to three days, but now the usage is going down so fast that it feels like something is broken. I can\u2019t be the only one who has noticed this. I\u2019m already at 7%, and the reset was just yesterday.\n Again, I don\u2019t want to sit here and sound like some grand conspiracy theorist, but I genuinely don\u2019t see how I could have drained my usage this quickly. And apparently, I\u2019m not the only one seeing this, because I thought I was going crazy at first.\n I would have never been able to burn through a 20X plan in one day before, but all of a sudd",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwta56",
+      "title": "Are $200 Pro users also seeing Codex become insanely slow?",
+      "url": "https://www.reddit.com/r/codex/comments/1wwta56/are_200_pro_users_also_seeing_codex_become/",
+      "created_at": "2026-10-03T17:47:01+00:00",
+      "author": "/u/Duchevedos",
+      "excerpt": "I'm on the $200 Pro plan and I'm genuinely confused by what happened to Codex\n Tasks that used to take around an hour now regularly take many hours, sometimes basically the entire day\n Individual turns can sit \"thinking\" for 15-20 minutes. Sometimes the model goes silent long enough that I can't tell whether it's still working or just stuck.\n Same repos. Same type of work. Same general workflow\n I'm not expecting instant results, but the feedback loop has become so slow that I can't realistically work with it anymore\n Has anyone else seen the same thing recently?\n Did anything actually help? Fast mode, lower reasoning, smaller tasks, fresh threads, CLI instead of desktop, different models?\n I'm at the point where I'm considering canceling the $200 subscription. Codex used to save me time. ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1wwstjn",
+      "title": "About Token Usage",
+      "url": "https://www.reddit.com/r/codex/comments/1wwstjn/about_token_usage/",
+      "created_at": "2026-10-03T17:28:00+00:00",
+      "author": "/u/Substantial-Tea-6533",
+      "excerpt": "Quick question regarding the usage metric displayed on my profile: does this 1.5B figure include cached tokens? Also, is there any way to estimate the breakdown of input, output, and cached read tokens within this total?\n    submitted by    /u/Substantial-Tea-6533  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
