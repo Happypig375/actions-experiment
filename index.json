@@ -1,0 +1,70 @@
+{
+  "schema_version": 3,
+  "purpose": "Public information feed watchdog telemetry",
+  "checked_at": "2026-10-04T00:03:42.105796Z",
+  "fresh_for_seconds": 2700,
+  "repository": "Happypig375/actions-experiment",
+  "default_branch": "master",
+  "trigger": {
+    "event_name": "schedule",
+    "ref": "refs/heads/master",
+    "sha": "5f8840c8928460c5b0dc52615995b13d04b700a6",
+    "actor": "Happypig375",
+    "run_id": "37163736487",
+    "run_attempt": "1",
+    "run_url": "https://github.com/Happypig375/actions-experiment/actions/runs/37163736487"
+  },
+  "heartbeat": null,
+  "dry_run": false,
+  "dispatch_count": 1,
+  "failure_count": 0,
+  "all_fresh": false,
+  "local_producers_not_monitored": [
+    "important-update-github-feed.yml",
+    "important-update-reddit-media-feed.yml",
+    "important-update-tibo-feed.yml"
+  ],
+  "producers": [
+    {
+      "producer": "GitHub feed",
+      "workflow": "important-update-github-feed.yml",
+      "branch": "chatgpt-important-update-feed",
+      "action": "external-local",
+      "freshness": "not-monitored-here"
+    },
+    {
+      "producer": "Public feed",
+      "workflow": "important-update-public-feed.yml",
+      "branch": "chatgpt-important-update-public-feed",
+      "published_at": "2026-10-03T22:27:35.798598Z",
+      "age_seconds": 5766,
+      "max_age_seconds": 4500,
+      "stale": true,
+      "action": "dispatched"
+    },
+    {
+      "producer": "Tibo feed",
+      "workflow": "important-update-tibo-feed.yml",
+      "branch": "chatgpt-important-update-tibo-feed",
+      "action": "external-local",
+      "freshness": "not-monitored-here"
+    },
+    {
+      "producer": "Reddit media feed",
+      "workflow": "important-update-reddit-media-feed.yml",
+      "branch": "chatgpt-important-update-reddit-media-feed",
+      "action": "external-local",
+      "freshness": "not-monitored-here"
+    },
+    {
+      "producer": "Outage recovery feed",
+      "workflow": "important-update-outage-recovery.yml",
+      "branch": "chatgpt-important-update-backlog-feed",
+      "published_at": "2026-10-03T23:41:41.682823Z",
+      "age_seconds": 1320,
+      "max_age_seconds": 4500,
+      "stale": false,
+      "action": "fresh"
+    }
+  ]
+}
