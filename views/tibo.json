@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T01:35:47.376964Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "recovery_since": "2026-10-10T22:54:15.084263Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "timestamp": "2026-10-11T01:13:54Z",
+      "text": "The day we reach perfection it will be resets from there onwards\n\nDay 6/ Reset",
+      "url": "https://x.com/thsottiaux/status/2109090080497508356",
+      "source_handle": "@thsottiaux"
+    }
+  ],
+  "errors": []
+}
