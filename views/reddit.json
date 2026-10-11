@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T01:35:47.376964Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-10T22:54:15.084263Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2v0gn",
+      "timestamp": "2026-10-11T01:01:48Z",
+      "title": "Nova?? (also, interesting numerical patterns in the card number)",
+      "author": "/u/changing_who_i_am",
+      "url": "https://www.reddit.com/r/codex/comments/1x2v0gn/nova_also_interesting_numerical_patterns_in_the/",
+      "excerpt": "submitted by    /u/changing_who_i_am  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/3n2gbfcolquh1.png?width=320&crop=smart&auto=webp&s=b568a80fc4ead177b3f38af3d838ef73f2fece79",
+        "https://i.redd.it/3n2gbfcolquh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2ugw5",
+      "timestamp": "2026-10-11T00:33:46Z",
+      "title": "Didn\u2019t realize Codex is auto-anticipating my next request.",
+      "author": "/u/maraluke",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ugw5/didnt_realize_codex_is_autoanticipating_my_next/",
+      "excerpt": "I never noticed it before, I guess it\u2019s not that hard, still amaze me to see it to be exactly what I want to say. How soon does it not need me in the process anymore lol\n    submitted by    /u/maraluke  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/uqh6j6w0hquh1.jpeg?width=640&crop=smart&auto=webp&s=24964bcfce8e952ebb8d89cd1137df430078a24f",
+        "https://i.redd.it/uqh6j6w0hquh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2ua47",
+      "timestamp": "2026-10-11T00:24:19Z",
+      "title": "Sol 6.1 light for scraping data online",
+      "author": "/u/avidrunner84",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ua47/sol_61_light_for_scraping_data_online/",
+      "excerpt": "I\u2019m looking for official high resolution images giving credit back to the author. They are being stored on Cloudflare R2 and stored in a Postgres CMS.\n Sol 6.1 is very impressive for the token usage but I can tell it\u2019s going to take a few months for all of the images I want. Overall it\u2019s maybe a few GB per day in images, not much, but I guess the work is in sourcing them and plugging them in.\n Any suggestions to help speed this up and make it more cost effective? I\u2019m currently on Pro 100 and expect there to be approximately 1M images to scrape, anywhere from 50 to a few hundred from each source at a time.\n    submitted by    /u/avidrunner84  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2u5rm",
+      "timestamp": "2026-10-11T00:18:15Z",
+      "title": "nice memory leak",
+      "author": "/u/PurrPilot",
+      "url": "https://www.reddit.com/r/codex/comments/1x2u5rm/nice_memory_leak/",
+      "excerpt": "submitted by    /u/PurrPilot  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/9lxcp9bndquh1.png?width=640&crop=smart&auto=webp&s=fde5776856b89cafb97ec5af729731008b5bf49d",
+        "https://i.redd.it/9lxcp9bndquh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2ttap",
+      "timestamp": "2026-10-11T00:01:02Z",
+      "title": "Local web UI for Codex CLI sessions: timeline, tokens and cost per turn",
+      "author": "/u/kishanmundha",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ttap/local_web_ui_for_codex_cli_sessions_timeline/",
+      "excerpt": "Codex writes rollout files to ~/.codex/sessions, and I wanted to see what a session did and what it cost without reading JSONL. So I built a viewer:\n npx agent-session-inspector  It shows each session as a timeline (prompts, reasoning, tool calls, patches applied), with tokens and estimated cost per step, a per-turn list of the files the agent edited, and analytics across all sessions by project and model.\n It is local only: no telemetry, no outbound requests, files are read-only. MIT licensed. It also reads Claude Code, Copilot and OpenCode sessions, so you can compare agents in one place.\n Repo: https://github.com/kishanmundha/agent-session-inspector\n If a session renders wrong, please open an issue; the format has changed a few times.\n    submitted by    /u/kishanmundha  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/6iwitre3bquh1.png?width=640&crop=smart&auto=webp&s=b8790036a0976d0e592125504d85ea416e6bd2cb",
+        "https://i.redd.it/6iwitre3bquh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2swhw",
+      "timestamp": "2026-10-10T23:16:40Z",
+      "title": "Too many tabs, so I made One App with 6.1 Sol",
+      "author": "/u/Miyamoto_-_Musashi",
+      "url": "https://www.reddit.com/r/codex/comments/1x2swhw/too_many_tabs_so_i_made_one_app_with_61_sol/",
+      "excerpt": "I hate having so many tabs always open in Chrome. About 80% are the same things: YouTube, YouTube Music, X, Reddit, WhatsApp, and GitHub. The other 20% are whatever else I\u2019m doing.\n I thought, why not make a whole app for the ones I use most? So I made One App. It keeps them in one window, with a circular menu to switch between them.\n Made it for myself and thought I\u2019d share. What do you think?\n With 6.1 Sol High.\n    submitted by    /u/Miyamoto_-_Musashi  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/azAxajVwODgzcXVoMVDhyBup77ofcQrEArtKwnuPjq7biatyYuYbTDeJ_ZMF.png?width=640&crop=smart&auto=webp&s=3beb0c6a2f96596a6e4690315c4994766d2b8da9"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x2skt2",
+      "timestamp": "2026-10-10T23:00:46Z",
+      "title": "Keeping project decisions and failed approaches in a small wiki for Codex",
+      "author": "/u/tjqscott",
+      "url": "https://www.reddit.com/r/codex/comments/1x2skt2/keeping_project_decisions_and_failed_approaches/",
+      "excerpt": "I've been keeping project decisions and failed approaches in a little wiki while working with Claude Code. Dory includes instructions for using that setup with Codex through AGENTS.md, so both can work from the same notes in the repo.\n The code tells the next session what we've built, but it doesn't explain why we changed our minds. Earlier versions leaned on a running log, which got longer and went stale. I've ended up updating the relevant page and keeping a line about why it changed, with git holding the older text. One example was an instruction asking a chat model to report token usage it couldn't see. I removed it and kept the reason so a later session can see why we dropped it.\n For Codex, the notes live under wiki/index.md, with pages for decisions, things tried and current tasks. A minimal instruction to add alongside your existing project instructions would be:\n  Start at wiki/index.md and read the pages relevant to the task. Check recorded claims against the current files. Before repeating an experiment, read wiki/tried.md. When a decision changes, update its page and keep a line explaining why.\n  I've put the setup in Dory, which is free and MIT licensed. The screenshot",
+      "media_urls": [
+        "https://preview.redd.it/5w8ms7md0quh1.jpeg?width=640&crop=smart&auto=webp&s=222785ee7d9bb296d46f0e2de1e907df913af30a",
+        "https://i.redd.it/5w8ms7md0quh1.jpeg"
+      ]
+    }
+  ],
+  "errors": []
+}
