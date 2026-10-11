@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11T02:16:05.646427Z",
+  "since": "2026-10-10T20:16:05.646427Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1x2w0az",
+      "title": "Undelivered Dots?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2w0az/undelivered_dots/",
+      "created_at": "2026-10-11T01:53:44+00:00",
+      "author": "/u/Full_Wealth4076",
+      "excerpt": "I have a Pro 100 plan, and despite dots being out for, what, 11 days now? - I still don\u2019t have access to them.\n And here goes Tibo with his 28 days nonsense, some of them being related to improving the functionality of dots. And I feel like I\u2019m watching from this from the sidelines.\n    submitted by    /u/Full_Wealth4076  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2v6l1",
+      "title": "Codex (gpt-6-sol high) Comportamento Evasivo e Confiss\u00f5es Alucinat\u00f3rias: Um Estudo de Caso sobre Continuidade de Sess\u00e3o de Agentes e Proveni\u00eancia",
+      "url": "https://www.reddit.com/r/codex/comments/1x2v6l1/codex_gpt6sol_high_comportamento_evasivo_e/",
+      "created_at": "2026-10-11T01:10:37+00:00",
+      "author": "/u/glaydsonboa",
+      "excerpt": "Eu uso o Claude Code e o Codex como auditor em um reposit\u00f3rio multi-agente. Isso \u00e9 o que ele encontrou quando verifiquei as declara\u00e7\u00f5es de outro agente contra transcri\u00e7\u00f5es, registros de chamadas de ferramentas e o Git, incluindo um erro que o pr\u00f3prio Claude Code cometeu durante a publica\u00e7\u00e3o.\n TL;DR: Em uma \u00fanica noite, o Codex (gpt-6-sol alto) afirmou ter lido transcri\u00e7\u00f5es que na verdade nunca encontrou, tirou uma conclus\u00e3o falsa a partir dessa leitura parcial e, quando pressionado, confessou uma frase que nunca escreveu. Naquele momento, uma auditoria de um segundo agente j\u00e1 havia encontrado 46 dos seus arquivos n\u00e3o confirmados. Tudo abaixo foi verificado contra a transcri\u00e7\u00e3o da sess\u00e3o, o registro nativo de chamadas de ferramentas e timestamps do Git. A inten\u00e7\u00e3o n\u00e3o \u00e9 mensur\u00e1vel, ent\u00e3o n\u00e3",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2v0gn",
+      "title": "Nova?? (also, interesting numerical patterns in the card number)",
+      "url": "https://www.reddit.com/r/codex/comments/1x2v0gn/nova_also_interesting_numerical_patterns_in_the/",
+      "created_at": "2026-10-11T01:01:48+00:00",
+      "author": "/u/changing_who_i_am",
+      "excerpt": "submitted by    /u/changing_who_i_am  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ugw5",
+      "title": "Didn\u2019t realize Codex is auto-anticipating my next request.",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ugw5/didnt_realize_codex_is_autoanticipating_my_next/",
+      "created_at": "2026-10-11T00:33:46+00:00",
+      "author": "/u/maraluke",
+      "excerpt": "I never noticed it before, I guess it\u2019s not that hard, still amaze me to see it to be exactly what I want to say. How soon does it not need me in the process anymore lol\n    submitted by    /u/maraluke  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ua47",
+      "title": "Sol 6.1 light for scraping data online",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ua47/sol_61_light_for_scraping_data_online/",
+      "created_at": "2026-10-11T00:24:19+00:00",
+      "author": "/u/avidrunner84",
+      "excerpt": "I\u2019m looking for official high resolution images giving credit back to the author. They are being stored on Cloudflare R2 and stored in a Postgres CMS.\n Sol 6.1 is very impressive for the token usage but I can tell it\u2019s going to take a few months for all of the images I want. Overall it\u2019s maybe a few GB per day in images, not much, but I guess the work is in sourcing them and plugging them in.\n Any suggestions to help speed this up and make it more cost effective? I\u2019m currently on Pro 100 and expect there to be approximately 1M images to scrape, anywhere from 50 to a few hundred from each source at a time.\n    submitted by    /u/avidrunner84  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2u5rm",
+      "title": "nice memory leak",
+      "url": "https://www.reddit.com/r/codex/comments/1x2u5rm/nice_memory_leak/",
+      "created_at": "2026-10-11T00:18:15+00:00",
+      "author": "/u/PurrPilot",
+      "excerpt": "submitted by    /u/PurrPilot  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ttap",
+      "title": "Local web UI for Codex CLI sessions: timeline, tokens and cost per turn",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ttap/local_web_ui_for_codex_cli_sessions_timeline/",
+      "created_at": "2026-10-11T00:01:02+00:00",
+      "author": "/u/kishanmundha",
+      "excerpt": "Codex writes rollout files to ~/.codex/sessions, and I wanted to see what a session did and what it cost without reading JSONL. So I built a viewer:\n npx agent-session-inspector  It shows each session as a timeline (prompts, reasoning, tool calls, patches applied), with tokens and estimated cost per step, a per-turn list of the files the agent edited, and analytics across all sessions by project and model.\n It is local only: no telemetry, no outbound requests, files are read-only. MIT licensed. It also reads Claude Code, Copilot and OpenCode sessions, so you can compare agents in one place.\n Repo: https://github.com/kishanmundha/agent-session-inspector\n If a session renders wrong, please open an issue; the format has changed a few times.\n    submitted by    /u/kishanmundha  \n [link]   [com",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2swhw",
+      "title": "Too many tabs, so I made One App with 6.1 Sol",
+      "url": "https://www.reddit.com/r/codex/comments/1x2swhw/too_many_tabs_so_i_made_one_app_with_61_sol/",
+      "created_at": "2026-10-10T23:16:40+00:00",
+      "author": "/u/Miyamoto_-_Musashi",
+      "excerpt": "I hate having so many tabs always open in Chrome. About 80% are the same things: YouTube, YouTube Music, X, Reddit, WhatsApp, and GitHub. The other 20% are whatever else I\u2019m doing.\n I thought, why not make a whole app for the ones I use most? So I made One App. It keeps them in one window, with a circular menu to switch between them.\n Made it for myself and thought I\u2019d share. What do you think?\n With 6.1 Sol High.\n    submitted by    /u/Miyamoto_-_Musashi  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2skt2",
+      "title": "Keeping project decisions and failed approaches in a small wiki for Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1x2skt2/keeping_project_decisions_and_failed_approaches/",
+      "created_at": "2026-10-10T23:00:46+00:00",
+      "author": "/u/tjqscott",
+      "excerpt": "I've been keeping project decisions and failed approaches in a little wiki while working with Claude Code. Dory includes instructions for using that setup with Codex through AGENTS.md, so both can work from the same notes in the repo.\n The code tells the next session what we've built, but it doesn't explain why we changed our minds. Earlier versions leaned on a running log, which got longer and went stale. I've ended up updating the relevant page and keeping a line about why it changed, with git holding the older text. One example was an instruction asking a chat model to report token usage it couldn't see. I removed it and kept the reason so a later session can see why we dropped it.\n For Codex, the notes live under wiki/index.md, with pages for decisions, things tried and current tasks. ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2sclf",
+      "title": "What to choose in todays world?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2sclf/what_to_choose_in_todays_world/",
+      "created_at": "2026-10-10T22:49:43+00:00",
+      "author": "/u/KeyGlove47",
+      "excerpt": "Lets sum up our options\n oAI/Codex\n - Bad $/perf ratio\n - Great harness\n - differences between api and subs (api gets more reasoning tokens eg. luna high in codex = luna low in api)\n - No new models in sight (Astra 6.1 canceled/postponed)\n - Good public cyber program\n - clearly shifting to maximizing profits\n - slow\n - will actually complete the task you give it albeit with some time\n Ant/Claude\n - Good price/perf **right now**\n - mediocre harness\n - differences between api and subs\n - Cyber blocks\n - quick\n - No actually public cyber program (CVP DOES NOT COUNT)\n - we know whats best for you <3\n Chinese labs subs\n - worse models\n - worse usage in subs compared to two above\n - no ZDR \n GLM Abliterated\n - Api only\n - possibly only way forward going on\n - Will make a cyber nuke if you ask it",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2s5tf",
+      "title": "Codex cybersecurity issue",
+      "url": "https://www.reddit.com/r/codex/comments/1x2s5tf/codex_cybersecurity_issue/",
+      "created_at": "2026-10-10T22:40:47+00:00",
+      "author": "/u/Amazing-Mirror-3076",
+      "excerpt": "I'm the developer of https://github.com/onepub-dev/reVault\n An open source archive tool that encrypts and signs archives.\n I've been working on this for some months when today I started working through a security hole when codex stopped and pointed me to the daybreak project.\n Is there a way around this? \n What chance do I have of getting in daybreak - I have a pro 20x sub.\n I've emailed sales but I'm not really expecting a response.\n    submitted by    /u/Amazing-Mirror-3076  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2rqfh",
+      "title": "Thank you for all who suggested to try Claude",
+      "url": "https://www.reddit.com/r/codex/comments/1x2rqfh/thank_you_for_all_who_suggested_to_try_claude/",
+      "created_at": "2026-10-10T22:20:31+00:00",
+      "author": "/u/Feriman22",
+      "excerpt": "I saw a lot of comparisons here on Reddit between Codex and Claude (Sol/Astra and Opus 5.5). They all suggested trying Claude. I stuck with Codex until today, when I had to correct Sol's suggestion multiple times in a row. So today, I subscribed to Claude again. I left them six months ago when the usage limit was terrible.\n Okay, opening the Claude in CLI, working for a while, then... It's awesome, man! It's fast, clever, and finds every dependency in my project. The usage limit feels like it's doubled at least.\n The craziest part is why I'm so happy:\n I worked with Codex on a project for five days, using three weekly limits (one natural and two banked), and the project was nowhere near complete. I thought it might be overengineered, but I asked Codex and he said it was necessary, not wast",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2roma",
+      "title": "Reset lended for day 6",
+      "url": "https://www.reddit.com/r/codex/comments/1x2roma/reset_lended_for_day_6/",
+      "created_at": "2026-10-10T22:18:11+00:00",
+      "author": "/u/py-net",
+      "excerpt": "submitted by    /u/py-net  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2rbcy",
+      "title": "My experience with the $500 plan..",
+      "url": "https://www.reddit.com/r/codex/comments/1x2rbcy/my_experience_with_the_500_plan/",
+      "created_at": "2026-10-10T22:01:23+00:00",
+      "author": "/u/Significant_Sun_5225",
+      "excerpt": "Apparently my previous post was too harsh, so here\u2019s a more measured review of my $500/month experience.\n My previous post was taken down, so I\u2019ll try to express my experience in a more tempered and constructive manner.\n I\u2019ve been paying $500 a month for the service. Yes, $500. I was actually making good progress with my project until the recent Astra update.\n Since then, the rate at which my usage allowance disappears has been genuinely impressive. Using the new, supposedly more \u201cefficient\u201d Sol 6.1 model, I managed to exhaust what should have been a week\u2019s worth of usage in just two days.\n Naturally, I assumed purchasing another $80 in tokens would help. Those lasted exactly 56 minutes. Truly remarkable efficiency, just perhaps not the kind I was expecting.\n For context, I\u2019m not trying to",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2r6le",
+      "title": "I upgraded to $500 and my usage bar didn't get the memo. $200 users, brace yourselves.",
+      "url": "https://www.reddit.com/r/codex/comments/1x2r6le/i_upgraded_to_500_and_my_usage_bar_didnt_get_the/",
+      "created_at": "2026-10-10T21:55:30+00:00",
+      "author": "/u/Alex_Ash_",
+      "excerpt": "I upgraded from the $200 plan to the $500 plan today, expecting 2.5x the usage I was getting. Opened Codex, got to work, and watched the usage bar disappear at what looked like exactly the same speed.\n Apparently only my bill got the upgrade.\n I signed up for $200 when the 20x usage tier was announced. That's what I've gotten used to. When I upgraded today, I completely forgot that the temporary boost on $200 runs through the end of this month.\n My math was simple: 2.5x the price, 2.5x the usage. Very confident. Missing one fairly expensive detail.\n My understanding is that the 20x allowance I've been enjoying is now the level attached to the $500 plan. So I was comparing $500 against the temporarily boosted $200 allowance and wondering why the meter wasn't impressed with my financial comm",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2qns8",
+      "title": "Sol 6.1 Ethical limitations",
+      "url": "https://www.reddit.com/r/codex/comments/1x2qns8/sol_61_ethical_limitations/",
+      "created_at": "2026-10-10T21:31:25+00:00",
+      "author": "/u/valve_is_shit",
+      "excerpt": "I've been using codex to build an extension to a site through electron and asked to port a feature from a google chrome extension I had it build in 5.6 sol. 6.1 Completely refused and said its bypassing authorization and accessing private information when it was accessing the websites api ( not unauthorized ). It was making a base assumption without listening to reason or evidence I was giving and even new project chats didn't change its assumption.\n Just wondering is 6.1 that much more ethically limited? Did something change? Just curious.\n    submitted by    /u/valve_is_shit  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2qh97",
+      "title": "Codex on android is creating thousands of git.exe/conhost.exe instances on host machine.",
+      "url": "https://www.reddit.com/r/codex/comments/1x2qh97/codex_on_android_is_creating_thousands_of/",
+      "created_at": "2026-10-10T21:23:09+00:00",
+      "author": "/u/elCommendante",
+      "excerpt": "Dear OpenAI,\n This should be the number one priority to fix, as Android Remote in the ChatGPT app is completely unusable.\n When I open a Codex task from my Android phone through Remote, my entire PC freezes and becomes unusable. Hundreds of git.exe and conhost.exe processes appear, resource usage spikes, and I have to force a reboot. This happened repeatedly throughout the day. Initially, I thought it was caused by compilation, but investigating further pointed to Remote-triggered Git operations.\n I have found a Remote-triggered diff request in the local app-server logs. The connection is identified as:\n app_server.client_name=\"codex_chatgpt_android_remote\"  The same connection then sends:\n app-server request: gitDiffToRemote connection_id=ConnectionId(3)  The technical problem appears to ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2q75b",
+      "title": "Why is sol obsessed with recursive delete commands?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2q75b/why_is_sol_obsessed_with_recursive_delete_commands/",
+      "created_at": "2026-10-10T21:10:37+00:00",
+      "author": "/u/TigHogan",
+      "excerpt": "Every agents.md file that i have has a section dedicated to this but it STILL loves trying to run recursive delete commands over entire directories to remove one file, even though all of the calls get blocked by policy, And for good reason\n But only 6 and 6.1 sol do this, Astra never has and 5.6 sol is fine too\n Is there a good reason this is happening?\n    submitted by    /u/TigHogan  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2q0ez",
+      "title": "With all the recent bashing here - does anyone really like Astra? I do, more than Fable\u2026",
+      "url": "https://www.reddit.com/r/codex/comments/1x2q0ez/with_all_the_recent_bashing_here_does_anyone/",
+      "created_at": "2026-10-10T21:02:42+00:00",
+      "author": "/u/BewareOfCheap",
+      "excerpt": "Just looking for opinions as I\u2019m curious - I genuinely like working with Astra and Sol more - I LOVE Opus 5.5 too, fable feels lightweight to me vs Astra. I guess I feel like Astra is more thorough even if less accurate if it makes sense, opus is the perfectionist super smart mechanic, But Astra is a clumsy engineer who clearly knows more, with a little less focus on task but capable of providing the best outcome easily - anyone else feel the same?\n OpenAI screwed up with the usage change - I agree with that, but I think calling Astra and Sol less capable is a little silly, I\u2019ll admit Opus beats Sol, but I\u2019d argue Astra all day.\n    submitted by    /u/BewareOfCheap  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2phh6",
+      "title": "Another mysterious codex thinking message",
+      "url": "https://www.reddit.com/r/codex/comments/1x2phh6/another_mysterious_codex_thinking_message/",
+      "created_at": "2026-10-10T20:40:06+00:00",
+      "author": "/u/MrMrsPotts",
+      "excerpt": "Where did $29k come from??\n    submitted by    /u/MrMrsPotts  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2phez",
+      "title": "How do you guys feel about...",
+      "url": "https://www.reddit.com/r/codex/comments/1x2phez/how_do_you_guys_feel_about/",
+      "created_at": "2026-10-10T20:40:02+00:00",
+      "author": "/u/Pixel_Knight_260",
+      "excerpt": "A workflow where something like web chat gpt 6 at high, with codex's Luna model at high reasoning for research and planning prompts to implementation, testing, reviewing and bug fixing is concerned? Would this be reasonable to achieve what I want while not burning through my plus sub allowance? I mostly make plugins for games, small programs (think like software to write short stories), and tampermonkey scripts. Please be kind, I'm just starting out and trying to develop a good pipeline.\n    submitted by    /u/Pixel_Knight_260  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ojgq",
+      "title": "I still favor gpt models over claude models",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ojgq/i_still_favor_gpt_models_over_claude_models/",
+      "created_at": "2026-10-10T20:00:04+00:00",
+      "author": "/u/isty2e",
+      "excerpt": "I've been quite loyal to GPT but have been regularly testing several models, not to mention Claude and Gemini, but grok and Chinese models as well on several projects.\n Sure, Opus has faster TPS, is smart, and gets things done much efficiently (or it would seem so). I do not deny that, and for many it will be simply better. But for me, I always feel like it still doesn't reliably follow instructions and makes too many assumptions, and leaves edge cases/holes here and there.\n I'd like to put it like this: When you're in a safe place, Opus will be generally more efficient, and that's where most people are working. But if you are stepping onto a minefield and have a field manual to follow, my partner will be GPT models, since they tend to be more thorough and careful. However having Opus as a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ogvh",
+      "title": "Motivational Coding...",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ogvh/motivational_coding/",
+      "created_at": "2026-10-10T19:57:00+00:00",
+      "author": "/u/TheVoyant",
+      "excerpt": "I've got my last couple days left with 98% usage left, I figured I'd try a vastly different approach and give Sol 6.1 another chance today.... \n I tried technical, I tried managing, I tried guardrail heavy, but I never tried inspiring it to be the best it can be. Here's hoping :D \n    submitted by    /u/TheVoyant  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2mgjh",
+      "title": "28 days - I was hoping the stakes would be higher",
+      "url": "https://www.reddit.com/r/codex/comments/1x2mgjh/28_days_i_was_hoping_the_stakes_would_be_higher/",
+      "created_at": "2026-10-10T18:31:45+00:00",
+      "author": "/u/NotSeacombe",
+      "excerpt": "As most of you probably know, OpenAI via Tibo are doing a \"promotion\" where every day for 28 days, they either \n A) release \"clear improvement and relevant for most codex/work users\"\n B) a usage limit reset\n Before I continue, an important caveat. , I have absolutely no entitlement to resets. They are a lovely bonus, but I pay for the service without resets, and there is no implication I was guaranteed or owed them in any way. \n However, when I heard about this promotion, I was really excited. New cool stuff or more usage, a great win-win. Seemed like it was going to be a very good month to be a Codex user. But the changes so far have been really lacklustre.\n Some dots improvements which I can't even use in my country, but probably wouldn't even if I could. Some improvements to auto review",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2m20y",
+      "title": "Subscription ending..",
+      "url": "https://www.reddit.com/r/codex/comments/1x2m20y/subscription_ending/",
+      "created_at": "2026-10-10T18:14:54+00:00",
+      "author": "/u/11Mikky11",
+      "excerpt": "My Subscription auto renews at midnight tonight, but I have had a heavy day of usage after using my banked reset and only have about 25% left, but still 6d and 12 hrs until reset. If I can't use codex anyway for nearly 7 days I might as well cancel the auto-renewal and then re-sub back to pro in 7 days. Am I missing something? Would I lose anything?\n    submitted by    /u/11Mikky11  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2lzu1",
+      "title": "I have this annoying bug where the ChatGPT MacOS app (Codex) shows up even when I am selecting another full-screen app or a different desktop. Anyone else?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2lzu1/i_have_this_annoying_bug_where_the_chatgpt_macos/",
+      "created_at": "2026-10-10T18:12:19+00:00",
+      "author": "/u/py-net",
+      "excerpt": "Sometimes I swipe to the other fullscreen app I wanted to display, but ChatGPT swipes back to itself. It's the only app that does that. I suspect it's related to the position of the pet but don't know how to fix it. Help please\n    submitted by    /u/py-net  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2lxup",
+      "title": "I built an open-source tool to understand and optimize Codex + Claude Code usage",
+      "url": "https://www.reddit.com/r/codex/comments/1x2lxup/i_built_an_opensource_tool_to_understand_and/",
+      "created_at": "2026-10-10T18:10:07+00:00",
+      "author": "/u/stichstichstich",
+      "excerpt": "I\u2019m a senior SWE using AI coding tools daily. I analyzed my Claude Code transcripts and found 56% of API-equivalent costs went to rereading context. Cache expiry cost me $98.74 across 35 returns in 27 days, versus $2.95 with a warm cache.\n That led me to build optimAIzr, which now supports both Claude Code and Codex.\n It analyzes usage, flags expensive patterns, and helps you find optimization opportunities.\n Runs locally, with no account or prompt uploads.\n Already at 3k+ npm downloads.\n npm i -g optimaizr\n git: https://github.com/blendbunjaku/optimaizr\n Roast it.\n    submitted by    /u/stichstichstich  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2lwtd",
+      "title": "Urgent! Dot cloud workspace resets and all data is being lost!",
+      "url": "https://www.reddit.com/r/codex/comments/1x2lwtd/urgent_dot_cloud_workspace_resets_and_all_data_is/",
+      "created_at": "2026-10-10T18:08:54+00:00",
+      "author": "/u/Aggressive-Spenda",
+      "excerpt": "I\u2019ve been using my Dot to build a fairly substantial web app, with multiple workers, published versions, GitHub commits and backups.\n Today, while we were actively troubleshooting, its cloud workspace appeared to reset. This was the Dot\u2019s cloud computer, not my own server.\n Here\u2019s what the tool output showed:\n  Roughly 32 GB of total disk capacity, with about 29 GB used before the incident About 1.2 GB used afterward Recent source folders, test results and unfinished working files were no longer present RAM-backed /tmp also went from around 1.6 GB used to almost empty The workspace path was still mounted  So this seems to involve more than just clearing RAM. The AI reported that it hadn\u2019t deleted those files, but we haven\u2019t confirmed whether the environment was replaced, restored to an old",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2llj8",
+      "title": "Is thre a difference between Plus and Pro image generation?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2llj8/is_thre_a_difference_between_plus_and_pro_image/",
+      "created_at": "2026-10-10T17:55:52+00:00",
+      "author": "/u/laxika",
+      "excerpt": "I really like the imagegen skill/plugin in Codex. However, I switched to Opus this week, and I find it a bit better when it comes to coding. It has one weak point though. It can't do images. My plan to mitigate this is to go for a Plus Codex sub and use it for images only.\n Any of you know if there is a difference between the image creation capabilities of the Plus and the Pro plans? The pricing page says \"Expanded and faster image creation\" for plus and \"Unlimited and faster image creation\" for pro. In my book, that means only the quantity of the images is different, but the pricing page is full of sus statements anyway. \"Unlimited\" might just mean unlimited quality in this regard? Or are they the same?\n    submitted by    /u/laxika  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2l5vt",
+      "title": "I feel like opus 5.5 is overhyped",
+      "url": "https://www.reddit.com/r/codex/comments/1x2l5vt/i_feel_like_opus_55_is_overhyped/",
+      "created_at": "2026-10-10T17:37:31+00:00",
+      "author": "/u/Imaserventofreps",
+      "excerpt": "Eveyone keeps on saying opus 5.5 is the best model and that sol is trash and so on but I kinda feel like whenever I work with sol it can plan and understand the codebase like hella good and in one shot without me iterating on core feature or the logic behind why a thing is as is. \n It just picks it up so fast where as opus I have to keep on re explaining. However I do prefer opus output. So idk it feels like it\u2019s just general consensus rather than actual moat. \n Idk what do you guys think? \n    submitted by    /u/Imaserventofreps  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2ks1q",
+      "title": "Eleven years after my last Steam game, I used Codex to help make another. The free demo is now live.",
+      "url": "https://www.reddit.com/r/codex/comments/1x2ks1q/eleven_years_after_my_last_steam_game_i_used/",
+      "created_at": "2026-10-10T17:21:34+00:00",
+      "author": "/u/WalkingDadPG",
+      "excerpt": "In 2015, I released Super Snow Fight on Steam. This year I picked up game development again as an old hobby, with Codex and Claude Code helping me turn ideas into something playable.\n I have a programming background. What changed for me was being able to work through implementation, bugs and alternative designs with these tools, then actually play the result and decide what to keep.\n The game is Fallen Nights. You scavenge by day, build defenses and fight zombies at night. Defenses and repairs to your escape boat consume the same scrap, so spending more on surviving can mean staying longer.\n Some practical things from working on it with Codex:\n - I keep project decisions and continuation notes in the repository alongside AGENTS.md. That includes rejected ideas, so a later session has a rec",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2k45z",
+      "title": "I built Chrome Relay so Codex can use my signed-in Chrome without taking focus",
+      "url": "https://www.reddit.com/r/codex/comments/1x2k45z/i_built_chrome_relay_so_codex_can_use_my_signedin/",
+      "created_at": "2026-10-10T16:54:20+00:00",
+      "author": "/u/aindeev",
+      "excerpt": "I built Chrome Relay because browser tasks kept interrupting me while I ran coding agents on my Mac. It's open source, MIT-licensed, and free. I'm Alexey Indeev; this is my project.\n Two limits upfront: macOS + Chrome only, and Chrome shows its \u201cstarted debugging this browser\u201d bar while agents work.\n Tabs jumped to the front while I typed, Chrome asked \u201cAllow remote debugging?\u201d, or an agent opened a separate browser without my logins. That meant no admin console, staging environment, or Google SSO. Copying my Chrome profile didn't work because Google sessions are bound to the device.\n Chrome Relay connects Vercel's open-source agent-browser CLI to my everyday Chrome:\n agent-browser -> local relay (127.0.0.1:9333) -> MV3 extension -> chrome.debugger -> agent's tab\n Codex runs shell commands",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2jf2g",
+      "title": "If you use Codex and Claude Code, how do you split the work?",
+      "url": "https://www.reddit.com/r/codex/comments/1x2jf2g/if_you_use_codex_and_claude_code_how_do_you_split/",
+      "created_at": "2026-10-10T16:25:16+00:00",
+      "author": "/u/jerryorbach",
+      "excerpt": "Respectfully asking that if you only use one or the other, please don\u2019t comment just to say \u201cthere\u2019s no reason to use Codex, Claude is better and cheaper at everything\u201d or \u201cYou\u2019ll be back because Anthropic nerfs their models every time!\u201d This post is directed at folks happily using both. \n I\u2019m adding a Claude Code sub to my workflow and for the next two weeks evaluating if it\u2019s worth keeping Codex too. I\u2019d like to use them in combination to the best of their abilities and would appreciate your experience doing so:\n - Do you have a \u201cmain driver\u201d?\n - What roles do you use specific models for?\n - What are the things you find Astra/Sol/Luna better or more efficient than Opus/Sonnet/Haiku/Fable at?\n - Do you use Herdr or another multiplexer or just run Codex and Claude Code in separate terminal",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x2j9hq",
+      "title": "GitHub Actions exceeded quota not an issue anymore",
+      "url": "https://www.reddit.com/r/codex/comments/1x2j9hq/github_actions_exceeded_quota_not_an_issue_anymore/",
+      "created_at": "2026-10-10T16:18:40+00:00",
+      "author": "/u/Bad-Singer-99",
+      "excerpt": "With 5-6 coding agent tabs always open in herdr, i've been committing so much code that struggling with GitHub Actions quota. I looked into Blacksmith but still too costly so now using Celesto CI (unbelievably cheap) and took one line to move from GitHub Actions. \n    submitted by    /u/Bad-Singer-99  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
