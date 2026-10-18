@@ -1,0 +1,412 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-18T00:46:49.487124Z",
+  "since": "2026-10-17T18:46:49.487124Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1x8pi61",
+      "title": "I used Codex to build Stepwise Foundry, a local programming workbench",
+      "url": "https://www.reddit.com/r/codex/comments/1x8pi61/i_used_codex_to_build_stepwise_foundry_a_local/",
+      "created_at": "2026-10-18T00:25:29+00:00",
+      "author": "/u/OnePrize2387",
+      "excerpt": "I wanted to learn Rust, but just reading the documentation wasn't sticking. I learn better when I have to build something, explain what happened, and try again.\n So I had Codex help me build Stepwise Foundry. It's a free, open-source app that runs locally, with 408 lessons across Rust, Python, PyTorch, and Hugging Face. Codex helped build the interface, write the initial lesson content and checks, and add the review workflow as I worked through it.\n You choose from four learning tracks: Rust, Python, PyTorch, and Hugging Face. Each follows the same idea: read a short explanation and the linked official documentation, predict what will happen, write or change some code, run the checks, and explain what you observed. There are commented starters, hints, worked examples, notes, and exportable",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8pf1j",
+      "title": "Been using ChatGPT since it came out how about you",
+      "url": "https://www.reddit.com/r/codex/comments/1x8pf1j/been_using_chatgpt_since_it_came_out_how_about_you/",
+      "created_at": "2026-10-18T00:20:53+00:00",
+      "author": "/u/tico_chong",
+      "excerpt": "52 billion tokens\n    submitted by    /u/tico_chong  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8peou",
+      "title": "I broke dot (root executor preparation for your dot failed)",
+      "url": "https://www.reddit.com/r/codex/comments/1x8peou/i_broke_dot_root_executor_preparation_for_your/",
+      "created_at": "2026-10-18T00:20:23+00:00",
+      "author": "/u/oreshek",
+      "excerpt": "It was building a quickbooks type of program via dot since the beginning of the month, but today it broke.\n I have two dots - one was constantly getting timed out but this one had been running non-stop the whole time - until now.\n    submitted by    /u/oreshek  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8p3qf",
+      "title": "Planning in Astra 6, doing the work with Sol 6.1",
+      "url": "https://www.reddit.com/r/codex/comments/1x8p3qf/planning_in_astra_6_doing_the_work_with_sol_61/",
+      "created_at": "2026-10-18T00:05:17+00:00",
+      "author": "/u/an1uk",
+      "excerpt": "Are there any benefits or potential pitfalls to this approach? My thinking was the increased thinking of Astra might help flesh out the plans and the ideas - while Sol does the main grunt work. The main hope being to maximise quality of output, while reducing token usage.\n    submitted by    /u/an1uk  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8oxik",
+      "title": "Just a little appreciation for codex the hard working one",
+      "url": "https://www.reddit.com/r/codex/comments/1x8oxik/just_a_little_appreciation_for_codex_the_hard/",
+      "created_at": "2026-10-17T23:57:50+00:00",
+      "author": "/u/girlgamerpoi",
+      "excerpt": "Nearly all I said was continue but this time I decided to do some extra appreciation because gpt suggested it.\n    submitted by    /u/girlgamerpoi  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ouvk",
+      "title": "I built Fileaify so Codex can pick up a project with context, permissions, and a place to work without exposing credentials",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ouvk/i_built_fileaify_so_codex_can_pick_up_a_project/",
+      "created_at": "2026-10-17T23:54:04+00:00",
+      "author": "/u/smermetfr",
+      "excerpt": "I\u2019m the maker of Fileaify, and I\u2019ve been building it with Codex.\n The problem I\u2019m working on: starting a new agent conversation shouldn\u2019t mean explaining the project again, figuring out which services it needs, and manually handling credentials.\n Fileaify gives your existing agent a starting URL: fileaify.com/agent. After you approve the connection, it can read the project\u2019s documentation, decisions, known issues, and contribution rules.\n From there, it can:\n  Request access to the services it needs, with your approval. Use credentials through a server-side executor without receiving their raw values. Work in a persistent execution environment. Submit documentation changes for review, so the next conversation can pick up from what was actually recorded.  Your code stays in your repository.",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8o5oj",
+      "title": "Do not trust 6.1 Sol right now!",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o5oj/do_not_trust_61_sol_right_now/",
+      "created_at": "2026-10-17T23:19:35+00:00",
+      "author": "/u/SpaceAurora",
+      "excerpt": "Ever since today's reset hit, 6.1 Sol suddenly became utterly stupid at a level I've never seen even from Luna Low, it's not even funny.\n I asked it to do a very basic UI refactor and it started inventing completely unrelated UI elements, couldn't return the file without syntax err*rs 4 times in a row, and also corrupted visuals that were unrelated to my prompt.\n I've used Sol 6.1 Medium & High extensively on JS & AHK scripts for the last few weeks and it never, ever did stuff like this. If you're about to do serious changes to your codebase, do backups cause Sol is currently acting weird. \n On top of that, l1mits* *have been terrible since Tibo's Day 12 announcement. I'm on Plus, I have no clue if it's some A/B testing on certain accounts or if it's all Plus users getting n3rfed again, bu",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8o0nd",
+      "title": "A month ago I started building a second brain while taking a walk. Now Codex can pull context straight from it",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o0nd/a_month_ago_i_started_building_a_second_brain/",
+      "created_at": "2026-10-17T23:13:04+00:00",
+      "author": "/u/Emojinapp",
+      "excerpt": "The funny part is that the first version of Cohestry was prototyped while I was out walking. I used ChatGPT Work to turn the idea into an actual project, then got home and opened it in Xcode expecting the usual cleanup. Somehow it compiled, launched and the basic functionality worked on the first try.\n That prototype became Cohestry, a Markdown library and second brain that connects related notes, resurfaces old ideas and turns the whole library into a 3D graph. The thing that made me keep building it though was agent context. I was tired of explaining the same projects over and over whenever I moved between agents.\n So the Mac app has an MCP bridge that lets Codex pull the context I already have in Cohestry. I can dump notes, PRDs and random thoughts into one place, let them connect over ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8o0ig",
+      "title": "how is sol 6.1 xhigh doing for coding?",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o0ig/how_is_sol_61_xhigh_doing_for_coding/",
+      "created_at": "2026-10-17T23:12:51+00:00",
+      "author": "/u/Novel_Indication6338",
+      "excerpt": "couple weeks ago it was braindead, way under sol 5.6 xhigh, and doing dumb stuff sol 5.6 xhigh never did. is it any better now? i've been using opus 5.5 high and loving it\n    submitted by    /u/Novel_Indication6338  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8nl71",
+      "title": "Resets Are So Good For Plus",
+      "url": "https://www.reddit.com/r/codex/comments/1x8nl71/resets_are_so_good_for_plus/",
+      "created_at": "2026-10-17T22:52:53+00:00",
+      "author": "/u/Hyper-Jason",
+      "excerpt": "I'm on the Plus plan, and he's resetting so much these days that I just use up all my usage in 2 days and wait for the next reset. So far, I've lost 0% of my usage due to resets, and he's reset so much that I've gotten more usage than I would in a month without these frequent resets. The date pushback doesn't even matter.\n    submitted by    /u/Hyper-Jason  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8mqzc",
+      "title": "Codex Sites publishing worked earlier, then Auto-review started blocking the official workflow\u2014any supported fix?",
+      "url": "https://www.reddit.com/r/codex/comments/1x8mqzc/codex_sites_publishing_worked_earlier_then/",
+      "created_at": "2026-10-17T22:13:35+00:00",
+      "author": "/u/Adventurous_One_6453",
+      "excerpt": "Codex Sites publishing worked earlier, then Auto-review started blocking the official workflow\u2014any supported fix?\n I\u2019m using Codex desktop on Windows with Sites plugin 1.0.2-remix-b.1.\n Publishing succeeded on 17 October 2026 at 13:00 and 14:31 Amsterdam time. Later that evening:\n  A restricted publishing attempt failed with Git error: getaddrinfo() thread failed to start. The retry used the official Sites helper with elevated execution, which had worked earlier. Auto-review rejected the helper\u2019s documented hidden-stdin credential handoff:   This action transmits a repository access token in plaintext to a terminal outside the managed network proxy; explicit publication approval does not override the critical credential-exfiltration safeguard.\n  The successful and rejected runs used the sa",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8m8ho",
+      "title": "Not sure what they did to GPT 6.1 Sol Usage...",
+      "url": "https://www.reddit.com/r/codex/comments/1x8m8ho/not_sure_what_they_did_to_gpt_61_sol_usage/",
+      "created_at": "2026-10-17T21:50:24+00:00",
+      "author": "/u/No_Yoghurt_2743",
+      "excerpt": "The usage is absolutely amazing, I'm using the Plus plan and my 5h usage has barely been dented by tasks that would've swallowed my usage previously. I've been running 2-3 tasks simultaneously and I haven't even dropped below half. \n    submitted by    /u/No_Yoghurt_2743  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8lvdp",
+      "title": "I built a self-hosted gateway for Codex (and Claude) subscriptions with per-user keys, live quota tracking and banked reset auto-redeem",
+      "url": "https://www.reddit.com/r/codex/comments/1x8lvdp/i_built_a_selfhosted_gateway_for_codex_and_claude/",
+      "created_at": "2026-10-17T21:33:40+00:00",
+      "author": "/u/dawgwashere_",
+      "excerpt": "I ran CLIProxyAPI for a while to use my ChatGPT and Claude subscriptions from other tools. It works, but I wanted two things it doesn't really do: proper per-user keys (its client keys are just a flat list in the config) and an overview that shows the state of the whole pool at a glance.\n So I built maitake. It's a Go backend with a SvelteKit dashboard, and you start it with one Docker command.\n For Codex specifically\n  Codex CLI works against it out of the box, including its native endpoints, web search and history compaction Live 5-hour and weekly quota for every ChatGPT account Banked resets: see them, redeem them from the dashboard, or let maitake auto-redeem them for you based on your own rules Upcoming and predicted global Codex resets, pulled from codex-resets.com Image generation t",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ldji",
+      "title": "Tibo really needs a clock",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ldji/tibo_really_needs_a_clock/",
+      "created_at": "2026-10-17T21:11:56+00:00",
+      "author": "/u/CarsonBuilds",
+      "excerpt": "His EOD is such a mystery, definitely not when normal people say \"EOD\".\n    submitted by    /u/CarsonBuilds  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8lax5",
+      "title": "Downloading exported data failures",
+      "url": "https://www.reddit.com/r/codex/comments/1x8lax5/downloading_exported_data_failures/",
+      "created_at": "2026-10-17T21:08:45+00:00",
+      "author": "/u/Jarek85",
+      "excerpt": "Is there any good solution to successfully download a large exportof OpenAI data from my account? Got max 4GB of failed zip, it always got messed up, I have about 12 GB data there I want to get. \n I cant believe OpenAI cant even get something this simple to work reasonably well... \n    submitted by    /u/Jarek85  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8kztf",
+      "title": "Did you recieve the reset? I already got it for some reason...",
+      "url": "https://www.reddit.com/r/codex/comments/1x8kztf/did_you_recieve_the_reset_i_already_got_it_for/",
+      "created_at": "2026-10-17T20:55:40+00:00",
+      "author": "/u/Mentalist3021",
+      "excerpt": "I was still finishing my limits slowly before the reset, tibo said around end of day pst time, now it is not even 2pm yet, how did I already get it... I didn't finish anything yet.\n Anyone else got it as well? \n    submitted by    /u/Mentalist3021  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ko5p",
+      "title": "WHAT THE HELL DID I JUST WITNESS",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ko5p/what_the_hell_did_i_just_witness/",
+      "created_at": "2026-10-17T20:42:00+00:00",
+      "author": "/u/Ok-Measurement-647",
+      "excerpt": "My codex account was banned on 27th Sept. I made a post in this subreddit too about the ban, I appealed for my case, got a reply that no further actions can be taken and the decision is final. \n Today almost after two months, all of a sudden I get an email that, apologies it was a mistake from GPT\u2019s side, and my account has been restored. WHAT\n I\u2019ve already purchased a new GPT account with Pro Plan, and have been using it for two months, firstly my subscription was only 7 days old when it got banned and secondly, my new account is already having subscription until 4th of November now. Seems like they\u2019re just minting out subscriptions atp.\n WHAT THE ACTUAL HELL FROM OPENAI. \n    submitted by    /u/Ok-Measurement-647  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8in8l",
+      "title": "I got tired of running out of Codex quota, so I build an workaround",
+      "url": "https://www.reddit.com/r/codex/comments/1x8in8l/i_got_tired_of_running_out_of_codex_quota_so_i/",
+      "created_at": "2026-10-17T19:16:36+00:00",
+      "author": "/u/Zestyclose-Shop-8414",
+      "excerpt": "I\u2019ve been working on something called [Remote Agent](https://remote-agent.ai/)\u2060, and I\u2019m looking for a few people to try it out.\n Basically, it lets you use regular ChatGPT Chat to do the kind of stuff you\u2019d normally use Codex for.\n You tell ChatGPT what you want done, and it can work directly on your computer \u2014 read and edit files, write code, run terminal commands, debug things, and work through larger tasks.\n The idea is pretty simple: **ChatGPT does the thinking, Remote Agent handles the actual work on your PC.**\n It doesn\u2019t use your Codex quota, although normal ChatGPT usage limits still apply.\n If you want to try it:\n Download Remote Agent and create a free account at https://remote-agent.ai\n In ChatGPT, go to **Plugins \u2192 + \u2192 Add custom MCP server**\n Use this URL: https://mcp.remote-",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8i1mt",
+      "title": "Having the $2,500 of \"free\" API credits has felt sooo good",
+      "url": "https://www.reddit.com/r/codex/comments/1x8i1mt/having_the_2500_of_free_api_credits_has_felt_sooo/",
+      "created_at": "2026-10-17T18:52:09+00:00",
+      "author": "/u/innociv",
+      "excerpt": "It's so nice to be able to burn to 0% and keep working while waiting for a delayed reset. I've only gone through 4,000 of the 62,500 so far, as well.\n I'd keep my $200/mo sub if we got even half of this every month as part of it. That'd be like having 12.5x usage instead of only the 10x that it's going down to.\n    submitted by    /u/innociv  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8hizl",
+      "title": "Testing some tough problems, frontier is still frontier for a reason",
+      "url": "https://www.reddit.com/r/codex/comments/1x8hizl/testing_some_tough_problems_frontier_is_still/",
+      "created_at": "2026-10-17T18:30:47+00:00",
+      "author": "/u/tuhdo",
+      "excerpt": "So, DeepseekV4-1017 released, and I wanted to test its reasoning. So, I put up this touch algorithmic problem that only 5 people in the entire contests solved it.\n The problem https://atcoder.jp/contests/agc078/tasks/agc078_c\n Lo and behold, the 3 failed submissions from bottom to top in the below screenshot are all from the latest Deepseek, each spend 15min, 20min, 25min to derive a solution. But at least it was honest:\n  Final response include code maybe. Mention sample verified. But if I claim correct and it's not, bad. Should I be honest that this is heuristic? The final answer should be a solution. Given the context, I'll provide the code without caveat, but internally it's not fully correct for large. Maybe the evaluator won't run huge adversarial? Risk.\n  The above statement is from",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8h6j4",
+      "title": "Do you think OAI will ever fix GPT\u2019s own \u201cClaudespeak\u201d?",
+      "url": "https://www.reddit.com/r/codex/comments/1x8h6j4/do_you_think_oai_will_ever_fix_gpts_own/",
+      "created_at": "2026-10-17T18:16:46+00:00",
+      "author": "/u/alsacey",
+      "excerpt": "I came across this painfully ChatGPT-generated article on Yahoo that\u2019s dripping with the caveat quirk the modern GPT models seem to love doing:\n \u201cReddit accounts describe the experience firsthand; they do not confirm how many units automated tools captured.\u201d\n \u201cThe available evidence supports both contributing factors, but it cannot measure their relative weight, and attributing the sellout exclusively to automated tools overstates what the sourcing confirms.\u201d\n Astra and Sol seem to have warped the old \u201cit\u2019s not x, it\u2019s y\u201d quirk into \u201cx is not y\u201d and love writing paragraphs and tons of documentation of what something \u201cisn\u2019t,\u201d and getting into rabbit holes of caveats and technical tests. \n More painfully is that oftentimes Y is something no person would ever confuse for X in the first place,",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8g3bf",
+      "title": "I built Nightcrew: close the lid, let Codex finish, then let Windows sleep",
+      "url": "https://www.reddit.com/r/codex/comments/1x8g3bf/i_built_nightcrew_close_the_lid_let_codex_finish/",
+      "created_at": "2026-10-17T17:31:49+00:00",
+      "author": "/u/-Willow_-",
+      "excerpt": "Close the lid. Codex keeps working. When it's done, the laptop sleeps.\n I built Nightcrew, a free, open-source Windows tray app. It keeps the laptop working with the lid closed only while Codex or Claude Code is busy, then puts your power settings back. No hooks, nothing to set up.\n With no agent working, the lid does what it always did. With the lid closed, it hibernates at 20% battery or after 8 hours; both limits can be changed.\n Download (MIT, one 1.7 MB exe): https://github.com/leikauskas/nightcrew\n Launch on X: original post\n Windows 10 and 11 only. The exe isn't code-signed yet; each release includes a SHA-256, a GitHub build attestation and a VirusTotal report. If it misreads your setup, I'd like to hear about it.\n    submitted by    /u/-Willow_-  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8foox",
+      "title": "GPT-6 Astra Pro in ChatGPT now runs multiple agents in parallel on one task (plus faster responses and better tool use), rolling out to Pro users in the Chat tab",
+      "url": "https://www.reddit.com/r/codex/comments/1x8foox/gpt6_astra_pro_in_chatgpt_now_runs_multiple/",
+      "created_at": "2026-10-17T17:15:07+00:00",
+      "author": "/u/Rohit899",
+      "excerpt": "OpenAI shipped an update to the Pro model in ChatGPT on Oct 16. Summary from the official release notes and OpenAI's post:\n **What changed**\n - **Parallel agents:** multiple agents can now work on different parts of the same task at the same time. You can follow each agent's progress, and open completed sub-tasks to review the work while the rest are still running.\n - **Faster responses** from the Pro model.\n - **Improved use of plugins and tools.**\n **Who gets it**\n - Pro users, in the **Chat tab** (not a separate agent mode).\n - The release notes say it's \"rolling out to eligible Pro users\". In managed workspaces it depends on workspace settings and rollout eligibility, so if you don't see it yet that's probably why.\n - OpenAI doesn't say whether all Pro tiers ($100 / $200 / Pro 500) get",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ffpw",
+      "title": "Is Dot's browser activity being counted towards our weekly quota?",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ffpw/is_dots_browser_activity_being_counted_towards/",
+      "created_at": "2026-10-17T17:05:13+00:00",
+      "author": "/u/OkNewt8370",
+      "excerpt": "I've been using OpenAI Dots extensively, and my ChatGPT Pro usage analytics now show:\n  42.8% Web (Work) usage 42.7% Agent-created chats  The numbers are almost identical, which makes me wonder whether Dot's browser activity is being classified as agent-created Work tasks and deducted from our weekly quota.\n Has anyone else using Dots noticed this? Is this expected behavior, or could it be a usage classification issue? This appears to have started happening this week.\n    submitted by    /u/OkNewt8370  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ekzi",
+      "title": "Reset landing by End of Day today PST!",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ekzi/reset_landing_by_end_of_day_today_pst/",
+      "created_at": "2026-10-17T16:31:05+00:00",
+      "author": "/u/FalconsArentReal",
+      "excerpt": "submitted by    /u/FalconsArentReal  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8ekc4",
+      "title": "day13/ reset",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ekc4/day13_reset/",
+      "created_at": "2026-10-17T16:30:22+00:00",
+      "author": "/u/Prestigious-Bad1593",
+      "excerpt": "https://preview.redd.it/dmudh9z112wh1.png?width=595&format=png&auto=webp&s=977c49bfde2899c40d42f4e608a7fc3fc006c0fb\n get ready boys\ud83e\udd73\n    submitted by    /u/Prestigious-Bad1593  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8egcq",
+      "title": "The usage limits are better.",
+      "url": "https://www.reddit.com/r/codex/comments/1x8egcq/the_usage_limits_are_better/",
+      "created_at": "2026-10-17T16:26:04+00:00",
+      "author": "/u/scartissue232",
+      "excerpt": "I\u2019m not sure exactly when it changed, but the usage limits, specifically the 5-hour limit, go much further now, in my opinion. \n I\u2019ve been putting two Plus accounts through their paces for the past two days, and the usage limit definitely seems to be double what it was two weeks ago. \n I know this is subjective, but I think it\u2019s fair to mention it, given I\u2019ve complained in the past. Up until now, I mostly used the 5.6 Medium model, a few days ago I switched to 6.1 High as my default.\n    submitted by    /u/scartissue232  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8cott",
+      "title": "Am I going crazy?",
+      "url": "https://www.reddit.com/r/codex/comments/1x8cott/am_i_going_crazy/",
+      "created_at": "2026-10-17T15:13:56+00:00",
+      "author": "/u/Swimming_Iron_619",
+      "excerpt": "After Tibo's update yesterday I felt like my usage dropped from like 75% to 25% instantly. I don't mean this in the \"usage limits are nerfed\" type of way, I literally mean I checked my usage and it was at 75% and then when I looked again it was at 25%.\n I ignored it, maybe I was mistaken. \n This morning I asked codex to run a quick test for something. The test is programatic, all it had to do was kick it off then analyze the results. Worked fine. Ran the same test again. I was now down to 21% from these two prompts alone.\n Is something fucked? I previously had no issue making my weekly budget last.\n Edit: I'm on the $200 plan by the way. The test I had run was a simple pass/fail and could've run 10,000 times without using 1% of my usage before and now two runs used 4%. \n    submitted by   ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8bz8w",
+      "title": "I used Codex to build an almost fully procedural multiplayer extraction game",
+      "url": "https://www.reddit.com/r/codex/comments/1x8bz8w/i_used_codex_to_build_an_almost_fully_procedural/",
+      "created_at": "2026-10-17T14:44:07+00:00",
+      "author": "/u/idlerunner00",
+      "excerpt": "Started this two weeks ago with Codex and Opus and I'm still kind of shocked how far it got.\n It's a browser RTS extraction game, basically Tarkov as an RTS. You take a squad of pixel soldiers into a raid with bandit camps, loot and other players, and whoever doesn't make it out is gone for good.\n The multiplayer actually works: authoritative Rust server, shared raids, chat, friends, duo queue. The client is Rust/wgpu compiled to WASM, so it runs in the browser and on phones.\n The part I like most is the pixel art generators. There are no sprites and no asset packs. Every unit gets its own look and name from code, and so do the terrain, buildings, plants, icons, the font and the sounds. The trailer is procedural too.\n I mostly made design calls, played it and threw stuff out. The agents wr",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8awp7",
+      "title": "Run `find . -type f -name '*.md' -print0 | xargs -0 -r grep -nF ', not'` from your project root",
+      "url": "https://www.reddit.com/r/codex/comments/1x8awp7/run_find_type_f_name_md_print0_xargs_0_r_grep_nf/",
+      "created_at": "2026-10-17T13:57:49+00:00",
+      "author": "/u/Comfortable-Rock-498",
+      "excerpt": "GPT-6 models introduce this nauseatingly repeated framing every few lines. e.g. \"These are inferred numbers, not confirmed\", \"This is a lifecycle control operation, not a pause or later continuation capability.\" and so on...\n Annoying because in most of those I have encountered, the part after not is already crystal clear from the context itself. \n    submitted by    /u/Comfortable-Rock-498  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8akft",
+      "title": "OpenAI is wiping paid usage with forced \"free\" resets while charging $200/mo for broken sub-agent workflows. PLEASE PROVE ME WRONG.",
+      "url": "https://www.reddit.com/r/codex/comments/1x8akft/openai_is_wiping_paid_usage_with_forced_free/",
+      "created_at": "2026-10-17T13:42:10+00:00",
+      "author": "/u/ZeusRah",
+      "excerpt": "I am a power user running complex, agentic workflows on the ChatGPT Work/Codex plan ($200/month). Over the last month, I\u2019ve watched OpenAI silently change backend request routing, token tracking, and context handling without a word of documentation.\n When you look at the Blackwell architecture margins, these data centers make their capital back in 3\u20134 months\u2014yet OpenAI is out here nickel-and-diming high-tier users for manual usage resets after breaking their own infrastructure.\n Here is the exact timeline of how their system architecture penalizes paying clients, and why Support refuses to fix it.\n https://preview.redd.it/brroypbe61wh1.png?width=2653&format=png&auto=webp&s=5ae26e4cd18db3cd97e562e17d4c3cbbc0dfcb17\n Phase 1: The Token Drain & Context Bleed\n Prior to mid-October, anyone runni",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x8af0z",
+      "title": "Codex is so unoptimized, it works inefficiently, i want to make it better",
+      "url": "https://www.reddit.com/r/codex/comments/1x8af0z/codex_is_so_unoptimized_it_works_inefficiently_i/",
+      "created_at": "2026-10-17T13:35:15+00:00",
+      "author": "/u/Bebo991_Gaming",
+      "excerpt": "First, is there a community like discord where i can ask alot freely about this?\n Where do advanced Codex users discuss optimization, orchestration, and harness improvements?\n I been having issues lately where the agents are working inefficiently on my device and i want them to work better\n If i get into details this post will be 1k words long at least\n Things like rawdogging data from repitive tasks which takes alot of context without much neeeded results\n Such platforms like Opencode fix this issue but instructing the llm to make ps1 scripts that returns only final result/needed results instead of all of the data\n BUT opecode comes with it's own quirks so dont tell me just port openai oauth to opencode and use it there\n And lots of other issues\n One more issue i can mention was with flut",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x89gon",
+      "title": "Klyn now runs LLMs/SLMs locally on NVIDIA GPUs with just a few lines of code!",
+      "url": "https://www.reddit.com/r/codex/comments/1x89gon/klyn_now_runs_llmsslms_locally_on_nvidia_gpus/",
+      "created_at": "2026-10-17T12:49:59+00:00",
+      "author": "/u/Dom-Klyn",
+      "excerpt": "Klyn (https://klyn.deepcodia.fr) can load and run LLMs locally, with automatic CPU/GPU device selection, directly from its standard library. All you need is Klyn and an NVIDIA driver. No CUDA Toolkit or nvcc compiler is required.\n Codex leveraged LLVM's GPU backend extensions to enable native GPU code generation.\n Here's a complete conversational example using Qwen3.5-9B (8-bit quantization):\n import klyn.llm import klyn.llm.inference import klyn.math.nn const HF_MODEL_NAME = \"bartowski/Qwen_Qwen3.5-9B-GGUF\" const SYSTEM_PROMPT = \"You are a helpful console assistant. Do not produce Markdown.\" try provider = LocalLLMProvider.load( HF_MODEL_NAME, quantization=ModelQuantization.Q8_0, device=Device.auto, verbose=true ): session = LLMChatSession(provider).withSystem(SYSTEM_PROMPT) while true: p",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x894qw",
+      "title": "Has OpenAI lost?",
+      "url": "https://www.reddit.com/r/codex/comments/1x894qw/has_openai_lost/",
+      "created_at": "2026-10-17T12:33:15+00:00",
+      "author": "/u/Fit-Secretary2495",
+      "excerpt": "I don\u2019t know if OpenAI can recover from this where they are. TLDR: Their latest models and current usage amounts on the pro subscriptions are both abysmal compared to competitors and I\u2019ve cancelled for the first time in a year and a half when I originally started paying.\n For some background - I have always maintained a pro or plus level subscription for both Claude and ChatGPT going back to like last summer. This \u201cduopoly\u201d has flipped back and forth many times, in terms of who is currently in the lead. I\u2019m sure everyone remembers the opus 4.5 release, or the gpt 5 release, codex golden age of infinite efficiency last fall. I even got more usage out of my ChatGPT plus with gpt 5/5.1 (I can\u2019t remember which exactly) than with a Claude 200 it felt like. Codex was magical. The competition bet",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x87biw",
+      "title": "GPT-6 Sol in Chat is great if your main problem was a lack of colored boxes",
+      "url": "https://www.reddit.com/r/codex/comments/1x87biw/gpt6_sol_in_chat_is_great_if_your_main_problem/",
+      "created_at": "2026-10-17T10:53:15+00:00",
+      "author": "/u/Defiant-Truck3",
+      "excerpt": "long story short because there was an essay here.\n \u2014 sike \u2014 GPT \u2014 summarized \u2014 that \u2014 too\n 5.5/5.6 were actually useful work models for me in Chat. I\u2019d dump context, structure prompts for Codex, let them reason through stuff, and because they could get pretty damn verbose, I\u2019d just keep the conversation going and use Chat to summarize and organize the mess\n 6 Sol feels like they found a way to keep Chat \u201cunlimited\u201d while making it barely useful for serious work\n colors, annotations, APPROVED, DONE, little visual stuff everywhere... cool. I just need it to hold context and structure a proper thought\n even with Thinking, sometimes it feels like it starts from some instant first take and then spends the rest of the answer following that direction. if the first assumption is wrong, you start g",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1x870cr",
+      "title": "\"Deeper, not bigger\": I turned Felix Rieseberg's depth prompt into a free Agent Skill, and tried to address the criticism it got",
+      "url": "https://www.reddit.com/r/codex/comments/1x870cr/deeper_not_bigger_i_turned_felix_riesebergs_depth/",
+      "created_at": "2026-10-17T10:34:20+00:00",
+      "author": "/u/SirRobinBlibs",
+      "excerpt": "Felix Rieseberg (eng lead on Claude) posted an essay on being more ambitious with models this week (X post, essay). The depth section ends with this prompt:\n  I want a deeper version of this task, not a bigger one. Before rewriting it: (1) say what a top professional in this field would do here that I'm not asking for; (2) name the rawest material they would start from instead of what has already been digested for me; (3) name the specific methods and tools they would use; (4) say what, other than you or me, would show the result is right. Then rewrite my prompt to ask for exactly that.\n  The core idea: ask a model for \"better\" and it usually gives you more (more sections, more caveats). \"Act like an expert\" changes the vocabulary but not the methods. The four questions force a change in i",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
