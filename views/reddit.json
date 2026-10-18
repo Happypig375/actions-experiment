@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-18T00:34:54.713057Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-17T22:35:25.096438Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8pi61",
+      "timestamp": "2026-10-18T00:25:29Z",
+      "title": "I used Codex to build Stepwise Foundry, a local programming workbench",
+      "author": "/u/OnePrize2387",
+      "url": "https://www.reddit.com/r/codex/comments/1x8pi61/i_used_codex_to_build_stepwise_foundry_a_local/",
+      "excerpt": "I wanted to learn Rust, but just reading the documentation wasn't sticking. I learn better when I have to build something, explain what happened, and try again.\n So I had Codex help me build Stepwise Foundry. It's a free, open-source app that runs locally, with 408 lessons across Rust, Python, PyTorch, and Hugging Face. Codex helped build the interface, write the initial lesson content and checks, and add the review workflow as I worked through it.\n You choose from four learning tracks: Rust, Python, PyTorch, and Hugging Face. Each follows the same idea: read a short explanation and the linked official documentation, predict what will happen, write or change some code, run the checks, and explain what you observed. There are commented starters, hints, worked examples, notes, and exportable progress across all four tracks.\n You can bring any track's mentor report to a person or an assistant for feedback. I've also added a section-by-section review gate workflow; the first built-in sequence walks through a beginner Rust project. In that sequence, a mentor reviews your submitted prediction or explanation before the next section opens. The wider curriculum stays freely accessible.\n Men",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8pf1j",
+      "timestamp": "2026-10-18T00:20:53Z",
+      "title": "Been using ChatGPT since it came out how about you",
+      "author": "/u/tico_chong",
+      "url": "https://www.reddit.com/r/codex/comments/1x8pf1j/been_using_chatgpt_since_it_came_out_how_about_you/",
+      "excerpt": "52 billion tokens\n    submitted by    /u/tico_chong  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/tjmu1hwlc4wh1.png?width=640&crop=smart&auto=webp&s=07c94c4fd69b7c362ffb08522f9be15acdb6fa7f",
+        "https://i.redd.it/tjmu1hwlc4wh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8peou",
+      "timestamp": "2026-10-18T00:20:23Z",
+      "title": "I broke dot (root executor preparation for your dot failed)",
+      "author": "/u/oreshek",
+      "url": "https://www.reddit.com/r/codex/comments/1x8peou/i_broke_dot_root_executor_preparation_for_your/",
+      "excerpt": "It was building a quickbooks type of program via dot since the beginning of the month, but today it broke.\n I have two dots - one was constantly getting timed out but this one had been running non-stop the whole time - until now.\n    submitted by    /u/oreshek  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/eycbt77xb4wh1.png?width=640&crop=smart&auto=webp&s=ff70dd5dd8dd6c17c385370b4e28cb3fa33d1e0b",
+        "https://i.redd.it/eycbt77xb4wh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8p3qf",
+      "timestamp": "2026-10-18T00:05:17Z",
+      "title": "Planning in Astra 6, doing the work with Sol 6.1",
+      "author": "/u/an1uk",
+      "url": "https://www.reddit.com/r/codex/comments/1x8p3qf/planning_in_astra_6_doing_the_work_with_sol_61/",
+      "excerpt": "Are there any benefits or potential pitfalls to this approach? My thinking was the increased thinking of Astra might help flesh out the plans and the ideas - while Sol does the main grunt work. The main hope being to maximise quality of output, while reducing token usage.\n    submitted by    /u/an1uk  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8oxik",
+      "timestamp": "2026-10-17T23:57:50Z",
+      "title": "Just a little appreciation for codex the hard working one",
+      "author": "/u/girlgamerpoi",
+      "url": "https://www.reddit.com/r/codex/comments/1x8oxik/just_a_little_appreciation_for_codex_the_hard/",
+      "excerpt": "Nearly all I said was continue but this time I decided to do some extra appreciation because gpt suggested it.\n    submitted by    /u/girlgamerpoi  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/608vm3ir84wh1.jpeg?width=320&crop=smart&auto=webp&s=edef37bb685b846eeade3d7198a46397f072950a",
+        "https://i.redd.it/608vm3ir84wh1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8ouvk",
+      "timestamp": "2026-10-17T23:54:04Z",
+      "title": "I built Fileaify so Codex can pick up a project with context, permissions, and a place to work without exposing credentials",
+      "author": "/u/smermetfr",
+      "url": "https://www.reddit.com/r/codex/comments/1x8ouvk/i_built_fileaify_so_codex_can_pick_up_a_project/",
+      "excerpt": "I\u2019m the maker of Fileaify, and I\u2019ve been building it with Codex.\n The problem I\u2019m working on: starting a new agent conversation shouldn\u2019t mean explaining the project again, figuring out which services it needs, and manually handling credentials.\n Fileaify gives your existing agent a starting URL: fileaify.com/agent. After you approve the connection, it can read the project\u2019s documentation, decisions, known issues, and contribution rules.\n From there, it can:\n  Request access to the services it needs, with your approval. Use credentials through a server-side executor without receiving their raw values. Work in a persistent execution environment. Submit documentation changes for review, so the next conversation can pick up from what was actually recorded.  Your code stays in your repository. You keep using Codex in your usual environment. There\u2019s no required plugin or MCP server to install.\n AGENTS.md and repo documentation are useful already. What I wanted to bring together was project knowledge, controlled access, execution, and human review (for solo but also when several people or agents work on the same project).\n There\u2019s a hands-on demo you can try with your own Codex session:\n",
+      "media_urls": [
+        "https://preview.redd.it/3axfqk3a84wh1.png?width=640&crop=smart&auto=webp&s=33f6073d2118dee92bd628dba79b02e69fd19dbf",
+        "https://i.redd.it/3axfqk3a84wh1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8o5oj",
+      "timestamp": "2026-10-17T23:19:35Z",
+      "title": "Do not trust 6.1 Sol right now!",
+      "author": "/u/SpaceAurora",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o5oj/do_not_trust_61_sol_right_now/",
+      "excerpt": "Ever since today's reset hit, 6.1 Sol suddenly became utterly stupid at a level I've never seen even from Luna Low, it's not even funny.\n I asked it to do a very basic UI refactor and it started inventing completely unrelated UI elements, couldn't return the file without syntax err*rs 4 times in a row, and also corrupted visuals that were unrelated to my prompt.\n I've used Sol 6.1 Medium & High extensively on JS & AHK scripts for the last few weeks and it never, ever did stuff like this. If you're about to do serious changes to your codebase, do backups cause Sol is currently acting weird. \n On top of that, l1mits* *have been terrible since Tibo's Day 12 announcement. I'm on Plus, I have no clue if it's some A/B testing on certain accounts or if it's all Plus users getting n3rfed again, but looking at the replies on X, I see I'm not the only one.\n In my estimate, qu*ta is draining at least 2x faster than usual, and since today's reset it looks to be even worse.\n Anyone in the same boat right now?\n    submitted by    /u/SpaceAurora  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8o0nd",
+      "timestamp": "2026-10-17T23:13:04Z",
+      "title": "A month ago I started building a second brain while taking a walk. Now Codex can pull context straight from it",
+      "author": "/u/Emojinapp",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o0nd/a_month_ago_i_started_building_a_second_brain/",
+      "excerpt": "The funny part is that the first version of Cohestry was prototyped while I was out walking. I used ChatGPT Work to turn the idea into an actual project, then got home and opened it in Xcode expecting the usual cleanup. Somehow it compiled, launched and the basic functionality worked on the first try.\n That prototype became Cohestry, a Markdown library and second brain that connects related notes, resurfaces old ideas and turns the whole library into a 3D graph. The thing that made me keep building it though was agent context. I was tired of explaining the same projects over and over whenever I moved between agents.\n So the Mac app has an MCP bridge that lets Codex pull the context I already have in Cohestry. I can dump notes, PRDs and random thoughts into one place, let them connect over time, then give Codex access when I actually need to build something. It has honestly become one of the main ways I use the app myself. What feature would you love to see me ship in the next update? Your opinion would be immensely appreciated to shape the product into something truly useful across your corpus of notes.\n https://apps.apple.com/us/app/cohestry-second-brain/id6811573132\n https://cohe",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8o0ig",
+      "timestamp": "2026-10-17T23:12:51Z",
+      "title": "how is sol 6.1 xhigh doing for coding?",
+      "author": "/u/Novel_Indication6338",
+      "url": "https://www.reddit.com/r/codex/comments/1x8o0ig/how_is_sol_61_xhigh_doing_for_coding/",
+      "excerpt": "couple weeks ago it was braindead, way under sol 5.6 xhigh, and doing dumb stuff sol 5.6 xhigh never did. is it any better now? i've been using opus 5.5 high and loving it\n    submitted by    /u/Novel_Indication6338  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1x8nl71",
+      "timestamp": "2026-10-17T22:52:53Z",
+      "title": "Resets Are So Good For Plus",
+      "author": "/u/Hyper-Jason",
+      "url": "https://www.reddit.com/r/codex/comments/1x8nl71/resets_are_so_good_for_plus/",
+      "excerpt": "I'm on the Plus plan, and he's resetting so much these days that I just use up all my usage in 2 days and wait for the next reset. So far, I've lost 0% of my usage due to resets, and he's reset so much that I've gotten more usage than I would in a month without these frequent resets. The date pushback doesn't even matter.\n    submitted by    /u/Hyper-Jason  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
