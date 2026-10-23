@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-23T14:37:09.196153Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-23T11:57:25.287100Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdft6r",
+      "timestamp": "2026-10-23T14:36:16Z",
+      "title": "$200 Pro, 97.97% Cached Input, Faster Quota Drain, and GPT-6.1 Sol That Can't Finish the Job. WTH Happened?",
+      "author": "/u/DeadlyVirusxK",
+      "url": "https://www.reddit.com/r/codex/comments/1xdft6r/200_pro_9797_cached_input_faster_quota_drain_and/",
+      "excerpt": "I've used AI since ChatGPT launched. I operate a large software ecosystem with autonomous coding agents handling real engineering goals.\n I subscribed to ChatGPT Pro $200 because it was worth it. I could run 3\u20134 concurrent goals, and my weekly allowance lasted 5\u20136 days.\n Now? Barely 2 goals can exhaust my allowance in roughly 2 days.\n The downgrade and the magic resets OpenAI reduced Pro $200 from 20\u00d7 to 10\u00d7, introduced a $500 tier, and promised eligible existing subscribers their original allowance through late October, alongside credits and resets.\n Yet around October 9, I started experiencing dramatically faster quota depletion, BEFORE the grandfathering period ends.\n On October 22, I had 3% left. Following a reset, I was back at 100%. By October 23 at 4:22 PM, I was already down to 65%, running just TWO GPT-6.1 Sol Medium goals.\n The resets originally felt like goodwill. Now they increasingly feel like PR damage control.\n Because seriously, 100% OF WHAT?\n The original allowance? Half of it? Some invisible backend quota?\n A reset restores a percentage. It doesn't tell customers whether their original purchasing power has been restored.\n Let's talk about the famous caching improv",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdfp83",
+      "timestamp": "2026-10-23T14:32:07Z",
+      "title": "Downgrading from pro (\u00a3100) to plus question",
+      "author": "/u/squishyjellyfish95",
+      "url": "https://www.reddit.com/r/codex/comments/1xdfp83/downgrading_from_pro_100_to_plus_question/",
+      "excerpt": "Hey I'm going away for 3 weeks and I won't be able to use codex during that time. So I was thinking to save money during that time I drop down to plus just for that month.\n Is there any major consequences for this? Do I lose my credits I stored (I have quite alot credits) and any other stuff that might be really bad consequences that will make the temp downgrade incredibly painful?\n    submitted by    /u/squishyjellyfish95  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdfmdz",
+      "timestamp": "2026-10-23T14:29:12Z",
+      "title": "That's a new one.",
+      "author": "/u/Bioleague",
+      "url": "https://www.reddit.com/r/codex/comments/1xdfmdz/thats_a_new_one/",
+      "excerpt": "Anyone got a fix?\n    submitted by    /u/Bioleague  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ymkl10gv88xh1.png?width=140&height=59&auto=webp&s=22f99aa390550dd1f9ce1710d28c064a8239e318"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdeoi4",
+      "timestamp": "2026-10-23T13:53:24Z",
+      "title": "Swarm: let Codex run a team of agents on your own server, on your ChatGPT plan (open source)",
+      "author": "/u/swarmagent",
+      "url": "https://www.reddit.com/r/codex/comments/1xdeoi4/swarm_let_codex_run_a_team_of_agents_on_your_own/",
+      "excerpt": "Swarm isn't another harness to switch to. It's a backend your AI drives: Codex (or Claude Code) talks to it over MCP and hands work to its coder, finder and designer agents, on schedules and workflows you describe in plain English. - Runs on your ChatGPT plan, or Claude, OpenAI, Anthropic, Google, OpenRouter, Fireworks - Deploy it on a VPS or any Ubuntu box, and use your machines as one fleet - Each job works on its own git branch; nothing lands until you merge - Can host a custom chatbot for your own site or app, on your server - Light: 100 agents in about 348 MB on a 1 GB, $6/month VM Setup: paste \"Read swarmagent.dev/llms.txt and set up Swarm on this machine for me.\" into Codex. https://swarmagent.dev \u00b7 https://github.com/swarm-agent/swarm     submitted by    /u/swarmagent  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/aG1uaGpic2QyOHhoMZDYXI02Shc5S3Fw2bIbzbTj7-pnlbbV4-Cp2W57J7fi.png?width=640&crop=smart&auto=webp&s=504a2b990f4df83a710bf9fd4cf169e9fa206682"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdea1j",
+      "timestamp": "2026-10-23T13:37:41Z",
+      "title": "Session Bridge: move a Codex conversation into Claude Code or OpenCode (and back) as a real, resumable session",
+      "author": "/u/Tiny-Journalist-1671",
+      "url": "https://www.reddit.com/r/codex/comments/1xdea1j/session_bridge_move_a_codex_conversation_into/",
+      "excerpt": "Moving a conversation from one coding assistant to another usually means starting over: the other one has none of the context. Codex's /import already covers Claude Code \u2192 Codex. Session Bridge covers all six directions between Codex CLI, Claude Code and OpenCode, and can keep them in sync.\n It reads the conversations all three keep on disk and writes the one you pick into another assistant's own format, as a new session you resume there normally (codex resume <id> on the Codex side).\n How the Codex side works, since that's the interesting part here:\n  Into Codex: it writes a new rollout, then has Codex itself read the thread back through app-server (thread/read) and checks that every message matches before calling the transfer done. It only uses Codex's read/name calls; no turn, tool or shell request is ever sent. Out of Codex: it reads the rollout and by default takes the current context (the last compaction summary and everything after it). --context all takes the full history. Tool calls and results become closed historical data written as assistant turns, never as user messages, so an instruction hidden in a tool's output can't come back as if you had typed it. As of 0.8.2 the",
+      "media_urls": [
+        "https://external-preview.redd.it/bGwydmYwcnF6N3hoMbQXdrdbB0ROD3HkGsM38JcLddejuhJlw0yMpyfWTm0a.png?width=640&crop=smart&auto=webp&s=07c997ebab6fae86e52863c4622614047f01f1a5"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xddy2j",
+      "timestamp": "2026-10-23T13:24:04Z",
+      "title": "built an open-source visual replay tool for Codex sessions",
+      "author": "/u/entelligenceai17",
+      "url": "https://www.reddit.com/r/codex/comments/1xddy2j/built_an_opensource_visual_replay_tool_for_codex/",
+      "excerpt": "been working on AgentPlay, an open-source tool to explore and replay coding agent sessions\n you can see which files your agent explored, which tools it called, where it failed and how it recovered\n would love feedback from people using Codex daily\n https://github.com/Entelligence-AI/agentplay \n https://preview.redd.it/sxd0xmsdx7xh1.png?width=1600&format=png&auto=webp&s=f9e3fa878fd1d1c5a13f64da60fa024678a0da0d\n    submitted by    /u/entelligenceai17  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/sxd0xmsdx7xh1.png?width=140&height=87&auto=webp&s=fbebac62342b1dc83988a20f2f7fb97f60cb1fa4",
+        "https://preview.redd.it/sxd0xmsdx7xh1.png?width=1600&format=png&auto=webp&s=f9e3fa878fd1d1c5a13f64da60fa024678a0da0d"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xddf03",
+      "timestamp": "2026-10-23T13:02:08Z",
+      "title": "I turned my K850 numpad into a visual control deck for Omarchy, toggled with Num Lock",
+      "author": "/u/New-Bus6938",
+      "url": "https://www.reddit.com/r/codex/comments/1xddf03/i_turned_my_k850_numpad_into_a_visual_control/",
+      "excerpt": "I\u2019ve been working on k-85 Deck, a side panel for Omarchy that turns the numeric keypad on my Logitech K850 into a set of visible, editable shortcuts.\n I built it around my two-monitor setup. The panel sits along the right edge of the second screen, with buttons arranged like the physical numpad. Pressing Num Lock switches between deck actions and normal number entry, so the keypad can still do its usual job.\n What it does:\n  Switch workspaces and show window previews when you hover over their buttons. Launch apps, run commands, open URLs and trigger keyboard shortcuts. Let you right-click a button to edit its name, icon and action. Provide two profiles: Escritorios (workspaces) and Trabajo (everyday actions). Offer optional WhatsApp unread counts, Codex usage, remote-computer cards and VPN controls. These integrations are off by default.  This is an experimental release built around a specific setup: Omarchy 4.0.4, Hyprland 0.56.2 with Lua configuration, a K850 and two monitors. The interface is currently in Spanish. Live desktop and physical-keyboard checks for this packaged release are still pending.\n The attached images and short clip are static UI previews, not a recording of l",
+      "media_urls": [
+        "https://preview.redd.it/kz272yf2t7xh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=50dcd26a204a9899c3ef711a75037b8b91004d76"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xdden9",
+      "timestamp": "2026-10-23T13:01:42Z",
+      "title": "I built an open-source MCP server so AI agents can control a real iPhone",
+      "author": "/u/semstr",
+      "url": "https://www.reddit.com/r/codex/comments/1xdden9/i_built_an_opensource_mcp_server_so_ai_agents_can/",
+      "excerpt": "I wanted to see if an AI agent could use my actual iPhone, not a simulator a real iPhone. Nothing existed for it, so I built it.\n Open iPhone Use is a free, open-source Mac app + MCP server. The iPhone shares its screen from Safari over local Wi-Fi (you don't even install an app on the phone, Safari does the sharing). The Mac pairs as a Bluetooth keyboard and mouse, and the agent gets screenshot and input tools over MCP, checking a fresh screenshot after every action.\n It works with any AI agent: ChatGPT/Codex any harness. Any model with strong computer-use skills is fine, GPT-6 Luna are good starting point. And since your client brings the model, your existing subscription is enough, no extra cost.\n Demo (full video attached): an agent searched Instagram, watched a Reel, scrolled the feed and liked one, all on my physical phone.\n You only need an iPhone + an Apple Silicon Mac.\n Download for Mac: https://github.com/semsturgut/open-iphone-use/releases \n GitHub: https://github.com/semsturgut/open-iphone-use \n Site: https://semsturgut.github.io/open-iphone-use/ \n Windows/Linux: coming soon \n Multi device support: coming soon\n Let me know what you think! And if you find this useful, a ",
+      "media_urls": [
+        "https://external-preview.redd.it/aXg2Ynh3MmF0N3hoMQ3WYefTc0u74YicV7s0dPpaDfj813P0IODtI1oJj9Z3.png?width=640&crop=smart&auto=webp&s=c322e81841d95d1bb5becf622209d1f4b0c83ab9"
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-23T14:37:09.196153Z",
+  "source": "bryanedds/Nu",
+  "recovery_since": "2026-10-23T11:57:25.287100Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "events": [
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-23T11:58:14Z",
+      "id": 39947362094,
+      "title": "CI",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "1bc449b6479a30e46f5041dbe6bb213e726dc22e",
+      "url": "https://github.com/bryanedds/Nu/actions/runs/39947362094"
+    }
+  ],
+  "errors": []
+}
