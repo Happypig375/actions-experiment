@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-24T21:59:19.134143Z",
+  "since": "2026-10-24T15:59:19.134143Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1xek4jt",
+      "title": "I made a game to feel agent drift, then ran it on Codex. Where would you say NO?",
+      "url": "https://www.reddit.com/r/codex/comments/1xek4jt/i_made_a_game_to_feel_agent_drift_then_ran_it_on/",
+      "created_at": "2026-10-24T21:16:34+00:00",
+      "author": "/u/magoo0707",
+      "excerpt": "I designed a short game to let you feel agent drift instead of reading about it. Then I ran the same game on Codex CLI (GPT-6-Luna and GPT-6.1-Sol, 32 runs). The video shows what Codex did.\n How did it feel? And where did you first say NO?\n    submitted by    /u/magoo0707  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xek2sb",
+      "title": "Quota usage tracking Garmin watch face",
+      "url": "https://www.reddit.com/r/codex/comments/1xek2sb/quota_usage_tracking_garmin_watch_face/",
+      "created_at": "2026-10-24T21:14:26+00:00",
+      "author": "/u/Greg-KB",
+      "excerpt": "I think I'm not alone with that quota-based AI subscriptions have given me a new hobby: checking how many tokens I have left. \ud83e\udd26\u200d\u2642\ufe0f How\u2019s my 5-hour and 7-day limits? When\u2019s the next reset? Can this task wait, or should I use a smaller model? I used to check my Garmin for steps and heart rate. Now I\u2019ve built a watch face to track my AI usage limits and reset countdowns too. \ud83d\ude09\n Garmin Instinct 2X showing Codex quota usage for both 7d and 5h.\n For anyone interested in adding support for other Garmin watches or even other AI providers the code is available on GitHub https://github.com/greg76/token-quota/\n    submitted by    /u/Greg-KB  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xejaoq",
+      "title": "Workflow Ideas/Routing more models inside Codex",
+      "url": "https://www.reddit.com/r/codex/comments/1xejaoq/workflow_ideasrouting_more_models_inside_codex/",
+      "created_at": "2026-10-24T20:41:16+00:00",
+      "author": "/u/dago_mcj",
+      "excerpt": "Looking to see how others are structuring model routing directly inside the Codex desktop client when bringing in your own endpoints. \n I do virtually 99% of my work directly in the native Codex app. The plugins, workspace tracking, and flow are where I plan to stay very active in codex still. But depending on the codebase (systems repos, kernel trees, or containers running), I don\u2019t always need the default ChatGPT models handling everything, and having more backend flexibility makes sense.\n I\u2019m looking at setting up a mixed setup inside the app using ChatGPT and other API key endpoints for the heavy passes, and local models on LAN for funsies.\n So is anyone running custom endpoints directly inside the client?\n When switching between models on projects, how did it go?\n What about some sort",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeimbk",
+      "title": "luna 6 is utter trash, repeatedly fails to do basically the simplest tasks because of \"sandbox issues\" or other made up things while luna 5.6 works without an issue",
+      "url": "https://www.reddit.com/r/codex/comments/1xeimbk/luna_6_is_utter_trash_repeatedly_fails_to_do/",
+      "created_at": "2026-10-24T20:12:45+00:00",
+      "author": "/u/xVrath",
+      "excerpt": "luna 6, unable to answer a simple question\n luna 5.6 \n The screenshots are just examples, luna 6 doesn't seem to be able to do basically anything, while 5.6 is working perfectly.\n    submitted by    /u/xVrath  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeilne",
+      "title": "I asked Codex for some battlefield props. Ended up with a whole review tool.",
+      "url": "https://www.reddit.com/r/codex/comments/1xeilne/i_asked_codex_for_some_battlefield_props_ended_up/",
+      "created_at": "2026-10-24T20:11:58+00:00",
+      "author": "/u/AC-Daniel",
+      "excerpt": "I wanted more grass, rocks and breakable props for my indie game. Then came all the fiddly stuff: the grass needs to be darker in the forest, that rock looks huge, please stop putting things in the middle of the path...\n Ended up building a little battlefield lab with Codex. It renders the scenes in Unity and puts the captures into a local browser gallery. I can click through 20 layouts per map, inspect the placement and compare art changes with a slider.\n The useful bit in the comparison rounds was keeping the camera and object placement fixed. Same patch of grass, same spot, different colour or size. Much easier to explain what still looks off when both versions are right there.\n We also added checks for object sizes and placement around paths and fields. I still choose what looks right,",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xegtpw",
+      "title": "\"Your dot is on a break. Congrats you are in the very top users and have hit our abuse prevention limit. Check back in a bit!\"",
+      "url": "https://www.reddit.com/r/codex/comments/1xegtpw/your_dot_is_on_a_break_congrats_you_are_in_the/",
+      "created_at": "2026-10-24T18:59:52+00:00",
+      "author": "/u/Infinite100p",
+      "excerpt": "https://preview.redd.it/9grjwrelpgxh1.png?width=1404&format=png&auto=webp&s=c33b1988c1e5d37f21d31a013ddc5d88662d5962\n LMAO, got the \"honor\" of the \"very top user\" for having my dot crawl stuff for research for a few hours after a completely idle week.\n I wish they'd be transparent about the limits.\n    submitted by    /u/Infinite100p  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xefsf0",
+      "title": "Already paying for Codex or Claude Code? Use it to edit your videos.",
+      "url": "https://www.reddit.com/r/codex/comments/1xefsf0/already_paying_for_codex_or_claude_code_use_it_to/",
+      "created_at": "2026-10-24T18:18:33+00:00",
+      "author": "/u/Signal_Device9015",
+      "excerpt": "I liked editing videos with ChatGPT's Codex and Claude, but I hated not seeing what it was doing. So I built Cutcrow: a real video editor with a timeline, driven by the AI subscription you already have.\n Tell it \u201ccut the 'ums' and add captions, also give the text at 12s an intro animation\u201d and watch it happen on the timeline. Then tweak anything yourself.\n No extra AI plan, no weaker built-in model. Your AI does the heavy lifting; you stay in control.\n Try it -> cutcrow.com\n    submitted by    /u/Signal_Device9015  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xefqtn",
+      "title": "How I keep track of UI fixes while Codex is busy",
+      "url": "https://www.reddit.com/r/codex/comments/1xefqtn/how_i_keep_track_of_ui_fixes_while_codex_is_busy/",
+      "created_at": "2026-10-24T18:16:45+00:00",
+      "author": "/u/Made4uo",
+      "excerpt": "While Codex is working on one fix, I\u2019m usually checking the rest of the app. That\u2019s when I notice the next things like a misplaced button, a typo, something overlapping on a smaller screen.\n Codex already lets you queue follow-ups. But I don\u2019t always want the next fix to start as soon as the current response finishes. Sometimes I want to review the result first, change priorities, or leave an idea for later.\n I wanted to save those fixes with their screenshots, and get them out of my head until I was ready.\n That\u2019s why I built CueTray, a small Windows tray app.\n I snip the problem, mark up the screenshot, and write what should change. CueTray saves them together as a numbered cue under the right project. I can reorder fixes or put something on hold.\n After installing the next-cue skill fro",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeffub",
+      "title": "Best skills or plugins for automatically keeping repos clean, documented and up to date?",
+      "url": "https://www.reddit.com/r/codex/comments/1xeffub/best_skills_or_plugins_for_automatically_keeping/",
+      "created_at": "2026-10-24T18:04:45+00:00",
+      "author": "/u/DJJonny",
+      "excerpt": "I'm looking for a way to keep my repositories well-maintained without having to constantly think about it.\n I'm not a professional developer, but I do a lot of vibe coding across Claude Code and Codex.\n Ideally, I'd like something that automatically:\n  Keeps documentation up to date as code changes. Ensures AGENTS.md stays accurate, concise and follows best practices. Identifies outdated code, unnecessary files and opportunities for cleanup. Enforces good coding standards and repository structure. Makes it easy to switch between AI agents without losing context or progress.  Essentially, I want my repos to remain clean, well-documented and easy for any coding agent to pick up at any point.\n I've come across GitHub Agentic Workflows, docs-sync and a few other skills, but I'm wondering if th",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xef58y",
+      "title": "Sooooooooo\u2026 reset?",
+      "url": "https://www.reddit.com/r/codex/comments/1xef58y/sooooooooo_reset/",
+      "created_at": "2026-10-24T17:53:09+00:00",
+      "author": "/u/Necessary-Process470",
+      "excerpt": "submitted by    /u/Necessary-Process470  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeea0z",
+      "title": "I forgot I had an agent doing work and it used computer use while I was watching porn. Reckon OpenAI will be seeing what I was seeing?",
+      "url": "https://www.reddit.com/r/codex/comments/1xeea0z/i_forgot_i_had_an_agent_doing_work_and_it_used/",
+      "created_at": "2026-10-24T17:17:46+00:00",
+      "author": "/u/Glittering-Smell2937",
+      "excerpt": "Title.\n    submitted by    /u/Glittering-Smell2937  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xee21h",
+      "title": "Codex Usage Planner: plan your daily quota around random resets",
+      "url": "https://www.reddit.com/r/codex/comments/1xee21h/codex_usage_planner_plan_your_daily_quota_around/",
+      "created_at": "2026-10-24T17:08:47+00:00",
+      "author": "/u/Due-Assumption5272",
+      "excerpt": "Hi everyone,\n With Codex I'm always on one side or the other: either I run out before the refill, or the week ends with quota I never used and I regret holding back. And now that Tibos' extra resets keep dropping at random times, planning around them is even more annoying.\n So I made Usage Planner, a free open source Codex plugin (it used to be called Codex4ever).\n Once it's installed, just ask Codex \"open usage planner\". It:\n - Reads your current quota by itself, nothing to type in\n - Pulls the reset forecast (chance of an extra reset in the next 12h / 24h / 48h, from public reset history)\n - Plans how much to use per day until your next refill, with a few strategies: keep your pace, stay available, use it all, or weekdays / weekends only\n - Tells you when a banked reset is worth using be",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeddvi",
+      "title": "12 months of putting AI into a SaaS with a 6-person team. Here's our setup, and I'd like to hear yours",
+      "url": "https://www.reddit.com/r/codex/comments/1xeddvi/12_months_of_putting_ai_into_a_saas_with_a/",
+      "created_at": "2026-10-24T16:42:20+00:00",
+      "author": "/u/ocebe",
+      "excerpt": "I keep reading threads about this and most of them show the demo, not the Tuesday morning. Here's ours, no polish, then some questions.\n Six of us on a SaaS, twelve months of adding AI gradually. Early on everyone had their own editor and their own habits. Then we looked back and found we'd already converged on most of it, so we wrote it down.\n We didn't force a single tool either. Some on Claude Code, some on Codex, some on Cursor, and I'm not going to fight that one. The process is shared, and the conventions sit in the repo's AGENTS.md, which is the only thing we all read the same way.\n The flow is Matt Pocock's skills, no forks. We start with grill-with-docs: the AI interviews us about the project docs. Weird at first when you're used to asking the questions, but a lot of never-written",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeczbt",
+      "title": "I thought auto review was supposed to be free now? It's still consistently consuming my weekly limits",
+      "url": "https://www.reddit.com/r/codex/comments/1xeczbt/i_thought_auto_review_was_supposed_to_be_free_now/",
+      "created_at": "2026-10-24T16:25:56+00:00",
+      "author": "/u/sunaurus",
+      "excerpt": "submitted by    /u/sunaurus  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeb5sl",
+      "title": "Sol 5.6 vs Sol 6.1 for knowledge work, how\u2019s it going?",
+      "url": "https://www.reddit.com/r/codex/comments/1xeb5sl/sol_56_vs_sol_61_for_knowledge_work_hows_it_going/",
+      "created_at": "2026-10-24T15:12:17+00:00",
+      "author": "/u/InvaderJ",
+      "excerpt": "For everyone using Sol models not for coding but for knowledge work. Things like: XLS/CSV analysis, biz strategy docs, biz writing for internal and external audiences, email triage, etc.\n Not a consumer situation so resets/usage limits are irrelevant.\n Sol 5.6 (High) still seems like the best fit for cost vs speed vs capability. Sol 6.1 has seemed pokey for generally the same quality output.\n I\u2019m going through some evals now and have collected older anecdotal evidence and evals, but a fresh take, however limited, would be quite useful!\n    submitted by    /u/InvaderJ  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xeajvq",
+      "title": "Anyone know how to fix unresponsive UI on Codex Mac?",
+      "url": "https://www.reddit.com/r/codex/comments/1xeajvq/anyone_know_how_to_fix_unresponsive_ui_on_codex/",
+      "created_at": "2026-10-24T14:47:41+00:00",
+      "author": "/u/PrintWaste",
+      "excerpt": "I'm not sure if its limited to me, but while having multiple chats on my Mac the codex app sometimes just refuses to accept that my mouse is doing anything or my keyboard. I go to hover on something and click it and it's like my mouse does not exist. Same with keyboard shortcuts. \n The only way is to force quit and resume my chats after (just for it to freeze in a couple of minutes again.)\n The chats are still running its not like the UI stalled because I can see the circles still spinning and the actual chats moving but it just no longer acknowledges any sort of input. \n Curious if anyone has ran into this issue and what a fix could be. \n MacOS 27, Stage Manager\n    submitted by    /u/PrintWaste  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe7m17",
+      "title": "Plan in GPT, build in Codex, review in Codex: three gates I add so \"done\" means something",
+      "url": "https://www.reddit.com/r/codex/comments/1xe7m17/plan_in_gpt_build_in_codex_review_in_codex_three/",
+      "created_at": "2026-10-24T12:39:46+00:00",
+      "author": "/u/SirRobinBlibs",
+      "excerpt": "A common loop I see here and in r/ChatGPTPro: a GPT chat plans and writes the prompt, one Codex session builds, another Codex session reviews \"adversarially.\" It's a good loop. The places it still leaks are the same ones a team of four described in r/ClaudeCode after ~600 PRs: the agent picked packages (\"we ended up with 3 date libraries\"), \"it compiles\" was the finish line (\"Our worst bug this year passed tsc, lint and the tests the agent wrote for it\"), and self-review \"mostly agreed with itself.\"\n Three gates that fixed those for me:\n 1. A finish-line command in the plan, written before any code. Not \"add tests.\" One command with an expected result that exits non-zero until the behaviour works: an e2e case, a smoke script against the real CLI, the bug's reproduction. Then make it non-op",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe6o0h",
+      "title": "Dots review",
+      "url": "https://www.reddit.com/r/codex/comments/1xe6o0h/dots_review/",
+      "created_at": "2026-10-24T11:52:25+00:00",
+      "author": "/u/s_sam01",
+      "excerpt": "I didnt pay attention to Dots until yesterday. I had some manual web research work to do and I gave the task to Dots to generate some 2000 web validated records. It has been running for 14+ hours and generated some 1600 records until it stopped, saying, \"Congrats, you are in the very top users and have hit our abuse prevention limit. Check back in a bit.\"\n I reviewed the work and honestly, I am impressed. It didn't lose sight or objective, and neither did it hallucinate. Every record was referenced with the source.\n I struggled to understand what was Dots for but I am glad, I found one usecase that works for me.\n    submitted by    /u/s_sam01  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe4662",
+      "title": "Is AI actually good at finding and fixing bugs, or does it just keep finding problems because you ask it to?",
+      "url": "https://www.reddit.com/r/codex/comments/1xe4662/is_ai_actually_good_at_finding_and_fixing_bugs_or/",
+      "created_at": "2026-10-24T09:25:07+00:00",
+      "author": "/u/Sawyer007",
+      "excerpt": "I made a simple custom image viewer and editor for my own use. I used Sol 6.1 Extra High, and it completed the app pretty quickly since it's nothing particularly complicated.\n Once it was done, I told it to check the code for bugs and fix anything it found. It found some bugs and fixed them.\n Then I asked it to check again. It found more bugs and fixed those too.\n So I asked again. And again. And again.\n Every single time, it somehow managed to find new bugs!\n At that point, I still had plenty of Codex usage left, so I thought to myself: I have no idea whether it's actually finding real bugs or just making things up, but why not take it a step further?\n So I set up a scheduled task to run once every hour, automatically looking for bugs and fixing whatever it found.\n And surprisingly, it wo",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe40yw",
+      "title": "can we get codex working with claude code as the underlying agent in the dynamic workflow?",
+      "url": "https://www.reddit.com/r/codex/comments/1xe40yw/can_we_get_codex_working_with_claude_code_as_the/",
+      "created_at": "2026-10-24T09:15:57+00:00",
+      "author": "/u/OneMasterpiece1717",
+      "excerpt": "claude code ultra code with dynamic workflow is powerful, but it consumes quota too fast, I once run out of quota with only one task, hundreds of subagents in one workflow.\n I wonder if we can use codex as the subagents in the dynamic workflow, such that both my subscriptions can be used together on important and complicated tasks.\n    submitted by    /u/OneMasterpiece1717  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe2318",
+      "title": "Tasked to build a custom agent platform for my company, what UI/Harness would you use?",
+      "url": "https://www.reddit.com/r/codex/comments/1xe2318/tasked_to_build_a_custom_agent_platform_for_my/",
+      "created_at": "2026-10-24T07:14:41+00:00",
+      "author": "/u/Electronic_Sort_6627",
+      "excerpt": "Building a custom UI/harness that lets employees complete pretty much every aspect of a specific job through one interface. Essentially, an extension of the worker rather than just a chatbot.\n Think Python modeling, document extraction, data mapping, analysis, visualizations, and more.\n Basically, Codex-level capabilities, but connected to enterprise infrastructure, with custom tools and deployable to multiple users. Proper guardrails, specialized agents, all through a custom UI.\n I'm already using AWS for the backend. What I'm struggling with is finding a flexible, customizable UI/harness without building everything from scratch.\n I've tried OpenCode, which seems promising, but I'm unsure how customizable the UI is. DeepSeek's newer harness also looks interesting, though apparently still ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xe1nyx",
+      "title": "I created a Roguelite Deckbuilder using AI workflow",
+      "url": "https://www.reddit.com/r/codex/comments/1xe1nyx/i_created_a_roguelite_deckbuilder_using_ai/",
+      "created_at": "2026-10-24T06:50:02+00:00",
+      "author": "/u/Fraze_RIP",
+      "excerpt": "Game name: Vampine: New Order\n Developer: Project Despair LLC\n Release platform: Steam, itch.io\n Current status: Demo available for free\n I'm the programmer of the project. This is the first standalone game I had ever worked on and released to public, and it is the first one I tried to use adapt AI into game development.\n The code is a combination between Opus, Sol (mostly) and Astra with I give out the direction and framework. The engine is Unity, connected to agents using Unity MCP (a third party plugin) and later switch to the official Unity CLI. It can handle most of the implementations and auto testing on its own, which is a big plus. I'm glad to see Unity catching up with the AI game.\n The art is 70% generated by ChatGPT image, most of them are manually verified and modified by a rea",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdza3r",
+      "title": "Anyone else doing this with codex?",
+      "url": "https://www.reddit.com/r/codex/comments/1xdza3r/anyone_else_doing_this_with_codex/",
+      "created_at": "2026-10-24T04:31:51+00:00",
+      "author": "/u/EffSocialMedia",
+      "excerpt": "I upgraded my orchestration layer into cloud orchestration meaning that all computers (5 so far) on my network can receive jobs and no matter where i que a task from whatever computer, any chat will be able to coordinate work with each other. but generally i que all tasks from one computer and the cloud orchestration will send tasks to the other computers depending on ram, cpu, and gpu available. I also made it to where claude and codex and coordinate with each other since both of them are good at particular tasks depending on the job. The cloud orchestration does a pretty good job with agent overlap, verifiers, logging, regression testing, and all that good shit, but sometimes things will occasionally get bogged down and so I have hermes in the middle constantly monitoring 24/7 if a task ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdyj7e",
+      "title": "How do you test your game with AI",
+      "url": "https://www.reddit.com/r/codex/comments/1xdyj7e/how_do_you_test_your_game_with_ai/",
+      "created_at": "2026-10-24T03:51:08+00:00",
+      "author": "/u/Swimming_Ask3859",
+      "excerpt": "I've been making my own soccer game with AI for myself and I am new to developing games with AI, so I was wondering, how do you get luna or sol to perform quality tests using WASD, the controls, and running around and stuff like that to make sure it is as realistic as possible and there aren't any bugs? any tips help im just abeginner i dont want to offend anyone with my lack of knowledge\n    submitted by    /u/Swimming_Ask3859  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdxhn9",
+      "title": "I built an iOS IDE with support for 19 languages and an AI agent using SOL 6.1",
+      "url": "https://www.reddit.com/r/codex/comments/1xdxhn9/i_built_an_ios_ide_with_support_for_19_languages/",
+      "created_at": "2026-10-24T02:54:53+00:00",
+      "author": "/u/pythononrailz",
+      "excerpt": "Hey r/Codex\n I was looking for an IDE to code on my iPhone for when I\u2019m out and about. Every app was filled with ads, had a terrible UI, and costed money just to run code locally. This was just a basic non agentic IDE too. So, I decided to build a free IDE that can execute C, Python, JavaScript, and Lua in a sandboxed environment. \n In today\u2019s age most people are coding with agents, so then I got the idea to bundle a two local llms. The reason I chose two is because not everyone\u2019s hardware has the same computing power and I wanted to include an option for everyone. There are zero rate limits on the local models. \n I\u2019m already designing a tooling server to give offline agents access to even more, such as, worksheets, 3D printer code, and other fun stuff. \n Without Astra 6 and Sol 6.1 it wou",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdx4d5",
+      "title": "Need some advice\u2026 Custom AI DENTAL CAD",
+      "url": "https://www.reddit.com/r/codex/comments/1xdx4d5/need_some_advice_custom_ai_dental_cad/",
+      "created_at": "2026-10-24T02:35:24+00:00",
+      "author": "/u/SnooEagles1568",
+      "excerpt": "So ive been using codex (Luna on extra high) for the past week and a half trying to get it to build some local running AI dental CAD tools. Basically taking scans from the intraoral scanners (just high res stl scans), clean up the scans by isolating just the teeth and main gums (cut out any island and cheek tissue), then use that as the clean slate for generating dental appliances. The same thing dozens of companies do and charge an arm and a leg per generation. I figured if so many companies can do it, why cant I? Well, codex has spent a week and a half just trying to figure out how to clean the STL files let alone do anything useful. \n Is there a model that would be better for something like this?\n For reference to anyone (which im assuming most people here) who isnt in the industry or k",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdwouy",
+      "title": "I still trust Astra and its planning more than any other model..",
+      "url": "https://www.reddit.com/r/codex/comments/1xdwouy/i_still_trust_astra_and_its_planning_more_than/",
+      "created_at": "2026-10-24T02:12:29+00:00",
+      "author": "/u/Affectionate_Fee232",
+      "excerpt": "I still think Astra does the most thorough job out of all the current models and actually approaches problems with real logic. It genuinely feels like proper thought goes into the response before it lands on an answer, which gives me a lot more trust in its output.\n That said, it has one huge quirk: it can go way too deep sometimes, and you have to rein it in a bit. Right now, my best workflow is to use Opus 5.5 as a middleman. Opus's only job is to take what I want and reword it into a more grounded, realistic plan. I basically tell Opus: \"Look, I have this other model whose judgment I trust the most, but it loves to over-engineer everything to a fault. It tries to build NASA-grade products when we're just trying to build something for everyday consumers. I need you to ground this model w",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdvd66",
+      "title": "I made an AI VFX promo for Creativly",
+      "url": "https://www.reddit.com/r/codex/comments/1xdvd66/i_made_an_ai_vfx_promo_for_creativly/",
+      "created_at": "2026-10-24T01:04:05+00:00",
+      "author": "/u/nav132",
+      "excerpt": "I\u2019ve been testing video restyling and masking in Creativly, so I put together a promo using some of the before-and-after results as footage. Sol 6.1 (xhigh) handled most of the AE work, Gemini helped with motion-design feedback, and ElevenLabs v4 did the narration.\n Trialing the AI VFX feature for now. It supports video restyling and masked based edits so you can change a specific object or area rather than the whole shot.\n Preview link: https://www.creativly.ai/apps/video-vfx\n    submitted by    /u/nav132  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdv5tw",
+      "title": "does switching models mid codex thread help save credits or does it make it worse?",
+      "url": "https://www.reddit.com/r/codex/comments/1xdv5tw/does_switching_models_mid_codex_thread_help_save/",
+      "created_at": "2026-10-24T00:53:47+00:00",
+      "author": "/u/Time-Toe-1276",
+      "excerpt": "Hi, I study deeplearning, and a thing with AI models it that before it output text it has to embedd the text to get something called the hidden state. THIS is what is passed to the LM head (the thing which *outputs* the tokens)\n so like, when you switch a model, OpenAI have to completely re-embedd the input tokens to match the selected models embedding space right?\n so this is extra compute. wouldnt this worsen my rate limits?\n I have seen some folks changing their models midway through, and I remember OpenAI saying this can \"degrade performance\" back then.\n so I want to know if my hypothesis is right or wrong. bcs it would be TOO GOOD to change between sol and luna.\n what are you guy's thoughts on this?\n    submitted by    /u/Time-Toe-1276  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xduql9",
+      "title": "Codex and Claude Code on the $200 plans",
+      "url": "https://www.reddit.com/r/codex/comments/1xduql9/codex_and_claude_code_on_the_200_plans/",
+      "created_at": "2026-10-24T00:32:15+00:00",
+      "author": "/u/MasterMoroni",
+      "excerpt": "I'm currently making an app, got the $200 plans for Codex and Claude. \n Basically Codex did some tasks better but I ran out of weekly usage in a day.\n Claude got more done on the week overall as Opus 5.5 is really cost efficient.\n One thing is cool tho its my Dot, really helpful to talk with him while on the treadmill.\n Made a youtube video about it: https://youtu.be/HOBQjumjmuY\n    submitted by    /u/MasterMoroni  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xduqe2",
+      "title": "anyone using (multi hour run) agents, how are you managing your token burn?",
+      "url": "https://www.reddit.com/r/codex/comments/1xduqe2/anyone_using_multi_hour_run_agents_how_are_you/",
+      "created_at": "2026-10-24T00:31:58+00:00",
+      "author": "/u/ConsiderationNo9952",
+      "excerpt": "so i'm pushing 90% (2-4B/d) through deepseek 4.1 flash 1017 and minimax 3.1 flash (have a subscription to use / these are not fast tokens) but i'd like to hear from people that have multiple agents running on jobs that take a few hours at a time:\n how are you managing your quota? 500$ plan etc?\n how many tokens are you using in a day? does this work once we leave this reset happy month?\n i.e. on codex / claude / etc, are you getting <n>B tk/s per day and if so, what is it costing you / how are you balancing plans etc?\n i don't think i have any particular skill issue etc (i strip a bit on the wire and fallback providers without hitting prefix cache) - but as we push ai to take on more work / workflows i haven't sorted out what the \"best practice\" is for where to source these tokens...\n *usi",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xdubn0",
+      "title": "Astra suddenly very fast with reasonable usage...",
+      "url": "https://www.reddit.com/r/codex/comments/1xdubn0/astra_suddenly_very_fast_with_reasonable_usage/",
+      "created_at": "2026-10-24T00:12:11+00:00",
+      "author": "/u/ChineseChessOutLoud",
+      "excerpt": "I've seen a lot of problems with people's accounts getting drained by using Astra, and I also had similar problems when it was first released. Even a week ago a few simple conversations and tasks with Astra would drain 15 percent of my weekly allotment ($100 plan) in minutes. Astra was also very slow, even with Light.\n Suddenly, within the past week Astra Light is responding with lightning speed (I'm not using 1.5x), and I've gradually shifted to using it more regularly. Today, I tried Astra Max for a more complicated task, and it crunched away for 41 minutes and only used 6% of my weekly usage (100% down to 94%).\n I am beyond delighted. Astra is starting to feel soooo good. \n I don't have a way to test if this is genuinely a change in behavior or just my imagination. But I hope Astra is t",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
