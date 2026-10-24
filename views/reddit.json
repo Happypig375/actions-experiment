@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-24T21:54:43.231252Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-24T19:52:13.221115Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xek4jt",
+      "timestamp": "2026-10-24T21:16:34Z",
+      "title": "I made a game to feel agent drift, then ran it on Codex. Where would you say NO?",
+      "author": "/u/magoo0707",
+      "url": "https://www.reddit.com/r/codex/comments/1xek4jt/i_made_a_game_to_feel_agent_drift_then_ran_it_on/",
+      "excerpt": "I designed a short game to let you feel agent drift instead of reading about it. Then I ran the same game on Codex CLI (GPT-6-Luna and GPT-6.1-Sol, 32 runs). The video shows what Codex did.\n How did it feel? And where did you first say NO?\n    submitted by    /u/magoo0707  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/dXBuNGhvYWdlaHhoMVZKLBnJ3O5-zPDBzU4jxGC86wL-Dzu38WVa_ERPtGUY.png?width=640&crop=smart&auto=webp&s=82bc49b5393b204d8b541b64da0c1fa49d1e552f"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xek2sb",
+      "timestamp": "2026-10-24T21:14:26Z",
+      "title": "Quota usage tracking Garmin watch face",
+      "author": "/u/Greg-KB",
+      "url": "https://www.reddit.com/r/codex/comments/1xek2sb/quota_usage_tracking_garmin_watch_face/",
+      "excerpt": "I think I'm not alone with that quota-based AI subscriptions have given me a new hobby: checking how many tokens I have left. \ud83e\udd26\u200d\u2642\ufe0f How\u2019s my 5-hour and 7-day limits? When\u2019s the next reset? Can this task wait, or should I use a smaller model? I used to check my Garmin for steps and heart rate. Now I\u2019ve built a watch face to track my AI usage limits and reset countdowns too. \ud83d\ude09\n Garmin Instinct 2X showing Codex quota usage for both 7d and 5h.\n For anyone interested in adding support for other Garmin watches or even other AI providers the code is available on GitHub https://github.com/greg76/token-quota/\n    submitted by    /u/Greg-KB  \n [link]   [comments]",
+      "media_urls": [
+        "https://external-preview.redd.it/uZVW2G-8bNK4q9yE0bSNc2dKbjztLr-BYo4ShHiIO78.png?width=140&height=70&auto=webp&s=cd6518b626849b5eb28bd3acbe032490b6290b86",
+        "https://preview.redd.it/r7m5f2gndhxh1.jpeg?width=1000&format=pjpg&auto=webp&s=b826aa827e322c310b310dba3ead3ac30eb7f675"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xejaoq",
+      "timestamp": "2026-10-24T20:41:16Z",
+      "title": "Workflow Ideas/Routing more models inside Codex",
+      "author": "/u/dago_mcj",
+      "url": "https://www.reddit.com/r/codex/comments/1xejaoq/workflow_ideasrouting_more_models_inside_codex/",
+      "excerpt": "Looking to see how others are structuring model routing directly inside the Codex desktop client when bringing in your own endpoints. \n I do virtually 99% of my work directly in the native Codex app. The plugins, workspace tracking, and flow are where I plan to stay very active in codex still. But depending on the codebase (systems repos, kernel trees, or containers running), I don\u2019t always need the default ChatGPT models handling everything, and having more backend flexibility makes sense.\n I\u2019m looking at setting up a mixed setup inside the app using ChatGPT and other API key endpoints for the heavy passes, and local models on LAN for funsies.\n So is anyone running custom endpoints directly inside the client?\n When switching between models on projects, how did it go?\n What about some sort of local aware switching so I'm not losing my mind remembering which model is for which task?\n    submitted by    /u/dago_mcj  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xeimbk",
+      "timestamp": "2026-10-24T20:12:45Z",
+      "title": "luna 6 is utter trash, repeatedly fails to do basically the simplest tasks because of \"sandbox issues\" or other made up things while luna 5.6 works without an issue",
+      "author": "/u/xVrath",
+      "url": "https://www.reddit.com/r/codex/comments/1xeimbk/luna_6_is_utter_trash_repeatedly_fails_to_do/",
+      "excerpt": "luna 6, unable to answer a simple question\n luna 5.6 \n The screenshots are just examples, luna 6 doesn't seem to be able to do basically anything, while 5.6 is working perfectly.\n    submitted by    /u/xVrath  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/zkw4ambo2hxh1.png?width=140&height=58&auto=webp&s=dbe9f5f99e3c71d1582894ff4b7722ba774f9398",
+        "https://preview.redd.it/zkw4ambo2hxh1.png?width=872&format=png&auto=webp&s=cf1bcb7cc454785afd168a1796e92bb71f333f60",
+        "https://preview.redd.it/4n56rogt2hxh1.png?width=859&format=png&auto=webp&s=19328b5db4ac3b29e70f7f1fa22ad975122a5617"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xeilne",
+      "timestamp": "2026-10-24T20:11:58Z",
+      "title": "I asked Codex for some battlefield props. Ended up with a whole review tool.",
+      "author": "/u/AC-Daniel",
+      "url": "https://www.reddit.com/r/codex/comments/1xeilne/i_asked_codex_for_some_battlefield_props_ended_up/",
+      "excerpt": "I wanted more grass, rocks and breakable props for my indie game. Then came all the fiddly stuff: the grass needs to be darker in the forest, that rock looks huge, please stop putting things in the middle of the path...\n Ended up building a little battlefield lab with Codex. It renders the scenes in Unity and puts the captures into a local browser gallery. I can click through 20 layouts per map, inspect the placement and compare art changes with a slider.\n The useful bit in the comparison rounds was keeping the camera and object placement fixed. Same patch of grass, same spot, different colour or size. Much easier to explain what still looks off when both versions are right there.\n We also added checks for object sizes and placement around paths and fields. I still choose what looks right, then we run another round. The screenshots are from those review sessions.\n I've become surprisingly invested in the correct shade of miserable forest grass.\n Anyone else building little visual review tools with Codex? Curious what you've found useful.\n This is for my game Necrolord, btw. There's a free demo if you fancy trying it:\n https://store.steampowered.com/app/5282860?utm_source=reddit\n   ",
+      "media_urls": [
+        "https://preview.redd.it/pz2qhmey2hxh1.png?width=140&height=140&crop=1:1,smart&auto=webp&s=99bfcbd99312be729ff02ccade899df04082e1af"
+      ]
+    }
+  ],
+  "errors": []
+}
