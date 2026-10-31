@@ -1,0 +1,335 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-31T20:10:29.720689Z",
+  "since": "2026-10-31T14:10:29.720689Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1xkj8l7",
+      "title": "Computer Restarted and Codex Chats Missing",
+      "url": "https://www.reddit.com/r/codex/comments/1xkj8l7/computer_restarted_and_codex_chats_missing/",
+      "created_at": "2026-10-31T19:34:44+00:00",
+      "author": "/u/Large-Leader",
+      "excerpt": "I had to restart my computer and suddenly saw a bunch of Codex chats are seemingly missing and I checked my archived chats but didn't find them there either. Oddly enough they're visible on my phone. So clearly, they're there. But on the desktop app my projects state that there aren't any conversations at all.\n I asked ChatGPT and it has no idea what happened. This is the second time it's happened now and I'm not sure why. Has this happened to anyone else?\n    submitted by    /u/Large-Leader  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkinh4",
+      "title": "Dont know what to do",
+      "url": "https://www.reddit.com/r/codex/comments/1xkinh4/dont_know_what_to_do/",
+      "created_at": "2026-10-31T19:10:39+00:00",
+      "author": "/u/Efficient-Range1510",
+      "excerpt": "I have a $200 codex plan and I have no idea what to do with it. I never reach my limit. If anyone has useful/fun thing they like to do with chatgpt, can you share it below? I don't know what to do, I've run out of ideas.\n I won the plan from something, I do not plan to downgrade or give it away\n    submitted by    /u/Efficient-Range1510  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xki7lv",
+      "title": "Understanding ChatGPT and Codex usage limits | OpenAI Help Center",
+      "url": "https://www.reddit.com/r/codex/comments/1xki7lv/understanding_chatgpt_and_codex_usage_limits/",
+      "created_at": "2026-10-31T18:52:30+00:00",
+      "author": "/u/BusinessSurprise9654",
+      "excerpt": "OpenAI just updated its official documentation confirming that starting in December, Plus, Pro, and Business plans will share a single token-based allowance across ChatGPT and Codex as Work capabilities merge into ChatGPT.\n    submitted by    /u/BusinessSurprise9654  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xki14c",
+      "title": "Anyone upgraded from Pro $200 to $500 after exhausting Work/Codex weekly usage?",
+      "url": "https://www.reddit.com/r/codex/comments/1xki14c/anyone_upgraded_from_pro_200_to_500_after/",
+      "created_at": "2026-10-31T18:45:00+00:00",
+      "author": "/u/Busy_Ad3211",
+      "excerpt": "Hi everyone!\n I\u2019m currently on ChatGPT Pro $200 and have completely exhausted my weekly Work/Codex allowance (0% remaining).\n Yesterday, I purchased approximately $2,000 in additional credits, which were consumed within 24 hours. I\u2019m using GPT-6 Astra Ultra for a large, complex and code analysis project.\n My next weekly reset is November 5, but I urgently need to continue working.\n Has anyone upgraded from Pro $200 to $500 after exhausting their weekly allowance?\n I\u2019d really appreciate firsthand experiences:\n Did upgrading immediately restore your Work/Codex usage?\n Did your weekly allowance reset to 100%, or did you only receive the difference between the plans?\n Did your weekly reset date change?\n How much additional usage did you actually get?\n I\u2019m especially interested in experiences a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkhxqt",
+      "title": "CodeRail: approve Codex runs from your phone and let your team share one Codex session (open source, self-hosted)",
+      "url": "https://www.reddit.com/r/codex/comments/1xkhxqt/coderail_approve_codex_runs_from_your_phone_and/",
+      "created_at": "2026-10-31T18:41:12+00:00",
+      "author": "/u/L_i_n_k0666",
+      "excerpt": "I built CodeRail, a self-hosted remote control for Codex (it also supports Claude Code).\n Why: Codex stops and waits whenever it needs approval. If I was away from my desk, a session could sit idle for hours, and nobody else on the team could step in because it lived on my laptop.\n What it does:\n - Open any Codex session on your computer from a phone or browser: chat, plans, tool calls, models and modes, background tasks.\n - Approval requests arrive as push notifications. Approve once, always allow, or deny from anywhere.\n - Teammates can join the same session: same context, same machine, same repo, one task. Roles (Owner / Operator / Viewer) and an audit log show who approved what.\n - Terminals, files, git and a built-in browser sit next to the chat.\n How it works:\n - A bridge on each com",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkhphy",
+      "title": "A Real Question",
+      "url": "https://www.reddit.com/r/codex/comments/1xkhphy/a_real_question/",
+      "created_at": "2026-10-31T18:32:02+00:00",
+      "author": "/u/booknerdcarp",
+      "excerpt": "Will anyone ever be happy with anything that OpenAI does?\n    submitted by    /u/booknerdcarp  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkggun",
+      "title": "why is ... whatever this is the description for 6.1 terra",
+      "url": "https://www.reddit.com/r/codex/comments/1xkggun/why_is_whatever_this_is_the_description_for_61/",
+      "created_at": "2026-10-31T17:43:03+00:00",
+      "author": "/u/TimGoTheCreator",
+      "excerpt": "gpt 6.1 terra codex model\n    submitted by    /u/TimGoTheCreator  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkemwf",
+      "title": "anthropic vs openai models - simplify for us please",
+      "url": "https://www.reddit.com/r/codex/comments/1xkemwf/anthropic_vs_openai_models_simplify_for_us_please/",
+      "created_at": "2026-10-31T16:29:47+00:00",
+      "author": "/u/azzdev",
+      "excerpt": "every other day i feel like im reading some biased reddit article or misinformation from either openai or anthropic fan boys claiming how much better their respective models are compared to the competition... its exhausting honestly. \n ive been using openai based models for 2 months now, mainly for chatgpt, hermes managing my server and t3 codes coding agent (for fully vibe coded apps). i use mostly gpt 6 luna on high and by the end of the week ive basically still got 95% usage left so im not an intensive user. \n accroding to https://livebench.ai/#/ and https://artificialanalysis.ai/models?cost=intelligence-vs-cost-per-task i think openai models are way more cost effective and you seem to get a smarter model for less money\n is this true? has anyone got general tips for filtering out the fa",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkdhrs",
+      "title": "My project Monolith workbench ( built with claude & codex )",
+      "url": "https://www.reddit.com/r/codex/comments/1xkdhrs/my_project_monolith_workbench_built_with_claude/",
+      "created_at": "2026-10-31T15:43:41+00:00",
+      "author": "/u/Ok_Hotel6361",
+      "excerpt": "For the last eight months, I\u2019ve been building Monolith Workbench\u2014a local-first, genuine WYSIWYG structured technical document editor.\n The primary goal is to keep the source code hidden from the viewer, eliminating the dual-pane eyesore entirely. You work on a single, unified page canvas where everything you type\u2014every glyph placement and floating object placement\u2014is exactly how it appears upon export.\n To bring this to life over the last eight months, I\u2019ve heavily leveraged AI, using multiple models across both Claude AI and Codex to write and refine the codebase.\n If you are interested in getting early access and helping shape the platform, please visit the link below to apply:\n https://monolith-workbench.com\n We look forward to reviewing your applications and hearing your feedback.\n    ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkdgf3",
+      "title": "Projects and Chats (Newbie question)",
+      "url": "https://www.reddit.com/r/codex/comments/1xkdgf3/projects_and_chats_newbie_question/",
+      "created_at": "2026-10-31T15:42:10+00:00",
+      "author": "/u/No_Body_4834",
+      "excerpt": "Hi, I've been using Codex for about a month now to make games for personal use.\n I was wondering if there are any \"best practices\" for using Chats within a Project. Up to now, I've just been developing the whole project in a single Chat. But would it be better to use different Chats for different aspects? - Like, one Chat for any development of the user interface, another Chat for game mechanics, etc?\n Or doesn't it matter much?\n Thanks.\n    submitted by    /u/No_Body_4834  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkd6qg",
+      "title": "Since Astra came out, everything has gone downhill",
+      "url": "https://www.reddit.com/r/codex/comments/1xkd6qg/since_astra_came_out_everything_has_gone_downhill/",
+      "created_at": "2026-10-31T15:31:12+00:00",
+      "author": "/u/SpaceAurora",
+      "excerpt": "At this point no one seems to care anymore I guess? Usage drains crazy fast even on Sol Medium, Terra seems to use just as much quota as Sol while supposedly being cheaper, quality of the output gets worse everyday and needs more and more guidance and corrections.\n I just spent 20% of my 5-hour window just asking for two small logic changes in a lua script. At this drain pace I just can't do anything productive anymore.\n At least Chat mode was smart enough to plan stuff and iterate on ideas while being virtually unlimited, but since they're soon merging quotas (which we've been anticipating for months now), the Plus plan is a total joke.\n Absolutely none of the issues the community has been complaining about have been solved since early September. All we've had is this carrot and stick mar",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkc5p1",
+      "title": "ChatGPT-Codex merge is happening",
+      "url": "https://www.reddit.com/r/codex/comments/1xkc5p1/chatgptcodex_merge_is_happening/",
+      "created_at": "2026-10-31T14:49:31+00:00",
+      "author": "/u/UndoButtonPls",
+      "excerpt": "Just received this email. It\u2019s over.\n Hello,\n In the coming weeks, you\u2019ll be able to delegate work directly to ChatGPT \u2014 from building sites and presentations to taking action on the web \u2014 without switching to the Work tab.\n Tell ChatGPT what you want to accomplish. It can decide when to use these capabilities, break complex tasks into smaller steps, and work through them for you.\n A shared allowance for ChatGPT and Codex\n As part of this unified experience, your use of ChatGPT and Codex will draw from the same allowance in the coming weeks. We\u2019re preparing carefully for this transition to help prevent disruption to your workflows. We expect most users won\u2019t need to wait for their usage to reset more often than they do today. Usage will depend on model and task, with more advanced models a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkbioo",
+      "title": "I got tired of wasting prompts just to schedule Codex tasks, so I built a free tool.",
+      "url": "https://www.reddit.com/r/codex/comments/1xkbioo/i_got_tired_of_wasting_prompts_just_to_schedule/",
+      "created_at": "2026-10-31T14:23:00+00:00",
+      "author": "/u/CaptainCatStudio",
+      "excerpt": "Hey everyone! \ud83d\udc4b\n I've been building a mobile game and experimenting with other apps using Codex, and I kept running into the same frustrating problem.\n Every time I wanted to schedule a task, especially a one-time task, I had to manually figure out the RRULE syntax or ask AI to generate it for me.\n Over and over again.\n And when I wanted to prepare multiple tasks ahead of time? I couldn't find a simple, intuitive way to organize them within my Codex workflow.\n It felt ridiculous to spend time prompting AI just to schedule the work I actually wanted AI to help me complete.\n So I built something for myself.\n It's called dexsched.\n What started as a tiny personal workaround has now grown into a free scheduling and organization tool that I decided to share with everyone.\n What it does today:\n ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkbdyt",
+      "title": "made this Snoopy & Woodstock Halloween Codex pet \ud83c\udf83",
+      "url": "https://www.reddit.com/r/codex/comments/1xkbdyt/made_this_snoopy_woodstock_halloween_codex_pet/",
+      "created_at": "2026-10-31T14:17:28+00:00",
+      "author": "/u/Ianwuo",
+      "excerpt": "https://codex-pets.net/#/pets/snoopy-halloween\n https://github.com/Ian-Wuu/snoopy-halloween-pet\n    submitted by    /u/Ianwuo  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkbc2r",
+      "title": "Pro has no 5h window, so pace the weekly allowance yourself. What I check in /status",
+      "url": "https://www.reddit.com/r/codex/comments/1xkbc2r/pro_has_no_5h_window_so_pace_the_weekly_allowance/",
+      "created_at": "2026-10-31T14:15:16+00:00",
+      "author": "/u/SirRobinBlibs",
+      "excerpt": "Pro 100, 200 and 500 have no five-hour limit in Codex right now (OpenAI's help page says so, and after Thursday's change Pro 100 and 500 have twice the allowance). That's great, but the weekly limit is still there, and without the 5h window nothing slows you down until the weekly one is gone. When the 5h window came back for Plus in August, the Codex lead's reason was that people \"accidentally eat through their whole weeks usage\".\n What I do:\n  Read the weekly reset time in Usage, and read it again after any reset. A paid reset \"pulls your normal weekly allowance forward\", so the new week starts at your next request and the following week is shorter. It doesn't add a week. A banked full reset changes your reset date too. Divide by working days: 5 days = 20% a day. /status at the start of e",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xkapax",
+      "title": "Resets, confusing",
+      "url": "https://www.reddit.com/r/codex/comments/1xkapax/resets_confusing/",
+      "created_at": "2026-10-31T13:48:35+00:00",
+      "author": "/u/PopUpTubedev",
+      "excerpt": "I don't understand why the resets are so stupid and cryptic. Why can't they just tell us exactly when they land. It's always some weird.... couple hours... end of day.. next couple days. \n I have been refreshing this subreddit, Tibo twitter, discords... always trying to figure it out for the past 3 months. \n    submitted by    /u/PopUpTubedev  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk8vmd",
+      "title": "Do resets give you the credit from when they were granted, or used?",
+      "url": "https://www.reddit.com/r/codex/comments/1xk8vmd/do_resets_give_you_the_credit_from_when_they_were/",
+      "created_at": "2026-10-31T12:24:48+00:00",
+      "author": "/u/fingerofchicken",
+      "excerpt": "Just asking because if I had a lower-end Codex subscription and then they gave me some banked resets, I might upgrade for 1 month to use them and get a whole lot more usage out of them. \n    submitted by    /u/fingerofchicken  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk8l7w",
+      "title": "The new API credits make ChatGPT Pro a no-brainer for API users",
+      "url": "https://www.reddit.com/r/codex/comments/1xk8l7w/the_new_api_credits_make_chatgpt_pro_a_nobrainer/",
+      "created_at": "2026-10-31T12:10:23+00:00",
+      "author": "/u/Quiet-Recording-9269",
+      "excerpt": "OpenAI just made its Pro subscriptions significantly more valuable for API users.\n With the new subscription benefit:\n  Pro $100 \u2192 $100 in API credits per month Pro $200 \u2192 $200 in API credits per month Pro $500 \u2192 $500 in API credits per month  Credits are granted each billing cycle, expire at the end of that cycle, and don't roll over.\n If you're already spending $200/month on eligible API usage, there's no reason to pay for API credits separately. Get Pro $200 instead. Same cost, same API usage, plus ChatGPT Pro and higher Codex limits.\n The same applies at $500/month: Pro $500 gives you the API credits you're already paying for, plus the highest subscription benefits.\n Even if you're already on Pro $100 and your API spending is growing, upgrading becomes increasingly attractive.\n Bottom ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk6sqo",
+      "title": "6.1 Terra max is another level of code reviewer - true example of the \"punching above your weight\" idiom",
+      "url": "https://www.reddit.com/r/codex/comments/1xk6sqo/61_terra_max_is_another_level_of_code_reviewer/",
+      "created_at": "2026-10-31T10:31:09+00:00",
+      "author": "/u/ashokallu",
+      "excerpt": "https://preview.redd.it/c4a32gtk5syh1.png?width=941&format=png&auto=webp&s=695feabe78d3d705a711701aaf750f2bbbf9eb62\n https://www.reddit.com/r/codex/s/c35bTZ7sB9\n Security audits, backend code reviews are what its been amazing so far. \n my rule of thumb: Higher reasoning for low intelligence models, low reasoning for high intelligence models.\n    submitted by    /u/ashokallu  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk48e3",
+      "title": "I built Throughline, an open-source Mac app where Claude Code and Codex share one conversation per project. Looking for contributors",
+      "url": "https://www.reddit.com/r/codex/comments/1xk48e3/i_built_throughline_an_opensource_mac_app_where/",
+      "created_at": "2026-10-31T07:49:58+00:00",
+      "author": "/u/EhmadNavaz",
+      "excerpt": "If you use both Claude Code and Codex, you've probably had one hit its usage limit mid-task, then spent ten minutes re-explaining the project to the other. That's the problem Throughline solves. It's a desktop app (MIT) that keeps one permanent conversation per project. Both agents work in the same thread, so when one runs out, you switch and the other picks up with the full context. It runs the official Claude Code and Codex CLIs with your own logins: no API keys, no extra service in between. What it does today: - One conversation per project, across all its folders (frontend, backend, website) - Switch agents mid-task without losing context - Import your existing Claude Code and Codex chats from any project - Approve agent actions and follow each run live - Git panel with per-file diffs,",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk2xlm",
+      "title": "Has anyone actually tested Codex Pro 20x vs 50x after the October 29 update?",
+      "url": "https://www.reddit.com/r/codex/comments/1xk2xlm/has_anyone_actually_tested_codex_pro_20x_vs_50x/",
+      "created_at": "2026-10-31T06:28:25+00:00",
+      "author": "/u/au8ust",
+      "excerpt": "I'm trying to decide between 20x + 20x + 10x across three accounts or a single 50x account.\n Does 50x really provide 2.5x the usable quota of 20x? Any real world numbers or token usage logs would be appreciated!\n    submitted by    /u/au8ust  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk2ud8",
+      "title": "\"Now what's left to do is this...\"",
+      "url": "https://www.reddit.com/r/codex/comments/1xk2ud8/now_whats_left_to_do_is_this/",
+      "created_at": "2026-10-31T06:22:32+00:00",
+      "author": "/u/Lord_Casco",
+      "excerpt": "Hi everyone, I\u2019m losing my mind with ChatGPT (Luna models) constantly stopping mid-task, and I wanted to see if anyone has found a reliable way to fix this behavior.\n No matter how many times I put explicit instructions in both my global system prompts and the individual chat prompt, telling it to not stop, pause, or ask for confirmation until it hits an actual roadblock or finishes the entire job. It still halts halfway through and says something like: \"Now what's left to do is this...\" and waits for my go-ahead. Sometimes even if i agree to proceed the reply is \"Yes, this is the way to go but i stopped because now i have to do this...\"\n The absolute peak:\n  \"I am not continuing because I encountered the same error that I was able to solve earlier, so I won't tell you that this time I fix",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk2u40",
+      "title": "Is Astra still your go to for CAD/3D?",
+      "url": "https://www.reddit.com/r/codex/comments/1xk2u40/is_astra_still_your_go_to_for_cad3d/",
+      "created_at": "2026-10-31T06:22:05+00:00",
+      "author": "/u/blue_hunt",
+      "excerpt": "Curious how people feel about the use of Astra since day 1 vs today for CAD and 3D modeling\n    submitted by    /u/blue_hunt  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk289s",
+      "title": "Tibo - Day 26",
+      "url": "https://www.reddit.com/r/codex/comments/1xk289s/tibo_day_26/",
+      "created_at": "2026-10-31T05:44:29+00:00",
+      "author": "/u/cheezeerd",
+      "excerpt": "Next 2 days are going to be banked resets!\n    submitted by    /u/cheezeerd  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xk0ocp",
+      "title": "Do you guys also have trouble understanding GPT-6.1-Sol sometimes?",
+      "url": "https://www.reddit.com/r/codex/comments/1xk0ocp/do_you_guys_also_have_trouble_understanding/",
+      "created_at": "2026-10-31T04:15:05+00:00",
+      "author": "/u/Prestigiouspite",
+      "excerpt": "I\u2019m an experienced developer myself and have implemented hundreds of software solutions. Some of them have been running for decades. So you\u2019d think I\u2019ve seen it all. Yet I\u2019m currently having a hard time with the way the GPT-6 series at Astra\u2014and Sol in particular\u2014expresses itself. I\u2019m not sure if this is due to German (or foreign languages in general) or specifically to Codex\u2019s system prompts, since I find GPT-6-Sol more understandable in ChatGPT Web (Business Premium subscription). But when it describes potential regressions and the like in a project we\u2019ve created, it often comes across as very confusing.\n Sometimes I\u2019ll ask for clarification, but even the answer can be misleading. It\u2019s always as if two or three specific details\u2014or something similar\u2014are missing for me to understand the si",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xjuxhn",
+      "title": "5h window making ChatGPT Plus sub useless: any way around it?",
+      "url": "https://www.reddit.com/r/codex/comments/1xjuxhn/5h_window_making_chatgpt_plus_sub_useless_any_way/",
+      "created_at": "2026-10-30T23:35:41+00:00",
+      "author": "/u/supercurio",
+      "excerpt": "As a developer for 20+ years, I started my agentic coding journey with ChatGPT Plus a few months back, getting my hands wet with on a ChatGPT Plus subscription when there was no 5h window.\n A pinch of Sol and a bunch of Luna kept me going for a couple months, until I figured Luna's capabilities were insufficient to go beyond simple project and I while it was an affordable way to get my feet wet I kept going in circles.\n After its launch I evaluated Opus 5.5 on the $20 Claude sub and quickly upgraded to a higher tier based there.\n But I kept my ChatGPT Plus sub with the idea of using OpenAI models as a competent alternative for research and code reviews. I also really like the real-time voice for brainstorming.\n However, for the past month I realized I was essentially unable to use the serv",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xjtsrs",
+      "title": "Codex or Claude code",
+      "url": "https://www.reddit.com/r/codex/comments/1xjtsrs/codex_or_claude_code/",
+      "created_at": "2026-10-30T22:46:23+00:00",
+      "author": "/u/dj-yacine",
+      "excerpt": "Hey everyone,\n Last month I subscribed to Codex Plus mainly for coding work with Codex / ChatGPT (I don\u2019t use image or voice generation). I quickly felt the limits hit pretty hard, especially when I\u2019m working on two things at the same time.\n A couple of things helped a bit:\n - Switching from Sol 6.1 to Luna 6.1 made a noticeable difference for me.\n - I only tried Terra briefly right before I subscribed, so I can\u2019t really judge it.\n - Sol is solid at coding but feels slow.\n - Tibo reset sometimes saved me, but it also burned me once when I only had a day left until the next quota \u2014 the reset just pushed everything to the following week.\n I\u2019ve been hearing a lot of good things about Opus 5.5 and Claude in general, so I\u2019m thinking of trying Claude Code this time and seeing how it compares.\n H",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xjrpxi",
+      "title": "2x Pro 200 vs 1x 500 plan?",
+      "url": "https://www.reddit.com/r/codex/comments/1xjrpxi/2x_pro_200_vs_1x_500_plan/",
+      "created_at": "2026-10-30T21:18:59+00:00",
+      "author": "/u/xodac",
+      "excerpt": "Given the recent doubling of the Pro 200 limits (back to the original level a month ago), I was wondering if having a single Pro 500 plan is a better / worse deal than two Pro 200 plans?\n A single Pro 200 plan is not enough for my coding \n    submitted by    /u/xodac  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xjrhxq",
+      "title": "Computer use frustrations",
+      "url": "https://www.reddit.com/r/codex/comments/1xjrhxq/computer_use_frustrations/",
+      "created_at": "2026-10-30T21:09:58+00:00",
+      "author": "/u/Heavy_Promotion_5210",
+      "excerpt": "Hi, I've been using codex since release. Recently I've found it to be incredibly difficult to use computer use due to refusals. It has stopped doing things it would do in the past and the capability has fallen off a cliff. I constantly have to monitor tasks to check whether or not it has stopped due to refusals. I'm no sire if this is a bug on my end or a general consensus for computer use these days. I have full access permissions granted in Codex and the JSON configuration. Do other have the same issues? I'm now looking at other models and harnesses that have full computer use functionality. Thanks. \n    submitted by    /u/Heavy_Promotion_5210  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
