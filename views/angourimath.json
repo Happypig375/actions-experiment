@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-31T19:01:59.498530Z",
+  "source": "asc-community/AngouriMath",
+  "recovery_since": "2026-10-31T18:36:33.933220Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "events": [
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:49:34Z",
+      "id": 41230227040,
+      "title": "Kernel Benchmark",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227040"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:45:38Z",
+      "id": 41230227089,
+      "title": "Harnesses",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227089"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:45:17Z",
+      "id": 41230227126,
+      "title": "Solution Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227126"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:45:16Z",
+      "id": 41230227168,
+      "title": "C++ Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227168"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:43:52Z",
+      "id": 41230227232,
+      "title": "C++ Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227232"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:43:44Z",
+      "id": 41230227125,
+      "title": "Integration Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227125"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:43:25Z",
+      "id": 41230227252,
+      "title": "Trimming & NativeAOT",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227252"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:42:39Z",
+      "id": 41230227240,
+      "title": "Interactive Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227240"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:42:16Z",
+      "id": 41230227301,
+      "title": "F# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227301"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-10-31T18:42:03Z",
+      "number": 2301,
+      "title": "Simplify does not cancel a factor when a numerator's term holds a power of it",
+      "state": "open",
+      "comments": 0,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/2301"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:41:09Z",
+      "id": 41230227293,
+      "title": "F# Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227293"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:40:56Z",
+      "id": 41230227115,
+      "title": "Interactive Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227115"
+    },
+    {
+      "type": "pull_request",
+      "timestamp": "2026-10-31T18:40:47Z",
+      "number": 2300,
+      "title": "A difference of two intervals keeps the parts on either side",
+      "state": "open",
+      "merged_at": null,
+      "draft": false,
+      "url": "https://github.com/ASC-Community/AngouriMath/pull/2300"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:40:06Z",
+      "id": 41230227095,
+      "title": "C#/Kernel Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227095"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-10-31T18:39:12Z",
+      "id": 41230227025,
+      "title": "C# Test",
+      "status": "in_progress",
+      "conclusion": null,
+      "head_branch": "a-difference-of-intervals-keeps-both-pieces",
+      "head_sha": "9b5b9cba268802b4dc7b449f597879b446958dc7",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/41230227025"
+    }
+  ],
+  "errors": []
+}

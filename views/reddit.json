@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-31T19:01:59.498530Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-31T18:36:33.933220Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xki7lv",
+      "timestamp": "2026-10-31T18:52:30Z",
+      "title": "Understanding ChatGPT and Codex usage limits | OpenAI Help Center",
+      "author": "/u/BusinessSurprise9654",
+      "url": "https://www.reddit.com/r/codex/comments/1xki7lv/understanding_chatgpt_and_codex_usage_limits/",
+      "excerpt": "OpenAI just updated its official documentation confirming that starting in December, Plus, Pro, and Business plans will share a single token-based allowance across ChatGPT and Codex as Work capabilities merge into ChatGPT.\n    submitted by    /u/BusinessSurprise9654  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xki14c",
+      "timestamp": "2026-10-31T18:45:00Z",
+      "title": "Anyone upgraded from Pro $200 to $500 after exhausting Work/Codex weekly usage?",
+      "author": "/u/Busy_Ad3211",
+      "url": "https://www.reddit.com/r/codex/comments/1xki14c/anyone_upgraded_from_pro_200_to_500_after/",
+      "excerpt": "Hi everyone!\n I\u2019m currently on ChatGPT Pro $200 and have completely exhausted my weekly Work/Codex allowance (0% remaining).\n Yesterday, I purchased approximately $2,000 in additional credits, which were consumed within 24 hours. I\u2019m using GPT-6 Astra Ultra for a large, complex and code analysis project.\n My next weekly reset is November 5, but I urgently need to continue working.\n Has anyone upgraded from Pro $200 to $500 after exhausting their weekly allowance?\n I\u2019d really appreciate firsthand experiences:\n Did upgrading immediately restore your Work/Codex usage?\n Did your weekly allowance reset to 100%, or did you only receive the difference between the plans?\n Did your weekly reset date change?\n How much additional usage did you actually get?\n I\u2019m especially interested in experiences after the October 29, 2026 allowance changes.\n I\u2019ve already escalated this to OpenAI Support but haven\u2019t received a definitive answer.\n Thanks in advance! I\u2019d appreciate any real-world experiences before spending more money.\n    submitted by    /u/Busy_Ad3211  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xkhxqt",
+      "timestamp": "2026-10-31T18:41:12Z",
+      "title": "CodeRail: approve Codex runs from your phone and let your team share one Codex session (open source, self-hosted)",
+      "author": "/u/L_i_n_k0666",
+      "url": "https://www.reddit.com/r/codex/comments/1xkhxqt/coderail_approve_codex_runs_from_your_phone_and/",
+      "excerpt": "I built CodeRail, a self-hosted remote control for Codex (it also supports Claude Code).\n Why: Codex stops and waits whenever it needs approval. If I was away from my desk, a session could sit idle for hours, and nobody else on the team could step in because it lived on my laptop.\n What it does:\n - Open any Codex session on your computer from a phone or browser: chat, plans, tool calls, models and modes, background tasks.\n - Approval requests arrive as push notifications. Approve once, always allow, or deny from anywhere.\n - Teammates can join the same session: same context, same machine, same repo, one task. Roles (Owner / Operator / Viewer) and an audit log show who approved what.\n - Terminals, files, git and a built-in browser sit next to the chat.\n How it works:\n - A bridge on each computer runs your own `codex` CLI with your own login and talks to it over ACP. CodeRail never holds OpenAI keys.\n - Computers connect outbound only, so you don't need to open any ports.\n - The server is Bun + SQLite in Docker. Permissions are checked on the server and again on the computer.\n - Limits: it isn't end-to-end encrypted, so your server keeps the session history. Self-host it on a machine",
+      "media_urls": [
+        "https://external-preview.redd.it/ZHl6dHExZDBsdXloMa0MiklXdy8of9LsjSC6wXI4TPakqRTMhRC4wXI0r556.png?width=640&crop=smart&auto=webp&s=0d79b27af65229c9736306f8d8015ffe6a416387"
+      ]
+    }
+  ],
+  "errors": []
+}
