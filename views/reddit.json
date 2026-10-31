@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-31T14:21:21.231150Z",
+  "source": "r/codex",
+  "recovery_since": "2026-10-31T13:40:27.566393Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xkbc2r",
+      "timestamp": "2026-10-31T14:15:16Z",
+      "title": "Pro has no 5h window, so pace the weekly allowance yourself. What I check in /status",
+      "author": "/u/SirRobinBlibs",
+      "url": "https://www.reddit.com/r/codex/comments/1xkbc2r/pro_has_no_5h_window_so_pace_the_weekly_allowance/",
+      "excerpt": "Pro 100, 200 and 500 have no five-hour limit in Codex right now (OpenAI's help page says so, and after Thursday's change Pro 100 and 500 have twice the allowance). That's great, but the weekly limit is still there, and without the 5h window nothing slows you down until the weekly one is gone. When the 5h window came back for Plus in August, the Codex lead's reason was that people \"accidentally eat through their whole weeks usage\".\n What I do:\n  Read the weekly reset time in Usage, and read it again after any reset. A paid reset \"pulls your normal weekly allowance forward\", so the new week starts at your next request and the following week is shorter. It doesn't add a week. A banked full reset changes your reset date too. Divide by working days: 5 days = 20% a day. /status at the start of each session and before handing over a long task. It shows context usage and rate limits. /usage shows daily or weekly activity. When I'm 10+ points over an even pace: a lighter model or lower effort for routine stuff. OpenAI's own note says \"Astra at Low effort can outperform Sol at High effort\". I also avoid Fast mode (2.5x included usage), start /new sessions instead of dragging a long one along",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
