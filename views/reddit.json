@@ -1,0 +1,324 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T17:20:47.218807Z",
+  "since": "2026-11-07T11:20:47.218807Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1xqaci6",
+      "title": "Models Dissapeared?",
+      "url": "https://www.reddit.com/r/codex/comments/1xqaci6/models_dissapeared/",
+      "created_at": "2026-11-07T16:25:02+00:00",
+      "author": "/u/DailyLeagueDose",
+      "excerpt": "Hey guys,\n I just upgraded one account from Free to PRO 5x (or w/e the x is now), and suddenly, I can only use 5.6 Luna, 5.6 Terra and 6 Luna. Am I the only one that has this issue? I logged out of the account, I started a chat with a model to see if that will unlock. No success. \n    submitted by    /u/DailyLeagueDose  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq8obk",
+      "title": "Taking a Break when Codex Works",
+      "url": "https://www.reddit.com/r/codex/comments/1xq8obk/taking_a_break_when_codex_works/",
+      "created_at": "2026-11-07T15:14:00+00:00",
+      "author": "/u/keytonw",
+      "excerpt": "I found it hard to take a break and not just start a new tab in the multiplexer. The switching costs (for my brain) were exhausting and I wasn't disciplined enough to just stop for a second. So I created this little tool that sits on my desktop as a nice nature scene. It reacts to Codex signals to trigger various nature things. I'll put a link in the comments. The code is free and open source and all that. I have signed Mac builds and haven't done Windows/Linux but could. Mostly I figured I wasn't the only one who had this problem. Take a break y'all. :-)\n    submitted by    /u/keytonw  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq8lm0",
+      "title": "Fast & Ultrafast are highly questionable.",
+      "url": "https://www.reddit.com/r/codex/comments/1xq8lm0/fast_ultrafast_are_highly_questionable/",
+      "created_at": "2026-11-07T15:10:36+00:00",
+      "author": "/u/Sfdprod",
+      "excerpt": "\u200b\n (screenshots only to show the OR numbers for sol and luna)\n Was looking at the perf of Luna, and got curious and checked out Sol too.\n And wtf is going on?\n For luna, bedrock is faster than trough openai:s api with fast mode.\n Meaning you are paying 50% more for worse performance. Add on the 30-70s ttfb that openai:s api often suffers from too.\n For 6.1 Sol, ultrafast is since the beginning of nov, at least on openrouter, slower than both openai with any service tier, and bedrock. At 600& the cost.\n Its worth noting that openai:s service tiers are not to be compared with eg. Vertex priority which prpvides increased quotas, and higher reliability.\n For fast mode the promise is \n \"Fast mode delivers up to 2.5\u00d7 faster speeds and more consistent latency with pay-as-you-go pricing. Use it fo",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq8867",
+      "title": "1.73 GB of RAM just for the \u201cAperitif.\u201d Sam, what\u2019s for dinner?",
+      "url": "https://www.reddit.com/r/codex/comments/1xq8867/173_gb_of_ram_just_for_the_aperitif_sam_whats_for/",
+      "created_at": "2026-11-07T14:54:35+00:00",
+      "author": "/u/Anywhere_MusicPlayer",
+      "excerpt": "Opened Activity Monitor and saw Codex (Aperitif Renderer) helping itself to 1.73 GB.\n I knew Sam wanted more RAM. I just didn\u2019t realize my 16 GB MacBook was on the menu.\n For anyone wondering what the main course looks like, here\u2019s my earlier 8 GB screenshot.\n    submitted by    /u/Anywhere_MusicPlayer  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq84zq",
+      "title": "Is the Pro 500 plan now 50X usage? I know they \u201cdoubled\u201d to bring 200 back to 20X. I\u2019m wondering what that means for the 500 plan.",
+      "url": "https://www.reddit.com/r/codex/comments/1xq84zq/is_the_pro_500_plan_now_50x_usage_i_know_they/",
+      "created_at": "2026-11-07T14:50:28+00:00",
+      "author": "/u/Mother_Occasion_8076",
+      "excerpt": "Initially, the 200 plan was halfed to 10X, and then they announced they would double the limits to revert that change. 100 is 10X, 200 is the same 20X. I\u2019m wondering what that implies for the 500 plan.\n    submitted by    /u/Mother_Occasion_8076  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq6m11",
+      "title": "Codex reliability fallen off a cliff",
+      "url": "https://www.reddit.com/r/codex/comments/1xq6m11/codex_reliability_fallen_off_a_cliff/",
+      "created_at": "2026-11-07T13:39:50+00:00",
+      "author": "/u/spigolt",
+      "excerpt": "I have many different chats with scheduled tasks or certain processes that were working reliably for weeks since initial GPT-6 Astra launch (all using GPT-6 Astra high/xhigh), and now all failing, with ChatGPT repeatedly getting stuck and giving up due to believing it doesn't have access any more to do something that it has done hundreds of times before without issue. No matter what I do to try to restore the access or simply get it to realize that it in fact still has the access (e.g. to use my browser), it never remembers this, and the next time or in another chat will again stumble with the same thing. Just all kinds of basic stuff that it used to handle reliably it just fails at now.\n So it's just completely useless now due to its complete unreliability across a multitude of use-cases ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq5y97",
+      "title": "all my codex projects mixed up with my unrealted gpt chats",
+      "url": "https://www.reddit.com/r/codex/comments/1xq5y97/all_my_codex_projects_mixed_up_with_my_unrealted/",
+      "created_at": "2026-11-07T13:07:16+00:00",
+      "author": "/u/spec-test",
+      "excerpt": "Started gpt app, now all i see is my projects from gpt web mixed up with codex - what a regression\n I use them for completely different things, now is disorganised as a grey goo\n my codex projects today: I had about 30 before with 100s of contexts:\n Processing img 3v9n8hien70i1...\n    submitted by    /u/spec-test  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq5rfc",
+      "title": "Using @",
+      "url": "https://www.reddit.com/r/codex/comments/1xq5rfc/using/",
+      "created_at": "2026-11-07T12:57:41+00:00",
+      "author": "/u/andyetyourhere",
+      "excerpt": "(Desktop) When I use @ to quickly reference a file in my project, the local project files are the 1st to pop up. I usually spy the one I want to click on immediately. But then half a second later chats from across my projects join the list and push the local files down. I have to go scroll. I usually end up clicking something wrong because it changes only in the split second between seeing the file I want and moving my mouse. It\u2019s super frustrating! Anyone understand this problem and know a workaround?\n    submitted by    /u/andyetyourhere  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq5hip",
+      "title": "Codex Desktop Update: Switching Accounts Now Clears Your Project List",
+      "url": "https://www.reddit.com/r/codex/comments/1xq5hip/codex_desktop_update_switching_accounts_now/",
+      "created_at": "2026-11-07T12:42:56+00:00",
+      "author": "/u/Brief_Ad_8040",
+      "excerpt": "After updating the Codex desktop app on macOS today, I noticed a pretty serious bug (or is this intentional?).\n The project list now seems to be tied to your account. Whenever you switch accounts, your project list becomes empty.\n This is really annoying, especially for people who regularly switch between multiple accounts.\n Sure, you can manually add your projects back, but all the previous task history is gone. It's basically like starting a brand-new chat every time you switch accounts.\n    submitted by    /u/Brief_Ad_8040  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq3fc3",
+      "title": "OpenSource: Use your Codex subscription as a travel planner",
+      "url": "https://www.reddit.com/r/codex/comments/1xq3fc3/opensource_use_your_codex_subscription_as_a/",
+      "created_at": "2026-11-07T10:38:18+00:00",
+      "author": "/u/antocorr",
+      "excerpt": "I built a self-hosted travel agentic planner.\n What it actually does:\n - Hierarchical trips \u2192 stops \u2192 places, with dates, notes, checklists and photos\n - OpenStreetMap pins, place search, reverse geocoding\n - Place enrichment: coordinates from Nominatim, descriptions + photos from Wikipedia (only empty fields are filled, never overwritten)\n - Resizable workspace: itinerary rail / map + details / assistant\n - Flight price monitor: full origins \u00d7 destinations \u00d7 dates matrix, Google Flights and Skyscanner readers via Chrome/CDP, cheapest badges, per-cell refresh and price history\n - Provider manager with the models.dev catalog + ChatGPT OAuth as an alternative to API keys\n The assistant runs through the Pi SDK with an explicit tool set \u2014 no shell, no filesystem:\n list_trips, get_trip_tree, cr",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq2vb6",
+      "title": "TIP: Don't make your banked reset go wasted",
+      "url": "https://www.reddit.com/r/codex/comments/1xq2vb6/tip_dont_make_your_banked_reset_go_wasted/",
+      "created_at": "2026-11-07T10:01:23+00:00",
+      "author": "/u/masterkain",
+      "excerpt": "just a quick note cause I saw a surge of people essentially forgetting to use their banked resets\n my genuine advice is to look up and install Codex Pooler, it has automated banked usage resets via policies AND a built in anti-waste feature\n I'm not even linking the project, just do yourself and your codex a favor and have fun\n    submitted by    /u/masterkain  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xq2lzh",
+      "title": "Limits of the codex hosting",
+      "url": "https://www.reddit.com/r/codex/comments/1xq2lzh/limits_of_the_codex_hosting/",
+      "created_at": "2026-11-07T09:44:20+00:00",
+      "author": "/u/Turbulent_Rooster_73",
+      "excerpt": "What are the limits on scaling and complexity of the hosted pages? Is that more of a \u201cstaging\u201d server for simple static sites or can it be used in any way seriously?!\n    submitted by    /u/Turbulent_Rooster_73  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpytka",
+      "title": "My method to reducing token usage",
+      "url": "https://www.reddit.com/r/codex/comments/1xpytka/my_method_to_reducing_token_usage/",
+      "created_at": "2026-11-07T05:45:48+00:00",
+      "author": "/u/Old-Might8130",
+      "excerpt": "I've figured out that when codex spawns agents they over explain.. so I saved in the agents.md or in my prompt ill say when using agents tell them to be short and concise.. its worked like magic to me thought id share.. let me if this method works for you too im interested to know if its just me\n    submitted by    /u/Old-Might8130  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpyt5v",
+      "title": "Mid-session adjustment",
+      "url": "https://www.reddit.com/r/codex/comments/1xpyt5v/midsession_adjustment/",
+      "created_at": "2026-11-07T05:45:09+00:00",
+      "author": "/u/fakhririzha",
+      "excerpt": "Hello! This is my first post in here\n I was wondering what feature I can use to make an adjustment in mid-session chat?\n Is /side feature the only thing I can use? No queued messages?\n I find it rather as workaround because I have to tell the side chat \"After the task is completed, tell the main agent to do X\"\n Thankyou!\n    submitted by    /u/fakhririzha  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpxpee",
+      "title": "Codex in the MacBook notch: a little helper that works along, waves for approvals and lets you reply from the notch",
+      "url": "https://www.reddit.com/r/codex/comments/1xpxpee/codex_in_the_macbook_notch_a_little_helper_that/",
+      "created_at": "2026-11-07T04:43:14+00:00",
+      "author": "/u/Nkgsporty",
+      "excerpt": "Codex has hooks now, so my notch app Nosy Notch supports it fully:\n - Live status with Codex's blue hexagon, the command or patch it's on\n - Approvals in the notch (Allow / Deny), answered straight through the PermissionRequest hook \u2013 \u2715 and Codex shows its own prompt\n - 5-hour / weekly limits and context fill from Codex's session files, plus a heads-up when a limit resets\n - New: read the conversation and reply from the notch\n - And Nosy, a small helper who lives in the notch and reacts to all of it \u2013 he jumps for joy when Codex is done and gets exhausted when you hit your limit\n Works with the Codex CLI and the ChatGPT app's Codex mode, side by side with Claude Code and Cursor. Note: trust the hooks once in Codex (Settings \u2192 Hooks or /hooks).\n npx nosynotch \n https://github.com/ddkbs/nosy",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpwd1j",
+      "title": "NestJS vs FastAPI, React vs Angular for a large government SaaS platform?",
+      "url": "https://www.reddit.com/r/codex/comments/1xpwd1j/nestjs_vs_fastapi_react_vs_angular_for_a_large/",
+      "created_at": "2026-11-07T03:30:13+00:00",
+      "author": "/u/bionescu",
+      "excerpt": "Hey!\n We're a small software agency planning a large SaaS platform for public institutions. We've talked to several developers and compared recommendations from different AI models, but we're still getting conflicting opinions on the best tech stack.\n We're starting from scratch, with no preferred language or framework. Most development will be done using Claude Code and Codex, with us handling architecture, requirements, and reviews.\n What we're building:\n 500\u20131,000 institutions (multi-tenant SaaS)\n 50\u201380 modules with thousands of features: document management, registries, requests, approvals, workflows, GIS, reporting, etc.\n Around 100k public employees and potentially 20\u2013100k citizens using the platform\n Hundreds of dynamic forms, complex roles, permissions, and institution-specific con",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpuys8",
+      "title": "Stayed up until 3 AM grinding, only to forget the most important part",
+      "url": "https://www.reddit.com/r/codex/comments/1xpuys8/stayed_up_until_3_am_grinding_only_to_forget_the/",
+      "created_at": "2026-11-07T02:17:44+00:00",
+      "author": "/u/AmIEvil-",
+      "excerpt": "So I got my weekly reset yesterday and noticed I still had an unused banked reset that was about to expire the next day.\n Naturally, I decided to speedrun EVERYTHING in Sol and Astra until like 3 AM just to make the most out of it.\n Guess what? I FORGOT TO ACTUALLY PRESS THE RESET BUTTON.\n Now I'm stuck at 55% for the entire week.\n All that grinding, all that lost sleep, for absolutely nothing. LOL\n That's it. Just wanted to get this off my chest. Haha\n    submitted by    /u/AmIEvil-  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpuvar",
+      "title": "No new models Tibo :- Here o will larp about dots even more",
+      "url": "https://www.reddit.com/r/codex/comments/1xpuvar/no_new_models_tibo_here_o_will_larp_about_dots/",
+      "created_at": "2026-11-07T02:12:54+00:00",
+      "author": "/u/OneKey3719",
+      "excerpt": "submitted by    /u/OneKey3719  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpsvqu",
+      "title": "How are we surviving without resets brothers and sisters?",
+      "url": "https://www.reddit.com/r/codex/comments/1xpsvqu/how_are_we_surviving_without_resets_brothers_and/",
+      "created_at": "2026-11-07T00:34:55+00:00",
+      "author": "/u/1210saad",
+      "excerpt": "submitted by    /u/1210saad  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xprg1w",
+      "title": "Hours of work but no result",
+      "url": "https://www.reddit.com/r/codex/comments/1xprg1w/hours_of_work_but_no_result/",
+      "created_at": "2026-11-06T23:27:30+00:00",
+      "author": "/u/Eastern_Double8987",
+      "excerpt": "I've been using Codex for Embedded applications (RTOS & Linux with Python and C) and so far it was doing quite good. Recently, I undertook a project with more Real-time data collection and Sol 6.1 High seems to have completely lost all of its abilities. I leave it running for hours at a time with a clear goal + debugging instructions when encountering issues to avoid tunnel vision with plenty of skills (matt pocock, superpowers, plumber, etc.) and it still hits a brick wall and seems to make no progress. The only real progress is made when I prompt it to inspect certain things on a closer level, which are trivial causes for the issues I've been experiencing.\n Does anyone have any advice with this and how to maximize the time I spend away from Codex while allowing it to operate on its own?\n",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpq2z9",
+      "title": "High CPU usage and UI freezes when toggling menus in Codex desktop app",
+      "url": "https://www.reddit.com/r/codex/comments/1xpq2z9/high_cpu_usage_and_ui_freezes_when_toggling_menus/",
+      "created_at": "2026-11-06T22:26:15+00:00",
+      "author": "/u/Plenty-Price-3901",
+      "excerpt": "My system specs:CPU: Intel Core i5-8250U RAM: 16 GB Storage: SSD OS: Windows10 ltsc\n I have noticed that the Codex desktop app has become progressively more sluggish with recent updates.The main issue occurs during UI transitions:Opening the left conversation management menu.\n The issue is triggered by virtually any UI-related action or state change:Toggling the left conversation management sidebar.\n 1.Switching tabs or panels on the right side (files, browser, and integrated tools).\n 2.Resizing panels or dragging split views.\n 3.Opening settings, dropdown menus, or modal dialogs.\n 4.General UI rendering and navigation across different views.\n Whenever these UI actions occur, CPU usage spikes to 80\u2013100% and the entire application freezes for over a minute. Windows Task Manager only indicat",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpo7gn",
+      "title": "i wanted profiles for my Codex projects, so i added them to my T3 Code fork",
+      "url": "https://www.reddit.com/r/codex/comments/1xpo7gn/i_wanted_profiles_for_my_codex_projects_so_i/",
+      "created_at": "2026-11-06T21:07:25+00:00",
+      "author": "/u/ralf-boltshauser",
+      "excerpt": "a few months ago i asked here for profiles in the Codex desktop app. my work projects, personal stuff and startup all ended up in the same sidebar. i finally added the workflow i wanted to my T3 Code fork, which i use to run Codex agents.\n i split it into personal / professional / startup. each project belongs to a profile, and switching only shows that profile's projects and conversations. agents in the others keep running. switching back takes me to the conversation i left open.\n it's a sidebar filter, so this doesn't give you separate Codex accounts or sandbox projects. you can also set a default profile per environment, then move individual projects if they belong somewhere else.\n short demo below. this is in my fork of T3 Code, not a feature in OpenAI's Codex app.\n    submitted by    ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpkxqp",
+      "title": "I used Codex + ElevenLabs",
+      "url": "https://www.reddit.com/r/codex/comments/1xpkxqp/i_used_codex_elevenlabs/",
+      "created_at": "2026-11-06T18:54:54+00:00",
+      "author": "/u/Avntus",
+      "excerpt": "So I have ElevenLabs creator studio which gives me 130k credits per month, I used Codex and asked it to control my MacBook and create an intro for a cricket club (my friend wanted an intro and asked if I could create him one).\n It was so amazing to watch Codex using ElevenLabs to convert still png images into an actual animation. I saw it step by step creating multiple animations and writing its own prompts and choosing the best model, pretty impressive!\n This was made using still PNG images.\n And the best part, because elevenlabs made Codex generate multiple clips for the same photo because elevenlabs didn\u2019t follow the instructions properly, I asked it to gather proof, draft an email and a support ticket with ElevenLabs and it did all of that by itself and I got a full refund of my credit",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpjxo7",
+      "title": "Pagu\u00e9 una nueva suscripci\u00f3n de ChatGPT Plus y no puedo usar Codex hasta dentro de varios d\u00edas. OpenAI dice que es normal.",
+      "url": "https://www.reddit.com/r/codex/comments/1xpjxo7/pagu\u00e9_una_nueva_suscripci\u00f3n_de_chatgpt_plus_y_no/",
+      "created_at": "2026-11-06T18:16:11+00:00",
+      "author": "/u/AnttoN_9312",
+      "excerpt": "Quiero compartir una experiencia bastante frustrante con las suscripciones de ChatGPT y los l\u00edmites de Codex y Work.\n Hasta hace poco ten\u00eda una suscripci\u00f3n de ChatGPT de 100 USD mensuales. Decid\u00ed cancelarla y esper\u00e9 a que terminara completamente antes de contratar el plan Plus de 20 USD mensuales.\n Mi sorpresa fue que, inmediatamente despu\u00e9s de pagar los 20 USD, intent\u00e9 utilizar Codex y me apareci\u00f3 este mensaje:\n  You're out of Codex and Work usage. Add credits or upgrade your plan \u2014 or wait for usage to reset on Nov 10.\n  Es decir, acabo de pagar una suscripci\u00f3n nueva y no puedo utilizar Codex ni Work hasta el 10 de noviembre.\n El panel de uso muestra:\n  L\u00edmite de 5 horas: 100 % disponible. L\u00edmite semanal: 0 % disponible. Cr\u00e9ditos: 0.  Contact\u00e9 con el soporte oficial de OpenAI para pregun",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpj84o",
+      "title": "Measuring \"cost per successful PR\" chose Luna 6 low as the best model even though it scored the lowest on quality",
+      "url": "https://www.reddit.com/r/codex/comments/1xpj84o/measuring_cost_per_successful_pr_chose_luna_6_low/",
+      "created_at": "2026-11-06T17:48:46+00:00",
+      "author": "/u/bisonbear2",
+      "excerpt": "Cost per successful task/PR is starting to become the default in how we measure coding agent impact, as cited by inference providers like Baseten as the \"most important metric to track\".\n On my repo, optimizing for this crowns GPT-6 Luna low as #1 at $0.26 per success, even though it went 0-13 against all other configurations when compared holistically (looking at patch quality). Meanwhile, the #1 value workhorse (GPT-6.1 Sol medium, $2.64 per success) gets buried at #7 when measuring cost per successful task.\n This was measured using one attempt per configuration on 24 tasks from my own git history, and spend includes failed attempts. Success means the task's new hidden tests pass. I also look at task quality metrics, such as, \u201cwas the intent for the original patch matched?\u201d, and \u201cwould a",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpghj7",
+      "title": "Let us use our promotional credits at will",
+      "url": "https://www.reddit.com/r/codex/comments/1xpghj7/let_us_use_our_promotional_credits_at_will/",
+      "created_at": "2026-11-06T16:03:25+00:00",
+      "author": "/u/Substantial-Dog1726",
+      "excerpt": "Why caveman must empty first tank before using second tank? Both belong to same account. Me not asking for free extra quota, hidden API, or rule bypass. Me asking for *choice* over existing, legitimate credits. \n  Feature request: Please let user choose billing source for an individual Work/Codex session or task: \n - Included subscription allowance\n - Available credits first (including eligible promotional credits)\n - Automatic, current default: included allowance first\n This is AI-assisted OpenAI Support. \n At the moment, for eligible Codex/Work usage on personal plans, your plan\u2019s included usage is applied first, and only after you hit plan limits does usage draw from your credits balance; there isn\u2019t a supported setting to choose \u201ccredits first\u201d per session/task or as an account-level t",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpg2rh",
+      "title": "Confirming the \"didn't use a new chat\" usage bug",
+      "url": "https://www.reddit.com/r/codex/comments/1xpg2rh/confirming_the_didnt_use_a_new_chat_usage_bug/",
+      "created_at": "2026-11-06T15:47:17+00:00",
+      "author": "/u/theDrell",
+      "excerpt": "So it happened to me. I had my normal reset Thursday. I had been struggling using it all this week, was running roughly the same command all week \"evaluate this run every hour, make sure its working, print status here, and if it's not running fix the error and continue\" was the gist. This was running the vscode extension. Had ran it overnight the past two days, and it was using maybe 15% overnight. \n Thursday, had 2% left and hit my reset. 100% (I too have a reset expiring Friday at 5ish so had prepared to burn this morning and burn) so I gave it the same command last night in the same chat and context I had been working with all day. 0% left this morning. It burned 100% from about noon yesterday to 5am this morning, when I had struggled to burn that much all week.\n On the bright side I go",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xpfggx",
+      "title": "Underated feature",
+      "url": "https://www.reddit.com/r/codex/comments/1xpfggx/underated_feature/",
+      "created_at": "2026-11-06T15:22:13+00:00",
+      "author": "/u/Infinite-Flow-4475",
+      "excerpt": "Chatgpt can host the sites you build! Totally free, from hosting to database all included inside your plan. \n I am a plus subscriber and got like 4 sites hosted on it!\n Do note that you need the option for users to sign up with chatgpt for it to get more complex features\n    submitted by    /u/Infinite-Flow-4475  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
