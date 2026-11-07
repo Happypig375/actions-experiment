@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T11:27:26.930183Z",
+  "source": "r/codex",
+  "recovery_since": "2026-11-07T08:48:55.072049Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xq424p",
+      "timestamp": "2026-11-07T11:18:57Z",
+      "title": "Looking for 2 beta testers for HyperProxy: $10 usage credit each",
+      "author": "/u/Firstlight7000",
+      "url": "https://www.reddit.com/r/codex/comments/1xq424p/looking_for_2_beta_testers_for_hyperproxy_10/",
+      "excerpt": "Hi everyone, I\u2019m building HyperProxy, an API gateway for Codex and compatible clients.\n It\u2019s currently in beta, and I\u2019m looking for two developers to test it with their normal coding tasks. Each tester will receive $10 in HyperProxy usage credits, and I\u2019ll personally help with setup.\n I\u2019d appreciate honest feedback about setup, response quality, errors, and billing clarity. The credits are provided regardless of whether your feedback is positive.\n We\u2019ve encountered and addressed request-size and budget issues during testing. This is an early service, and I\u2019m still checking reliability.\n If it proves useful, the optional subscription costs \u20b97,450/month and includes up to $10 of daily usage credit. The daily allowance resets at midnight IST without rollover; that means up to $310 over 31 days. The gifted trial credits remain available until spent.\n There\u2019s no obligation to subscribe. Setup instructions, pricing, and service information are available here: HyperProxy setup.\n If you\u2019re interested, tell me which client you use and what you\u2019d like to test.\n https://preview.redd.it/i5911hmlc60i1.png?width=1903&format=png&auto=webp&s=9c53e56b6eeb1e2195ae805680141e3d82749be3\n https://previe",
+      "media_urls": [
+        "https://preview.redd.it/i5911hmlc60i1.png?width=140&height=76&auto=webp&s=787bb9f4611057e935e3c67d1db5f46f9fdcdf00",
+        "https://preview.redd.it/i5911hmlc60i1.png?width=1903&format=png&auto=webp&s=9c53e56b6eeb1e2195ae805680141e3d82749be3",
+        "https://preview.redd.it/s54s7u0pc60i1.png?width=1898&format=png&auto=webp&s=f93c6af7ed4203c62e1c5fb864bcd5fbcdc017c4"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xq3fc3",
+      "timestamp": "2026-11-07T10:38:18Z",
+      "title": "OpenSource: Use your Codex subscription as a travel planner",
+      "author": "/u/antocorr",
+      "url": "https://www.reddit.com/r/codex/comments/1xq3fc3/opensource_use_your_codex_subscription_as_a/",
+      "excerpt": "I built a self-hosted travel agentic planner.\n What it actually does:\n - Hierarchical trips \u2192 stops \u2192 places, with dates, notes, checklists and photos\n - OpenStreetMap pins, place search, reverse geocoding\n - Place enrichment: coordinates from Nominatim, descriptions + photos from Wikipedia (only empty fields are filled, never overwritten)\n - Resizable workspace: itinerary rail / map + details / assistant\n - Flight price monitor: full origins \u00d7 destinations \u00d7 dates matrix, Google Flights and Skyscanner readers via Chrome/CDP, cheapest badges, per-cell refresh and price history\n - Provider manager with the models.dev catalog + ChatGPT OAuth as an alternative to API keys\n The assistant runs through the Pi SDK with an explicit tool set \u2014 no shell, no filesystem:\n list_trips, get_trip_tree, create_node, update_node, move_node, save_todo, save_image, search_places, place_info, complete_place(s), web_search, execute_js (disabled by default)\n Stack: Node 22 + TypeScript, TinyBubble + Leaflet, Vite, RpcAble over WebSocket, Pi SDK for the agent, puppeteer-core for the flight readers.\n Repo: https://github.com/antocorr/TravelMore\n    submitted by    /u/antocorr  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/km1suz9c560i1.png?width=640&crop=smart&auto=webp&s=fe8d1e2e01df05543171c70a9f153d39437990c3",
+        "https://i.redd.it/km1suz9c560i1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xq2vb6",
+      "timestamp": "2026-11-07T10:01:23Z",
+      "title": "TIP: Don't make your banked reset go wasted",
+      "author": "/u/masterkain",
+      "url": "https://www.reddit.com/r/codex/comments/1xq2vb6/tip_dont_make_your_banked_reset_go_wasted/",
+      "excerpt": "just a quick note cause I saw a surge of people essentially forgetting to use their banked resets\n my genuine advice is to look up and install Codex Pooler, it has automated banked usage resets via policies AND a built in anti-waste feature\n I'm not even linking the project, just do yourself and your codex a favor and have fun\n    submitted by    /u/masterkain  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ol9z0h44y50i1.png?width=320&crop=smart&auto=webp&s=b38b2fb3a717460c7c346d1777fd595d5e730e22",
+        "https://i.redd.it/ol9z0h44y50i1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xq2lzh",
+      "timestamp": "2026-11-07T09:44:20Z",
+      "title": "Limits of the codex hosting",
+      "author": "/u/Turbulent_Rooster_73",
+      "url": "https://www.reddit.com/r/codex/comments/1xq2lzh/limits_of_the_codex_hosting/",
+      "excerpt": "What are the limits on scaling and complexity of the hosted pages? Is that more of a \u201cstaging\u201d server for simple static sites or can it be used in any way seriously?!\n    submitted by    /u/Turbulent_Rooster_73  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xq2bk7",
+      "timestamp": "2026-11-07T09:24:59Z",
+      "title": "Open-source Codex app alternative where each folder has its own memory and instructions?",
+      "author": "/u/Lazy-Particular2299",
+      "url": "https://www.reddit.com/r/codex/comments/1xq2bk7/opensource_codex_app_alternative_where_each/",
+      "excerpt": "Hi everyone,\n I\u2019m looking for an open-source alternative to the Codex app, with chat and code in one place.\n The most important thing for me is that each folder (project) has its own memory and custom instructions, like Projects in ChatGPT and Claude.\n I already tried DeepSeek Harness, AionUI and Paseo. None of them has this.\n Do you know any app that does? Any suggestions are welcome. Thanks :)\n    submitted by    /u/Lazy-Particular2299  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}

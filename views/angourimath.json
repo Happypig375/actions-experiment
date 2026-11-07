@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T11:27:26.930183Z",
+  "source": "asc-community/AngouriMath",
+  "recovery_since": "2026-11-07T08:48:55.072049Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "events": [
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T08:50:26Z",
+      "id": 42355170374,
+      "title": "C# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "42d1fe9a6f480bbab7b00b3fb3f425c9e6e42ae9",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42355170374"
+    }
+  ],
+  "errors": []
+}
