@@ -1,0 +1,404 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T17:20:09.807651Z",
+  "source": "asc-community/AngouriMath",
+  "recovery_since": "2026-11-07T15:24:59.216618Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "events": [
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:37Z",
+      "number": 1649,
+      "title": "Organization-level management",
+      "state": "open",
+      "comments": 36,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/1649"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:35Z",
+      "number": 540,
+      "title": "Host SourceBrowser for AngouriMath repo",
+      "state": "open",
+      "comments": 4,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/540"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:34Z",
+      "number": 495,
+      "title": "Lambdas & functions as entities",
+      "state": "open",
+      "comments": 2,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/495"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:32Z",
+      "number": 2120,
+      "title": "Mark experimental API with .NET's [Experimental] attribute",
+      "state": "open",
+      "comments": 0,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/2120"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:30Z",
+      "number": 1660,
+      "title": "packages",
+      "state": "open",
+      "comments": 5,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/1660"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:28Z",
+      "number": 534,
+      "title": "Move to RefLinq instead of Linq",
+      "state": "open",
+      "comments": 5,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/534"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:26Z",
+      "number": 500,
+      "title": "Performance reporter",
+      "state": "open",
+      "comments": 0,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/500"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:24Z",
+      "number": 357,
+      "title": "Dependency reduction algorithm for multi-variable statement",
+      "state": "open",
+      "comments": 1,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/357"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:22Z",
+      "number": 321,
+      "title": "Implement non-kernel functions",
+      "state": "open",
+      "comments": 4,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/321"
+    },
+    {
+      "type": "issue",
+      "timestamp": "2026-11-07T17:09:20Z",
+      "number": 212,
+      "title": "Support parametric solutions",
+      "state": "open",
+      "comments": 14,
+      "url": "https://github.com/ASC-Community/AngouriMath/issues/212"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T17:01:08Z",
+      "id": 42392264590,
+      "title": "C# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264590"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:53:30Z",
+      "id": 42392264608,
+      "title": "Harnesses",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264608"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:51:23Z",
+      "id": 42392264617,
+      "title": "Kernel Benchmark",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264617"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:45:47Z",
+      "id": 42392264626,
+      "title": "C#/Kernel Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264626"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:45:16Z",
+      "id": 42392264613,
+      "title": "C++ Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264613"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:43:31Z",
+      "id": 42392264701,
+      "title": "Interactive Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264701"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:43:08Z",
+      "id": 42392264594,
+      "title": "Integration Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264594"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:43:07Z",
+      "id": 42392264562,
+      "title": "Trimming & NativeAOT",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264562"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:42:58Z",
+      "id": 42392264648,
+      "title": "Solution Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264648"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:42:49Z",
+      "id": 42392264581,
+      "title": "Interactive Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264581"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:41:56Z",
+      "id": 42392264553,
+      "title": "F# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264553"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:41:41Z",
+      "id": 42392264554,
+      "title": "C++ Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264554"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:39:26Z",
+      "id": 42392264587,
+      "title": "F# Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "master",
+      "head_sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42392264587"
+    },
+    {
+      "type": "pull_request",
+      "timestamp": "2026-11-07T16:38:02Z",
+      "number": 2383,
+      "title": "Ask the descent's own question once",
+      "state": "closed",
+      "merged_at": "2026-11-07T16:37:52Z",
+      "draft": false,
+      "url": "https://github.com/ASC-Community/AngouriMath/pull/2383"
+    },
+    {
+      "type": "commit",
+      "timestamp": "2026-11-07T16:37:52Z",
+      "sha": "0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b",
+      "title": "Ask the descent's own question once (#2383)",
+      "url": "https://github.com/ASC-Community/AngouriMath/commit/0f2f41d00ae6b1e8aecb2e2790d46f972ed1bd5b"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:34:33Z",
+      "id": 42389876015,
+      "title": "C# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389876015"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:22:07Z",
+      "id": 42389875935,
+      "title": "Kernel Benchmark",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875935"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:19:11Z",
+      "id": 42389875876,
+      "title": "Harnesses",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875876"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:17:54Z",
+      "id": 42389876084,
+      "title": "Integration Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389876084"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:16:54Z",
+      "id": 42389875859,
+      "title": "C++ Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875859"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:16:38Z",
+      "id": 42389875977,
+      "title": "F# Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875977"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:15:44Z",
+      "id": 42389875832,
+      "title": "Interactive Test",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875832"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:15:19Z",
+      "id": 42389875921,
+      "title": "Trimming & NativeAOT",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875921"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:14:39Z",
+      "id": 42389875957,
+      "title": "C++ Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875957"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:14:39Z",
+      "id": 42389875910,
+      "title": "Solution Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875910"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:13:35Z",
+      "id": 42389875868,
+      "title": "C#/Kernel Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875868"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:13:27Z",
+      "id": 42389875856,
+      "title": "Interactive Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875856"
+    },
+    {
+      "type": "workflow_run",
+      "timestamp": "2026-11-07T16:10:57Z",
+      "id": 42389875959,
+      "title": "F# Build",
+      "status": "completed",
+      "conclusion": "success",
+      "head_branch": "feature/tanh-factor-at-zero",
+      "head_sha": "79359f735af9c03ce0145608254937caed626fcd",
+      "url": "https://github.com/ASC-Community/AngouriMath/actions/runs/42389875959"
+    }
+  ],
+  "errors": []
+}

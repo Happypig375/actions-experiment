@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-07T17:20:09.807651Z",
+  "source": "r/codex",
+  "recovery_since": "2026-11-07T15:24:59.216618Z",
+  "backlog": false,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xqaci6",
+      "timestamp": "2026-11-07T16:25:02Z",
+      "title": "Models Dissapeared?",
+      "author": "/u/DailyLeagueDose",
+      "url": "https://www.reddit.com/r/codex/comments/1xqaci6/models_dissapeared/",
+      "excerpt": "Hey guys,\n I just upgraded one account from Free to PRO 5x (or w/e the x is now), and suddenly, I can only use 5.6 Luna, 5.6 Terra and 6 Luna. Am I the only one that has this issue? I logged out of the account, I started a chat with a model to see if that will unlock. No success. \n    submitted by    /u/DailyLeagueDose  \n [link]   [comments]",
+      "media_urls": []
+    }
+  ],
+  "errors": []
+}
