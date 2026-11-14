@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T19:30:56.887120Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "fxtwitter",
+  "recovery_since": "2026-11-14T14:18:24.983050Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [],
+  "errors": []
+}

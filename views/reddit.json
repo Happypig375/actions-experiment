@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T19:30:56.887120Z",
+  "source": "r/codex",
+  "recovery_since": "2026-11-14T15:14:42.717048Z",
+  "backlog": true,
+  "coverage_complete": true,
+  "items": [
+    {
+      "type": "reddit_post",
+      "id": "t3_1xwamla",
+      "timestamp": "2026-11-14T19:12:13Z",
+      "title": "GPT Sol 6.1 vs Opus 5.5: My Surprising Experience",
+      "author": "/u/Glittering-Neck-2505",
+      "url": "https://www.reddit.com/r/codex/comments/1xwamla/gpt_sol_61_vs_opus_55_my_surprising_experience/",
+      "excerpt": "I was always on GPT 6.1 Sol and GPT 6 Astra. My work pays for the $200 tier, and I consistently use all the tokens they provide me. I've been stalling out with Sol lately on some issues it struggles with, so I bought the $100 Claude.\n It's very odd. Opus 5.5 does indeed have much better visual standards and it's capable of some incredible feats, helping me fix surfaces that have looked bad for months of development, but it also is \"lazier\" than GPT and worse at instruction following. It's less rigorous in testing. Examples:\n  It commented out a very important line breaking the app's entire calculation engine (the app is shipping as an engineering calculator). It installed this unaware that the glitch existed apparently. Sol or Astra were never that sloppy. It ignored a request that I put in 3 standalone reviews of it's repair manifests. I mentioned the visual issue every time with very specific instructions on how to fix it, and there was not so much as any follow-up addressing the concern. I'm having Sol audit for missed items that I asked for because Opus 5.5 cannot seem to carry out complete audits well. It frequently did not include screenshots of visual UI repairs, even though",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw90ft",
+      "timestamp": "2026-11-14T18:07:07Z",
+      "title": "Single vs two agent workflow",
+      "author": "/u/RareSoup227",
+      "url": "https://www.reddit.com/r/codex/comments/1xw90ft/single_vs_two_agent_workflow/",
+      "excerpt": "I\u2019ve read that people have experienced increased efficiency using opus 5.5 to orchestrate a single sonnet 5.5 implementor.\n Has anyone done any tests on how 6.1 sol performs alone with no subagents versus 6.1 orchestrating a single 6.1 Terra implementor?\n All the posts I\u2019ve seen so far have featured multiple sub agents. Has any one tried a single implementor?\n    submitted by    /u/RareSoup227  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw8w1h",
+      "timestamp": "2026-11-14T18:02:25Z",
+      "title": "LaTeX Rendering in Deep Research is broken",
+      "author": "/u/Lowfry",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8w1h/latex_rendering_in_deep_research_is_broken/",
+      "excerpt": "I know that not many people use this anymore, but they should fix LaTeX rendering in it anyway. This chat is from the Web UI.\n    submitted by    /u/Lowfry  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/ojsstc2tam1i1.png?width=640&crop=smart&auto=webp&s=74a7234fc31db77628f4f0addd4136e20cd2db77",
+        "https://i.redd.it/ojsstc2tam1i1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw8jiu",
+      "timestamp": "2026-11-14T17:48:24Z",
+      "title": "Dots - I don't get it",
+      "author": "/u/Temporary-Mix8022",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8jiu/dots_i_dont_get_it/",
+      "excerpt": "What exactly is the point of dots? What do people do with them?\n I asked my Dot.. and it gave me an example of searching for routes home.. but Chat can do that? (And lol, Google Maps)..\n Or finding somewhere to go for dinner.. but again.. Chat can do that? \n What are people using it for, and what is it good at?\n    submitted by    /u/Temporary-Mix8022  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw8dhg",
+      "timestamp": "2026-11-14T17:41:44Z",
+      "title": "Has anyone else added a liaison agent to their orchestration stack?",
+      "author": "/u/DynaBeast",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8dhg/has_anyone_else_added_a_liaison_agent_to_their/",
+      "excerpt": "Showing my current orchestration layout as an example. I'd say it's fairly standard to have a single coordinator agent at the top managing a large team of agents below it. But when that team gets very large, and there's a lot of parallel work moving at once, the coordinator's time tends to be taken up 80-90% with it's coordination duties, and it often loses track of the conversation it has with you, the user.\n I've adapted an additional agent directly above my coordinator, that I call the liaison, which acts as a persistent personal secretary for me; they keep track of the long-running tasks, ongoing progress, and are much easier to talk to one-on-one than the coordinator, who's always busy managing subagents. Their context fills much slower than the coordinator's, so the conversation is easier to follow for both of us. I think it's worth doing if you have more than a half dozen agents working at once below your coordinator, it smooths out communicating my ideas a ton.\n    submitted by    /u/DynaBeast  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/gq7asxrc7m1i1.png?width=640&crop=smart&auto=webp&s=e5cb71adbc23102582b679b98433364314b43ddd",
+        "https://i.redd.it/gq7asxrc7m1i1.png"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw86hf",
+      "timestamp": "2026-11-14T17:33:44Z",
+      "title": "What's going on with my Codex?",
+      "author": "/u/kyrax80",
+      "url": "https://www.reddit.com/r/codex/comments/1xw86hf/whats_going_on_with_my_codex/",
+      "excerpt": "I don't know if it's actually updating or not but I have updates very often and most of times when I click on the update icon the modal says installing updates and that it'll restart. It never restarts and I have to open it myself and sometimes I still have the update icon back. Anyone else experiencing the same?\n    submitted by    /u/kyrax80  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw7oe0",
+      "timestamp": "2026-11-14T17:13:33Z",
+      "title": "Codex is a joke",
+      "author": "/u/Dee-Loc113",
+      "url": "https://www.reddit.com/r/codex/comments/1xw7oe0/codex_is_a_joke/",
+      "excerpt": "Apparently for a month codex didn't commit any changest to github, it kept everything on its local repository. I had to stop working for 5 days. Now whole project is non existent.\n    submitted by    /u/Dee-Loc113  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw7n7x",
+      "timestamp": "2026-11-14T17:12:17Z",
+      "title": "I built an open-source tool that lets AI coding agents collaborate across developers",
+      "author": "/u/RyzeBlaziken",
+      "url": "https://www.reddit.com/r/codex/comments/1xw7n7x/i_built_an_opensource_tool_that_lets_ai_coding/",
+      "excerpt": "Hey everyone!\n I've been experimenting a lot with AI coding agents like Claude Code and Codex, and one problem I kept running into was how difficult it is to coordinate agents when multiple developers are working on the same project. I realized mid-hackathon that it would be really easy to just have agents hand off tasks to other users' agents. It splits the mental load of splitting the task of reviewing the code.\n Most agent tools are designed around a single developer. But when you're working in a team, things get complicated pretty quickly:\n  Agents can modify files another developer is responsible for. Multiple agents can end up working on the same task. Frontend and backend agents can make conflicting assumptions about API contracts. Coordinating everything manually through Slack, tickets, or copy-pasted prompts gets tedious.  So I started building CodeRelay, an open-source tool built on top of T3 Code that focuses on collaboration between developers' coding agents.\n The idea is pretty simple: each developer owns certain parts of a repository, and when an agent needs something outside its owner's scope, it can hand off that work to the appropriate teammate's agent.\n How it wor",
+      "media_urls": [
+        "https://external-preview.redd.it/ZmlydjV3bzUybTFpMfo24Vr2P6Dg1_RLGFpBGTTjgjBLzBtNLGE_0kRkwq4g.png?width=640&crop=smart&auto=webp&s=fe7240f91c02ef3acbb070ec278d005dcbabdf2e"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw6zrl",
+      "timestamp": "2026-11-14T16:46:18Z",
+      "title": "Codex CLI sessions are now account specific",
+      "author": "/u/Global_Method8918",
+      "url": "https://www.reddit.com/r/codex/comments/1xw6zrl/codex_cli_sessions_are_now_account_specific/",
+      "excerpt": "I use 2 codex business account in the same workspace in 1 machine. When I ran out of credits in the 1st account, I switch to 2nd account and continue the session. But earlier, sessions appearing differently in each account. I have to do codex resume <session> to access a local session from the other account.\n Looks like sessions are now account-scoped! https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md?#local-history-by-account\n    submitted by    /u/Global_Method8918  \n [link]   [comments]",
+      "media_urls": []
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw6tb5",
+      "timestamp": "2026-11-14T16:39:00Z",
+      "title": "I built Burnline, a free, open-source macOS app to track your Claude Code & Codex usage, API costs, limits, and coding streaks",
+      "author": "/u/ig_harsha_7",
+      "url": "https://www.reddit.com/r/codex/comments/1xw6tb5/i_built_burnline_a_free_opensource_macos_app_to/",
+      "excerpt": "Hey everyone!\n I've been working on a project called Burnline, and I'm excited to finally share it with you all!\n If you're someone who regularly uses Claude Code or OpenAI Codex, you've probably wondered how many tokens you've actually burned through, what all that usage would cost at API rates, or how much of your plan limits you have left.\n That's exactly what Burnline is built for.\n Burnline is a free, open-source, local-first macOS app that tracks your AI coding usage, gives you detailed insights, and makes the whole experience a little more fun with streaks, achievements, and milestones.\n It lives right in your Mac's menu bar as a tiny flame that burns brighter the more you use your AI coding tools!\n \ud83d\udd25 What can Burnline do?  Token & cost tracking: See how many tokens you've consumed and what they would have cost at historical API prices. Break everything down by project, model, provider, session, or day, all the way back to your earliest recorded usage. Live plan limits: Track your Claude Code and Codex usage windows, see when they reset, and get warned if you're on pace to hit a limit before your window resets. Coding streaks & activity heatmaps: A GitHub-style heatmap of yo",
+      "media_urls": [
+        "https://external-preview.redd.it/aDN0a2gxbjZ3bDFpMayEzK6k-0APSF3ncaIuBZPf98E3TQvFNsRs7m01zJNL.png?width=640&crop=smart&auto=webp&s=f4899a9c6490d6fdebc56864e8dfc7654647fdbd"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw5myr",
+      "timestamp": "2026-11-14T15:50:35Z",
+      "title": "If any one facing the UPI problem with free trial you can do this method",
+      "author": "/u/Maheshwar_Hari",
+      "url": "https://www.reddit.com/r/codex/comments/1xw5myr/if_any_one_facing_the_upi_problem_with_free_trial/",
+      "excerpt": "Actually from many days I am facing the show that whenever I am going to check out page and selecting the upi method it just simply said that payment method declined or not working so I have found the way which you can do to get this free trial \n  Instead of using normal Google Chrome browser or chat GPT app just use another browser like Samsung browser Opera etc.(in my case I have used to Samsung browser) \n Open the website on desktop mode \n Select the upi method leave the business name and business address \n Proceed and if it shows the error again try clicking one or two times on check out it will definitely work\n     submitted by    /u/Maheshwar_Hari  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/cjfplywknl1i1.jpeg?width=640&crop=smart&auto=webp&s=40ced61078d72c580db22ef79976cc2ab1718e51",
+        "https://i.redd.it/cjfplywknl1i1.jpeg"
+      ]
+    },
+    {
+      "type": "reddit_post",
+      "id": "t3_1xw5gmi",
+      "timestamp": "2026-11-14T15:43:12Z",
+      "title": "environment wont start or publish",
+      "author": "/u/JustErein",
+      "url": "https://www.reddit.com/r/codex/comments/1xw5gmi/environment_wont_start_or_publish/",
+      "excerpt": "https://preview.redd.it/rl83i464ll1i1.png?width=467&format=png&auto=webp&s=b8aa438e3017d8ef4f9fe3740a169b766f0e36ce\n hello, has anyone experienced this error when setting up codex environment connected to github? i tried to publish it for days but the environment still wont become usable \n thank you in advance\n    submitted by    /u/JustErein  \n [link]   [comments]",
+      "media_urls": [
+        "https://preview.redd.it/rl83i464ll1i1.png?width=140&height=64&auto=webp&s=cfe0f767439b9792fe471373f56146d967444b87",
+        "https://preview.redd.it/rl83i464ll1i1.png?width=467&format=png&auto=webp&s=b8aa438e3017d8ef4f9fe3740a169b766f0e36ce"
+      ]
+    }
+  ],
+  "errors": []
+}
