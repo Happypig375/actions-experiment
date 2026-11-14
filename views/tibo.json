@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T08:29:43.063442Z",
+  "source": "@thsottiaux",
+  "acquisition_mode": "unavailable",
+  "recovery_since": "2026-11-14T02:26:27.360774Z",
+  "backlog": true,
+  "coverage_complete": false,
+  "items": [],
+  "errors": [
+    "fxtwitter: HTTP Error 404: Not Found",
+    "rsshub-chyi: HTTP Error 503: Service Unavailable",
+    "rsshub-olivetint: HTTP Error 503: Service Unavailable",
+    "all Tibo feed mirrors failed"
+  ]
+}
