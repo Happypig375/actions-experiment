@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-14T19:30:32.394438Z",
+  "since": "2026-11-14T13:30:32.394438Z",
+  "source": "r/codex",
+  "acquisition_mode": "rss",
+  "candidate_discovery_only": true,
+  "items": [
+    {
+      "id": "t3_1xwamla",
+      "title": "GPT Sol 6.1 vs Opus 5.5: My Surprising Experience",
+      "url": "https://www.reddit.com/r/codex/comments/1xwamla/gpt_sol_61_vs_opus_55_my_surprising_experience/",
+      "created_at": "2026-11-14T19:12:13+00:00",
+      "author": "/u/Glittering-Neck-2505",
+      "excerpt": "I was always on GPT 6.1 Sol and GPT 6 Astra. My work pays for the $200 tier, and I consistently use all the tokens they provide me. I've been stalling out with Sol lately on some issues it struggles with, so I bought the $100 Claude.\n It's very odd. Opus 5.5 does indeed have much better visual standards and it's capable of some incredible feats, helping me fix surfaces that have looked bad for months of development, but it also is \"lazier\" than GPT and worse at instruction following. It's less rigorous in testing. Examples:\n  It commented out a very important line breaking the app's entire calculation engine (the app is shipping as an engineering calculator). It installed this unaware that the glitch existed apparently. Sol or Astra were never that sloppy. It ignored a request that I put i",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw90ft",
+      "title": "Single vs two agent workflow",
+      "url": "https://www.reddit.com/r/codex/comments/1xw90ft/single_vs_two_agent_workflow/",
+      "created_at": "2026-11-14T18:07:07+00:00",
+      "author": "/u/RareSoup227",
+      "excerpt": "I\u2019ve read that people have experienced increased efficiency using opus 5.5 to orchestrate a single sonnet 5.5 implementor.\n Has anyone done any tests on how 6.1 sol performs alone with no subagents versus 6.1 orchestrating a single 6.1 Terra implementor?\n All the posts I\u2019ve seen so far have featured multiple sub agents. Has any one tried a single implementor?\n    submitted by    /u/RareSoup227  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw8w1h",
+      "title": "LaTeX Rendering in Deep Research is broken",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8w1h/latex_rendering_in_deep_research_is_broken/",
+      "created_at": "2026-11-14T18:02:25+00:00",
+      "author": "/u/Lowfry",
+      "excerpt": "I know that not many people use this anymore, but they should fix LaTeX rendering in it anyway. This chat is from the Web UI.\n    submitted by    /u/Lowfry  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw8jiu",
+      "title": "Dots - I don't get it",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8jiu/dots_i_dont_get_it/",
+      "created_at": "2026-11-14T17:48:24+00:00",
+      "author": "/u/Temporary-Mix8022",
+      "excerpt": "What exactly is the point of dots? What do people do with them?\n I asked my Dot.. and it gave me an example of searching for routes home.. but Chat can do that? (And lol, Google Maps)..\n Or finding somewhere to go for dinner.. but again.. Chat can do that? \n What are people using it for, and what is it good at?\n    submitted by    /u/Temporary-Mix8022  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw8dhg",
+      "title": "Has anyone else added a liaison agent to their orchestration stack?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw8dhg/has_anyone_else_added_a_liaison_agent_to_their/",
+      "created_at": "2026-11-14T17:41:44+00:00",
+      "author": "/u/DynaBeast",
+      "excerpt": "Showing my current orchestration layout as an example. I'd say it's fairly standard to have a single coordinator agent at the top managing a large team of agents below it. But when that team gets very large, and there's a lot of parallel work moving at once, the coordinator's time tends to be taken up 80-90% with it's coordination duties, and it often loses track of the conversation it has with you, the user.\n I've adapted an additional agent directly above my coordinator, that I call the liaison, which acts as a persistent personal secretary for me; they keep track of the long-running tasks, ongoing progress, and are much easier to talk to one-on-one than the coordinator, who's always busy managing subagents. Their context fills much slower than the coordinator's, so the conversation is e",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw86hf",
+      "title": "What's going on with my Codex?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw86hf/whats_going_on_with_my_codex/",
+      "created_at": "2026-11-14T17:33:44+00:00",
+      "author": "/u/kyrax80",
+      "excerpt": "I don't know if it's actually updating or not but I have updates very often and most of times when I click on the update icon the modal says installing updates and that it'll restart. It never restarts and I have to open it myself and sometimes I still have the update icon back. Anyone else experiencing the same?\n    submitted by    /u/kyrax80  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw7oe0",
+      "title": "Codex is a joke",
+      "url": "https://www.reddit.com/r/codex/comments/1xw7oe0/codex_is_a_joke/",
+      "created_at": "2026-11-14T17:13:33+00:00",
+      "author": "/u/Dee-Loc113",
+      "excerpt": "Apparently for a month codex didn't commit any changest to github, it kept everything on its local repository. I had to stop working for 5 days. Now whole project is non existent.\n    submitted by    /u/Dee-Loc113  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw7n7x",
+      "title": "I built an open-source tool that lets AI coding agents collaborate across developers",
+      "url": "https://www.reddit.com/r/codex/comments/1xw7n7x/i_built_an_opensource_tool_that_lets_ai_coding/",
+      "created_at": "2026-11-14T17:12:17+00:00",
+      "author": "/u/RyzeBlaziken",
+      "excerpt": "Hey everyone!\n I've been experimenting a lot with AI coding agents like Claude Code and Codex, and one problem I kept running into was how difficult it is to coordinate agents when multiple developers are working on the same project. I realized mid-hackathon that it would be really easy to just have agents hand off tasks to other users' agents. It splits the mental load of splitting the task of reviewing the code.\n Most agent tools are designed around a single developer. But when you're working in a team, things get complicated pretty quickly:\n  Agents can modify files another developer is responsible for. Multiple agents can end up working on the same task. Frontend and backend agents can make conflicting assumptions about API contracts. Coordinating everything manually through Slack, tic",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw6zrl",
+      "title": "Codex CLI sessions are now account specific",
+      "url": "https://www.reddit.com/r/codex/comments/1xw6zrl/codex_cli_sessions_are_now_account_specific/",
+      "created_at": "2026-11-14T16:46:18+00:00",
+      "author": "/u/Global_Method8918",
+      "excerpt": "I use 2 codex business account in the same workspace in 1 machine. When I ran out of credits in the 1st account, I switch to 2nd account and continue the session. But earlier, sessions appearing differently in each account. I have to do codex resume <session> to access a local session from the other account.\n Looks like sessions are now account-scoped! https://github.com/openai/codex/blob/main/codex-rs/app-server/README.md?#local-history-by-account\n    submitted by    /u/Global_Method8918  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw6tb5",
+      "title": "I built Burnline, a free, open-source macOS app to track your Claude Code & Codex usage, API costs, limits, and coding streaks",
+      "url": "https://www.reddit.com/r/codex/comments/1xw6tb5/i_built_burnline_a_free_opensource_macos_app_to/",
+      "created_at": "2026-11-14T16:39:00+00:00",
+      "author": "/u/ig_harsha_7",
+      "excerpt": "Hey everyone!\n I've been working on a project called Burnline, and I'm excited to finally share it with you all!\n If you're someone who regularly uses Claude Code or OpenAI Codex, you've probably wondered how many tokens you've actually burned through, what all that usage would cost at API rates, or how much of your plan limits you have left.\n That's exactly what Burnline is built for.\n Burnline is a free, open-source, local-first macOS app that tracks your AI coding usage, gives you detailed insights, and makes the whole experience a little more fun with streaks, achievements, and milestones.\n It lives right in your Mac's menu bar as a tiny flame that burns brighter the more you use your AI coding tools!\n \ud83d\udd25 What can Burnline do?  Token & cost tracking: See how many tokens you've consumed ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw5myr",
+      "title": "If any one facing the UPI problem with free trial you can do this method",
+      "url": "https://www.reddit.com/r/codex/comments/1xw5myr/if_any_one_facing_the_upi_problem_with_free_trial/",
+      "created_at": "2026-11-14T15:50:35+00:00",
+      "author": "/u/Maheshwar_Hari",
+      "excerpt": "Actually from many days I am facing the show that whenever I am going to check out page and selecting the upi method it just simply said that payment method declined or not working so I have found the way which you can do to get this free trial \n  Instead of using normal Google Chrome browser or chat GPT app just use another browser like Samsung browser Opera etc.(in my case I have used to Samsung browser) \n Open the website on desktop mode \n Select the upi method leave the business name and business address \n Proceed and if it shows the error again try clicking one or two times on check out it will definitely work\n     submitted by    /u/Maheshwar_Hari  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw5gmi",
+      "title": "environment wont start or publish",
+      "url": "https://www.reddit.com/r/codex/comments/1xw5gmi/environment_wont_start_or_publish/",
+      "created_at": "2026-11-14T15:43:12+00:00",
+      "author": "/u/JustErein",
+      "excerpt": "https://preview.redd.it/rl83i464ll1i1.png?width=467&format=png&auto=webp&s=b8aa438e3017d8ef4f9fe3740a169b766f0e36ce\n hello, has anyone experienced this error when setting up codex environment connected to github? i tried to publish it for days but the environment still wont become usable \n thank you in advance\n    submitted by    /u/JustErein  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw4i8e",
+      "title": "Dots for ALL ?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw4i8e/dots_for_all/",
+      "created_at": "2026-11-14T15:02:42+00:00",
+      "author": "/u/Page_Specialist",
+      "excerpt": "Today, the ChatGPT Dots icon briefly appeared in my interface, but it disappeared before I could take a screenshot. I'm on the ChatGPT Business plan without a Premium seat, so I found this pretty interesting. Could this mean OpenAI is preparing to roll out Dots to other plans, including Plus, or was it just a UI bug?\n    submitted by    /u/Page_Specialist  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw4buo",
+      "title": "Gemini Argon/Hydrogen vs Gpt 6.1 Sol/Luna for writing a detailed book",
+      "url": "https://www.reddit.com/r/codex/comments/1xw4buo/gemini_argonhydrogen_vs_gpt_61_solluna_for/",
+      "created_at": "2026-11-14T14:55:17+00:00",
+      "author": "/u/Your_Quantum_Friend",
+      "excerpt": "Hi, I am writing a book based on a lot of research material I have. I have prepared an initial version using Gpt 6.1 sol with luna but it is not very coherent and consistent. I want to ask should I go ahead with another round of asking gpt 6.1 sol to improve it or use gemini models to rewrite it? I heard they are good with it.\n    submitted by    /u/Your_Quantum_Friend  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw3onp",
+      "title": "What's a good AI agent harness for cybersecurity work with multiple AI subscriptions?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw3onp/whats_a_good_ai_agent_harness_for_cybersecurity/",
+      "created_at": "2026-11-14T14:27:04+00:00",
+      "author": "/u/Sufficient-Gap7331",
+      "excerpt": "I'm trying to set up something for pentesting. I already have multiple AI subscriptions (Claude, ChatGPT) and ideally want to use those for research work they wont refuse while having an uncensored api model as their orchestrator, managing them and prompt refusals.\n I've looked into Pi and OpenCode but I'm not sure which one would be best for this or if there's something better, while having their plugins to use my codex and claude subscription usage.\n Has anyone set up something similar?\n \n    submitted by    /u/Sufficient-Gap7331  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw2qin",
+      "title": "Is using a banked provide the same exact weekly amount?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw2qin/is_using_a_banked_provide_the_same_exact_weekly/",
+      "created_at": "2026-11-14T13:43:55+00:00",
+      "author": "/u/Redditry199",
+      "excerpt": "Im just wondering if I'm imagining things since I decided to use a banked reset and all of the sudden my usage feels like it has been halved, but it also reset my weekly date so if that's how it works it's a fucking scam. Is that really the case or did I fuck up somewhere?\n    submitted by    /u/Redditry199  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw0t1m",
+      "title": "POV: You still have 30% of your Codex Pro weekly limit left and only 12 hours until reset",
+      "url": "https://www.reddit.com/r/codex/comments/1xw0t1m/pov_you_still_have_30_of_your_codex_pro_weekly/",
+      "created_at": "2026-11-14T12:04:08+00:00",
+      "author": "/u/Unfair-Economist-249",
+      "excerpt": "3 apps and 1 Godot game running simultaneously.\n Codex still has fuel left.\n My Mac is becoming the fuel. \ud83d\udd25\ud83d\ude02\n Anyone else trying to burn through their Codex limit before their Mac burns down?\n    submitted by    /u/Unfair-Economist-249  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xw0253",
+      "title": "Would you pay $10/month for discounted API pricing + pay-as-you-go usage?",
+      "url": "https://www.reddit.com/r/codex/comments/1xw0253/would_you_pay_10month_for_discounted_api_pricing/",
+      "created_at": "2026-11-14T11:20:13+00:00",
+      "author": "/u/magekinnarus",
+      "excerpt": "Over the past three days, I've spent about $7 on the DeepSeek API, and today alone, I'm already at $1.78 and counting. At this rate, I could end up paying more for DeepSeek this month than my OpenAI and Anthropic subscriptions combined.\n Yet, strangely enough, I don't mind paying it. And that made me wonder why.\n Here's the ridiculous part. I'm already paying more for DeepSeek API usage than I pay for ChatGPT Plus. Yet, I don't want to upgrade to Pro because I know I would start feeling pressure to use it enough to justify the subscription.\n Somehow, I'm more comfortable paying more for something I actually use than paying a fixed amount for something I feel obligated to use.\n And that made me wonder whether we're approaching AI subscriptions the wrong way.\n Obviously, DeepSeek has proven ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvzny7",
+      "title": "Mouse cursor completely stopped working after computer use",
+      "url": "https://www.reddit.com/r/codex/comments/1xvzny7/mouse_cursor_completely_stopped_working_after/",
+      "created_at": "2026-11-14T10:56:48+00:00",
+      "author": "/u/danielsuperone",
+      "excerpt": "Hello all, was using \"Computer Use\" feature to navigate through PC and perform tasks, however, when the agent finished, my screen flashed rapidly for 2 minutes straight (as if it was alt-tabbing) and then the cursor just dissapeared!\n Can't use my mouse at all now; got a notification from a security app that \"elevated privileges\" were used and then something about driver.\n Writing this post using keyboard only as mouse is not registering at all, tried different ports, difference mice, both wired and wireless, nothing. Checked github for issues and turns out this is a known bug, how it still around, what do I even do now?\n THIS WAS THE LAST STRAW OPENAI, ESPECIALLY WITH YOUR UPCOMING LIMITS.\n    submitted by    /u/danielsuperone  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvyk2s",
+      "title": "Has anyone encountered issues with the computer use feature in Codex?",
+      "url": "https://www.reddit.com/r/codex/comments/1xvyk2s/has_anyone_encountered_issues_with_the_computer/",
+      "created_at": "2026-11-14T09:46:55+00:00",
+      "author": "/u/Otherwise-Sir7359",
+      "excerpt": "I tried using the computer use feature with Chrome in Codex, but I received this error:\n Cannot read properties of undefined (reading 'timeoutMs')\n (occurs with both the Codex CLI and the Codex app)\n Chrome and its open tabs were detected, but I couldn\u2019t connect to a tab or interact with the page. \n The same error occurs across unrelated websites, and resetting the tool session didn\u2019t resolve it.\n Desktop control also appears unavailable: the tool documentation describes app and window APIs, but those functions aren\u2019t present when called.\n OS : Ubuntu 24.04.3 LTS (Noble Numbat)\n Has anyone else encountered this error or found a fix?\n    submitted by    /u/Otherwise-Sir7359  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvxt42",
+      "title": "Unable to set Luna Max in VS Code extension",
+      "url": "https://www.reddit.com/r/codex/comments/1xvxt42/unable_to_set_luna_max_in_vs_code_extension/",
+      "created_at": "2026-11-14T08:58:09+00:00",
+      "author": "/u/coaxialjunk",
+      "excerpt": "How do you set Luna Max in the VS Code extension, you used to be able to set it via a dropdown in the Codex Extension settings. That seems to have been removed\n If i edit the config.toml and replace model_reasoning_effort = \"max\" and restart the extension it reverts to xhigh\n model = \"gpt-6-luna\"\n model_reasoning_effort = \"xhigh\"\n service_tier = \"default\"\n    submitted by    /u/coaxialjunk  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvxkbb",
+      "title": "What Codex configuration / personalization options have you found useful?",
+      "url": "https://www.reddit.com/r/codex/comments/1xvxkbb/what_codex_configuration_personalization_options/",
+      "created_at": "2026-11-14T08:42:22+00:00",
+      "author": "/u/FarOil2748",
+      "excerpt": "Hello, I have recently gotten into the whole AI-wave, and as a consequence that into software development at large. How to configure and use these agents is hard to research, since best practices are changing so rapidly as the tech evolves.\n Currently I am making simple python programs, and training equally simple ML-models from scratch in PyTorch in order to further my knowledge in software & neural networks.I have ChatGPT desktop, VScode with codex extension, and most other things related to this hobby inside WSL. Workflow is using ChatGPT as a \"teacher\", and Codex in VSC as a code monkey. \n Due to the lack of up-to-date information I end up having to ask the AI how to use the AI, and while ChatGPT is great at summarizing information it often makes mistakes that in this case I lack the k",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvsv74",
+      "title": "How are the openai servers these days?",
+      "url": "https://www.reddit.com/r/codex/comments/1xvsv74/how_are_the_openai_servers_these_days/",
+      "created_at": "2026-11-14T04:09:59+00:00",
+      "author": "/u/bit_rich",
+      "excerpt": "back in the day when openai was mainstream, there were so many model capacity issues and reconnection issues.\n now that pretty much the majority jumped ship, is it better? i only use gpt models as subagent helpers these days so dont have first hand experience\n    submitted by    /u/bit_rich  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvskdr",
+      "title": "Codex App or Cli",
+      "url": "https://www.reddit.com/r/codex/comments/1xvskdr/codex_app_or_cli/",
+      "created_at": "2026-11-14T03:54:06+00:00",
+      "author": "/u/Waving_Eye",
+      "excerpt": "I've been using the cli for a while and wondering if any of you guys prefer the app? I heard that the app lacks some features but is that still true?\n    submitted by    /u/Waving_Eye  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvp9b3",
+      "title": "Nightshift: a plugin for long-running coding agents claude , codex and cursor",
+      "url": "https://www.reddit.com/r/codex/comments/1xvp9b3/nightshift_a_plugin_for_longrunning_coding_agents/",
+      "created_at": "2026-11-14T01:05:11+00:00",
+      "author": "/u/orwamahmoud",
+      "excerpt": "Giving a coding agent hours to work on a project is one thing. Knowing what it planned, whether it finished the work, what needs reviewing, and having evidence of what actually happened is another.\n That\u2019s what I\u2019ve been working on with Nightshift, a free, MIT-licensed plugin for Codex, Claude Code, and Cursor. It brings planning, autonomous execution, evidence, and review into one workflow, with the work saved on disk rather than buried in a long conversation.\n Planning :\n Enter the plan room with /nightshift:plan and describe what you want in your own words: a feature, refactor, bug fix, or whole backlog.\n Project code stays read-only while the room is open, so you can brainstorm and explore with your agent without it interrupting the discussion by jumping into implementation. Trace the ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvlh2c",
+      "title": "I gave Codex a phone.",
+      "url": "https://www.reddit.com/r/codex/comments/1xvlh2c/i_gave_codex_a_phone/",
+      "created_at": "2026-11-13T22:15:56+00:00",
+      "author": "/u/Puzzled-Stick9170",
+      "excerpt": "I wanted two things from Codex. I wanted it to test the app it just wrote, fast, by opening it and tapping through it like a person would. And I wanted to hand it the boring jobs on my phone.\n Neither works on its own, because almost nothing on a phone has an API. So I built phonedriver. It's an MCP server that gives Codex an Android phone or an iPhone. It reads the screen, taps, types and swipes, in any app.\n What you can do with it:\n - Test your own app. Say \"test the signup flow like a careful tester and report every bug with steps\". I hid two bugs in a signup form and it found both in 49 seconds, with steps to reproduce.\n - Change settings buried inside other apps, like making DuckDuckGo the search engine in Chrome.\n - Hand over phone chores: add a city to the world clock, pin or archi",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xvg08v",
+      "title": "Sol 6.1 max",
+      "url": "https://www.reddit.com/r/codex/comments/1xvg08v/sol_61_max/",
+      "created_at": "2026-11-13T18:42:14+00:00",
+      "author": "/u/DemandWestern4963",
+      "excerpt": "I've been using Sol 6.1 as my main go-to in OpenAI, but in the recent week, I've noticed that Sol 6.1 max is really capable when it comes to 3D stuff. Much more potent than the initial 6.1 was during the release or even recent weeks.\n Not sure if it became noticeable for other people on this page as well. \n    submitted by    /u/DemandWestern4963  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv7hgo",
+      "title": "OpenAI doesn't have the \"Breakneck\" workhorse model yet",
+      "url": "https://www.reddit.com/r/codex/comments/1xv7hgo/openai_doesnt_have_the_breakneck_workhorse_model/",
+      "created_at": "2026-11-13T13:10:39+00:00",
+      "author": "/u/ashokallu",
+      "excerpt": "Everyone is focussed on 6.2 Astra and all I am looking out is for the Luna. \n OpenAI doesn't have the breakneck model at all. All GPT 6 Luna could go is 100 TPS. But rest all models from Anthropic, Muse, Gemini and open-weight models DeepSeek-4.1-Flash and MiniMax-3.1-Flash are just always above 150 TPS on an average. \n A blistering speed workhorse model is the only thing that is pending from OpenAI. \n Haiku 5.5 (max) on Claude Code:\n Claude Code - Haiku 5.5 (max)\n Gemin 4 Hydrogen (XHigh) on AntiGravity:\n Gemin 4 Hydrogen (xhigh)\n MiniMax-M3.1-Flash(max):\n MiniMax-M3.1-Flash(max)\n Muse 1.0 Ember (Max):\n Muse 1.0 Ember (Max)\n    submitted by    /u/ashokallu  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv6xay",
+      "title": "How much usage do we really get?",
+      "url": "https://www.reddit.com/r/codex/comments/1xv6xay/how_much_usage_do_we_really_get/",
+      "created_at": "2026-11-13T12:45:03+00:00",
+      "author": "/u/Ashamed-Ad7403",
+      "excerpt": "I\u2019m planning on coming back to OpenAI, i was wondering, how is the usage with astra on your x10 (100\u20ac) sub?\n Does anybody have like a table sheet with api Cost per sub? Thanks!\n    submitted by    /u/Ashamed-Ad7403  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv6kps",
+      "title": "OpenAI you alive? Please ship ;)",
+      "url": "https://www.reddit.com/r/codex/comments/1xv6kps/openai_you_alive_please_ship/",
+      "created_at": "2026-11-13T12:27:42+00:00",
+      "author": "/u/Jawwooot",
+      "excerpt": "Thanks for the reset, so you definetly have a heartbeat, but are you guys alive and cooking?\n Please start competing again on the frontier or even just in the price performance the others are catching up !! :)\n    submitted by    /u/Jawwooot  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv6cp2",
+      "title": "What model do you use most for general coding?",
+      "url": "https://www.reddit.com/r/codex/comments/1xv6cp2/what_model_do_you_use_most_for_general_coding/",
+      "created_at": "2026-11-13T12:15:53+00:00",
+      "author": "/u/Several-Net-6036",
+      "excerpt": "I'm using 6.1 Sol with medium thinking. It seems to be okay for most of what I do, but I find that sometimes it lacks \"above and beyond\" effort. I'm thinking of higher effort or Astra but don't want it to get slow.\n    submitted by    /u/Several-Net-6036  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv57bm",
+      "title": "Codex + Astra fails at Kaggle Titanic",
+      "url": "https://www.reddit.com/r/codex/comments/1xv57bm/codex_astra_fails_at_kaggle_titanic/",
+      "created_at": "2026-11-13T11:14:43+00:00",
+      "author": "/u/Pale-Training-6944",
+      "excerpt": "I expected Codex + Astra to do better on Kaggle Titanic.\n With a one-hour limit, the best result from two runs was 72.96% accuracy. I then explicitly suggested XGBoost and let it spend roughly 90\u2013100 minutes optimizing the solution. The best result reached 77.27%.\n For a task as familiar as Titanic, that felt disappointing. Giving the agent a strong model, access to tools, and more time had not produced the result I expected.\n So we tried changing the workflow guiding the agent.\n We used Gear to evolve a DSH harness, with Astra at max reasoning effort. Starting from a harness that already incorporated earlier evolution, Gear examined execution feedback, proposed changes, and evaluated the resulting agents.\n The first evolution round produced a harness that reached 79.90% accuracy, best of ",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv4nfs",
+      "title": "Extracting data from Resume database into chosen fields ( Appsmith / Supabase)",
+      "url": "https://www.reddit.com/r/codex/comments/1xv4nfs/extracting_data_from_resume_database_into_chosen/",
+      "created_at": "2026-11-13T10:43:13+00:00",
+      "author": "/u/3d0zer",
+      "excerpt": "Hi everyone,\n I\u2019ve built a CRM using Codex, Chatgpt.... on Appsmith and Supabase, and I\u2019m trying to extract information from around 3,000 CVs/resumes into structured fields. Many of these fields are dropdowns with predefined values.\n The main challenge is getting AI to reliably map what\u2019s written in a CV to those predefined values. It\u2019s not just about extracting information\u2014it also needs to interpret it. Chatgpt, Codex, OpenAI and many models I tried, multimodels ( I have a pro 200 plan)... it just gets stuck every time... I have no clue how to solve it. It cannot handle the many different ways people describe their data in resumes.\n For example, a CV might describe certain tasks someone performed without explicitly listing the skills or knowledge involved. I\u2019d like the AI to recognize wha",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv4lg6",
+      "title": "The most objective agent eval on the internet. P.S. Yeah, thanks for the resets, by the way...",
+      "url": "https://www.reddit.com/r/codex/comments/1xv4lg6/the_most_objective_agent_eval_on_the_internet_ps/",
+      "created_at": "2026-11-13T10:39:48+00:00",
+      "author": "/u/nouzer_noname",
+      "excerpt": "https://preview.redd.it/k860jeswyc1i1.png?width=1006&format=png&auto=webp&s=6d8537bf4b869066f58045652f63c78629b27313\n Fresh off the press, the stats from the past 7 days are in...\n    submitted by    /u/nouzer_noname  \n [link]   [comments]",
+      "feeds": [
+        "new"
+      ]
+    },
+    {
+      "id": "t3_1xv4apv",
+      "title": "Giving Codex the project context for an undo test",
+      "url": "https://www.reddit.com/r/codex/comments/1xv4apv/giving_codex_the_project_context_for_an_undo_test/",
+      "created_at": "2026-11-13T10:21:28+00:00",
+      "author": "/u/clar-melton",
+      "excerpt": "Suppose I work in QA and use Codex to maintain a Markdown search app on the side. Renaming a folder makes notes appear twice in search. The fix involves the file watcher, which keeps the search index in sync with the notes on disk.\n The same watcher sees the file move into .trash on delete and back on undo. Before changing it, I'd ask Codex to retrieve the project's earlier decisions through MemoraX Code. An example prompt:\n  Find our earlier trash-and-restore decisions. Check the linked issue and current restore code before changing the watcher, then work out what the regression test needs to preserve.\n  The saved decision in this example requires undo to keep the note's original ID, so old links still open the same note. The existing delete test stops when the note disappears from search",
+      "feeds": [
+        "new"
+      ]
+    }
+  ],
+  "errors": [
+    "new JSON: HTTP Error 403: Blocked",
+    "hot JSON: HTTP Error 403: Blocked",
+    "top_day JSON: HTTP Error 403: Blocked",
+    "hot RSS: HTTP Error 429: Too Many Requests"
+  ]
+}
