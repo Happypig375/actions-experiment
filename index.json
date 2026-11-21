@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "purpose": "Outage-aware recovery batches for Important Update Watch",
+  "generated_at": "2026-11-21T09:28:47.382913Z",
+  "fresh_for_seconds": 4500,
+  "has_backlog": true,
+  "has_incomplete_coverage": true,
+  "sources": [
+    {
+      "key": "nu",
+      "name": "bryanedds/Nu",
+      "view_path": "views/nu.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-21T07:56:18.078478Z",
+      "recovery_since": "2026-11-21T07:41:18.078478Z",
+      "gap_seconds": 5549,
+      "backlog": false,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 4,
+      "errors": []
+    },
+    {
+      "key": "angourimath",
+      "name": "asc-community/AngouriMath",
+      "view_path": "views/angourimath.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-21T07:56:18.078478Z",
+      "recovery_since": "2026-11-21T07:41:18.078478Z",
+      "gap_seconds": 5549,
+      "backlog": false,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 0,
+      "errors": []
+    },
+    {
+      "key": "reddit",
+      "name": "r/codex",
+      "view_path": "views/reddit.json",
+      "status": "error",
+      "previous_success_at": "2026-11-17T12:58:22.378725Z",
+      "recovery_since": "2026-11-17T12:43:22.378725Z",
+      "gap_seconds": 333025,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": false,
+      "candidate_count": 0,
+      "errors": [
+        "HTTP Error 404: Not Found"
+      ]
+    },
+    {
+      "key": "tibo",
+      "name": "@thsottiaux",
+      "view_path": "views/tibo.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-21T07:56:18.078478Z",
+      "recovery_since": "2026-11-21T07:41:18.078478Z",
+      "gap_seconds": 5549,
+      "backlog": false,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 0,
+      "errors": [],
+      "acquisition_mode": "fxtwitter"
+    },
+    {
+      "key": "codex_resets",
+      "name": "@codex_resets",
+      "view_path": "views/codex_resets.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-21T07:56:18.078478Z",
+      "recovery_since": "2026-11-21T07:41:18.078478Z",
+      "gap_seconds": 5549,
+      "backlog": false,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 0,
+      "errors": []
+    }
+  ]
+}
