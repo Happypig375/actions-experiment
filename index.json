@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "purpose": "Outage-aware recovery batches for Important Update Watch",
+  "generated_at": "2026-11-28T09:53:02.175031Z",
+  "fresh_for_seconds": 4500,
+  "has_backlog": true,
+  "has_incomplete_coverage": true,
+  "sources": [
+    {
+      "key": "nu",
+      "name": "bryanedds/Nu",
+      "view_path": "views/nu.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-28T03:02:46.884730Z",
+      "recovery_since": "2026-11-28T02:47:46.884730Z",
+      "gap_seconds": 24615,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 5,
+      "errors": []
+    },
+    {
+      "key": "angourimath",
+      "name": "asc-community/AngouriMath",
+      "view_path": "views/angourimath.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-28T03:02:46.884730Z",
+      "recovery_since": "2026-11-28T02:47:46.884730Z",
+      "gap_seconds": 24615,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 180,
+      "errors": []
+    },
+    {
+      "key": "reddit",
+      "name": "r/codex",
+      "view_path": "views/reddit.json",
+      "status": "error",
+      "previous_success_at": "2026-11-17T12:58:22.378725Z",
+      "recovery_since": "2026-11-21T09:53:02.175031Z",
+      "gap_seconds": 939279,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": true,
+      "coverage_complete": false,
+      "candidate_count": 0,
+      "errors": [
+        "HTTP Error 404: Not Found"
+      ]
+    },
+    {
+      "key": "tibo",
+      "name": "@thsottiaux",
+      "view_path": "views/tibo.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-28T01:20:32.384380Z",
+      "recovery_since": "2026-11-28T01:05:32.384380Z",
+      "gap_seconds": 30749,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 0,
+      "errors": [],
+      "acquisition_mode": "fxtwitter"
+    },
+    {
+      "key": "codex_resets",
+      "name": "@codex_resets",
+      "view_path": "views/codex_resets.json",
+      "status": "ok",
+      "previous_success_at": "2026-11-28T03:02:46.884730Z",
+      "recovery_since": "2026-11-28T02:47:46.884730Z",
+      "gap_seconds": 24615,
+      "backlog": true,
+      "bootstrap": false,
+      "lookback_capped": false,
+      "coverage_complete": true,
+      "candidate_count": 0,
+      "errors": []
+    }
+  ],
+  "retained_at": "2026-11-28T10:01:40.626073Z",
+  "retain_until": "2026-11-30T10:01:40.626073Z",
+  "retention_policy": "Keep a genuine outage/source-recovery batch available across later ChatGPT watch runs; ordinary no-backlog runs do not overwrite this branch."
+}

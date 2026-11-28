@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-28T09:53:02.175031Z",
+  "source": "r/codex",
+  "recovery_since": "2026-11-21T09:53:02.175031Z",
+  "backlog": true,
+  "coverage_complete": false,
+  "items": [],
+  "errors": [
+    "HTTP Error 404: Not Found"
+  ]
+}
